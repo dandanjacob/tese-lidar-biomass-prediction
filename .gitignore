@@ -1,0 +1,22 @@
+# data — nunca versionar
+data/raw/
+data/processed/
+data/training/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/results/*.png
+notebooks/results/*.html
+
+# uv
+.python-version
+
+# env
+.env

@@ -1,0 +1,21 @@
+# Equações alométricas para estimativa de biomassa
+# Preencher quando o artigo for definido
+#
+# Estrutura esperada:
+# equation_id: identificador único
+# reference: citação do artigo
+# forest_type: tipo de floresta aplicável
+# formula: expressão da equação (variáveis: H = altura, D = diâmetro, CC = canopy cover)
+# parameters: coeficientes da equação
+# biomass_unit: Mg/ha ou kg
+
+equations: []
+
+# Exemplo (comentado até definir):
+# - equation_id: chave2014
+#   reference: "Chave et al. 2014"
+#   forest_type: tropical_moist
+#   formula: "0.0673 * (rho * D^2 * H)^0.976"
+#   parameters:
+#     rho: 0.6  # densidade da madeira (g/cm³), ajustar por espécie
+#   biomass_unit: kg

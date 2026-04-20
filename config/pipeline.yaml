@@ -1,0 +1,19 @@
+lidar:
+  dataset_doi: "10.3334/ORNLDAAC/1515"
+  raw_dir: data/raw/lidar
+  processed_dir: data/processed/lidar_metrics
+
+grid:
+  pixel_size_m: 30        # resolução Landsat
+  crs: "EPSG:32632"       # ajustar para CRS da área de estudo
+
+landsat:
+  raw_dir: data/raw/landsat
+  collection: "landsat_8_c2_l2"
+  bands: [B2, B3, B4, B5, B6, B7]  # blue, green, red, nir, swir1, swir2
+
+training:
+  output_dir: data/training
+  test_split: 0.2
+  val_split: 0.1
+  random_seed: 42
