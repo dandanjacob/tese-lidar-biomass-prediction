@@ -16,6 +16,7 @@ import laspy
 import numpy as np
 import pandas as pd
 from shapely import contains_xy, prepare
+from shapely.geometry import Polygon
 from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -73,8 +74,13 @@ def write_clipped_laz(point_chunks: list, reference_header, out_path: Path):
             point_chunks[0].point_format,
         )
 
+    # laspy only writes LAS >= 1.2; upgrade silently if source is older
+    version = reference_header.version
+    if (version.major, version.minor) < (1, 2):
+        version = "1.2"
+
     new_las = laspy.LasData(header=laspy.LasHeader(
-        version=reference_header.version,
+        version=version,
         point_format=reference_header.point_format,
     ))
     new_las.header.scales = reference_header.scales
@@ -110,7 +116,11 @@ def main():
         utmzone = lidar_meta.loc[laz_file, "utmzone"]
         proj_str = utm_proj_str(utmzone)
 
-        las = laspy.read(laz_path)
+        try:
+            las = laspy.read(laz_path)
+        except Exception as e:
+            log.warning(f"Skipping corrupt tile {laz_file}: {e}")
+            continue
 
         for site, plot_id in plot_keys:
             key = (site, plot_id)
