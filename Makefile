@@ -1,4 +1,4 @@
-.PHONY: help install compile kml intersections clip notebook
+.PHONY: help install compile kml intersections clip pipeline notebook
 
 # Mostra este menu de ajuda
 help:
@@ -26,6 +26,8 @@ intersections: ## [Etapa 2] Cruza plots de inventário × tiles LiDAR → data/p
 
 clip: ## [Etapa 3] Recorta nuvens de pontos por parcela → data/processed/clipped_lidar/
 	python src/clip_lidar_to_plots.py
+
+pipeline: kml intersections clip ## Roda as 3 etapas em sequência (requer dados brutos em data/raw/)
 
 # ── Exploração ────────────────────────────────────────────────────────────────
 
