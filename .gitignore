@@ -1,22 +1,38 @@
-# data — nunca versionar
+# Data (não versionar)
 data/raw/
 data/processed/
 data/training/
 
-# python
+# Credenciais
+.env
+
+# Python
 __pycache__/
 *.py[cod]
-.venv/
 *.egg-info/
+.eggs/
 dist/
+build/
+.venv/
+venv/
+env/
 
-# jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 notebooks/results/*.png
 notebooks/results/*.html
+
+# Mypy
+.mypy_cache/
 
 # uv
 .python-version
 
-# env
-.env
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

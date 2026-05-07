@@ -1,0 +1,151 @@
+"""
+Clips LiDAR tiles to forest inventory plot boundaries.
+
+For each plot in the intersection table, reads the corresponding LAZ tiles,
+filters points within the plot polygon, and writes a single clipped LAZ file.
+
+Output: data/processed/clipped_lidar/{inventory_site}/{plot_id}.laz
+"""
+
+import logging
+from collections import defaultdict
+from pathlib import Path
+
+import geopandas as gpd
+import laspy
+import numpy as np
+import pandas as pd
+from shapely import contains_xy, prepare
+from tqdm import tqdm
+
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+log = logging.getLogger(__name__)
+
+ROOT = Path(__file__).parent.parent
+LIDAR_DIR = ROOT / "data/raw/lidar/LiDAR_Forest_Inventory_Brazil_1644_1-20260505_011031"
+LIDAR_CSV = LIDAR_DIR / "cms_brazil_lidar_tile_inventory.csv"
+KML_DIR = ROOT / "data/processed/kml"
+INTERSECTIONS_CSV = ROOT / "data/processed/intersections/lidar_inventory_intersections.csv"
+OUTPUT_DIR = ROOT / "data/processed/clipped_lidar"
+
+
+def load_inventory_plots() -> dict:
+    """Returns {(site, plot_id): shapely Polygon in WGS84}"""
+    plots = {}
+    for kml in KML_DIR.glob("*.kml"):
+        if "lidar" in kml.name:
+            continue
+        try:
+            gdf = gpd.read_file(kml, driver="KML").set_crs("EPSG:4326")
+            for _, row in gdf.iterrows():
+                plots[(kml.stem, str(row["Name"]))] = row.geometry
+        except Exception as e:
+            log.warning(f"Could not read {kml.name}: {e}")
+    return plots
+
+
+def utm_proj_str(utmzone: str) -> str:
+    zone_num = int(utmzone[:-1])
+    south = "+south" if utmzone[-1].upper() == "S" else ""
+    return f"+proj=utm +zone={zone_num} {south} +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+
+
+def polygon_to_utm(geometry, proj_str: str):
+    gs = gpd.GeoSeries([geometry], crs="EPSG:4326")
+    return gs.to_crs(proj_str).iloc[0]
+
+
+def filter_points(las: laspy.LasData, polygon_utm: Polygon) -> np.ndarray:
+    """Returns boolean mask of points within polygon."""
+    prepare(polygon_utm)
+    return contains_xy(polygon_utm, las.x, las.y)
+
+
+def write_clipped_laz(point_chunks: list, reference_header, out_path: Path):
+    """Merges point chunks (same format/scale/offset) and writes LAZ file."""
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if len(point_chunks) == 1:
+        merged = point_chunks[0]
+    else:
+        merged = laspy.PackedPointRecord(
+            np.concatenate([chunk.array for chunk in point_chunks]),
+            point_chunks[0].point_format,
+        )
+
+    new_las = laspy.LasData(header=laspy.LasHeader(
+        version=reference_header.version,
+        point_format=reference_header.point_format,
+    ))
+    new_las.header.scales = reference_header.scales
+    new_las.header.offsets = reference_header.offsets
+    new_las.points = merged
+    new_las.write(out_path)
+
+
+def main():
+    intersections = pd.read_csv(INTERSECTIONS_CSV)
+    lidar_meta = pd.read_csv(LIDAR_CSV).set_index("filename")
+
+    log.info("Loading inventory plot polygons...")
+    plots = load_inventory_plots()
+    log.info(f"  {len(plots)} plots loaded")
+
+    # Build: {laz_file: [(site, plot_id), ...]}
+    by_laz: dict[str, list] = defaultdict(list)
+    for _, row in intersections.iterrows():
+        by_laz[row.laz_file].append((row.inventory_file, str(row.plot_id)))
+
+    # Accumulate: {(site, plot_id): (list of point chunks, reference header)}
+    plot_chunks: dict[tuple, list] = defaultdict(list)
+    plot_header: dict[tuple, laspy.LasHeader] = {}
+
+    log.info(f"Reading {len(by_laz)} LAZ tiles...")
+    for laz_file, plot_keys in tqdm(by_laz.items(), unit="tile"):
+        laz_path = LIDAR_DIR / laz_file
+        if not laz_path.exists():
+            log.warning(f"Missing: {laz_file}")
+            continue
+
+        utmzone = lidar_meta.loc[laz_file, "utmzone"]
+        proj_str = utm_proj_str(utmzone)
+
+        las = laspy.read(laz_path)
+
+        for site, plot_id in plot_keys:
+            key = (site, plot_id)
+            polygon_wgs84 = plots.get(key)
+            if polygon_wgs84 is None:
+                continue
+
+            polygon_utm = polygon_to_utm(polygon_wgs84, proj_str)
+            mask = filter_points(las, polygon_utm)
+            if mask.sum() == 0:
+                continue
+
+            plot_chunks[key].append(las.points[mask])
+            if key not in plot_header:
+                plot_header[key] = las.header
+
+    log.info(f"\nWriting {len(plot_chunks)} clipped LAZ files...")
+    written, empty = 0, 0
+    for key, chunks in tqdm(plot_chunks.items(), unit="plot"):
+        site, plot_id = key
+        out_path = OUTPUT_DIR / site / f"plot_{plot_id}.laz"
+        write_clipped_laz(chunks, plot_header[key], out_path)
+        written += 1
+
+    no_points = set(
+        (row.inventory_file, str(row.plot_id))
+        for _, row in intersections.iterrows()
+    ) - set(plot_chunks.keys())
+    empty = len(no_points)
+
+    log.info(f"\nDone.")
+    log.info(f"  Written: {written} LAZ files")
+    log.info(f"  Empty (no points after clip): {empty} plots")
+    log.info(f"  Output: {OUTPUT_DIR}")
+
+
+if __name__ == "__main__":
+    main()

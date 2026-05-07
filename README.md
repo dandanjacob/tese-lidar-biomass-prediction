@@ -1,52 +1,68 @@
-# tese-lidar-biomass-prediction
+# LiDAR Biomass Prediction
 
-Repositório da dissertação de mestrado em matemática aplicada. O objetivo é estimar biomassa florestal a partir de imagens Landsat, usando dados LiDAR da NASA como substituto de inventário de campo.
+Repositório complementar à dissertação de mestrado em matemática aplicada (FGV). Objetivo: estimar a biomassa da floresta amazônica a partir de dados LiDAR coletados pela NASA, cruzados com inventários florestais de campo.
 
 ## Pipeline
 
 ```
-LiDAR bruto (ORNL DAAC 1515)
-    └── grade 30m sobre cada footprint
-        └── métricas LiDAR por célula (altura, cobertura de dossel, densidade)
-            └── equação alométrica → biomassa (Mg/ha) por célula
-                └── par (bandas Landsat, biomassa) → dataset de treino
-                    └── modelo de deep learning
+Dados brutos (baixados manualmente)
+        │
+        ├── Inventário florestal (.csv, .kmz)   →  data/raw/inventory/
+        └── Nuvem de pontos LiDAR (.laz)        →  data/raw/lidar/
+                │
+                ▼
+        Extração de KMLs para visualização      →  data/processed/kml/
+        (src/extract_kml.sh)
+                │
+                ▼
+        Cruzamento espacial LiDAR × inventário  →  data/processed/intersections/
+        (src/find_intersections.py)
+                │
+                ▼
+        Recorte do LiDAR por parcela            →  data/processed/clipped_lidar/
+        (src/clip_lidar_to_plots.py)
+                │
+                ▼
+        Extração de métricas LiDAR              →  (a implementar)
+        (altura do dossel, densidade, etc.)
+                │
+                ▼
+        Modelagem e predição de biomassa        →  src/models/, notebooks/
 ```
 
-## Estrutura
+## Estrutura do repositório
 
 ```
 data/
-  raw/lidar/              # arquivos .las/.laz do ORNL DAAC 1515 (não versionado)
-  raw/landsat/            # imagens Landsat brutas (não versionado)
+  raw/
+    inventory/      ← inventário de campo baixado do ORNL DAAC
+    lidar/          ← tiles LiDAR (.laz) baixados do ORNL DAAC
   processed/
-    lidar_metrics/        # métricas por célula 30m extraídas da nuvem de pontos
-    biomass_grid/         # grade de biomassa estimada via equação alométrica
-  training/               # pares (features Landsat, biomassa) prontos para treino
-
-src/
-  ingestion/              # download ORNL DAAC e Landsat
-  lidar/                  # processamento da nuvem de pontos e extração de métricas
-  allometry/              # equações alométricas e aplicação à grade
-  model/                  # arquitetura e treino do modelo
-
-config/
-  allometry.yaml          # equações e parâmetros alométricos (a definir)
-  pipeline.yaml           # resolução da grade, bandas Landsat, splits de treino
-
-notebooks/
-  results/                # visualizações e análises exploratórias
+    kml/            ← KMLs extraídos dos KMZs (para visualização)
+    intersections/  ← tabela de cruzamento spatial LiDAR × parcelas
+    clipped_lidar/  ← nuvens de pontos recortadas por parcela
+notebooks/          ← análise exploratória e experimentos
+src/                ← scripts de processamento
 ```
 
-## Dependências
+## Documentação detalhada
 
-Gerenciado com [uv](https://github.com/astral-sh/uv). Para instalar o ambiente:
+| Pasta | README |
+|---|---|
+| `data/raw/inventory/` | [Inventário florestal bruto](data/raw/inventory/README.md) |
+| `data/raw/lidar/` | [Dados LiDAR brutos](data/raw/lidar/README.md) |
+| `data/processed/kml/` | [KMLs extraídos](data/processed/kml/README.md) |
+| `data/processed/intersections/` | [Cruzamento espacial](data/processed/intersections/README.md) |
+| `data/processed/clipped_lidar/` | [LiDAR recortado por parcela](data/processed/clipped_lidar/README.md) |
+
+## Ambiente
 
 ```bash
-uv sync
+# Instalar dependências
+uv pip install -r requirements.txt
+
+# Ou recompilar o lock file
+uv pip compile requirements.in -o requirements.txt
 ```
 
-## Dados
-
-- **LiDAR**: [ORNL DAAC 1515](https://doi.org/10.3334/ORNLDAAC/1515) — requer conta NASA Earthdata
-- **Landsat**: coleção Landsat 8 Collection 2 Level-2 via USGS EarthExplorer — requer conta USGS
+Principais bibliotecas: `geopandas`, `laspy`, `shapely`, `pyproj`, `pandas`, `numpy`.
