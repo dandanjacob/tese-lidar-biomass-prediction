@@ -1,21 +1,33 @@
-.PHONY: compile install check-intersection notebook
+.PHONY: help install compile kml intersections clip notebook
 
-## Resolve o requirements.in e grava os hashes/versões fixadas em requirements.txt
-compile:
-	uv pip compile requirements.in -o requirements.txt
+# Mostra este menu de ajuda
+help:
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
+		| awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
-## Instala as dependências fixadas no requirements.txt
-install:
+# ── Ambiente ──────────────────────────────────────────────────────────────────
+
+install: ## Instala dependências fixadas em requirements.txt
 	uv pip sync requirements.txt
 
-## Mostra quais sites têm tanto LiDAR quanto inventário de campo (sem instalar nada extra)
-check-intersection:
-	python -m src.data.check_intersection
+compile: ## Recompila requirements.txt a partir de requirements.in (atualiza versões)
+	uv pip compile requirements.in -o requirements.txt
 
-## Igual ao anterior, mas salva o relatório em data/raw/metadata/intersection_report.txt
-check-intersection-save:
-	python -m src.data.check_intersection --save
+# ── Pipeline de dados ─────────────────────────────────────────────────────────
+# Pré-requisito: baixar os dados brutos manualmente no ORNL DAAC (ver README)
+#   LiDAR:      data/raw/lidar/
+#   Inventário: data/raw/inventory/
 
-## Abre o JupyterLab no notebook de EDA
-notebook:
-	jupyter lab notebooks/01_eda.ipynb
+kml: ## [Etapa 1] Extrai KMLs dos KMZs do inventário → data/processed/kml/
+	bash src/extract_kml.sh
+
+intersections: ## [Etapa 2] Cruza plots de inventário × tiles LiDAR → data/processed/intersections/
+	python src/find_intersections.py
+
+clip: ## [Etapa 3] Recorta nuvens de pontos por parcela → data/processed/clipped_lidar/
+	python src/clip_lidar_to_plots.py
+
+# ── Exploração ────────────────────────────────────────────────────────────────
+
+notebook: ## Abre o JupyterLab
+	jupyter lab notebooks/

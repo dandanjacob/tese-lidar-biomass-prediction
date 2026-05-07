@@ -1,7 +1,10 @@
 # Data (não versionar)
 data/raw/
-data/processed/
 data/training/
+
+# Subdiretórios grandes de data/processed (não versionar)
+data/processed/kml/
+data/processed/clipped_lidar/
 
 # Credenciais
 .env
