@@ -3,7 +3,6 @@ Finds which LiDAR tiles intersect each forest inventory plot.
 Outputs: data/processed/intersections/lidar_inventory_intersections.csv
 """
 
-import glob
 from pathlib import Path
 
 import geopandas as gpd
@@ -11,7 +10,14 @@ import pandas as pd
 from shapely.geometry import box
 
 ROOT = Path(__file__).parent.parent
-LIDAR_CSV = ROOT / "data/raw/lidar/LiDAR_Forest_Inventory_Brazil_1644_1-20260505_011031/cms_brazil_lidar_tile_inventory.csv"
+
+def _find_lidar_dir() -> Path:
+    candidates = sorted((ROOT / "data/raw/lidar").glob("LiDAR_Forest_Inventory_Brazil_*"))
+    if not candidates:
+        raise FileNotFoundError("Diretório LiDAR não encontrado em data/raw/lidar/. Baixe os dados do ORNL DAAC.")
+    return candidates[0]
+
+LIDAR_CSV = _find_lidar_dir() / "cms_brazil_lidar_tile_inventory.csv"
 KML_DIR = ROOT / "data/processed/kml"
 OUTPUT = ROOT / "data/processed/intersections/lidar_inventory_intersections.csv"
 

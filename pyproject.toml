@@ -1,7 +1,7 @@
 [project]
 name = "tese-lidar-biomass-prediction"
 version = "0.1.0"
-description = "Add your description here"
+description = "Estimativa de biomassa da floresta amazônica a partir de dados LiDAR (NASA) cruzados com inventários florestais de campo"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

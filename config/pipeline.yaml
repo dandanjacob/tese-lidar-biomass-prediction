@@ -1,19 +1,17 @@
+# Configuração do pipeline de dados
+# Estado atual: etapas 1-3 implementadas
+
 lidar:
   dataset_doi: "10.3334/ORNLDAAC/1515"
-  raw_dir: data/raw/lidar
-  processed_dir: data/processed/lidar_metrics
+  raw_dir: data/raw/lidar               # tiles .laz baixados do ORNL DAAC
+  tile_inventory_csv: cms_brazil_lidar_tile_inventory.csv
 
-grid:
-  pixel_size_m: 30        # resolução Landsat
-  crs: "EPSG:32632"       # ajustar para CRS da área de estudo
+inventory:
+  raw_dir: data/raw/inventory            # arquivos .csv e .kmz baixados do ORNL DAAC
 
-landsat:
-  raw_dir: data/raw/landsat
-  collection: "landsat_8_c2_l2"
-  bands: [B2, B3, B4, B5, B6, B7]  # blue, green, red, nir, swir1, swir2
+intersections:
+  kml_dir: data/processed/kml            # KMLs extraídos dos KMZs (etapa 1)
+  output_dir: data/processed/intersections  # cruzamento espacial LiDAR × parcelas (etapa 2)
 
-training:
-  output_dir: data/training
-  test_split: 0.2
-  val_split: 0.1
-  random_seed: 42
+clipped_lidar:
+  output_dir: data/processed/clipped_lidar  # nuvens de pontos recortadas por parcela (etapa 3)

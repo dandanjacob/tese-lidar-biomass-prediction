@@ -21,21 +21,36 @@ src/find_intersections.py
 2. Lê os polígonos de cada parcela dos KMLs de inventário
 3. Spatial join (`intersects`) via geopandas
 
-## Arquivo gerado
+**Nota:** a interseção é puramente geométrica — não filtra por ano de coleta. Uma parcela pode estar pareada com tiles de campanhas LiDAR de anos diferentes. Ver `intersections_temporal.csv` para análise com gap temporal.
 
-`lidar_inventory_intersections.csv` — colunas:
+## Arquivos gerados
+
+### `lidar_inventory_intersections.csv`
+
+Um registro por par (parcela × tile). Colunas:
 
 | Coluna | Descrição |
 |---|---|
-| `inventory_file` | Nome do KML de inventário (= site) |
+| `inventory_file` | Nome do KML de inventário (identifica site + período) |
 | `plot_id` | ID da parcela dentro do site |
 | `laz_file` | Nome do arquivo `.laz` que cobre essa parcela |
+
+### `intersections_temporal.csv`
+
+Mesmos pares com colunas adicionais de ano e gap temporal. Um registro por par (parcela × tile). Permite selecionar o LiDAR de ano mais próximo ao inventário.
+
+### `map_intersections.png` / `map_intersections.html`
+
+Visualizações das interseções sobre mapa do Brasil. O HTML é interativo (zoom, tooltip por parcela).
 
 ## Estatísticas
 
 | Métrica | Valor |
 |---|---|
-| Total de pares (plot × tile) | 1.362 |
-| Parcelas com cobertura LiDAR | 108 de 659 |
-| Sites cobertos | 27 de 31 |
+| Total de pares (parcela × tile) | 1.362 |
+| Parcelas únicas com cobertura LiDAR | **294** (combinação site + plot_id) |
+| Parcelas de inventário sem cobertura | 365 de 659 |
+| Sites de inventário cobertos | 27 de 31 |
 | Tiles LAZ utilizados | 252 de 3.152 |
+
+> **Como contar parcelas únicas:** o `plot_id` (ex. "1", "2") é único apenas dentro de cada site. A contagem correta usa o par `(inventory_file, plot_id)`.

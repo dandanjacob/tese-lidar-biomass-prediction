@@ -10,10 +10,10 @@ e `data/processed/clipped_lidar/`.
 | Métrica | Valor |
 |---|---|
 | Plots de inventário (total) | 659 |
-| Plots com interseção LiDAR | 108 |
+| Plots com interseção LiDAR | **294** pares únicos (site + plot_id) |
 | Plots com pontos após clip | 274 |
 | Plots vazios após clip (falsos positivos) | 20 |
-| Sites cobertos | 22 |
+| Sites únicos cobertos (por prefixo) | 22 · por inventário: 27 |
 | Tiles LiDAR utilizados | 252 de 3.152 |
 | **Total de pontos LiDAR clippados** | **49.863.345** |
 | Tamanho total (clipped_lidar/) | 218 MB |

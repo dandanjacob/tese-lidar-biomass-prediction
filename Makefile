@@ -29,6 +29,14 @@ clip: ## [Etapa 3] Recorta nuvens de pontos por parcela → data/processed/clipp
 
 pipeline: kml intersections clip ## Roda as 3 etapas em sequência (requer dados brutos em data/raw/)
 
+# ── Visualização ──────────────────────────────────────────────────────────────
+
+map: ## Gera mapa estático das interseções → data/processed/intersections/map_intersections.png
+	python src/plot_intersections_map.py
+
+map-interactive: ## Gera mapa interativo (HTML) das interseções → data/processed/intersections/map_intersections.html
+	python src/plot_intersections_interactive.py
+
 # ── Exploração ────────────────────────────────────────────────────────────────
 
 notebook: ## Abre o JupyterLab

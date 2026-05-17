@@ -23,7 +23,14 @@ logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
 
 ROOT = Path(__file__).parent.parent
-LIDAR_DIR = ROOT / "data/raw/lidar/LiDAR_Forest_Inventory_Brazil_1644_1-20260505_011031"
+
+def _find_lidar_dir() -> Path:
+    candidates = sorted((ROOT / "data/raw/lidar").glob("LiDAR_Forest_Inventory_Brazil_*"))
+    if not candidates:
+        raise FileNotFoundError("Diretório LiDAR não encontrado em data/raw/lidar/. Baixe os dados do ORNL DAAC.")
+    return candidates[0]
+
+LIDAR_DIR = _find_lidar_dir()
 LIDAR_CSV = LIDAR_DIR / "cms_brazil_lidar_tile_inventory.csv"
 KML_DIR = ROOT / "data/processed/kml"
 INTERSECTIONS_CSV = ROOT / "data/processed/intersections/lidar_inventory_intersections.csv"
