@@ -39,5 +39,8 @@ map-interactive: ## Gera mapa interativo (HTML) das interseções → data/proce
 
 # ── Exploração ────────────────────────────────────────────────────────────────
 
+app: ## Abre o dashboard web (Streamlit)
+	cd app && ../.venv/bin/streamlit run main.py
+
 notebook: ## Abre o JupyterLab
 	jupyter lab notebooks/
