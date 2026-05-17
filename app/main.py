@@ -231,15 +231,31 @@ elif page == "🗺️  Mapa de Cobertura":
             has = (row["site"], row["plot_id"]) in intersected_keys
             if not has and not show_all:
                 continue
-            grp   = plot_group_yes if has else plot_group_no
-            color = "red" if has else "gray"
-            c = geom.centroid
+            grp        = plot_group_yes if has else plot_group_no
+            pin_color  = "red" if has else "gray"
+            poly_color = "#e84545" if has else "#aaaaaa"
             site_short = row["site"].replace("_inventory_plots", "").replace("_inventory", "")
+            tooltip    = f"{site_short} / plot {row['plot_id']}"
+            c = geom.centroid
+
+            # Pin — visível em qualquer zoom
             folium.Marker(
                 location=[c.y, c.x],
-                icon=folium.Icon(color=color, icon="map-marker", prefix="fa"),
-                tooltip=f"{site_short} / plot {row['plot_id']}",
+                icon=folium.Icon(color=pin_color, icon="map-marker", prefix="fa"),
+                tooltip=tooltip,
             ).add_to(grp)
+
+            # Polígono — visível ao aproximar
+            try:
+                geoms = geom.geoms if geom.geom_type == "MultiPolygon" else [geom]
+                for part in geoms:
+                    coords = [[c2[1], c2[0]] for c2 in part.exterior.coords]
+                    folium.Polygon(
+                        locations=coords, color=poly_color, fill=True,
+                        fill_opacity=0.5, weight=1.5, tooltip=tooltip,
+                    ).add_to(grp)
+            except Exception:
+                pass
 
         plot_group_yes.add_to(m)
         if show_all:
