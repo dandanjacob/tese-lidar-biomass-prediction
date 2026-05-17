@@ -38,12 +38,19 @@ data/
     inventory/      ← inventário de campo baixado do ORNL DAAC
     lidar/          ← tiles LiDAR (.laz) baixados do ORNL DAAC
   processed/
-    kml/            ← KMLs extraídos dos KMZs (para visualização)
-    intersections/  ← tabela de cruzamento spatial LiDAR × parcelas
-    clipped_lidar/  ← nuvens de pontos recortadas por parcela
+    01_kml/         ← KMLs extraídos dos KMZs (para visualização)
+    02_intersections/ ← tabela de cruzamento espacial LiDAR × parcelas
+    03_clipped_lidar/ ← nuvens de pontos recortadas por parcela
 notebooks/          ← análise exploratória e experimentos
 src/                ← scripts de processamento
 ```
+
+## Ferramentas externas
+
+| Ferramenta | Uso no projeto | Download |
+|---|---|---|
+| **CloudCompare** | Inspecionar nuvens de pontos `.laz` em 3D — visualizar altura, densidade, verificar se o clip de uma parcela ficou correto | [cloudcompare.org](https://cloudcompare.org/release/index.html) |
+| **QGIS** | Visualizar geometrias em contexto geográfico 2D — sobrepor polígonos do inventário com tiles LiDAR no mapa, validar interseções | [qgis.org](https://qgis.org/download) |
 
 ## Documentação detalhada
 

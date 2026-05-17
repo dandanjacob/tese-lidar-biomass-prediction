@@ -64,9 +64,21 @@ def polygon_to_utm(geometry, proj_str: str):
 
 
 def filter_points(las: laspy.LasData, polygon_utm: Polygon) -> np.ndarray:
-    """Returns boolean mask of points within polygon."""
+    """Returns boolean mask of points within polygon.
+
+    Two-pass filter: bounding box eliminates most points cheaply before
+    the exact polygon test runs only on the surviving candidates.
+    """
     prepare(polygon_utm)
-    return contains_xy(polygon_utm, las.x, las.y)
+    minx, miny, maxx, maxy = polygon_utm.bounds
+    bbox_mask = (
+        (las.x >= minx) & (las.x <= maxx) &
+        (las.y >= miny) & (las.y <= maxy)
+    )
+    result = np.zeros(len(las.x), dtype=bool)
+    if bbox_mask.any():
+        result[bbox_mask] = contains_xy(polygon_utm, las.x[bbox_mask], las.y[bbox_mask])
+    return result
 
 
 def write_clipped_laz(point_chunks: list, reference_header, out_path: Path):
