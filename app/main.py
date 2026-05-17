@@ -206,32 +206,40 @@ elif page == "🗺️  Mapa de Cobertura":
         plot_group_yes = folium.FeatureGroup(name="Parcelas com LiDAR", show=True)
         plot_group_no  = folium.FeatureGroup(name="Parcelas sem LiDAR",  show=show_all)
 
+        # Carrega todos os KMLs e dissolve por (site, plot_id) para ter um centroide por parcela
+        frames = []
         for kml in kml_dir.glob("*.kml"):
             if "lidar" in kml.name:
                 continue
             try:
                 gdf = gpd.read_file(kml, driver="KML").set_crs("EPSG:4326")
-                site = kml.stem
-                for _, row in gdf.iterrows():
-                    pid = str(row["Name"])
-                    has = (site, pid) in intersected_keys
-                    if not has and not show_all:
-                        continue
-                    geom = row.geometry
-                    if geom is None or geom.is_empty:
-                        continue
-                    coords = [[c[1], c[0]] for c in geom.exterior.coords] if hasattr(geom, "exterior") else []
-                    if not coords:
-                        continue
-                    grp   = plot_group_yes if has else plot_group_no
-                    color = "#e84545" if has else "#aaaaaa"
-                    folium.Polygon(
-                        locations=coords, color=color, fill=True,
-                        fill_opacity=0.6, weight=1.5,
-                        tooltip=f"{site} / plot {pid}",
-                    ).add_to(grp)
+                gdf["site"]    = kml.stem
+                gdf["plot_id"] = gdf["Name"].astype(str)
+                frames.append(gdf[["site", "plot_id", "geometry"]])
             except Exception:
                 pass
+
+        all_plots = (
+            gpd.GeoDataFrame(pd.concat(frames, ignore_index=True), crs="EPSG:4326")
+            .dissolve(by=["site", "plot_id"]).reset_index()
+        )
+
+        for _, row in all_plots.iterrows():
+            geom = row.geometry
+            if geom is None or geom.is_empty:
+                continue
+            has = (row["site"], row["plot_id"]) in intersected_keys
+            if not has and not show_all:
+                continue
+            grp   = plot_group_yes if has else plot_group_no
+            color = "red" if has else "gray"
+            c = geom.centroid
+            site_short = row["site"].replace("_inventory_plots", "").replace("_inventory", "")
+            folium.Marker(
+                location=[c.y, c.x],
+                icon=folium.Icon(color=color, icon="map-marker", prefix="fa"),
+                tooltip=f"{site_short} / plot {row['plot_id']}",
+            ).add_to(grp)
 
         plot_group_yes.add_to(m)
         if show_all:
