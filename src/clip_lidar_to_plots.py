@@ -4,7 +4,7 @@ Clips LiDAR tiles to forest inventory plot boundaries.
 For each plot in the intersection table, reads the corresponding LAZ tiles,
 filters points within the plot polygon, and writes a single clipped LAZ file.
 
-Output: data/processed/clipped_lidar/{inventory_site}/{plot_id}.laz
+Output: data/processed/03_clipped_lidar/{inventory_site}/{plot_id}.laz
 """
 
 import logging
@@ -32,9 +32,9 @@ def _find_lidar_dir() -> Path:
 
 LIDAR_DIR = _find_lidar_dir()
 LIDAR_CSV = LIDAR_DIR / "cms_brazil_lidar_tile_inventory.csv"
-KML_DIR = ROOT / "data/processed/kml"
-INTERSECTIONS_CSV = ROOT / "data/processed/intersections/lidar_inventory_intersections.csv"
-OUTPUT_DIR = ROOT / "data/processed/clipped_lidar"
+KML_DIR = ROOT / "data/processed/01_kml"
+INTERSECTIONS_CSV = ROOT / "data/processed/02_intersections/lidar_inventory_intersections.csv"
+OUTPUT_DIR = ROOT / "data/processed/03_clipped_lidar"
 
 
 def load_inventory_plots() -> dict:

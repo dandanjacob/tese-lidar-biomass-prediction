@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.10051584266747,
+              -12.25191355362244,
+              0
+            ],
+            [
+              -55.10005777947761,
+              -12.25192068667971,
+              0
+            ],
+            [
+              -55.10005332379583,
+              -12.25146503461917,
+              0
+            ],
+            [
+              -55.10050964137602,
+              -12.25145707589565,
+              0
+            ],
+            [
+              -55.10051584266747,
+              -12.25191355362244,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "1",
+        "styleUrl": "#PolyStyle00",
+        "styleHash": "-1311f609",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\n\r\n<head>\r\n\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\n\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\n\r\n</head>\r\n\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\n\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\n\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\n\r\n<td>1</td>\r\n\r\n</tr>\r\n\r\n<tr>\r\n\r\n<td>\r\n\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\n\r\n<tr>\r\n\r\n<td>FID</td>\r\n\r\n<td>0</td>\r\n\r\n</tr>\r\n\r\n<tr bgcolor=\"#D4E4F3\">\r\n\r\n<td>fid_1</td>\r\n\r\n<td>1</td>\r\n\r\n</tr>\r\n\r\n<tr>\r\n\r\n<td>PlotID</td>\r\n\r\n<td>P01</td>\r\n\r\n</tr>\r\n\r\n<tr bgcolor=\"#D4E4F3\">\r\n\r\n<td>plot</td>\r\n\r\n<td>plot</td>\r\n\r\n</tr>\r\n\r\n</table>\r\n\r\n</td>\r\n\r\n</tr>\r\n\r\n</table>\r\n\r\n</body>\r\n\r\n</html>\r\n\r\n",
+        "stroke": "#6e6e6e",
+        "stroke-opacity": 1,
+        "stroke-width": 0.7,
+        "fill": "#96295c",
+        "fill-opacity": 1
+      },
+      "id": "ID_00000"
+    }
+  ]
+}

@@ -10,8 +10,8 @@ inventory:
   raw_dir: data/raw/inventory            # arquivos .csv e .kmz baixados do ORNL DAAC
 
 intersections:
-  kml_dir: data/processed/kml            # KMLs extraídos dos KMZs (etapa 1)
-  output_dir: data/processed/intersections  # cruzamento espacial LiDAR × parcelas (etapa 2)
+  kml_dir: data/processed/01_kml            # KMLs extraídos dos KMZs (etapa 1)
+  output_dir: data/processed/02_intersections  # cruzamento espacial LiDAR × parcelas (etapa 2)
 
 clipped_lidar:
-  output_dir: data/processed/clipped_lidar  # nuvens de pontos recortadas por parcela (etapa 3)
+  output_dir: data/processed/03_clipped_lidar  # nuvens de pontos recortadas por parcela (etapa 3)

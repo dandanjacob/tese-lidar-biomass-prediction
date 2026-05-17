@@ -11,15 +11,15 @@ Dados brutos (baixados manualmente)
         └── Nuvem de pontos LiDAR (.laz)        →  data/raw/lidar/
                 │
                 ▼
-        Extração de KMLs para visualização      →  data/processed/kml/
+        Extração de KMLs para visualização      →  data/processed/01_kml/
         (src/extract_kml.sh)
                 │
                 ▼
-        Cruzamento espacial LiDAR × inventário  →  data/processed/intersections/
+        Cruzamento espacial LiDAR × inventário  →  data/processed/02_intersections/
         (src/find_intersections.py)
                 │
                 ▼
-        Recorte do LiDAR por parcela            →  data/processed/clipped_lidar/
+        Recorte do LiDAR por parcela            →  data/processed/03_clipped_lidar/
         (src/clip_lidar_to_plots.py)
                 │
                 ▼
@@ -51,9 +51,9 @@ src/                ← scripts de processamento
 |---|---|
 | `data/raw/inventory/` | [Inventário florestal bruto](data/raw/inventory/README.md) |
 | `data/raw/lidar/` | [Dados LiDAR brutos](data/raw/lidar/README.md) |
-| `data/processed/kml/` | [KMLs extraídos](data/processed/kml/README.md) |
-| `data/processed/intersections/` | [Cruzamento espacial](data/processed/intersections/README.md) |
-| `data/processed/clipped_lidar/` | [LiDAR recortado por parcela](data/processed/clipped_lidar/README.md) |
+| `data/processed/01_kml/` | [KMLs extraídos](data/processed/01_kml/README.md) |
+| `data/processed/02_intersections/` | [Cruzamento espacial](data/processed/02_intersections/README.md) |
+| `data/processed/03_clipped_lidar/` | [LiDAR recortado por parcela](data/processed/03_clipped_lidar/README.md) |
 
 ## Ambiente
 

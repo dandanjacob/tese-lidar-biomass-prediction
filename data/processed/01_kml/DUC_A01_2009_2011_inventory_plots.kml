@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="DUC_A01_2009&#38;2011_inventory_plots">
+  <name>DUC_A01_2009&#38;2011_inventory_plots</name>
+  <snippet></snippet>
+  <description><![CDATA[DUC_A01_2009&2011_inventory_plots]]></description>
+  <Folder id="FeatureLayer0">
+    <name>DUC_A01_2009&#38;2011_inventory_plots</name>
+    <snippet></snippet>
+    <description><![CDATA[DUC_A01_2009&2011_inventory_plots]]></description>
+    <Placemark id="ID_00000">
+      <name>T03</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>T03</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TransectID</td>
+<td>T03</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -59.95620479046831,-2.95553413132824,0 -59.95634552476388,-2.954698518862498,0 -59.95648920913165,-2.9537696708615,0 -59.95659270566586,-2.952911000885582,0 -59.95659327181062,-2.952907040312344,0 -59.95674257722779,-2.95200490492974,0 -59.95686970167411,-2.95118429535129,0 -59.95704729205368,-2.95121210390922,0 -59.95692002189109,-2.952033639290168,0 -59.95677089269838,-2.952934725710563,0 -59.95666745361999,-2.953792920286713,0 -59.95666703876171,-2.953795935878722,0 -59.95652293213709,-2.954727488086977,0 -59.95638200024493,-2.955564299183387,0 -59.95620479046831,-2.95553413132824,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>T02</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>T02</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TransectID</td>
+<td>T02</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -59.92209287484253,-2.941956034719392,0 -59.92222917954064,-2.941181378018776,0 -59.92236302010267,-2.940326302948491,0 -59.92236330090974,-2.940324615901081,0 -59.92251757295989,-2.939463097230773,0 -59.92264750269094,-2.938576177479132,0 -59.9226478682543,-2.93857388654455,0 -59.92264903853265,-2.938568200661189,0 -59.92284492546111,-2.937749925586975,0 -59.9230196701925,-2.937792210660888,0 -59.92282472991081,-2.938606531985166,0 -59.92269518088499,-2.939490854097992,0 -59.92269476669926,-2.939493421491175,0 -59.92254041634445,-2.940355378340667,0 -59.9224065971606,-2.941210317839123,0 -59.9224063403153,-2.941211869906367,0 -59.9222698623584,-2.941987513416431,0 -59.92209287484253,-2.941956034719392,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>T01</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>T01</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TransectID</td>
+<td>T01</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -59.93975645050367,-2.944832807112733,0 -59.93982067653749,-2.943940390102666,0 -59.93982176662977,-2.943931456027346,0 -59.93982271814265,-2.943926705431282,0 -59.94000335757507,-2.943135154587836,0 -59.9401017585326,-2.942241210063643,0 -59.94010253765043,-2.942235693785825,0 -59.9401032441867,-2.942232048408043,0 -59.94028274272489,-2.94139765995885,0 -59.94036966939269,-2.940496010136717,0 -59.9405485633925,-2.940513443713749,0 -59.94046113182453,-2.941420332298103,0 -59.94046022657749,-2.941427070304717,0 -59.94045952004048,-2.941430715681089,0 -59.9402798921591,-2.942265706111356,0 -59.94018142924976,-2.943160214920392,0 -59.94018065013628,-2.943165731198443,0 -59.94017969862264,-2.943170481792739,0 -59.93999944282066,-2.943960352253306,0 -59.93993571505734,-2.944845847972087,0 -59.93975645050367,-2.944832807112733,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>T05</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>T05</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TransectID</td>
+<td>T05</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -59.94575448062156,-2.963877470535448,0 -59.94587616859925,-2.96298537775234,0 -59.94601042230389,-2.962129373217851,0 -59.94601068877223,-2.962127770034468,0 -59.94616880039947,-2.961238642418348,0 -59.94622070010924,-2.960317330238867,0 -59.94622188044622,-2.960306986458107,0 -59.94622355139601,-2.960299307834863,0 -59.94641497292889,-2.959572648905211,0 -59.9465887172803,-2.959618911542881,0 -59.94639963137585,-2.960336704688609,0 -59.94634794152602,-2.961254294352344,0 -59.94634672189074,-2.961264862435772,0 -59.94618781984214,-2.962158435840584,0 -59.94605398257532,-2.963011727631297,0 -59.94593254947112,-2.963902020315156,0 -59.94575448062156,-2.963877470535448,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>T04</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>T04</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TransectID</td>
+<td>T04</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -59.94717430938891,-2.954530926592154,0 -59.94730476733449,-2.953642615029002,0 -59.94730525440692,-2.9536396580652,0 -59.94747461071479,-2.952742962042809,0 -59.94756252908309,-2.951952838040427,0 -59.9475632961657,-2.951947429790174,0 -59.94756377808842,-2.95194485996479,0 -59.94774074149423,-2.951070880511409,0 -59.94784837479172,-2.950161703223523,0 -59.9480268478144,-2.950183060130296,0 -59.94791877706046,-2.951095933999813,0 -59.94791808270585,-2.951100708864861,0 -59.94791760078252,-2.951103278689212,0 -59.94774070093281,-2.951976945070516,0 -59.94765284861992,-2.952766476715233,0 -59.94765195479671,-2.952772586153423,0 -59.94748230346831,-2.953670845069323,0 -59.94735211525298,-2.954557321102056,0 -59.94717430938891,-2.954530926592154,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="PolyStyle00">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff6e6e6e</color>
+      <width>0.700000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff474287</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>

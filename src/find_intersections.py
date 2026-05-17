@@ -1,6 +1,6 @@
 """
 Finds which LiDAR tiles intersect each forest inventory plot.
-Outputs: data/processed/intersections/lidar_inventory_intersections.csv
+Outputs: data/processed/02_intersections/lidar_inventory_intersections.csv
 """
 
 from pathlib import Path
@@ -18,8 +18,8 @@ def _find_lidar_dir() -> Path:
     return candidates[0]
 
 LIDAR_CSV = _find_lidar_dir() / "cms_brazil_lidar_tile_inventory.csv"
-KML_DIR = ROOT / "data/processed/kml"
-OUTPUT = ROOT / "data/processed/intersections/lidar_inventory_intersections.csv"
+KML_DIR = ROOT / "data/processed/01_kml"
+OUTPUT = ROOT / "data/processed/02_intersections/lidar_inventory_intersections.csv"
 
 OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 

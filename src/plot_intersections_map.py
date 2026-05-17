@@ -1,6 +1,6 @@
 """
 Generates a map of Brazil showing all inventory plots that have LiDAR coverage.
-Output: data/processed/intersections/map_intersections.png
+Output: data/processed/02_intersections/map_intersections.png
 """
 
 from pathlib import Path
@@ -12,10 +12,10 @@ import pandas as pd
 from geodatasets import get_path
 
 ROOT = Path(__file__).parent.parent
-KML_DIR = ROOT / "data/processed/kml"
-INTERSECTIONS_CSV = ROOT / "data/processed/intersections/lidar_inventory_intersections.csv"
+KML_DIR = ROOT / "data/processed/01_kml"
+INTERSECTIONS_CSV = ROOT / "data/processed/02_intersections/lidar_inventory_intersections.csv"
 LIDAR_CSV = ROOT / "data/raw/lidar/LiDAR_Forest_Inventory_Brazil_1644_1-20260505_011031/cms_brazil_lidar_tile_inventory.csv"
-OUTPUT = ROOT / "data/processed/intersections/map_intersections.png"
+OUTPUT = ROOT / "data/processed/02_intersections/map_intersections.png"
 
 
 def load_brazil():

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 INVENTORY_DIR="data/raw/inventory/Forest_Inventory_Brazil_2007_1-20260505_010726"
-OUTPUT_DIR="data/processed/kml"
+OUTPUT_DIR="data/processed/01_kml"
 
 mkdir -p "$OUTPUT_DIR"
 

@@ -1,6 +1,6 @@
 """
 Generates an interactive HTML map of all inventory plots and LiDAR tiles.
-Output: data/processed/intersections/map_intersections.html
+Output: data/processed/02_intersections/map_intersections.html
 """
 
 from pathlib import Path
@@ -10,10 +10,10 @@ import pandas as pd
 from shapely.geometry import box
 
 ROOT = Path(__file__).parent.parent
-KML_DIR = ROOT / "data/processed/kml"
-INTERSECTIONS_CSV = ROOT / "data/processed/intersections/lidar_inventory_intersections.csv"
+KML_DIR = ROOT / "data/processed/01_kml"
+INTERSECTIONS_CSV = ROOT / "data/processed/02_intersections/lidar_inventory_intersections.csv"
 LIDAR_CSV = ROOT / "data/raw/lidar/LiDAR_Forest_Inventory_Brazil_1644_1-20260505_011031/cms_brazil_lidar_tile_inventory.csv"
-OUTPUT = ROOT / "data/processed/intersections/map_intersections.html"
+OUTPUT = ROOT / "data/processed/02_intersections/map_intersections.html"
 
 
 def load_inventory_plots(intersected_keys):
