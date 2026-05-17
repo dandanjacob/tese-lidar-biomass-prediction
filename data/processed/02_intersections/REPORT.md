@@ -10,13 +10,14 @@ e `data/processed/03_clipped_lidar/`.
 | Métrica | Valor |
 |---|---|
 | Plots de inventário (total) | 659 |
-| Plots com interseção LiDAR | **294** pares únicos (site + plot_id) |
-| Plots com pontos após clip | 274 |
-| Plots vazios após clip (falsos positivos) | 20 |
-| Sites únicos cobertos (por prefixo) | 22 · por inventário: 27 |
-| Tiles LiDAR utilizados | 252 de 3.152 |
-| **Total de pontos LiDAR clippados** | **49.863.345** |
-| Tamanho total (clipped_lidar/) | 218 MB |
+| Plots com interseção LiDAR (`within`) | **254** pares únicos (site + plot_id) |
+| Plots excluídos por ficarem em borda entre tiles | 40 |
+| Sites cobertos | 26 de 31 |
+| Tiles LiDAR utilizados | 199 de 3.152 |
+| **Total de pontos LiDAR clippados** | *(re-rodar `make clip`)* |
+| Tamanho total (clipped_lidar/) | *(re-rodar `make clip`)* |
+
+> Critério alterado de `intersects` → `within` em 2026-05-17. Os arquivos em `03_clipped_lidar/` correspondem ao critério antigo e precisam ser re-gerados.
 
 > **Nota:** 274 > 108 porque vários sites têm dois inventários separados
 > (ex.: `TAC_A01_2014` e `TAC_A01_2015`), cada um gerando arquivos distintos.

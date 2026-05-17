@@ -1,5 +1,10 @@
 """
-Finds which LiDAR tiles intersect each forest inventory plot.
+Finds which LiDAR tiles fully contain each forest inventory plot.
+
+Uses spatial predicate 'within' (plot entirely inside tile bounding box),
+not 'intersects'. This ensures each plot is covered by a single, complete
+point cloud without merging data from multiple acquisitions.
+
 Outputs: data/processed/02_intersections/lidar_inventory_intersections.csv
 """
 
@@ -57,7 +62,7 @@ def main():
     print(f"  {len(inventory)} plots")
 
     print("Calculando interseções...")
-    joined = gpd.sjoin(inventory, lidar, how="inner", predicate="intersects")
+    joined = gpd.sjoin(inventory, lidar, how="inner", predicate="within")
 
     result = (
         joined[["inventory_file", "Name", "filename"]]
@@ -70,7 +75,7 @@ def main():
 
     print(f"\nResultado salvo em: {OUTPUT}")
     print(f"Total de pares (plot x tile): {len(result)}")
-    print(f"Plots com cobertura LiDAR: {result['plot_id'].nunique()}")
+    print(f"Plots únicos com cobertura LiDAR: {result.groupby(['inventory_file','plot_id']).ngroups}")
     print(f"Sites de inventário cobertos: {result['inventory_file'].nunique()}")
     print(f"Tiles LiDAR utilizados: {result['laz_file'].nunique()}")
     print("\nPrimeiras linhas:")
