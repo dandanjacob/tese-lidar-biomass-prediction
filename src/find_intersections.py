@@ -67,6 +67,7 @@ def main():
     result = (
         joined[["inventory_file", "Name", "filename"]]
         .rename(columns={"Name": "plot_id", "filename": "laz_file"})
+        .drop_duplicates(subset=["inventory_file", "plot_id", "laz_file"])
         .sort_values(["inventory_file", "plot_id"])
         .reset_index(drop=True)
     )

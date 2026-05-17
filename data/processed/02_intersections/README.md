@@ -49,7 +49,7 @@ Visualizações das interseções sobre mapa do Brasil. O HTML é interativo (zo
 
 | Métrica | Valor |
 |---|---|
-| Total de pares (parcela × tile) | 960 |
+| Total de pares (parcela × tile) | 522 |
 | Parcelas únicas com cobertura LiDAR | **254** (combinação site + plot_id) |
 | Parcelas de inventário sem cobertura | 405 de 659 |
 | Sites de inventário cobertos | 26 de 31 |
