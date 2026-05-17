@@ -49,7 +49,7 @@ src/                ← scripts de processamento
 
 | Ferramenta | Uso no projeto | Download |
 |---|---|---|
-| **CloudCompare** | Inspecionar nuvens de pontos `.laz` em 3D — visualizar altura, densidade, verificar se o clip de uma parcela ficou correto | [cloudcompare.org](https://cloudcompare.org/release/index.html) |
+| **CloudCompare** | Inspecionar nuvens de pontos `.laz` em 3D — visualizar altura, densidade, verificar se o clip de uma parcela ficou correto | Linux: `flatpak install flathub org.cloudcompare.CloudCompare` · outros: [cloudcompare.org](https://cloudcompare.org/release/index.html) |
 | **QGIS** | Visualizar geometrias em contexto geográfico 2D — sobrepor polígonos do inventário com tiles LiDAR no mapa, validar interseções | [qgis.org](https://qgis.org/download) |
 
 ## Documentação detalhada
