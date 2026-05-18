@@ -1,5 +1,6 @@
 # Data (não versionar)
-data/raw/
+data/raw/inventory/
+data/raw/lidar/
 data/training/
 
 # Subdiretórios grandes de data/processed (não versionar)

@@ -1,0 +1,727 @@
+site,tree_id,scientific_name,family_name,utm_easting,utm_northing,type,dbh_2013,dead_2013,hcom_2013,htot_2013,dbh_2018,htot_2018,dead_2018,plot_id,htot_feldpausch,dbh_used,dead_used,type_used,htot_used,htot_source,iagc_m1_kgC,iagc_m2_kgC,rho_w_m3,iagc_m3_kgC
+AND_A01,1,,,296471.6252,9718217.154,O,13.0,True,,7.9,,,True,1,,13.0,True,O,7.9,measured,22.9595,18.4589,0.6431,18.4589
+AND_A01,2,,,296474.207,9718214.32,O,21.0,True,,6.0,,,True,1,,21.0,True,O,6.0,measured,44.7619,38.4615,0.6431,38.4615
+AND_A01,3,Guatteria schomburgkiana,Annonaceae,296475.731,9718211.616,O,11.6,False,3.17,5.45,,,True,1,,11.6,False,O,5.45,measured,12.794,12.794,0.6,12.794
+AND_A01,4,Eperua bijuga,Fabaceae,296473.7785,9718209.724,O,142.0,False,6.21,10.56,,,True,1,,142.0,False,O,10.56,measured,3242.0785,3242.0785,0.729,3920.7574
+AND_A01,5,,,296478.0885,9718208.032,O,15.3,True,,7.16,,,True,1,,15.3,True,O,7.16,measured,28.6664,23.5918,0.6431,23.5918
+AND_A01,6,Lecythis idatimon,Lecythidaceae,296481.0013,9718202.683,O,41.5,False,16.49,26.11,,,True,1,,41.5,False,O,26.11,measured,710.7127,710.7127,0.7986,939.4565
+AND_A01,7,Euterpe oleracea,Arecaceae,296481.084,9718202.495,P,11.6,False,,5.22,,,True,1,,11.6,False,P,5.22,measured,12.2667,15.9231,0.3877,15.9231
+AND_A01,8,Vismia guianensis,Clusiaceae,296477.6213,9718200.98,O,10.6,False,3.71,7.5,,,True,1,,10.6,False,O,7.5,measured,14.6527,14.6527,0.475,11.6653
+AND_A01,9,,,296481.5953,9718192.956,O,18.1,True,,2.46,,,True,1,,18.1,True,O,2.46,measured,14.0282,13.7785,0.6431,13.7785
+AND_A01,11,Croton matourensis,Euphorbiaceae,296488.3847,9718177.767,O,10.8,False,7.69,10.57,,,True,1,,10.8,False,O,10.57,measured,21.2423,21.2423,0.3883,13.8928
+AND_A01,12,,,296491.8467,9718178.307,O,11.5,True,,3.59,,,True,1,,11.5,True,O,3.59,measured,8.3698,7.5774,0.6431,7.5774
+AND_A01,13,Cecropia distachya,Urticaceae,296492.5496,9718176.71,O,11.0,False,9.04,11.49,,,True,1,,11.0,False,O,11.49,measured,23.8853,23.8853,0.3404,13.7357
+AND_A01,14,Tetragastris panamensis,Burseraceae,296464.4028,9718177.587,O,44.8,False,9.99,14.56,,,True,1,,44.8,False,O,14.56,measured,466.6603,466.6603,0.7173,555.5318
+AND_A01,15,Carapa guianensis,Meliaceae,296448.7425,9718175.084,O,44.4,False,14.9,21.16,,,True,1,,44.4,False,O,21.16,measured,660.4737,660.4737,0.53,585.158
+AND_A01,16,Eschweilera coriacea,Lecythidaceae,296457.3621,9718188.646,O,41.6,False,12.08,15.79,,,,1,,41.6,False,O,15.79,measured,437.0708,437.0708,0.8521,615.4981
+AND_A01,17,Inga alba,Fabaceae,296461.6868,9718191.516,O,37.8,False,10.5,20.5,,,True,1,,37.8,False,O,20.5,measured,467.7313,467.7313,0.5861,457.1611
+AND_A01,18,Apeiba petoumo,Malvaceae,296447.2845,9718165.528,O,50.5,False,20.35,29.47,,,True,1,,50.5,False,O,29.47,measured,1173.2768,1173.2768,0.2822,562.0094
+AND_A01,19,Anacardium spruceanum,Anacardiaceae,296430.2458,9718192.187,O,101.6,False,25.95,39.92,,,,1,,101.6,False,O,39.92,measured,6175.6001,6175.6001,0.4792,4958.593
+AND_A01,20,Capirona huberiana,Rubiaceae,296438.3163,9718204.362,O,48.3,False,20.76,29.49,,,True,1,,48.3,False,O,29.49,measured,1076.2869,1076.2869,0.593,1064.0299
+AND_A01,21,Eschweilera coriacea,Lecythidaceae,296460.3604,9718209.867,O,54.0,False,12.74,22.01,,,True,1,,54.0,False,O,22.01,measured,1005.751,1005.751,0.8521,1416.3329
+AND_A01,97,Oenocarpus bacaba,Arecaceae,296470.0788,9718205.463,P,,,,,18.2,16.16,,1,16.13,,False,P,16.13,feldpausch,,,0.65,
+AND_A01,98,,,296451.4748,9718209.856,O,,,,,11.2,11.97,True,1,11.53,,False,O,11.53,feldpausch,,,0.6431,
+AND_A01,99,,,296451.516,9718209.761,O,,,,,11.4,12.11,True,1,11.67,,False,O,11.67,feldpausch,,,0.6431,
+AND_A01,100,,,296479.0612,9718173.477,O,,,,,37.0,24.61,True,1,24.98,,False,O,24.98,feldpausch,,,0.6431,
+AND_A01,101,,,296477.8608,9718174.429,O,,,,,11.2,11.97,True,1,11.53,,False,O,11.53,feldpausch,,,0.6431,
+AND_A01,102,Pouteria gongrijpii,Sapotaceae,296476.5656,9718175.342,O,,,,,16.5,15.22,,1,15.1,,False,O,15.1,feldpausch,,,0.7994,
+AND_A01,103,,,296476.4708,9718175.303,O,,,,,13.2,13.26,True,1,12.95,,False,O,12.95,feldpausch,,,0.6431,
+AND_A01,104,,,296479.7572,9718180.326,O,,,,,15.4,14.59,True,1,14.41,,False,O,14.41,feldpausch,,,0.6431,
+AND_A01,105,,,296476.5172,9718193.326,O,,,,,14.4,14.0,True,1,13.76,,False,O,13.76,feldpausch,,,0.6431,
+AND_A01,106,,,296473.6531,9718193.492,O,,,,,17.0,15.5,True,1,15.41,,False,O,15.41,feldpausch,,,0.6431,
+AND_A01,107,Jacaratia spinosa,Caricaceae,296466.9188,9718203.523,O,,,,,25.6,19.84,,1,20.09,,False,O,20.09,feldpausch,,,0.265,
+AND_A01,108,Tapirira guianensis,Anacardiaceae,296467.0256,9718203.788,O,,,,,19.4,16.8,,1,16.83,,False,O,16.83,feldpausch,,,0.457,
+AND_A01,109,Tapirira guianensis,Anacardiaceae,296464.5645,9718202.794,O,,,,,19.1,16.64,,1,16.65,,False,O,16.65,feldpausch,,,0.457,
+AND_A01,110,,,296467.3832,9718211.357,O,,,,,13.6,13.51,True,1,13.22,,False,O,13.22,feldpausch,,,0.6431,
+AND_A01,111,,,296467.3007,9718211.546,O,,,,,13.4,13.39,True,1,13.08,,False,O,13.08,feldpausch,,,0.6431,
+AND_A01,112,,,296463.4396,9718215.535,O,,,,,28.4,21.1,True,1,21.41,,False,O,21.41,feldpausch,,,0.6431,
+AND_A01,113,,,296462.2015,9718218.361,O,,,,,12.8,13.01,True,1,12.67,,False,O,12.67,feldpausch,,,0.6431,
+AND_A01,22,Pouteria guianensis,Sapotaceae,296534.2042,9718081.61,O,21.5,False,8.45,12.48,,,,2,,21.5,False,O,12.48,measured,95.7825,95.7825,0.9295,146.8324
+AND_A01,23,Sagotia racemosa,Euphorbiaceae,296538.6349,9718077.055,O,13.1,False,4.18,6.64,,,,2,,13.1,False,O,6.64,measured,19.6703,19.6703,0.58,19.0301
+AND_A01,24,Gustavia poeppigiana,Lecythidaceae,296538.0784,9718074.92,O,12.4,False,5.53,9.16,,,,2,,12.4,False,O,9.16,measured,24.1897,24.1897,0.6414,25.818
+AND_A01,25,Lecythis idatimon,Lecythidaceae,296537.3961,9718074.273,O,10.8,False,6.39,9.85,,,,2,,10.8,False,O,9.85,measured,19.8289,19.8289,0.7986,26.2108
+AND_A01,26,Simaba cedron,Simaroubaceae,296540.5412,9718074.628,O,10.3,False,5.13,7.3,,,True,2,,10.3,False,O,7.3,measured,13.4934,13.4934,0.4743,10.7276
+AND_A01,27,Inga heterophylla,Fabaceae,296536.8626,9718072.925,O,45.4,False,15.32,22.86,,,,2,,45.4,False,O,22.86,measured,743.8615,743.8615,0.56,695.4213
+AND_A01,28,Lecythis idatimon,Lecythidaceae,296539.1619,9718071.236,O,16.2,False,10.28,14.02,,,True,2,,16.2,False,O,14.02,measured,61.7533,61.7533,0.7986,81.6287
+AND_A01,29,Protium paniculatum,Burseraceae,296541.1062,9718068.94,O,26.9,False,14.75,20.36,,,,2,,26.9,False,O,20.36,measured,239.1686,239.1686,0.49,196.2727
+AND_A01,30,Protium hebetatum,Burseraceae,296542.1376,9718068.752,O,10.2,False,10.24,12.8,,,,2,,10.2,False,O,12.8,measured,22.9026,22.9026,0.5773,22.0569
+AND_A01,31,Pouteria guianensis,Sapotaceae,296537.8607,9718066.797,O,50.0,False,27.05,34.92,,,True,2,,50.0,False,O,34.92,measured,1357.9713,1357.9713,0.9295,2081.7395
+AND_A01,32,Pouteria gongrijpii,Sapotaceae,296544.8944,9718066.27,O,17.3,False,9.86,14.03,,,True,2,,17.3,False,O,14.03,measured,70.2514,70.2514,0.7994,92.9559
+AND_A01,33,Protium paniculatum,Burseraceae,296544.4259,9718061.122,O,18.5,False,11.82,18.1,,,,2,,18.5,False,O,18.1,measured,102.6772,102.6772,0.49,84.2616
+AND_A01,34,Cecropia palmata,Urticaceae,296550.3997,9718055.582,O,13.7,False,10.74,14.45,16.6,,False,2,15.16,13.7,False,O,14.45,measured,45.8533,45.8533,0.3404,26.3688
+AND_A01,35,,,296550.976,9718055.181,O,12.7,True,,4.77,,,True,2,,12.7,True,O,4.77,measured,13.4066,11.6599,0.6431,11.6599
+AND_A01,36,Cecropia palmata,Urticaceae,296552.2294,9718053.548,O,11.9,False,11.1,12.28,,,,2,,11.9,False,O,12.28,measured,29.7157,29.7157,0.3404,17.0886
+AND_A01,37,Jacaratia spinosa,Caricaceae,296550.0213,9718052.575,O,15.9,False,5.19,6.23,,,,2,,15.9,False,O,6.23,measured,26.9779,26.9779,0.265,12.1512
+AND_A01,38,Jacaratia spinosa,Caricaceae,296549.8293,9718052.491,O,11.3,False,5.24,6.28,,,,2,,11.3,False,O,6.28,measured,13.9598,13.9598,0.265,6.2877
+AND_A01,39,Trema micrantha,Cannabaceae,296549.7333,9718052.448,O,10.1,False,4.0,8.69,,,,2,,10.1,False,O,8.69,measured,15.395,15.395,0.319,8.31
+AND_A01,40,Pouteria guianensis,Sapotaceae,296556.0948,9718046.507,O,30.9,False,10.76,19.69,32.4,,False,2,23.15,30.9,False,O,19.69,measured,303.4195,303.4195,0.9295,465.1352
+AND_A01,41,Eschweilera coriacea,Lecythidaceae,296532.524,9718038.427,O,53.8,False,15.29,24.75,57.2,,False,2,31.24,53.8,False,O,24.75,measured,1119.6366,1119.6366,0.8521,1576.7105
+AND_A01,42,Tetragastris panamensis,Burseraceae,296510.4537,9718028.189,O,46.6,False,12.58,24.04,47.9,,False,2,28.66,46.6,False,O,24.04,measured,822.1329,822.1329,0.7173,978.7012
+AND_A01,43,Brosimum rubescens ,Moraceae,296506.2609,9718032.243,O,36.0,False,18.89,25.83,,,True,2,,36.0,False,O,25.83,measured,532.8397,532.8397,0.8251,727.1992
+AND_A01,44,Jacaratia spinosa,Caricaceae,296510.632,9718042.631,O,45.8,False,13.9,16.08,55.7,,False,2,30.85,45.8,False,O,16.08,measured,536.7911,536.7911,0.265,241.7785
+AND_A01,45,Anacardium spruceanum,Anacardiaceae,296505.0768,9718042.262,O,41.1,False,17.74,28.26,48.5,,False,2,28.84,41.1,False,O,28.26,measured,753.3971,753.3971,0.4792,604.9274
+AND_A01,46,Eschweilera coriacea,Lecythidaceae,296492.7852,9718066.336,O,48.0,False,19.4,32.31,50.5,,False,2,29.43,48.0,False,O,32.31,measured,1162.4023,1162.4023,0.8521,1636.9346
+AND_A01,47,Capirona huberiana,Rubiaceae,296498.6525,9718070.201,O,38.0,False,17.79,27.54,43.1,,False,2,27.14,38.0,False,O,27.54,measured,630.3809,630.3809,0.593,623.202
+AND_A01,48,Laetia procera,Salicaceae,296518.8274,9718076.539,O,43.9,False,19.85,23.75,46.5,,False,2,28.23,43.9,False,O,23.75,measured,723.1013,723.1013,0.6481,779.6256
+AND_A01,49,Pouteria guianensis,Sapotaceae,296521.4251,9718060.365,O,60.0,False,23.95,27.28,,,True,2,,60.0,False,O,27.28,measured,1523.3371,1523.3371,0.9295,2335.2416
+AND_A01,50,Eschweilera coriacea,Lecythidaceae,296523.2009,9718056.855,O,42.4,False,13.79,24.08,,,True,2,,42.4,False,O,24.08,measured,684.8186,684.8186,0.8521,964.385
+AND_A01,51,Eschweilera coriacea,Lecythidaceae,296523.1506,9718054.675,O,37.5,False,13.49,17.8,,,True,2,,37.5,False,O,17.8,measured,401.2173,401.2173,0.8521,565.0079
+AND_A01,52,,,296525.1607,9718064.246,O,50.0,True,,5.56,,,True,2,,50.0,True,O,5.56,measured,225.966,204.8664,0.6431,204.8664
+AND_A01,114,Lecythis idatimon,Lecythidaceae,296527.0312,9718080.205,O,,,,,28.1,20.97,,2,21.28,,False,O,21.28,feldpausch,,,0.7986,
+AND_A01,115,,,296527.8566,9718079.715,O,,,,,13.2,13.26,True,2,12.95,,False,O,12.95,feldpausch,,,0.6431,
+AND_A01,116,,,296526.5955,9718078.899,O,,,,,13.5,13.45,True,2,13.15,,False,O,13.15,feldpausch,,,0.6431,
+AND_A01,117,Oenocarpus bacaba,Arecaceae,296525.7388,9718078.385,P,,,,,18.1,16.1,,2,16.07,,False,P,16.07,feldpausch,,,0.65,
+AND_A01,118,Tetragastris panamensis,Burseraceae,296532.2124,9718071.54,O,,,,,19.7,16.95,,2,17.0,,False,O,17.0,feldpausch,,,0.7173,
+AND_A01,119,,,296529.3234,9718067.252,O,,,,,18.6,16.37,True,2,16.36,,False,O,16.36,feldpausch,,,0.6431,
+AND_A01,120,Eschweilera ovata,Lecythidaceae,296538.4309,9718065.305,O,,,,,15.5,14.65,,2,14.47,,False,O,14.47,feldpausch,,,0.9,
+AND_A01,121,Lecythis lurida,Lecythidaceae,296536.5219,9718062.797,O,,,,,18.2,16.16,,2,16.13,,False,O,16.13,feldpausch,,,0.8633,
+AND_A01,122,Pouteria gongrijpii,Sapotaceae,296542.446,9718060.013,O,,,,,25.3,19.7,,2,19.95,,False,O,19.95,feldpausch,,,0.7994,
+AND_A01,123,,,296539.8413,9718056.119,O,,,,,15.3,14.53,True,2,14.34,,False,O,14.34,feldpausch,,,0.6431,
+AND_A01,124,Pouteria sp.,Sapotaceae,296550.1654,9718041.228,O,,,,,14.5,14.06,,2,13.82,,False,O,13.82,feldpausch,,,0.7187,
+AND_A01,53,Jacaratia spinosa,Caricaceae,296597.1594,9717946.521,O,11.3,False,11.3,15.36,,,True,3,,11.3,False,O,15.36,measured,33.4186,33.4186,0.265,15.0522
+AND_A01,54,Galipea trifoliata,,296601.7308,9717943.526,O,12.3,False,10.06,15.17,,,True,3,,12.3,False,O,15.17,measured,38.9581,38.9581,0.997,63.9511
+AND_A01,55,Protium paniculatum,Burseraceae,296599.3906,9717942.77,O,18.0,False,12.32,18.06,,,True,3,,18.0,False,O,18.06,measured,97.1201,97.1201,0.49,79.7012
+AND_A01,56,Eperua bijuga,Fabaceae,296600.1216,9717938.539,O,26.0,False,8.27,11.4,,,True,3,,26.0,False,O,11.4,measured,127.0655,127.0655,0.729,153.6647
+AND_A01,57,Astronium gracile,Anacardiaceae,296599.84,9717938.45,O,23.6,False,19.16,25.79,,,True,3,,23.6,False,O,25.79,measured,233.3251,233.3251,0.73,282.5458
+AND_A01,58,Tachigali myrmecophila,Fabaceae,296602.7221,9717935.994,O,30.9,False,13.6,23.74,,,True,3,,30.9,False,O,23.74,measured,364.1907,364.1907,0.476,290.5344
+AND_A01,59,Cordia scabrifolia,Boraginaceae,296603.2274,9717934.569,O,17.7,False,6.33,7.91,,,True,3,,17.7,False,O,7.91,measured,41.988,41.988,0.474,33.3587
+AND_A01,60,Inga alba,Fabaceae,296607.1693,9717932.824,O,19.1,False,10.78,17.51,,,True,3,,19.1,False,O,17.51,measured,105.7999,105.7999,0.5861,103.4089
+AND_A01,61,Euterpe oleracea,Arecaceae,296610.0248,9717919.888,P,11.0,False,4.8,6.42,,,True,3,,11.0,False,P,6.42,measured,13.5336,13.7606,0.3877,13.7606
+AND_A01,62,Inga alba,Fabaceae,296610.0943,9717919.32,O,24.1,False,14.43,19.31,,,True,3,,24.1,False,O,19.31,measured,183.2658,183.2658,0.5861,179.1242
+AND_A01,63,Euterpe oleracea,Arecaceae,296612.3624,9717919.591,P,11.1,False,9.09,11.2,,,True,3,,11.1,False,P,11.2,measured,23.712,14.1071,0.3877,14.1071
+AND_A01,64,Jacaratia spinosa,Caricaceae,296613.8029,9717918.048,O,12.6,False,5.29,7.49,,,True,3,,12.6,False,O,7.49,measured,20.5059,20.5059,0.265,9.2361
+AND_A01,65,Carapa guianensis,Meliaceae,296616.8452,9717912.059,O,47.6,False,18.26,27.64,,,True,3,,47.6,False,O,27.64,measured,981.9527,981.9527,0.53,869.9779
+AND_A01,66,Hevea brasiliensis,Euphorbiaceae,296601.1927,9717901.881,O,37.3,False,18.54,27.49,,,True,3,,37.3,False,O,27.49,measured,606.8354,606.8354,0.4666,474.7971
+AND_A01,67,Pourouma minor,Urticaceae,296595.7796,9717906.103,O,45.8,False,16.29,18.96,,,True,3,,45.8,False,O,18.96,measured,630.435,630.435,0.436,461.6401
+AND_A01,68,Carapa guianensis,Meliaceae,296594.5866,9717901.955,O,59.0,False,18.17,27.89,,,True,3,,59.0,False,O,27.89,measured,1506.335,1506.335,0.53,1334.5633
+AND_A01,69,Pouteria oppositifolia,Sapotaceae,296575.389,9717896.609,O,50.0,False,23.95,37.87,,,True,3,,50.0,False,O,37.87,measured,1469.8275,1469.8275,0.65,1589.2571
+AND_A01,70,Eschweilera coriacea,Lecythidaceae,296573.0712,9717909.978,O,51.7,False,13.51,18.23,,,True,3,,51.7,False,O,18.23,measured,768.6383,768.6383,0.8521,1082.4227
+AND_A01,71,,,296584.9014,9717912.511,O,43.7,True,,24.83,,,True,3,,43.7,True,O,24.83,measured,748.4757,532.2471,0.6431,532.2471
+AND_A01,72,,,296605.8376,9717918.658,O,38.7,True,,16.83,,,True,3,,38.7,True,O,16.83,measured,403.9528,303.6814,0.6431,303.6814
+AND_A01,73,,,296607.2203,9717918.087,O,38.32,True,,18.09,,,True,3,,38.32,True,O,18.09,measured,425.1746,315.8604,0.6431,315.8604
+AND_A01,125,Tachigali myrmecophila,Fabaceae,296595.0765,9717946.335,O,,,,,18.4,16.27,,3,16.25,,False,O,16.25,feldpausch,,,0.476,
+AND_A01,126,Cordia scabrifolia,Boraginaceae,296595.2061,9717946.079,O,,,,,16.2,15.05,,3,14.91,,False,O,14.91,feldpausch,,,0.474,
+AND_A01,127,,,296591.1654,9717941.592,O,,,,,10.0,11.15,True,3,10.62,,False,O,10.62,feldpausch,,,0.6431,
+AND_A01,128,,,296597.324,9717940.616,O,,,,,13.9,13.69,True,3,13.42,,False,O,13.42,feldpausch,,,0.6431,
+AND_A01,129,Oenocarpus bacaba,Arecaceae,296595.8826,9717932.275,P,,,,,11.9,12.43,,3,12.03,,False,P,12.03,feldpausch,,,0.65,
+AND_A01,74,Cecropia palmata,Urticaceae,296656.7197,9717811.819,O,11.9,False,8.18,17.53,,,,4,,11.9,False,O,17.53,measured,42.0591,42.0591,0.3404,24.1869
+AND_A01,75,Jacaratia spinosa,Caricaceae,296657.3396,9717803.499,O,15.0,False,6.15,9.27,,,,4,,15.0,False,O,9.27,measured,35.4863,35.4863,0.265,15.9835
+AND_A01,76,Jacaratia spinosa,Caricaceae,296657.922,9717800.539,O,14.5,False,6.29,8.02,18.1,,False,4,16.07,14.5,False,O,8.02,measured,28.8353,28.8353,0.265,12.9879
+AND_A01,77,Lecythis idatimon,Lecythidaceae,296662.1364,9717801.277,O,10.9,False,8.36,10.24,,,,4,,10.9,False,O,10.24,measured,20.9686,20.9686,0.7986,27.7174
+AND_A01,78,,,296658.1403,9717797.424,O,36.0,True,,21.77,,,True,4,,36.0,True,O,21.77,measured,450.934,324.364,0.6431,324.364
+AND_A01,79,Parkia sp.,Fabaceae,296655.0089,9717788.694,O,55.4,False,27.93,32.43,,,,4,,55.4,False,O,32.43,measured,1543.391,1543.391,0.4553,1179.0177
+AND_A01,80,Pouteria guianensis,Sapotaceae,296655.9948,9717774.926,O,47.4,False,18.93,31.68,51.6,,False,4,29.74,47.4,False,O,31.68,measured,1112.6187,1112.6187,0.9295,1705.6194
+AND_A01,81,Cordia scabrifolia,Boraginaceae,296665.6701,9717770.561,O,12.1,False,5.95,7.16,13.2,,False,4,12.95,12.1,False,O,7.16,measured,18.1323,18.1323,0.474,14.4058
+AND_A01,82,Anacardium spruceanum,Anacardiaceae,296664.1791,9717766.87,O,39.4,False,20.47,25.76,44.4,,False,4,27.56,39.4,False,O,25.76,measured,633.8003,633.8003,0.4792,508.8992
+AND_A01,83,Eschweilera coriacea,Lecythidaceae,296651.0528,9717767.434,O,84.0,False,25.76,34.75,85.2,,False,4,36.88,84.0,False,O,34.75,measured,3720.7094,3720.7094,0.8521,5239.6301
+AND_A01,84,Poeppigia sp.,Fabaceae,296648.2532,9717763.385,O,39.7,False,18.03,23.93,42.0,,False,4,26.77,39.7,False,O,23.93,measured,598.6153,598.6153,0.735,729.7408
+AND_A01,85,Pouteria gongrijpii,Sapotaceae,296650.1823,9717771.216,O,42.0,False,17.49,27.36,,,True,4,,42.0,False,O,27.36,measured,761.4977,761.4977,0.7994,1007.6061
+AND_A01,86,Licania canescens,Chrysobalanaceae,296644.9351,9717769.277,O,43.4,False,17.87,31.2,,,True,4,,43.4,False,O,31.2,measured,922.8594,922.8594,0.88,1341.1427
+AND_A01,87,Pouteria gongrijpii,Sapotaceae,296634.5605,9717761.511,O,41.5,False,19.72,26.47,43.7,,False,4,27.33,41.5,False,O,26.47,measured,720.2751,720.2751,0.7994,953.0608
+AND_A01,88,,,296631.5651,9717765.314,O,42.4,True,,24.56,,,True,4,,42.4,True,O,24.56,measured,698.1387,496.59,0.6431,496.59
+AND_A01,89,Inga thibaudiana,Fabaceae,296629.0473,9717767.301,O,40.2,False,17.43,23.52,,,,4,,40.2,False,O,23.52,measured,603.1603,603.1603,0.5786,582.1155
+AND_A01,90,Poeppigia sp.,Fabaceae,296638.2066,9717776.8,O,35.3,False,15.82,21.45,37.2,,False,4,25.05,35.3,False,O,21.45,measured,427.7499,427.7499,0.735,521.4477
+AND_A01,91,Eschweilera coriacea,Lecythidaceae,296632.5337,9717779.54,O,40.3,False,13.32,21.89,,,True,4,,40.3,False,O,21.89,measured,565.0619,565.0619,0.8521,795.7394
+AND_A01,92,Micrandra minor,Euphorbiaceae,296613.8167,9717794.183,O,56.6,False,37.68,53.84,,,True,4,,56.6,False,O,53.84,measured,2639.471,2639.471,0.41,1820.1967
+AND_A01,93,Micrandra minor,Euphorbiaceae,296615.2831,9717792.89,O,45.9,False,36.85,46.27,47.7,,False,4,28.6,45.9,False,O,46.27,measured,1512.3467,1512.3467,0.41,1042.9243
+AND_A01,94,Pouteria guianensis,Sapotaceae,296618.4993,9717796.343,O,42.3,False,31.05,43.96,43.3,,False,4,27.2,42.3,False,O,43.96,measured,1226.5956,1226.5956,0.9295,1880.3434
+AND_A01,95,Sterculia pruriens,Malvaceae,296622.3209,9717797.806,O,49.0,False,28.98,35.35,50.1,,False,4,29.31,49.0,False,O,35.35,measured,1321.1481,1321.1481,0.4862,1075.9876
+AND_A01,96,Carapa guianensis,Meliaceae,296651.3557,9717806.177,O,49.4,False,16.1,27.34,,,,4,,49.4,False,O,27.34,measured,1044.5543,1044.5543,0.53,925.4409
+AND_A01,130,,,296652.2139,9717811.898,O,,,,,15.4,14.59,True,4,14.41,,False,O,14.41,feldpausch,,,0.6431,
+AND_A01,131,,,296649.048,9717809.375,O,,,,,11.1,11.91,True,4,11.45,,False,O,11.45,feldpausch,,,0.6431,
+AND_A01,132,Oenocarpus bacaba,Arecaceae,296650.1409,9717807.115,P,,,,,18.7,16.43,,4,16.42,,False,P,16.42,feldpausch,,,0.65,
+AND_A01,133,,,296649.2927,9717806.307,O,,,,,32.9,22.99,True,4,23.36,,False,O,23.36,feldpausch,,,0.6431,
+AND_A01,134,,,296645.5728,9717804.625,O,,,,,16.0,14.93,True,4,14.79,,False,O,14.79,feldpausch,,,0.6431,
+AND_A01,135,Eschweilera coriacea,Lecythidaceae,296650.3238,9717801.479,O,,,,,22.4,18.32,,4,18.47,,False,O,18.47,feldpausch,,,0.8521,
+AND_A01,136,Eschweilera coriacea,Lecythidaceae,296651.122,9717794.026,O,,,,,40.1,25.77,,4,26.11,,False,O,26.11,feldpausch,,,0.8521,
+AND_A01,137,,,296654.4282,9717792.887,O,,,,,10.6,11.57,True,4,11.08,,False,O,11.08,feldpausch,,,0.6431,
+AND_A01,138,,,296653.4797,9717780.849,O,,,,,14.8,14.23,True,4,14.02,,False,O,14.02,feldpausch,,,0.6431,
+AND_A01,139,Cecropia palmata,Urticaceae,296656.4295,9717781.895,O,,,,,10.4,11.43,,4,10.93,,False,O,10.93,feldpausch,,,0.3404,
+AND_A01,140,Cecropia palmata,Urticaceae,296657.7198,9717780.293,O,,,,,13.0,13.14,,4,12.81,,False,O,12.81,feldpausch,,,0.3404,
+AND_A01,141,Cecropia palmata,Urticaceae,296660.8748,9717774.114,O,,,,,13.4,13.39,,4,13.08,,False,O,13.08,feldpausch,,,0.3404,
+AND_A01,142,Cecropia palmata,Urticaceae,296666.1123,9717776.036,O,,,,,11.1,11.91,,4,11.45,,False,O,11.45,feldpausch,,,0.3404,
+AND_A01,143,Cecropia palmata,Urticaceae,296660.4612,9717771.547,O,,,,,11.2,11.97,,4,11.53,,False,O,11.53,feldpausch,,,0.3404,
+AND_A01,144,Cecropia palmata,Urticaceae,296659.7997,9717770.68,O,,,,,16.6,15.27,,4,15.16,,False,O,15.16,feldpausch,,,0.3404,
+AND_A01,145,Cecropia palmata,Urticaceae,296659.3907,9717772.207,O,,,,,10.3,11.36,,4,10.85,,False,O,10.85,feldpausch,,,0.3404,
+AND_A01,146,Simarouba amara,Simaroubaceae,296658.0982,9717765.078,O,,,,,11.5,12.17,,4,11.75,,False,O,11.75,feldpausch,,,0.3833,
+AND_A01,147,,,296660.5676,9717765.621,O,,,,,10.2,11.29,True,4,10.78,,False,O,10.78,feldpausch,,,0.6431,
+AND_A01,148,Inga alba,Fabaceae,296667.4842,9717767.801,O,,,,,14.1,13.82,,4,13.56,,False,O,13.56,feldpausch,,,0.5861,
+AND_A01,149,Lecythis idatimon,Lecythidaceae,296667.7209,9717767.033,O,,,,,10.0,11.15,,4,10.62,,False,O,10.62,feldpausch,,,0.7986,
+AND_A01,150,Inga thibaudiana,Fabaceae,296665.0217,9717766.318,O,,,,,11.6,12.24,,4,11.82,,False,O,11.82,feldpausch,,,0.5786,
+AND_A01,151,Eperua bijuga,Fabaceae,296664.8694,9717766.16,O,,,,,12.9,13.07,,4,12.74,,False,O,12.74,feldpausch,,,0.729,
+AND_A01,153,Vantanea parviflora,Humiriaceae,296657.9538,9717765.754,O,,,,,13.5,13.45,,4,13.15,,False,O,13.15,feldpausch,,,0.8335,
+AND_A01,154,,,296652.7633,9717764.047,O,,,,,18.1,16.1,True,4,16.07,,False,O,16.07,feldpausch,,,0.6431,
+AND_A01,155,Inga alba,Fabaceae,296634.3317,9717780.272,O,,,,,36.3,24.34,,4,24.71,,False,O,24.71,feldpausch,,,0.5861,
+AND_A01,1,Croton matourensis,Euphorbiaceae,296294.6458,9718129.517,O,17.5,False,9.1,14.53,,,True,5,,17.5,False,O,14.53,measured,74.3434,74.3434,0.3883,48.6217
+AND_A01,2,Jacaratia spinosa,Caricaceae,296296.6226,9718124.891,O,24.7,False,7.56,15.03,29.8,,False,5,22.04,24.7,False,O,15.03,measured,150.5626,150.5626,0.265,67.8156
+AND_A01,3,Bellucia grossularioides,Melastomataceae,296293.9406,9718122.179,O,18.3,False,11.48,19.44,,,True,5,,18.3,False,O,19.44,measured,107.7787,107.7787,0.5975,107.3403
+AND_A01,4,Lecythis idatimon,Lecythidaceae,296295.6925,9718118.076,O,18.3,False,10.53,16.88,20.4,,False,5,17.39,18.3,False,O,16.88,measured,93.9033,93.9033,0.7986,124.1262
+AND_A01,5,Eschweilera coriacea,Lecythidaceae,296298.7863,9718110.83,O,43.2,False,14.76,24.23,46.3,,False,5,28.17,43.2,False,O,24.23,measured,714.585,714.585,0.8521,1006.303
+AND_A01,6,Galipea trifoliata,,296299.5918,9718108.693,O,10.4,False,6.01,9.96,,,True,5,,10.4,False,O,9.96,measured,18.6213,18.6213,0.997,30.5676
+AND_A01,7,Carapa guianensis,Meliaceae,296300.7765,9718106.419,O,41.2,False,18.54,28.66,,,True,5,,41.2,False,O,28.66,measured,767.435,767.435,0.53,679.9222
+AND_A01,8,Inga alba,Fabaceae,296305.7586,9718104.762,O,14.2,False,8.93,19.68,,,True,5,,14.2,False,O,19.68,measured,66.4808,66.4808,0.5861,64.9784
+AND_A01,9,Pouteria sp.,Sapotaceae,296304.0893,9718102.415,O,12.3,False,11.16,16.54,,,True,5,,12.3,False,O,16.54,measured,42.3883,42.3883,0.7187,50.5566
+AND_A01,10,Simarouba amara,Simaroubaceae,296277.9372,9718111.175,O,46.4,False,25.51,30.78,39.1,,False,5,25.75,46.4,False,O,30.78,measured,1037.6573,1037.6573,0.3833,670.1146
+AND_A01,11,Carapa guianensis,Meliaceae,296276.1567,9718110.347,O,60.0,False,10.46,27.52,,,True,5,,60.0,False,O,27.52,measured,1536.4159,1536.4159,0.53,1361.2141
+AND_A01,12,Anacardium spruceanum,Anacardiaceae,296259.9883,9718113.294,O,57.2,False,14.9,25.03,,,True,5,,57.2,False,O,25.03,measured,1275.838,1275.838,0.4792,1024.4124
+AND_A01,13,Eschweilera coriacea,Lecythidaceae,296281.0473,9718118.902,O,41.0,False,12.28,22.2,57.7,,False,5,31.37,41.0,False,O,22.2,measured,592.4549,592.4549,0.8521,834.3152
+AND_A01,14,Parkia sp.,Fabaceae,296276.5026,9718134.579,O,54.0,False,12.07,25.85,,,True,5,,54.0,False,O,25.85,measured,1176.6703,1176.6703,0.4553,898.8747
+AND_A01,82,Croton matourensis,Euphorbiaceae,296281.8354,9718137.058,O,,,,,20.7,17.47,,5,17.56,,False,O,17.56,feldpausch,,,0.3883,
+AND_A01,83,Croton matourensis,Euphorbiaceae,296283.2083,9718136.336,O,,,,,26.7,20.34,,5,20.62,,False,O,20.62,feldpausch,,,0.3883,
+AND_A01,84,,,296280.2811,9718135.708,O,,,,,14.0,13.75,True,5,13.49,,False,O,13.49,feldpausch,,,0.6431,
+AND_A01,85,Diospyros guianensis,,296278.5757,9718135.961,O,,,,,16.2,15.05,,5,14.91,,False,O,14.91,feldpausch,,,0.73,
+AND_A01,86,Parkia sp.,Fabaceae,296282.0702,9718130.261,O,,,,,50.1,29.21,,5,29.31,,False,O,29.31,feldpausch,,,0.4553,
+AND_A01,87,Sterculia pruriens,Malvaceae,296290.1629,9718126.281,O,,,,,15.5,14.65,,5,14.47,,False,O,14.47,feldpausch,,,0.4862,
+AND_A01,88,Eriotheca globosa,Malvaceae,296290.3925,9718117.493,O,,,,,14.3,13.94,,5,13.69,,False,O,13.69,feldpausch,,,0.41,
+AND_A01,89,Tetragastris panamensis,Burseraceae,296289.0618,9718118.863,O,,,,,15.7,14.76,,5,14.6,,False,O,14.6,feldpausch,,,0.7173,
+AND_A01,90,Pouteria guianensis,Sapotaceae,296284.7184,9718120.296,O,,,,,27.5,20.7,,5,21.0,,False,O,21.0,feldpausch,,,0.9295,
+AND_A01,91,Eriotheca globosa,Malvaceae,296287.2198,9718113.924,O,,,,,11.9,12.43,,5,12.03,,False,O,12.03,feldpausch,,,0.41,
+AND_A01,92,Tetragastris panamensis,Burseraceae,296289.2077,9718115.268,O,,,,,11.4,12.11,,5,11.67,,False,O,11.67,feldpausch,,,0.7173,
+AND_A01,93,Tachigali myrmecophila,Fabaceae,296291.7297,9718116.86,O,,,,,11.9,12.43,,5,12.03,,False,O,12.03,feldpausch,,,0.476,
+AND_A01,94,Tetragastris panamensis,Burseraceae,296292.8116,9718113.072,O,,,,,30.7,22.08,,5,22.43,,False,O,22.43,feldpausch,,,0.7173,
+AND_A01,95,,,296298.1774,9718105.0,O,,,,,14.0,13.75,True,5,13.49,,False,O,13.49,feldpausch,,,0.6431,
+AND_A01,96,,,296301.3745,9718103.767,O,,,,,10.3,11.36,True,5,10.85,,False,O,10.85,feldpausch,,,0.6431,
+AND_A01,97,,,296296.9922,9718101.518,O,,,,,19.1,16.64,True,5,16.65,,False,O,16.65,feldpausch,,,0.6431,
+AND_A01,98,,,296297.4366,9718102.981,O,,,,,10.4,11.43,True,5,10.93,,False,O,10.93,feldpausch,,,0.6431,
+AND_A01,99,Copaifera reticulata,Fabaceae,296293.1247,9718105.578,O,,,,,15.1,14.41,,5,14.21,,False,O,14.21,feldpausch,,,0.6075,
+AND_A01,100,Tetragastris panamensis,Burseraceae,296289.6351,9718103.745,O,,,,,13.7,13.57,,5,13.29,,False,O,13.29,feldpausch,,,0.7173,
+AND_A01,101,Simaba cedron,Simaroubaceae,296289.3747,9718104.356,O,,,,,10.4,11.43,,5,10.93,,False,O,10.93,feldpausch,,,0.4743,
+AND_A01,102,Lecythis idatimon,Lecythidaceae,296289.8201,9718104.564,O,,,,,18.2,16.16,,5,16.13,,False,O,16.13,feldpausch,,,0.7986,
+AND_A01,103,Jacaranda copaia,Bignoniaceae,296289.5996,9718101.321,O,,,,,14.9,14.29,,5,14.08,,False,O,14.08,feldpausch,,,0.3507,
+AND_A01,104,,,296294.9093,9718103.897,O,,,,,25.0,19.56,True,5,19.8,,False,O,19.8,feldpausch,,,0.6431,
+AND_A01,42,Himatanthus sucuuba,Euphorbiaceae,296411.0481,9717851.286,O,14.0,False,7.94,12.43,14.3,,False,7,13.69,14.0,False,O,12.43,measured,41.2959,41.2959,0.462,31.9979
+AND_A01,43,Gustavia poeppigiana,Lecythidaceae,296396.4672,9717864.643,O,11.0,False,4.85,7.55,11.2,,False,7,11.53,11.0,False,O,7.55,measured,15.8539,15.8539,0.6414,16.9211
+AND_A01,44,Eschweilera coriacea,Lecythidaceae,296411.0459,9717852.934,O,11.0,False,7.85,11.91,,,True,7,,11.0,False,O,11.91,measured,24.7371,24.7371,0.8521,34.8357
+AND_A01,45,Pouteria sp.,Sapotaceae,296410.4806,9717846.201,O,17.3,False,8.29,12.06,17.8,,False,7,15.89,17.3,False,O,12.06,measured,60.6068,60.6068,0.7187,72.2858
+AND_A01,46,Licania guianensis,Chrysobalanaceae,296413.9544,9717846.579,O,12.6,False,9.14,12.03,,,True,7,,12.6,False,O,12.03,measured,32.5629,32.5629,0.8165,43.986
+AND_A01,47,Euterpe oleracea,Arecaceae,296413.8624,9717842.644,P,12.2,False,14.31,17.95,,,True,7,,12.2,False,P,17.95,measured,45.1858,18.2902,0.3877,18.2902
+AND_A01,48,Euterpe oleracea,Arecaceae,296413.0352,9717841.341,P,12.8,False,13.37,15.93,12.8,,False,7,12.67,12.8,False,P,15.93,measured,44.1669,20.87,0.3877,20.87
+AND_A01,49,Sterculia pruriens,Malvaceae,296415.0032,9717842.118,O,11.4,False,8.92,10.21,,,,7,,11.4,False,O,10.21,measured,22.8217,22.8217,0.4862,18.5868
+AND_A01,50,Licania canescens,Chrysobalanaceae,296417.2235,9717834.195,O,12.7,False,13.37,16.77,,,True,7,,12.7,False,O,16.77,measured,45.733,45.733,0.88,66.4614
+AND_A01,51,Pouteria gongrijpii,Sapotaceae,296419.9323,9717832.741,O,22.1,False,20.88,25.17,23.6,,False,7,19.1,22.1,False,O,25.17,measured,200.4363,200.4363,0.7994,265.2153
+AND_A01,52,,,296419.0343,9717831.983,O,53.0,True,,21.54,,,True,7,,53.0,True,O,21.54,measured,949.5,696.9573,0.6431,696.9573
+AND_A01,53,Sagotia racemosa,Euphorbiaceae,296419.8155,9717831.319,O,11.6,False,9.02,11.65,,,True,7,,11.6,False,O,11.65,measured,26.8545,26.8545,0.58,25.9805
+AND_A01,54,Pseudopiptadenia suaveolens,Fabaceae,296405.4849,9717824.876,O,49.4,False,12.25,18.07,,,True,7,,49.4,False,O,18.07,measured,697.2794,697.2794,0.6797,787.5566
+AND_A01,144,,,296398.0778,9717867.743,O,,,,,16.6,15.27,True,7,15.16,,False,O,15.16,feldpausch,,,0.6431,
+AND_A01,145,Eriotheca globosa,Malvaceae,296399.0383,9717861.806,O,,,,,13.0,13.14,,7,12.81,,False,O,12.81,feldpausch,,,0.41,
+AND_A01,146,Brosimum acutifolium,Moraceae,296395.0878,9717863.363,O,,,,,11.3,12.04,,7,11.6,,False,O,11.6,feldpausch,,,0.6403,
+AND_A01,147,Cordia scabrifolia,Boraginaceae,296403.0211,9717858.338,O,,,,,18.5,16.32,,7,16.31,,False,O,16.31,feldpausch,,,0.474,
+AND_A01,148,Eriotheca globosa,Malvaceae,296397.5561,9717858.05,O,,,,,12.3,12.69,,7,12.32,,False,O,12.32,feldpausch,,,0.41,
+AND_A01,149,Vatairea sericea,Fabaceae,296396.6998,9717859.68,O,,,,,11.4,12.11,,7,11.67,,False,O,11.67,feldpausch,,,0.665,
+AND_A01,150,Cecropia palmata,Urticaceae,296393.6371,9717857.082,O,,,,,27.6,20.74,,7,21.05,,False,O,21.05,feldpausch,,,0.3404,
+AND_A01,151,Pouteria sp.,Sapotaceae,296390.4225,9717859.705,O,,,,,11.5,12.17,,7,11.75,,False,O,11.75,feldpausch,,,0.7187,
+AND_A01,152,,,296397.709,9717853.033,O,,,,,14.5,14.06,,7,13.82,,False,O,13.82,feldpausch,,,0.6431,
+AND_A01,153,Protium paniculatum,Burseraceae,296405.8222,9717856.091,O,,,,,13.4,13.39,,7,13.08,,False,O,13.08,feldpausch,,,0.49,
+AND_A01,154,Simaba cedron,Simaroubaceae,296407.0175,9717850.324,O,,,,,14.9,14.29,,7,14.08,,False,O,14.08,feldpausch,,,0.4743,
+AND_A01,155,,,296409.4874,9717851.173,O,,,,,15.4,14.59,True,7,14.41,,False,O,14.41,feldpausch,,,0.6431,
+AND_A01,156,Tetragastris panamensis,Burseraceae,296405.442,9717849.622,O,,,,,15.9,14.88,,7,14.73,,False,O,14.73,feldpausch,,,0.7173,
+AND_A01,157,Pouteria guianensis,Sapotaceae,296409.5013,9717848.064,O,,,,,22.2,18.22,,7,18.37,,False,O,18.37,feldpausch,,,0.9295,
+AND_A01,158,Euterpe oleracea,Arecaceae,296412.0006,9717848.447,P,,,,,11.0,11.84,,7,11.38,,False,P,11.38,feldpausch,,,0.3877,
+AND_A01,159,Licania guianensis,Chrysobalanaceae,296405.9107,9717844.62,O,,,,,21.8,18.02,,7,18.15,,False,O,18.15,feldpausch,,,0.8165,
+AND_A01,160,,,296403.2599,9717845.554,O,,,,,23.5,18.85,True,7,19.05,,False,O,19.05,feldpausch,,,0.6431,
+AND_A01,161,Tetragastris panamensis,Burseraceae,296405.2933,9717842.712,O,,,,,16.0,14.93,,7,14.79,,False,O,14.79,feldpausch,,,0.7173,
+AND_A01,162,Inga thibaudiana,Fabaceae,296408.4093,9717842.949,O,,,,,11.7,12.3,,7,11.89,,False,O,11.89,feldpausch,,,0.5786,
+AND_A01,163,Simaba cedron,Simaroubaceae,296412.7502,9717842.5,O,,,,,11.1,11.91,,7,11.45,,False,O,11.45,feldpausch,,,0.4743,
+AND_A01,164,Pouteria guianensis,Sapotaceae,296411.6725,9717839.823,O,,,,,13.5,13.45,,7,13.15,,False,O,13.15,feldpausch,,,0.9295,
+AND_A01,165,Euterpe oleracea,Arecaceae,296416.3543,9717839.137,P,,,,,10.8,11.7,,7,11.23,,False,P,11.23,feldpausch,,,0.3877,
+AND_A01,166,Euterpe oleracea,Arecaceae,296416.6093,9717838.652,P,,,,,10.9,11.77,,7,11.3,,False,P,11.3,feldpausch,,,0.3877,
+AND_A01,167,Tetragastris panamensis,Burseraceae,296413.5919,9717836.171,O,,,,,22.7,18.47,,7,18.63,,False,O,18.63,feldpausch,,,0.7173,
+AND_A01,168,Sterculia pruriens,Malvaceae,296412.6188,9717833.912,O,,,,,22.1,18.17,,7,18.31,,False,O,18.31,feldpausch,,,0.4862,
+AND_A01,169,,,296411.3316,9717831.223,O,,,,,23.6,18.9,True,7,19.1,,False,O,19.1,feldpausch,,,0.6431,
+AND_A01,170,,,296410.1004,9717834.182,O,,,,,16.1,14.99,True,7,14.85,,False,O,14.85,feldpausch,,,0.6431,
+AND_A01,171,,,296409.1419,9717837.445,O,,,,,20.5,17.37,True,7,17.45,,False,O,17.45,feldpausch,,,0.6431,
+AND_A01,55,Virola mollissima,Myristicaceae,296459.3875,9717733.699,O,26.2,False,19.09,25.7,29.0,,False,8,21.68,26.2,False,O,25.7,measured,285.154,285.154,0.4734,226.2776
+AND_A01,56,Sagotia racemosa,Euphorbiaceae,296463.8562,9717727.014,O,14.0,False,11.13,16.25,14.4,,False,8,13.76,14.0,False,O,16.25,measured,53.6408,53.6408,0.58,51.895
+AND_A01,57,Pourouma minor,Urticaceae,296460.4137,9717726.899,O,36.0,False,23.86,31.03,,,True,8,,36.0,False,O,31.03,measured,637.2975,637.2975,0.436,466.6652
+AND_A01,58,Minquartia guianensis,Olacaceae,296459.0427,9717725.172,O,50.2,False,18.22,25.59,,,True,8,,50.2,False,O,25.59,measured,1010.441,1010.441,0.7867,1316.2935
+AND_A01,59,Parkia sp.,Fabaceae,296463.0298,9717724.598,O,71.5,False,26.72,41.03,76.2,,False,8,35.35,71.5,False,O,41.03,measured,3194.8698,3194.8698,0.4553,2440.6052
+AND_A01,60,Protium paniculatum,Burseraceae,296465.3638,9717722.898,O,24.9,False,19.89,26.76,,,True,8,,24.9,False,O,26.76,measured,268.5767,268.5767,0.49,220.4063
+AND_A01,61,Pourouma minor,Urticaceae,296469.9539,9717717.591,O,33.6,False,22.52,29.39,37.5,,False,8,25.16,33.6,False,O,29.39,measured,528.2479,528.2479,0.436,386.8129
+AND_A01,62,Pouteria gongrijpii,Sapotaceae,296469.9867,9717715.899,O,17.4,False,7.76,10.2,18.4,,False,8,16.25,17.4,False,O,10.2,measured,52.0483,52.0483,0.7994,68.8698
+AND_A01,63,Eschweilera coriacea,Lecythidaceae,296462.1721,9717706.884,O,70.6,False,24.52,31.3,61.5,,False,8,32.29,70.6,False,O,31.3,measured,2393.1986,2393.1986,0.8521,3370.1841
+AND_A01,64,Protium paniculatum,Burseraceae,296462.1011,9717702.36,O,41.7,False,24.08,32.47,,,True,8,,41.7,False,O,32.47,measured,887.5094,887.5094,0.49,728.3309
+AND_A01,65,Neea oppositifolia,Nyctaginaceae,296471.8608,9717709.613,O,35.0,False,27.31,31.19,36.1,,False,8,24.63,35.0,False,O,31.19,measured,606.2343,606.2343,0.893,893.7086
+AND_A01,66,Parkia sp.,Fabaceae,296473.8595,9717700.726,O,82.1,False,26.33,44.72,,,True,8,,82.1,False,O,44.72,measured,4551.4344,4551.4344,0.4553,3476.9036
+AND_A01,67,,,296475.6572,9717699.25,O,74.0,True,,27.17,,,True,8,,74.0,True,O,27.17,measured,2284.9279,1642.889,0.6431,1642.889
+AND_A01,68,Carapa guianensis,Meliaceae,296478.2912,9717698.337,O,38.3,False,22.55,31.3,,,True,8,,38.3,False,O,31.3,measured,725.2971,725.2971,0.53,642.5895
+AND_A01,69,Eschweilera coriacea,Lecythidaceae,296481.2303,9717696.551,O,30.3,False,22.95,41.79,33.2,,False,8,23.48,30.3,False,O,41.79,measured,608.7,608.7,0.8521,857.1922
+AND_A01,70,Micrandra minor,Euphorbiaceae,296461.7809,9717691.315,O,48.2,False,29.07,42.2,50.0,,False,8,29.28,48.2,False,O,42.2,measured,1520.8047,1520.8047,0.41,1048.757
+AND_A01,71,Inga thibaudiana,Fabaceae,296456.1711,9717686.844,O,40.2,False,29.64,39.41,43.5,,False,8,27.27,40.2,False,O,39.41,measured,998.2098,998.2098,0.5786,963.3814
+AND_A01,72,,,296452.8204,9717691.681,O,38.3,True,,6.47,,,True,8,,38.3,True,O,6.47,measured,155.7067,136.0745,0.6431,136.0745
+AND_A01,73,Eschweilera coriacea,Lecythidaceae,296445.4793,9717679.093,O,38.7,False,21.1,32.46,45.0,,False,8,27.76,38.7,False,O,32.46,measured,766.9175,766.9175,0.8521,1079.9994
+AND_A01,74,Eschweilera coriacea,Lecythidaceae,296440.5864,9717680.176,O,66.0,False,24.74,35.46,,,True,8,,66.0,False,O,35.46,measured,2370.0388,2370.0388,0.8521,3337.5696
+AND_A01,75,Trichilia micrantha,Meliaceae,296433.1269,9717684.47,O,36.2,False,28.66,35.96,39.2,,False,8,25.79,36.2,False,O,35.96,measured,743.9433,743.9433,0.6125,759.0664
+AND_A01,76,,,296472.1569,9717692.658,O,38.3,True,,28.1,,,True,8,,38.3,True,O,28.1,measured,652.8329,452.3752,0.6431,452.3752
+AND_A01,77,,,296418.4429,9717718.767,O,65.0,True,,24.89,,,True,8,,65.0,True,O,24.89,measured,1628.5004,1179.871,0.6431,1179.871
+AND_A01,78,,,296455.7144,9717732.931,O,36.8,True,,16.36,,,True,8,,36.8,True,O,16.36,measured,356.1625,268.3057,0.6431,268.3057
+AND_A01,79,Tetragastris panamensis,Burseraceae,296426.6829,9717719.76,O,60.7,False,17.11,29.69,,,True,8,,60.7,False,O,29.69,measured,1692.4372,1692.4372,0.7173,2014.7476
+AND_A01,80,Lecythis idatimon,Lecythidaceae,296426.1644,9717718.527,O,49.3,False,22.06,31.01,,,True,8,,49.3,False,O,31.01,measured,1176.5316,1176.5316,0.7986,1555.1999
+AND_A01,81,Eschweilera coriacea,Lecythidaceae,296428.6176,9717713.217,O,53.5,False,21.1,29.53,,,True,8,,53.5,False,O,29.53,measured,1315.7834,1315.7834,0.8521,1852.9311
+AND_A01,172,,,296455.7067,9717727.619,O,,,,,14.4,14.0,True,8,13.76,,False,O,13.76,feldpausch,,,0.6431,
+AND_A01,173,Eschweilera coriacea,Lecythidaceae,296462.5606,9717731.604,O,,,,,30.1,21.83,,8,22.17,,False,O,22.17,feldpausch,,,0.8521,
+AND_A01,174,,,296461.1665,9717720.664,O,,,,,33.2,23.12,True,8,23.48,,False,O,23.48,feldpausch,,,0.6431,
+AND_A01,175,Aspidosperma parvifolium,Apocynaceae,296463.4715,9717716.934,O,,,,,15.5,14.65,,8,14.47,,False,O,14.47,feldpausch,,,0.781,
+AND_A01,176,,,296458.875,9717716.233,O,,,,,14.8,14.23,True,8,14.02,,False,O,14.02,feldpausch,,,0.6431,
+AND_A01,177,,,296462.0544,9717712.731,O,,,,,31.3,22.34,True,8,22.69,,False,O,22.69,feldpausch,,,0.6431,
+AND_A01,178,,,296466.1766,9717707.7,O,,,,,14.8,14.23,,8,14.02,,False,O,14.02,feldpausch,,,0.6431,
+AND_A01,179,Protium hebetatum,Burseraceae,296464.0522,9717709.883,O,,,,,15.0,14.35,,8,14.15,,False,O,14.15,feldpausch,,,0.5773,
+AND_A01,180,Pouteria gongrijpii,Sapotaceae,296461.2914,9717706.423,O,,,,,15.7,14.76,,8,14.6,,False,O,14.6,feldpausch,,,0.7994,
+AND_A01,181,Neea oppositifolia,Nyctaginaceae,296461.745,9717700.778,O,,,,,18.2,16.16,,8,16.13,,False,O,16.13,feldpausch,,,0.893,
+AND_A01,182,,,296468.9641,9717698.976,O,,,,,20.5,17.37,,8,17.45,,False,O,17.45,feldpausch,,,0.6431,
+AND_A01,183,,,296464.49,9717694.219,O,,,,,19.7,16.95,True,8,17.0,,False,O,17.0,feldpausch,,,0.6431,
+AND_A01,1,Eschweilera coriacea,Lecythidaceae,296104.3633,9718059.254,O,38.5,False,19.48,30.78,41.7,,False,9,26.66,38.5,False,O,30.78,measured,720.8256,720.8256,0.8521,1015.0912
+AND_A01,2,Couepia sp.,Chrysobalanaceae,296104.0191,9718059.094,O,11.9,False,13.08,20.0,13.8,,False,9,13.36,11.9,False,O,20.0,measured,47.8337,47.8337,0.7861,62.2676
+AND_A01,3,Eschweilera coriacea,Lecythidaceae,296108.1202,9718055.229,O,13.0,False,11.11,17.8,,,True,9,,13.0,False,O,17.8,measured,50.7327,50.7327,0.8521,71.4435
+AND_A01,4,Lecythis idatimon,Lecythidaceae,296105.7779,9718051.556,O,19.3,False,14.67,25.14,20.4,,False,9,17.39,19.3,False,O,25.14,measured,153.6827,153.6827,0.7986,203.1457
+AND_A01,5,Parkia sp.,Fabaceae,296109.4217,9718051.473,O,67.0,False,21.63,36.68,70.0,,False,9,34.15,67.0,False,O,36.68,measured,2522.5613,2522.5613,0.4553,1927.0194
+AND_A01,6,Poeppigia sp.,Fabaceae,296109.7616,9718048.159,O,26.1,False,16.82,27.31,29.7,,False,9,22.0,26.1,False,O,27.31,measured,300.326,300.326,0.735,366.1118
+AND_A01,7,Eschweilera coriacea,Lecythidaceae,296108.2386,9718046.485,O,39.0,False,17.69,24.59,41.5,,False,9,26.59,39.0,False,O,24.59,measured,593.7439,593.7439,0.8521,836.1304
+AND_A01,8,Lecythis idatimon,Lecythidaceae,296111.6957,9718045.933,O,44.3,False,23.95,31.83,46.5,,False,9,28.23,44.3,False,O,31.83,measured,979.511,979.511,0.7986,1294.7679
+AND_A01,9,Inga thibaudiana,Fabaceae,296113.3467,9718042.543,O,14.2,False,11.19,16.7,,,True,9,,14.2,False,O,16.7,measured,56.6368,56.6368,0.5786,54.6607
+AND_A01,10,Pouteria sp.,Sapotaceae,296117.9351,9718034.881,O,10.9,False,6.54,10.4,,,True,9,,10.9,False,O,10.4,measured,21.2883,21.2883,0.7187,25.3906
+AND_A01,11,Inga thibaudiana,Fabaceae,296116.8765,9718030.892,O,40.2,False,14.44,27.05,,,True,9,,40.2,False,O,27.05,measured,691.3615,691.3615,0.5786,667.2393
+AND_A01,12,Laetia procera,Salicaceae,296116.0242,9718030.441,O,16.8,False,15.56,22.45,17.0,,False,9,15.41,16.8,False,O,22.45,measured,104.9667,104.9667,0.6481,113.1719
+AND_A01,13,,,296120.3143,9718030.221,O,12.2,False,4.47,6.94,,,True,9,,12.2,False,O,6.94,measured,17.8732,17.8732,0.6431,19.1252
+AND_A01,14,Pouteria sp.,Sapotaceae,296119.2197,9718028.279,O,15.2,False,16.68,21.07,15.4,,False,9,14.41,15.2,False,O,21.07,measured,81.1551,81.1551,0.7187,96.7938
+AND_A01,15,Protium paniculatum,Burseraceae,296122.3266,9718026.094,O,14.0,False,17.23,16.6,,,True,9,,14.0,False,O,16.6,measured,54.7682,54.7682,0.49,44.9453
+AND_A01,16,Protium paniculatum,Burseraceae,296118.7042,9718025.803,O,12.8,False,14.39,21.98,,,True,9,,12.8,False,O,21.98,measured,60.4719,60.4719,0.49,49.626
+AND_A01,17,Protium paniculatum,Burseraceae,296118.8076,9718024.704,O,25.3,False,19.08,25.78,,,True,9,,25.3,False,O,25.78,measured,267.1555,267.1555,0.49,219.24
+AND_A01,18,Couratari stellata,Lecythidaceae,296115.9702,9718019.457,O,43.2,False,19.09,27.92,43.2,,False,9,27.17,43.2,False,O,27.92,measured,820.613,820.613,0.6331,864.8254
+AND_A01,19,Carapa guianensis,Meliaceae,296100.33,9718016.292,O,49.0,False,18.43,34.17,51.5,,False,9,29.71,49.0,False,O,34.17,measured,1278.0885,1278.0885,0.53,1132.3445
+AND_A01,20,Terminalia amazonia,Combretaceae,296097.4009,9718017.972,O,73.0,False,34.8,48.11,75.8,,False,9,35.28,73.0,False,O,48.11,measured,3886.2311,3886.2311,0.6735,4350.2128
+AND_A01,21,Caryocar glabrum,Caryocaraceae,296099.1045,9718018.883,O,70.6,False,20.2,36.39,70.6,,False,9,34.27,70.6,False,O,36.39,measured,2772.3366,2772.3366,0.6536,3013.6746
+AND_A01,22,Lecythis idatimon,Lecythidaceae,296096.0746,9718013.992,O,40.9,False,19.5,28.9,42.1,,False,9,26.8,40.9,False,O,28.9,measured,762.7477,762.7477,0.7986,1008.239
+AND_A01,23,Inga thibaudiana,Fabaceae,296085.0633,9718012.485,O,50.8,False,25.34,33.09,,,True,9,,50.8,False,O,33.09,measured,1329.0175,1329.0175,0.5786,1282.6469
+AND_A01,24,Eschweilera coriacea,Lecythidaceae,296085.5032,9718013.825,O,42.2,False,20.2,31.32,45.3,,False,9,27.85,42.2,False,O,31.32,measured,876.9859,876.9859,0.8521,1235.0016
+AND_A01,25,Manilkara huberi,Sapotaceae,296088.7748,9718004.493,O,48.5,False,23.34,32.59,50.2,,False,9,29.34,48.5,False,O,32.59,measured,1196.1865,1196.1865,0.9214,1818.0591
+AND_A01,27,Eschweilera coriacea,Lecythidaceae,296075.9586,9718029.823,O,57.1,False,17.92,33.85,66.7,,False,9,33.46,57.1,False,O,33.85,measured,1707.1184,1707.1184,0.8521,2404.0224
+AND_A01,28,Licania canescens,Chrysobalanaceae,296070.1136,9718037.903,O,43.0,False,28.52,35.81,,,True,9,,43.0,False,O,35.81,measured,1036.8104,1036.8104,0.88,1506.7417
+AND_A01,29,Lecythis idatimon,Lecythidaceae,296068.9801,9718047.119,O,41.2,False,15.67,23.8,42.3,,False,9,26.87,41.2,False,O,23.8,measured,640.1462,640.1462,0.7986,846.1781
+AND_A01,30,Jacaranda copaia,Bignoniaceae,296084.4425,9718052.094,O,55.3,False,19.69,30.3,,,True,9,,55.3,False,O,30.3,measured,1439.2895,1439.2895,0.3507,852.098
+AND_A01,31,Pouteria oppositifolia,Sapotaceae,296088.7737,9718034.011,O,51.8,False,17.76,27.63,,,True,9,,51.8,False,O,27.63,measured,1157.7642,1157.7642,0.65,1251.8374
+AND_A01,83,,,296097.0344,9718058.722,O,,,,,35.9,24.19,,9,24.56,,False,O,24.56,feldpausch,,,0.6431,
+AND_A01,84,Pouteria sp.,Sapotaceae,296097.4789,9718056.052,O,,,,,14.2,13.88,,9,13.62,,False,O,13.62,feldpausch,,,0.7187,
+AND_A01,85,Eschweilera coriacea,Lecythidaceae,296096.305,9718058.489,O,,,,,10.5,11.5,,9,11.0,,False,O,11.0,feldpausch,,,0.8521,
+AND_A01,86,Lecythis idatimon,Lecythidaceae,296102.6668,9718050.988,O,,,,,27.5,20.7,,9,21.0,,False,O,21.0,feldpausch,,,0.7986,
+AND_A01,87,,,296105.983,9718042.368,O,,,,,28.0,20.92,True,9,21.23,,False,O,21.23,feldpausch,,,0.6431,
+AND_A01,88,,,296104.5583,9718041.138,O,,,,,46.5,28.02,True,9,28.23,,False,O,28.23,feldpausch,,,0.6431,
+AND_A01,89,,,296104.6798,9718040.886,O,,,,,45.3,27.61,,9,27.85,,False,O,27.85,feldpausch,,,0.6431,
+AND_A01,90,Pouteria sp.,Sapotaceae,296097.8864,9718049.944,O,,,,,11.8,12.37,,9,11.96,,False,O,11.96,feldpausch,,,0.7187,
+AND_A01,91,Inga alba,Fabaceae,296095.9512,9718048.918,O,,,,,29.7,21.66,,9,22.0,,False,O,22.0,feldpausch,,,0.5861,
+AND_A01,92,Pouteria caimito,Sapotaceae,296095.1307,9718053.927,O,,,,,11.1,11.91,,9,11.45,,False,O,11.45,feldpausch,,,0.805,
+AND_A01,93,Pouteria guianensis,Sapotaceae,296092.2082,9718054.535,O,,,,,11.5,12.17,,9,11.75,,False,O,11.75,feldpausch,,,0.9295,
+AND_A01,94,Pouteria caimito,Sapotaceae,296100.6981,9718057.243,O,,,,,17.8,15.94,,9,15.89,,False,O,15.89,feldpausch,,,0.805,
+AND_A01,95,Pouteria caimito,Sapotaceae,296101.5858,9718053.662,O,,,,,14.2,13.88,,9,13.62,,False,O,13.62,feldpausch,,,0.805,
+AND_A01,96,Manilkara bidentata,Sapotaceae,296101.5504,9718044.962,O,,,,,23.6,18.9,,9,19.1,,False,O,19.1,feldpausch,,,0.8729,
+AND_A01,97,,,296101.8435,9718044.794,O,,,,,11.6,12.24,True,9,11.82,,False,O,11.82,feldpausch,,,0.6431,
+AND_A01,98,,,296101.6315,9718044.794,L,,,,,14.2,13.88,,9,13.62,,False,L,13.62,feldpausch,,,0.6431,
+AND_A01,99,,,296096.6464,9718039.723,O,,,,,10.5,11.5,,9,11.0,,False,O,11.0,feldpausch,,,0.6431,
+AND_A01,100,Pouteria guianensis,Sapotaceae,296097.5845,9718039.977,O,,,,,13.0,13.14,,9,12.81,,False,O,12.81,feldpausch,,,0.9295,
+AND_A01,101,Carapa guianensis,Meliaceae,296098.9071,9718038.317,O,,,,,18.4,16.27,,9,16.25,,False,O,16.25,feldpausch,,,0.53,
+AND_A01,102,Lecythis idatimon,Lecythidaceae,296104.8545,9718039.199,O,,,,,20.8,17.52,,9,17.61,,False,O,17.61,feldpausch,,,0.7986,
+AND_A01,103,Poeppigia procera,Fabaceae,296110.921,9718034.352,O,,,,,20.9,17.57,,9,17.67,,False,O,17.67,feldpausch,,,0.735,
+AND_A01,104,Licania guianensis,Chrysobalanaceae,296116.7693,9718035.516,O,,,,,10.0,11.15,,9,10.62,,False,O,10.62,feldpausch,,,0.8165,
+AND_A01,105,Pouteria sp.,Sapotaceae,296117.7596,9718034.582,O,,,,,12.7,12.95,,9,12.6,,False,O,12.6,feldpausch,,,0.7187,
+AND_A01,106,,,296117.2507,9718022.593,O,,,,,10.5,11.5,True,9,11.0,,False,O,11.0,feldpausch,,,0.6431,
+AND_A01,107,Tetragastris panamensis,Burseraceae,296112.4298,9718016.76,O,,,,,12.9,13.07,,9,12.74,,False,O,12.74,feldpausch,,,0.7173,
+AND_A01,108,,,296109.8993,9718016.438,O,,,,,17.0,15.5,,9,15.41,,False,O,15.41,feldpausch,,,0.6431,
+AND_A01,109,Carapa guianensis,Meliaceae,296106.9977,9718019.145,O,,,,,33.5,23.24,,9,23.61,,False,O,23.61,feldpausch,,,0.53,
+AND_A01,110,Euterpe oleracea,Arecaceae,296108.6366,9718023.553,P,,,,,10.1,11.22,,9,10.7,,False,P,10.7,feldpausch,,,0.3877,
+AND_A01,111,Pouteria caimito,Sapotaceae,296108.0888,9718025.811,O,,,,,13.7,13.57,,9,13.29,,False,O,13.29,feldpausch,,,0.805,
+AND_A01,112,Lecythis idatimon,Lecythidaceae,296112.372,9718029.136,O,,,,,29.1,21.4,,9,21.73,,False,O,21.73,feldpausch,,,0.7986,
+AND_A01,113,Protium hebetatum,Burseraceae,296113.4406,9718023.59,O,,,,,15.4,14.59,,9,14.41,,False,O,14.41,feldpausch,,,0.5773,
+AND_A01,32,,,296167.3354,9717916.291,O,23.7,True,,8.5,,,True,10,,23.7,True,O,8.5,measured,79.631,65.136,0.6431,65.136
+AND_A01,34,Eschweilera coriacea,Lecythidaceae,296163.0488,9717909.179,O,55.0,False,28.92,32.74,,,,10,,55.0,False,O,32.74,measured,1535.9089,1535.9089,0.8521,2162.9194
+AND_A01,35,Tetragastris panamensis,Burseraceae,296174.5827,9717906.558,O,38.8,False,17.51,23.28,,,True,10,,38.8,False,O,23.28,measured,557.2314,557.2314,0.7173,663.3515
+AND_A01,36,Sagotia racemosa,Euphorbiaceae,296174.4883,9717906.524,O,11.7,False,7.33,12.41,,,True,10,,11.7,False,O,12.41,measured,29.0456,29.0456,0.58,28.1003
+AND_A01,37,Protium heptaphyllum,Burseraceae,296172.2233,9717905.699,O,16.8,False,9.03,13.83,,,True,10,,16.8,False,O,13.83,measured,65.4194,65.4194,0.6293,68.5356
+AND_A01,39,Couratari stellata,Lecythidaceae,296175.347,9717898.799,O,12.6,False,11.9,13.55,,,True,10,,12.6,False,O,13.55,measured,36.5727,36.5727,0.6331,38.5431
+AND_A01,40,Protium paniculatum,Burseraceae,296177.0552,9717898.189,O,16.1,False,12.78,16.31,,,True,10,,16.1,False,O,16.31,measured,70.7196,70.7196,0.49,58.0358
+AND_A01,41,,,296173.1535,9717896.033,O,43.0,True,,2.37,,,True,10,,43.0,True,O,2.37,measured,73.2395,75.4294,0.6431,75.4294
+AND_A01,42,Eschweilera coriacea,Lecythidaceae,296177.6616,9717895.319,O,17.4,False,13.63,18.35,,,True,10,,17.4,False,O,18.35,measured,92.3255,92.3255,0.8521,130.0159
+AND_A01,43,Eperua bijuga,Fabaceae,296177.1656,9717890.8,O,15.3,False,14.64,15.55,17.1,,False,10,15.47,15.3,False,O,15.55,measured,61.1093,61.1093,0.729,73.9016
+AND_A01,44,Carapa guianensis,Meliaceae,296166.2743,9717885.729,O,53.2,False,14.42,23.13,53.8,,False,10,30.35,53.2,False,O,23.13,measured,1025.3582,1025.3582,0.53,908.4337
+AND_A01,45,Dimorphandra macrostachya,Fabaceae,296176.2169,9717887.555,O,18.1,False,13.96,18.36,22.5,,False,10,18.53,18.1,False,O,18.36,measured,99.7675,99.7675,0.695,115.1571
+AND_A01,46,Lecythis idatimon,Lecythidaceae,296179.438,9717885.962,O,11.2,False,7.33,9.65,11.3,,False,10,11.6,11.2,False,O,9.65,measured,20.8657,20.8657,0.7986,27.5814
+AND_A01,47,Banara guianensis,Salicaceae,296182.6375,9717881.474,O,14.4,False,13.08,16.05,,,True,10,,14.4,False,O,16.05,measured,55.9922,55.9922,0.61,56.9029
+AND_A01,48,Inga grandis,Fabaceae,296183.0631,9717880.29,O,12.2,False,10.91,15.75,15.8,,False,10,14.66,12.2,False,O,15.75,measured,39.7723,39.7723,0.5786,38.3846
+AND_A01,49,Simarouba amara,Simaroubaceae,296182.8879,9717877.846,O,11.1,False,12.11,15.22,,,True,10,,11.1,False,O,15.22,measured,31.9866,31.9866,0.3833,20.6568
+AND_A01,50,,,296158.8941,9717876.955,O,57.0,True,,6.12,,,True,10,,57.0,True,O,6.12,measured,320.4777,287.9863,0.6431,287.9863
+AND_A01,51,Eschweilera coriacea,Lecythidaceae,296143.2814,9717864.838,O,41.2,False,19.06,28.49,43.7,,False,10,27.33,41.2,False,O,28.49,measured,762.9918,762.9918,0.8521,1074.4712
+AND_A01,52,Lecythis idatimon,Lecythidaceae,296136.1889,9717886.309,O,37.6,False,20.39,32.53,38.0,,False,10,25.35,37.6,False,O,32.53,measured,726.4682,726.4682,0.7986,960.283
+AND_A01,53,Pouteria gongrijpii,Sapotaceae,296138.6637,9717888.26,O,40.8,False,22.73,32.73,40.8,,False,10,26.35,40.8,False,O,32.73,measured,857.1496,857.1496,0.7994,1134.1717
+AND_A01,54,Eschweilera coriacea,Lecythidaceae,296138.218,9717892.275,O,48.0,False,20.61,26.98,,,True,10,,48.0,False,O,26.98,measured,974.8561,974.8561,0.8521,1372.8257
+AND_A01,114,Eperua bijuga,Fabaceae,296168.8349,9717921.972,O,,,,,10.7,11.64,,10,11.15,,False,O,11.15,feldpausch,,,0.729,
+AND_A01,115,Pouteria sp.,Sapotaceae,296159.223,9717920.288,O,,,,,23.5,18.85,,10,19.05,,False,O,19.05,feldpausch,,,0.7187,
+AND_A01,116,,,296154.6674,9717917.422,O,,,,,11.2,11.97,True,10,11.53,,False,O,11.53,feldpausch,,,0.6431,
+AND_A01,117,Eperua bijuga,Fabaceae,296154.5459,9717913.349,O,,,,,10.7,11.64,,10,11.15,,False,O,11.15,feldpausch,,,0.729,
+AND_A01,118,Pouteria sp.,Sapotaceae,296155.1217,9717913.245,O,,,,,16.6,15.27,,10,15.16,,False,O,15.16,feldpausch,,,0.7187,
+AND_A01,119,Eschweilera coriacea,Lecythidaceae,296155.2557,9717912.88,O,,,,,12.7,12.95,,10,12.6,,False,O,12.6,feldpausch,,,0.8521,
+AND_A01,120,Cordia scabrifolia,Boraginaceae,296158.9817,9717912.979,O,,,,,27.6,20.74,,10,21.05,,False,O,21.05,feldpausch,,,0.474,
+AND_A01,121,Sacoglottis guianensis,Humiriaceae,296161.6096,9717916.09,O,,,,,13.2,13.26,,10,12.95,,False,O,12.95,feldpausch,,,0.8359,
+AND_A01,122,Lecythis idatimon,Lecythidaceae,296160.7631,9717911.038,O,,,,,16.4,15.16,,10,15.04,,False,O,15.04,feldpausch,,,0.7986,
+AND_A01,123,Eperua bijuga,Fabaceae,296163.7186,9717913.238,O,,,,,11.9,12.43,,10,12.03,,False,O,12.03,feldpausch,,,0.729,
+AND_A01,124,Eriotheca globosa,Malvaceae,296162.9917,9717910.81,O,,,,,11.5,12.17,,10,11.75,,False,O,11.75,feldpausch,,,0.41,
+AND_A01,125,Pouteria gongrijpii,Sapotaceae,296162.6268,9717911.813,O,,,,,15.4,14.59,,10,14.41,,False,O,14.41,feldpausch,,,0.7994,
+AND_A01,126,,,296164.3937,9717908.427,O,,,,,23.0,18.61,True,10,18.79,,False,O,18.79,feldpausch,,,0.6431,
+AND_A01,127,Pouteria sp.,Sapotaceae,296167.2331,9717909.454,O,,,,,12.5,12.82,,10,12.46,,False,O,12.46,feldpausch,,,0.7187,
+AND_A01,128,Poeppigia procera,Fabaceae,296168.1135,9717905.545,O,,,,,19.0,16.59,,10,16.6,,False,O,16.6,feldpausch,,,0.735,
+AND_A01,129,Inga thibaudiana,Fabaceae,296165.6531,9717904.96,O,,,,,14.7,14.18,,10,13.95,,False,O,13.95,feldpausch,,,0.5786,
+AND_A01,130,Eperua bijuga,Fabaceae,296166.0921,9717901.401,O,,,,,10.7,11.64,,10,11.15,,False,O,11.15,feldpausch,,,0.729,
+AND_A01,131,Sagotia racemosa,Euphorbiaceae,296166.2196,9717901.344,O,,,,,13.2,13.26,,10,12.95,,False,O,12.95,feldpausch,,,0.58,
+AND_A01,132,Inga thibaudiana,Fabaceae,296167.9315,9717901.039,O,,,,,14.7,14.18,,10,13.95,,False,O,13.95,feldpausch,,,0.5786,
+AND_A01,133,,,296163.2755,9717899.752,O,,,,,15.5,14.65,True,10,14.47,,False,O,14.47,feldpausch,,,0.6431,
+AND_A01,134,,,296164.3667,9717895.597,O,,,,,13.2,13.26,True,10,12.95,,False,O,12.95,feldpausch,,,0.6431,
+AND_A01,135,Eriotheca globosa,Malvaceae,296168.3714,9717893.963,O,,,,,13.4,13.39,,10,13.08,,False,O,13.08,feldpausch,,,0.41,
+AND_A01,136,,,296167.6807,9717890.603,O,,,,,20.3,17.26,,10,17.33,,False,O,17.33,feldpausch,,,0.6431,
+AND_A01,137,Pouteria sp.,Sapotaceae,296168.6511,9717890.858,O,,,,,26.7,20.34,,10,20.62,,False,O,20.62,feldpausch,,,0.7187,
+AND_A01,138,Lecythis idatimon,Lecythidaceae,296164.903,9717888.022,O,,,,,12.4,12.76,,10,12.39,,False,O,12.39,feldpausch,,,0.7986,
+AND_A01,139,Inga thibaudiana,Fabaceae,296168.6796,9717887.865,O,,,,,16.0,14.93,,10,14.79,,False,O,14.79,feldpausch,,,0.5786,
+AND_A01,140,Oenocarpus bacaba,Arecaceae,296169.6152,9717888.211,P,,,,,16.1,14.99,,10,14.85,,False,P,14.85,feldpausch,,,0.65,
+AND_A01,141,Eriotheca globosa,Malvaceae,296171.5947,9717891.531,O,,,,,17.7,15.89,,10,15.83,,False,O,15.83,feldpausch,,,0.41,
+AND_A01,142,Tetragastris panamensis,Burseraceae,296178.1835,9717887.976,O,,,,,10.5,11.5,,10,11.0,,False,O,11.0,feldpausch,,,0.7173,
+AND_A01,143,Inga alba,Fabaceae,296178.4134,9717887.338,O,,,,,12.1,12.56,,10,12.18,,False,O,12.18,feldpausch,,,0.5861,
+AND_A01,144,Protium hebetatum,Burseraceae,296172.9362,9717883.748,O,,,,,18.2,16.16,,10,16.13,,False,O,16.13,feldpausch,,,0.5773,
+AND_A01,145,,,296174.1761,9717879.755,O,,,,,29.9,21.74,True,10,22.09,,False,O,22.09,feldpausch,,,0.6431,
+AND_A01,146,,,296174.2158,9717879.355,O,,,,,28.4,21.1,,10,21.41,,False,O,21.41,feldpausch,,,0.6431,
+AND_A01,147,Eriotheca globosa,Malvaceae,296175.9755,9717878.874,O,,,,,17.5,15.78,,10,15.71,,False,O,15.71,feldpausch,,,0.41,
+AND_A01,148,Hymenaea parvifolia,Fabaceae,296168.2584,9717872.239,O,,,,,11.6,12.24,,10,11.82,,False,O,11.82,feldpausch,,,0.8774,
+AND_A01,149,Eriotheca globosa,Malvaceae,296167.9188,9717878.349,O,,,,,17.7,15.89,,10,15.83,,False,O,15.83,feldpausch,,,0.41,
+AND_A01,150,Eriotheca globosa,Malvaceae,296172.0754,9717881.458,O,,,,,10.5,11.5,,10,11.0,,False,O,11.0,feldpausch,,,0.41,
+AND_A01,151,Eriotheca globosa,Malvaceae,296166.0148,9717880.65,O,,,,,10.1,11.22,,10,10.7,,False,O,10.7,feldpausch,,,0.41,
+AND_A01,152,Lecythis idatimon,Lecythidaceae,296164.8395,9717881.251,O,,,,,25.7,19.89,,10,20.14,,False,O,20.14,feldpausch,,,0.7986,
+AND_A01,153,Protium paniculatum,Burseraceae,296166.6721,9717882.037,O,,,,,17.4,15.72,,10,15.65,,False,O,15.65,feldpausch,,,0.49,
+AND_A01,154,Lecythis idatimon,Lecythidaceae,296166.9449,9717882.45,O,,,,,11.5,12.17,,10,11.75,,False,O,11.75,feldpausch,,,0.7986,
+AND_A01,155,Eperua bijuga,Fabaceae,296160.5921,9717872.379,O,,,,,37.7,24.88,,10,25.24,,False,O,25.24,feldpausch,,,0.729,
+AND_A01,55,Lecythis idatimon,Lecythidaceae,296223.1956,9717776.357,O,13.8,False,12.14,16.99,,,True,11,,13.8,False,O,16.99,measured,54.472,54.472,0.7986,72.0039
+AND_A01,56,Diospyros guianensis,Ebenaceae,296225.6201,9717771.725,O,26.2,False,14.83,22.12,27.6,,False,11,21.05,26.2,False,O,22.12,measured,246.3174,246.3174,0.73,298.2789
+AND_A01,57,Pouteria gongrijpii,Sapotaceae,296229.7272,9717766.516,O,65.1,False,17.51,24.53,,,True,11,,65.1,False,O,24.53,measured,1610.3326,1610.3326,0.7994,2130.7759
+AND_A01,58,Cecropia palmata,Urticaceae,296229.9605,9717762.698,O,13.0,False,14.68,16.93,,,True,11,,13.0,False,O,16.93,measured,48.3111,48.3111,0.3404,27.7823
+AND_A01,59,Eschweilera coriacea,Lecythidaceae,296214.0494,9717753.252,O,56.8,False,17.11,27.65,57.8,,False,11,31.39,56.8,False,O,27.65,measured,1386.8934,1386.8934,0.8521,1953.0707
+AND_A01,60,Inga alba,Fabaceae,296234.8492,9717750.652,O,15.1,False,10.88,16.23,,,True,11,,15.1,False,O,16.23,measured,62.1004,62.1004,0.5861,60.697
+AND_A01,61,Inga alba,Fabaceae,296234.8492,9717750.652,O,16.4,False,9.46,17.01,,,True,11,,16.4,False,O,17.01,measured,76.3842,76.3842,0.5861,74.658
+AND_A01,62,Stryphnodendron paniculatum,Fabaceae,296199.4513,9717750.612,O,55.4,False,34.23,45.25,69.2,,False,11,33.99,55.4,False,O,45.25,measured,2136.3652,2136.3652,0.6535,2322.0928
+AND_A01,63,Cordia scabrifolia,Boraginaceae,296193.6237,9717754.885,O,49.2,False,30.27,40.23,53.3,,False,11,30.21,49.2,False,O,40.23,measured,1510.8363,1510.8363,0.474,1200.3322
+AND_A01,64,Couratari stellata,Lecythidaceae,296201.6713,9717758.3,O,68.0,False,25.97,38.55,69.5,,False,11,34.05,68.0,False,O,38.55,measured,2725.6989,2725.6989,0.6331,2872.5522
+AND_A01,156,Lecythis idatimon,Lecythidaceae,296219.2986,9717784.51,O,,,,,13.5,13.45,,11,13.15,,False,O,13.15,feldpausch,,,0.7986,
+AND_A01,157,Rinorea guianensis,Violaceae,296218.2769,9717782.581,O,,,,,32.8,22.95,,11,23.32,,False,O,23.32,feldpausch,,,0.78,
+AND_A01,158,Licania guianensis,Chrysobalanaceae,296219.38,9717777.062,O,,,,,16.9,15.44,,11,15.35,,False,O,15.35,feldpausch,,,0.8165,
+AND_A01,159,Micrandra minor,Euphorbiaceae,296218.667,9717775.679,O,,,,,33.2,23.12,,11,23.48,,False,O,23.48,feldpausch,,,0.41,
+AND_A01,160,Pouteria sp.,Sapotaceae,296217.5503,9717775.873,O,,,,,13.5,13.45,,11,13.15,,False,O,13.15,feldpausch,,,0.7187,
+AND_A01,161,Tetragastris panamensis,Burseraceae,296214.9996,9717774.931,O,,,,,27.5,20.7,,11,21.0,,False,O,21.0,feldpausch,,,0.7173,
+AND_A01,162,Oenocarpus bacaba,Arecaceae,296214.6404,9717774.783,P,,,,,15.3,14.53,,11,14.34,,False,P,14.34,feldpausch,,,0.65,
+AND_A01,163,Lecythis idatimon,Lecythidaceae,296208.3019,9717778.763,O,,,,,32.5,22.83,,11,23.2,,False,O,23.2,feldpausch,,,0.7986,
+AND_A01,164,Oenocarpus bacaba,Arecaceae,296209.3037,9717777.525,P,,,,,16.8,15.39,,11,15.29,,False,P,15.29,feldpausch,,,0.65,
+AND_A01,165,Pouteria cladantha,Sapotaceae,296216.1016,9717771.559,O,,,,,21.5,17.87,,11,17.99,,False,O,17.99,feldpausch,,,0.9423,
+AND_A01,166,,,296209.5989,9717770.064,O,,,,,24.2,19.19,True,11,19.4,,False,O,19.4,feldpausch,,,0.6431,
+AND_A01,167,Lecythis idatimon,Lecythidaceae,296211.6011,9717767.593,O,,,,,20.9,17.57,,11,17.67,,False,O,17.67,feldpausch,,,0.7986,
+AND_A01,168,Tetragastris panamensis,Burseraceae,296213.9076,9717767.019,O,,,,,22.2,18.22,,11,18.37,,False,O,18.37,feldpausch,,,0.7173,
+AND_A01,169,Tachigali myrmecophila,Fabaceae,296218.9696,9717767.395,O,,,,,14.7,14.18,,11,13.95,,False,O,13.95,feldpausch,,,0.476,
+AND_A01,170,Luehea speciosa,Malvaceae,296219.4059,9717769.221,O,,,,,15.4,14.59,,11,14.41,,False,O,14.41,feldpausch,,,0.5766,
+AND_A01,171,Simaba cedron,Simaroubaceae,296214.642,9717761.376,O,,,,,11.5,12.17,,11,11.75,,False,O,11.75,feldpausch,,,0.4743,
+AND_A01,172,Lecythis lurida,Lecythidaceae,296214.0323,9717761.337,O,,,,,14.5,14.06,,11,13.82,,False,O,13.82,feldpausch,,,0.8633,
+AND_A01,173,Euterpe oleracea,Arecaceae,296217.705,9717761.803,P,,,,,13.6,13.51,,11,13.22,,False,P,13.22,feldpausch,,,0.3877,
+AND_A01,174,,,296218.4598,9717759.593,O,,,,,13.3,13.32,,11,13.02,,False,O,13.02,feldpausch,,,0.6431,
+AND_A01,175,,,296223.1751,9717769.171,O,,,,,15.1,14.41,True,11,14.21,,False,O,14.21,feldpausch,,,0.6431,
+AND_A01,176,,,296221.4313,9717755.699,O,,,,,13.6,13.51,True,11,13.22,,False,O,13.22,feldpausch,,,0.6431,
+AND_A01,177,,,296220.1646,9717753.598,O,,,,,23.3,18.76,True,11,18.94,,False,O,18.94,feldpausch,,,0.6431,
+AND_A01,178,Eperua bijuga,Fabaceae,296223.6527,9717757.219,O,,,,,23.8,19.0,,11,19.2,,False,O,19.2,feldpausch,,,0.729,
+AND_A01,179,Eriotheca globosa,Malvaceae,296223.3012,9717756.516,O,,,,,,,,11,,,False,O,,feldpausch,,,0.41,
+AND_A01,180,Eschweilera coriacea,Lecythidaceae,296222.2856,9717742.779,O,,,,,32.0,22.63,,11,22.99,,False,O,22.99,feldpausch,,,0.8521,
+AND_A01,181,,,296229.5886,9717742.211,O,,,,,12.2,12.63,True,11,12.25,,False,O,12.25,feldpausch,,,0.6431,
+AND_A01,182,,,296230.7033,9717737.734,O,,,,,10.8,11.7,True,11,11.23,,False,O,11.23,feldpausch,,,0.6431,
+AND_A01,183,Cordia scabrifolia,Boraginaceae,296226.7092,9717745.333,O,,,,,13.2,13.26,,11,12.95,,False,O,12.95,feldpausch,,,0.474,
+AND_A01,184,Cordia scabrifolia,Boraginaceae,296237.0595,9717744.963,O,,,,,11.8,12.37,,11,11.96,,False,O,11.96,feldpausch,,,0.474,
+AND_A01,185,Cordia scabrifolia,Boraginaceae,296238.5187,9717744.424,O,,,,,13.6,13.51,,11,13.22,,False,O,13.22,feldpausch,,,0.474,
+AND_A01,187,,,296229.4573,9717735.045,O,,,,,15.0,14.35,True,11,14.15,,False,O,14.15,feldpausch,,,0.6431,
+AND_A01,188,Eriotheca globosa,Malvaceae,296225.5399,9717738.693,O,,,,,12.8,13.01,,11,12.67,,False,O,12.67,feldpausch,,,0.41,
+AND_A01,189,,,296224.5308,9717734.322,O,,,,,23.2,18.71,True,11,18.89,,False,O,18.89,feldpausch,,,0.6431,
+AND_A01,65,Sagotia racemosa,Euphorbiaceae,296278.1762,9717644.475,O,10.1,False,5.7,9.6,10.7,,False,12,11.15,10.1,False,O,9.6,measured,16.9665,16.9665,0.58,16.4143
+AND_A01,66,Lacunaria jenmanii,Quiinaceae,296279.3924,9717638.334,O,11.0,False,9.87,12.07,11.1,,False,12,11.45,11.0,False,O,12.07,measured,25.0614,25.0614,0.8043,33.3607
+AND_A01,67,Lacunaria jenmanii,Quiinaceae,296282.3636,9717636.246,O,10.1,False,,6.58,10.6,,False,12,11.08,10.1,False,O,6.58,measured,11.735,11.735,0.8043,15.6212
+AND_A01,68,Carapa guianensis,Meliaceae,296284.6538,9717622.86,O,12.4,False,12.77,20.85,15.4,,False,12,14.41,12.4,False,O,20.85,measured,53.9843,53.9843,0.53,47.8283
+AND_A01,69,,,296275.3239,9717641.046,O,70.0,True,,21.47,,,True,12,,70.0,True,O,21.47,measured,1629.1465,1212.5347,0.6431,1212.5347
+AND_A01,70,,,296277.3739,9717646.802,L,11.0,False,,,,,True,12,,11.0,False,L,,feldpausch,,,0.6431,
+AND_A01,71,Lecythis idatimon,Lecythidaceae,296290.5781,9717619.682,O,19.1,False,18.01,23.92,,,True,12,,19.1,False,O,23.92,measured,143.4527,143.4527,0.7986,189.6231
+AND_A01,72,Couepia robusta,Chrysobalanaceae,296288.8955,9717616.413,O,95.0,False,40.89,48.5,,,True,12,,95.0,False,O,48.5,measured,6550.2987,6550.2987,0.83,8990.9525
+AND_A01,73,,,296294.678,9717605.935,O,10.1,False,4.22,7.93,,,True,12,,10.1,False,O,7.93,measured,14.0795,14.0795,0.6431,15.0657
+AND_A01,74,Lecythis idatimon,Lecythidaceae,296295.9783,9717605.319,O,28.4,False,18.66,23.91,29.5,,False,12,21.91,28.4,False,O,23.91,measured,311.0511,311.0511,0.7986,411.1633
+AND_A01,75,Eschweilera coriacea,Lecythidaceae,296294.3606,9717606.906,O,20.0,False,19.47,26.31,,,,12,,20.0,False,O,26.31,measured,172.2302,172.2302,0.8521,242.5404
+AND_A01,76,Symphonia globulifera,Clusiaceae,296279.7972,9717597.353,O,41.3,False,18.94,29.35,45.1,,False,12,27.79,41.3,False,O,29.35,measured,789.1884,789.1884,0.6004,789.7019
+AND_A01,77,Laetia procera,Salicaceae,296270.0675,9717595.96,O,58.3,False,23.55,35.64,59.4,,False,12,31.79,58.3,False,O,35.64,measured,1869.5492,1869.5492,0.6481,2015.6907
+AND_A01,78,Lecythis idatimon,Lecythidaceae,296270.961,9717596.282,O,36.5,False,17.72,24.38,37.8,,False,12,25.28,36.5,False,O,24.38,measured,517.37,517.37,0.7986,683.8862
+AND_A01,79,,,296259.8143,9717600.545,O,46.3,False,20.16,24.25,53.1,,False,12,30.16,46.3,False,O,24.25,measured,818.754,818.754,0.6431,876.1073
+AND_A01,80,Eschweilera coriacea,Lecythidaceae,296259.197,9717597.2,O,47.5,False,24.44,32.26,48.0,,False,12,28.69,47.5,False,O,32.26,measured,1137.1638,1137.1638,0.8521,1601.393
+AND_A01,81,,,296255.2484,9717596.775,O,74.5,True,,21.16,,,True,12,,74.5,True,O,21.16,measured,1813.8987,1357.1999,0.6431,1357.1999
+AND_A01,190,,,296271.9951,9717645.15,O,,,,,15.2,14.47,True,12,14.28,,False,O,14.28,feldpausch,,,0.6431,
+AND_A01,191,,,296271.6937,9717645.13,O,,,,,15.9,14.88,True,12,14.73,,False,O,14.73,feldpausch,,,0.6431,
+AND_A01,192,Eschweilera coriacea,Lecythidaceae,296272.9727,9717641.703,O,,,,,17.1,15.55,,12,15.47,,False,O,15.47,feldpausch,,,0.8521,
+AND_A01,193,,,296275.9412,9717641.528,O,,,,,31.8,22.54,True,12,22.9,,False,O,22.9,feldpausch,,,0.6431,
+AND_A01,194,Sacoglottis guianensis,Humiriaceae,296275.1995,9717636.805,O,,,,,23.1,18.66,,12,18.84,,False,O,18.84,feldpausch,,,0.8359,
+AND_A01,195,Tapirira guianensis,Anacardiaceae,296276.0672,9717630.036,O,,,,,38.1,25.03,,12,25.39,,False,O,25.39,feldpausch,,,0.457,
+AND_A01,196,Carapa guianensis,Meliaceae,296277.1873,9717629.836,O,,,,,13.2,13.26,,12,12.95,,False,O,12.95,feldpausch,,,0.53,
+AND_A01,197,,,296280.3257,9717627.601,O,,,,,11.2,11.97,True,12,11.53,,False,O,11.53,feldpausch,,,0.6431,
+AND_A01,198,Sagotia racemosa,Euphorbiaceae,296283.1137,9717632.133,O,,,,,10.9,11.77,,12,11.3,,False,O,11.3,feldpausch,,,0.58,
+AND_A01,199,Tetragastris panamensis,Burseraceae,296280.5337,9717622.116,O,,,,,38.7,25.25,,12,25.61,,False,O,25.61,feldpausch,,,0.7173,
+AND_A01,200,Byrsonima crispa,Malpighiaceae,296278.1974,9717622.5,O,,,,,18.2,16.16,,12,16.13,,False,O,16.13,feldpausch,,,0.58,
+AND_A01,201,Xylopia nitida,Annonaceae,296277.6524,9717621.85,O,,,,,24.7,19.42,,12,19.65,,False,O,19.65,feldpausch,,,0.5483,
+AND_A01,202,Tapirira guianensis,Anacardiaceae,296272.8665,9717621.688,O,,,,,39.7,25.62,,12,25.97,,False,O,25.97,feldpausch,,,0.457,
+AND_A01,203,,,296271.3086,9717624.091,O,,,,,13.3,13.32,True,12,13.02,,False,O,13.02,feldpausch,,,0.6431,
+AND_A01,204,,,296270.1578,9717624.601,O,,,,,33.4,23.2,True,12,23.57,,False,O,23.57,feldpausch,,,0.6431,
+AND_A01,205,Pouteria sp.,Sapotaceae,296279.0583,9717618.607,O,,,,,21.8,18.02,,12,18.15,,False,O,18.15,feldpausch,,,0.7187,
+AND_A01,206,Eperua bijuga,Fabaceae,296280.5199,9717600.693,O,,,,,21.7,17.97,,12,18.1,,False,O,18.1,feldpausch,,,0.729,
+AND_A01,1,Tapirira guianensis,Anacardiaceae,295925.3044,9717977.854,O,17.4,False,7.98,10.77,,,True,13,,17.4,False,O,10.77,measured,54.8852,54.8852,0.457,42.0783
+AND_A01,2,Goupia glabra,Goupiaceae,295926.0078,9717973.415,O,53.5,False,19.09,26.48,55.7,,False,13,30.85,53.5,False,O,26.48,measured,1182.9741,1182.9741,0.7272,1427.1397
+AND_A01,3,Caryocar villosum,Caryocaraceae,295929.5611,9717974.226,O,14.9,False,10.19,13.71,23.2,,False,13,18.89,14.9,False,O,13.71,measured,51.3179,51.3179,0.758,64.4689
+AND_A01,4,Tapirira guianensis,Anacardiaceae,295927.9482,9717970.193,O,12.7,False,9.81,14.34,,,True,13,,12.7,False,O,14.34,measured,39.2534,39.2534,0.457,30.094
+AND_A01,5,Vataireopsis speciosa,Fabaceae,295929.6581,9717964.331,O,28.0,False,7.91,9.3,,,True,13,,28.0,False,O,9.3,measured,120.3795,120.3795,0.65,130.1608
+AND_A01,6,Brosimum rubescens ,Moraceae,295936.8793,9717958.327,O,29.9,False,22.0,28.87,31.0,,False,13,22.56,29.9,False,O,28.87,measured,413.3966,413.3966,0.8251,564.1879
+AND_A01,7,Pouteria guianensis,Sapotaceae,295936.5279,9717955.202,O,14.6,False,6.98,12.33,,,True,13,,14.6,False,O,12.33,measured,44.469,44.469,0.9295,68.17
+AND_A01,8,Lecythis idatimon,Lecythidaceae,295934.265,9717953.132,O,28.4,False,9.18,14.26,,,True,13,,28.4,False,O,14.26,measured,187.8273,187.8273,0.7986,248.2798
+AND_A01,9,,,295940.7152,9717948.19,O,30.1,True,,5.96,,,True,13,,30.1,True,O,5.96,measured,89.7972,78.5858,0.6431,78.5858
+AND_A01,10,Cecropia palmata,Urticaceae,295941.9574,9717943.223,O,12.2,False,6.87,9.66,,,True,13,,12.2,False,O,9.66,measured,24.6816,24.6816,0.3404,14.1936
+AND_A01,11,,,295919.7354,9717927.456,O,66.3,True,,24.18,,,True,13,,66.3,True,O,24.18,measured,1645.54,1198.8194,0.6431,1198.8194
+AND_A01,12,Lecythis lurida,Lecythidaceae,295908.334,9717921.672,O,39.7,False,16.43,22.15,44.1,,False,13,27.46,39.7,False,O,22.15,measured,555.117,555.117,0.8633,791.8066
+AND_A01,13,Inga thibaudiana,Fabaceae,295904.2616,9717933.843,O,38.0,False,12.82,23.89,,,True,13,,38.0,False,O,23.89,measured,548.7029,548.7029,0.5786,529.5581
+AND_A01,14,Lecythis pisonis,Lecythidaceae,295897.2367,9717927.677,O,110.0,False,16.33,29.56,,,True,13,,110.0,False,O,29.56,measured,5378.5689,5378.5689,0.857,7616.9376
+AND_A01,130,,,295936.9131,9717932.607,O,,,,,30.7,22.08,True,13,22.43,,False,O,22.43,feldpausch,,,0.6431,
+AND_A01,131,,,295937.427,9717933.689,O,,,,,17.2,15.61,True,13,15.53,,False,O,15.53,feldpausch,,,0.6431,
+AND_A01,133,,,295940.6061,9717934.457,O,,,,,10.5,11.5,True,13,11.0,,False,O,11.0,feldpausch,,,0.6431,
+AND_A01,134,,,295925.7698,9717938.612,O,,,,,15.2,14.47,True,13,14.28,,False,O,14.28,feldpausch,,,0.6431,
+AND_A01,135,,,295925.3152,9717939.723,O,,,,,14.1,13.82,True,13,13.56,,False,O,13.56,feldpausch,,,0.6431,
+AND_A01,136,,,295931.6729,9717942.402,O,,,,,16.4,15.16,True,13,15.04,,False,O,15.04,feldpausch,,,0.6431,
+AND_A01,137,Vatairea sericea,Fabaceae,295930.6514,9717942.298,O,,,,,34.0,23.44,,13,23.81,,False,O,23.81,feldpausch,,,0.665,
+AND_A01,138,,,295927.374,9717941.46,O,,,,,14.7,14.18,True,13,13.95,,False,O,13.95,feldpausch,,,0.6431,
+AND_A01,139,,,295929.4916,9717953.056,O,,,,,18.6,16.37,True,13,16.36,,False,O,16.36,feldpausch,,,0.6431,
+AND_A01,140,Eperua bijuga,Fabaceae,295929.5982,9717953.321,O,,,,,14.7,14.18,,13,13.95,,False,O,13.95,feldpausch,,,0.729,
+AND_A01,141,,,295927.2672,9717955.382,O,,,,,12.4,12.76,True,13,12.39,,False,O,12.39,feldpausch,,,0.6431,
+AND_A01,142,,,295925.1745,9717955.79,O,,,,,15.4,14.59,True,13,14.41,,False,O,14.41,feldpausch,,,0.6431,
+AND_A01,143,,,295922.254,9717956.381,O,,,,,19.7,16.95,True,13,17.0,,False,O,17.0,feldpausch,,,0.6431,
+AND_A01,144,,,295920.4329,9717956.899,O,,,,,10.8,11.7,True,13,11.23,,False,O,11.23,feldpausch,,,0.6431,
+AND_A01,145,,,295919.3686,9717975.956,O,,,,,18.2,16.16,True,13,16.13,,False,O,16.13,feldpausch,,,0.6431,
+AND_A01,146,,,295925.1702,9717978.457,O,,,,,11.2,11.97,True,13,11.53,,False,O,11.53,feldpausch,,,0.6431,
+AND_A01,147,,,295921.4406,9717978.324,O,,,,,16.5,15.22,True,13,15.1,,False,O,15.1,feldpausch,,,0.6431,
+AND_A01,148,Pouteria sp.,Sapotaceae,295917.5214,9717976.776,O,,,,,16.4,15.16,True,13,15.04,,False,O,15.04,feldpausch,,,0.7187,
+AND_A01,149,,,295914.6942,9717976.269,O,,,,,13.3,13.32,True,13,13.02,,False,O,13.02,feldpausch,,,0.6431,
+AND_A01,150,,,295913.8228,9717975.216,O,,,,,22.7,18.47,True,13,18.63,,False,O,18.63,feldpausch,,,0.6431,
+AND_A01,151,,,295912.6677,9717973.268,O,,,,,27.5,20.7,True,13,21.0,,False,O,21.0,feldpausch,,,0.6431,
+AND_A01,152,,,295915.4962,9717976.961,O,,,,,12.5,12.82,True,13,12.46,,False,O,12.46,feldpausch,,,0.6431,
+AND_A01,28,Ormosia grossa,Fabaceae,296045.4744,9717702.259,O,17.6,False,14.68,17.06,,,,15,,17.6,False,O,17.06,measured,87.9251,87.9251,0.5906,86.5783
+AND_A01,29,Couepia sp.,Chrysobalanaceae,296045.3843,9717702.22,O,26.5,False,14.6,19.11,,,,15,,26.5,False,O,19.11,measured,218.3469,218.3469,0.7861,284.2338
+AND_A01,31,,,296044.3793,9717703.936,O,45.0,True,,21.3,,,True,15,,45.0,True,O,21.3,measured,682.3858,497.8506,0.6431,497.8506
+AND_A01,32,Pouteria guianensis,Sapotaceae,296054.8479,9717677.835,O,13.7,False,7.91,11.35,,,True,15,,13.7,False,O,11.35,measured,36.2256,36.2256,0.9295,55.533
+AND_A01,33,,,296058.913,9717668.737,O,22.3,True,,7.12,,,True,15,,22.3,True,O,7.12,measured,59.4802,49.8882,0.6431,49.8882
+AND_A01,34,Protium paniculatum,Burseraceae,296059.0543,9717665.794,O,16.7,False,9.38,12.82,,,True,15,,16.7,False,O,12.82,measured,60.0485,60.0485,0.49,49.2785
+AND_A01,35,,,296061.7941,9717663.101,O,14.3,True,,1.76,,,True,15,,14.3,True,O,1.76,measured,6.387,6.5397,0.6431,6.5397
+AND_A01,36,,,296058.6209,9717660.676,O,46.0,True,,23.99,,,True,15,,46.0,True,O,23.99,measured,799.9696,573.3765,0.6431,573.3765
+AND_A01,37,Jacaratia spinosa,Caricaceae,296045.9057,9717663.828,O,49.4,False,13.83,18.66,56.5,,False,15,31.06,49.4,False,O,18.66,measured,719.4911,719.4911,0.265,324.0692
+AND_A01,38,Jacaratia spinosa,Caricaceae,296032.0764,9717656.854,O,58.5,False,14.8,20.58,56.8,,False,15,31.14,58.5,False,O,20.58,measured,1101.2137,1101.2137,0.265,496.0026
+AND_A01,39,Micropholis sp.,Sapotaceae,296029.159,9717651.325,O,45.9,False,22.39,34.44,49.0,,False,15,28.99,45.9,False,O,34.44,measured,1133.6857,1133.6857,0.6511,1227.8554
+AND_A01,40,Eschweilera coriacea,Lecythidaceae,296025.4922,9717647.62,O,45.7,False,22.89,31.45,46.8,,False,15,28.32,45.7,False,O,31.45,measured,1028.7145,1028.7145,0.8521,1448.6709
+AND_A01,41,Eschweilera coriacea,Lecythidaceae,296021.0423,9717653.215,O,35.0,False,16.64,26.62,,,True,15,,35.0,False,O,26.62,measured,519.3792,519.3792,0.8521,731.4076
+AND_A01,42,Eschweilera coriacea,Lecythidaceae,296025.6091,9717657.306,O,45.0,False,14.63,27.25,53.2,,False,15,30.18,45.0,False,O,27.25,measured,867.8591,867.8591,0.8521,1222.1489
+AND_A01,43,Eperua bijuga,Fabaceae,296027.3865,9717658.065,O,37.5,False,12.64,17.34,39.3,,False,15,25.82,37.5,False,O,17.34,measured,391.0944,391.0944,0.729,472.964
+AND_A01,44,Lecythis idatimon,Lecythidaceae,296005.0207,9717683.623,O,37.5,False,16.42,23.08,38.5,,False,15,25.53,37.5,False,O,23.08,measured,516.9968,516.9968,0.7986,683.3929
+AND_A01,45,Carapa guianensis,Meliaceae,296012.4316,9717691.301,O,76.5,False,19.2,29.0,78.1,,False,15,35.69,76.5,False,O,29.0,measured,2598.1741,2598.1741,0.53,2301.897
+AND_A01,46,Sacoglottis guianensis,Humiriaceae,296016.7982,9717691.031,O,39.5,False,21.22,26.69,42.8,,False,15,27.04,39.5,False,O,26.69,measured,659.378,659.378,0.8359,911.2965
+AND_A01,47,Eperua bijuga,Fabaceae,296025.8138,9717694.899,O,35.9,False,14.26,19.12,35.9,,False,15,24.56,35.9,False,O,19.12,measured,395.1275,395.1275,0.729,477.8413
+AND_A01,84,Protium hebetatum,Burseraceae,296052.209,9717656.012,O,,,,,27.3,20.61,,15,20.91,,False,O,20.91,feldpausch,,,0.5773,
+AND_A01,85,Simarouba amara,Simaroubaceae,296048.36,9717659.087,O,,,,,28.8,21.27,,15,21.59,,False,O,21.59,feldpausch,,,0.3833,
+AND_A01,86,,,296048.7969,9717661.846,O,,,,,11.8,12.37,True,15,11.96,,False,O,11.96,feldpausch,,,0.6431,
+AND_A01,87,Licania guianensis,Chrysobalanaceae,296051.9023,9717661.884,O,,,,,23.7,18.95,,15,19.15,,False,O,19.15,feldpausch,,,0.8165,
+AND_A01,88,Pouteria gongrijpii,Sapotaceae,296055.0437,9717659.258,O,,,,,29.0,21.36,,15,21.68,,False,O,21.68,feldpausch,,,0.7994,
+AND_A01,89,Licania guianensis,Chrysobalanaceae,296054.8722,9717665.082,O,,,,,20.5,17.37,,15,17.45,,False,O,17.45,feldpausch,,,0.8165,
+AND_A01,90,Pouteria guianensis,Sapotaceae,296054.4167,9717668.533,O,,,,,13.2,13.26,,15,12.95,,False,O,12.95,feldpausch,,,0.9295,
+AND_A01,91,Cordia scabrifolia,Boraginaceae,296048.3097,9717665.604,O,,,,,17.1,15.55,,15,15.47,,False,O,15.47,feldpausch,,,0.474,
+AND_A01,92,,,296045.9057,9717663.828,O,,,,,11.2,11.97,True,15,11.53,,False,O,11.53,feldpausch,,,0.6431,
+AND_A01,93,Tapirira guianensis,Anacardiaceae,296044.6449,9717664.362,O,,,,,21.2,17.72,,15,17.83,,False,O,17.83,feldpausch,,,0.457,
+AND_A01,94,Cordia scabrifolia,Boraginaceae,296049.0121,9717671.587,O,,,,,11.6,12.24,,15,11.82,,False,O,11.82,feldpausch,,,0.474,
+AND_A01,95,Tapirira guianensis,Anacardiaceae,296046.3783,9717671.641,O,,,,,15.2,14.47,,15,14.28,,False,O,14.28,feldpausch,,,0.457,
+AND_A01,96,Cecropia palmata,Urticaceae,296044.3362,9717672.806,O,,,,,16.0,14.93,,15,14.79,,False,O,14.79,feldpausch,,,0.3404,
+AND_A01,97,Inga thibaudiana,Fabaceae,296043.8905,9717672.615,O,,,,,13.5,13.45,,15,13.15,,False,O,13.15,feldpausch,,,0.5786,
+AND_A01,98,Inga thibaudiana,Fabaceae,296050.2946,9717681.359,O,,,,,13.8,13.63,,15,13.36,,False,O,13.36,feldpausch,,,0.5786,
+AND_A01,99,Cecropia palmata,Urticaceae,296040.8773,9717677.439,O,,,,,19.2,16.69,,15,16.71,,False,O,16.71,feldpausch,,,0.3404,
+AND_A01,100,Simaba cedron,Simaroubaceae,296042.2194,9717680.587,O,,,,,14.1,13.82,,15,13.56,,False,O,13.56,feldpausch,,,0.4743,
+AND_A01,101,,,296044.7911,9717682.009,O,,,,,18.0,16.05,True,15,16.01,,False,O,16.01,feldpausch,,,0.6431,
+AND_A01,102,Couratari stellata,Lecythidaceae,296052.6493,9717674.214,O,,,,,18.2,16.16,,15,16.13,,False,O,16.13,feldpausch,,,0.6331,
+AND_A01,103,Pouteria sp.,Sapotaceae,296040.581,9717695.01,O,,,,,18.2,16.16,,15,16.13,,False,O,16.13,feldpausch,,,0.7187,
+AND_A01,104,Tapirira guianensis,Anacardiaceae,296036.6043,9717691.803,O,,,,,22.6,18.42,,15,18.58,,False,O,18.58,feldpausch,,,0.457,
+AND_A01,105,,,296026.8376,9717697.054,O,,,,,14.2,13.88,True,15,13.62,,False,O,13.62,feldpausch,,,0.6431,
+AND_A01,106,,,296036.0766,9717700.91,O,,,,,13.0,13.14,True,15,12.81,,False,O,12.81,feldpausch,,,0.6431,
+AND_A01,107,,,296037.5341,9717699.926,O,,,,,13.0,13.14,True,15,12.81,,False,O,12.81,feldpausch,,,0.6431,
+AND_A01,108,Licania guianensis,Chrysobalanaceae,296046.2677,9717705.82,O,,,,,31.9,22.58,,15,22.95,,False,O,22.95,feldpausch,,,0.8165,
+AND_A01,109,,,296046.7189,9717706.013,O,,,,,11.5,12.17,True,15,11.75,,False,O,11.75,feldpausch,,,0.6431,
+AND_A01,110,Stryphnodendron paniculatum,Fabaceae,296038.1892,9717695.701,O,,,,,44.3,27.26,,15,27.53,,False,O,27.53,feldpausch,,,0.6535,
+AND_A01,48,Eschweilera coriacea,Lecythidaceae,296102.1731,9717568.061,O,39.5,False,21.15,31.53,,,True,16,,39.5,False,O,31.53,measured,775.8412,775.8412,0.8521,1092.566
+AND_A01,49,Eschweilera coriacea,Lecythidaceae,296099.0959,9717567.82,O,47.2,False,16.18,21.98,,,True,16,,47.2,False,O,21.98,measured,772.3506,772.3506,0.8521,1087.6505
+AND_A01,51,Lecythis idatimon,Lecythidaceae,296090.7307,9717553.088,O,44.4,False,26.03,35.61,47.3,,False,16,28.48,44.4,False,O,35.61,measured,1097.7071,1097.7071,0.7986,1451.0057
+AND_A01,52,Cordia scabrifolia,Boraginaceae,296108.0239,9717557.238,O,12.8,False,8.87,10.4,17.0,,False,16,15.41,12.8,False,O,10.4,measured,29.1312,29.1312,0.474,23.1443
+AND_A01,53,Eschweilera coriacea,Lecythidaceae,296105.1338,9717549.343,O,60.0,False,16.78,29.94,,,True,16,,60.0,False,O,29.94,measured,1668.1446,1668.1446,0.8521,2349.1382
+AND_A01,54,Lecythis pisonis,Lecythidaceae,296095.6936,9717544.223,O,105.0,False,30.54,42.23,,,,16,,105.0,False,O,42.23,measured,6957.1021,6957.1021,0.857,9852.4001
+AND_A01,55,Eschweilera coriacea,Lecythidaceae,296091.5345,9717539.174,O,52.0,False,23.71,37.33,,,,16,,52.0,False,O,37.33,measured,1564.6882,1564.6882,0.8521,2203.4474
+AND_A01,56,Diospyros guianensis,Ebenaceae,296116.5201,9717541.408,O,24.9,False,12.97,16.57,26.1,,False,16,20.34,24.9,False,O,16.57,measured,168.2289,168.2289,0.73,203.7174
+AND_A01,57,Dialium guianense,Fabaceae,296118.3636,9717530.012,O,21.7,False,11.03,14.77,,,True,16,,21.7,False,O,14.77,measured,114.9597,114.9597,0.8964,170.1
+AND_A01,58,Couratari stellata,Lecythidaceae,296120.1971,9717530.209,O,15.3,False,10.28,13.07,,,True,16,,15.3,False,O,13.07,measured,51.5779,51.5779,0.6331,54.3567
+AND_A01,59,Dialium guianense,Fabaceae,296121.5717,9717529.996,O,22.5,False,12.21,15.6,,,True,16,,22.5,False,O,15.6,measured,130.1399,130.1399,0.8964,192.5615
+AND_A01,60,Sagotia racemosa,Euphorbiaceae,296121.8359,9717526.023,O,11.8,False,5.12,9.66,,,True,16,,11.8,False,O,9.66,measured,23.1266,23.1266,0.58,22.3739
+AND_A01,61,Lecythis idatimon,Lecythidaceae,296094.8041,9717522.027,O,40.8,False,17.17,30.48,42.5,,False,16,26.93,40.8,False,O,30.48,measured,799.5911,799.5911,0.7986,1056.9405
+AND_A01,62,Eschweilera coriacea,Lecythidaceae,296098.0307,9717514.672,O,58.2,False,20.78,30.26,,,True,16,,58.2,False,O,30.26,measured,1588.2484,1588.2484,0.8521,2236.6257
+AND_A01,63,Pouteria sp.,Sapotaceae,296090.275,9717510.472,O,45.7,False,24.81,34.48,,,True,16,,45.7,False,O,34.48,measured,1125.3374,1125.3374,0.7187,1342.1911
+AND_A01,64,Eschweilera coriacea,Lecythidaceae,296077.5325,9717512.82,O,74.8,False,13.93,27.16,,,True,16,,74.8,False,O,27.16,measured,2332.5559,2332.5559,0.8521,3284.7849
+AND_A01,65,Tetragastris panamensis,Burseraceae,296079.0536,9717516.655,O,50.2,False,25.53,29.12,,,True,16,,50.2,False,O,29.12,measured,1146.2652,1146.2652,0.7173,1364.5618
+AND_A01,66,Simarouba amara,Simaroubaceae,296083.6719,9717520.702,O,54.3,False,24.93,34.85,59.3,,False,16,31.76,54.3,False,O,34.85,measured,1592.1349,1592.1349,0.3833,1028.1938
+AND_A01,67,Apeiba petoumo,Malvaceae,296072.1108,9717537.438,O,67.2,False,23.67,39.78,,,True,16,,67.2,False,O,39.78,measured,2746.3655,2746.3655,0.2822,1315.5321
+AND_A01,68,,,296096.5423,9717561.584,O,,,,,14.5,14.06,True,16,13.82,,False,O,13.82,feldpausch,,,0.6431,
+AND_A01,69,,,296097.8315,9717556.496,O,,,,,14.8,14.23,True,16,14.02,,False,O,14.02,feldpausch,,,0.6431,
+AND_A01,70,,,296101.2836,9717553.006,O,,,,,15.0,14.35,True,16,14.15,,False,O,14.15,feldpausch,,,0.6431,
+AND_A01,71,,,296102.9649,9717551.846,O,,,,,35.1,23.87,True,16,24.25,,False,O,24.25,feldpausch,,,0.6431,
+AND_A01,72,,,296099.2993,9717552.927,O,,,,,14.2,13.88,True,16,13.62,,False,O,13.62,feldpausch,,,0.6431,
+AND_A01,73,,,296101.7994,9717549.91,O,,,,,10.7,11.64,True,16,11.15,,False,O,11.15,feldpausch,,,0.6431,
+AND_A01,74,,,296104.7781,9717550.63,O,,,,,15.3,14.53,True,16,14.34,,False,O,14.34,feldpausch,,,0.6431,
+AND_A01,75,Inga thibaudiana,Fabaceae,296107.1902,9717544.687,O,,,,,12.2,12.63,,16,12.25,,False,O,12.25,feldpausch,,,0.5786,
+AND_A01,76,,,296098.5208,9717540.7,O,,,,,21.5,17.87,True,16,17.99,,False,O,17.99,feldpausch,,,0.6431,
+AND_A01,77,,,296103.7707,9717535.546,O,,,,,22.3,18.27,True,16,18.42,,False,O,18.42,feldpausch,,,0.6431,
+AND_A01,78,,,296107.9037,9717534.627,O,,,,,11.0,11.84,True,16,11.38,,False,O,11.38,feldpausch,,,0.6431,
+AND_A01,79,,,296112.4563,9717530.348,O,,,,,19.5,16.85,True,16,16.88,,False,O,16.88,feldpausch,,,0.6431,
+AND_A01,80,Couepia sp.,Chrysobalanaceae,296109.7811,9717538.82,O,,,,,27.6,20.74,,16,21.05,,False,O,21.05,feldpausch,,,0.7861,
+AND_A01,81,Guatteria schomburgkiana,Annonaceae,296114.7262,9717536.791,O,,,,,18.0,16.05,,16,16.01,,False,O,16.01,feldpausch,,,0.6,
+AND_A01,82,,,296113.4419,9717525.7,O,,,,,11.5,12.17,True,16,11.75,,False,O,11.75,feldpausch,,,0.6431,
+AND_A01,83,,,296113.8524,9717524.77,O,,,,,13.6,13.51,True,16,13.22,,False,O,13.22,feldpausch,,,0.6431,
+AND_A01,1,,,295749.1852,9717890.843,O,47.5,True,,36.16,,,True,17,,47.5,True,O,36.16,measured,1271.1522,855.2194,0.6431,855.2194
+AND_A01,2,Lecythis idatimon,Lecythidaceae,295750.186,9717890.482,O,20.3,False,9.46,14.44,,,True,17,,20.3,False,O,14.44,measured,98.7258,98.7258,0.7986,130.5008
+AND_A01,3,Eschweilera coriacea,Lecythidaceae,295758.1035,9717861.259,O,31.7,False,12.26,17.99,,,True,17,,31.7,False,O,17.99,measured,292.0376,292.0376,0.8521,411.2573
+AND_A01,4,Carapa guianensis,Meliaceae,295741.2166,9717864.159,O,41.6,False,9.99,13.61,44.4,,False,17,27.56,41.6,False,O,13.61,measured,378.0736,378.0736,0.53,334.9608
+AND_A01,5,Eschweilera coriacea,Lecythidaceae,295738.0627,9717861.28,O,41.5,False,4.42,6.95,37.1,,False,17,25.01,41.5,False,O,6.95,measured,195.2845,195.2845,0.8521,275.0063
+AND_A01,6,,,295762.5453,9717861.952,O,12.1,True,,3.74,,,True,17,,12.1,True,O,3.74,measured,9.6201,8.6744,0.6431,8.6744
+AND_A01,7,Eperua bijuga,Fabaceae,295760.0447,9717860.846,O,13.0,False,5.68,11.98,14.5,,False,17,13.82,13.0,False,O,11.98,measured,34.4708,34.4708,0.729,41.6868
+AND_A01,8,Lecythis idatimon,Lecythidaceae,295759.6988,9717859.087,O,15.6,False,7.57,12.81,16.7,,False,17,15.22,15.6,False,O,12.81,measured,52.5301,52.5301,0.7986,69.4369
+AND_A01,9,Eperua bijuga,Fabaceae,295763.1363,9717857.545,O,11.5,False,9.11,10.46,13.7,,False,17,13.29,11.5,False,O,10.46,measured,23.7687,23.7687,0.729,28.7443
+AND_A01,10,Anacardium spruceanum,Anacardiaceae,295715.7483,9717869.805,O,63.9,False,22.12,30.4,,,True,17,,63.9,False,O,30.4,measured,1914.6217,1914.6217,0.4792,1537.3129
+AND_A01,11,Eperua bijuga,Fabaceae,295705.4335,9717875.53,O,37.2,False,15.3,22.58,,,True,17,,37.2,False,O,22.58,measured,498.1901,498.1901,0.729,602.4785
+AND_A01,12,,,295703.4802,9717883.894,O,71.5,True,,31.19,,,True,17,,71.5,True,O,31.19,measured,2444.6973,1717.0231,0.6431,1717.0231
+AND_A01,13,Caryocar glabrum,Caryocaraceae,295728.0723,9717894.128,O,44.5,False,18.09,29.29,48.2,,False,17,28.75,44.5,False,O,29.29,measured,911.1241,911.1241,0.6536,990.4395
+AND_A01,121,Inga alba,Fabaceae,295754.2744,9717859.406,O,,,,,31.2,22.29,,17,22.65,,False,O,22.65,feldpausch,,,0.5861,
+AND_A01,122,Lecythis idatimon,Lecythidaceae,295757.7341,9717858.518,O,,,,,10.7,11.64,,17,11.15,,False,O,11.15,feldpausch,,,0.7986,
+AND_A01,123,Tachigali paniculata,Fabaceae,295752.4823,9717859.231,O,,,,,35.3,23.95,,17,24.32,,False,O,24.32,feldpausch,,,0.5545,
+AND_A01,124,,,295752.1352,9717861.363,O,,,,,10.0,11.15,True,17,10.62,,False,O,10.62,feldpausch,,,0.6431,
+AND_A01,125,Eperua bijuga,Fabaceae,295750.1076,9717860.988,O,,,,,20.2,17.21,,17,17.28,,False,O,17.28,feldpausch,,,0.729,
+AND_A01,126,Eschweilera coriacea,Lecythidaceae,295751.8621,9717864.606,O,,,,,29.1,21.4,,17,21.73,,False,O,21.73,feldpausch,,,0.8521,
+AND_A01,127,Eschweilera coriacea,Lecythidaceae,295752.5486,9717868.12,O,,,,,35.1,23.87,,17,24.25,,False,O,24.25,feldpausch,,,0.8521,
+AND_A01,128,,,295743.3463,9717865.546,O,,,,,15.0,14.35,True,17,14.15,,False,O,14.15,feldpausch,,,0.6431,
+AND_A01,129,Eschweilera coriacea,Lecythidaceae,295743.59,9717868.888,O,,,,,11.5,12.17,,17,11.75,,False,O,11.75,feldpausch,,,0.8521,
+AND_A01,130,Eschweilera coriacea,Lecythidaceae,295742.1368,9717872.421,O,,,,,21.0,17.62,,17,17.72,,False,O,17.72,feldpausch,,,0.8521,
+AND_A01,131,,,295742.3358,9717872.716,O,,,,,14.0,13.75,,17,13.49,,False,O,13.49,feldpausch,,,0.6431,
+AND_A01,132,Sterigmapetalum obovatum,Rhizophoraceae,295738.9534,9717869.755,O,,,,,17.7,15.89,,17,15.83,,False,O,15.83,feldpausch,,,0.77,
+AND_A01,133,Goupia glabra,Goupiaceae,295742.2111,9717874.828,O,,,,,30.8,22.13,,17,22.48,,False,O,22.48,feldpausch,,,0.7272,
+AND_A01,134,,,295745.3454,9717874.987,O,,,,,13.7,13.57,True,17,13.29,,False,O,13.29,feldpausch,,,0.6431,
+AND_A01,135,Vatairea sericea,Fabaceae,295744.9129,9717878.056,O,,,,,35.8,24.15,,17,24.52,,False,O,24.52,feldpausch,,,0.665,
+AND_A01,136,Sterigmapetalum obovatum,Rhizophoraceae,295741.7243,9717881.118,O,,,,,14.8,14.23,,17,14.02,,False,O,14.02,feldpausch,,,0.77,
+AND_A01,137,Tapirira guianensis,Anacardiaceae,295742.6586,9717883.429,O,,,,,20.1,17.16,,17,17.22,,False,O,17.22,feldpausch,,,0.457,
+AND_A01,138,,,295741.7753,9717886.535,O,,,,,14.0,13.75,True,17,13.49,,False,O,13.49,feldpausch,,,0.6431,
+AND_A01,139,Croton matourensis,Euphorbiaceae,295739.1288,9717892.832,O,,,,,20.8,17.52,,17,17.61,,False,O,17.61,feldpausch,,,0.3883,
+AND_A01,140,Pouteria guianensis,Sapotaceae,295738.0968,9717892.321,O,,,,,19.0,16.59,,17,16.6,,False,O,16.6,feldpausch,,,0.9295,
+AND_A01,14,Lecythis idatimon,Lecythidaceae,295805.3607,9717754.572,O,13.7,False,11.74,15.93,,,True,18,,13.7,False,O,15.93,measured,50.4315,50.4315,0.7986,66.6629
+AND_A01,15,Sloanea guianensis,Elaeocarpaceae,295810.9366,9717745.668,O,18.1,False,2.24,10.23,21.4,,False,18,17.94,18.1,False,O,10.23,measured,56.3752,56.3752,0.8212,76.5798
+AND_A01,16,Manilkara huberi,Sapotaceae,295808.0161,9717737.614,O,49.7,False,23.69,33.32,,,True,18,,49.7,False,O,33.32,measured,1282.0602,1282.0602,0.9214,1948.5768
+AND_A01,17,Eschweilera coriacea,Lecythidaceae,295816.0487,9717735.527,O,26.5,False,13.29,19.67,,,True,18,,26.5,False,O,19.67,measured,224.5896,224.5896,0.8521,316.2748
+AND_A01,19,Eschweilera parviflora,Lecythidaceae,295815.6297,9717726.876,O,52.8,False,25.75,34.74,,,True,18,,52.8,False,O,34.74,measured,1502.7682,1502.7682,0.918,2275.8878
+AND_A01,20,Vismia latifolia,Hypericaceae,295817.6668,9717724.512,O,17.2,False,13.2,19.96,,,True,18,,17.2,False,O,19.96,measured,97.9871,97.9871,0.43,70.7878
+AND_A01,21,,,295822.0807,9717720.775,O,10.8,True,,6.69,,,True,18,,10.8,True,O,6.69,measured,13.5931,11.12,0.6431,11.12
+AND_A01,22,Carapa guianensis,Meliaceae,295822.4903,9717719.773,O,48.0,False,29.45,40.26,,,True,18,,48.0,False,O,40.26,measured,1440.789,1440.789,0.53,1276.4918
+AND_A01,23,Sterculia pruriens,Malvaceae,295803.3601,9717717.687,O,47.3,False,20.67,25.13,48.5,,False,18,28.84,47.3,False,O,25.13,measured,883.8478,883.8478,0.4862,719.8355
+AND_A01,24,Lecythis idatimon,Lecythidaceae,295774.3058,9717710.259,O,37.2,False,24.26,32.99,45.0,,False,18,27.76,37.2,False,O,32.99,measured,721.2763,721.2763,0.7986,953.42
+AND_A01,25,Chimarrhis turbinata,Rubiaceae,295771.3324,9717725.093,O,51.0,False,30.58,44.46,,,True,18,,51.0,False,O,44.46,measured,1786.7174,1786.7174,0.72,2134.6996
+AND_A01,26,,,295774.9579,9717731.872,O,39.2,True,,5.15,,,True,18,,39.2,True,O,5.15,measured,130.4004,118.2742,0.6431,118.2742
+AND_A01,27,,,295769.1403,9717738.088,O,58.6,True,,34.31,,,True,18,,58.6,True,O,34.31,measured,1819.5645,1246.892,0.6431,1246.892
+AND_A01,28,Lecythis idatimon,Lecythidaceae,295763.6947,9717743.394,O,42.5,False,17.84,26.68,,,True,18,,42.5,False,O,26.68,measured,760.3845,760.3845,0.7986,1005.1153
+AND_A01,101,Inga thibaudiana,Fabaceae,295812.104,9717719.829,O,,,,,15.7,14.76,,18,14.6,,False,O,14.6,feldpausch,,,0.5786,
+AND_A01,102,Zollernia paraensis,Fabaceae,295811.6738,9717718.274,O,,,,,14.6,14.12,,18,13.89,,False,O,13.89,feldpausch,,,0.99,
+AND_A01,103,,,295812.348,9717716.633,O,,,,,14.3,13.94,,18,13.69,,False,O,13.69,feldpausch,,,0.6431,
+AND_A01,104,,,295806.8638,9717716.971,O,,,,,18.0,16.05,,18,16.01,,False,O,16.01,feldpausch,,,0.6431,
+AND_A01,105,Pouteria sp.,Sapotaceae,295804.3528,9717717.874,O,,,,,10.5,11.5,,18,11.0,,False,O,11.0,feldpausch,,,0.7187,
+AND_A01,106,,,295805.5283,9717722.814,O,,,,,11.5,12.17,True,18,11.75,,False,O,11.75,feldpausch,,,0.6431,
+AND_A01,107,,,295803.2835,9717727.226,O,,,,,12.7,12.95,True,18,12.6,,False,O,12.6,feldpausch,,,0.6431,
+AND_A01,108,Tetragastris panamensis,Burseraceae,295802.7863,9717727.133,O,,,,,30.2,21.87,,18,22.22,,False,O,22.22,feldpausch,,,0.7173,
+AND_A01,109,Croton matourensis,Euphorbiaceae,295801.9924,9717727.24,O,,,,,30.1,21.83,,18,22.17,,False,O,22.17,feldpausch,,,0.3883,
+AND_A01,110,,,295798.2609,9717732.654,O,,,,,16.5,15.22,True,18,15.1,,False,O,15.1,feldpausch,,,0.6431,
+AND_A01,111,Cecropia palmata,Urticaceae,295799.3513,9717735.215,O,,,,,11.8,12.37,,18,11.96,,False,O,11.96,feldpausch,,,0.3404,
+AND_A01,112,Cecropia palmata,Urticaceae,295798.2702,9717733.933,O,,,,,10.4,11.43,,18,10.93,,False,O,10.93,feldpausch,,,0.3404,
+AND_A01,113,,,295798.9055,9717732.912,O,,,,,15.7,14.76,True,18,14.6,,False,O,14.6,feldpausch,,,0.6431,
+AND_A01,114,,,295799.5217,9717737.407,O,,,,,17.5,15.78,True,18,15.71,,False,O,15.71,feldpausch,,,0.6431,
+AND_A01,115,,,295797.1146,9717738.04,O,,,,,10.2,11.29,True,18,10.78,,False,O,10.78,feldpausch,,,0.6431,
+AND_A01,116,,,295807.8795,9717743.179,O,,,,,12.6,12.89,True,18,12.53,,False,O,12.53,feldpausch,,,0.6431,
+AND_A01,117,,,295808.1562,9717743.289,O,,,,,12.5,12.82,True,18,12.46,,False,O,12.46,feldpausch,,,0.6431,
+AND_A01,118,,,295808.7382,9717741.084,O,,,,,19.9,17.06,True,18,17.11,,False,O,17.11,feldpausch,,,0.6431,
+AND_A01,119,,,295801.7914,9717744.678,O,,,,,22.5,18.37,,18,18.53,,False,O,18.53,feldpausch,,,0.6431,
+AND_A01,120,,,295798.309,9717758.135,O,,,,,12.7,12.95,True,18,12.6,,False,O,12.6,feldpausch,,,0.6431,
+AND_A01,29,Sterculia pruriens,Malvaceae,295860.8579,9717621.678,O,16.2,False,10.89,14.05,19.6,,False,19,16.94,16.2,False,O,14.05,measured,61.8822,61.8822,0.4862,50.399
+AND_A01,30,Eschweilera coriacea,Lecythidaceae,295862.3001,9717619.379,O,21.1,False,11.55,16.69,24.2,,False,19,19.4,21.1,False,O,16.69,measured,122.6245,122.6245,0.8521,172.6841
+AND_A01,31,Lecythis lurida,Lecythidaceae,295857.6777,9717610.779,O,39.1,False,16.0,23.69,40.0,,False,19,26.07,39.1,False,O,23.69,measured,575.3939,575.3939,0.8633,820.7291
+AND_A01,32,Neea oppositifolia,Nyctaginaceae,295865.4331,9717614.086,O,14.2,False,8.46,10.22,16.1,,False,19,14.85,14.2,False,O,10.22,measured,35.0713,35.0713,0.893,51.702
+AND_A01,33,Tetragastris panamensis,Burseraceae,295867.0468,9717610.821,O,10.8,False,9.18,15.49,,,True,19,,10.8,False,O,15.49,measured,30.8457,30.8457,0.7173,36.72
+AND_A01,34,Eschweilera coriacea,Lecythidaceae,295861.2929,9717591.904,O,40.8,False,16.27,22.78,,,True,19,,40.8,False,O,22.78,measured,601.7856,601.7856,0.8521,847.455
+AND_A01,35,Croton matourensis,Euphorbiaceae,295859.1194,9717598.848,O,42.5,False,30.2,39.99,,,True,19,,42.5,False,O,39.99,measured,1128.705,1128.705,0.3883,738.1907
+AND_A01,36,Eschweilera coriacea,Lecythidaceae,295858.2298,9717589.298,O,42.6,False,22.15,28.85,50.2,,False,19,29.34,42.6,False,O,28.85,measured,824.4618,824.4618,0.8521,1161.0353
+AND_A01,37,,,295848.212,9717585.625,O,38.3,True,,30.53,,,True,19,,38.3,True,O,30.53,measured,707.8774,484.1317,0.6431,484.1317
+AND_A01,38,Tachigali myrmecophila,Fabaceae,295826.3156,9717606.256,O,59.3,False,35.2,39.39,71.0,,False,19,34.35,59.3,False,O,39.39,measured,2130.8858,2130.8858,0.476,1699.9218
+AND_A01,39,,,295848.3503,9717617.585,O,46.8,True,,50.25,,,True,19,,46.8,True,O,50.25,measured,1702.5089,1086.627,0.6431,1086.627
+AND_A01,40,Tetragastris panamensis,Burseraceae,295847.1773,9717613.53,O,35.0,False,12.9,15.01,,,True,19,,35.0,False,O,15.01,measured,296.9129,296.9129,0.7173,353.4575
+AND_A01,41,Pouteria sp.,Sapotaceae,295850.8987,9717614.276,O,48.6,False,33.48,43.63,42.2,,False,19,26.83,48.6,False,O,43.63,measured,1596.6328,1596.6328,0.7187,1904.3056
+AND_A01,42,Micropholis sp.,Sapotaceae,295851.6728,9717616.979,O,52.0,False,27.44,32.18,53.5,,False,19,30.27,52.0,False,O,32.18,measured,1353.64,1353.64,0.6511,1466.0802
+AND_A01,80,,,295874.4478,9717577.819,O,,,,,11.9,12.43,True,19,12.03,,False,O,12.03,feldpausch,,,0.6431,
+AND_A01,81,,,295876.3567,9717583.034,O,,,,,13.0,13.14,,19,12.81,,False,O,12.81,feldpausch,,,0.6431,
+AND_A01,82,Cecropia palmata,Urticaceae,295876.446,9717583.305,O,,,,,14.0,13.75,,19,13.49,,False,O,13.49,feldpausch,,,0.3404,
+AND_A01,83,Cecropia palmata,Urticaceae,295877.6345,9717590.512,O,,,,,19.0,16.59,,19,16.6,,False,O,16.6,feldpausch,,,0.3404,
+AND_A01,84,Cecropia palmata,Urticaceae,295875.2074,9717591.666,O,,,,,10.9,11.77,,19,11.3,,False,O,11.3,feldpausch,,,0.3404,
+AND_A01,85,Tapirira guianensis,Anacardiaceae,295869.9034,9717601.799,O,,,,,15.5,14.65,,19,14.47,,False,O,14.47,feldpausch,,,0.457,
+AND_A01,86,,,295870.2743,9717604.293,O,,,,,10.7,11.64,True,19,11.15,,False,O,11.15,feldpausch,,,0.6431,
+AND_A01,87,Pouteria gongrijpii,Sapotaceae,295868.4651,9717606.881,O,,,,,10.9,11.77,,19,11.3,,False,O,11.3,feldpausch,,,0.7994,
+AND_A01,88,Cecropia palmata,Urticaceae,295865.8798,9717606.766,O,,,,,15.1,14.41,,19,14.21,,False,O,14.21,feldpausch,,,0.3404,
+AND_A01,89,Lecythis idatimon,Lecythidaceae,295864.3244,9717615.275,O,,,,,11.6,12.24,,19,11.82,,False,O,11.82,feldpausch,,,0.7986,
+AND_A01,90,Inga thibaudiana,Fabaceae,295862.2392,9717614.227,O,,,,,11.2,11.97,,19,11.53,,False,O,11.53,feldpausch,,,0.5786,
+AND_A01,91,Cecropia palmata,Urticaceae,295860.1199,9717614.321,O,,,,,14.6,14.12,,19,13.89,,False,O,13.89,feldpausch,,,0.3404,
+AND_A01,92,Cordia scabrifolia,Boraginaceae,295860.9493,9717604.336,O,,,,,23.1,18.66,,19,18.84,,False,O,18.84,feldpausch,,,0.474,
+AND_A01,93,,,295856.744,9717611.003,O,,,,,23.8,19.0,,19,19.2,,False,O,19.2,feldpausch,,,0.6431,
+AND_A01,94,Sagotia racemosa,Euphorbiaceae,295855.8433,9717616.792,O,,,,,15.3,14.53,,19,14.34,,False,O,14.34,feldpausch,,,0.58,
+AND_A01,95,Pouteria sp.,Sapotaceae,295858.2335,9717620.335,O,,,,,18.4,16.27,,19,16.25,,False,O,16.25,feldpausch,,,0.7187,
+AND_A01,96,Euterpe oleracea,Arecaceae,295859.1515,9717627.819,P,,,,,11.2,11.97,,19,11.53,,False,P,11.53,feldpausch,,,0.3877,
+AND_A01,97,Cordia scabrifolia,Boraginaceae,295853.5036,9717624.653,O,,,,,14.3,13.94,,19,13.69,,False,O,13.69,feldpausch,,,0.474,
+AND_A01,98,Pouteria gongrijpii,Sapotaceae,295849.7059,9717621.174,O,,,,,16.5,15.22,,19,15.1,,False,O,15.1,feldpausch,,,0.7994,
+AND_A01,99,Eschweilera coriacea,Lecythidaceae,295852.1983,9717621.883,O,,,,,11.8,12.37,,19,11.96,,False,O,11.96,feldpausch,,,0.8521,
+AND_A01,100,Pouteria sp.,Sapotaceae,295829.4064,9717601.089,O,,,,,35.2,23.91,,19,24.28,,False,O,24.28,feldpausch,,,0.7187,
+AND_A01,43,Eperua bijuga,Fabaceae,295920.1632,9717487.097,O,18.1,False,12.92,17.08,19.5,,False,20,16.88,18.1,False,O,17.08,measured,92.9731,92.9731,0.729,112.4356
+AND_A01,44,Lecythis idatimon,Lecythidaceae,295920.3876,9717486.577,O,21.1,False,16.83,22.24,22.1,,False,20,18.31,21.1,False,O,22.24,measured,162.2795,162.2795,0.7986,214.5093
+AND_A01,45,Carapa guianensis,Meliaceae,295919.7095,9717486.66,O,55.0,False,18.56,26.0,56.0,,False,20,30.93,55.0,False,O,26.0,measured,1226.4861,1226.4861,0.53,1086.6265
+AND_A01,46,,,295925.5468,9717481.688,O,10.8,True,,10.43,,,True,20,,10.8,True,O,10.43,measured,20.9676,15.9906,0.6431,15.9906
+AND_A01,47,Apeiba petoumo,Malvaceae,295926.1302,9717480.611,O,18.1,False,9.8,13.12,17.8,,False,20,15.89,18.1,False,O,13.12,measured,71.8708,71.8708,0.2822,34.4267
+AND_A01,48,Carapa guianensis,Meliaceae,295926.7368,9717466.681,O,38.5,False,15.18,24.67,,,True,20,,38.5,False,O,24.67,measured,580.8141,580.8141,0.53,514.5822
+AND_A01,49,Annona ambotay,Annonaceae,295931.9188,9717465.146,O,18.4,False,9.29,15.99,,,True,20,,18.4,False,O,15.99,measured,90.0205,90.0205,0.5112,76.986
+AND_A01,50,,,295936.1618,9717448.174,O,13.8,False,11.37,14.86,14.8,,False,20,14.02,13.8,False,O,14.86,measured,47.7964,47.7964,0.6431,51.1445
+AND_A01,51,,,295939.2003,9717445.8,O,22.1,True,,9.52,,,True,20,,22.1,True,O,9.52,measured,77.6004,62.1397,0.6431,62.1397
+AND_A01,52,Tapirira guianensis,Anacardiaceae,295893.4027,9717422.633,O,36.3,False,15.13,19.6,,,True,20,,36.3,False,O,19.6,measured,413.657,413.657,0.457,317.1341
+AND_A01,53,Goupia glabra,Goupiaceae,295890.5507,9717451.336,O,44.9,False,24.21,33.87,,,True,20,,44.9,False,O,33.87,measured,1068.4278,1068.4278,0.7272,1288.9511
+AND_A01,54,Chimarrhis turbinata,Rubiaceae,295889.1589,9717455.455,O,39.9,False,9.94,20.02,41.0,,False,20,26.42,39.9,False,O,20.02,measured,507.9123,507.9123,0.72,606.8336
+AND_A01,55,Apeiba petoumo,Malvaceae,295888.3715,9717460.957,O,55.2,False,21.09,33.09,,,True,20,,55.2,False,O,33.09,measured,1562.967,1562.967,0.2822,748.6743
+AND_A01,56,Eschweilera coriacea,Lecythidaceae,295880.0663,9717460.251,O,47.0,False,21.09,33.09,,,True,20,,47.0,False,O,33.09,measured,1141.8781,1141.8781,0.8521,1608.0318
+AND_A01,57,Brosimum rubescens ,Moraceae,295876.2891,9717471.896,O,50.0,False,27.4,36.81,50.9,,False,20,29.54,50.0,False,O,36.81,measured,1429.66,1429.66,0.8251,1951.1452
+AND_A01,58,Simarouba amara,Simaroubaceae,295879.4659,9717471.748,O,59.0,False,27.59,34.04,,,True,20,,59.0,False,O,34.04,measured,1829.7241,1829.7241,0.3833,1181.6279
+AND_A01,59,Tachigali myrmecophila,Fabaceae,295895.1699,9717469.078,O,61.7,False,11.91,16.73,,,True,20,,61.7,False,O,16.73,measured,998.2271,998.2271,0.476,796.3393
+AND_A01,60,,,295904.2412,9717481.816,O,47.7,True,,22.72,,,True,20,,47.7,True,O,22.72,measured,814.2975,589.7097,0.6431,589.7097
+AND_A01,61,Eschweilera coriacea,Lecythidaceae,295916.3009,9717483.589,O,,,,,32.3,22.75,,20,23.11,,False,O,23.11,feldpausch,,,0.8521,
+AND_A01,62,Parkia sp.,Fabaceae,295918.9908,9717477.421,O,,,,,39.7,25.62,,20,25.97,,False,O,25.97,feldpausch,,,0.4553,
+AND_A01,63,Tapirira guianensis,Anacardiaceae,295916.6182,9717476.59,O,,,,,23.5,18.85,,20,19.05,,False,O,19.05,feldpausch,,,0.457,
+AND_A01,64,Couratari stellata,Lecythidaceae,295927.3866,9717438.726,O,,,,,33.1,23.07,,20,23.44,,False,O,23.44,feldpausch,,,0.6331,
+AND_A01,65,Gustavia augusta,Lecythidaceae,295919.9126,9717471.003,O,,,,,11.6,12.24,,20,11.82,,False,O,11.82,feldpausch,,,0.65,
+AND_A01,66,,,295918.8514,9717469.565,O,,,,,11.4,12.11,True,20,11.67,,False,O,11.67,feldpausch,,,0.6431,
+AND_A01,67,,,295918.7947,9717468.086,O,,,,,17.5,15.78,True,20,15.71,,False,O,15.71,feldpausch,,,0.6431,
+AND_A01,68,,,295918.7292,9717467.434,O,,,,,12.8,13.01,True,20,12.67,,False,O,12.67,feldpausch,,,0.6431,
+AND_A01,69,,,295920.459,9717465.921,O,,,,,18.6,16.37,True,20,16.36,,False,O,16.36,feldpausch,,,0.6431,
+AND_A01,70,Gustavia augusta,Lecythidaceae,295918.5602,9717464.85,O,,,,,20.0,17.11,,20,17.17,,False,O,17.17,feldpausch,,,0.65,
+AND_A01,71,Cordia scabrifolia,Boraginaceae,295922.2323,9717469.416,O,,,,,22.4,18.32,,20,18.47,,False,O,18.47,feldpausch,,,0.474,
+AND_A01,72,,,295930.3144,9717458.296,O,,,,,14.1,13.82,True,20,13.56,,False,O,13.56,feldpausch,,,0.6431,
+AND_A01,73,,,295928.5256,9717462.489,O,,,,,11.8,12.37,True,20,11.96,,False,O,11.96,feldpausch,,,0.6431,
+AND_A01,74,Pouteria oppositifolia,Sapotaceae,295934.4098,9717445.934,O,,,,,10.9,11.77,,20,11.3,,False,O,11.3,feldpausch,,,0.65,
+AND_A01,75,Licania octandra,Chrysobalanaceae,295933.0285,9717446.421,O,,,,,14.9,14.29,,20,14.08,,False,O,14.08,feldpausch,,,0.825,
+AND_A01,77,Inga thibaudiana,Fabaceae,295926.6323,9717450.614,O,,,,,22.6,18.42,,20,18.58,,False,O,18.58,feldpausch,,,0.5786,
+AND_A01,78,Sterculia pruriens,Malvaceae,295938.4655,9717448.576,O,,,,,11.5,12.17,,20,11.75,,False,O,11.75,feldpausch,,,0.4862,
+AND_A01,79,Pouteria sp.,Sapotaceae,295924.2192,9717439.329,O,,,,,15.2,14.47,,20,14.28,,False,O,14.28,feldpausch,,,0.7187,

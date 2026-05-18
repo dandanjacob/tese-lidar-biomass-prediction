@@ -1,0 +1,643 @@
+site,tree_id,scientific_name,family_name,wsd,agb_source,dbh,htot,hcom,dead,type,htot_feldpausch,dbh_used,dead_used,type_used,htot_used,htot_source,iagc_m1_kgC,iagc_m2_kgC,rho_w_m3,iagc_m3_kgC
+SFX_A01,1,NI,NI,0.62,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,0.7088,19.096
+SFX_A01,2,NI,NI,0.62,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,0.7088,17.3912
+SFX_A01,3,Jacaranda copaia,Bignoniaceae,0.35,,16.12,,,A,O,14.86,16.12,True,O,14.86,feldpausch,64.7333,47.5884,0.3507,47.5884
+SFX_A01,4,Cecropia ficifolia,Urticaceae,0.27,,29.5,,,A,O,21.91,29.5,True,O,21.91,feldpausch,307.624,218.952,0.266,218.952
+SFX_A01,5,Cecropia ficifolia,Urticaceae,0.27,,36.2,,,A,O,24.67,36.2,True,O,24.67,feldpausch,515.0115,363.3047,0.266,363.3047
+SFX_A01,6,Socratea exorrhiza,Arecaceae,0.62,0.04549853,14.4,,,A,P,13.76,14.4,True,P,13.76,feldpausch,48.181,,0.23,
+SFX_A01,7,Jacaratia spinosa,Caricaceae,0.27,0.011520446,11.0,7.06,6.37,A,O,11.38,11.0,True,O,7.06,measured,14.8488,12.055,0.265,12.055
+SFX_A01,8,Neea oppositifolia,Nyctaginaceae,0.89,,11.7,,,A,O,11.89,11.7,True,O,11.89,feldpausch,27.8572,20.8896,0.893,20.8896
+SFX_A01,9,Attalea maripa,Arecaceae,0.33,0.170173135,29.3,,,A,P,21.82,29.3,True,P,21.82,feldpausch,302.349,,0.326,
+SFX_A01,10,Cassia fastuosa,Fabaceae,0.81,,11.6,,,A,O,11.82,11.6,True,O,11.82,feldpausch,27.2369,20.4351,0.805,20.4351
+SFX_A01,11,Schizolobium amazonicum,Fabaceae,0.49,,19.2,,,A,O,16.71,19.2,True,O,16.71,feldpausch,102.115,74.3116,0.58,74.3116
+SFX_A01,12,Castilla ulei,Moraceae,0.82,,14.8,,,A,O,14.02,14.8,True,O,14.02,feldpausch,51.7652,38.2492,0.5675,38.2492
+SFX_A01,13,Sapium marmieri,Euphorbiaceae,0.41,0.464425677,27.2,30.08,19.78,A,O,20.86,27.2,True,O,30.08,measured,357.716,241.2285,0.41,241.2285
+SFX_A01,14,Castilla ulei,Moraceae,0.82,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,0.5675,19.096
+SFX_A01,15,Clarisia racemosa,Moraceae,0.59,,13.4,,,A,O,13.08,13.4,True,O,13.08,feldpausch,39.8454,29.6247,0.5854,29.6247
+SFX_A01,16,NI,NI,0.62,,10.7,,,A,O,11.15,10.7,True,O,11.15,feldpausch,21.9765,16.5767,0.7088,16.5767
+SFX_A01,17,Theobroma glaucum,Malvaceae,0.53,,13.1,,,A,O,12.88,13.1,True,O,12.88,feldpausch,37.5536,27.9585,0.5297,27.9585
+SFX_A01,18,Sapium marmieri,Euphorbiaceae,0.41,,10.7,,,A,O,11.15,10.7,True,O,11.15,feldpausch,21.9765,16.5767,0.41,16.5767
+SFX_A01,19,Socratea exorrhiza,Arecaceae,0.62,0.054690591,15.9,22.84,18.32,A,P,14.73,15.9,True,P,22.84,measured,95.8684,,0.23,
+SFX_A01,20,Neea oppositifolia,Nyctaginaceae,0.89,,13.0,,,A,O,12.81,13.0,True,O,12.81,feldpausch,36.7999,27.4108,0.893,27.4108
+SFX_A01,21,Inga marginata,Fabaceae,0.57,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,0.5518,19.096
+SFX_A01,22,Guatteria schomburgkiana,Annonaceae,0.6,,22.7,,,A,O,18.63,22.7,True,O,18.63,feldpausch,157.453,113.5391,0.6,113.5391
+SFX_A01,23,Cassia fastuosa,Fabaceae,0.81,,22.7,,,A,O,18.63,22.7,True,O,18.63,feldpausch,157.453,113.5391,0.805,113.5391
+SFX_A01,24,Zanthoxylum rhoifolium,Rutaceae,0.49,,17.6,,,A,O,15.77,17.6,True,O,15.77,feldpausch,81.4301,59.554,0.5692,59.554
+SFX_A01,25,Tabebuia serratifolia,Bignoniaceae,0.92,,20.5,,,A,O,17.45,20.5,True,O,17.45,feldpausch,121.0589,87.772,0.924,87.772
+SFX_A01,26,Dalbergia melanoxylon,Fabaceae,0.8,,55.5,,,A,O,30.8,55.5,True,O,30.8,feldpausch,1472.8079,1023.9528,1.0772,1023.9528
+SFX_A01,27,Tabernaemontana cymosa,Apocynaceae,0.47,,14.0,,,A,O,13.49,14.0,True,O,13.49,feldpausch,44.7295,33.1639,0.47,33.1639
+SFX_A01,28,Hymenaea courbaril,Fabaceae,0.79,,16.6,,,A,O,15.16,16.6,True,O,15.16,feldpausch,69.8995,51.2965,0.7924,51.2965
+SFX_A01,29,Virola melinoni,Myristicaceae,0.48,,15.2,,,A,O,14.28,15.2,True,O,14.28,feldpausch,55.518,40.9557,0.4734,40.9557
+SFX_A01,30,Attalea maripa,Arecaceae,0.33,0.220661455,33.7,,,A,P,23.69,33.7,True,P,23.69,feldpausch,430.4966,,0.326,
+SFX_A01,31,Eschweilera parviflora,Lecythidaceae,0.89,0.048985315,11.3,8.48,5.68,A,O,11.6,11.3,True,O,8.48,measured,18.7148,14.779,0.918,14.779
+SFX_A01,32,Theobroma glaucum,Malvaceae,0.53,,21.9,,,A,O,18.21,21.9,True,O,18.21,feldpausch,143.5721,103.7245,0.5297,103.7245
+SFX_A01,33,Virola melinoni,Myristicaceae,0.48,0.276219667,23.0,21.54,17.64,A,O,18.79,23.0,True,O,21.54,measured,186.1235,131.2533,0.4734,131.2533
+SFX_A01,34,Eschweilera parviflora,Lecythidaceae,0.89,,14.6,,,A,O,13.89,14.6,True,O,13.89,feldpausch,49.9522,36.9399,0.918,36.9399
+SFX_A01,35,Theobroma glaucum,Malvaceae,0.53,,19.4,,,A,O,16.83,19.4,True,O,16.83,feldpausch,104.932,76.3132,0.5297,76.3132
+SFX_A01,36,,,0.58,8.199048089,111.7,35.81,,D,O,40.3,111.7,False,O,35.81,measured,6682.9575,6682.9575,0.7088,7862.9068
+SFX_A01,37,Rinorea racemosa,Violaceae,0.68,,13.4,,,A,O,13.08,13.4,True,O,13.08,feldpausch,39.8454,29.6247,0.682,29.6247
+SFX_A01,38,Inga thibaudiana,Fabaceae,0.58,,23.7,,,A,O,19.15,23.7,True,O,19.15,feldpausch,175.9406,126.5815,0.5786,126.5815
+SFX_A01,39,Cecropia ficifolia,Urticaceae,0.27,,16.9,,,A,O,15.35,16.9,True,O,15.35,feldpausch,73.2719,53.7118,0.266,53.7118
+SFX_A01,40,Cecropia ficifolia,Urticaceae,0.27,,17.1,,,A,O,15.47,17.1,True,O,15.47,feldpausch,75.546,55.342,0.266,55.342
+SFX_A01,41,Nectandra cuspidata,Lauraceae,0.56,2.083963314,44.2,37.42,28.82,A,O,27.5,44.2,True,O,37.42,measured,1142.0214,761.5579,0.518,761.5579
+SFX_A01,42,Dalbergia melanoxylon,Fabaceae,0.8,0.221644242,24.0,9.44,3.68,A,O,19.3,24.0,True,O,9.44,measured,90.4078,72.7795,1.0772,72.7795
+SFX_A01,43,Dalbergia melanoxylon,Fabaceae,0.8,,22.1,,,A,O,18.31,22.1,True,O,18.31,feldpausch,146.9259,106.1019,1.0772,106.1019
+SFX_A01,44,Dalbergia melanoxylon,Fabaceae,0.8,,31.9,,,A,O,22.95,31.9,True,O,22.95,feldpausch,374.9592,265.9262,1.0772,265.9262
+SFX_A01,45,Astrocaryum aculeatum,Arecaceae,0.51,0.158500429,28.2,,,A,P,21.32,28.2,True,P,21.32,feldpausch,274.311,,0.508,
+SFX_A01,46,Socratea exorrhiza,Arecaceae,0.62,0.058584918,16.5,,,A,P,15.1,16.5,True,P,15.1,feldpausch,68.8131,,0.23,
+SFX_A01,47,Theobroma glaucum,Malvaceae,0.53,,12.5,,,A,O,12.46,12.5,True,O,12.46,feldpausch,33.1783,24.775,0.5297,24.775
+SFX_A01,48,Castilla ulei,Moraceae,0.82,,20.7,,,A,O,17.56,20.7,True,O,17.56,feldpausch,124.134,89.9542,0.5675,89.9542
+SFX_A01,49,Inga alba,Fabaceae,0.59,,31.0,,,A,O,22.56,31.0,True,O,22.56,feldpausch,348.7046,247.6363,0.5861,247.6363
+SFX_A01,50,Attalea maripa,Arecaceae,0.33,0.081422011,19.7,,,A,P,17.0,19.7,True,P,17.0,feldpausch,109.1885,,0.326,
+SFX_A01,51,Protium heptaphyllum,Burseraceae,0.62,,17.3,,,A,O,15.59,17.3,True,O,15.59,feldpausch,77.8654,57.0033,0.6293,57.0033
+SFX_A01,52,Neea oppositifolia,Nyctaginaceae,0.89,,17.0,,,A,O,15.41,17.0,True,O,15.41,feldpausch,74.4033,54.523,0.893,54.523
+SFX_A01,53,Socratea exorrhiza,Arecaceae,0.62,0.023547413,10.1,,,A,P,10.7,10.1,True,P,10.7,feldpausch,18.8614,,0.23,
+SFX_A01,54,Cordia scabrifolia,Boraginaceae,0.47,,17.1,,,A,O,15.47,17.1,True,O,15.47,feldpausch,75.546,55.342,0.474,55.342
+SFX_A01,55,Theobroma glaucum,Malvaceae,0.53,,10.5,,,A,O,11.0,10.5,True,O,11.0,feldpausch,20.9036,15.7869,0.5297,15.7869
+SFX_A01,56,Vismia guianensis,Clusiaceae,0.46,,13.0,,,A,O,12.81,13.0,True,O,12.81,feldpausch,36.7999,27.4108,0.475,27.4108
+SFX_A01,57,Attalea maripa,Arecaceae,0.33,0.194661689,31.5,,,A,P,22.78,31.5,True,P,22.78,feldpausch,363.1912,,0.326,
+SFX_A01,58,Protium heptaphyllum,Burseraceae,0.62,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.6293,17.8143
+SFX_A01,59,Theobroma glaucum,Malvaceae,0.53,,12.7,,,A,O,12.6,12.7,True,O,12.6,feldpausch,34.5977,25.8089,0.5297,25.8089
+SFX_A01,60,Socratea exorrhiza,Arecaceae,0.62,0.044913535,14.3,,,A,P,13.69,14.3,True,P,13.69,feldpausch,47.294,,0.23,
+SFX_A01,61,NI,NI,0.62,,13.1,,,A,O,12.88,13.1,True,O,12.88,feldpausch,37.5536,27.9585,0.7088,27.9585
+SFX_A01,1,Dalbergia melanoxylon,Fabaceae,0.8,0.870079309,41.8,12.22,6.72,A,O,26.7,41.8,True,O,12.22,measured,343.5408,272.6693,1.0772,272.6693
+SFX_A01,2,Galipea trifoliata,NI,0.62,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.997,19.9869
+SFX_A01,3,Dalbergia melanoxylon,Fabaceae,0.8,,24.8,,,A,O,19.7,24.8,True,O,19.7,feldpausch,197.6193,141.8522,1.0772,141.8522
+SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,13.0,,,A,O,12.81,13.0,True,O,12.81,feldpausch,36.7999,27.4108,1.0772,27.4108
+SFX_A01,5,Dalbergia melanoxylon,Fabaceae,0.8,0.841349964,38.1,14.23,12.92,A,O,25.39,38.1,True,O,14.23,measured,332.6245,256.5849,1.0772,256.5849
+SFX_A01,6,Dalbergia melanoxylon,Fabaceae,0.8,0.759776106,36.8,13.77,10.63,A,O,24.9,36.8,True,O,13.77,measured,301.0199,233.0253,1.0772,233.0253
+SFX_A01,7,Brosimum rubescens,Moraceae,0.83,,27.7,,,A,O,21.09,27.7,True,O,21.09,feldpausch,262.1078,187.1172,0.8251,187.1172
+SFX_A01,8,Dalbergia melanoxylon,Fabaceae,0.8,1.187526541,38.5,19.66,14.8,A,O,25.53,38.5,True,O,19.66,measured,465.3905,341.2968,1.0772,341.2968
+SFX_A01,9,Swartzia corrugata,Fabaceae,1.06,1.823692784,37.0,24.77,17.28,A,O,24.98,37.0,True,O,24.77,measured,539.5879,380.7978,1.0565,380.7978
+SFX_A01,10,Rinorea racemosa,Violaceae,0.68,,13.5,,,A,O,13.15,13.5,True,O,13.15,feldpausch,40.6391,30.2001,0.682,30.2001
+SFX_A01,11,Neea oppositifolia,Nyctaginaceae,0.89,,18.6,,,A,O,16.36,18.6,True,O,16.36,feldpausch,94.0161,68.5425,0.893,68.5425
+SFX_A01,12,Tetragastris panamensis,Burseraceae,0.73,,25.6,,,A,O,20.09,25.6,True,O,20.09,feldpausch,214.3155,153.595,0.7173,153.595
+SFX_A01,13,Aspidosperma spruceanum,Apocynaceae,0.75,2.610148116,45.6,32.74,23.09,A,O,27.95,45.6,True,O,32.74,measured,1065.3121,726.647,0.7533,726.647
+SFX_A01,14,,,,0.01321884,10.9,,,A,L,11.3,10.9,True,L,11.3,feldpausch,23.0846,17.3912,0.7088,17.3912
+SFX_A01,15,Theobroma glaucum,Malvaceae,0.53,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,0.5297,17.3912
+SFX_A01,16,Dalbergia melanoxylon,Fabaceae,0.8,,24.0,,,A,O,19.3,24.0,True,O,19.3,feldpausch,181.6925,130.6375,1.0772,130.6375
+SFX_A01,17,,,,0.014208072,12.5,,,A,L,12.46,12.5,True,L,12.46,feldpausch,33.1783,24.775,0.7088,24.775
+SFX_A01,18,Dalbergia melanoxylon,Fabaceae,0.8,0.553559217,36.1,10.43,6.62,A,O,24.63,36.1,True,O,10.43,measured,221.0855,178.6613,1.0772,178.6613
+SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,31.8,,,A,O,22.9,31.8,True,O,22.9,feldpausch,371.8757,263.7905,1.0772,263.7905
+SFX_A01,20,Couratari stellata,Lecythidaceae,0.63,,12.1,,,A,O,12.18,12.1,True,O,12.18,feldpausch,30.4544,22.7871,0.6331,22.7871
+SFX_A01,21,Dalbergia melanoxylon,Fabaceae,0.8,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,1.0772,17.3912
+SFX_A01,22,Dalbergia melanoxylon,Fabaceae,0.8,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,1.0772,17.3912
+SFX_A01,23,Dalbergia melanoxylon,Fabaceae,0.8,,15.2,,,A,O,14.28,15.2,True,O,14.28,feldpausch,55.518,40.9557,1.0772,40.9557
+SFX_A01,24,Dalbergia melanoxylon,Fabaceae,0.8,,22.7,,,A,O,18.63,22.7,True,O,18.63,feldpausch,157.453,113.5391,1.0772,113.5391
+SFX_A01,25,,,0.58,0.201631277,30.8,9.01,,D,O,22.48,30.8,False,O,9.01,measured,140.5799,140.5799,0.7088,165.4008
+SFX_A01,26,,,0.58,,32.5,,,D,O,23.2,32.5,False,O,23.2,feldpausch,392.9826,392.9826,0.7088,462.3679
+SFX_A01,27,Bertholletia excelsa,Lecythidaceae,0.64,,13.5,,,A,O,13.15,13.5,True,O,13.15,feldpausch,40.6391,30.2001,0.638,30.2001
+SFX_A01,28,Dalbergia melanoxylon,Fabaceae,0.8,,16.2,,,A,O,14.91,16.2,True,O,14.91,feldpausch,65.5765,48.1941,1.0772,48.1941
+SFX_A01,29,Dalbergia melanoxylon,Fabaceae,0.8,,23.4,,,A,O,18.99,23.4,True,O,18.99,feldpausch,170.2199,122.5532,1.0772,122.5532
+SFX_A01,30,Dalbergia melanoxylon,Fabaceae,0.8,,24.2,,,A,O,19.4,24.2,True,O,19.4,feldpausch,185.5935,133.3865,1.0772,133.3865
+SFX_A01,31,,,0.58,0.230933165,37.7,6.49,,D,O,25.24,37.7,False,O,6.49,measured,151.4362,151.4362,0.7088,178.174
+SFX_A01,32,Dalbergia melanoxylon,Fabaceae,0.8,0.039535537,13.7,5.17,1.72,A,O,13.29,13.7,True,O,5.17,measured,16.8154,14.4923,1.0772,14.4923
+SFX_A01,33,Clarisia racemosa,Moraceae,0.59,,14.7,,,A,O,13.95,14.7,True,O,13.95,feldpausch,50.8357,37.5799,0.5854,37.5799
+SFX_A01,34,Cordia scabrifolia,Boraginaceae,0.47,,20.5,,,A,O,17.45,20.5,True,O,17.45,feldpausch,121.0589,87.772,0.474,87.772
+SFX_A01,35,Dalbergia melanoxylon,Fabaceae,0.8,0.186608077,19.7,11.8,6.84,A,O,17.0,19.7,True,O,11.8,measured,76.4567,58.8561,1.0772,58.8561
+SFX_A01,36,Dalbergia melanoxylon,Fabaceae,0.8,,15.9,,,A,O,14.73,15.9,True,O,14.73,feldpausch,62.4818,45.9667,1.0772,45.9667
+SFX_A01,37,Dalbergia melanoxylon,Fabaceae,0.8,,24.0,,,A,O,19.3,24.0,True,O,19.3,feldpausch,181.6925,130.6375,1.0772,130.6375
+SFX_A01,38,,,0.58,,12.0,,,D,O,12.11,12.0,False,O,12.11,feldpausch,29.7969,29.7969,0.7088,35.0579
+SFX_A01,39,,,0.58,,23.0,,,D,O,18.79,23.0,False,O,18.79,feldpausch,162.8943,162.8943,0.7088,191.6551
+SFX_A01,40,Couratari stellata,Lecythidaceae,0.63,,10.3,,,A,O,10.85,10.3,True,O,10.85,feldpausch,19.8654,15.0216,0.6331,15.0216
+SFX_A01,41,Dalbergia melanoxylon,Fabaceae,0.8,,21.4,,,A,O,17.94,21.4,True,O,17.94,feldpausch,135.2568,97.8394,1.0772,97.8394
+SFX_A01,42,Dalbergia melanoxylon,Fabaceae,0.8,,29.8,,,A,O,22.04,29.8,True,O,22.04,feldpausch,315.577,224.5118,1.0772,224.5118
+SFX_A01,43,Dalbergia melanoxylon,Fabaceae,0.8,,32.2,,,A,O,23.07,32.2,True,O,23.07,feldpausch,383.8219,272.1098,1.0772,272.1098
+SFX_A01,44,Tetragastris panamensis,Burseraceae,0.73,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.7173,17.8143
+SFX_A01,45,Dalbergia melanoxylon,Fabaceae,0.8,0.512685569,35.3,10.1,6.07,A,O,24.32,35.3,True,O,10.1,measured,205.0853,166.3963,1.0772,166.3963
+SFX_A01,46,Dalbergia melanoxylon,Fabaceae,0.8,,31.9,,,A,O,22.95,31.9,True,O,22.95,feldpausch,374.9592,265.9262,1.0772,265.9262
+SFX_A01,47,Dalbergia melanoxylon,Fabaceae,0.8,,10.1,,,A,O,10.7,10.1,True,O,10.7,feldpausch,18.8614,14.2803,1.0772,14.2803
+SFX_A01,48,Dalbergia melanoxylon,Fabaceae,0.8,,22.1,,,A,O,18.31,22.1,True,O,18.31,feldpausch,146.9259,106.1019,1.0772,106.1019
+SFX_A01,49,Jacaranda copaia,Bignoniaceae,0.35,,20.6,,,A,O,17.5,20.6,True,O,17.5,feldpausch,122.556,88.8381,0.3507,88.8381
+SFX_A01,50,Tachigali myrmecophila,Fabaceae,0.48,,11.8,,,A,O,11.96,11.8,True,O,11.96,feldpausch,28.4866,21.3505,0.476,21.3505
+SFX_A01,51,Dalbergia melanoxylon,Fabaceae,0.8,,37.2,,,A,O,25.05,37.2,True,O,25.05,feldpausch,551.3112,388.4813,1.0772,388.4813
+SFX_A01,52,Dalbergia melanoxylon,Fabaceae,0.8,,11.1,,,A,O,11.45,11.1,True,O,11.45,feldpausch,24.2284,18.2309,1.0772,18.2309
+SFX_A01,53,Zanthoxylum rhoifolium,Rutaceae,0.49,,23.3,,,A,O,18.94,23.3,True,O,18.94,feldpausch,168.3691,121.2462,0.5692,121.2462
+SFX_A01,54,Dalbergia melanoxylon,Fabaceae,0.8,,29.6,,,A,O,21.95,29.6,True,O,21.95,feldpausch,310.2146,220.7681,1.0772,220.7681
+SFX_A01,55,Neea oppositifolia,Nyctaginaceae,0.89,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.893,19.9869
+SFX_A01,56,Dalbergia melanoxylon,Fabaceae,0.8,0.947051689,45.5,11.23,7.0,A,O,27.91,45.5,True,O,11.23,measured,373.31,301.5039,1.0772,301.5039
+SFX_A01,57,Dalbergia melanoxylon,Fabaceae,0.8,,22.2,,,A,O,18.37,22.2,True,O,18.37,feldpausch,148.7004,107.3512,1.0772,107.3512
+SFX_A01,58,Eschweilera parviflora,Lecythidaceae,0.89,,11.9,,,A,O,12.03,11.9,True,O,12.03,feldpausch,29.1251,21.8178,0.918,21.8178
+SFX_A01,59,Vismia guianensis,Clusiaceae,0.46,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,0.475,41.6389
+SFX_A01,60,Parkia sp.,Fabaceae,0.45,,22.0,,,A,O,18.26,22.0,True,O,18.26,feldpausch,145.2428,104.9089,0.4553,104.9089
+SFX_A01,61,Inga marginata,Fabaceae,0.57,,12.4,,,A,O,12.39,12.4,True,O,12.39,feldpausch,32.4831,24.2681,0.5518,24.2681
+SFX_A01,62,Helicostylis sp.,Moraceae,0.65,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.643,16.1847
+SFX_A01,63,Dalbergia melanoxylon,Fabaceae,0.8,,33.2,,,A,O,23.48,33.2,True,O,23.48,feldpausch,414.4991,293.472,1.0772,293.472
+SFX_A01,64,Brosimum rubescens,Moraceae,0.83,,14.0,,,A,O,13.49,14.0,True,O,13.49,feldpausch,44.7295,33.1639,0.8251,33.1639
+SFX_A01,65,NI,NI,0.62,,11.9,,,A,O,12.03,11.9,True,O,12.03,feldpausch,29.1251,21.8178,0.7088,21.8178
+SFX_A01,66,Tabebuia serratifolia,Bignoniaceae,0.92,,18.5,,,A,O,16.31,18.5,True,O,16.31,feldpausch,92.7545,67.6379,0.924,67.6379
+SFX_A01,67,Virola melinoni,Myristicaceae,0.48,,12.3,,,A,O,12.32,12.3,True,O,12.32,feldpausch,31.7974,23.7678,0.4734,23.7678
+SFX_A01,68,Dalbergia melanoxylon,Fabaceae,0.8,,26.6,,,A,O,20.58,26.6,True,O,20.58,feldpausch,236.4571,169.1302,1.0772,169.1302
+SFX_A01,1,,,0.58,,14.7,,,D,O,13.95,14.7,False,O,13.95,feldpausch,50.8357,50.8357,0.7088,59.8113
+SFX_A01,2,Tetragastris panamensis,Burseraceae,0.73,,12.6,,,A,O,12.53,12.6,True,O,12.53,feldpausch,33.8832,25.2886,0.7173,25.2886
+SFX_A01,3,Dalbergia melanoxylon,Fabaceae,0.8,0.665705275,38.4,11.08,6.87,A,O,25.5,38.4,True,O,11.08,measured,264.5733,212.4005,1.0772,212.4005
+SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,1.0772,22.3066
+SFX_A01,5,Inga marginata,Fabaceae,0.57,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.5518,16.1847
+SFX_A01,6,Jacaratia spinosa,Caricaceae,0.27,0.598257645,40.7,26.78,12.24,A,O,26.32,40.7,True,O,26.78,measured,701.3456,491.131,0.265,491.131
+SFX_A01,7,Dalbergia melanoxylon,Fabaceae,0.8,0.572214981,36.3,10.66,3.56,A,O,24.71,36.3,True,O,10.66,measured,228.2913,183.8985,1.0772,183.8985
+SFX_A01,8,Jacaranda copaia,Bignoniaceae,0.35,0.029513936,11.0,13.55,10.05,A,O,11.38,11.0,True,O,13.55,measured,28.0564,20.5481,0.3507,20.5481
+SFX_A01,9,Virola melinoni,Myristicaceae,0.48,,11.1,,,A,O,11.45,11.1,True,O,11.45,feldpausch,24.2284,18.2309,0.4734,18.2309
+SFX_A01,10,Socratea exorrhiza,Arecaceae,0.62,0.065349123,17.5,,,A,P,15.71,17.5,True,P,15.71,feldpausch,80.2304,,0.23,
+SFX_A01,11,NI,NI,0.62,,21.6,,,A,O,18.05,21.6,True,O,18.05,feldpausch,138.5595,100.1764,0.7088,100.1764
+SFX_A01,12,NI,NI,0.62,,13.5,,,A,O,13.15,13.5,True,O,13.15,feldpausch,40.6391,30.2001,0.7088,30.2001
+SFX_A01,13,Theobroma glaucum,Malvaceae,0.53,,14.2,,,A,O,13.62,14.2,True,O,13.62,feldpausch,46.4178,34.3869,0.5297,34.3869
+SFX_A01,14,Astronium gracile,Anacardiaceae,0.73,0.25310728,19.2,18.48,8.58,A,O,16.71,19.2,True,O,18.48,measured,112.659,80.6908,0.73,80.6908
+SFX_A01,15,Sapium marmieri,Euphorbiaceae,0.41,,25.5,,,A,O,20.05,25.5,True,O,20.05,feldpausch,212.271,152.1491,0.41,152.1491
+SFX_A01,16,Bertholletia excelsa,Lecythidaceae,0.64,1.76013044,41.2,31.83,20.57,A,O,26.49,41.2,True,O,31.83,measured,850.1756,579.6612,0.638,579.6612
+SFX_A01,17,Helicostylis sp.,Moraceae,0.65,,12.2,,,A,O,12.25,12.2,True,O,12.25,feldpausch,31.1212,23.2742,0.643,23.2742
+SFX_A01,18,,,0.58,0.620070783,47.0,12.66,6.0,D,O,28.38,47.0,False,O,12.66,measured,447.0653,447.0653,0.7088,525.9996
+SFX_A01,19,Inga marginata,Fabaceae,0.57,,12.2,6.46,,A,O,12.25,12.2,True,O,6.46,measured,16.6656,13.7895,0.5518,13.7895
+SFX_A01,20,Pterocarpus sp.,Fabaceae,0.51,0.247690544,23.7,16.91,10.63,A,O,19.15,23.7,True,O,16.91,measured,155.8252,114.3346,0.5838,114.3346
+SFX_A01,21,NI,NI,0.62,,16.0,,,A,O,14.79,16.0,True,O,14.79,feldpausch,63.5026,46.7018,0.7088,46.7018
+SFX_A01,22,,,0.58,,18.1,,,D,O,16.07,18.1,False,O,16.07,feldpausch,87.6034,87.6034,0.7088,103.0707
+SFX_A01,23,Sterculia pruriens,Malvaceae,0.49,,16.2,,,A,O,14.91,16.2,True,O,14.91,feldpausch,65.5765,48.1941,0.4862,48.1941
+SFX_A01,24,,,0.58,,10.2,,,D,O,10.78,10.2,False,O,10.78,feldpausch,19.368,19.368,0.7088,22.7876
+SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,1.048774571,59.0,7.39,3.68,A,O,31.69,59.0,True,O,7.39,measured,412.0603,360.0101,1.0772,360.0101
+SFX_A01,26,,,0.58,,14.2,,,D,O,13.62,14.2,False,O,13.62,feldpausch,46.4178,46.4178,0.7088,54.6134
+SFX_A01,27,Inga marginata,Fabaceae,0.57,,10.2,,,A,O,10.78,10.2,True,O,10.78,feldpausch,19.368,14.6535,0.5518,14.6535
+SFX_A01,28,Tachigali myrmecophila,Fabaceae,0.48,,29.4,,,A,O,21.86,29.4,True,O,21.86,feldpausch,304.9111,217.0641,0.476,217.0641
+SFX_A01,29,Laetia procera,Salicaceae,0.63,,17.7,,,A,O,15.83,17.7,True,O,15.83,feldpausch,82.6414,60.4201,0.6481,60.4201
+SFX_A01,30,Apeiba membranacea,Malvaceae,0.28,0.033024705,15.5,9.8,7.25,A,O,14.47,15.5,True,O,9.8,measured,39.9415,31.3001,0.2822,31.3001
+SFX_A01,31,Cordia scabrifolia,Boraginaceae,0.47,,13.0,,,A,O,12.81,13.0,True,O,12.81,feldpausch,36.7999,27.4108,0.474,27.4108
+SFX_A01,32,Cordia scabrifolia,Boraginaceae,0.47,,15.0,,,A,O,14.15,15.0,True,O,14.15,feldpausch,53.6203,39.5877,0.474,39.5877
+SFX_A01,33,Stryphnodendron pulcherrimum,Fabaceae,0.47,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,0.475,19.096
+SFX_A01,34,Castilla ulei,Moraceae,0.82,,14.5,,,A,O,13.82,14.5,True,O,13.82,feldpausch,49.0441,36.2853,0.5675,36.2853
+SFX_A01,35,Tetragastris panamensis,Burseraceae,0.73,,17.9,,,A,O,15.95,17.9,True,O,15.95,feldpausch,85.099,62.1761,0.7173,62.1761
+SFX_A01,36,Tetragastris panamensis,Burseraceae,0.73,,19.8,,,A,O,17.05,19.8,True,O,17.05,feldpausch,110.5896,80.3416,0.7173,80.3416
+SFX_A01,37,Brosimum rubescens,Moraceae,0.83,,10.7,,,A,O,11.15,10.7,True,O,11.15,feldpausch,21.9765,16.5767,0.8251,16.5767
+SFX_A01,38,Dalbergia melanoxylon,Fabaceae,0.8,0.956305234,43.1,12.64,6.74,A,O,27.14,43.1,True,O,12.64,measured,376.9341,298.0184,1.0772,298.0184
+SFX_A01,39,Tetragastris panamensis,Burseraceae,0.73,,10.3,,,A,O,10.85,10.3,True,O,10.85,feldpausch,19.8654,15.0216,0.7173,15.0216
+SFX_A01,40,Eriotheca globosa,Malvaceae,0.41,,16.6,,,A,O,15.16,16.6,True,O,15.16,feldpausch,69.8995,51.2965,0.41,51.2965
+SFX_A01,41,Tetragastris panamensis,Burseraceae,0.73,,12.9,,,A,O,12.74,12.9,True,O,12.74,feldpausch,36.056,26.87,0.7173,26.87
+SFX_A01,42,Pradosia praealta,Sapotaceae,0.73,,10.4,,,A,O,10.93,10.4,True,O,10.93,feldpausch,20.3893,15.407,0.7378,15.407
+SFX_A01,43,Tetragastris panamensis,Burseraceae,0.73,,13.2,,,A,O,12.95,13.2,True,O,12.95,feldpausch,38.3174,28.5131,0.7173,28.5131
+SFX_A01,44,Tetragastris panamensis,Burseraceae,0.73,,18.1,,,A,O,16.07,18.1,True,O,16.07,feldpausch,87.6034,63.9643,0.7173,63.9643
+SFX_A01,45,Dalbergia melanoxylon,Fabaceae,0.8,,42.0,,,A,O,26.77,42.0,True,O,26.77,feldpausch,745.4665,522.8468,1.0772,522.8468
+SFX_A01,46,Castilla ulei,Moraceae,0.82,,14.1,,,A,O,13.56,14.1,True,O,13.56,feldpausch,45.585,33.7821,0.5675,33.7821
+SFX_A01,47,Rinorea racemosa,Violaceae,0.68,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.682,19.9869
+SFX_A01,48,Terminalia amazonia,Combretaceae,0.68,,18.5,,,A,O,16.31,18.5,True,O,16.31,feldpausch,92.7545,67.6379,0.6735,67.6379
+SFX_A01,49,,,0.58,,21.5,,,D,O,17.99,21.5,False,O,17.99,feldpausch,136.8646,136.8646,0.7088,161.0295
+SFX_A01,50,Guarea guidonia,Meliaceae,0.55,,22.2,,,A,O,18.37,22.2,True,O,18.37,feldpausch,148.7004,107.3512,0.5651,107.3512
+SFX_A01,51,Dalbergia melanoxylon,Fabaceae,0.8,,15.7,,,A,O,14.6,15.7,True,O,14.6,feldpausch,60.4318,44.4938,1.0772,44.4938
+SFX_A01,52,Ormosia grossa,Fabaceae,0.62,,10.8,,,A,O,11.23,10.8,True,O,11.23,feldpausch,22.5359,16.987,0.5906,16.987
+SFX_A01,53,Theobroma glaucum,Malvaceae,0.53,,13.7,,,A,O,13.29,13.7,True,O,13.29,feldpausch,42.2571,31.3721,0.5297,31.3721
+SFX_A01,54,Pouteria gongrijpii,Sapotaceae,0.8,,15.5,,,A,O,14.47,15.5,True,O,14.47,feldpausch,58.4259,43.0513,0.7994,43.0513
+SFX_A01,55,Pouteria gongrijpii,Sapotaceae,0.8,,20.5,,,A,O,17.45,20.5,True,O,17.45,feldpausch,121.0589,87.772,0.7994,87.772
+SFX_A01,56,Inga alba,Fabaceae,0.59,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,0.5861,41.6389
+SFX_A01,57,Inga thibaudiana,Fabaceae,0.58,,13.9,,,A,O,13.42,13.9,True,O,13.42,feldpausch,43.8846,32.553,0.5786,32.553
+SFX_A01,58,,,0.58,,16.0,,,D,O,14.79,16.0,False,O,14.79,feldpausch,63.5026,63.5026,0.7088,74.7147
+SFX_A01,59,,,0.58,0.30777722,42.6,6.84,,D,O,26.97,42.6,False,O,6.84,measured,202.3406,202.3406,0.7088,238.066
+SFX_A01,60,Cordia scabrifolia,Boraginaceae,0.47,,12.1,,,A,O,12.18,12.1,True,O,12.18,feldpausch,30.4544,22.7871,0.474,22.7871
+SFX_A01,61,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.3,,,A,O,10.85,10.3,True,O,10.85,feldpausch,19.8654,15.0216,0.475,15.0216
+SFX_A01,62,Inga thibaudiana,Fabaceae,0.58,,17.7,,,A,O,15.83,17.7,True,O,15.83,feldpausch,82.6414,60.4201,0.5786,60.4201
+SFX_A01,63,Cordia scabrifolia,Boraginaceae,0.47,,18.7,,,A,O,16.42,18.7,True,O,16.42,feldpausch,95.3454,69.4893,0.474,69.4893
+SFX_A01,64,Inga alba,Fabaceae,0.59,,28.2,,,A,O,21.32,28.2,True,O,21.32,feldpausch,274.311,195.6616,0.5861,195.6616
+SFX_A01,65,Cordia scabrifolia,Boraginaceae,0.47,,17.2,,,A,O,15.53,17.2,True,O,15.53,feldpausch,76.7,56.1687,0.474,56.1687
+SFX_A01,66,Eschweilera coriacea,Lecythidaceae,0.85,,23.5,,,A,O,19.05,23.5,True,O,19.05,feldpausch,172.1721,123.9222,0.8521,123.9222
+SFX_A01,67,Xylopia sp.,Annonaceae,0.57,0.297952832,22.8,19.75,12.86,A,O,18.68,22.8,True,O,19.75,measured,168.1214,120.1443,0.5959,120.1443
+SFX_A01,68,Tetragastris panamensis,Burseraceae,0.73,,28.2,,,A,O,21.32,28.2,True,O,21.32,feldpausch,274.311,195.6616,0.7173,195.6616
+SFX_A01,69,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.2,,,A,O,10.78,10.2,True,O,10.78,feldpausch,19.368,14.6535,0.475,14.6535
+SFX_A01,70,Inga marginata,Fabaceae,0.57,,19.2,,,A,O,16.71,19.2,True,O,16.71,feldpausch,102.115,74.3116,0.5518,74.3116
+SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,1.0772,19.096
+SFX_A01,72,Dalbergia melanoxylon,Fabaceae,0.8,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,1.0772,41.6389
+SFX_A01,73,Dalbergia melanoxylon,Fabaceae,0.8,,26.0,,,A,O,20.29,26.0,True,O,20.29,feldpausch,223.0468,159.7213,1.0772,159.7213
+SFX_A01,74,Dalbergia melanoxylon,Fabaceae,0.8,,20.0,,,A,O,17.17,20.0,True,O,17.17,feldpausch,113.5552,82.4445,1.0772,82.4445
+SFX_A01,1,Dialium guianense,Fabaceae,0.89,0.068796664,13.2,8.71,4.35,A,O,12.95,13.2,True,O,8.71,measured,26.0183,20.613,0.8964,20.613
+SFX_A01,2,Dalbergia melanoxylon,Fabaceae,0.8,0.595096062,50.0,5.84,5.66,A,O,29.28,50.0,True,O,5.84,measured,237.0659,213.2677,1.0772,213.2677
+SFX_A01,3,NI,NI,0.62,,13.9,,,A,O,13.42,13.9,True,O,13.42,feldpausch,43.8846,32.553,0.7088,32.553
+SFX_A01,4,,,0.58,,10.2,,,D,O,10.78,10.2,False,O,10.78,feldpausch,19.368,19.368,0.7088,22.7876
+SFX_A01,5,Pouteria gongrijpii,Sapotaceae,0.8,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,0.7994,41.6389
+SFX_A01,6,Galipea trifoliata,NI,0.62,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,0.997,22.3066
+SFX_A01,7,Theobroma glaucum,Malvaceae,0.53,0.075862894,16.5,10.33,5.58,A,O,15.1,16.5,True,O,10.33,measured,47.5063,37.0307,0.5297,37.0307
+SFX_A01,8,Tetragastris panamensis,Burseraceae,0.73,,16.4,,,A,O,15.04,16.4,True,O,15.04,feldpausch,67.7376,49.7434,0.7173,49.7434
+SFX_A01,9,Pourouma minor,Urticaceae,0.44,,25.4,,,A,O,20.0,25.4,True,O,20.0,feldpausch,210.1364,150.6501,0.436,150.6501
+SFX_A01,10,Guatteria schomburgkiana,Annonaceae,0.6,,17.1,,,A,O,15.47,17.1,True,O,15.47,feldpausch,75.546,55.342,0.6,55.342
+SFX_A01,11,Guatteria schomburgkiana,Annonaceae,0.6,,19.1,,,A,O,16.65,19.1,True,O,16.65,feldpausch,100.7252,73.3235,0.6,73.3235
+SFX_A01,12,Pouteria sp.,Sapotaceae,0.78,,11.1,,,A,O,11.45,11.1,True,O,11.45,feldpausch,24.2284,18.2309,0.7187,18.2309
+SFX_A01,13,Astronium gracile,Anacardiaceae,0.73,2.631037012,60.8,19.15,12.46,A,O,32.13,60.8,True,O,19.15,measured,1106.7186,833.0684,0.73,833.0684
+SFX_A01,14,NI,NI,0.62,,15.7,,,A,O,14.6,15.7,True,O,14.6,feldpausch,60.4318,44.4938,0.7088,44.4938
+SFX_A01,15,,,0.45,,27.8,,,D,O,21.14,27.8,False,O,21.14,feldpausch,264.5688,264.5688,0.7088,311.2813
+SFX_A01,16,Eschweilera parviflora,Lecythidaceae,0.89,,14.9,,,A,O,14.08,14.9,True,O,14.08,feldpausch,52.6692,38.9035,0.918,38.9035
+SFX_A01,17,Dalbergia melanoxylon,Fabaceae,0.8,,12.3,,,A,O,12.32,12.3,True,O,12.32,feldpausch,31.7974,23.7678,1.0772,23.7678
+SFX_A01,18,Eschweilera parviflora,Lecythidaceae,0.89,,10.1,,,A,O,10.7,10.1,True,O,10.7,feldpausch,18.8614,14.2803,0.918,14.2803
+SFX_A01,19,Vataireopsis speciosa,Fabaceae,0.65,,13.7,,,A,O,13.29,13.7,True,O,13.29,feldpausch,42.2571,31.3721,0.65,31.3721
+SFX_A01,20,,,0.45,,18.7,,,D,O,16.42,18.7,False,O,16.42,feldpausch,95.3454,95.3454,0.7088,112.1797
+SFX_A01,21,,,0.45,,15.1,,,D,O,14.21,15.1,False,O,14.21,feldpausch,54.5451,54.5451,0.7088,64.1756
+SFX_A01,22,Tetragastris panamensis,Burseraceae,0.73,1.779399102,31.2,49.05,34.63,A,O,22.65,31.2,True,O,49.05,measured,753.5536,473.4906,0.7173,473.4906
+SFX_A01,23,Stryphnodendron pulcherrimum,Fabaceae,0.47,,12.5,,,A,O,12.46,12.5,True,O,12.46,feldpausch,33.1783,24.775,0.475,24.775
+SFX_A01,24,,,,0.013152273,10.8,,,A,L,11.23,10.8,True,L,11.23,feldpausch,22.5359,16.987,0.7088,16.987
+SFX_A01,25,,,0.45,0.405911999,46.6,10.5,,D,O,28.26,46.6,False,O,10.5,measured,366.2948,366.2948,0.7088,430.9682
+SFX_A01,26,Protium heptaphyllum,Burseraceae,0.62,,13.7,,,A,O,13.29,13.7,True,O,13.29,feldpausch,42.2571,31.3721,0.6293,31.3721
+SFX_A01,27,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,0.893,17.3912
+SFX_A01,28,Brosimum obovata,Moraceae,0.68,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,0.6707,41.6389
+SFX_A01,29,,,,0.014208072,12.5,,,A,L,12.46,12.5,True,L,12.46,feldpausch,33.1783,24.775,0.7088,24.775
+SFX_A01,30,Galipea trifoliata,NI,0.62,,17.4,,,A,O,15.65,17.4,True,O,15.65,feldpausch,79.0422,57.8456,0.997,57.8456
+SFX_A01,31,Theobroma glaucum,Malvaceae,0.53,,10.8,,,A,O,11.23,10.8,True,O,11.23,feldpausch,22.5359,16.987,0.5297,16.987
+SFX_A01,32,Dialium guianense,Fabaceae,0.89,,14.5,,,A,O,13.82,14.5,True,O,13.82,feldpausch,49.0441,36.2853,0.8964,36.2853
+SFX_A01,33,Tetragastris panamensis,Burseraceae,0.73,,33.1,,,A,O,23.44,33.1,True,O,23.44,feldpausch,411.3804,291.3002,0.7173,291.3002
+SFX_A01,34,Pouteria gongrijpii,Sapotaceae,0.8,,42.8,,,A,O,27.04,42.8,True,O,27.04,feldpausch,781.0475,547.4298,0.7994,547.4298
+SFX_A01,35,Eschweilera coriacea,Lecythidaceae,0.85,,12.4,,,A,O,12.39,12.4,True,O,12.39,feldpausch,32.4831,24.2681,0.8521,24.2681
+SFX_A01,36,Theobroma glaucum,Malvaceae,0.53,0.053297689,12.1,13.5,8.59,A,O,12.18,12.1,True,O,13.5,measured,33.6716,24.7881,0.5297,24.7881
+SFX_A01,37,Alibertia edulis,Rubiaceae,0.76,,12.8,,,A,O,12.67,12.8,True,O,12.67,feldpausch,35.3219,26.3361,0.76,26.3361
+SFX_A01,38,Ormosia grossa,Fabaceae,0.62,0.03854441,10.8,10.46,6.75,A,O,11.23,10.8,True,O,10.46,measured,21.0265,16.0282,0.5906,16.0282
+SFX_A01,39,Oenocarpus bacaba,Arecaceae,0.65,0.079893661,19.5,,,A,P,16.88,19.5,True,P,16.88,feldpausch,106.2977,,0.65,
+SFX_A01,40,Pourouma minor,Urticaceae,0.44,,22.2,,,A,O,18.37,22.2,True,O,18.37,feldpausch,148.7004,107.3512,0.436,107.3512
+SFX_A01,41,,,,0.014601611,13.2,,,A,L,12.95,13.2,True,L,12.95,feldpausch,38.3174,28.5131,0.7088,28.5131
+SFX_A01,42,Theobroma glaucum,Malvaceae,0.53,,10.8,,,A,O,11.23,10.8,True,O,11.23,feldpausch,22.5359,16.987,0.5297,16.987
+SFX_A01,43,Theobroma glaucum,Malvaceae,0.53,0.084307266,14.8,14.28,10.96,A,O,14.02,14.8,True,O,14.28,measured,52.7019,38.8285,0.5297,38.8285
+SFX_A01,44,Parkia paraensis,Fabaceae,0.42,1.96440549,53.9,32.01,20.4,A,O,30.37,53.9,True,O,32.01,measured,1444.3777,996.6913,0.415,996.6913
+SFX_A01,45,Pouteria gongrijpii,Sapotaceae,0.8,,17.4,,,A,O,15.65,17.4,True,O,15.65,feldpausch,79.0422,57.8456,0.7994,57.8456
+SFX_A01,46,Bertholletia excelsa,Lecythidaceae,0.64,6.744319318,77.0,34.92,25.51,A,O,35.49,77.0,True,O,34.92,measured,3154.5037,2184.1157,0.638,2184.1157
+SFX_A01,47,,,0.7,,28.1,,,D,O,21.28,28.1,False,O,21.28,feldpausch,271.9166,271.9166,0.7088,319.9265
+SFX_A01,48,Alibertia edulis,Rubiaceae,0.76,,13.6,,,A,O,13.22,13.6,True,O,13.22,feldpausch,41.4429,30.7826,0.76,30.7826
+SFX_A01,49,Couma guianensis,Apocynaceae,0.47,,12.8,,,A,O,12.67,12.8,True,O,12.67,feldpausch,35.3219,26.3361,0.4667,26.3361
+SFX_A01,50,Helicostylis sp.,Moraceae,0.65,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,0.643,41.6389
+SFX_A01,51,Couepia racemosa,Chrysobalanaceae,0.79,,14.9,,,A,O,14.08,14.9,True,O,14.08,feldpausch,52.6692,38.9035,0.7861,38.9035
+SFX_A01,52,Hevea brasiliensis,Euphorbiaceae,0.49,0.288479682,27.6,15.12,6.21,A,O,21.05,27.6,True,O,15.12,measured,188.0866,141.4982,0.4666,141.4982
+SFX_A01,53,Guarea guidonia,Meliaceae,0.55,,12.8,,,A,O,12.67,12.8,True,O,12.67,feldpausch,35.3219,26.3361,0.5651,26.3361
+SFX_A01,54,Astrocaryum aculeatum,Arecaceae,0.51,0.105939516,22.7,,,A,P,18.63,22.7,True,P,18.63,feldpausch,157.453,,0.508,
+SFX_A01,55,Inga thibaudiana,Fabaceae,0.58,,14.1,,,A,O,13.56,14.1,True,O,13.56,feldpausch,45.585,33.7821,0.5786,33.7821
+SFX_A01,56,Dalbergia melanoxylon,Fabaceae,0.8,,29.9,,,A,O,22.09,29.9,True,O,22.09,feldpausch,318.3507,226.4404,1.0772,226.4404
+SFX_A01,57,Neea oppositifolia,Nyctaginaceae,0.89,,10.0,,,A,O,10.62,10.0,True,O,10.62,feldpausch,18.3636,13.9133,0.893,13.9133
+SFX_A01,58,Jacaranda copaia,Bignoniaceae,0.35,2.915408821,70.1,32.97,20.81,A,O,34.17,70.1,True,O,32.97,measured,2483.0551,1727.0973,0.3507,1727.0973
+SFX_A01,59,Dalbergia melanoxylon,Fabaceae,0.8,,12.1,,,A,O,12.18,12.1,True,O,12.18,feldpausch,30.4544,22.7871,1.0772,22.7871
+SFX_A01,60,Dalbergia melanoxylon,Fabaceae,0.8,,13.6,,,A,O,13.22,13.6,True,O,13.22,feldpausch,41.4429,30.7826,1.0772,30.7826
+SFX_A01,61,Pourouma minor,Urticaceae,0.44,,12.4,,,A,O,12.39,12.4,True,O,12.39,feldpausch,32.4831,24.2681,0.436,24.2681
+SFX_A01,62,Pouteria sp.,Sapotaceae,0.78,,13.1,,,A,O,12.88,13.1,True,O,12.88,feldpausch,37.5536,27.9585,0.7187,27.9585
+SFX_A01,63,Lacunaria jenmanii,Quiinaceae,0.8,,12.5,,,A,O,12.46,12.5,True,O,12.46,feldpausch,33.1783,24.775,0.8043,24.775
+SFX_A01,64,Cordia scabrifolia,Boraginaceae,0.47,,16.1,,,A,O,14.85,16.1,True,O,14.85,feldpausch,64.5342,47.4442,0.474,47.4442
+SFX_A01,65,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,0.893,17.3912
+SFX_A01,66,Strychnos subcordata,Loganiaceae,0.54,,13.1,,,A,O,12.88,13.1,True,O,12.88,feldpausch,37.5536,27.9585,0.6959,27.9585
+SFX_A01,67,Inga marginata,Fabaceae,0.57,,17.6,,,A,O,15.77,17.6,True,O,15.77,feldpausch,81.4301,59.554,0.5518,59.554
+SFX_A01,68,Thyrsodium paraense,Anacardiaceae,0.61,0.081705649,16.2,9.97,7.99,A,O,14.91,16.2,True,O,9.97,measured,44.2752,34.6755,0.645,34.6755
+SFX_A01,69,Brosimum rubescens,Moraceae,0.83,4.020042565,48.6,40.52,23.14,A,O,28.87,48.6,True,O,40.52,measured,1485.4569,982.6653,0.8251,982.6653
+SFX_A01,70,Cordia scabrifolia,Boraginaceae,0.47,,12.5,,,A,O,12.46,12.5,True,O,12.46,feldpausch,33.1783,24.775,0.474,24.775
+SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,1.0772,17.8143
+SFX_A01,72,Pouteria sp.,Sapotaceae,0.78,,13.0,,,A,O,12.81,13.0,True,O,12.81,feldpausch,36.7999,27.4108,0.7187,27.4108
+SFX_A01,73,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,0.893,17.3912
+SFX_A01,74,Strychnos subcordata,Loganiaceae,0.54,,11.9,,,A,O,12.03,11.9,True,O,12.03,feldpausch,29.1251,21.8178,0.6959,21.8178
+SFX_A01,75,Dalbergia melanoxylon,Fabaceae,0.8,,26.4,,,A,O,20.48,26.4,True,O,20.48,feldpausch,231.894,165.9339,1.0772,165.9339
+SFX_A01,76,Vitex triflora,Lamiaceae,0.56,,10.5,,,A,O,11.0,10.5,True,O,11.0,feldpausch,20.9036,15.7869,0.5482,15.7869
+SFX_A01,77,Inga marginata,Fabaceae,0.57,,16.0,,,A,O,14.79,16.0,True,O,14.79,feldpausch,63.5026,46.7018,0.5518,46.7018
+SFX_A01,78,Dalbergia melanoxylon,Fabaceae,0.8,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,1.0772,41.6389
+SFX_A01,79,Neea oppositifolia,Nyctaginaceae,0.89,0.171440084,18.9,10.56,6.31,A,O,16.54,18.9,True,O,10.56,measured,63.2718,49.4698,0.893,49.4698
+SFX_A01,80,Eriotheca globosa,Malvaceae,0.41,,15.4,,,A,O,14.41,15.4,True,O,14.41,feldpausch,57.4589,42.3534,0.41,42.3534
+SFX_A01,81,Tetragastris panamensis,Burseraceae,0.73,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.7173,17.8143
+SFX_A01,82,Dalbergia melanoxylon,Fabaceae,0.8,,31.4,,,A,O,22.73,31.4,True,O,22.73,feldpausch,360.1707,255.6331,1.0772,255.6331
+SFX_A01,83,Pourouma minor,Urticaceae,0.44,,18.2,,,A,O,16.13,18.2,True,O,16.13,feldpausch,88.8733,64.8705,0.436,64.8705
+SFX_A01,84,Guatteria schomburgkiana,Annonaceae,0.6,,30.0,,,A,O,22.13,30.0,True,O,22.13,feldpausch,320.9987,228.2952,0.6,228.2952
+SFX_A01,85,Neea oppositifolia,Nyctaginaceae,0.89,,13.3,,,A,O,13.02,13.3,True,O,13.02,feldpausch,39.0912,29.0747,0.893,29.0747
+SFX_A01,86,Pouteria sp.,Sapotaceae,0.78,,10.0,,,A,O,10.62,10.0,True,O,10.62,feldpausch,18.3636,13.9133,0.7187,13.9133
+SFX_A01,87,Inga sp.,Fabaceae,0.58,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.5786,17.8143
+SFX_A01,88,Tetragastris panamensis,Burseraceae,0.73,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.7173,19.9869
+SFX_A01,1,Attalea maripa,Arecaceae,0.33,0.138262176,26.2,,,A,P,20.38,26.2,True,P,20.38,feldpausch,227.3883,,0.326,
+SFX_A01,2,Galipea trifoliata,NI,0.62,,12.4,,,A,O,12.39,12.4,True,O,12.39,feldpausch,32.4831,24.2681,0.997,24.2681
+SFX_A01,3,Theobroma glaucum,Malvaceae,0.53,,12.3,,,A,O,12.32,12.3,True,O,12.32,feldpausch,31.7974,23.7678,0.5297,23.7678
+SFX_A01,4,Thyrsodium paraense,Anacardiaceae,0.61,,14.6,,,A,O,13.89,14.6,True,O,13.89,feldpausch,49.9522,36.9399,0.645,36.9399
+SFX_A01,5,Cecropia palmata,Urticaceae,0.35,,12.6,,,A,O,12.53,12.6,True,O,12.53,feldpausch,33.8832,25.2886,0.3404,25.2886
+SFX_A01,6,Ficus maxima,Moraceae,0.37,,12.1,,,A,O,12.18,12.1,True,O,12.18,feldpausch,30.4544,22.7871,0.3605,22.7871
+SFX_A01,7,,,0.45,,13.5,,,D,O,13.15,13.5,False,O,13.15,feldpausch,40.6391,40.6391,0.7088,47.8143
+SFX_A01,8,,,0.58,,12.0,,,D,O,12.11,12.0,False,O,12.11,feldpausch,29.7969,29.7969,0.7088,35.0579
+SFX_A01,9,Sloanea guianensis,Elaeocarpaceae,0.82,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.8212,19.9869
+SFX_A01,10,Sloanea guianensis,Elaeocarpaceae,0.82,,12.1,,,A,O,12.18,12.1,True,O,12.18,feldpausch,30.4544,22.7871,0.8212,22.7871
+SFX_A01,11,Guatteria schomburgkiana,Annonaceae,0.6,,12.6,,,A,O,12.53,12.6,True,O,12.53,feldpausch,33.8832,25.2886,0.6,25.2886
+SFX_A01,12,Inga marginata,Fabaceae,0.57,,10.7,,,A,O,11.15,10.7,True,O,11.15,feldpausch,21.9765,16.5767,0.5518,16.5767
+SFX_A01,13,Tachigali alba,Fabaceae,0.56,0.177112022,17.3,20.75,11.54,A,O,15.59,17.3,True,O,20.75,measured,102.9287,72.0232,0.5573,72.0232
+SFX_A01,14,Theobroma glaucum,Malvaceae,0.53,,12.8,,,A,O,12.67,12.8,True,O,12.67,feldpausch,35.3219,26.3361,0.5297,26.3361
+SFX_A01,15,Theobroma glaucum,Malvaceae,0.53,,10.1,,,A,O,10.7,10.1,True,O,10.7,feldpausch,18.8614,14.2803,0.5297,14.2803
+SFX_A01,16,Guarea guidonia,Meliaceae,0.55,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,0.5651,17.3912
+SFX_A01,17,Guatteria schomburgkiana,Annonaceae,0.6,,20.5,,,A,O,17.45,20.5,True,O,17.45,feldpausch,121.0589,87.772,0.6,87.772
+SFX_A01,18,Dalbergia melanoxylon,Fabaceae,0.8,,17.9,,,A,O,15.95,17.9,True,O,15.95,feldpausch,85.099,62.1761,1.0772,62.1761
+SFX_A01,19,Bertholletia excelsa,Lecythidaceae,0.64,,14.5,,,A,O,13.82,14.5,True,O,13.82,feldpausch,49.0441,36.2853,0.638,36.2853
+SFX_A01,20,Cordia scabrifolia,Boraginaceae,0.47,,12.3,,,A,O,12.32,12.3,True,O,12.32,feldpausch,31.7974,23.7678,0.474,23.7678
+SFX_A01,21,Ocotea glomerata,Lauraceae,0.51,6.653408935,74.5,46.35,29.98,A,O,35.03,74.5,True,O,46.35,measured,3899.1889,2577.512,0.508,2577.512
+SFX_A01,22,Mimosa hostilis,Fabaceae,0.45,,21.0,,,A,O,17.72,21.0,True,O,17.72,feldpausch,128.8052,93.2699,0.8235,93.2699
+SFX_A01,23,NI,NI,0.62,,20.6,,,A,O,17.5,20.6,True,O,17.5,feldpausch,122.556,88.8381,0.7088,88.8381
+SFX_A01,24,Attalea maripa,Arecaceae,0.33,0.131481006,25.5,,,A,P,20.05,25.5,True,P,20.05,feldpausch,212.271,,0.326,
+SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,,33.8,,,A,O,23.73,33.8,True,O,23.73,feldpausch,433.7072,306.8219,1.0772,306.8219
+SFX_A01,26,Attalea maripa,Arecaceae,0.33,0.136308645,26.0,,,A,P,20.29,26.0,True,P,20.29,feldpausch,223.0468,,0.326,
+SFX_A01,27,Astronium gracile,Anacardiaceae,0.73,,14.6,,,A,O,13.89,14.6,True,O,13.89,feldpausch,49.9522,36.9399,0.73,36.9399
+SFX_A01,28,Brosimum obovata,Moraceae,0.68,,15.9,,,A,O,14.73,15.9,True,O,14.73,feldpausch,62.4818,45.9667,0.6707,45.9667
+SFX_A01,29,Mimosa hostilis,Fabaceae,0.45,,17.7,,,A,O,15.83,17.7,True,O,15.83,feldpausch,82.6414,60.4201,0.8235,60.4201
+SFX_A01,30,Mimosa hostilis,Fabaceae,0.45,,11.1,,,A,O,11.45,11.1,True,O,11.45,feldpausch,24.2284,18.2309,0.8235,18.2309
+SFX_A01,31,,,0.58,0.017879152,15.0,2.71,,D,O,14.15,15.0,False,O,2.71,measured,10.6849,10.6849,0.7088,12.5714
+SFX_A01,32,Dalbergia melanoxylon,Fabaceae,0.8,0.350041851,30.6,9.18,6.25,A,O,22.39,30.6,True,O,9.18,measured,141.359,115.6399,1.0772,115.6399
+SFX_A01,33,Theobroma glaucum,Malvaceae,0.53,0.014859781,10.4,5.1,3.09,A,O,10.93,10.4,True,O,5.1,measured,9.6894,8.2588,0.5297,8.2588
+SFX_A01,34,Dalbergia melanoxylon,Fabaceae,0.8,,30.5,,,A,O,22.35,30.5,True,O,22.35,feldpausch,334.7409,237.8856,1.0772,237.8856
+SFX_A01,35,Jacaranda copaia,Bignoniaceae,0.35,,25.5,,,A,O,20.05,25.5,True,O,20.05,feldpausch,212.271,152.1491,0.3507,152.1491
+SFX_A01,36,Astronium gracile,Anacardiaceae,0.73,,27.4,,,A,O,20.95,27.4,True,O,20.95,feldpausch,254.9326,182.0913,0.73,182.0913
+SFX_A01,37,Poeppigia sp.,Fabaceae,0.69,,10.7,,,A,O,11.15,10.7,True,O,11.15,feldpausch,21.9765,16.5767,0.735,16.5767
+SFX_A01,38,,,0.58,,12.6,,,D,O,12.53,12.6,False,O,12.53,feldpausch,33.8832,33.8832,0.7088,39.8656
+SFX_A01,39,Stryphnodendron pulcherrimum,Fabaceae,0.47,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.475,17.8143
+SFX_A01,40,Nectandra cuspidata,Lauraceae,0.56,,21.4,,,A,O,17.94,21.4,True,O,17.94,feldpausch,135.2568,97.8394,0.518,97.8394
+SFX_A01,41,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.2,,,A,O,10.78,10.2,True,O,10.78,feldpausch,19.368,14.6535,0.475,14.6535
+SFX_A01,42,Neea oppositifolia,Nyctaginaceae,0.89,,17.5,,,A,O,15.71,17.5,True,O,15.71,feldpausch,80.2304,58.6959,0.893,58.6959
+SFX_A01,43,Attalea maripa,Arecaceae,0.33,0.155383486,27.9,,,A,P,21.18,27.9,True,P,21.18,feldpausch,266.9217,,0.326,
+SFX_A01,44,Tachigali myrmecophila,Fabaceae,0.48,,14.0,,,A,O,13.49,14.0,True,O,13.49,feldpausch,44.7295,33.1639,0.476,33.1639
+SFX_A01,45,Castilla ulei,Moraceae,0.82,,28.9,,,A,O,21.64,28.9,True,O,21.64,feldpausch,291.9741,208.0154,0.5675,208.0154
+SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,18.4,,,A,O,16.25,18.4,True,O,16.25,feldpausch,91.4488,66.7073,0.893,66.7073
+SFX_A01,47,Helicostylis sp.,Moraceae,0.65,,14.4,,,A,O,13.76,14.4,True,O,13.76,feldpausch,48.181,35.6594,0.643,35.6594
+SFX_A01,48,Couratari stellata,Lecythidaceae,0.63,,16.5,,,A,O,15.1,16.5,True,O,15.1,feldpausch,68.8131,50.5162,0.6331,50.5162
+SFX_A01,49,Inga marginata,Fabaceae,0.57,,17.4,,,A,O,15.65,17.4,True,O,15.65,feldpausch,79.0422,57.8456,0.5518,57.8456
+SFX_A01,50,,,0.45,,16.2,,,D,O,14.91,16.2,False,O,14.91,feldpausch,65.5765,65.5765,0.7088,77.1547
+SFX_A01,51,Guatteria schomburgkiana,Annonaceae,0.6,,15.8,,,A,O,14.66,15.8,True,O,14.66,feldpausch,61.4308,45.2138,0.6,45.2138
+SFX_A01,52,,,0.45,,17.0,,,D,O,15.41,17.0,False,O,15.41,feldpausch,74.4033,74.4033,0.7088,87.54
+SFX_A01,53,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O,11.53,11.2,True,O,11.53,feldpausch,24.8245,18.6669,0.5297,18.6669
+SFX_A01,54,Inga marginata,Fabaceae,0.57,,17.9,,,A,O,15.95,17.9,True,O,15.95,feldpausch,85.099,62.1761,0.5518,62.1761
+SFX_A01,55,Nectandra cuspidata,Lauraceae,0.56,0.03751128,12.2,8.84,4.52,A,O,12.25,12.2,True,O,8.84,measured,22.6346,17.8228,0.518,17.8228
+SFX_A01,56,Enterolobium schomburgkii,Fabaceae,0.71,,12.7,,,A,O,12.6,12.7,True,O,12.6,feldpausch,34.5977,25.8089,0.6989,25.8089
+SFX_A01,57,Socratea exorrhiza,Arecaceae,0.62,0.040359712,13.5,,,A,P,13.15,13.5,True,P,13.15,feldpausch,40.6391,,0.23,
+SFX_A01,58,NI,NI,0.62,,23.6,,,A,O,19.1,23.6,True,O,19.1,feldpausch,174.0498,125.2474,0.7088,125.2474
+SFX_A01,1,Galipea trifoliata,NI,0.62,,11.4,,,A,O,11.67,11.4,True,O,11.67,feldpausch,26.0016,19.5314,0.997,19.5314
+SFX_A01,2,Neea oppositifolia,Nyctaginaceae,0.89,,13.3,,,A,O,13.02,13.3,True,O,13.02,feldpausch,39.0912,29.0747,0.893,29.0747
+SFX_A01,3,Neea oppositifolia,Nyctaginaceae,0.89,,11.2,,,A,O,11.53,11.2,True,O,11.53,feldpausch,24.8245,18.6669,0.893,18.6669
+SFX_A01,4,Neea oppositifolia,Nyctaginaceae,0.89,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,0.893,22.3066
+SFX_A01,5,NI,NI,0.62,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.7088,17.8143
+SFX_A01,6,Neea oppositifolia,Nyctaginaceae,0.89,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,0.893,19.096
+SFX_A01,7,Mimosa hostilis,Fabaceae,0.45,,12.8,,,A,O,12.67,12.8,True,O,12.67,feldpausch,35.3219,26.3361,0.8235,26.3361
+SFX_A01,8,Cordia scabrifolia,Boraginaceae,0.47,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,0.474,19.096
+SFX_A01,9,Astronium gracile,Anacardiaceae,0.73,0.03237525,10.5,7.9,6.11,A,O,11.0,10.5,True,O,7.9,measured,15.1323,12.042,0.73,12.042
+SFX_A01,10,Astrocaryum aculeatum,Arecaceae,0.51,0.102499113,22.3,,,A,P,18.42,22.3,True,P,18.42,feldpausch,150.4092,,0.508,
+SFX_A01,11,Terminalia amazonia,Combretaceae,0.68,,14.9,,,A,O,14.08,14.9,True,O,14.08,feldpausch,52.6692,38.9035,0.6735,38.9035
+SFX_A01,12,Neea oppositifolia,Nyctaginaceae,0.89,,11.4,,,A,O,11.67,11.4,True,O,11.67,feldpausch,26.0016,19.5314,0.893,19.5314
+SFX_A01,13,Neea oppositifolia,Nyctaginaceae,0.89,,12.4,,,A,O,12.39,12.4,True,O,12.39,feldpausch,32.4831,24.2681,0.893,24.2681
+SFX_A01,14,Couratari stellata,Lecythidaceae,0.63,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.6331,16.1847
+SFX_A01,15,Neea oppositifolia,Nyctaginaceae,0.89,,23.0,,,A,O,18.79,23.0,True,O,18.79,feldpausch,162.8943,117.3781,0.893,117.3781
+SFX_A01,16,Socratea exorrhiza,Arecaceae,0.62,0.074649894,18.8,,,A,P,16.48,18.8,True,P,16.48,feldpausch,96.6868,,0.23,
+SFX_A01,17,Nectandra cuspidata,Lauraceae,0.56,,13.2,,,A,O,12.95,13.2,True,O,12.95,feldpausch,38.3174,28.5131,0.518,28.5131
+SFX_A01,18,Inga sp.,Fabaceae,0.58,,12.2,,,A,O,12.25,12.2,True,O,12.25,feldpausch,31.1212,23.2742,0.5786,23.2742
+SFX_A01,19,,,0.58,,10.3,,,D,O,10.85,10.3,False,O,10.85,feldpausch,19.8654,19.8654,0.7088,23.3729
+SFX_A01,20,Mimosa hostilis,Fabaceae,0.45,,14.7,,,A,O,13.95,14.7,True,O,13.95,feldpausch,50.8357,37.5799,0.8235,37.5799
+SFX_A01,21,Mimosa hostilis,Fabaceae,0.45,,16.5,,,A,O,15.1,16.5,True,O,15.1,feldpausch,68.8131,50.5162,0.8235,50.5162
+SFX_A01,22,Cecropia ficifolia,Urticaceae,0.27,0.55939655,39.3,26.75,16.89,A,O,25.82,39.3,True,O,26.75,measured,654.3091,457.5046,0.266,457.5046
+SFX_A01,23,Mimosa hostilis,Fabaceae,0.45,,22.0,,,A,O,18.26,22.0,True,O,18.26,feldpausch,145.2428,104.9089,0.8235,104.9089
+SFX_A01,24,Mimosa hostilis,Fabaceae,0.45,,17.4,,,A,O,15.65,17.4,True,O,15.65,feldpausch,79.0422,57.8456,0.8235,57.8456
+SFX_A01,25,Mimosa hostilis,Fabaceae,0.45,,14.8,,,A,O,14.02,14.8,True,O,14.02,feldpausch,51.7652,38.2492,0.8235,38.2492
+SFX_A01,26,Mimosa hostilis,Fabaceae,0.45,0.053462032,13.0,13.81,4.51,A,O,12.81,13.0,True,O,13.81,measured,39.6011,29.1491,0.8235,29.1491
+SFX_A01,27,Neea oppositifolia,Nyctaginaceae,0.89,,14.4,,,A,O,13.76,14.4,True,O,13.76,feldpausch,48.181,35.6594,0.893,35.6594
+SFX_A01,28,Galipea trifoliata,NI,0.62,,12.2,,,A,O,12.25,12.2,True,O,12.25,feldpausch,31.1212,23.2742,0.997,23.2742
+SFX_A01,29,,,,0.014208072,12.5,,,A,L,12.46,12.5,True,L,12.46,feldpausch,33.1783,24.775,0.7088,24.775
+SFX_A01,30,Neea oppositifolia,Nyctaginaceae,0.89,,19.3,,,A,O,16.77,19.3,True,O,16.77,feldpausch,103.5173,75.3082,0.893,75.3082
+SFX_A01,31,Galipea trifoliata,NI,0.62,,13.2,,,A,O,12.95,13.2,True,O,12.95,feldpausch,38.3174,28.5131,0.997,28.5131
+SFX_A01,32,Astronium gracile,Anacardiaceae,0.73,,24.3,,,A,O,19.45,24.3,True,O,19.45,feldpausch,187.5641,134.7747,0.73,134.7747
+SFX_A01,33,Rinorea racemosa,Violaceae,0.68,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,0.682,19.096
+SFX_A01,34,Neea oppositifolia,Nyctaginaceae,0.89,,25.6,,,A,O,20.09,25.6,True,O,20.09,feldpausch,214.3155,153.595,0.893,153.595
+SFX_A01,35,Helicostylis sp.,Moraceae,0.65,2.512738796,46.2,35.44,25.19,A,O,28.14,46.2,True,O,35.44,measured,1180.7221,795.8464,0.643,795.8464
+SFX_A01,36,Rinorea racemosa,Violaceae,0.68,,13.6,,,A,O,13.22,13.6,True,O,13.22,feldpausch,41.4429,30.7826,0.682,30.7826
+SFX_A01,37,Jacaranda copaia,Bignoniaceae,0.35,,20.5,,,A,O,17.45,20.5,True,O,17.45,feldpausch,121.0589,87.772,0.3507,87.772
+SFX_A01,38,Neea oppositifolia,Nyctaginaceae,0.89,,10.2,,,A,O,10.78,10.2,True,O,10.78,feldpausch,19.368,14.6535,0.893,14.6535
+SFX_A01,39,Theobroma glaucum,Malvaceae,0.53,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.5297,19.9869
+SFX_A01,40,Couratari stellata,Lecythidaceae,0.63,,12.7,,,A,O,12.6,12.7,True,O,12.6,feldpausch,34.5977,25.8089,0.6331,25.8089
+SFX_A01,41,Pourouma minor,Urticaceae,0.44,,19.0,,,A,O,16.6,19.0,True,O,16.6,feldpausch,99.4061,72.3794,0.436,72.3794
+SFX_A01,42,Inga marginata,Fabaceae,0.57,,31.4,,,A,O,22.73,31.4,True,O,22.73,feldpausch,360.1707,255.6331,0.5518,255.6331
+SFX_A01,43,Pouteria gongrijpii,Sapotaceae,0.8,,18.2,,,A,O,16.13,18.2,True,O,16.13,feldpausch,88.8733,64.8705,0.7994,64.8705
+SFX_A01,44,Rinorea racemosa,Violaceae,0.68,,10.3,,,A,O,10.85,10.3,True,O,10.85,feldpausch,19.8654,15.0216,0.682,15.0216
+SFX_A01,45,NI,NI,0.62,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,0.7088,22.3066
+SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,14.0,,,A,O,13.49,14.0,True,O,13.49,feldpausch,44.7295,33.1639,0.893,33.1639
+SFX_A01,47,Neea oppositifolia,Nyctaginaceae,0.89,,10.7,,,A,O,11.15,10.7,True,O,11.15,feldpausch,21.9765,16.5767,0.893,16.5767
+SFX_A01,48,Pourouma minor,Urticaceae,0.44,,16.9,,,A,O,15.35,16.9,True,O,15.35,feldpausch,73.2719,53.7118,0.436,53.7118
+SFX_A01,49,Galipea trifoliata,NI,0.62,,14.2,,,A,O,13.62,14.2,True,O,13.62,feldpausch,46.4178,34.3869,0.997,34.3869
+SFX_A01,50,Vitex triflora,Lamiaceae,0.56,0.032886436,12.3,7.63,3.61,A,O,12.32,12.3,True,O,7.63,measured,19.9205,16.0611,0.5482,16.0611
+SFX_A01,51,Neea oppositifolia,Nyctaginaceae,0.89,,14.1,,,A,O,13.56,14.1,True,O,13.56,feldpausch,45.585,33.7821,0.893,33.7821
+SFX_A01,52,Mimosa hostilis,Fabaceae,0.45,,19.0,,,A,O,16.6,19.0,True,O,16.6,feldpausch,99.4061,72.3794,0.8235,72.3794
+SFX_A01,53,Mimosa hostilis,Fabaceae,0.45,,11.6,,,A,O,11.82,11.6,True,O,11.82,feldpausch,27.2369,20.4351,0.8235,20.4351
+SFX_A01,54,Mimosa hostilis,Fabaceae,0.45,0.180144359,19.0,21.79,13.41,A,O,16.6,19.0,True,O,21.79,measured,129.6363,90.4193,0.8235,90.4193
+SFX_A01,55,Mimosa hostilis,Fabaceae,0.45,,16.7,,,A,O,15.22,16.7,True,O,15.22,feldpausch,70.997,52.0844,0.8235,52.0844
+SFX_A01,56,Mimosa hostilis,Fabaceae,0.45,,14.5,,,A,O,13.82,14.5,True,O,13.82,feldpausch,49.0441,36.2853,0.8235,36.2853
+SFX_A01,57,Virola melinoni,Myristicaceae,0.48,1.144334272,43.0,25.54,21.6,A,O,27.1,43.0,True,O,25.54,measured,745.4847,527.355,0.4734,527.355
+SFX_A01,58,Neea oppositifolia,Nyctaginaceae,0.89,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.893,16.1847
+SFX_A01,59,Pouteria sp.,Sapotaceae,0.78,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,0.7187,22.3066
+SFX_A01,60,,,0.58,,12.8,,,D,O,12.67,12.8,False,O,12.67,feldpausch,35.3219,35.3219,0.7088,41.5584
+SFX_A01,61,Neea oppositifolia,Nyctaginaceae,0.89,,22.3,,,A,O,18.42,22.3,True,O,18.42,feldpausch,150.4092,108.5616,0.893,108.5616
+SFX_A01,62,Pouteria sp.,Sapotaceae,0.78,,30.4,,,A,O,22.3,30.4,True,O,22.3,feldpausch,331.8757,235.8957,0.7187,235.8957
+SFX_A01,63,Neea oppositifolia,Nyctaginaceae,0.89,,15.2,,,A,O,14.28,15.2,True,O,14.28,feldpausch,55.518,40.9557,0.893,40.9557
+SFX_A01,64,Astronium gracile,Anacardiaceae,0.73,,13.0,,,A,O,12.81,13.0,True,O,12.81,feldpausch,36.7999,27.4108,0.73,27.4108
+SFX_A01,65,Astrocaryum aculeatum,Arecaceae,0.51,0.112977242,23.5,,,A,P,19.05,23.5,True,P,19.05,feldpausch,172.1721,,0.508,
+SFX_A01,66,Galipea trifoliata,NI,0.62,,19.7,,,A,O,17.0,19.7,True,O,17.0,feldpausch,109.1885,79.3413,0.997,79.3413
+SFX_A01,67,Mimosa hostilis,Fabaceae,0.45,,15.4,,,A,O,14.41,15.4,True,O,14.41,feldpausch,57.4589,42.3534,0.8235,42.3534
+SFX_A01,68,Mimosa hostilis,Fabaceae,0.45,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,0.8235,41.6389
+SFX_A01,69,Inga marginata,Fabaceae,0.57,,17.2,,,A,O,15.53,17.2,True,O,15.53,feldpausch,76.7,56.1687,0.5518,56.1687
+SFX_A01,70,Galipea trifoliata,NI,0.62,,10.4,,,A,O,10.93,10.4,True,O,10.93,feldpausch,20.3893,15.407,0.997,15.407
+SFX_A01,71,,,0.58,,14.2,,,D,O,13.62,14.2,False,O,13.62,feldpausch,46.4178,46.4178,0.7088,54.6134
+SFX_A01,1,Inga marginata,Fabaceae,0.57,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,0.5518,22.3066
+SFX_A01,2,Pourouma minor,Urticaceae,0.44,,10.2,,,A,O,10.78,10.2,True,O,10.78,feldpausch,19.368,14.6535,0.436,14.6535
+SFX_A01,3,Castilla ulei,Moraceae,0.82,,17.4,,,A,O,15.65,17.4,True,O,15.65,feldpausch,79.0422,57.8456,0.5675,57.8456
+SFX_A01,4,Castilla ulei,Moraceae,0.82,,16.2,,,A,O,14.91,16.2,True,O,14.91,feldpausch,65.5765,48.1941,0.5675,48.1941
+SFX_A01,5,Virola melinoni,Myristicaceae,0.48,,13.4,,,A,O,13.08,13.4,True,O,13.08,feldpausch,39.8454,29.6247,0.4734,29.6247
+SFX_A01,6,NI,NI,0.62,,17.4,,,A,O,15.65,17.4,True,O,15.65,feldpausch,79.0422,57.8456,0.7088,57.8456
+SFX_A01,7,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.8,,,A,O,11.23,10.8,True,O,11.23,feldpausch,22.5359,16.987,0.475,16.987
+SFX_A01,8,,,0.58,,28.0,,,D,O,21.23,28.0,False,O,21.23,feldpausch,269.4116,269.4116,0.7088,316.9792
+SFX_A01,9,Stryphnodendron pulcherrimum,Fabaceae,0.47,,14.2,,,A,O,13.62,14.2,True,O,13.62,feldpausch,46.4178,34.3869,0.475,34.3869
+SFX_A01,10,Eschweilera parviflora,Lecythidaceae,0.89,,14.2,,,A,O,13.62,14.2,True,O,13.62,feldpausch,46.4178,34.3869,0.918,34.3869
+SFX_A01,11,,,,0.015572874,15.1,,,A,L,14.21,15.1,True,L,14.21,feldpausch,54.5451,40.2564,0.7088,40.2564
+SFX_A01,12,,,,0.01301727,10.6,,,A,L,11.08,10.6,True,L,11.08,feldpausch,21.4451,16.1847,0.7088,16.1847
+SFX_A01,13,,,,0.014601611,13.2,,,A,L,12.95,13.2,True,L,12.95,feldpausch,38.3174,28.5131,0.7088,28.5131
+SFX_A01,14,Dalbergia melanoxylon,Fabaceae,0.8,,28.6,,,A,O,21.5,28.6,True,O,21.5,feldpausch,284.2805,202.6405,1.0772,202.6405
+SFX_A01,15,Galipea trifoliata,NI,0.62,,13.7,,,A,O,13.29,13.7,True,O,13.29,feldpausch,42.2571,31.3721,0.997,31.3721
+SFX_A01,16,Neea oppositifolia,Nyctaginaceae,0.89,,28.5,,,A,O,21.46,28.5,True,O,21.46,feldpausch,281.8308,200.9196,0.893,200.9196
+SFX_A01,17,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.475,16.1847
+SFX_A01,18,Theobroma glaucum,Malvaceae,0.53,,12.6,,,A,O,12.53,12.6,True,O,12.53,feldpausch,33.8832,25.2886,0.5297,25.2886
+SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,1.0772,22.3066
+SFX_A01,20,Eschweilera parviflora,Lecythidaceae,0.89,,12.3,,,A,O,12.32,12.3,True,O,12.32,feldpausch,31.7974,23.7678,0.918,23.7678
+SFX_A01,21,Stryphnodendron pulcherrimum,Fabaceae,0.47,0.028148498,11.0,9.72,5.21,A,O,11.38,11.0,True,O,9.72,measured,20.2872,15.6587,0.475,15.6587
+SFX_A01,22,Dalbergia melanoxylon,Fabaceae,0.8,0.446655662,23.2,20.37,8.36,A,O,18.89,23.2,True,O,20.37,measured,179.2538,127.5822,1.0772,127.5822
+SFX_A01,23,Theobroma glaucum,Malvaceae,0.53,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.5297,16.1847
+SFX_A01,24,Dalbergia melanoxylon,Fabaceae,0.8,1.064411087,36.9,19.19,5.51,A,O,24.94,36.9,True,O,19.19,measured,418.3862,307.3743,1.0772,307.3743
+SFX_A01,25,,,0.58,7.972370444,120.0,29.04,,D,O,41.12,120.0,False,O,29.04,measured,6264.7995,6264.7995,0.7088,7370.9184
+SFX_A01,26,,,,0.016169353,16.4,,,A,L,15.04,16.4,True,L,15.04,feldpausch,67.7376,49.7434,0.7088,49.7434
+SFX_A01,27,Ceiba pentandra,Malvaceae,0.35,,25.1,,,A,O,19.85,25.1,True,O,19.85,feldpausch,203.8159,146.2093,0.3052,146.2093
+SFX_A01,28,Theobroma glaucum,Malvaceae,0.53,,10.2,,,A,O,10.78,10.2,True,O,10.78,feldpausch,19.368,14.6535,0.5297,14.6535
+SFX_A01,29,Helicostylis sp.,Moraceae,0.65,,21.3,,,A,O,17.88,21.3,True,O,17.88,feldpausch,133.5883,96.6619,0.643,96.6619
+SFX_A01,30,Dalbergia melanoxylon,Fabaceae,0.8,,22.2,,,A,O,18.37,22.2,True,O,18.37,feldpausch,148.7004,107.3512,1.0772,107.3512
+SFX_A01,31,,,0.58,,16.5,,,D,O,15.1,16.5,False,O,15.1,feldpausch,68.8131,68.8131,0.7088,80.9628
+SFX_A01,32,Hymenaea courbaril,Fabaceae,0.79,3.572612251,60.5,24.36,22.81,A,O,32.06,60.5,True,O,24.36,measured,1386.2585,1004.3203,0.7924,1004.3203
+SFX_A01,33,Tetragastris panamensis,Burseraceae,0.73,1.992310013,42.9,29.05,18.03,A,O,27.07,42.9,True,O,29.05,measured,841.488,583.2135,0.7173,583.2135
+SFX_A01,34,Theobroma glaucum,Malvaceae,0.53,,12.3,,,A,O,12.32,12.3,True,O,12.32,feldpausch,31.7974,23.7678,0.5297,23.7678
+SFX_A01,35,Pouteria gongrijpii,Sapotaceae,0.8,,19.7,,,A,O,17.0,19.7,True,O,17.0,feldpausch,109.1885,79.3413,0.7994,79.3413
+SFX_A01,36,Pourouma minor,Urticaceae,0.44,,19.1,,,A,O,16.65,19.1,True,O,16.65,feldpausch,100.7252,73.3235,0.436,73.3235
+SFX_A01,37,Hymenolobium petraeum,Fabaceae,0.71,,21.3,,,A,O,17.88,21.3,True,O,17.88,feldpausch,133.5883,96.6619,0.7125,96.6619
+SFX_A01,38,Galipea trifoliata,NI,0.62,,15.0,,,A,O,14.15,15.0,True,O,14.15,feldpausch,53.6203,39.5877,0.997,39.5877
+SFX_A01,39,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O,11.53,11.2,True,O,11.53,feldpausch,24.8245,18.6669,0.5297,18.6669
+SFX_A01,40,Dalbergia melanoxylon,Fabaceae,0.8,1.1786416,48.5,12.3,9.79,A,O,28.84,48.5,True,O,12.3,measured,462.1425,369.0501,1.0772,369.0501
+SFX_A01,41,Inga sp.,Fabaceae,0.58,,17.2,,,A,O,15.53,17.2,True,O,15.53,feldpausch,76.7,56.1687,0.5786,56.1687
+SFX_A01,42,Inga alba,Fabaceae,0.59,,31.1,,,A,O,22.61,31.1,True,O,22.61,feldpausch,351.6627,249.6882,0.5861,249.6882
+SFX_A01,43,NI,NI,0.62,,12.8,,,A,O,12.67,12.8,True,O,12.67,feldpausch,35.3219,26.3361,0.7088,26.3361
+SFX_A01,44,Pourouma minor,Urticaceae,0.44,,20.1,,,A,O,17.22,20.1,True,O,17.22,feldpausch,114.992,83.4693,0.436,83.4693
+SFX_A01,45,NI,NI,0.62,,11.1,,,A,O,11.45,11.1,True,O,11.45,feldpausch,24.2284,18.2309,0.7088,18.2309
+SFX_A01,46,NI,NI,0.62,,14.4,,,A,O,13.76,14.4,True,O,13.76,feldpausch,48.181,35.6594,0.7088,35.6594
+SFX_A01,47,Zollernia paraensis,Fabaceae,0.99,,19.4,,,A,O,16.83,19.4,True,O,16.83,feldpausch,104.932,76.3132,0.99,76.3132
+SFX_A01,48,Tetragastris panamensis,Burseraceae,0.73,1.066065188,35.5,22.7,12.04,A,O,24.4,35.5,True,O,22.7,measured,457.0752,326.3964,0.7173,326.3964
+SFX_A01,49,,,0.58,0.665186024,63.1,6.71,,D,O,32.66,63.1,False,O,6.71,measured,427.5621,427.5621,0.7088,503.0528
+SFX_A01,50,NI,NI,0.62,,13.0,,,A,O,12.81,13.0,True,O,12.81,feldpausch,36.7999,27.4108,0.7088,27.4108
+SFX_A01,51,Ficus maxima,Moraceae,0.37,1.853481137,50.0,39.69,20.02,A,O,29.28,50.0,True,O,39.69,measured,1538.7317,1022.6349,0.3605,1022.6349
+SFX_A01,52,Theobroma glaucum,Malvaceae,0.53,,16.5,,,A,O,15.1,16.5,True,O,15.1,feldpausch,68.8131,50.5162,0.5297,50.5162
+SFX_A01,53,NI,NI,0.62,,11.3,,,A,O,11.6,11.3,True,O,11.6,feldpausch,25.4086,19.096,0.7088,19.096
+SFX_A01,54,Tetragastris panamensis,Burseraceae,0.73,2.464091456,49.5,26.98,18.37,A,O,29.14,49.5,True,O,26.98,measured,1035.2065,730.9071,0.7173,730.9071
+SFX_A01,55,Virola melinoni,Myristicaceae,0.48,,31.2,,,A,O,22.65,31.2,True,O,22.65,feldpausch,354.4843,251.6601,0.4734,251.6601
+SFX_A01,56,Pouteria gongrijpii,Sapotaceae,0.8,,10.5,,,A,O,11.0,10.5,True,O,11.0,feldpausch,20.9036,15.7869,0.7994,15.7869
+SFX_A01,57,Dalbergia melanoxylon,Fabaceae,0.8,,17.6,,,A,O,15.77,17.6,True,O,15.77,feldpausch,81.4301,59.554,1.0772,59.554
+SFX_A01,58,Sapium marmieri,Euphorbiaceae,0.41,1.117913181,42.2,30.08,18.65,A,O,26.83,42.2,True,O,30.08,measured,843.0819,580.6516,0.41,580.6516
+SFX_A01,59,Tetragastris panamensis,Burseraceae,0.73,,24.2,,,A,O,19.4,24.2,True,O,19.4,feldpausch,185.5935,133.3865,0.7173,133.3865
+SFX_A01,60,,,,0.016555215,17.3,,,A,L,15.59,17.3,True,L,15.59,feldpausch,77.8654,57.0033,0.7088,57.0033
+SFX_A01,61,Dalbergia melanoxylon,Fabaceae,0.8,,17.6,,,A,O,15.77,17.6,True,O,15.77,feldpausch,81.4301,59.554,1.0772,59.554
+SFX_A01,62,NI,NI,0.62,,12.7,,,A,O,12.6,12.7,True,O,12.6,feldpausch,34.5977,25.8089,0.7088,25.8089
+SFX_A01,63,NI,NI,0.62,,11.2,,,A,O,11.53,11.2,True,O,11.53,feldpausch,24.8245,18.6669,0.7088,18.6669
+SFX_A01,64,,,0.58,,11.6,,,D,O,11.82,11.6,False,O,11.82,feldpausch,27.2369,27.2369,0.7088,32.0458
+SFX_A01,65,,,0.58,,19.6,,,D,O,16.94,19.6,False,O,16.94,feldpausch,107.7368,107.7368,0.7088,126.7589
+SFX_A01,66,Dalbergia melanoxylon,Fabaceae,0.8,,25.9,,,A,O,20.24,25.9,True,O,20.24,feldpausch,220.8428,158.1755,1.0772,158.1755
+SFX_A01,67,Brosimum rubescens ,Moraceae,0.83,,13.9,,,A,O,13.42,13.9,True,O,13.42,feldpausch,43.8846,32.553,0.8251,32.553
+SFX_A01,68,Sapium marmieri,Euphorbiaceae,0.41,0.685768354,45.1,16.16,11.45,A,O,27.79,45.1,True,O,16.16,measured,523.4221,398.9492,0.41,398.9492
+SFX_A01,69,Dalbergia melanoxylon,Fabaceae,0.8,,24.3,,,A,O,19.45,24.3,True,O,19.45,feldpausch,187.5641,134.7747,1.0772,134.7747
+SFX_A01,70,Neea oppositifolia,Nyctaginaceae,0.89,0.176579472,15.8,15.57,10.31,A,O,14.66,15.8,True,O,15.57,measured,65.1498,47.497,0.893,47.497
+SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,1.344231718,50.3,13.04,5.44,A,O,29.37,50.3,True,O,13.04,measured,525.3301,416.3825,1.0772,416.3825
+SFX_A01,72,NI,NI,0.62,,27.5,,,A,O,21.0,27.5,True,O,21.0,feldpausch,257.35,183.7808,0.7088,183.7808
+SFX_A01,73,Eschweilera parviflora,Lecythidaceae,0.89,,12.8,,,A,O,12.67,12.8,True,O,12.67,feldpausch,35.3219,26.3361,0.918,26.3361
+SFX_A01,74,Dalbergia melanoxylon,Fabaceae,0.8,,15.2,,,A,O,14.28,15.2,True,O,14.28,feldpausch,55.518,40.9557,1.0772,40.9557
+SFX_A01,75,Zollernia paraensis,Fabaceae,0.99,3.517943874,46.8,31.87,19.42,A,O,28.32,46.8,True,O,31.87,measured,1091.6451,748.717,0.99,748.717
+SFX_A01,76,,,,0.012739448,10.2,,,A,L,10.78,10.2,True,L,10.78,feldpausch,19.368,14.6535,0.7088,14.6535
+SFX_A01,77,Theobroma glaucum,Malvaceae,0.53,,10.9,,,A,O,11.3,10.9,True,O,11.3,feldpausch,23.0846,17.3912,0.5297,17.3912
+SFX_A01,78,Inga alba,Fabaceae,0.59,0.133729431,14.1,22.55,14.71,A,O,13.56,14.1,True,O,22.55,measured,74.8872,51.212,0.5861,51.212
+SFX_A01,79,Dalbergia melanoxylon,Fabaceae,0.8,,23.2,,,A,O,18.89,23.2,True,O,18.89,feldpausch,166.5312,119.948,1.0772,119.948
+SFX_A01,80,Tabebuia serratifolia,Bignoniaceae,0.92,,33.2,,,A,O,23.48,33.2,True,O,23.48,feldpausch,414.4991,293.472,0.924,293.472
+SFX_A01,81,Tabebuia serratifolia,Bignoniaceae,0.92,,30.4,,,A,O,22.3,30.4,True,O,22.3,feldpausch,331.8757,235.8957,0.924,235.8957
+SFX_A01,82,Inga alba,Fabaceae,0.59,,12.3,,,A,O,12.32,12.3,True,O,12.32,feldpausch,31.7974,23.7678,0.5861,23.7678
+SFX_A01,83,Inga alba,Fabaceae,0.59,,11.4,,,A,O,11.67,11.4,True,O,11.67,feldpausch,26.0016,19.5314,0.5861,19.5314
+SFX_A01,84,,,,0.013479137,11.3,,,A,L,11.6,11.3,True,L,11.6,feldpausch,25.4086,19.096,0.7088,19.096
+SFX_A01,85,Nectandra cuspidata,Lauraceae,0.56,,16.2,,,A,O,14.91,16.2,True,O,14.91,feldpausch,65.5765,48.1941,0.518,48.1941
+SFX_A01,86,Dalbergia melanoxylon,Fabaceae,0.8,,32.0,,,A,O,22.99,32.0,True,O,22.99,feldpausch,377.8988,267.9775,1.0772,267.9775
+SFX_A01,1,,,0.58,,32.6,,,D,O,23.24,32.6,False,O,23.24,feldpausch,396.0116,396.0116,0.7088,465.9318
+SFX_A01,2,Terminalia amazonia,Combretaceae,0.68,,10.3,,,A,O,10.85,10.3,True,O,10.85,feldpausch,19.8654,15.0216,0.6735,15.0216
+SFX_A01,3,Brosimum obovata,Moraceae,0.68,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,0.6707,22.3066
+SFX_A01,4,Neea oppositifolia,Nyctaginaceae,0.89,,11.6,,,A,O,11.82,11.6,True,O,11.82,feldpausch,27.2369,20.4351,0.893,20.4351
+SFX_A01,5,NI,NI,0.62,,14.6,,,A,O,13.89,14.6,True,O,13.89,feldpausch,49.9522,36.9399,0.7088,36.9399
+SFX_A01,6,Castilla ulei,Moraceae,0.82,,10.1,,,A,O,10.7,10.1,True,O,10.7,feldpausch,18.8614,14.2803,0.5675,14.2803
+SFX_A01,7,Vitex triflora,Lamiaceae,0.56,,14.5,,,A,O,13.82,14.5,True,O,13.82,feldpausch,49.0441,36.2853,0.5482,36.2853
+SFX_A01,8,Inga marginata,Fabaceae,0.57,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.5518,16.1847
+SFX_A01,9,Mimosa hostilis,Fabaceae,0.45,,13.4,,,A,O,13.08,13.4,True,O,13.08,feldpausch,39.8454,29.6247,0.8235,29.6247
+SFX_A01,10,Inga marginata,Fabaceae,0.57,,26.4,,,A,O,20.48,26.4,True,O,20.48,feldpausch,231.894,165.9339,0.5518,165.9339
+SFX_A01,11,Cecropia ficifolia,Urticaceae,0.27,0.056573233,17.0,14.46,10.64,A,O,15.41,17.0,True,O,14.46,measured,69.9232,51.7577,0.266,51.7577
+SFX_A01,12,Tetragastris panamensis,Burseraceae,0.73,,10.2,,,A,O,10.78,10.2,True,O,10.78,feldpausch,19.368,14.6535,0.7173,14.6535
+SFX_A01,13,Cecropia ficifolia,Urticaceae,0.27,,27.0,,,A,O,20.76,27.0,True,O,20.76,feldpausch,245.5255,175.5007,0.266,175.5007
+SFX_A01,14,Cecropia ficifolia,Urticaceae,0.27,,32.7,,,A,O,23.28,32.7,True,O,23.28,feldpausch,399.0555,282.7138,0.266,282.7138
+SFX_A01,15,Inga marginata,Fabaceae,0.57,,15.8,,,A,O,14.66,15.8,True,O,14.66,feldpausch,61.4308,45.2138,0.5518,45.2138
+SFX_A01,16,Inga marginata,Fabaceae,0.57,,16.2,,,A,O,14.91,16.2,True,O,14.91,feldpausch,65.5765,48.1941,0.5518,48.1941
+SFX_A01,17,Vitex triflora,Lamiaceae,0.56,,19.5,,,A,O,16.88,19.5,True,O,16.88,feldpausch,106.2977,77.2893,0.5482,77.2893
+SFX_A01,18,Mimosa hostilis,Fabaceae,0.45,,13.3,,,A,O,13.02,13.3,True,O,13.02,feldpausch,39.0912,29.0747,0.8235,29.0747
+SFX_A01,19,Mimosa hostilis,Fabaceae,0.45,,16.0,,,A,O,14.79,16.0,True,O,14.79,feldpausch,63.5026,46.7018,0.8235,46.7018
+SFX_A01,20,Mimosa hostilis,Fabaceae,0.45,,11.1,,,A,O,11.45,11.1,True,O,11.45,feldpausch,24.2284,18.2309,0.8235,18.2309
+SFX_A01,21,Vitex triflora,Lamiaceae,0.56,,17.8,,,A,O,15.89,17.8,True,O,15.89,feldpausch,83.8644,61.2941,0.5482,61.2941
+SFX_A01,22,Attalea maripa,Arecaceae,0.33,0.211033085,32.9,,,A,P,23.36,32.9,True,P,23.36,feldpausch,405.188,,0.326,
+SFX_A01,23,Inga marginata,Fabaceae,0.57,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.5518,19.9869
+SFX_A01,24,Platymiscium filipes,Fabaceae,0.79,,11.7,,,A,O,11.89,11.7,True,O,11.89,feldpausch,27.8572,20.8896,0.7815,20.8896
+SFX_A01,25,Socratea exorrhiza,Arecaceae,0.62,0.041477095,13.7,,,A,P,13.29,13.7,True,P,13.29,feldpausch,42.2571,,0.23,
+SFX_A01,26,Castilla ulei,Moraceae,0.82,,15.1,,,A,O,14.21,15.1,True,O,14.21,feldpausch,54.5451,40.2564,0.5675,40.2564
+SFX_A01,27,Guatteria schomburgkiana,Annonaceae,0.6,,21.2,,,A,O,17.83,21.2,True,O,17.83,feldpausch,132.0055,95.5373,0.6,95.5373
+SFX_A01,28,Inga marginata,Fabaceae,0.57,,16.3,,,A,O,14.98,16.3,True,O,14.98,feldpausch,66.6731,48.9783,0.5518,48.9783
+SFX_A01,29,Inga marginata,Fabaceae,0.57,,13.0,,,A,O,12.81,13.0,True,O,12.81,feldpausch,36.7999,27.4108,0.5518,27.4108
+SFX_A01,30,Rinorea racemosa,Violaceae,0.68,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.682,17.8143
+SFX_A01,31,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O,11.53,11.2,True,O,11.53,feldpausch,24.8245,18.6669,0.5297,18.6669
+SFX_A01,32,Nectandra cuspidata,Lauraceae,0.56,,32.1,,,A,O,23.03,32.1,True,O,23.03,feldpausch,380.853,270.0387,0.518,270.0387
+SFX_A01,33,Attalea maripa,Arecaceae,0.33,0.177800093,30.0,,,A,P,22.13,30.0,True,P,22.13,feldpausch,320.9987,,0.326,
+SFX_A01,34,Inga marginata,Fabaceae,0.57,,11.9,,,A,O,12.03,11.9,True,O,12.03,feldpausch,29.1251,21.8178,0.5518,21.8178
+SFX_A01,35,Inga marginata,Fabaceae,0.57,,14.0,,,A,O,13.49,14.0,True,O,13.49,feldpausch,44.7295,33.1639,0.5518,33.1639
+SFX_A01,36,Eschweilera parviflora,Lecythidaceae,0.89,,14.7,,,A,O,13.95,14.7,True,O,13.95,feldpausch,50.8357,37.5799,0.918,37.5799
+SFX_A01,37,Theobroma glaucum,Malvaceae,0.53,,15.3,,,A,O,14.34,15.3,True,O,14.34,feldpausch,56.4638,41.6389,0.5297,41.6389
+SFX_A01,38,Poecilanthe effusa,Fabaceae,0.71,,12.1,,,A,O,12.18,12.1,True,O,12.18,feldpausch,30.4544,22.7871,0.7125,22.7871
+SFX_A01,39,Rheedia gardneriana,Clusiaceae,0.62,,16.6,,,A,O,15.16,16.6,True,O,15.16,feldpausch,69.8995,51.2965,0.7088,51.2965
+SFX_A01,40,,,0.58,,15.4,,,D,O,14.41,15.4,False,O,14.41,feldpausch,57.4589,57.4589,0.7088,67.6039
+SFX_A01,41,Cordia scabrifolia,Boraginaceae,0.47,,14.9,,,A,O,14.08,14.9,True,O,14.08,feldpausch,52.6692,38.9035,0.474,38.9035
+SFX_A01,42,Annona ambotay,Annonaceae,0.41,0.027256699,11.3,10.15,5.6,A,O,11.6,11.3,True,O,10.15,measured,22.3039,17.1201,0.5112,17.1201
+SFX_A01,43,Galipea trifoliata,NI,0.62,,13.7,,,A,O,13.29,13.7,True,O,13.29,feldpausch,42.2571,31.3721,0.997,31.3721
+SFX_A01,44,Galipea trifoliata,NI,0.62,,14.3,,,A,O,13.69,14.3,True,O,13.69,feldpausch,47.294,35.0195,0.997,35.0195
+SFX_A01,45,Rinorea racemosa,Violaceae,0.68,,14.5,,,A,O,13.82,14.5,True,O,13.82,feldpausch,49.0441,36.2853,0.682,36.2853
+SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.893,19.9869
+SFX_A01,47,Poecilanthe effusa,Fabaceae,0.71,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.7125,17.8143
+SFX_A01,48,Astronium gracile,Anacardiaceae,0.73,,10.5,,,A,O,11.0,10.5,True,O,11.0,feldpausch,20.9036,15.7869,0.73,15.7869
+SFX_A01,49,Oenocarpus bacaba,Arecaceae,0.65,0.120223337,24.3,,,A,P,19.45,24.3,True,P,19.45,feldpausch,187.5641,,0.65,
+SFX_A01,50,Mimosa hostilis,Fabaceae,0.45,,21.0,,,A,O,17.72,21.0,True,O,17.72,feldpausch,128.8052,93.2699,0.8235,93.2699
+SFX_A01,51,NI,NI,0.62,,13.9,,,A,O,13.42,13.9,True,O,13.42,feldpausch,43.8846,32.553,0.7088,32.553
+SFX_A01,52,Couratari stellata,Lecythidaceae,0.63,,11.6,,,A,O,11.82,11.6,True,O,11.82,feldpausch,27.2369,20.4351,0.6331,20.4351
+SFX_A01,53,Tetragastris panamensis,Burseraceae,0.73,,12.5,,,A,O,12.46,12.5,True,O,12.46,feldpausch,33.1783,24.775,0.7173,24.775
+SFX_A01,54,Neea oppositifolia,Nyctaginaceae,0.89,,10.3,,,A,O,10.85,10.3,True,O,10.85,feldpausch,19.8654,15.0216,0.893,15.0216
+SFX_A01,55,Galipea trifoliata,NI,0.62,0.03349192,10.3,10.0,5.06,A,O,10.85,10.3,True,O,10.0,measured,18.3451,14.0519,0.997,14.0519
+SFX_A01,56,NI,NI,0.62,,12.0,,,A,O,12.11,12.0,True,O,12.11,feldpausch,29.7969,22.3066,0.7088,22.3066
+SFX_A01,57,Cordia scabrifolia,Boraginaceae,0.47,,13.2,,,A,O,12.95,13.2,True,O,12.95,feldpausch,38.3174,28.5131,0.474,28.5131
+SFX_A01,58,NI,NI,0.62,,11.5,,,A,O,11.75,11.5,True,O,11.75,feldpausch,26.6256,19.9869,0.7088,19.9869
+SFX_A01,59,Tetragastris panamensis,Burseraceae,0.73,,14.3,,,A,O,13.69,14.3,True,O,13.69,feldpausch,47.294,35.0195,0.7173,35.0195
+SFX_A01,60,Poecilanthe effusa,Fabaceae,0.71,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.7125,16.1847
+SFX_A01,61,Attalea maripa,Arecaceae,0.33,0.180007543,30.2,,,A,P,22.22,30.2,True,P,22.22,feldpausch,326.4799,,0.326,
+SFX_A01,62,Pourouma minor,Urticaceae,0.44,,14.0,,,A,O,13.49,14.0,True,O,13.49,feldpausch,44.7295,33.1639,0.436,33.1639
+SFX_A01,63,Nectandra cuspidata,Lauraceae,0.56,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.518,17.8143
+SFX_A01,64,Euterpe oleracea,Arecaceae,0.41,0.023116305,10.0,,,A,P,10.62,10.0,True,P,10.62,feldpausch,18.3636,,0.3877,
+SFX_A01,65,Schefflera morototoni,Araliaceae,0.45,,25.5,,,A,O,20.05,25.5,True,O,20.05,feldpausch,212.271,152.1491,0.4559,152.1491
+SFX_A01,1,,,0.58,,15.9,,,D,O,14.73,15.9,False,O,14.73,feldpausch,62.4818,62.4818,0.7088,73.5137
+SFX_A01,2,Dalbergia melanoxylon,Fabaceae,0.8,1.364982451,59.8,9.37,5.46,A,O,31.89,59.8,True,O,9.37,measured,533.334,449.1018,1.0772,449.1018
+SFX_A01,3,Hymenolobium petraeum,Fabaceae,0.71,,19.2,,,A,O,16.71,19.2,True,O,16.71,feldpausch,102.115,74.3116,0.7125,74.3116
+SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,18.2,,,A,O,16.13,18.2,True,O,16.13,feldpausch,88.8733,64.8705,1.0772,64.8705
+SFX_A01,5,Poecilanthe effusa,Fabaceae,0.71,,12.6,,,A,O,12.53,12.6,True,O,12.53,feldpausch,33.8832,25.2886,0.7125,25.2886
+SFX_A01,6,Dalbergia melanoxylon,Fabaceae,0.8,,31.1,,,A,O,22.61,31.1,True,O,22.61,feldpausch,351.6627,249.6882,1.0772,249.6882
+SFX_A01,7,Galipea trifoliata,NI,0.62,,10.1,,,A,O,10.7,10.1,True,O,10.7,feldpausch,18.8614,14.2803,0.997,14.2803
+SFX_A01,8,Dalbergia melanoxylon,Fabaceae,0.8,,34.8,,,A,O,24.13,34.8,True,O,24.13,feldpausch,466.6586,329.7235,1.0772,329.7235
+SFX_A01,9,Rinorea racemosa,Violaceae,0.68,,10.0,,,A,O,10.62,10.0,True,O,10.62,feldpausch,18.3636,13.9133,0.682,13.9133
+SFX_A01,10,Rinorea racemosa,Violaceae,0.68,,14.9,,,A,O,14.08,14.9,True,O,14.08,feldpausch,52.6692,38.9035,0.682,38.9035
+SFX_A01,11,,,0.58,,22.3,,,D,O,18.42,22.3,False,O,18.42,feldpausch,150.4092,150.4092,0.7088,176.9656
+SFX_A01,12,Rinorea passoura,Violaceae,0.68,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.6705,16.1847
+SFX_A01,13,Poecilanthe effusa,Fabaceae,0.71,,13.3,,,A,O,13.02,13.3,True,O,13.02,feldpausch,39.0912,29.0747,0.7125,29.0747
+SFX_A01,14,Theobroma glaucum,Malvaceae,0.53,,13.5,,,A,O,13.15,13.5,True,O,13.15,feldpausch,40.6391,30.2001,0.5297,30.2001
+SFX_A01,15,Dalbergia melanoxylon,Fabaceae,0.8,2.997736284,66.2,16.79,10.78,A,O,33.36,66.2,True,O,16.79,measured,1149.2777,886.8842,1.0772,886.8842
+SFX_A01,16,Dalbergia melanoxylon,Fabaceae,0.8,1.498833901,44.0,19.0,8.95,A,O,27.43,44.0,True,O,19.0,measured,584.1762,433.4962,1.0772,433.4962
+SFX_A01,17,Inga marginata,Fabaceae,0.57,,10.1,,,A,O,10.7,10.1,True,O,10.7,feldpausch,18.8614,14.2803,0.5518,14.2803
+SFX_A01,18,Poecilanthe effusa,Fabaceae,0.71,,10.5,,,A,O,11.0,10.5,True,O,11.0,feldpausch,20.9036,15.7869,0.7125,15.7869
+SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,12.6,,,A,O,12.53,12.6,True,O,12.53,feldpausch,33.8832,25.2886,1.0772,25.2886
+SFX_A01,20,Helicostylis sp.,Moraceae,0.65,4.186639431,52.7,45.39,27.2,A,O,30.05,52.7,True,O,45.39,measured,1943.6951,1267.8682,0.643,1267.8682
+SFX_A01,21,,,,0.01266829,10.1,,,A,L,10.7,10.1,True,L,10.7,feldpausch,18.8614,14.2803,0.7088,14.2803
+SFX_A01,22,,,0.58,,14.1,,,D,O,13.56,14.1,False,O,13.56,feldpausch,45.585,45.585,0.7088,53.6335
+SFX_A01,23,Poecilanthe effusa,Fabaceae,0.71,,10.7,,,A,O,11.15,10.7,True,O,11.15,feldpausch,21.9765,16.5767,0.7125,16.5767
+SFX_A01,24,Rinorea racemosa,Violaceae,0.68,,11.7,,,A,O,11.89,11.7,True,O,11.89,feldpausch,27.8572,20.8896,0.682,20.8896
+SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,1.879145203,52.6,16.67,6.95,A,O,30.02,52.6,True,O,16.67,measured,728.5075,556.6398,1.0772,556.6398
+SFX_A01,26,Dalbergia melanoxylon,Fabaceae,0.8,0.890006104,43.3,11.65,5.75,A,O,27.2,43.3,True,O,11.65,measured,351.2523,281.3778,1.0772,281.3778
+SFX_A01,27,,,0.58,,11.9,,,D,O,12.03,11.9,False,O,12.03,feldpausch,29.1251,29.1251,0.7088,34.2675
+SFX_A01,28,Gustavia poeppigiana,Lecythidaceae,0.66,,10.4,,,A,O,10.93,10.4,True,O,10.93,feldpausch,20.3893,15.407,0.6414,15.407
+SFX_A01,29,Dalbergia melanoxylon,Fabaceae,0.8,1.327426257,47.8,14.26,4.96,A,O,28.63,47.8,True,O,14.26,measured,518.9489,404.5619,1.0772,404.5619
+SFX_A01,30,Inga sp.,Fabaceae,0.58,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.5786,16.1847
+SFX_A01,31,Inga sp.,Fabaceae,0.58,,11.1,,,A,O,11.45,11.1,True,O,11.45,feldpausch,24.2284,18.2309,0.5786,18.2309
+SFX_A01,32,Inga sp.,Fabaceae,0.58,,16.0,,,A,O,14.79,16.0,True,O,14.79,feldpausch,63.5026,46.7018,0.5786,46.7018
+SFX_A01,33,Inga sp.,Fabaceae,0.58,,14.2,,,A,O,13.62,14.2,True,O,13.62,feldpausch,46.4178,34.3869,0.5786,34.3869
+SFX_A01,34,Zanthoxylum rhoifolium,Rutaceae,0.49,,25.8,,,A,O,20.19,25.8,True,O,20.19,feldpausch,218.653,156.6392,0.5692,156.6392
+SFX_A01,35,Inga marginata,Fabaceae,0.57,,10.3,,,A,O,10.85,10.3,True,O,10.85,feldpausch,19.8654,15.0216,0.5518,15.0216
+SFX_A01,36,Dalbergia melanoxylon,Fabaceae,0.8,1.999997208,67.1,10.9,1.94,A,O,33.55,67.1,True,O,10.9,measured,774.0184,639.9107,1.0772,639.9107
+SFX_A01,37,Poecilanthe effusa,Fabaceae,0.71,,10.2,,,A,O,10.78,10.2,True,O,10.78,feldpausch,19.368,14.6535,0.7125,14.6535
+SFX_A01,38,Pouteria gongrijpii,Sapotaceae,0.8,,13.5,,,A,O,13.15,13.5,True,O,13.15,feldpausch,40.6391,30.2001,0.7994,30.2001
+SFX_A01,39,NI,NI,0.62,,29.1,,,A,O,21.73,29.1,True,O,21.73,feldpausch,297.1325,211.6217,0.7088,211.6217
+SFX_A01,40,Poecilanthe effusa,Fabaceae,0.71,,11.2,,,A,O,11.53,11.2,True,O,11.53,feldpausch,24.8245,18.6669,0.7125,18.6669
+SFX_A01,41,Tetragastris panamensis,Burseraceae,0.73,1.141988183,39.5,19.64,11.5,A,O,25.89,39.5,True,O,19.64,measured,488.7922,358.9578,0.7173,358.9578
+SFX_A01,42,Parkia sp.,Fabaceae,0.45,,30.6,,,A,O,22.39,30.6,True,O,22.39,feldpausch,337.4751,239.7986,0.4553,239.7986
+SFX_A01,43,NI,NI,0.62,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.7088,16.1847
+SFX_A01,44,Poecilanthe effusa,Fabaceae,0.71,,11.6,,,A,O,11.82,11.6,True,O,11.82,feldpausch,27.2369,20.4351,0.7125,20.4351
+SFX_A01,45,,,,0.012596424,10.0,,,A,L,10.62,10.0,True,L,10.62,feldpausch,18.3636,13.9133,0.7088,13.9133
+SFX_A01,46,Parkia gigantocarpa,Fabaceae,0.26,8.681787316,130.0,38.82,21.13,A,O,41.98,130.0,True,O,38.82,measured,9722.911,6788.8091,0.26,6788.8091
+SFX_A01,47,Neea oppositifolia,Nyctaginaceae,0.89,,21.0,,,A,O,17.72,21.0,True,O,17.72,feldpausch,128.8052,93.2699,0.893,93.2699
+SFX_A01,48,Vataireopsis speciosa,Fabaceae,0.65,,10.5,,,A,O,11.0,10.5,True,O,11.0,feldpausch,20.9036,15.7869,0.65,15.7869
+SFX_A01,49,Tabebuia serratifolia,Bignoniaceae,0.92,8.459324903,61.2,48.23,31.84,A,O,32.22,61.2,True,O,48.23,measured,2761.3224,1796.8666,0.924,1796.8666
+SFX_A01,50,Cordia scabrifolia,Boraginaceae,0.47,,28.9,,,A,O,21.64,28.9,True,O,21.64,feldpausch,291.9741,208.0154,0.474,208.0154
+SFX_A01,51,Poecilanthe effusa,Fabaceae,0.71,,11.0,,,A,O,11.38,11.0,True,O,11.38,feldpausch,23.6621,17.8143,0.7125,17.8143
+SFX_A01,52,Zollernia paraensis,Fabaceae,0.99,,26.1,,,A,O,20.34,26.1,True,O,20.34,feldpausch,225.2649,161.2767,0.99,161.2767
+SFX_A01,53,Brosimum obovata,Moraceae,0.68,,12.4,,,A,O,12.39,12.4,True,O,12.39,feldpausch,32.4831,24.2681,0.6707,24.2681
+SFX_A01,54,Bertholletia excelsa,Lecythidaceae,0.64,12.99401533,90.0,49.24,27.67,A,O,37.61,90.0,True,O,49.24,measured,5981.9734,3952.3978,0.638,3952.3978
+SFX_A01,55,Cordia scabrifolia,Boraginaceae,0.47,,14.2,,,A,O,13.62,14.2,True,O,13.62,feldpausch,46.4178,34.3869,0.474,34.3869
+SFX_A01,56,Pouteria gongrijpii,Sapotaceae,0.8,3.450277924,51.0,32.6,20.84,A,O,29.57,51.0,True,O,32.6,measured,1319.8909,905.7572,0.7994,905.7572
+SFX_A01,57,,,0.58,,12.9,,,D,O,12.74,12.9,False,O,12.74,feldpausch,36.056,36.056,0.7088,42.422
+SFX_A01,58,Theobroma glaucum,Malvaceae,0.53,,11.4,,,A,O,11.67,11.4,True,O,11.67,feldpausch,26.0016,19.5314,0.5297,19.5314
+SFX_A01,59,Neea oppositifolia,Nyctaginaceae,0.89,,21.1,,,A,O,17.78,21.1,True,O,17.78,feldpausch,130.4348,94.421,0.893,94.421
+SFX_A01,60,Stryphnodendron pulcherrimum,Fabaceae,0.47,,14.5,,,A,O,13.82,14.5,True,O,13.82,feldpausch,49.0441,36.2853,0.475,36.2853
+SFX_A01,61,Poecilanthe effusa,Fabaceae,0.71,,15.9,,,A,O,14.73,15.9,True,O,14.73,feldpausch,62.4818,45.9667,0.7125,45.9667
+SFX_A01,62,Dipteryx odorata,Fabaceae,0.92,4.240152496,49.6,36.81,24.75,A,O,29.16,49.6,True,O,36.81,measured,1407.4195,946.1998,0.9228,946.1998
+SFX_A01,63,NI,NI,0.62,,10.3,,,A,O,10.85,10.3,True,O,10.85,feldpausch,19.8654,15.0216,0.7088,15.0216
+SFX_A01,64,Dalbergia melanoxylon,Fabaceae,0.8,,18.9,,,A,O,16.54,18.9,True,O,16.54,feldpausch,98.0403,71.4077,1.0772,71.4077
+SFX_A01,65,Aspidosperma parvifolium,Apocynaceae,0.74,24.17442927,125.2,41.13,36.04,A,O,41.58,125.2,True,O,41.13,measured,9558.797,6601.6113,0.781,6601.6113
+SFX_A01,66,Dalbergia melanoxylon,Fabaceae,0.8,1.355172527,46.0,15.72,3.94,A,O,28.07,46.0,True,O,15.72,measured,529.5435,405.7638,1.0772,405.7638
+SFX_A01,67,Galipea trifoliata,NI,0.62,,12.9,,,A,O,12.74,12.9,True,O,12.74,feldpausch,36.056,26.87,0.997,26.87
+SFX_A01,68,,,0.45,,19.2,,,D,O,16.71,19.2,False,O,16.71,feldpausch,102.115,102.115,0.7088,120.1446
+SFX_A01,69,Tetragastris panamensis,Burseraceae,0.73,,10.6,,,A,O,11.08,10.6,True,O,11.08,feldpausch,21.4451,16.1847,0.7173,16.1847
+SFX_A01,70,,,0.6,,14.2,,,D,O,13.62,14.2,False,O,13.62,feldpausch,46.4178,46.4178,0.7088,54.6134
+SFX_A01,71,Eschweilera parviflora,Lecythidaceae,0.89,,11.8,,,A,O,11.96,11.8,True,O,11.96,feldpausch,28.4866,21.3505,0.918,21.3505

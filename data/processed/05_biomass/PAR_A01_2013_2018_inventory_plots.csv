@@ -1,0 +1,492 @@
+site,tree_id,scientific_name,family_name,utm_easting,utm_northing,type,dbh_2013,dead_2013,hcom_2013,htot_2013,dbh_2018,dead_2018,plot_id,htot_feldpausch,dbh_used,dead_used,type_used,htot_used,htot_source,iagc_m1_kgC,iagc_m2_kgC,rho_w_m3,iagc_m3_kgC
+PAR_A01,1,,,220633.6463,9633842.234,O,38.6,True,,10.66,,True,T07,,38.6,True,O,10.66,measured,257.3772,207.9407,0.6173,207.9407
+PAR_A01,2,,,220611.8547,9633832.153,O,21.8,True,,16.16,,True,T07,,21.8,True,O,16.16,measured,126.6387,93.2132,0.6173,93.2132
+PAR_A01,3,Inga marginata,Fabaceae,220607.7367,9633829.207,O,11.8,False,7.64,9.71,"11,8",False,T07,,11.8,False,O,9.71,measured,23.2434,23.2434,0.5518,21.4192
+PAR_A01,4,Parkia sp.,Fabaceae,220602.2828,9633830.734,O,41.8,False,15.38,20.91,"45,1",False,T07,,41.8,False,O,20.91,measured,580.313,580.313,0.4553,443.3092
+PAR_A01,5,Jacaratia spinosa,Caricaceae,220593.1513,9633823.947,O,55.0,False,15.53,20.86,"56,4",False,T07,,55.0,False,O,20.86,measured,989.2349,989.2349,0.265,445.5657
+PAR_A01,6,Dimorphandra macrostachya,Fabaceae,220568.6789,9633815.659,O,42.9,False,15.27,27.17,,True,T07,,42.9,False,O,27.17,measured,788.2951,788.2951,0.695,909.8931
+PAR_A01,7,Sapium marmieri,Euphorbiaceae,220548.8489,9633800.746,O,16.3,False,11.62,16.35,"17,8",False,T07,,16.3,False,O,16.35,measured,72.618,72.618,0.41,50.0778
+PAR_A01,8,Eschweilera parviflora,Lecythidaceae,220546.7919,9633800.838,O,52.3,False,19.41,32.81,"53,7",False,T07,,52.3,False,O,32.81,measured,1395.0766,1395.0766,0.918,2112.7928
+PAR_A01,9,Lecythis idatimon,Lecythidaceae,220531.4853,9633791.197,O,26.9,False,17.2,23.11,"27,8",False,T07,,26.9,False,O,23.11,measured,270.6487,270.6487,0.7986,357.7573
+PAR_A01,10,Zygia racemosa,Fabaceae,220479.5825,9633769.57,O,38.2,False,17.48,27.43,"40,0",False,T07,,38.2,False,O,27.43,measured,634.3906,634.3906,0.748,786.6999
+PAR_A01,11,Pseudopiptadenia suaveolens,Fabaceae,220476.6294,9633768.321,O,43.9,False,17.26,27.41,"54,4",False,T07,,43.9,False,O,27.41,measured,831.6693,831.6693,0.6797,939.346
+PAR_A01,12,Rinorea guianensis,Violaceae,220474.4308,9633762.644,O,20.3,False,15.47,20.35,"20,8",False,T07,,20.3,False,O,20.35,measured,137.9913,137.9913,0.78,178.2627
+PAR_A01,13,Poecilanthe effusa,Fabaceae,220466.3315,9633758.719,O,11.7,False,7.34,7.67,"11,7",False,T07,,11.7,False,O,7.67,measured,18.1602,18.1602,0.7125,21.4764
+PAR_A01,14,Rinorea guianensis,Violaceae,220465.3024,9633758.317,O,12.0,False,5.65,9.68,"12,1",False,T07,,12.0,False,O,9.68,measured,23.9462,23.9462,0.78,30.9347
+PAR_A01,15,,,220435.2346,9633741.258,O,30.5,True,,4.85,,True,T07,,30.5,True,O,4.85,measured,75.3525,68.1704,0.6173,68.1704
+PAR_A01,16,Hymenolobium sp.,Fabaceae,220430.5797,9633739.531,O,51.1,False,20.23,29.35,"55,1",False,T07,,51.1,False,O,29.35,measured,1195.8695,1195.8695,0.6528,1298.4319
+PAR_A01,17,Eschweilera parviflora,Lecythidaceae,220411.1945,9633728.508,O,51.1,False,31.27,36.91,,True,T07,,51.1,False,O,36.91,measured,1495.6531,1495.6531,0.918,2265.1122
+PAR_A01,18,Dimorphandra macrostachya,Fabaceae,220413.3353,9633732.026,O,36.6,False,9.97,19.9,"40,7",False,T07,,36.6,False,O,19.9,measured,426.6349,426.6349,0.695,492.4452
+PAR_A01,19,Eschweilera parviflora,Lecythidaceae,220376.0675,9633709.695,O,42.1,False,13.5,25.42,"42,1",True,T07,,42.1,False,O,25.42,measured,712.0503,712.0503,0.918,1078.3743
+PAR_A01,20,Jacaranda copaia,Bignoniaceae,220357.1733,9633698.197,O,11.3,False,7.67,9.41,"11,3",True,T07,,11.3,False,O,9.41,measured,20.7154,20.7154,0.3507,12.2641
+PAR_A01,21,Inga marginata,Fabaceae,220301.4591,9633667.74,O,12.8,False,9.35,10.75,"14,2",False,T07,,12.8,False,O,10.75,measured,30.0877,30.0877,0.5518,27.7263
+PAR_A01,22,Tetragastris altissima,Burseraceae,220298.7887,9633670.506,O,49.7,False,15.44,24.02,"51,7",False,T07,,49.7,False,O,24.02,measured,931.5102,931.5102,0.7079,1094.6087
+PAR_A01,23,,,220299.5688,9633666.612,O,15.6,True,,4.02,"15,6",True,T07,,15.6,True,O,4.02,measured,16.9498,15.2956,0.6173,15.2956
+PAR_A01,24,Cecropia ficifolia,Urticaceae,220281.7343,9633657.952,O,29.0,False,17.23,23.73,29,True,T07,21.68,29.0,False,O,23.73,measured,321.6268,321.6268,0.266,145.3989
+PAR_A01,25,Inga marginata,Fabaceae,220271.4984,9633651.666,O,12.0,False,9.42,12.67,"18,4",False,T07,,12.0,False,O,12.67,measured,31.141,31.141,0.5518,28.697
+PAR_A01,26,Jacaranda copaia,Bignoniaceae,220268.022,9633649.688,O,20.4,False,12.12,15.47,"28,0",False,T07,,20.4,False,O,15.47,measured,106.6108,106.6108,0.3507,63.1165
+PAR_A01,27,Bocageopsis pleiosperma,Annonaceae,220258.0495,9633647.061,O,36.3,False,8.16,10.1,"36,3",True,T07,,36.3,False,O,10.1,measured,216.5789,216.5789,0.6402,230.7303
+PAR_A01,28,Dialium guianense,Fabaceae,220253.8745,9633642.211,O,11.0,False,7.66,10.85,"12,4",False,T07,,11.0,False,O,10.85,measured,22.586,22.586,0.8964,33.4193
+PAR_A01,29,Pouteria hispida,Sapotaceae,220250.3229,9633644.505,O,43.8,False,13.38,23.15,"45,2",False,T07,,43.8,False,O,23.15,measured,702.1339,702.1339,0.874,1013.5833
+PAR_A01,30,Cordia scabrifolia,Boraginaceae,220236.8416,9633633.754,O,13.7,False,8.6,12.46,,True,T07,,13.7,False,O,12.46,measured,39.6794,39.6794,0.474,31.5245
+PAR_A01,31,Tabebuia serratifolia,Bignoniaceae,220217.8647,9633623.233,O,14.7,False,5.82,10.92,"12,4",False,T07,,14.7,False,O,10.92,measured,40.0285,40.0285,0.924,61.0084
+PAR_A01,32,Helicostylis sp.,Moraceae,220203.6463,9633615.265,O,18.9,False,11.76,15.48,"19,2",False,T07,,18.9,False,O,15.48,measured,91.9032,91.9032,0.643,98.3261
+PAR_A01,33,,,220220.0505,9633624.86,O,45.0,True,,15.27,45,True,T07,27.76,45.0,True,O,15.27,measured,493.1266,379.1969,0.6173,379.1969
+PAR_A01,34,Peltogyne leicointei,Fabaceae,220227.0935,9633621.83,O,38.0,False,16.76,27.24,"42,4",False,T07,,38.0,False,O,27.24,measured,623.678,623.678,0.7926,818.3984
+PAR_A01,35,,,220217.6349,9633631.507,O,49.6,True,17.2,26.69,"49,6",True,T07,,49.6,True,O,26.69,measured,1028.3883,727.4044,0.6173,727.4044
+PAR_A01,36,Jacaratia spinosa,Caricaceae,220286.7957,9633654.994,O,42.5,False,15.24,20.89,"44,4",False,T07,,42.5,False,O,20.89,measured,598.8745,598.8745,0.265,269.7417
+PAR_A01,37,Lecythis lurida,Lecythidaceae,220271.3769,9633648.991,O,100.2,False,29.78,35.39,"101,2",False,T07,,100.2,False,O,35.39,measured,5343.9441,5343.9441,0.8633,7622.4839
+PAR_A01,38,Bocageopsis pleiosperma,Annonaceae,220292.9233,9633661.685,O,10.9,False,9.14,12.08,"12,0",False,T07,,10.9,False,O,12.08,measured,24.6385,24.6385,0.6402,26.2484
+PAR_A01,39,Ocotea glomerata,Lauraceae,220327.1523,9633674.375,O,41.0,False,17.1,23.24,"44,0",False,T07,,41.0,False,O,23.24,measured,619.5284,619.5284,0.508,526.6336
+PAR_A01,40,Inga marginata,Fabaceae,220335.4905,9633685.543,O,28.3,False,6.57,17.04,"32,5",False,T07,,28.3,False,O,17.04,measured,221.9536,221.9536,0.5518,204.534
+PAR_A01,41,Cecropia ficifolia,Urticaceae,220343.8221,9633689.9,O,11.2,False,6.1,10.27,"13,1",False,T07,,11.2,False,O,10.27,measured,22.1731,22.1731,0.266,10.0239
+PAR_A01,42,Poecilanthe effusa,Fabaceae,220410.7923,9633725.979,O,10.5,False,9.45,12.71,,True,T07,,10.5,False,O,12.71,measured,24.0696,24.0696,0.7125,28.465
+PAR_A01,43,Zanthoxylum rhoifolium,Rutaceae,220380.541,9633708.777,O,20.1,False,8.86,15.31,,True,T07,,20.1,False,O,15.31,measured,102.5263,102.5263,0.5692,97.3947
+PAR_A01,44,Cecropia ficifolia,Urticaceae,220452.346,9633750.413,O,14.7,False,11.26,14.18,"22,4",False,T07,,14.7,False,O,14.18,measured,51.6535,51.6535,0.266,23.3512
+PAR_A01,45,Cecropia ficifolia,Urticaceae,220433.4449,9633739.55,O,18.7,False,18.12,21.97,"21,2",False,T07,,18.7,False,O,21.97,measured,126.684,126.684,0.266,57.2704
+PAR_A01,46,Inga marginata,Fabaceae,220432.4512,9633738.87,O,20.3,False,9.49,14.76,"20,3",True,T07,,20.3,False,O,14.76,measured,100.8605,100.8605,0.5518,92.9447
+PAR_A01,47,Eperua bijuga,Fabaceae,220497.2901,9633768.341,O,46.2,False,14.78,20.31,"46,7",False,T07,,46.2,False,O,20.31,measured,685.7514,685.7514,0.729,829.3028
+PAR_A01,48,Eperua bijuga,Fabaceae,220467.9413,9633758.627,O,12.4,False,8.1,13.73,"15,1",False,T07,,12.4,False,O,13.73,measured,35.9076,35.9076,0.729,43.4243
+PAR_A01,49,Hevea sp.,Euphorbiaceae,220507.676,9633776.87,O,50.9,False,24.04,27.62,"51,4",False,T07,,50.9,False,O,27.62,measured,1118.4282,1118.4282,0.5029,941.4182
+PAR_A01,50,Licania canescens,Chrysobalanaceae,220547.9482,9633795.827,O,41.3,False,12.7,19.49,"41,5",False,T07,,41.3,False,O,19.49,measured,529.2386,529.2386,0.88,769.1145
+PAR_A01,51,Lecythis idatimon,Lecythidaceae,220564.319,9633798.401,O,48.6,False,20.1,27.15,"45,2",False,T07,,48.6,False,O,27.15,measured,1004.9259,1004.9259,0.7986,1328.3627
+PAR_A01,52,Sapium marmieri,Euphorbiaceae,220591.9395,9633820.55,O,12.5,False,5.61,9.85,,True,T07,,12.5,False,O,9.85,measured,26.3768,26.3768,0.41,18.1896
+PAR_A01,53,Inga marginata,Fabaceae,220586.2569,9633818.052,O,11.9,False,13.54,17.61,,True,T07,,11.9,False,O,17.61,measured,42.2464,42.2464,0.5518,38.9308
+PAR_A01,54,Pouteria guianensis,Sapotaceae,220582.9006,9633816.267,O,17.1,False,8.44,14.81,"19,0",False,T07,,17.1,False,O,14.81,measured,72.3987,72.3987,0.9295,110.9856
+PAR_A01,55,Poeppigia sp.,Fabaceae,220581.4229,9633814.749,O,30.6,False,11.8,22.1,"32,2",False,T07,,30.6,False,O,22.1,measured,333.2083,333.2083,0.735,406.1969
+PAR_A01,56,Licania heteromorpha,Chrysobalanaceae,220576.6804,9633813.055,O,15.5,False,12.03,16.86,,True,T07,,15.5,False,O,16.86,measured,67.8268,67.8268,0.8164,91.61
+PAR_A01,57,Caryocar villosum,Caryocaraceae,220563.9639,9633800.459,O,58.8,False,17.8,28.98,"58,8",False,T07,,58.8,False,O,28.98,measured,1553.4356,1553.4356,0.758,1951.5279
+PAR_A01,58,Bocageopsis pleiosperma,Annonaceae,220604.0657,9633826.036,O,11.6,False,7.53,10.05,,True,T07,,11.6,False,O,10.05,measured,23.2486,23.2486,0.6402,24.7677
+PAR_A01,59,,,220597.5352,9633825.015,O,12.0,True,,3.18,,True,T07,,12.0,True,O,3.18,measured,8.0796,7.4715,0.6173,7.4715
+PAR_A01,1,Vismia guianensis,Clusiaceae,220712.5324,9633689.543,O,11.2,False,10.47,14.37,16,False,T08,14.79,11.2,False,O,14.37,measured,30.776,30.776,0.475,24.5013
+PAR_A01,2,,,220701.8291,9633683.899,O,13.7,True,,4.11,,True,T08,,13.7,True,O,4.11,measured,13.4415,12.0122,0.6173,12.0122
+PAR_A01,3,Helicostylis sp.,Moraceae,220683.6714,9633675.456,O,38.3,False,14.69,29.08,41,False,T08,26.42,38.3,False,O,29.08,measured,675.0452,675.0452,0.643,722.2227
+PAR_A01,4,Eperua bijuga,Fabaceae,220670.9355,9633672.81,O,40.9,False,19.95,28.29,41,False,T08,26.42,40.9,False,O,28.29,measured,747.0305,747.0305,0.729,903.4098
+PAR_A01,5,Theobroma glaucum,Malvaceae,220671.9499,9633667.24,O,16.6,False,12.75,16.1,"16,7",False,T08,,16.6,False,O,16.1,measured,74.1265,74.1265,0.5297,65.6391
+PAR_A01,6,Sagotia racemosa,Euphorbiaceae,220659.2539,9633660.659,O,12.7,False,4.81,5.81,"12,7",False,T08,,12.7,False,O,5.81,measured,16.2525,16.2525,0.58,15.7236
+PAR_A01,7,,,220644.2629,9633652.642,O,26.5,True,,4.58,,True,T08,,26.5,True,O,4.58,measured,54.1553,49.1065,0.6173,49.1065
+PAR_A01,8,Dimorphandra macrostachya,Fabaceae,220615.3039,9633638.955,O,44.3,False,11.03,22.01,"52,7",False,T08,,44.3,False,O,22.01,measured,683.3417,683.3417,0.695,788.7502
+PAR_A01,9,Sapium marmieri,Euphorbiaceae,220585.0242,9633622.198,O,13.2,False,6.19,9.46,"13,2",False,T08,,13.2,False,O,9.46,measured,28.2027,28.2027,0.41,19.4488
+PAR_A01,10,,,220582.8546,9633621.167,O,32.7,True,,3.45,,True,T08,,32.7,True,O,3.45,measured,61.9112,59.305,0.6173,59.305
+PAR_A01,11,Chimarrhis turbinata,Rubiaceae,220567.0891,9633622.124,O,70.6,False,22.03,29.36,72,False,T08,34.55,70.6,False,O,29.36,measured,2248.3161,2248.3161,0.72,2686.1995
+PAR_A01,12,Cecropia ficifolia,Urticaceae,220569.7356,9633613.458,O,13.0,False,11.06,13.54,,True,T08,,13.0,False,O,13.54,measured,38.8453,38.8453,0.266,17.5609
+PAR_A01,13,Vismia guianensis,Clusiaceae,220565.2099,9633611.75,O,10.1,False,6.59,10.09,11,False,T08,11.38,10.1,False,O,10.09,measured,17.8112,17.8112,0.475,14.1798
+PAR_A01,14,Bagassa guianensis,Moraceae,220555.5262,9633606.531,O,11.8,False,7.14,14.16,"13,5",False,T08,,11.8,False,O,14.16,measured,33.5902,33.5902,0.7087,39.5155
+PAR_A01,15,Eschweilera parviflora,Lecythidaceae,220547.3757,9633606.982,O,60.8,False,20.68,27.91,"61,8",False,T08,,60.8,False,O,27.91,measured,1598.4611,1598.4611,0.918,2420.8112
+PAR_A01,16,Inga marginata,Fabaceae,220540.2304,9633597.194,O,14.4,False,13.94,18.22,"20,2",False,T08,,14.4,False,O,18.22,measured,63.3694,63.3694,0.5518,58.396
+PAR_A01,17,Tachigali myrmecophila,Fabaceae,220511.2047,9633585.256,O,36.1,False,15.03,24.58,"37,5",False,T08,,36.1,False,O,24.58,measured,510.4141,510.4141,0.476,407.1847
+PAR_A01,18,Rinorea guianensis,Violaceae,220498.4758,9633572.704,O,18.4,False,12.43,19.0,"18,8",False,T08,,18.4,False,O,19.0,measured,106.5243,106.5243,0.78,137.6123
+PAR_A01,19,,,220495.1448,9633570.676,O,13.6,True,,4.53,,True,T08,,13.6,True,O,4.53,measured,14.5707,12.8182,0.6173,12.8182
+PAR_A01,20,Licania heteromorpha,Chrysobalanaceae,220471.219,9633555.169,O,20.3,False,10.03,11.67,"20,5",False,T08,,20.3,False,O,11.67,measured,80.1963,80.1963,0.8164,108.3168
+PAR_A01,21,,,220467.8026,9633553.089,O,18.6,True,,2.82,,True,T08,,18.6,True,O,2.82,measured,16.9041,16.2701,0.6173,16.2701
+PAR_A01,22,Vismia guianensis,Clusiaceae,220466.8444,9633552.74,O,15.4,False,13.09,16.04,"15,4",True,T08,,15.4,False,O,16.04,measured,63.7941,63.7941,0.475,50.7876
+PAR_A01,23,Sapium marmieri,Euphorbiaceae,220462.3139,9633550.566,O,19.4,False,9.33,14.11,"14,5",False,T08,,19.4,False,O,14.11,measured,88.3462,88.3462,0.41,60.9241
+PAR_A01,24,Cecropia ficifolia,Urticaceae,220453.9322,9633545.772,O,11.3,False,8.68,12.03,"18,4",False,T08,,11.3,False,O,12.03,measured,26.3275,26.3275,0.266,11.9019
+PAR_A01,25,Pouteria gongrijpii,Sapotaceae,220432.7934,9633534.391,O,10.1,False,5.92,9.99,"10,5",False,T08,,10.1,False,O,9.99,measured,17.6389,17.6389,0.7994,23.3396
+PAR_A01,26,Tachigali myrmecophila,Fabaceae,220430.0391,9633535.15,O,41.7,False,15.4,24.94,"46,0",False,T08,,41.7,False,O,24.94,measured,686.0207,686.0207,0.476,547.2755
+PAR_A01,27,Jacaranda copaia,Bignoniaceae,220420.5298,9633535.592,O,39.7,False,14.8,22.72,"42,3",False,T08,,39.7,False,O,22.72,measured,569.0551,569.0551,0.3507,336.8959
+PAR_A01,28,Schefflera morototoni,Araliaceae,220420.1353,9633528.514,O,36.8,False,18.77,26.59,"39,8",False,T08,,36.8,False,O,26.59,measured,572.1643,572.1643,0.4559,437.6598
+PAR_A01,29,Apeiba echinata,Malvaceae,220416.4293,9633524.743,O,14.6,False,6.69,12.92,"17,5",False,T08,,14.6,False,O,12.92,measured,46.5446,46.5446,0.2822,22.2953
+PAR_A01,30,Jacaranda copaia,Bignoniaceae,220404.8095,9633518.87,O,30.0,False,13.35,19.79,32,False,T08,22.99,30.0,False,O,19.79,measured,287.8276,287.8276,0.3507,170.4017
+PAR_A01,31,Casearia grandiflora,Salicaceae,220408.4583,9633520.551,O,12.2,False,7.68,9.14,"13,9",False,T08,,12.2,False,O,9.14,measured,23.384,23.384,0.77,29.8303
+PAR_A01,32,Brosimum rubescens ,Moraceae,220399.8139,9633515.528,O,13.5,False,7.75,12.79,"15,2",False,T08,,13.5,False,O,12.79,measured,39.5529,39.5529,0.8251,53.9802
+PAR_A01,33,Cecropia ficifolia,Urticaceae,220373.6774,9633501.603,O,19.1,False,13.35,18.9,"19,1",True,T08,,19.1,False,O,18.9,measured,113.9894,113.9894,0.266,51.5316
+PAR_A01,34,Bocageopsis pleiosperma,Annonaceae,220364.9337,9633505.9,O,37.6,False,11.95,19.1,38,False,T08,25.35,37.6,False,O,19.1,measured,432.032,432.032,0.6402,460.2612
+PAR_A01,35,,,220360.5599,9633494.328,O,24.5,True,,9.86,"24,5",True,T08,,24.5,True,O,9.86,measured,98.2057,78.5928,0.6173,78.5928
+PAR_A01,36,Inga marginata,Fabaceae,220358.6009,9633492.327,O,13.5,False,8.94,10.33,"13,8",False,T08,,13.5,False,O,10.33,measured,32.1095,32.1095,0.5518,29.5895
+PAR_A01,37,NI,NI,220345.5447,9633485.542,O,33.1,False,13.32,22.58,"33,1",True,T08,,33.1,False,O,22.58,measured,396.6427,396.6427,0.6173,407.8231
+PAR_A01,38,NI,NI,220351.7165,9633488.851,O,18.6,False,13.32,21.13,,True,T08,,18.6,False,O,21.13,measured,120.6846,120.6846,0.6173,124.0864
+PAR_A01,39,NI,NI,220331.7235,9633479.477,O,47.0,False,18.49,29.78,"47,5",False,T08,,47.0,False,O,29.78,measured,1030.2585,1030.2585,0.6173,1059.299
+PAR_A01,40,Inga marginata,Fabaceae,220327.8537,9633476.188,O,14.7,False,6.35,13.82,"16,4",False,T08,,14.7,False,O,13.82,measured,50.3733,50.3733,0.5518,46.4198
+PAR_A01,41,Apeiba echinata,Malvaceae,220289.7146,9633454.463,O,13.9,False,9.75,12.64,"14,5",False,T08,,13.9,False,O,12.64,measured,41.3934,41.3934,0.2822,19.8278
+PAR_A01,42,NI,NI,220288.7024,9633454.016,O,20.0,False,12.0,17.72,"23,5",False,T08,,20.0,False,O,17.72,measured,117.104,117.104,0.6173,120.4049
+PAR_A01,43,Pouteria sp.,Sapotaceae,220325.0092,9633473.124,O,16.5,False,12.46,18.33,"19,5",False,T08,,16.5,False,O,18.33,measured,83.145,83.145,0.7187,99.1671
+PAR_A01,44,Apeiba echinata,Malvaceae,220324.4604,9633472.476,O,16.0,False,7.46,18.52,"16,1",False,T08,,16.0,False,O,18.52,measured,79.0898,79.0898,0.2822,37.8847
+PAR_A01,45,,,220294.8638,9633461.32,O,35.3,True,,2.55,"35,3",True,T08,,35.3,True,O,2.55,measured,53.518,53.9708,0.6173,53.9708
+PAR_A01,46,,,220302.2316,9633466.55,O,48.2,True,,25.25,,True,T08,,48.2,True,O,25.25,measured,921.246,656.4526,0.6173,656.4526
+PAR_A01,47,NI,NI,220360.1399,9633492.266,O,11.0,False,10.93,15.53,14,False,T08,13.49,11.0,False,O,15.53,measured,32.0511,32.0511,0.6173,32.9545
+PAR_A01,48,NI,NI,220353.9681,9633488.957,O,18.6,False,10.64,18.67,,True,T08,,18.6,False,O,18.67,measured,106.9515,106.9515,0.6173,109.9662
+PAR_A01,49,Pouteria gongrijpii,Sapotaceae,220339.3737,9633472.288,O,39.8,False,12.74,19.94,41,False,T08,26.42,39.8,False,O,19.94,measured,503.4591,503.4591,0.7994,666.172
+PAR_A01,50,Lecythis idatimon,Lecythidaceae,220411.5645,9633519.187,O,38.0,False,15.17,24.2,39,False,T08,25.71,38.0,False,O,24.2,measured,555.651,555.651,0.7986,734.488
+PAR_A01,51,Lecythis idatimon,Lecythidaceae,220411.3621,9633510.386,O,41.7,False,13.25,20.29,"43,5",False,T08,,41.7,False,O,20.29,measured,560.8846,560.8846,0.7986,741.4061
+PAR_A01,52,Dipteryx odorata,Fabaceae,220392.9591,9633505.438,O,62.1,False,17.76,23.51,65,False,T08,33.09,62.1,False,O,23.51,measured,1409.0229,1409.0229,0.9228,2144.6897
+PAR_A01,53,,,220410.628,9633528.157,O,53.2,True,,10.18,"53,2",True,T08,,53.2,True,O,10.18,measured,460.2587,380.3824,0.6173,380.3824
+PAR_A01,54,Lecythis idatimon,Lecythidaceae,220452.6356,9633544.024,O,14.0,False,6.96,10.05,"15,8",False,T08,,14.0,False,O,10.05,measured,33.5596,33.5596,0.7986,44.3608
+PAR_A01,55,Lecythis idatimon,Lecythidaceae,220444.0518,9633534.919,O,59.9,False,12.53,22.11,"61,5",False,T08,,59.9,False,O,22.11,measured,1236.8484,1236.8484,0.7986,1634.9297
+PAR_A01,56,Inga alba,Fabaceae,220440.3128,9633529.415,O,48.0,False,12.64,23.55,,True,T08,,48.0,False,O,23.55,measured,853.7028,853.7028,0.5861,834.4101
+PAR_A01,57,Inga marginata,Fabaceae,220426.4509,9633529.387,O,11.0,False,1.71,8.5,"11,7",False,T08,,11.0,False,O,8.5,measured,17.798,17.798,0.5518,16.4012
+PAR_A01,58,Sapium marmieri,Euphorbiaceae,220496.508,9633569.398,O,10.7,False,10.53,12.28,11,False,T08,11.38,10.7,False,O,12.28,measured,24.1477,24.1477,0.41,16.6524
+PAR_A01,59,Eschweilera ovata,Lecythidaceae,220493.7377,9633568.18,O,23.8,False,9.87,12.34,"23,7",True,T08,,23.8,False,O,12.34,measured,115.5214,115.5214,0.9,171.6041
+PAR_A01,60,Dialium guianense,Fabaceae,220546.6563,9633592.794,O,39.0,False,9.93,15.17,"39,2",False,T08,,39.0,False,O,15.17,measured,370.5619,370.5619,0.8964,548.3018
+PAR_A01,61,Cecropia ficifolia,Urticaceae,220536.7472,9633594.839,O,17.7,False,9.87,12.48,"17,7",True,T08,,17.7,False,O,12.48,measured,65.5254,65.5254,0.266,29.6223
+PAR_A01,62,Dimorphandra macrostachya,Fabaceae,220535.8487,9633593.238,O,18.5,False,8.7,11.3,"22,5",False,T08,,18.5,False,O,11.3,measured,64.8313,64.8313,0.695,74.8318
+PAR_A01,63,Inga marginata,Fabaceae,220519.2047,9633584.039,O,10.8,False,5.33,6.48,,True,T08,,10.8,False,O,6.48,measured,13.1765,13.1765,0.5518,12.1424
+PAR_A01,64,Eschweilera ovata,Lecythidaceae,220517.7046,9633582.657,O,51.0,False,22.06,29.49,"51,1",False,T08,,51.0,False,O,29.49,measured,1196.8515,1196.8515,0.9,1777.8918
+PAR_A01,65,Eschweilera ovata,Lecythidaceae,220514.126,9633573.922,O,47.3,False,15.34,23.8,"47,8",False,T08,,47.3,False,O,23.8,measured,838.1635,838.1635,0.9,1245.0701
+PAR_A01,66,Pouteria hispida,Sapotaceae,220511.452,9633573.698,O,40.0,False,19.29,26.59,"40,7",False,T08,,40.0,False,O,26.59,measured,673.2973,673.2973,0.874,971.9556
+PAR_A01,67,Rinorea guianensis,Violaceae,220508.6139,9633577.59,O,16.8,False,11.24,15.85,"17,4",False,T08,,16.8,False,O,15.85,measured,74.7297,74.7297,0.78,96.5388
+PAR_A01,68,Inga marginata,Fabaceae,220570.5697,9633605.872,O,47.8,False,15.96,22.85,"55,4",False,T08,,47.8,False,O,22.85,measured,822.1989,822.1989,0.5518,757.6702
+PAR_A01,69,Pseudopiptadenia suaveolens,Fabaceae,220563.7701,9633605.904,O,39.5,False,11.02,17.41,"41,5",False,T08,,39.5,False,O,17.41,measured,434.5481,434.5481,0.6797,490.8093
+PAR_A01,70,Inga heterophylla,Fabaceae,220561.6956,9633608.767,O,10.4,False,8.1,10.13,"11,6",False,T08,,10.4,False,O,10.13,measured,18.9315,18.9315,0.56,17.6987
+PAR_A01,71,Swartzia corrugata,Fabaceae,220557.2372,9633603.929,O,35.9,False,18.84,23.08,37,False,T08,24.98,35.9,False,O,23.08,measured,474.8137,474.8137,1.0565,824.7916
+PAR_A01,72,,,220584.0656,9633621.014,O,15.5,True,,8.57,,True,T08,,15.5,True,O,8.57,measured,35.0411,28.048,0.6173,28.048
+PAR_A01,73,NI,NI,220635.0922,9633646.45,O,27.7,False,10.0,16.1,"28,8",False,T08,,27.7,False,O,16.1,measured,201.3925,201.3925,0.6173,207.0692
+PAR_A01,74,Cecropia ficifolia,Urticaceae,220600.1143,9633621.45,O,40.5,False,15.83,25.7,"40,5",True,T08,,40.5,False,O,25.7,measured,667.2793,667.2793,0.266,301.6591
+PAR_A01,75,Helicostylis sp.,Moraceae,220662.1874,9633661.528,O,43.9,False,17.21,23.26,"45,3",False,T08,,43.9,False,O,23.26,measured,708.537,708.537,0.643,758.0551
+PAR_A01,76,Tetragastris altissima,Burseraceae,220664.8936,9633654.25,O,38.9,False,16.44,24.98,42,False,T08,26.77,38.9,False,O,24.98,measured,599.9189,599.9189,0.7079,704.959
+PAR_A01,78,Lecythis idatimon,Lecythidaceae,220650.5256,9633654.7,O,16.4,False,9.83,12.61,17,False,T08,15.41,16.4,False,O,12.61,measured,57.034,57.034,0.7986,75.3905
+PAR_A01,79,Licania heteromorpha,Chrysobalanaceae,220638.7026,9633644.962,O,44.5,False,18.55,25.26,"44,7",False,T08,,44.5,False,O,25.26,measured,788.5593,788.5593,0.8164,1065.0649
+PAR_A01,80,Tetragastris altissima,Burseraceae,220636.4417,9633648.179,O,41.0,False,17.63,26.07,41,False,T08,26.42,41.0,False,O,26.07,measured,693.0562,693.0562,0.7079,814.4037
+PAR_A01,81,,,220688.1649,9633676.581,O,27.3,True,,0.8,,True,T08,,27.3,True,O,0.8,measured,10.4536,12.5058,0.6173,12.5058
+PAR_A01,82,Eschweilera parviflora,Lecythidaceae,220691.3826,9633670.478,O,43.6,False,16.1,25.82,,True,T08,,43.6,False,O,25.82,measured,774.1188,774.1188,0.918,1172.3747
+PAR_A01,83,,,220721.7319,9633694.393,O,24.0,True,,12.6,24,True,T08,19.3,24.0,True,O,12.6,measured,119.838,92.169,0.6173,92.169
+PAR_A01,1,Tapirira guianensis,Anacardiaceae,220822.9324,9633486.617,O,41.2,False,15.5,27.14,"51,9",False,T09,,41.2,False,O,27.14,measured,727.6847,727.6847,0.457,557.8865
+PAR_A01,2,Cecropia ficifolia,Urticaceae,220820.2306,9633485.313,O,24.4,False,13.23,26.84,"28,8",False,T09,,24.4,False,O,26.84,measured,258.9032,258.9032,0.266,117.0432
+PAR_A01,3,Bocageopsis pleiosperma,Annonaceae,220813.0257,9633481.836,O,10.0,False,10.36,12.85,"13,5",False,T09,,10.0,False,O,12.85,measured,22.1182,22.1182,0.6402,23.5634
+PAR_A01,4,NI,NI,220810.3239,9633480.532,O,15.8,False,7.93,10.8,,True,T09,,15.8,False,O,10.8,measured,45.5891,45.5891,0.6173,46.8741
+PAR_A01,5,Cecropia ficifolia,Urticaceae,220810.3673,9633480.442,O,29.3,False,17.76,25.76,,True,T09,,29.3,False,O,25.76,measured,355.5244,355.5244,0.266,160.7231
+PAR_A01,6,Bocageopsis pleiosperma,Annonaceae,220804.1065,9633477.309,O,19.1,False,4.69,8.67,,True,T09,,19.1,False,O,8.67,measured,53.2776,53.2776,0.6402,56.7588
+PAR_A01,7,Eperua bijuga,Fabaceae,220791.5059,9633478.112,O,41.6,False,11.49,29.91,"41,6",False,T09,,41.6,False,O,29.91,measured,815.3192,815.3192,0.729,985.9937
+PAR_A01,8,Tapirira guianensis,Anacardiaceae,220745.4445,9633456.217,O,40.4,False,16.62,35.28,"42,5",False,T09,,40.4,False,O,35.28,measured,904.7009,904.7009,0.457,693.5976
+PAR_A01,9,Jacaranda copaia,Bignoniaceae,220774.8604,9633471.19,O,54.7,False,19.88,32.81,"59,4",False,T09,,54.7,False,O,32.81,measured,1522.769,1522.769,0.3507,901.5201
+PAR_A01,10,Xylopia nitida,Annonaceae,220769.0223,9633469.483,O,46.7,False,18.05,24.53,"53,7",False,T09,,46.7,False,O,24.53,measured,841.9999,841.9999,0.5483,771.1591
+PAR_A01,11,Inga marginata,Fabaceae,220762.9392,9633456.776,O,12.6,False,13.86,18.99,"15,4",False,T09,,12.6,False,O,18.99,measured,50.8422,50.8422,0.5518,46.852
+PAR_A01,12,Sacoglottis guianensis,Humiriaceae,220756.548,9633453.914,O,13.6,False,5.75,9.93,"14,4",False,T09,,13.6,False,O,9.93,measured,31.3438,31.3438,0.8359,43.3188
+PAR_A01,13,Goupia glabra,Goupiaceae,220752.1445,9633452.455,O,20.3,False,13.53,19.85,"22,8",False,T09,,20.3,False,O,19.85,measured,134.6813,134.6813,0.7272,162.4795
+PAR_A01,14,Sacoglottis guianensis,Humiriaceae,220751.1878,9633451.216,O,12.0,False,13.29,17.26,"14,1",False,T09,,12.0,False,O,17.26,measured,42.1089,42.1089,0.8359,58.1969
+PAR_A01,15,Parkia multijuga,Fabaceae,220746.0093,9633455.046,O,53.0,False,13.4,24.68,"53,8",False,T09,,53.0,False,O,24.68,measured,1084.3664,1084.3664,0.399,728.1988
+PAR_A01,16,Goupia glabra,Goupiaceae,220742.3436,9633448.835,O,35.4,False,14.76,28.26,"40,7",False,T09,,35.4,False,O,28.26,measured,562.9361,562.9361,0.7272,679.126
+PAR_A01,17,Parkia multijuga,Fabaceae,220729.7035,9633440.515,O,47.0,False,24.73,35.0,49,False,T09,28.99,47.0,False,O,35.0,measured,1206.1633,1206.1633,0.399,809.9907
+PAR_A01,18,Parkia multijuga,Fabaceae,220728.8029,9633440.08,O,62.0,False,24.73,35.0,"64,3",False,T09,,62.0,False,O,35.0,measured,2071.1887,2071.1887,0.399,1390.8926
+PAR_A01,19,Parkia multijuga,Fabaceae,220707.6978,9633430.894,O,38.1,False,22.89,31.15,"41,9",False,T09,,38.1,False,O,31.15,measured,714.5643,714.5643,0.399,479.8607
+PAR_A01,20,Parkia multijuga,Fabaceae,220707.6978,9633430.894,O,40.4,False,22.89,31.15,"43,1",False,T09,,40.4,False,O,31.15,measured,801.1838,801.1838,0.399,538.0295
+PAR_A01,21,Tapirira guianensis,Anacardiaceae,220698.7352,9633426.458,O,20.6,False,17.71,23.22,"23,2",False,T09,,20.6,False,O,23.22,measured,161.5143,161.5143,0.457,123.8265
+PAR_A01,22,Inga marginata,Fabaceae,220690.7166,9633422.366,O,18.4,False,17.0,24.07,,True,T09,,18.4,False,O,24.07,measured,134.1855,134.1855,0.5518,123.6543
+PAR_A01,23,Virola melinoni,Myristicaceae,220688.8719,9633421.587,O,46.1,False,14.11,19.82,"49,6",False,T09,,46.1,False,O,19.82,measured,666.7731,666.7731,0.4734,529.1029
+PAR_A01,24,Protium paniculatum,Burseraceae,220688.8285,9633421.677,O,13.8,False,7.21,12.31,"16,0",False,T09,,13.8,False,O,12.31,measured,39.7737,39.7737,0.49,32.6402
+PAR_A01,25,Caraipa grandifolia,Clusiaceae,220668.2013,9633411.5,O,21.5,False,17.23,22.48,"21,9",False,T09,,21.5,False,O,22.48,measured,170.1115,170.1115,0.78,219.7569
+PAR_A01,26,Parkia multijuga,Fabaceae,220660.8226,9633408.383,O,57.6,False,13.85,20.51,"57,6",False,T09,,57.6,False,O,20.51,measured,1064.8388,1064.8388,0.399,715.0852
+PAR_A01,27,Sacoglottis guianensis,Humiriaceae,220661.2571,9633407.483,O,29.6,False,16.65,26.04,,True,T09,,29.6,False,O,26.04,measured,366.5116,366.5116,0.8359,506.5391
+PAR_A01,28,Symphonia globulifera,Clusiaceae,220659.3256,9633406.884,O,13.7,False,13.44,17.75,"15,5",False,T09,,13.7,False,O,17.75,measured,56.0476,56.0476,0.6004,56.084
+PAR_A01,29,Eschweilera coriacea,Lecythidaceae,220654.5523,9633404.58,O,22.7,False,17.38,24.49,"27,7",False,T09,,22.7,False,O,24.49,measured,205.6251,205.6251,0.8521,289.5684
+PAR_A01,30,Eperua bijuga,Fabaceae,220645.9631,9633404.065,O,39.4,False,20.04,25.88,"39,8",False,T09,,39.4,False,O,25.88,measured,636.6818,636.6818,0.729,769.9613
+PAR_A01,31,,,220646.2343,9633399.601,O,54.0,True,,12.71,54,True,T09,30.4,54.0,True,O,12.71,measured,588.4904,469.9353,0.6173,469.9353
+PAR_A01,32,Lecythis idatimon,Lecythidaceae,220606.3634,9633376.659,O,14.3,False,5.5,11.05,"14,2",False,T09,,14.3,False,O,11.05,measured,38.3706,38.3706,0.7986,50.7202
+PAR_A01,33,,,220605.5843,9633376.209,O,24.7,True,,4.27,,True,T09,,24.7,True,O,4.27,measured,44.0862,40.285,0.6173,40.285
+PAR_A01,34,Diospyros guianensis,Ebenaceae,220594.194,9633369.737,O,17.7,False,11.85,18.19,"18,5",False,T09,,17.7,False,O,18.19,measured,94.6458,94.6458,0.73,114.6116
+PAR_A01,35,Pouteria gongrijpii,Sapotaceae,220588.4493,9633367.686,O,49.0,False,10.2,19.39,"49,5",False,T09,,49.0,False,O,19.39,measured,735.1896,735.1896,0.7994,972.7955
+PAR_A01,36,Pouteria hispida,Sapotaceae,220587.4334,9633367.445,O,43.2,False,12.84,21.77,"46,2",True,T09,,43.2,False,O,21.77,measured,643.6871,643.6871,0.874,929.211
+PAR_A01,37,Eperua bijuga,Fabaceae,220576.3445,9633362.649,O,37.3,False,9.63,17.64,"38,5",False,T09,,37.3,False,O,17.64,measured,393.5672,393.5672,0.729,475.9544
+PAR_A01,38,Eperua bijuga,Fabaceae,220568.2146,9633363.724,O,49.0,False,7.45,23.29,"50,7",False,T09,,49.0,False,O,23.29,measured,879.1862,879.1862,0.729,1063.2302
+PAR_A01,39,Sagotia racemosa,Euphorbiaceae,220542.7862,9633340.643,O,25.5,False,8.26,13.04,"26,2",False,T09,,25.5,False,O,13.04,measured,139.4884,139.4884,0.58,134.9485
+PAR_A01,40,Eperua bijuga,Fabaceae,220531.8952,9633343.67,O,44.6,False,8.95,17.19,,True,T09,,44.6,False,O,17.19,measured,543.9908,543.9908,0.729,657.8669
+PAR_A01,41,Dipteryx odorata,Fabaceae,220532.025,9633335.297,O,33.0,False,13.99,21.07,"33,8",False,T09,,33.0,False,O,21.07,measured,368.5501,368.5501,0.9228,560.9742
+PAR_A01,42,Dimorphandra macrostachya,Fabaceae,220523.5172,9633340.205,O,35.4,False,13.8,24.21,"43,3",False,T09,,35.4,False,O,24.21,measured,484.0542,484.0542,0.695,558.7217
+PAR_A01,43,Lecythis lurida,Lecythidaceae,220524.04,9633331.136,O,22.7,False,10.53,14.61,"21,6",False,T09,,22.7,False,O,14.61,measured,124.2001,124.2001,0.8633,177.1562
+PAR_A01,44,,,220510.8463,9633323.996,O,25.7,True,,4.96,"25,7",True,T09,,25.7,True,O,4.96,measured,55.1366,49.298,0.6173,49.298
+PAR_A01,45,Brosimum rubescens ,Moraceae,220497.8491,9633316.509,O,10.9,False,7.77,10.69,"12,2",False,T09,,10.9,False,O,10.69,measured,21.8675,21.8675,0.8251,29.8439
+PAR_A01,46,Pterocarpus sp.,Fabaceae,220479.1444,9633316.495,O,50.0,False,17.52,28.58,"52,3",False,T09,,50.0,False,O,28.58,measured,1116.778,1116.778,0.5838,1087.3597
+PAR_A01,47,Licania canescens,Chrysobalanaceae,220478.5704,9633305.91,O,21.0,False,10.95,15.29,"21,3",False,T09,,21.0,False,O,15.29,measured,111.5358,111.5358,0.88,162.0891
+PAR_A01,48,Inga marginata,Fabaceae,220467.261,9633303.572,O,37.7,False,7.89,22.06,"38,5",False,T09,,37.7,False,O,22.06,measured,499.848,499.848,0.5518,460.6184
+PAR_A01,49,Sterculia pruriens,Malvaceae,220459.4882,9633294.963,O,12.6,False,11.95,14.48,"12,7",False,T09,,12.6,False,O,14.48,measured,39.0206,39.0206,0.4862,31.7797
+PAR_A01,50,Tachigali myrmecophila,Fabaceae,220455.1519,9633293.492,O,16.7,False,12.74,15.8,"17,0",False,T09,,16.7,False,O,15.8,measured,73.6364,73.6364,0.476,58.7437
+PAR_A01,51,Dialium guianense,Fabaceae,220455.1067,9633292.554,O,10.2,False,5.55,14.7,"11,5",False,T09,,10.2,False,O,14.7,measured,26.215,26.215,0.8964,38.789
+PAR_A01,52,Lecythis idatimon,Lecythidaceae,220433.0026,9633280.858,O,44.9,False,21.82,33.65,"46,2",False,T09,,44.9,False,O,33.65,measured,1061.6539,1061.6539,0.7986,1403.3487
+PAR_A01,53,Manilkara huberi,Sapotaceae,220419.0642,9633277.075,O,41.0,False,18.81,30.53,"44,2",False,T09,,41.0,False,O,30.53,measured,808.5523,808.5523,0.9214,1228.902
+PAR_A01,54,Cecropia ficifolia,Urticaceae,220419.6616,9633273.981,O,20.0,False,16.24,22.23,20,True,T09,17.17,20.0,False,O,22.23,measured,146.1114,146.1114,0.266,66.0531
+PAR_A01,55,Pouteria gongrijpii,Sapotaceae,220416.3292,9633277.854,O,42.0,False,23.67,34.02,"55,7",False,T09,,42.0,False,O,34.02,measured,941.9243,941.9243,0.7994,1246.3447
+PAR_A01,56,Neea oppositifolia,Nyctaginaceae,220416.1603,9633271.029,O,21.2,False,11.09,17.66,"21,8",False,T09,,21.2,False,O,17.66,measured,130.777,130.777,0.893,192.7909
+PAR_A01,57,Sapium marmieri,Euphorbiaceae,220398.9741,9633261.809,O,15.56,False,10.16,15.34,"16,0",False,T09,,15.56,False,O,15.34,measured,62.3202,62.3202,0.41,42.9764
+PAR_A01,58,Jacaratia spinosa,Caricaceae,220417.9247,9633268.918,O,46.4,False,13.91,21.11,,True,T09,,46.4,False,O,21.11,measured,718.132,718.132,0.265,323.4571
+PAR_A01,59,Pradosia praealta,Sapotaceae,220405.7863,9633253.8,O,60.1,False,24.64,32.55,"61,2",False,T09,,60.1,False,O,32.55,measured,1815.8226,1815.8226,0.7378,2221.658
+PAR_A01,60,Eschweilera coriacea,Lecythidaceae,220401.9627,9633258.545,O,35.3,False,23.33,34.33,"36,3",False,T09,,35.3,False,O,34.33,measured,676.9156,676.9156,0.8521,953.2557
+PAR_A01,61,,,220443.6656,9633286.378,O,66.4,True,20.34,29.29,"66,4",True,T09,,66.4,True,O,29.29,measured,1989.99,1406.6047,0.6173,1406.6047
+PAR_A01,62,Tachigali myrmecophila,Fabaceae,220467.5793,9633296.901,O,58.0,False,14.41,21.53,61,False,T09,32.17,58.0,False,O,21.53,measured,1131.6786,1131.6786,0.476,902.8007
+PAR_A01,63,Lecythis idatimon,Lecythidaceae,220463.0996,9633294.666,O,37.2,False,15.93,31.82,"38,5",False,T09,,37.2,False,O,31.82,measured,696.2992,696.2992,0.7986,920.404
+PAR_A01,64,Dialium guianense,Fabaceae,220462.1875,9633295.876,O,10.2,False,8.06,12.6,"11,0",False,T09,,10.2,False,O,12.6,measured,22.5533,22.5533,0.8964,33.371
+PAR_A01,65,Sagotia racemosa,Euphorbiaceae,220455.4014,9633292.031,O,28.0,False,6.67,11.67,,True,T09,,28.0,False,O,11.67,measured,150.2361,150.2361,0.58,145.3464
+PAR_A01,66,Dimorphandra macrostachya,Fabaceae,220453.5506,9633291.242,O,17.6,False,12.32,19.36,"21,6",False,T09,,17.6,False,O,19.36,measured,99.4766,99.4766,0.695,114.8213
+PAR_A01,67,Platymiscium filipes,Fabaceae,220444.5856,9633283.118,O,39.3,False,16.6,25.79,"41,4",False,T09,,39.3,False,O,25.79,measured,631.3809,631.3809,0.7815,817.174
+PAR_A01,68,Pseudopiptadenia suaveolens,Fabaceae,220513.1393,9633324.002,O,36.1,False,14.93,21.93,"43,0",False,T09,,36.1,False,O,21.93,measured,456.6342,456.6342,0.6797,515.7549
+PAR_A01,69,Simaba cedron,Simaroubaceae,220510.8542,9633321.947,O,14.1,False,10.77,12.96,"11,2",False,T09,,14.1,False,O,12.96,measured,43.6153,43.6153,0.4743,34.6754
+PAR_A01,70,NI,NI,220501.5478,9633308.729,O,51.5,False,19.29,30.47,"52,7",False,T09,,51.5,False,O,30.47,measured,1259.4123,1259.4123,0.6173,1294.912
+PAR_A01,71,Pouteria gongrijpii,Sapotaceae,220567.9083,9633354.112,O,19.3,False,8.44,8.8,"13,3",False,T09,,19.3,False,O,8.8,measured,55.1675,55.1675,0.7994,72.9971
+PAR_A01,72,NI,NI,220572.0836,9633346.708,O,47.5,False,9.6,17.68,"55,5",False,T09,,47.5,False,O,17.68,measured,632.2798,632.2798,0.6173,650.1022
+PAR_A01,73,Himatanthus sucuuba,Euphorbiaceae,220569.4429,9633348.337,O,42.3,False,24.4,34.59,"42,5",False,T09,,42.3,False,O,34.59,measured,970.7174,970.7174,0.462,752.1558
+PAR_A01,74,Pouteria sp.,Sapotaceae,220566.0122,9633352.385,O,14.0,False,10.63,19.12,"14,5",False,T09,,14.0,False,O,19.12,measured,62.8687,62.8687,0.7187,74.9836
+PAR_A01,75,NI,NI,220557.7816,9633348.658,O,40.5,False,11.61,24.42,"42,3",False,T09,,40.5,False,O,24.42,measured,634.823,634.823,0.6173,652.7171
+PAR_A01,76,Tachigali paniculata,Fabaceae,220546.8318,9633341.612,O,57.8,False,12.98,22.73,"59,3",False,T09,,57.8,False,O,22.73,measured,1185.1815,1185.1815,0.5545,1097.3803
+PAR_A01,77,Piptadenia cobi,Fabaceae,220608.9458,9633376.189,O,68.0,False,23.59,37.97,,True,T09,,68.0,False,O,37.97,measured,2685.6667,2685.6667,0.8192,3639.3279
+PAR_A01,78,Lecythis idatimon,Lecythidaceae,220606.6992,9633374.081,O,43.5,False,18.44,26.63,"44,8",False,T09,,43.5,False,O,26.63,measured,794.2441,794.2441,0.7986,1049.8726
+PAR_A01,79,Inga marginata,Fabaceae,220598.7226,9633371.894,O,10.5,False,7.49,12.63,"12,3",False,T09,,10.5,False,O,12.63,measured,23.9217,23.9217,0.5518,22.0442
+PAR_A01,80,Inga heterophylla,Fabaceae,220571.9369,9633356.288,O,16.7,False,5.68,9.98,"17,0",False,T09,,16.7,False,O,9.98,measured,47.0278,47.0278,0.56,43.9654
+PAR_A01,81,Strychnos subcordata,Loganiaceae,220647.2501,9633399.842,O,16.3,False,5.78,10.95,"16,4",False,T09,,16.3,False,O,10.95,measured,49.1042,49.1042,0.6959,56.7542
+PAR_A01,82,Cecropia ficifolia,Urticaceae,220640.4749,9633395.577,O,13.2,False,9.57,18.03,"14,1",False,T09,,13.2,False,O,18.03,measured,52.9265,52.9265,0.266,23.9266
+PAR_A01,83,Anacardium spruceanum,Anacardiaceae,220612.0904,9633379.74,O,54.0,False,18.96,29.1,"57,4",False,T09,,54.0,False,O,29.1,measured,1320.8481,1320.8481,0.4792,1060.5525
+PAR_A01,84,Parkia multijuga,Fabaceae,220689.9818,9633414.683,O,52.4,False,22.01,29.38,"61,0",False,T09,,52.4,False,O,29.38,measured,1257.2276,1257.2276,0.399,844.2826
+PAR_A01,85,Vochysia guianensis,Vochysiaceae,220682.3622,9633416.669,O,11.0,False,9.6,14.6,"11,4",False,T09,,11.0,False,O,14.6,measured,30.1764,30.1764,0.5087,25.6861
+PAR_A01,86,,,220681.2009,9633416.774,L,24.5,False,,,"36,0",False,T09,,24.5,False,L,,feldpausch,,,0.6173,
+PAR_A01,87,Tapirira guianensis,Anacardiaceae,220680.1067,9633412.138,O,43.4,False,13.72,27.35,"44,5",False,T09,,43.4,False,O,27.35,measured,811.542,811.542,0.457,622.1765
+PAR_A01,88,Tapirira guianensis,Anacardiaceae,220658.4605,9633399.471,O,36.2,False,14.1,24.7,"40,0",False,T09,,36.2,False,O,24.7,measured,515.6227,515.6227,0.457,395.3071
+PAR_A01,89,Caraipa grandifolia,Clusiaceae,220653.3255,9633403.211,O,11.9,False,11.81,15.45,"10,7",False,T09,,11.9,False,O,15.45,measured,37.1811,37.1811,0.78,48.0321
+PAR_A01,90,Tapirira guianensis,Anacardiaceae,220737.4732,9633442.821,O,39.8,False,14.73,25.02,"47,6",False,T09,,39.8,False,O,25.02,measured,628.291,628.291,0.457,481.6854
+PAR_A01,91,Virola melinoni,Myristicaceae,220734.1749,9633440.452,O,43.3,False,22.72,31.56,"50,2",False,T09,,43.3,False,O,31.56,measured,929.0579,929.0579,0.4734,737.2331
+PAR_A01,92,NI,NI,220714.3931,9633433.126,O,16.4,False,5.83,8.4,"16,4",True,T09,,16.4,False,O,8.4,measured,38.3648,38.3648,0.6173,39.4462
+PAR_A01,93,NI,NI,220696.3809,9633424.433,O,11.7,False,4.75,5.83,"12,0",False,T09,,11.7,False,O,5.83,measured,13.8948,13.8948,0.6173,14.2865
+PAR_A01,94,Helicostylis sp.,Moraceae,220780.1811,9633464.764,O,16.2,False,8.96,20.66,"16,6",False,T09,,16.2,False,O,20.66,measured,90.1574,90.1574,0.643,96.4583
+PAR_A01,95,NI,NI,220774.8209,9633462.066,O,14.5,False,7.28,9.09,,True,T09,,14.5,False,O,9.09,measured,32.5844,32.5844,0.6173,33.5028
+PAR_A01,96,Casearia grandiflora,Salicaceae,220753.2497,9633451.545,O,16.5,False,12.54,17.64,"19,3",False,T09,,16.5,False,O,17.64,measured,80.0888,80.0888,0.77,102.1672
+PAR_A01,97,Goupia glabra,Goupiaceae,220822.9008,9633484.381,O,11.1,False,10.81,17.49,"11,6",False,T09,,11.1,False,O,17.49,measured,36.6348,36.6348,0.7272,44.1962
+PAR_A01,98,Dimorphandra macrostachya,Fabaceae,220802.1236,9633469.912,O,50.7,False,16.83,27.82,"59,5",False,T09,,50.7,False,O,27.82,measured,1117.7091,1117.7091,0.695,1290.1207
+PAR_A01,99,Euterpe oleracea,Arecaceae,220792.9634,9633470.488,P,11.7,False,17.62,20.87,"11,7",True,T09,,11.7,False,P,20.87,measured,48.2407,16.3032,0.3877,16.3032
+PAR_A01,100,Goupia glabra,Goupiaceae,220789.361,9633468.75,O,13.1,False,7.77,14.75,"16,9",False,T09,,13.1,False,O,14.75,measured,42.8662,42.8662,0.7272,51.7138
+PAR_A01,101,Tapirira guianensis,Anacardiaceae,220790.4156,9633464.262,O,37.2,False,14.28,28.99,"45,6",False,T09,,37.2,False,O,28.99,measured,635.7916,635.7916,0.457,487.4357
+PAR_A01,1,Parkia multijuga,Fabaceae,220728.75,9632832.74,O,43.7,False,10.96,16.58,"47,5",False,T10,,43.7,False,O,16.58,measured,504.6554,504.6554,0.399,338.8979
+PAR_A01,2,,,220728.6606,9632832.695,O,57.5,True,,11.11,,True,T10,,57.5,True,O,11.11,measured,583.3769,477.2976,0.6173,477.2976
+PAR_A01,3,Inga marginata,Fabaceae,220727.9861,9632828.224,O,10.8,False,7.99,11.89,,True,T10,,10.8,False,O,11.89,measured,23.8277,23.8277,0.5518,21.9576
+PAR_A01,4,Qualea paraensis,Vochysiaceae,220716.1302,9632822.196,O,16.0,False,14.08,19.43,"19,2",False,T10,,16.0,False,O,19.43,measured,82.8805,82.8805,0.6893,94.9038
+PAR_A01,5,Protium paniculatum,Burseraceae,220712.2831,9632820.947,O,20.0,False,9.54,21.05,"21,2",False,T10,,20.0,False,O,21.05,measured,138.5368,138.5368,0.49,113.6897
+PAR_A01,6,Eschweilera parviflora,Lecythidaceae,220706.6524,9632826.184,O,43.3,False,13.93,28.51,"43,5",False,T10,,43.3,False,O,28.51,measured,841.3222,841.3222,0.918,1274.1518
+PAR_A01,7,Licania canescens,Chrysobalanaceae,220705.5719,9632817.151,O,58.3,False,14.52,21.81,"58,3",True,T10,,58.3,False,O,21.81,measured,1157.6403,1157.6403,0.88,1682.3374
+PAR_A01,8,Ambelania acida,Apocynaceae,220698.5029,9632813.4,O,13.1,False,8.0,14.96,"13,7",False,T10,,13.1,False,O,14.96,measured,43.4618,43.4618,0.5247,38.1275
+PAR_A01,9,Sagotia racemosa,Euphorbiaceae,220698.2345,9632813.266,O,12.6,False,4.55,9.27,"13,7",False,T10,,12.6,False,O,9.27,measured,25.2496,25.2496,0.58,24.4278
+PAR_A01,10,Neea oppositifolia,Nyctaginaceae,220692.5527,9632810.543,O,11.4,False,5.07,8.75,"12,7",False,T10,,11.4,False,O,8.75,measured,19.6308,19.6308,0.893,28.9397
+PAR_A01,11,Sapium marmieri,Euphorbiaceae,220665.5307,9632797.729,O,10.1,False,8.54,9.5,"16,8",False,T10,,10.1,False,O,9.5,measured,16.794,16.794,0.41,11.5813
+PAR_A01,12,Casearia grandiflora,Salicaceae,220658.2822,9632793.218,O,13.3,False,9.83,10.19,"15,6",False,T10,,13.3,False,O,10.19,measured,30.7749,30.7749,0.77,39.2587
+PAR_A01,13,NI,NI,220585.3573,9632756.828,O,10.8,False,8.53,12.86,"12,5",False,T10,,10.8,False,O,12.86,measured,25.7231,25.7231,0.6173,26.4482
+PAR_A01,14,Vismia guianensis,Clusiaceae,220583.4343,9632756.875,O,10.9,False,6.55,9.47,"11,7",False,T10,,10.9,False,O,9.47,measured,19.4283,19.4283,0.475,15.4672
+PAR_A01,15,Cordia scabrifolia,Boraginaceae,220574.4859,9632751.739,O,10.6,False,4.17,7.88,"11,2",False,T10,,10.6,False,O,7.88,measured,15.3768,15.3768,0.474,12.2166
+PAR_A01,16,Parkia gigantocarpa,Fabaceae,220570.1969,9632756.975,O,60.3,False,16.28,24.34,"88,0",False,T10,,60.3,False,O,24.34,measured,1376.2235,1376.2235,0.26,608.4534
+PAR_A01,17,Apeiba echinata,Malvaceae,220570.8179,9632750.579,O,30.4,False,7.86,10.12,"32,6",False,T10,,30.4,False,O,10.12,measured,153.4921,153.4921,0.2822,73.524
+PAR_A01,18,Poecilanthe effusa,Fabaceae,220561.2429,9632744.907,O,10.5,False,4.05,10.91,"11,0",False,T10,,10.5,False,O,10.91,measured,20.7367,20.7367,0.7125,24.5235
+PAR_A01,19,Thyrsodium paraense,Anacardiaceae,220559.7666,9632744.282,O,10.3,False,4.77,8.19,"11,1",False,T10,,10.3,False,O,8.19,measured,15.0968,15.0968,0.645,16.2009
+PAR_A01,20,Parkia paraensis,Fabaceae,220551.5193,9632750.504,O,53.9,False,10.74,23.0,"55,8",False,T10,,53.9,False,O,23.0,measured,1046.0883,1046.0883,0.415,729.9744
+PAR_A01,21,Dimorphandra macrostachya,Fabaceae,220546.3908,9632746.032,O,60.0,False,17.15,26.91,"60,0",True,T10,,60.0,False,O,26.91,measured,1503.1686,1503.1686,0.695,1735.039
+PAR_A01,22,Cassia fastuosa,Fabaceae,220547.1138,9632740.209,O,45.7,False,9.39,18.08,"47,6",False,T10,,45.7,False,O,18.08,measured,599.2979,599.2979,0.805,798.4063
+PAR_A01,23,,,220498.2519,9632717.605,O,70.0,True,,12.91,70,True,T10,34.15,70.0,True,O,12.91,measured,991.6447,799.8218,0.6173,799.8218
+PAR_A01,24,Sapium marmieri,Euphorbiaceae,220493.6438,9632709.91,O,21.1,False,7.9,14.56,"22,8",False,T10,,21.1,False,O,14.56,measured,107.3261,107.3261,0.41,74.0128
+PAR_A01,25,Bocageopsis pleiosperma,Annonaceae,220493.2889,9632709.725,O,15.8,False,10.26,11.17,"19,5",False,T10,,15.8,False,O,11.17,measured,47.1128,47.1128,0.6402,50.1912
+PAR_A01,26,Cordia scabrifolia,Boraginaceae,220490.8504,9632708.344,O,17.7,False,6.27,10.7,"19,0",False,T10,,17.7,False,O,10.7,measured,56.3875,56.3875,0.474,44.7989
+PAR_A01,27,Cordia scabrifolia,Boraginaceae,220485.7505,9632705.577,O,11.5,False,10.75,15.34,"13,2",False,T10,,11.5,False,O,15.34,measured,34.5389,34.5389,0.474,27.4405
+PAR_A01,28,Cordia scabrifolia,Boraginaceae,220485.5731,9632705.485,O,12.2,False,11.59,15.34,"12,7",False,T10,,12.2,False,O,15.34,measured,38.7615,38.7615,0.474,30.7953
+PAR_A01,29,Lecythis idatimon,Lecythidaceae,220504.148,9632721.011,O,41.2,False,18.67,24.73,"42,4",False,T10,,41.2,False,O,24.73,measured,664.5487,664.5487,0.7986,878.4346
+PAR_A01,30,,,220476.4498,9632704.007,O,42.0,True,,11.23,42,True,T10,26.77,42.0,True,O,11.23,measured,319.311,256.9027,0.6173,256.9027
+PAR_A01,31,Helicostylis sp.,Moraceae,220477.6757,9632701.602,O,25.2,False,17.94,21.88,"29,7",False,T10,,25.2,False,O,21.88,measured,225.8815,225.8815,0.643,241.6679
+PAR_A01,32,Lecythis idatimon,Lecythidaceae,220465.3747,9632695.474,O,12.3,False,8.52,13.15,"12,5",False,T10,,12.3,False,O,13.15,measured,33.8865,33.8865,0.7986,44.7929
+PAR_A01,33,Hevea sp.,Euphorbiaceae,220456.8778,9632690.156,O,57.7,False,21.82,30.7,"60,2",False,T10,,57.7,False,O,30.7,measured,1583.8824,1583.8824,0.5029,1333.2064
+PAR_A01,34,Stryphnodendron paniculatum,Fabaceae,220447.8636,9632685.809,O,19.7,False,7.46,12.86,"22,5",False,T10,,19.7,False,O,12.86,measured,83.153,83.153,0.6535,90.382
+PAR_A01,35,,,220439.019,9632684.972,O,42.0,True,,5.65,42,True,T10,26.77,42.0,True,O,5.65,measured,163.3212,146.4649,0.6173,146.4649
+PAR_A01,36,Pourouma minor,Urticaceae,220432.9862,9632677.581,O,28.5,False,20.31,27.54,"32,4",False,T10,,28.5,False,O,27.54,measured,359.5197,359.5197,0.436,263.2606
+PAR_A01,37,Pourouma minor,Urticaceae,220424.5053,9632676.486,O,42.2,False,11.0,21.92,"53,5",False,T10,,42.2,False,O,21.92,measured,619.0575,619.0575,0.436,453.3088
+PAR_A01,38,NI,NI,220426.1041,9632673.485,O,10.4,False,3.33,8.54,"15,8",False,T10,,10.4,False,O,8.54,measured,16.0255,16.0255,0.6173,16.4773
+PAR_A01,39,Parkia gigantocarpa,Fabaceae,220421.0092,9632672.415,O,16.5,False,10.29,14.48,"19,2",False,T10,,16.5,False,O,14.48,measured,66.0541,66.0541,0.26,29.2037
+PAR_A01,40,Parkia gigantocarpa,Fabaceae,220419.3724,9632670.383,O,16.5,False,16.58,18.31,"23,3",False,T10,,16.5,False,O,18.31,measured,83.0564,83.0564,0.26,36.7207
+PAR_A01,41,Dimorphandra macrostachya,Fabaceae,220406.2924,9632672.817,O,47.1,False,20.09,32.25,"54,9",False,T10,,47.1,False,O,32.25,measured,1118.2078,1118.2078,0.695,1290.6963
+PAR_A01,42,Goupia glabra,Goupiaceae,220405.9593,9632662.384,O,82.0,False,12.38,26.05,"82,7",False,T10,,82.0,False,O,26.05,measured,2679.4994,2679.4994,0.7272,3232.5477
+PAR_A01,43,NI,NI,220389.0915,9632660.018,O,49.3,False,21.71,35.88,"52,7",False,T10,,49.3,False,O,35.88,measured,1356.5439,1356.5439,0.6173,1394.7816
+PAR_A01,44,Pouteria hispida,Sapotaceae,220382.601,9632653.061,O,41.9,False,17.34,27.47,"42,4",False,T10,,41.9,False,O,27.47,measured,760.9367,760.9367,0.874,1098.4696
+PAR_A01,45,Eschweilera parviflora,Lecythidaceae,220373.3522,9632655.534,O,49.0,False,21.58,32.0,"50,0",False,T10,,49.0,False,O,32.0,measured,1198.8085,1198.8085,0.918,1815.5518
+PAR_A01,46,Licania heteromorpha,Chrysobalanaceae,220374.2606,9632645.322,O,10.4,False,8.43,14.0,"11,1",False,T10,,10.4,False,O,14.0,measured,25.9616,25.9616,0.8164,35.0649
+PAR_A01,47,Pouteria sp.,Sapotaceae,220368.1468,9632644.038,O,48.0,False,21.46,31.85,"50,4",False,T10,,48.0,False,O,31.85,measured,1146.2475,1146.2475,0.7187,1367.1305
+PAR_A01,48,Eschweilera parviflora,Lecythidaceae,220347.0146,9632634.79,O,42.2,False,16.38,28.42,"44,3",False,T10,,42.2,False,O,28.42,measured,797.6414,797.6414,0.918,1207.9989
+PAR_A01,49,Pouteria sp.,Sapotaceae,220342.1235,9632634.4,O,41.6,False,19.75,29.34,"43,8",False,T10,,41.6,False,O,29.34,measured,800.151,800.151,0.7187,954.3409
+PAR_A01,50,Neea oppositifolia,Nyctaginaceae,220341.1636,9632627.27,O,19.7,False,4.85,9.12,"19,7",True,T10,,19.7,False,O,9.12,measured,59.4585,59.4585,0.893,87.6535
+PAR_A01,52,Carapa guianensis,Meliaceae,220324.064,9632626.828,O,36.6,False,12.63,20.68,"37,3",False,T10,,36.6,False,O,20.68,measured,442.9484,442.9484,0.53,392.4377
+PAR_A01,53,Goupia glabra,Goupiaceae,220308.4968,9632617.768,O,83.7,False,21.55,36.43,"89,0",False,T10,,83.7,False,O,36.43,measured,3869.0553,3869.0553,0.7272,4667.6277
+PAR_A01,54,Eschweilera parviflora,Lecythidaceae,220307.7782,9632609.972,O,18.1,False,14.82,21.15,"19,4",False,T10,,18.1,False,O,21.15,measured,114.5387,114.5387,0.918,173.4647
+PAR_A01,55,Pourouma minor,Urticaceae,220296.9579,9632603.273,O,26.0,False,16.08,26.98,"31,2",False,T10,,26.0,False,O,26.98,measured,294.568,294.568,0.436,215.6993
+PAR_A01,56,Pourouma minor,Urticaceae,220296.9579,9632603.273,O,27.2,False,16.08,26.98,"31,0",False,T10,,27.2,False,O,26.98,measured,321.6889,321.6889,0.436,235.5588
+PAR_A01,58,Couepia robusta,Chrysobalanaceae,220329.7691,9632613.993,O,44.7,False,20.14,24.0,"46,7",False,T10,,44.7,False,O,24.0,measured,756.7408,756.7408,0.83,1038.7039
+PAR_A01,59,NI,NI,220315.7851,9632604.088,O,56.9,False,12.59,33.58,"56,9",False,T10,,56.9,False,O,33.58,measured,1682.2657,1682.2657,0.6173,1729.6847
+PAR_A01,60,Tachigali myrmecophila,Fabaceae,220304.2163,9632606.662,O,70.8,False,18.55,41.8,"70,8",True,T10,,70.8,False,O,41.8,measured,3191.4913,3191.4913,0.476,2546.0236
+PAR_A01,61,Tachigali myrmecophila,Fabaceae,220302.554,9632599.149,O,39.5,False,19.13,28.06,"41,0",False,T10,,39.5,False,O,28.06,measured,692.3916,692.3916,0.476,552.3579
+PAR_A01,62,Xylopia nitida,Annonaceae,220301.0363,9632596.044,O,53.4,False,30.91,40.57,"56,0",False,T10,,53.4,False,O,40.57,measured,1787.4311,1787.4311,0.5483,1637.0474
+PAR_A01,63,Jacaranda copaia,Bignoniaceae,220299.0111,9632598.356,O,59.8,False,22.01,35.34,"61,1",False,T10,,59.8,False,O,35.34,measured,1948.4513,1948.4513,0.3507,1153.5354
+PAR_A01,64,Sagotia racemosa,Euphorbiaceae,220366.1964,9632640.468,O,12.1,False,6.22,10.43,"12,3",False,T10,,12.1,False,O,10.43,measured,26.176,26.176,0.58,25.3241
+PAR_A01,65,Eperua bijuga,Fabaceae,220362.644,9632638.417,O,18.9,False,13.48,19.46,"19,4",False,T10,,18.9,False,O,19.46,measured,114.8993,114.8993,0.729,138.9517
+PAR_A01,66,Terminalia amazonia,Combretaceae,220356.2633,9632632.317,O,75.0,False,23.63,32.61,"76,0",False,T10,,75.0,False,O,32.61,measured,2802.9197,2802.9197,0.6735,3137.5636
+PAR_A01,67,Inga grandis,Fabaceae,220350.6982,9632632.129,O,29.0,False,17.02,24.76,,True,T10,,29.0,False,O,24.76,measured,335.2449,335.2449,0.5786,323.5479
+PAR_A01,68,,,220365.8708,9632645.758,O,36.3,True,,8.33,"36,3",True,T10,,36.3,True,O,8.33,measured,179.4519,150.3005,0.6173,150.3005
+PAR_A01,69,Lecythis idatimon,Lecythidaceae,220346.6191,9632629.79,O,10.6,False,8.27,11.02,"10,9",False,T10,,10.6,False,O,11.02,measured,21.3318,21.3318,0.7986,28.1974
+PAR_A01,70,Sagotia racemosa,Euphorbiaceae,220344.5529,9632628.777,O,10.3,False,5.87,9.45,"10,8",False,T10,,10.3,False,O,9.45,measured,17.3596,17.3596,0.58,16.7946
+PAR_A01,71,Anacardium spruceanum,Anacardiaceae,220341.3574,9632620.314,O,54.2,False,21.61,32.38,"57,3",False,T10,,54.2,False,O,32.38,measured,1476.5818,1476.5818,0.4792,1185.5962
+PAR_A01,72,Pouteria anibifolia,Sapotaceae,220416.0864,9632666.768,O,45.9,False,22.97,32.56,"46,5",False,T10,,45.9,False,O,32.56,measured,1073.2454,1073.2454,0.66,1177.8725
+PAR_A01,73,Croton matourensis,Euphorbiaceae,220410.928,9632655.184,O,57.4,False,28.98,41.59,"66,2",False,T10,,57.4,False,O,41.59,measured,2108.5791,2108.5791,0.3883,1379.0437
+PAR_A01,74,Abarema jupunba,Fabaceae,220388.5887,9632646.075,O,35.8,False,18.38,24.84,"37,6",False,T10,,35.8,False,O,24.84,measured,507.3508,507.3508,0.5851,495.0856
+PAR_A01,75,Virola melinoni,Myristicaceae,220389.5292,9632644.31,O,55.0,False,28.98,41.59,"57,0",False,T10,,55.0,False,O,41.59,measured,1939.9112,1939.9112,0.4734,1539.3732
+PAR_A01,76,,,220432.1554,9632677.014,O,39.6,True,,33.74,"39,6",True,T10,,39.6,True,O,33.74,measured,832.9737,561.6587,0.6173,561.6587
+PAR_A01,77,Eschweilera coriacea,Lecythidaceae,220432.3589,9632674.505,O,46.7,False,15.87,26.91,"50,5",False,T10,,46.7,False,O,26.91,measured,921.6436,921.6436,0.8521,1297.89
+PAR_A01,78,Tachigali myrmecophila,Fabaceae,220514.7215,9632710.393,O,46.2,False,20.38,29.7,"51,6",False,T10,,46.2,False,O,29.7,measured,993.6927,993.6927,0.476,792.722
+PAR_A01,79,Eschweilera parviflora,Lecythidaceae,220509.8109,9632711.22,O,53.9,False,24.21,32.08,"59,1",False,T10,,53.9,False,O,32.08,measured,1447.4604,1447.4604,0.918,2192.1261
+PAR_A01,80,Sloanea guianensis,Elaeocarpaceae,220556.9922,9632741.967,O,10.9,False,1.48,7.08,"12,4",False,T10,,10.9,False,O,7.08,measured,14.6268,14.6268,0.8212,19.869
+PAR_A01,81,Casearia grandiflora,Salicaceae,220547.1431,9632737.068,O,16.4,False,9.39,12.41,"17,7",False,T10,,16.4,False,O,12.41,measured,56.151,56.151,0.77,71.6302
+PAR_A01,82,Sapium marmieri,Euphorbiaceae,220590.4572,9632758.926,O,15.4,False,5.48,10.35,"17,3",False,T10,,15.4,False,O,10.35,measured,41.599,41.599,0.41,28.6869
+PAR_A01,83,Caryocar villosum,Caryocaraceae,220618.1062,9632772.947,O,17.3,False,5.64,11.78,"20,6",False,T10,,17.3,False,O,11.78,measured,59.2331,59.2331,0.758,74.4125
+PAR_A01,84,Zanthoxylum rhoifolium,Rutaceae,220683.38,9632804.512,O,21.5,False,8.46,17.88,"24,6",False,T10,,21.5,False,O,17.88,measured,136.0477,136.0477,0.5692,129.2383
+PAR_A01,85,Inga marginata,Fabaceae,220673.6275,9632800.54,O,12.7,False,7.64,14.16,"14,7",False,T10,,12.7,False,O,14.16,measured,38.7725,38.7725,0.5518,35.7295
+PAR_A01,86,Heisteria densifrons,Olacaceae,220660.563,9632793.127,O,10.4,False,5.68,7.33,"10,8",False,T10,,10.4,False,O,7.33,measured,13.8055,13.8055,0.65,14.9272
+PAR_A01,87,Tetragastris altissima,Burseraceae,220724.0034,9632825.007,O,36.5,False,6.39,13.24,"36,8",False,T10,,36.5,False,O,13.24,measured,285.1143,285.1143,0.7079,335.0351
+PAR_A01,88,Qualea paraensis,Vochysiaceae,220723.1925,9632817.673,O,95.0,False,20.53,34.09,"95,5",False,T10,,95.0,False,O,34.09,measured,4643.2399,4643.2399,0.6893,5316.8263
+PAR_A01,89,Pouteria hispida,Sapotaceae,220716.5772,9632821.972,O,26.5,False,12.6,25.14,"27,8",False,T10,,26.5,False,O,25.14,measured,285.36,285.36,0.874,411.9388
+PAR_A01,90,Tachigali paniculata,Fabaceae,220714.3368,9632816.607,O,68.0,False,11.74,21.87,"72,4",False,T10,,68.0,False,O,21.87,measured,1567.5106,1567.5106,0.5545,1451.3855
+PAR_A01,91,Carapa guianensis,Meliaceae,220704.0056,9632815.81,O,36.0,False,12.11,27.88,"36,8",False,T10,,36.0,False,O,27.88,measured,574.0754,574.0754,0.53,508.6119
+PAR_A01,1,Cecropia ficifolia,Urticaceae,219122.8682,9632753.842,O,13.0,False,10.78,12.8,,True,T03,,13.0,False,O,12.8,measured,36.7718,36.7718,0.266,16.6236
+PAR_A01,2,Nectandra cuspidata,Lauraceae,219123.1398,9632753.763,O,10.3,False,6.5,8.79,,True,T03,,10.3,False,O,8.79,measured,16.1753,16.1753,0.518,14.014
+PAR_A01,3,Nectandra cuspidata,Lauraceae,219123.6523,9632753.246,O,12.2,False,7.15,11.22,,True,T03,,12.2,False,O,11.22,measured,28.5646,28.5646,0.518,24.7479
+PAR_A01,4,,,219126.807,9632754.981,O,22.0,True,,15.39,,True,T03,,22.0,True,O,15.39,measured,122.9178,91.2149,0.6173,91.2149
+PAR_A01,5,Cecropia ficifolia,Urticaceae,219125.8434,9632756.733,O,20.3,False,12.16,17.24,,True,T03,,20.3,False,O,17.24,measured,117.369,117.369,0.266,53.0594
+PAR_A01,6,Jacaranda copaia,Bignoniaceae,219145.7,9632766.281,O,11.2,False,12.6,14.83,"13,7",False,T03,,11.2,False,O,14.83,measured,31.7372,31.7372,0.3507,18.7892
+PAR_A01,7,Cecropia ficifolia,Urticaceae,219148.7276,9632767.831,O,10.6,False,9.19,13.64,,True,T03,,10.6,False,O,13.64,measured,26.2686,26.2686,0.266,11.8753
+PAR_A01,8,Cecropia ficifolia,Urticaceae,219151.2032,9632769.763,O,11.7,False,9.08,12.77,,True,T03,,11.7,False,O,12.77,measured,29.8677,29.8677,0.266,13.5024
+PAR_A01,9,Cecropia ficifolia,Urticaceae,219163.7866,9632775.312,O,13.0,False,10.58,14.14,,True,T03,,13.0,False,O,14.14,measured,40.5244,40.5244,0.266,18.32
+PAR_A01,10,Cecropia ficifolia,Urticaceae,219163.8742,9632775.36,O,10.8,False,6.62,9.7,,True,T03,,10.8,False,O,9.7,measured,19.5341,19.5341,0.266,8.8308
+PAR_A01,11,Bocageopsis pleiosperma,Annonaceae,219164.4967,9632777.756,O,10.2,False,4.73,7.51,"11,6",False,T03,,10.2,False,O,7.51,measured,13.6105,13.6105,0.6402,14.4998
+PAR_A01,12,,,219176.8172,9632783.16,O,37.7,True,,2.22,,True,T03,,37.7,True,O,2.22,measured,53.152,54.9615,0.6173,54.9615
+PAR_A01,13,Tapirira guianensis,Anacardiaceae,219181.4354,9632786.384,O,12.0,False,5.96,10.4,"16,9",True,T03,,12.0,False,O,10.4,measured,25.6831,25.6831,0.457,19.6902
+PAR_A01,14,NI,NI,219184.0161,9632787.917,O,11.8,False,4.62,7.4,"11,8",False,T03,,11.8,False,O,7.4,measured,17.8297,17.8297,0.6173,18.3323
+PAR_A01,15,NI,NI,219188.0967,9632799.176,O,72.0,False,25.92,39.91,,True,T03,,72.0,False,O,39.91,measured,3152.3141,3152.3141,0.6173,3241.1702
+PAR_A01,16,Inga heterophylla,Fabaceae,219193.9444,9632792.691,O,14.8,False,5.62,9.37,15,False,T03,14.15,14.8,False,O,9.37,measured,34.9325,34.9325,0.56,32.6577
+PAR_A01,17,Eschweilera parviflora,Lecythidaceae,219195.1579,9632792.559,O,14.1,False,6.92,11.44,14,False,T03,13.49,14.1,False,O,11.44,measured,38.6154,38.6154,0.918,58.4816
+PAR_A01,18,Pouteria retinervis,Sapotaceae,219200.7138,9632796.983,O,17.8,False,12.23,17.05,"18,1",False,T03,,17.8,False,O,17.05,measured,89.8346,89.8346,0.7187,107.1458
+PAR_A01,19,Manilkara huberi,Sapotaceae,219210.3049,9632802.37,O,25.3,False,8.13,19.57,"30,2",False,T03,,25.3,False,O,19.57,measured,204.1477,204.1477,0.9214,310.2799
+PAR_A01,20,NI,NI,219210.4276,9632802.438,O,11.0,False,3.37,6.76,13,False,T03,12.81,11.0,False,O,6.76,measured,14.2327,14.2327,0.6173,14.6339
+PAR_A01,21,NI,NI,219216.189,9632804.122,O,12.6,False,8.44,14.96,"17,8",False,T03,,12.6,False,O,14.96,measured,40.2826,40.2826,0.6173,41.418
+PAR_A01,22,NI,NI,219217.2409,9632806.982,O,14.8,False,8.52,12.66,"23,5",False,T03,,14.8,False,O,12.66,measured,46.8583,46.8583,0.6173,48.1792
+PAR_A01,23,Ocotea canaliculata,Lauraceae,219218.0952,9632806.882,O,15.3,False,7.45,13.17,"16,5",False,T03,,15.3,False,O,13.17,measured,51.963,51.963,0.4793,41.737
+PAR_A01,24,Pouteria macrophilla,Sapotaceae,219283.9709,9632844.811,O,36.5,False,17.66,25.41,,True,T03,,36.5,False,O,25.41,measured,538.6925,538.6925,0.7187,642.4991
+PAR_A01,25,Chimarrhis turbinata,Rubiaceae,219296.4338,9632850.132,O,52.0,False,15.84,22.17,"66,5",False,T03,,52.0,False,O,22.17,measured,940.95,940.95,0.72,1124.21
+PAR_A01,26,NI,NI,219303.8836,9632851.092,O,55.0,False,7.99,17.57,63,False,T03,32.64,55.0,False,O,17.57,measured,836.654,836.654,0.6173,860.2373
+PAR_A01,27,Eschweilera coriacea,Lecythidaceae,219302.1357,9632862.652,O,43.7,False,17.1,26.29,"44,5",False,T03,,43.7,False,O,26.29,measured,791.4,791.4,0.8521,1114.4766
+PAR_A01,28,Cordia scabrifolia,Boraginaceae,219314.1047,9632858.666,O,17.2,False,4.61,8.29,"18,2",False,T03,,17.2,False,O,8.29,measured,41.5644,41.5644,0.474,33.0222
+PAR_A01,29,Eschweilera coriacea,Lecythidaceae,219313.6483,9632866.605,O,41.4,False,15.95,24.61,43,False,T03,27.1,41.4,False,O,24.61,measured,667.683,667.683,0.8521,940.254
+PAR_A01,30,,,219324.5329,9632865.443,O,25.0,True,,14.5,,True,T03,,25.0,True,O,14.5,measured,148.8452,112.186,0.6173,112.186
+PAR_A01,31,Parkia sp.,Fabaceae,219326.1306,9632864.602,O,11.0,False,4.8,7.87,"12,2",False,T03,,11.0,False,O,7.87,measured,16.5094,16.5094,0.4553,12.6117
+PAR_A01,32,Licania canescens,Chrysobalanaceae,219326.7643,9632875.973,O,50.6,False,19.77,33.12,51,False,T03,29.57,50.6,False,O,33.12,measured,1319.9901,1319.9901,0.88,1918.2717
+PAR_A01,33,Lecythis idatimon,Lecythidaceae,219340.3477,9632871.95,O,14.2,False,10.51,13.71,17,False,T03,15.41,14.2,False,O,13.71,measured,46.7171,46.7171,0.7986,61.7531
+PAR_A01,34,Cecropia ficifolia,Urticaceae,219379.923,9632894.399,O,10.6,False,9.04,12.19,,True,T03,,10.6,False,O,12.19,measured,23.5395,23.5395,0.266,10.6416
+PAR_A01,35,Cecropia ficifolia,Urticaceae,219382.1897,9632895.672,O,13.7,False,10.85,16.45,"17,3",False,T03,,13.7,False,O,16.45,measured,52.0376,52.0376,0.266,23.5248
+PAR_A01,36,,,219390.4224,9632899.38,O,35.6,True,,3.19,"35,5",True,T03,,35.6,True,O,3.19,measured,67.7003,65.9265,0.6173,65.9265
+PAR_A01,37,Cecropia ficifolia,Urticaceae,219394.0077,9632902.197,O,13.0,False,10.66,13.24,,True,T03,,13.0,False,O,13.24,measured,38.005,38.005,0.266,17.181
+PAR_A01,38,Cecropia ficifolia,Urticaceae,219394.8312,9632902.775,O,10.8,False,10.67,13.82,17,False,T03,15.41,10.8,False,O,13.82,measured,27.5956,27.5956,0.266,12.4752
+PAR_A01,39,Eschweilera parviflora,Lecythidaceae,219398.2688,9632903.789,O,35.0,False,20.48,28.27,"36,5",False,T03,,35.0,False,O,28.27,measured,550.7766,550.7766,0.918,834.1311
+PAR_A01,40,Pouteria anibifolia,Sapotaceae,219407.7652,9632911.418,O,40.0,False,21.48,28.94,"41,5",False,T03,,40.0,False,O,28.94,measured,731.3148,731.3148,0.66,802.6082
+PAR_A01,41,Manilkara huberi,Sapotaceae,219407.9667,9632917.266,O,55.5,False,27.99,36.64,"56,5",False,T03,,55.5,False,O,36.64,measured,1744.7818,1744.7818,0.9214,2651.8578
+PAR_A01,42,Lecythis idatimon,Lecythidaceae,219416.482,9632915.283,O,24.4,False,17.14,24.55,"24,9",False,T03,,24.4,False,O,24.55,measured,237.3208,237.3208,0.7986,313.7029
+PAR_A01,43,Pouteria sp.,Sapotaceae,219417.6505,9632920.413,O,53.0,False,26.73,33.08,53,True,T03,30.13,53.0,False,O,33.08,measured,1443.2551,1443.2551,0.7187,1721.3719
+PAR_A01,44,,,219444.9612,9632930.939,O,11.8,True,,9.94,,True,T03,,11.8,True,O,9.94,measured,23.7806,18.3521,0.6173,18.3521
+PAR_A01,45,NI,NI,219451.4474,9632931.601,O,50.2,False,21.1,31.05,,True,T03,,50.2,False,O,31.05,measured,1220.3558,1220.3558,0.6173,1254.7547
+PAR_A01,46,,,219451.9077,9632935.53,O,20.5,True,,3.24,,True,T03,,20.5,True,O,3.24,measured,23.4043,22.1408,0.6173,22.1408
+PAR_A01,47,,,219454.4547,9632936.502,O,23.0,True,,17.45,,True,T03,,23.0,True,O,17.45,measured,151.5464,110.4851,0.6173,110.4851
+PAR_A01,48,Helicostylis sp.,Moraceae,219456.789,9632944.696,O,60.0,False,26.62,31.76,"63,8",False,T03,,60.0,False,O,31.76,measured,1767.0437,1767.0437,0.643,1890.5387
+PAR_A01,49,NI,NI,219466.0969,9632941.896,O,13.5,False,7.25,11.41,"17,2",False,T03,,13.5,False,O,11.41,measured,35.3821,35.3821,0.6173,36.3794
+PAR_A01,50,Eschweilera amazonica,Lecythidaceae,219480.2205,9632949.831,O,24.0,False,11.32,20.04,"26,4",False,T03,,24.0,False,O,20.04,measured,188.4887,188.4887,0.9,279.995
+PAR_A01,51,Couratari stellata,Lecythidaceae,219488.0472,9632961.11,O,64.0,False,17.16,25.23,65,False,T03,33.09,64.0,False,O,25.23,measured,1601.0144,1601.0144,0.6331,1687.2727
+PAR_A01,52,,,219498.7107,9632951.503,O,54.0,True,,17.58,54,True,T03,30.4,54.0,True,O,17.58,measured,807.6659,612.7346,0.6173,612.7346
+PAR_A01,53,Cecropia ficifolia,Urticaceae,219508.6045,9632966.696,O,10.5,False,8.17,12.07,"16,4",False,T03,,10.5,False,O,12.07,measured,22.8859,22.8859,0.266,10.3461
+PAR_A01,54,,,219511.617,9632968.274,O,15.0,True,,4.28,,True,T03,,15.0,True,O,4.28,measured,16.6909,14.8855,0.6173,14.8855
+PAR_A01,55,Eschweilera ovata,Lecythidaceae,219516.2578,9632971.454,O,12.0,False,8.45,13.96,"12,2",False,T03,,12.0,False,O,13.96,measured,34.2319,34.2319,0.9,50.8506
+PAR_A01,56,Mouriri collocarpa,Melastomataceae,219516.4322,9632971.552,O,20.0,False,10.3,15.74,20,False,T03,17.17,20.0,False,O,15.74,measured,104.3153,104.3153,0.8333,143.7445
+PAR_A01,57,Tachigali myrmecophila,Fabaceae,219522.2696,9632979.191,O,47.0,False,21.83,29.98,"47,8",False,T03,,47.0,False,O,29.98,measured,1037.011,1037.011,0.476,827.2793
+PAR_A01,58,,,219528.949,9632979.502,O,11.7,True,,4.82,,True,T03,,11.7,True,O,4.82,measured,11.5402,9.9808,0.6173,9.9808
+PAR_A01,59,Stryphnodendron paniculatum,Fabaceae,219533.6971,9632983.317,O,41.0,False,17.2,25.03,"43,5",False,T03,,41.0,False,O,25.03,measured,666.0588,666.0588,0.6535,723.9635
+PAR_A01,1,,,219217.2327,9632590.289,O,49.5,True,,27.2,,True,T02,,49.5,True,O,27.2,measured,1043.4443,735.7787,0.6173,735.7787
+PAR_A01,2,Cecropia palmata,Urticaceae,219220.4086,9632588.582,O,12.2,False,10.67,13.36,"13,8",False,T02,,12.2,False,O,13.36,measured,33.8705,33.8705,0.3404,19.4779
+PAR_A01,3,,,219283.8335,9632626.913,O,43.0,True,,31.37,,True,T02,,43.0,True,O,31.37,measured,911.1488,623.9435,0.6173,623.9435
+PAR_A01,4,Cecropia ficifolia,Urticaceae,219288.7274,9632626.235,O,45.0,False,9.25,12.79,"13,3",False,T02,,45.0,False,O,12.79,measured,414.7985,414.7985,0.266,187.5193
+PAR_A01,5,,,219330.7229,9632647.368,O,10.3,True,,4.42,,True,T02,,10.3,True,O,4.42,measured,8.269,7.2059,0.6173,7.2059
+PAR_A01,6,,,219330.5237,9632649.868,O,39.0,True,,27.68,39,True,T02,25.71,39.0,True,O,27.68,measured,666.4582,463.3195,0.6173,463.3195
+PAR_A01,7,Cecropia palmata,Urticaceae,219356.681,9632662.447,O,16.4,False,11.98,15.13,"16,4",True,T02,,16.4,False,O,15.13,measured,68.1332,68.1332,0.3404,39.1813
+PAR_A01,8,,,219357.4694,9632663.094,O,29.0,True,,22.9,29,True,T02,21.68,29.0,True,O,22.9,measured,310.6426,219.3819,0.6173,219.3819
+PAR_A01,9,Inga marginata,Fabaceae,219364.7234,9632666.28,O,10.3,False,6.49,10.71,"18,2",False,T02,,10.3,False,O,10.71,measured,19.6152,19.6152,0.5518,18.0758
+PAR_A01,10,Peltogyne leicointei,Fabaceae,219370.494,9632666.295,O,62.0,False,18.55,29.17,"71,5",False,T02,,62.0,False,O,29.17,measured,1733.753,1733.753,0.7926,2275.0535
+PAR_A01,11,Tachigali paniculata,Fabaceae,219414.4178,9632694.825,O,72.4,False,21.05,26.0,76,False,T02,35.31,72.4,False,O,26.0,measured,2097.4149,2097.4149,0.5545,1942.0332
+PAR_A01,12,,,219391.0426,9632681.305,O,12.0,True,2.8,2.59,,True,T02,,12.0,True,O,2.59,measured,6.6131,6.3169,0.6173,6.3169
+PAR_A01,13,Lecythis idatimon,Lecythidaceae,219444.0358,9632710.657,O,19.5,False,7.7,11.26,"19,9",False,T02,,19.5,False,O,11.26,measured,71.5995,71.5995,0.7986,94.6438
+PAR_A01,14,Cecropia ficifolia,Urticaceae,219445.1772,9632713.616,O,16.8,False,8.04,15.2,"16,8",True,T02,,16.8,False,O,15.2,measured,71.7371,71.7371,0.266,32.4304
+PAR_A01,15,,,219443.6202,9632720.788,O,40.0,True,,13.05,40,True,T02,26.07,40.0,True,O,13.05,measured,336.138,263.4807,0.6173,263.4807
+PAR_A01,16,Neea oppositifolia,Nyctaginaceae,219455.2839,9632718.029,O,14.0,False,6.56,11.51,"15,4",False,T02,,14.0,False,O,11.51,measured,38.31,38.31,0.893,56.4765
+PAR_A01,17,Cecropia palmata,Urticaceae,219455.2123,9632718.16,O,15.5,False,3.09,4.73,,True,T02,,15.5,False,O,4.73,measured,19.6179,19.6179,0.3404,11.2817
+PAR_A01,18,Cecropia palmata,Urticaceae,219457.473,9632718.176,O,10.0,False,9.49,10.33,,True,T02,,10.0,False,O,10.33,measured,17.874,17.874,0.3404,10.2788
+PAR_A01,19,Cecropia palmata,Urticaceae,219458.314,9632720.835,O,11.5,False,8.73,11.59,,True,T02,,11.5,False,O,11.59,measured,26.2717,26.2717,0.3404,15.1081
+PAR_A01,20,,,219465.4638,9632724.424,O,13.7,True,,7.84,,True,T02,,13.7,True,O,7.84,measured,25.2459,20.3728,0.6173,20.3728
+PAR_A01,21,Cecropia ficifolia,Urticaceae,219466.6256,9632725.007,O,15.3,False,9.8,13.52,"17,5",False,T02,,15.3,False,O,13.52,measured,53.3104,53.3104,0.266,24.1002
+PAR_A01,22,Cecropia ficifolia,Urticaceae,219468.6182,9632724.889,O,16.5,False,7.35,12.1,"18,0",False,T02,,16.5,False,O,12.1,measured,55.4355,55.4355,0.266,25.0609
+PAR_A01,23,Duguetia stelechantha,Annonaceae,219508.9776,9632744.813,O,13.2,False,5.72,6.02,"14,8",False,T02,,13.2,False,O,6.02,measured,18.1429,18.1429,0.849,25.4592
+PAR_A01,24,Lecythis idatimon,Lecythidaceae,219522.9769,9632758.887,O,45.7,False,16.45,26.15,"50,5",False,T02,,45.7,False,O,26.15,measured,859.151,859.151,0.7986,1135.6699
+PAR_A01,25,Licania canescens,Chrysobalanaceae,219527.4982,9632758.919,O,36.4,False,17.92,24.21,"37,0",False,T02,,36.4,False,O,24.21,measured,511.1043,511.1043,0.88,742.7608
+PAR_A01,26,Stryphnodendron paniculatum,Fabaceae,219535.6946,9632758.448,O,30.5,False,15.14,23.29,35,False,T02,24.21,30.5,False,O,23.29,measured,348.4748,348.4748,0.6535,378.7699
+PAR_A01,27,Enterolobium schomburgkii,Fabaceae,219534.5953,9632764.719,O,46.5,False,17.57,27.77,53,False,T02,30.13,46.5,False,O,27.77,measured,942.4513,942.4513,0.6989,1093.8115
+PAR_A01,28,Couratari stellata,Lecythidaceae,219540.1159,9632760.779,O,35.3,False,14.11,19.85,"37,2",False,T02,,35.3,False,O,19.85,measured,396.5803,396.5803,0.6331,417.947
+PAR_A01,29,NI,NI,219545.8883,9632763.341,O,15.3,False,12.32,15.81,"15,3",False,T02,,15.3,False,O,15.81,measured,62.1063,62.1063,0.6173,63.857
+PAR_A01,30,Eschweilera coriacea,Lecythidaceae,219549.1744,9632760.181,O,68.0,False,16.65,28.49,72,False,T02,34.55,68.0,False,O,28.49,measured,2029.0741,2029.0741,0.8521,2857.4116
+PAR_A01,31,Inga marginata,Fabaceae,219549.0003,9632767.476,O,41.8,False,12.98,19.95,"41,8",False,T02,,41.8,False,O,19.95,measured,554.2951,554.2951,0.5518,510.7923
+PAR_A01,32,Inga marginata,Fabaceae,219559.8724,9632770.472,O,16.0,False,12.98,19.83,"20,0",False,T02,,16.0,False,O,19.83,measured,84.5454,84.5454,0.5518,77.91
+PAR_A01,33,Inga marginata,Fabaceae,219587.1154,9632781.016,O,47.3,False,15.0,24.51,"50,3",False,T02,,47.3,False,O,24.51,measured,862.5588,862.5588,0.5518,794.8625
+PAR_A01,34,Neea oppositifolia,Nyctaginaceae,219595.9161,9632783.644,O,42.2,False,17.8,25.23,"44,6",False,T02,,42.2,False,O,25.23,measured,710.1365,710.1365,0.893,1046.8808
+PAR_A01,35,NI,NI,219607.2396,9632794.249,O,29.6,False,11.08,21.75,32,False,T02,22.99,29.6,False,O,21.75,measured,307.4556,307.4556,0.6173,316.122
+PAR_A01,36,Pseudopiptadenia suaveolens,Fabaceae,219611.4978,9632797.729,O,12.0,False,9.1,16.59,"13,1",False,T02,,12.0,False,O,16.59,measured,40.5128,40.5128,0.6797,45.758
+PAR_A01,37,Trattinnickia burseraefolia,Burseraceae,219613.3746,9632798.671,O,11.0,False,11.52,14.26,"11,6",False,T02,,11.0,False,O,14.26,measured,29.4903,29.4903,0.4589,22.7005
+PAR_A01,38,Zygia racemosa,Fabaceae,219618.8316,9632801.187,O,13.7,False,7.42,14.57,"14,6",False,T02,,13.7,False,O,14.57,measured,46.2249,46.2249,0.748,57.3229
+PAR_A01,39,Pouteria gongrijpii,Sapotaceae,219620.535,9632801.818,O,16.0,False,7.58,16.09,"17,1",False,T02,,16.0,False,O,16.09,measured,68.9448,68.9448,0.7994,91.2271
+PAR_A01,40,Inga marginata,Fabaceae,219621.0555,9632800.849,O,15.6,False,11.43,15.8,"17,8",False,T02,,15.6,False,O,15.8,measured,64.4658,64.4658,0.5518,59.4063
+PAR_A01,41,,,219621.1296,9632795.853,O,38.4,True,,10.52,"38,4",True,T02,,38.4,True,O,10.52,measured,251.5143,203.578,0.6173,203.578
+PAR_A01,42,NI,NI,219632.6424,9632806.106,O,15.9,False,7.4,9.96,17,False,T02,15.41,15.9,False,O,9.96,measured,42.647,42.647,0.6173,43.8492
+PAR_A01,1,,,219295.6522,9632409.973,O,20.2,True,,6.59,,True,T01,,20.2,True,O,6.59,measured,45.4714,38.4247,0.6173,38.4247
+PAR_A01,2,Vismia guianensis,Clusiaceae,219298.6437,9632411.177,O,16.8,False,2.27,3.81,"17,2",False,T01,,16.8,False,O,3.81,measured,18.5886,18.5886,0.475,14.7987
+PAR_A01,3,Bowdichia nitida,Fabaceae,219300.3239,9632415.771,O,40.2,False,19.48,30.26,"42,4",False,T01,,40.2,False,O,30.26,measured,771.3261,771.3261,0.8033,1025.5118
+PAR_A01,4,Sacoglottis guianensis,Humiriaceae,219303.1019,9632411.595,O,40.5,False,17.21,30.35,"47,4",False,T01,,40.5,False,O,30.35,measured,784.8737,784.8737,0.8359,1084.7385
+PAR_A01,5,,,219305.1803,9632415.267,O,13.0,True,,7.86,,True,T01,,13.0,True,O,7.86,measured,22.846,18.3824,0.6173,18.3824
+PAR_A01,6,Trattinnickia burseraefolia,Burseraceae,219340.4375,9632430.051,O,35.8,False,8.78,12.86,"35,8",False,T01,,35.8,False,O,12.86,measured,266.8453,266.8453,0.4589,205.4073
+PAR_A01,7,Trattinnickia burseraefolia,Burseraceae,219343.934,9632431.993,O,68.7,False,13.99,25.14,"71,7",False,T01,,68.7,False,O,25.14,measured,1832.1319,1832.1319,0.4589,1410.3051
+PAR_A01,8,Sacoglottis guianensis,Humiriaceae,219351.7041,9632438.599,O,45.8,False,13.93,23.46,"48,7",False,T01,,45.8,False,O,23.46,measured,776.0867,776.0867,0.8359,1072.5944
+PAR_A01,9,,,219363.5532,9632454.334,O,38.7,True,,7.26,,True,T01,,38.7,True,O,7.26,measured,177.8061,152.6608,0.6173,152.6608
+PAR_A01,10,Licania canescens,Chrysobalanaceae,219373.5089,9632452.887,O,11.7,False,9.68,12.7,,True,T01,,11.7,False,O,12.7,measured,29.7079,29.7079,0.88,43.1729
+PAR_A01,11,Dialium guianense,Fabaceae,219376.6657,9632451.323,O,48.2,False,18.4,33.2,49,False,T01,28.99,48.2,False,O,33.2,measured,1203.3703,1203.3703,0.8964,1780.5664
+PAR_A01,12,Pouteria gongrijpii,Sapotaceae,219377.2486,9632448.215,O,36.0,False,20.69,29.47,"37,2",False,T01,,36.0,False,O,29.47,measured,606.0078,606.0078,0.7994,801.8634
+PAR_A01,13,NI,NI,219375.8885,9632454.781,O,26.7,False,10.05,16.21,"28,3",False,T01,,26.7,False,O,16.21,measured,188.6943,188.6943,0.6173,194.0132
+PAR_A01,14,Hymenaea parviflora,Fabaceae,219388.6124,9632454.529,O,39.2,False,17.7,24.52,"43,5",False,T01,,39.2,False,O,24.52,measured,598.0356,598.0356,0.7935,785.6017
+PAR_A01,15,Minquartia guianensis,Olacaceae,219393.9541,9632465.505,O,10.0,False,5.79,11.02,"10,5",False,T01,,10.0,False,O,11.02,measured,19.0384,19.0384,0.7867,24.8011
+PAR_A01,16,Pouteria gongrijpii,Sapotaceae,219399.1989,9632468.419,O,38.0,False,18.26,23.24,"40,4",False,T01,,38.0,False,O,23.24,measured,534.1272,534.1272,0.7994,706.7518
+PAR_A01,17,Inga sp.,Fabaceae,219406.192,9632472.304,O,11.2,False,8.23,10.72,,True,T01,,11.2,False,O,10.72,measured,23.1209,23.1209,0.5786,22.3142
+PAR_A01,18,Inga sp.,Fabaceae,219411.874,9632474.431,O,10.0,False,10.57,13.24,,True,T01,,10.0,False,O,13.24,measured,22.7732,22.7732,0.5786,21.9786
+PAR_A01,19,Chimarrhis turbinata,Rubiaceae,219414.9821,9632475.014,O,23.7,False,7.58,14.31,"26,5",False,T01,,23.7,False,O,14.31,measured,132.3957,132.3957,0.72,158.1811
+PAR_A01,20,Diplotropis sp.,Fabaceae,219415.5355,9632479.783,O,58.8,False,31.31,39.16,"59,3",False,T01,,58.8,False,O,39.16,measured,2084.0095,2084.0095,0.7378,2549.7844
+PAR_A01,21,,,219420.4695,9632483.669,O,72.0,True,,5.28,,True,T01,,72.0,True,O,5.28,measured,437.7886,407.2293,0.6173,407.2293
+PAR_A01,22,NI,NI,219430.7652,9632483.669,O,15.7,False,12.84,17.66,"21,5",False,T01,,15.7,False,O,17.66,measured,72.7645,72.7645,0.6173,74.8156
+PAR_A01,23,Pouteria retinervis,Sapotaceae,219435.9128,9632488.817,O,14.2,False,14.58,18.66,"13,4",False,T01,,14.2,False,O,18.66,measured,63.1157,63.1157,0.7187,75.2781
+PAR_A01,24,Minquartia guianensis,Olacaceae,219441.7404,9632490.682,O,17.2,False,14.04,17.96,"17,1",False,T01,,17.2,False,O,17.96,measured,88.3925,88.3925,0.7867,115.1482
+PAR_A01,25,NI,NI,219450.8704,9632494.839,O,12.6,False,8.14,12.5,"13,5",False,T01,,12.6,False,O,12.5,measured,33.804,33.804,0.6173,34.7569
+PAR_A01,26,Sapium marmieri,Euphorbiaceae,219464.672,9632503.766,O,12.0,False,8.02,12.0,"16,4",False,T01,,12.0,False,O,12.0,measured,29.5327,29.5327,0.41,20.366
+PAR_A01,27,Inga marginata,Fabaceae,219468.6056,9632506.981,O,14.5,False,8.52,10.64,"17,5",False,T01,,14.5,False,O,10.64,measured,37.9967,37.9967,0.5518,35.0146
+PAR_A01,28,,,219475.821,9632508.67,O,12.0,True,,5.77,,True,T01,,12.0,True,O,5.77,measured,14.4521,12.1636,0.6173,12.1636
+PAR_A01,29,Cecropia palmata,Urticaceae,219478.4086,9632510.19,O,12.5,False,9.71,13.87,"13,2",False,T01,,12.5,False,O,13.87,measured,36.838,36.838,0.3404,21.1844
+PAR_A01,30,Cecropia palmata,Urticaceae,219483.8847,9632514.76,O,12.5,False,7.11,10.52,,True,T01,,12.5,False,O,10.52,measured,28.1265,28.1265,0.3404,16.1747
+PAR_A01,31,Cecropia palmata,Urticaceae,219485.6588,9632515.269,O,12.7,False,8.76,11.81,,True,T01,,12.7,False,O,11.81,measured,32.4789,32.4789,0.3404,18.6776
+PAR_A01,32,Cecropia palmata,Urticaceae,219485.7552,9632515.094,O,19.0,False,7.71,13.09,,True,T01,,19.0,False,O,13.09,measured,78.8353,78.8353,0.3404,45.3358
+PAR_A01,33,Cecropia palmata,Urticaceae,219494.2237,9632518.786,O,13.2,False,10.3,15.44,,True,T01,,13.2,False,O,15.44,measured,45.4926,45.4926,0.3404,26.1614
+PAR_A01,34,Cecropia palmata,Urticaceae,219525.2928,9632536.583,O,15.5,False,10.37,13.03,,True,T01,,15.5,False,O,13.03,measured,52.7441,52.7441,0.3404,30.3315
+PAR_A01,35,,,219555.4624,9632548.541,O,38.2,True,,12.2,,True,T01,,38.2,True,O,12.2,measured,287.6972,227.4199,0.6173,227.4199
+PAR_A01,36,Tapirira guianensis,Anacardiaceae,219573.9778,9632563.021,O,16.0,False,10.37,13.55,"27,2",False,T01,,16.0,False,O,13.55,measured,58.301,58.301,0.457,44.697
+PAR_A01,37,Croton matourensis,Euphorbiaceae,219592.807,9632574.45,O,10.2,False,7.33,9.13,"16,1",False,T01,,10.2,False,O,9.13,measured,16.469,16.469,0.3883,10.771
+PAR_A01,38,Inga sp.,Fabaceae,219603.6969,9632579.541,O,30.6,False,18.69,23.26,"34,0",False,T01,,30.6,False,O,23.26,measured,350.2676,350.2676,0.5786,338.0465
+PAR_A01,39,Stryphnodendron pulcherrimum,Fabaceae,219604.8002,9632580.024,O,25.7,False,19.12,24.85,,True,T01,,25.7,False,O,24.85,measured,265.7594,265.7594,0.475,211.5758
+PAR_A01,40,Manilkara huberi,Sapotaceae,219603.5538,9632582.533,O,43.7,False,19.6,25.01,"48,6",False,T01,,43.7,False,O,25.01,measured,753.771,753.771,0.9214,1145.6409
+PAR_A01,41,Neea oppositifolia,Nyctaginaceae,219609.3015,9632576.546,O,47.0,False,20.84,31.42,"48,5",False,T01,,47.0,False,O,31.42,measured,1085.5978,1085.5978,0.893,1600.3845
+PAR_A01,42,Inga marginata,Fabaceae,219616.097,9632584.994,O,13.0,False,9.72,13.55,"15,5",False,T01,,13.0,False,O,13.55,measured,38.8733,38.8733,0.5518,35.8224
+PAR_A01,43,Cecropia palmata,Urticaceae,219617.6181,9632586.385,O,24.7,False,14.82,19.7,"25,7",False,T01,,24.7,False,O,19.7,measured,196.0669,196.0669,0.3404,112.7521
+PAR_A01,44,,,219630.8978,9632595.041,O,33.3,True,,3.94,,True,T01,,33.3,True,O,3.94,measured,73.0258,68.5589,0.6173,68.5589
+PAR_A01,45,Parkia sp.,Fabaceae,219636.4253,9632595.755,O,37.7,False,14.77,23.4,"47,4",False,T01,,37.7,False,O,23.4,measured,529.4606,529.4606,0.4553,404.4623
+PAR_A01,46,Croton matourensis,Euphorbiaceae,219617.5704,9632586.473,O,10.5,False,5.47,9.06,18,False,T01,16.01,10.5,False,O,9.06,measured,17.2973,17.2973,0.3883,11.3127
+PAR_A01,47,,,219652.8756,9632604.648,O,10.0,True,8.58,11.12,,True,T01,,10.0,True,O,11.12,measured,19.207,14.4469,0.6173,14.4469
+PAR_A01,48,,,219658.5788,9632613.642,O,41.8,True,,19.11,,True,T01,,41.8,True,O,19.11,measured,531.5048,393.0821,0.6173,393.0821
+PAR_A01,49,Lecythis idatimon,Lecythidaceae,219665.7631,9632612.979,O,27.0,False,11.38,24.78,"27,3",False,T01,,27.0,False,O,24.78,measured,291.8271,291.8271,0.7986,385.7521
+PAR_A01,50,Croton matourensis,Euphorbiaceae,219712.8855,9632639.361,O,14.4,False,9.23,15.17,"18,4",False,T01,,14.4,False,O,15.17,measured,52.9939,52.9939,0.3883,34.6589
+PAR_A01,51,Pouteria gongrijpii,Sapotaceae,219708.1315,9632635.541,O,39.7,False,22.49,31.72,"39,8",False,T01,,39.7,False,O,31.72,measured,788.1356,788.1356,0.7994,1042.8531
+PAR_A01,52,Eschweilera ovata,Lecythidaceae,219714.7182,9632638.078,O,57.0,False,29.74,32.97,"56,3",False,T01,,57.0,False,O,32.97,measured,1658.1068,1658.1068,0.9,2463.0746
+PAR_A01,53,Zollernia paraensis,Fabaceae,219716.144,9632639.645,O,35.0,False,16.44,25.17,"36,3",False,T01,,35.0,False,O,25.17,measured,491.7491,491.7491,0.99,801.6926
+PAR_A01,54,Pouteria cladantha,Sapotaceae,219715.7076,9632648.844,O,38.0,False,23.16,27.53,"39,9",False,T01,,38.0,False,O,27.53,measured,630.1575,630.1575,0.9423,979.0326
+PAR_A01,55,Lecythis idatimon,Lecythidaceae,219719.3731,9632646.278,O,43.3,False,19.79,27.06,"44,1",False,T01,,43.3,False,O,27.06,measured,799.5341,799.5341,0.7986,1056.8652
+PAR_A01,56,Eschweilera ovata,Lecythidaceae,219720.0327,9632653.455,O,40.2,False,19.17,23.49,"41,4",False,T01,,40.2,False,O,23.49,measured,602.4094,602.4094,0.9,894.8636
+PAR_A01,57,Lecythis idatimon,Lecythidaceae,219724.2118,9632635.253,O,38.0,False,19.87,27.78,"38,7",False,T01,,38.0,False,O,27.78,measured,635.742,635.742,0.7986,840.3565
+PAR_A01,58,,,219726.7042,9632641.147,O,47.0,True,,3.86,,True,T01,,47.0,True,O,3.86,measured,140.2507,134.3023,0.6173,134.3023
+PAR_A01,59,Croton matourensis,Euphorbiaceae,219736.8902,9632651.314,O,18.0,False,14.94,19.95,"28,5",False,T01,,18.0,False,O,19.95,measured,107.0279,107.0279,0.3883,69.9979
