@@ -1,21 +1,147 @@
 # Equações alométricas para estimativa de biomassa
-# Preencher quando o artigo for definido
+# Referência principal: Longo et al. 2016 (Global Biogeochem. Cycles)
+#   doi:10.1002/2016GB005465
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Constante global ──────────────────────────────────────────────────────────
+carbon_fraction:
+  value: 0.5        # f_C — fração de carbono da biomassa seca (Baccini et al. 2012)
+
+# ── Biomassa individual (IAGC, kg C) ─────────────────────────────────────────
 #
-# Estrutura esperada:
-# equation_id: identificador único
-# reference: citação do artigo
-# forest_type: tipo de floresta aplicável
-# formula: expressão da equação (variáveis: H = altura, D = diâmetro, CC = canopy cover)
-# parameters: coeficientes da equação
-# biomass_unit: Mg/ha ou kg
+# Variáveis:
+#   DBH  = diâmetro à altura do peito (cm)
+#   H_t  = altura total (m)  — medida ou estimada via Feldpausch (ver abaixo)
+#   rho_w = densidade da madeira (g/cm³)  — banco de dados Chave 2009 / Zanne 2009
+#   rho_s = densidade do lenho morto (g/cm³) — Palace et al. 2007 (média por classe de decomposição)
 
-equations: []
+biomass_equations:
 
-# Exemplo (comentado até definir):
-# - equation_id: chave2014
-#   reference: "Chave et al. 2014"
-#   forest_type: tropical_moist
-#   formula: "0.0673 * (rho * D^2 * H)^0.976"
-#   parameters:
-#     rho: 0.6  # densidade da madeira (g/cm³), ajustar por espécie
-#   biomass_unit: kg
+  - id: chave2014_live_tree
+    label: Árvores vivas
+    reference: "Chave et al. 2014, Glob. Change Biol."
+    type_code: O        # coluna 'type' nos CSVs de inventário
+    status: alive       # dead = False
+    formula: "IAGC = 0.0673 * f_C * (rho_w * DBH**2 * H_t)**0.976"
+    coefficients:
+      a: 0.0673
+      exp: 0.976
+    requires: [DBH, H_t, rho_w]
+
+  - id: chambers2000_dead_tree
+    label: Árvores mortas em pé (snags)
+    reference: "Chambers et al. 2000, For. Ecol. Manage."
+    type_code: O
+    status: dead        # dead = True
+    formula: "IAGC = 0.1007 * f_C * rho_s * DBH**2 * H_t**0.818"
+    coefficients:
+      a: 0.1007
+      exp_H: 0.818
+    requires: [DBH, H_t, rho_s]
+
+  - id: goodman2013_palm
+    label: Palmeiras vivas
+    reference: "Goodman et al. 2013, For. Ecol. Manage."
+    type_code: P        # coluna 'type' = 'P'
+    status: alive
+    formula: "IAGC = 0.03781 * f_C * DBH**2.7483"
+    coefficients:
+      a: 0.03781
+      exp: 2.7483
+    requires: [DBH]
+    note: "Não requer altura nem densidade — palmas têm estrutura diferente de árvores."
+
+  - id: schnitzer2006_liana
+    label: Lianas vivas
+    reference: "Schnitzer et al. 2006"
+    type_code: L
+    status: alive
+    formula: "IAGC = 0.3798 * f_C * DBH**2.657"
+    coefficients:
+      a: 0.3798
+      exp: 2.657
+    requires: [DBH]
+    note: "Provavelmente ausente nos inventários deste dataset — incluído por completude."
+
+# ── Estimativa de altura quando H_t não foi medida ───────────────────────────
+#
+# Modelo Weibull: H = a * (1 - exp(-b * D^c))
+# Fonte: Feldpausch et al. 2012, Biogeosciences 9:3381–3403
+#   doi:10.5194/bg-9-3381-2012  —  Tabela 3
+#
+# Aplicação neste projeto:
+#   - Região padrão: E. C. Amazonia (maioria dos sites está na Amazônia central/oriental)
+#   - Sites no extremo oeste (HUM, BON): usar W. Amazonia
+#   - Fator de correção de viés: C_F = exp(RSE² / 2)  —  Equação 6 do paper
+
+height_models:
+  weibull_formula: "H = a * (1 - exp(-b * D**c))"
+  bias_correction: "C_F = exp(RSE**2 / 2)"
+
+  regions:
+    s_america_continental:
+      label: "América do Sul (continental)"
+      a: 42.574
+      b: 0.0482
+      c: 0.8307
+      RSE: 5.619
+      n: 19262
+
+    brazilian_shield:
+      label: "Brazilian Shield (Bolivia e Brasil)"
+      a: 227.35   # assintótico irreal — usar com cautela (ver nota)
+      b: 0.0139
+      c: 0.5550
+      RSE: 4.683
+      n: 3482
+      note: >
+        Coeficiente 'a' irreal (227 m). Árvores de 10 cm e 160 cm de DAP
+        resultariam em H de 11.1 m e 47.2 m, respectivamente — biologicamente
+        plausível, mas a=227 indica que o modelo não convergiu para um assíntota
+        observável. Preferir E. C. Amazonia ou continental para estes sites.
+
+    ec_amazonia:
+      label: "Amazônia central e oriental (Brasil)"
+      a: 48.131
+      b: 0.0375
+      c: 0.8228
+      RSE: 4.918
+      n: 6588
+      default: true   # usado por padrão neste projeto
+
+    guiana_shield:
+      label: "Escudo das Guianas"
+      a: 42.845
+      b: 0.0433
+      c: 0.9372
+      RSE: 5.285
+      n: 5267
+
+    w_amazonia:
+      label: "Amazônia ocidental (Colombia, Equador, Peru)"
+      a: 46.263
+      b: 0.0876
+      c: 0.6072
+      RSE: 5.277
+      n: 3925
+
+    pantropical:
+      label: "Pantropical"
+      a: 50.874
+      b: 0.0420
+      c: 0.784
+      RSE: 5.479
+      n: 42656
+
+# ── Densidade da madeira ──────────────────────────────────────────────────────
+wood_density:
+  source: "Chave et al. 2009 + Zanne et al. 2009"
+  lookup_order:
+    - species   # média de todas as entradas da espécie
+    - genus     # média do gênero se espécie não encontrada
+    - site_mean # média do site se gênero não encontrado
+  tropical_mean_fallback: 0.6   # g/cm³ — usado quando espécie e gênero ausentes
+
+snag_density:
+  source: "Palace et al. 2007 (dois sites na Amazônia brasileira)"
+  note: "Média ponderada por tamanho de amostra da densidade void-corrected por classe de decomposição."

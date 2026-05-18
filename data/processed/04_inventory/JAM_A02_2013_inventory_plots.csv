@@ -1,482 +1,482 @@
-site,tree_id,scientific_name,family_name,utm_easting,utm_northing,wsd,dbh,dead,type,plot_id
-JAM_A02,8,Vochysia guianensis,Vochysiaceae,498887.0032,8990912.63,0.51,26.1,A,O,0
-JAM_A02,55,Tachigali myrmecophila,Fabaceae,498881.9628,8990488.091,0.53,16.7,A,O,0
-JAM_A02,63,,,498881.4822,8990469.582,,30.3,D,O,0
-JAM_A02,50,Eschweilera coriacea,Lecythidaceae,498982.394,8990052.203,0.85,11.1,A,O,0
-JAM_A02,10,Tetragastris panamensis,Burseraceae,499726.3186,8990357.19,0.73,25.9,A,O,0
-JAM_A02,33,Virola sebifera,Myristicaceae,499726.2947,8990208.088,0.45,17.8,A,O,0
-JAM_A02,34,Xylopia sp.,Annonaceae,499725.0251,8990204.464,0.57,15.1,A,O,0
-JAM_A02,19,Sacoglottis guianensis,Humiriaceae,498877.6725,8988970.265,0.84,18.6,A,O,0
-JAM_A02,1,Nectandra cuspidata,Lauraceae,498887.2825,8990933.628,0.56,28.9,A,l,0
-JAM_A02,2,Apuleia leiocarpa,Fabaceae,498869.9919,8990930.248,0.77,58.0,A,O,0
-JAM_A02,6a,Bagassa guianensis,Moraceae,498877.7839,8990916.5,0.71,67.0,A,O,0
-JAM_A02,3,Helicostylis sp.,Moraceae,498878.7529,8990914.407,0.65,39.6,A,O,0
-JAM_A02,4,Copaifera reticulata,Fabaceae,498884.7798,8990917.845,0.61,35.0,A,O,0
-JAM_A02,5,Rinorea passoura,Violaceae,498884.7771,8990917.645,0.68,10.8,A,O,0
-JAM_A02,6,Attalea speciosa,Arecaceae,498887.0763,8990918.13,0.33,23.5,A,P,0
-JAM_A02,7,Tachigali myrmecophila,Fabaceae,498885.2638,8990901.781,0.53,29.0,A,O,0
-JAM_A02,9,Bertholletia excelsa,Lecythidaceae,498855.071,8990932.651,0.64,55.1,A,O,0
-JAM_A02,10,Handroanthus serratifolius,Bignoniaceae,498845.2346,8990942.586,0.64,60.8,A,O,0
-JAM_A02,11,Apeiba echinata,Malvaceae,498843.2301,8990941.773,0.28,45.5,A,O,0
-JAM_A02,12,Hymenolobium petraeum,Fabaceae,498841.2787,8990944.96,0.71,39.4,A,O,0
-JAM_A02,13,NI,NI,498886.9065,8990785.238,0.64,12.8,A,O,0
-JAM_A02,14,Eschweilera grandifolia,Lecythidaceae,498889.3023,8990785.097,0.88,13.6,A,O,0
-JAM_A02,15,Cordia scabrifolia,Boraginaceae,498889.3011,8990783.606,0.47,17.9,A,O,0
-JAM_A02,16,Vataireopsis speciosa,Fabaceae,498889.4474,8990758.748,0.65,15.8,A,O,0
-JAM_A02,17,Hymenolobium petraeum,Fabaceae,498887.4903,8990758.268,0.71,26.5,A,O,0
-JAM_A02,90a,Apeiba echinata,Malvaceae,498885.7831,8990753.995,0.28,37.9,A,O,0
-JAM_A02,89a,Tachigali alba,Fabaceae,498884.8177,8990753.555,0.56,38.0,A,O,0
-JAM_A02,18,Couratari stellata,Lecythidaceae,498891.2735,8990753.671,0.63,11.0,A,O,0
-JAM_A02,19,Attalea speciosa,Arecaceae,498890.5735,8990752.221,0.33,31.0,A,P,0
-JAM_A02,20,Tachigali alba,Fabaceae,498891.4247,8990751.376,0.56,15.0,A,O,0
-JAM_A02,21,Copaifera reticulata,Fabaceae,498888.0097,8990750.385,0.61,13.3,A,O,0
-JAM_A02,26a,Tachigali myrmecophila,Fabaceae,498880.463,8990759.279,0.53,53.0,A,O,0
-JAM_A02,22,NI,NI,498864.4251,8990761.221,0.64,49.5,A,O,0
-JAM_A02,23,Tetragastris panamensis,Burseraceae,498857.8318,8990755.646,0.73,36.7,A,O,0
-JAM_A02,24,,,498850.9097,8990755.061,,70.0,D,O,0
-JAM_A02,25,NI,NI,498869.9545,8990767.852,0.64,43.5,A,O,0
-JAM_A02,26,,,498858.8421,8990770.496,,36.2,D,O,0
-JAM_A02,27,Helicostylis sp.,Moraceae,498867.6413,8990787.867,0.65,46.3,A,O,0
-JAM_A02,28,,,498865.5133,8990789.981,,54.6,D,O,0
-JAM_A02,29,Pouteria gongrijpii,Sapotaceae,498861.9925,8990798.141,0.8,57.8,A,O,0
-JAM_A02,30,Eschweilera grandifolia,Lecythidaceae,498852.2729,8990794.739,0.88,70.4,A,O,0
-JAM_A02,31,Helicostylis sp.,Moraceae,498856.3196,8990778.597,0.65,40.5,A,O,0
-JAM_A02,32,,,498854.3801,8990645.819,,51.6,D,O,0
-JAM_A02,33,NI,NI,498857.369,8990646.076,0.64,50.7,A,O,0
-JAM_A02,36a,Copaifera reticulata,Fabaceae,498865.37,8990645.763,0.61,58.2,A,O,0
-JAM_A02,34,Helicostylis sp.,Moraceae,498882.9887,8990641.268,0.65,11.2,A,O,0
-JAM_A02,35,Manilkara huberi,Sapotaceae,498879.685,8990634.971,0.93,34.0,A,O,0
-JAM_A02,36,NI,NI,498880.8157,8990630.658,0.64,12.2,A,O,0
-JAM_A02,37,Theobroma glaucum,Malvaceae,498884.1952,8990627.943,0.53,10.4,A,O,0
-JAM_A02,38,Sacoglottis guianensis,Humiriaceae,498880.9562,8990626.061,0.84,12.2,A,O,0
-JAM_A02,39,Couepia racemosa,Chrysobalanaceae,498882.145,8990619.849,0.79,20.5,A,O,0
-JAM_A02,40,Tetragastris altissima,Burseraceae,498879.3486,8990613.295,0.71,49.5,A,O,0
-JAM_A02,41,Fusaea longifolia,Annonaceae,498880.9768,8990602.511,0.74,21.0,A,O,0
-JAM_A02,42,Tachigali myrmecophila,Fabaceae,498881.0531,8990600.013,0.53,29.8,A,O,0
-JAM_A02,43,NI,NI,498883.7584,8990599.745,0.64,30.0,A,O,0
-JAM_A02,44,Aspidosperma spruceanum,Apocynaceae,498877.6737,8990602.728,0.75,62.9,A,O,0
-JAM_A02,45,Symphonia globulifera,Clusiaceae,498868.2181,8990617.948,0.6,48.2,A,O,0
-JAM_A02,39a,Minquartia guianensis,Olacaceae,498861.0759,8990622.845,0.77,38.0,A,O,0
-JAM_A02,46,Vochysia guianensis,Vochysiaceae,498858.255,8990617.09,0.51,42.6,A,O,0
-JAM_A02,47,Tachigali alba,Fabaceae,498847.5705,8990607.15,0.56,44.3,A,O,0
-JAM_A02,49,NI,NI,498855.6021,8990605.837,0.64,43.3,A,O,0
-JAM_A02,51,Castilla ulei,Moraceae,498863.6031,8990605.524,0.75,54.4,A,O,0
-JAM_A02,52,Eschweilera parviflora,Lecythidaceae,498884.9098,8990492.947,0.89,12.3,A,O,0
-JAM_A02,53,Maquira sclerophylla,Moraceae,498884.5193,8990488.219,0.53,12.3,A,O,0
-JAM_A02,54,Tachigali myrmecophila,Fabaceae,498883.241,8990488.255,0.53,44.2,A,O,0
-JAM_A02,56,Terminalia amazonia,Combretaceae,498885.1098,8990487.211,0.68,17.9,A,O,0
-JAM_A02,57,Vochysia guianensis,Vochysiaceae,498884.5215,8990484.519,0.51,18.2,A,O,0
-JAM_A02,58,Tapirira guianensis,Anacardiaceae,498882.0637,8990483.773,0.46,35.8,A,O,0
-JAM_A02,59,Attalea speciosa,Arecaceae,498881.0802,8990484.155,0.33,19.9,A,P,0
-JAM_A02,60,Tetragastris panamensis,Burseraceae,498885.7024,8990482.802,0.73,19.7,A,O,0
-JAM_A02,61,Helicostylis sp.,Moraceae,498885.5059,8990482.638,0.65,40.6,A,O,0
-JAM_A02,64,Attalea speciosa,Arecaceae,498884.1409,8990463.092,0.33,29.4,A,P,0
-JAM_A02,65,Protium hepytaphillum ,Burseraceae,498882.2743,8990460.437,0.63,10.4,A,O,0
-JAM_A02,66,Euterpe oleracea,Arecaceae,498883.4554,8990458.419,0.41,16.1,A,P,0
-JAM_A02,67a,Tachigali alba,Fabaceae,498862.1138,8990466.159,0.56,62.5,A,O,0
-JAM_A02,68,Caryocar glabrum,Caryocaraceae,498850.3215,8990454.337,0.68,70.5,A,O,0
-JAM_A02,69,Peltogyne leicointei,Fabaceae,498839.4966,8990469.335,0.8,76.0,A,O,0
-JAM_A02,70,NI,NI,498837.5239,8990479.698,0.64,95.0,A,O,0
-JAM_A02,71,Couratari stellata,Lecythidaceae,498837.5265,8990475.198,0.63,38.5,A,O,0
-JAM_A02,72,Dipteryx odorata,Fabaceae,498839.4841,8990490.335,0.92,41.2,A,O,0
-JAM_A02,74,Inga alba,Fabaceae,498842.4271,8990501.79,0.59,48.3,A,O,0
-JAM_A02,1,Helicostylis sp.,Moraceae,498981.5583,8990393.213,0.65,11.4,A,O,0
-JAM_A02,2,Apeiba echinata,Malvaceae,498981.6786,8990388.911,0.28,21.2,A,O,0
-JAM_A02,3,Hymenaea intermedia,Fabaceae,498978.5911,8990384.472,0.82,48.6,A,O,0
-JAM_A02,4,NI,NI,498968.2224,8990385.377,0.64,71.0,A,O,0
-JAM_A02,143a,NI,NI,498976.0035,8990380.023,0.64,70.0,A,O,0
-JAM_A02,5,Brosimum rubescens,Moraceae,498982.4479,8990378.596,0.83,12.1,A,O,0
-JAM_A02,6,Copaifera reticulata,Fabaceae,498979.8982,8990377.447,0.61,14.1,A,O,0
-JAM_A02,7,Maquira sclerophylla,Moraceae,498979.2186,8990373.16,0.53,13.6,A,O,0
-JAM_A02,8,Miconia surinamensis,NI,498980.1976,8990372.641,0.61,13.8,A,O,0
-JAM_A02,9,Maquira sclerophylla,Moraceae,498980.4091,8990365.737,0.53,29.3,A,O,0
-JAM_A02,10,Zygia racemosa,Fabaceae,498978.5432,8990368.974,0.75,12.5,A,O,0
-JAM_A02,11,Poeppigia sp.,Fabaceae,498977.2509,8990362.0,0.69,15.5,A,O,0
-JAM_A02,12,Hymenaea courbaril,Fabaceae,498971.3398,8990364.217,0.79,64.0,A,O,0
-JAM_A02,13,Helicostylis sp.,Moraceae,498962.4837,8990367.792,0.65,36.3,A,O,0
-JAM_A02,14,Anacardium spruceanum,Anacardiaceae,498959.8186,8990375.844,0.48,39.0,A,O,0
-JAM_A02,15,Qualea paraensis,Vochysiaceae,498944.6126,8990371.145,0.69,99.1,A,O,0
-JAM_A02,16,Tachigali alba,Fabaceae,498957.4042,8990389.891,0.56,38.8,A,O,0
-JAM_A02,17,Apeiba echinata,Malvaceae,498936.1576,8990384.312,0.28,38.9,A,O,0
-JAM_A02,18,Glycydendron amazonicum,Euphorbiaceae,498959.4007,8990365.853,0.67,64.1,A,O,0
-JAM_A02,19,Tachigali alba,Fabaceae,498977.0285,8990349.505,0.56,20.6,A,O,0
-JAM_A02,20,,,498982.3657,8990243.648,,20.0,D,O,0
-JAM_A02,20a,Tachigali alba,Fabaceae,498973.9781,8990244.163,0.56,53.2,A,O,0
-JAM_A02,21,Virola sebifera,Myristicaceae,498978.8256,8990236.917,0.45,17.9,A,O,0
-JAM_A02,22,Eschweilera grandifolia,Lecythidaceae,498978.7237,8990236.822,0.88,11.5,A,O,0
-JAM_A02,23,Euterpe oleracea,Arecaceae,498981.0559,8990233.604,0.41,14.1,A,P,0
-JAM_A02,24,,,498980.3484,8990233.239,,64.0,D,O,0
-JAM_A02,25,Ormosia coccinea,Fabaceae,498982.9034,8990231.111,0.63,14.5,A,O,0
-JAM_A02,26,Virola elongata,Myristicaceae,498981.7049,8990231.17,0.52,13.1,A,O,0
-JAM_A02,27,Tachigali alba,Fabaceae,498963.2229,8990227.081,0.56,76.0,A,O,0
-JAM_A02,28,Cedrelinga cateniformis,Fabaceae,498936.0469,8990218.418,0.5,64.0,A,O,0
-JAM_A02,29,Mauriri chamissoana,Melastomataceae,498967.6733,8990200.839,0.64,36.4,A,O,0
-JAM_A02,37a,,,498970.5442,8990194.692,,37.8,D,O,0
-JAM_A02,30,Astronium gracile,Anacardiaceae,498982.5026,8990216.719,0.73,20.0,A,O,0
-JAM_A02,31,Mezilaurus itauba,Lauraceae,498982.2798,8990215.629,0.72,14.4,A,O,0
-JAM_A02,32,Tetragastris panamensis,Burseraceae,498979.604,8990216.762,0.73,10.6,A,O,0
-JAM_A02,33,Theobroma subincanum,Malvaceae,498981.9279,8990213.144,0.47,11.7,A,O,0
-JAM_A02,34,Sloanea guianensis,Elaeocarpaceae,498979.431,8990213.268,0.82,14.6,A,O,0
-JAM_A02,35,Annona exsucca,Annonaceae,498980.138,8990208.829,0.44,12.3,A,O,0
-JAM_A02,36,Tachigali myrmecophila,Fabaceae,498978.4763,8990089.539,0.53,65.4,A,O,0
-JAM_A02,37,Bixa arborea,Bixaceae,498980.4778,8990086.021,0.37,23.7,A,O,0
-JAM_A02,38,Cordia scabrifolia,Boraginaceae,498982.3802,8990081.003,0.47,13.1,A,O,0
-JAM_A02,39,Theobroma glaucum,Malvaceae,498981.9804,8990080.507,0.53,11.9,A,O,0
-JAM_A02,40,Guatteria schomburgkiana,Annonaceae,498947.9891,8990065.822,0.6,37.7,A,O,0
-JAM_A02,41,Vochysia guianensis,Vochysiaceae,498958.9821,8990079.22,0.51,52.8,A,O,0
-JAM_A02,42,Pouteria gongrijpii,Sapotaceae,498958.986,8990071.22,0.8,55.0,A,O,0
-JAM_A02,43,Aspidosperma nitidum,Apocynaceae,498948.9864,8990071.313,0.76,76.0,A,O,0
-JAM_A02,44,Tachigali alba,Fabaceae,498939.994,8990056.396,0.56,42.4,A,O,0
-JAM_A02,45,Tetragastris panamensis,Burseraceae,498949.994,8990055.303,0.73,36.0,A,O,0
-JAM_A02,46,Cecropia engleriana,Urticaceae,498945.9947,8990054.341,0.49,35.4,A,O,0
-JAM_A02,47,Pseudopiptadenia suaveolens,Fabaceae,498957.9941,8990054.229,0.68,36.0,A,O,0
-JAM_A02,53a,Tachigali myrmecophila,Fabaceae,498972.9959,8990049.09,0.53,46.1,A,O,0
-JAM_A02,48,Tachigali myrmecophila,Fabaceae,498978.998,8990044.035,0.53,41.0,A,O,0
-JAM_A02,49,Pouteria anibifolia,Sapotaceae,498983.7775,8990086.49,0.66,12.2,A,O,0
-JAM_A02,51,Zygia racemosa,Fabaceae,498985.0914,8989943.681,0.75,10.4,A,O,0
-JAM_A02,52,Licania canescens,Chrysobalanaceae,498980.9043,8989941.505,0.88,14.5,A,O,0
-JAM_A02,53,Astrocaryum aculeatum ,Arecaceae,498983.0811,8989939.996,0.51,18.4,A,P,0
-JAM_A02,54,Lecythis idatimon,Lecythidaceae,498984.8347,8989929.205,0.82,20.1,A,O,0
-JAM_A02,55,Ocotea canaliculata,Lauraceae,498985.6885,8989926.205,0.48,22.2,A,O,0
-JAM_A02,56,Bixa arborea,Bixaceae,498982.2807,8989920.531,0.37,16.9,A,O,0
-JAM_A02,83a,Pouteria gongrijpii,Sapotaceae,498976.2323,8989931.244,0.8,44.9,A,O,0
-JAM_A02,57,Minquartia guianensis,Olacaceae,498968.0786,8989934.28,0.77,37.7,A,O,0
-JAM_A02,73a,Mauriri chamissoana,Melastomataceae,498971.6941,8989941.75,0.64,48.9,A,O,0
-JAM_A02,58,Helicostylis sp.,Moraceae,498959.9762,8989936.317,0.65,38.3,A,O,0
-JAM_A02,59,NI,NI,498954.8738,8989938.34,0.64,42.0,A,O,0
-JAM_A02,60,Swartzia polyphylla,Fabaceae,498952.8738,8989938.35,0.69,48.4,A,O,0
-JAM_A02,61,,,498946.0276,8989935.388,,51.2,D,O,0
-JAM_A02,62,,,498960.0015,8989916.349,,43.0,D,O,0
-JAM_A02,63,Eschweilera coriacea,Lecythidaceae,498939.1042,8989914.456,0.85,39.5,A,O,0
-JAM_A02,64,Bertholletia excelsa,Lecythidaceae,498945.3092,8989910.431,0.64,66.3,A,O,0
-JAM_A02,65,Qualea paraensis,Vochysiaceae,498940.8731,8989899.47,0.69,54.6,A,O,0
-JAM_A02,80a,Qualea paraensis,Vochysiaceae,498977.7702,8989901.284,0.69,39.2,A,O,0
-JAM_A02,66,Tachigali myrmecophila,Fabaceae,498976.4113,8989908.28,0.53,50.2,A,O,0
-JAM_A02,67,Euterpe oleracea,Arecaceae,498987.1751,8989897.243,0.41,12.3,A,P,0
-JAM_A02,68,Virola elongata,Myristicaceae,498987.0163,8989904.233,0.52,12.6,A,O,0
-JAM_A02,69,,,498984.4728,8989907.041,,21.9,D,O,0
-JAM_A02,1,Annona exsucca,Annonaceae,499726.165,8990394.853,0.44,11.0,A,O,0
-JAM_A02,2,Virola sebifera,Myristicaceae,499725.7131,8990386.099,0.45,10.1,A,O,0
-JAM_A02,3,Couepia racemosa,Chrysobalanaceae,499730.2039,8990381.287,0.79,22.7,A,O,0
-JAM_A02,4,Capirona decorticans,Rubiaceae,499728.2457,8990369.488,0.59,21.6,A,O,0
-JAM_A02,5,Luehea speciosa,Malvaceae,499728.789,8990368.775,0.51,20.9,A,O,0
-JAM_A02,6,Copaifera reticulata,Fabaceae,499728.201,8990365.405,0.61,14.1,A,O,0
-JAM_A02,7,Helicostylis sp.,Moraceae,499730.4678,8990361.056,0.65,27.9,A,O,0
-JAM_A02,8,Ormosia coccinea,Fabaceae,499727.3438,8990359.95,0.63,11.1,A,O,0
-JAM_A02,9,Tachigali paniculata,Fabaceae,499727.0564,8990359.759,0.56,12.8,A,O,0
-JAM_A02,11,Maquira sclerophylla,Moraceae,499730.842,8990358.255,0.53,15.5,A,O,0
-JAM_A02,12,Virola elongata,Myristicaceae,499727.886,8990354.455,0.52,22.7,A,O,0
-JAM_A02,13,Ocotea canaliculata,Lauraceae,499731.5904,8990352.655,0.48,15.7,A,O,0
-JAM_A02,14,Symphonia globulifera,Clusiaceae,499728.2782,8990348.167,0.6,10.5,A,O,0
-JAM_A02,125a,Pterocarpus sp.,Fabaceae,499724.2798,8990348.282,0.51,35.1,A,O,0
-JAM_A02,5a,Tachigali alba,Fabaceae,499718.8462,8990355.413,0.56,45.8,A,O,0
-JAM_A02,15,Bombax paraense,Malvaceae,499706.54,8990360.749,0.39,53.2,A,O,0
-JAM_A02,16,Luehea speciosa,Malvaceae,499697.2325,8990365.999,0.51,43.0,A,O,0
-JAM_A02,17,Helicostylis sp.,Moraceae,499699.8541,8990355.961,0.65,35.0,A,O,0
-JAM_A02,18,Helicostylis sp.,Moraceae,499699.045,8990368.935,0.65,43.2,A,O,0
-JAM_A02,19,Minquartia guianensis,Olacaceae,499700.8574,8990371.872,0.77,49.9,A,O,0
-JAM_A02,20,Abuta grandifolia,Menispermaceae,499684.452,8990346.94,0.45,52.2,A,O,0
-JAM_A02,21,Hymenaea intermedia,Fabaceae,499682.2991,8990357.463,0.82,35.3,A,O,0
-JAM_A02,22,Peltogyne leicointei,Fabaceae,499682.2388,8990366.431,0.8,60.0,A,O,0
-JAM_A02,23,Astronium gracile,Anacardiaceae,499715.5437,8990392.37,0.73,36.7,A,O,0
-JAM_A02,130a,Eschweilera parviflora,Lecythidaceae,499720.6039,8990391.228,0.89,38.3,A,O,0
-JAM_A02,3a,NI,NI,499716.2284,8990381.391,0.64,51.9,A,O,0
-JAM_A02,24,Ormosia coccinea,Fabaceae,499728.1468,8990240.034,0.63,10.2,A,O,0
-JAM_A02,22a,Tachigali alba,Fabaceae,499716.1562,8990236.515,0.56,47.5,A,O,0
-JAM_A02,25,Peltogyne leicointei,Fabaceae,499725.7232,8990230.273,0.8,13.6,A,O,0
-JAM_A02,26,NI,NI,499726.2288,8990223.525,0.64,12.7,A,O,0
-JAM_A02,27,Neea oppositifolia,Nyctaginaceae,499728.5838,8990221.466,0.89,12.5,A,O,0
-JAM_A02,28,Pouteria gongrijpii,Sapotaceae,499728.4515,8990219.671,0.8,34.5,A,O,0
-JAM_A02,30,Lecythis idatimon,Lecythidaceae,499724.7607,8990217.208,0.82,17.7,A,O,0
-JAM_A02,31,Heisteria densifrons,Olacaceae,499726.285,8990213.4,0.65,16.4,A,O,0
-JAM_A02,32,,,499725.3692,8990211.857,,11.3,D,O,0
-JAM_A02,105a,Dinizia excelsa,Fabaceae,499724.2244,8990209.928,0.94,72.8,A,O,0
-JAM_A02,35,Tetragastris panamensis,Burseraceae,499726.4986,8990206.772,0.73,14.6,A,O,0
-JAM_A02,36,Clarisia racemosa,Moraceae,499704.6777,8990203.198,0.59,44.1,A,O,0
-JAM_A02,37,Apeiba echinata,Malvaceae,499703.784,8990218.289,0.28,43.1,A,O,0
-JAM_A02,39,Astronium gracile,Anacardiaceae,499677.9564,8990207.963,0.73,57.4,A,O,0
-JAM_A02,40,Pseudopiptadenia suaveolens,Fabaceae,499681.1276,8990223.789,0.68,40.0,A,O,0
-JAM_A02,41,NI,NI,499693.0589,8990236.031,0.64,39.7,A,O,0
-JAM_A02,42,Geissospermum sericeum,Apocynaceae,499700.3377,8990239.56,0.78,40.8,A,O,0
-JAM_A02,43,Pouteria gongrijpii,Sapotaceae,499724.3795,8990089.806,0.8,10.8,A,O,0
-JAM_A02,44,Virola elongata,Myristicaceae,499725.4453,8990086.186,0.52,11.5,A,O,0
-JAM_A02,91a,Helicostylis sp.,Moraceae,499725.0709,8990084.193,0.65,51.0,A,O,0
-JAM_A02,45,Apeiba echinata,Malvaceae,499725.6096,8990074.484,0.28,27.3,A,O,0
-JAM_A02,46,Tapirira guianensis,Anacardiaceae,499722.3116,8990063.844,0.46,11.4,A,O,0
-JAM_A02,90a,Tetragastris panamensis,Burseraceae,499722.0404,8990059.249,0.73,22.3,A,O,0
-JAM_A02,47,Virola sebifera,Myristicaceae,499722.5424,8990051.24,0.45,13.3,A,O,0
-JAM_A02,48,Maquira sclerophylla,Moraceae,499721.4904,8990049.859,0.53,19.3,A,O,0
-JAM_A02,88a,Licania heteromorpha,Chrysobalanaceae,499721.8451,8990045.953,0.82,17.1,A,O,0
-JAM_A02,50,Fusaea longifolia,Annonaceae,499705.4707,8990049.552,0.74,35.6,A,O,0
-JAM_A02,51,Pseudopiptadenia suaveolens,Fabaceae,499703.5455,8990051.587,0.68,62.0,A,O,0
-JAM_A02,52,Neea oppositifolia,Nyctaginaceae,499701.7693,8990057.62,0.89,35.7,A,O,0
-JAM_A02,47a,NI,NI,499713.0281,8990064.414,0.64,54.0,A,O,0
-JAM_A02,53,Guatteria schomburgkiana,Annonaceae,499697.2859,8990044.702,0.6,40.2,A,O,0
-JAM_A02,54,Tachigali alba,Fabaceae,499679.2517,8990044.032,0.56,47.8,A,O,0
-JAM_A02,56,Geissospermum sericeum,Apocynaceae,499686.1071,8990066.906,0.78,38.8,A,O,0
-JAM_A02,57,Clarisia racemosa,Moraceae,499690.2926,8990071.829,0.59,46.3,A,O,0
-JAM_A02,58,,,499691.9626,8990089.799,,54.0,D,O,0
-JAM_A02,59,Pouteria gongrijpii,Sapotaceae,499701.9609,8990089.616,0.8,55.3,A,O,0
-JAM_A02,60,NI,NI,499704.737,8990083.565,0.64,36.5,A,O,0
-JAM_A02,76a,,,499716.9173,8989934.934,,12.2,D,O,0
-JAM_A02,75a,Virola sebifera,Myristicaceae,499716.8363,8989933.491,0.45,12.8,A,O,0
-JAM_A02,74a,Attalea speciosa,Arecaceae,499718.4898,8989928.802,0.33,26.9,A,P,0
-JAM_A02,73a,Couratari stellata,Lecythidaceae,499718.1386,8989927.881,0.63,38.2,A,O,0
-JAM_A02,61,Sterculia pruriens,Malvaceae,499719.8407,8989926.191,0.49,14.0,A,O,0
-JAM_A02,67a,Parahancornia amapa,Apocynaceae,499717.3013,8989923.634,0.46,59.0,A,O,0
-JAM_A02,68a,Tetragastris panamensis,Burseraceae,499717.921,8989919.378,0.73,26.3,A,O,0
-JAM_A02,71a,Chimarrhis turbinata,Rubiaceae,499720.176,8989917.224,0.72,47.9,A,O,0
-JAM_A02,62,Eschweilera parviflora,Lecythidaceae,499723.1838,8989913.899,0.89,32.6,A,O,0
-JAM_A02,70a,Tetragastris panamensis,Burseraceae,499723.1986,8989903.134,0.73,33.8,A,O,0
-JAM_A02,63,Mayna odorata,Flacourtiaceae,499710.9189,8989914.142,0.64,47.3,A,O,0
-JAM_A02,65,Peltogyne leicointei,Fabaceae,499706.0026,8989901.247,0.8,51.5,A,O,0
-JAM_A02,66,Copaifera reticulata,Fabaceae,499700.7616,8989903.912,0.61,36.2,A,O,0
-JAM_A02,67,Pseudopiptadenia suaveolens,Fabaceae,499682.0119,8989932.686,0.68,68.0,A,O,0
-JAM_A02,68,Parkia sp.,Fabaceae,499694.3127,8989934.862,0.45,51.6,A,O,0
-JAM_A02,69,Tachigali alba,Fabaceae,499702.6513,8989937.587,0.56,39.7,A,O,0
-JAM_A02,1,Sterculia pruriens,Malvaceae,498723.043,8988959.421,0.49,12.3,A,O,0
-JAM_A02,2,Pouteria gongrijpii,Sapotaceae,498727.023,8988962.104,0.8,43.9,A,O,0
-JAM_A02,3,Poeppigia sp.,Fabaceae,498721.8527,8988958.059,0.69,15.8,A,O,0
-JAM_A02,4,Helicostylis sp.,Moraceae,498738.7909,8988959.611,0.65,17.5,A,O,0
-JAM_A02,5,NI,NI,498740.3029,8988961.959,0.64,10.1,A,O,0
-JAM_A02,148a,Pouteria gongrijpii,Sapotaceae,498741.454,8988957.452,0.8,58.9,A,O,0
-JAM_A02,6,,,498744.1125,8988959.174,,15.5,A,L,0
-JAM_A02,7,Ocotea canaliculata,Lauraceae,498744.428,8988958.967,0.48,18.1,A,O,0
-JAM_A02,8,Protium hepytaphillum ,Burseraceae,498746.24,8988961.308,0.63,10.6,A,O,0
-JAM_A02,4a,Virola crebrinervia,Myristicaceae,498741.6723,8988948.293,0.5,45.8,A,O,0
-JAM_A02,9,,,498725.4738,8988925.829,,49.7,D,O,0
-JAM_A02,10,Pouteria gongrijpii,Sapotaceae,498729.4725,8988925.726,0.8,47.2,A,O,0
-JAM_A02,11,Tachigali alba,Fabaceae,498731.784,8988921.686,0.56,43.9,A,O,0
-JAM_A02,12,Parkia sp.,Fabaceae,498745.9355,8988919.33,0.45,36.9,A,O,0
-JAM_A02,13,Pseudopiptadenia suaveolens,Fabaceae,498747.5293,8988937.198,0.68,52.0,A,O,0
-JAM_A02,14,Minquartia guianensis,Olacaceae,498759.4278,8988961.067,0.77,15.4,A,O,0
-JAM_A02,145a,Couma guianensis,Apocynaceae,498758.1202,8988954.832,0.47,46.0,A,O,0
-JAM_A02,15,Helicostylis sp.,Moraceae,498762.4439,8988959.496,0.65,15.7,A,O,0
-JAM_A02,16,Tachigali myrmecophila,Fabaceae,498763.3622,8988956.687,0.53,36.3,A,O,0
-JAM_A02,17,Ormosia coccinea,Fabaceae,498763.1671,8988959.179,0.63,13.2,A,O,0
-JAM_A02,142a,Peltogyne leicointei,Fabaceae,498769.3181,8988913.751,0.8,53.0,A,O,0
-JAM_A02,18,Copaifera reticulata,Fabaceae,498766.2888,8988939.697,0.61,41.5,A,O,0
-JAM_A02,122a,NI,NI,498868.4312,8988971.335,0.64,52.0,A,O,0
-JAM_A02,125a,Tetragastris panamensis,Burseraceae,498869.728,8988968.183,0.73,37.1,A,O,0
-JAM_A02,20,Zygia racemosa,Fabaceae,498877.6477,8988974.041,0.75,10.5,A,O,0
-JAM_A02,32a,Pourouma minor,Urticaceae,498882.1757,8988963.255,0.44,41.3,A,O,0
-JAM_A02,34a,Vochysia guianensis,Vochysiaceae,498884.7198,8988964.502,0.51,42.0,A,O,0
-JAM_A02,121a,,,498883.194,8988970.615,,26.2,D,O,0
-JAM_A02,21,NI,NI,498884.4123,8988970.636,0.64,19.7,A,O,0
-JAM_A02,22,Jacaranda copaia,Bignoniaceae,498898.5459,8988949.967,0.35,37.9,A,O,0
-JAM_A02,23,Zizyphus itacaiunensis,Ramnaceae,498899.0239,8988973.381,0.84,11.9,A,O,0
-JAM_A02,25,Virola elongata,Myristicaceae,498907.8587,8988974.756,0.52,14.0,A,O,0
-JAM_A02,26,Tachigali myrmecophila,Fabaceae,498911.1262,8988976.373,0.53,19.3,A,O,0
-JAM_A02,27,NI,NI,498909.9859,8988958.064,0.64,53.1,A,O,0
-JAM_A02,28,Parkia sp.,Fabaceae,498916.9516,8988958.756,0.45,41.0,A,O,0
-JAM_A02,29,Helicostylis sp.,Moraceae,498923.7594,8988935.57,0.65,47.3,A,O,0
-JAM_A02,30,Parkia sp.,Fabaceae,498912.8396,8988938.462,0.45,50.8,A,O,0
-JAM_A02,31,NI,NI,498901.9725,8988949.314,0.64,36.7,A,O,0
-JAM_A02,32,Caryocar villosum,Caryocaraceae,498893.5536,8988954.443,0.76,40.2,A,O,0
-JAM_A02,33,Jacaranda copaia,Bignoniaceae,498885.7561,8988940.742,0.35,45.7,A,O,0
-JAM_A02,34,Handroanthus serratifolius,Bignoniaceae,498914.2653,8988973.603,0.64,22.0,A,O,0
-JAM_A02,35,Strychnos subcordata,Loganiaceae,499026.1096,8988991.457,0.54,38.1,A,O,0
-JAM_A02,36,Eschweilera coriacea,Lecythidaceae,499027.9089,8988991.51,0.85,56.7,A,O,0
-JAM_A02,107a,Dinizia excelsa,Fabaceae,499028.0751,8988991.22,0.94,140.0,A,O,0
-JAM_A02,37,Lecythis idatimon,Lecythidaceae,499027.6331,8988993.171,0.82,14.3,A,O,0
-JAM_A02,38,Hymenaea intermedia,Fabaceae,499030.229,8988990.596,0.82,55.0,A,O,0
-JAM_A02,39,Parkia sp.,Fabaceae,499035.5247,8988988.984,0.45,23.3,A,O,0
-JAM_A02,40,Euterpe oleracea,Arecaceae,499035.5689,8988988.789,0.41,13.8,A,P,0
-JAM_A02,41,Poeppigia sp.,Fabaceae,499045.2477,8988993.588,0.69,10.2,A,O,0
-JAM_A02,42,Eschweilera grandifolia,Lecythidaceae,499051.3335,8988993.373,0.88,48.2,A,O,0
-JAM_A02,43,Virola elongata,Myristicaceae,499062.2153,8988991.531,0.52,18.6,A,O,0
-JAM_A02,44,Protium hepytaphillum ,Burseraceae,499053.5095,8988992.651,0.63,13.4,A,O,0
-JAM_A02,45,Heisteria densifrons,Olacaceae,499057.7644,8988993.855,0.65,10.5,A,O,0
-JAM_A02,46,Mouriri collocarpa,Melastomataceae,499059.7922,8988989.791,0.83,17.8,A,O,0
-JAM_A02,47,Maquira sclerophylla,Moraceae,499058.6149,8988989.659,0.53,11.0,A,O,0
-JAM_A02,48,Astronium gracile,Anacardiaceae,499065.6119,8988989.863,0.73,42.8,A,O,0
-JAM_A02,49,,,499057.544,8988985.504,,35.1,D,O,0
-JAM_A02,62a,Luehea speciosa,Malvaceae,499069.9709,8988975.069,0.51,61.0,A,O,0
-JAM_A02,50,NI,NI,499069.0135,8988973.077,0.64,52.8,A,O,0
-JAM_A02,51,Eschweilera grandifolia,Lecythidaceae,499065.8893,8988960.223,0.88,38.4,A,O,0
-JAM_A02,52,Astronium gracile,Anacardiaceae,499075.8851,8988960.515,0.73,80.5,A,O,0
-JAM_A02,53,Minquartia guianensis,Olacaceae,499066.6579,8988952.392,0.77,39.4,A,O,0
-JAM_A02,54,Hymenolobium petraeum,Fabaceae,499068.0995,8988950.471,0.71,50.2,A,O,0
-JAM_A02,55,NI,NI,499071.5403,8988948.608,0.64,51.6,A,O,0
-JAM_A02,56,Clarisia racemosa,Moraceae,499053.548,8988948.082,0.59,51.1,A,O,0
-JAM_A02,57,Peltogyne leicointei,Fabaceae,499059.6809,8988969.859,0.8,44.4,A,O,0
-JAM_A02,61a,NI,NI,499052.0208,8988972.58,0.64,47.7,A,O,0
-JAM_A02,58,Brosimum rubescens,Moraceae,499046.1289,8988967.499,0.83,47.2,A,O,0
-JAM_A02,60a,,,499045.1393,8988976.306,,45.9,D,O,0
-JAM_A02,59,Peltogyne leicointei,Fabaceae,499172.1741,8989002.499,0.8,22.0,A,O,0
-JAM_A02,60,Miconia surinamensis,NI,499174.2435,8989002.816,0.61,11.9,A,O,0
-JAM_A02,61,Dinizia excelsa,Fabaceae,499191.5157,8989003.797,0.94,130.5,A,O,0
-JAM_A02,62,Pseudopiptadenia suaveolens,Fabaceae,499195.9406,8989004.547,0.68,12.5,A,O,0
-JAM_A02,63,,,499200.9916,8989005.134,,11.5,D,O,0
-JAM_A02,64,Neea oppositifolia,Nyctaginaceae,499201.9174,8989004.986,0.89,11.1,A,O,0
-JAM_A02,65,Tachigali myrmecophila,Fabaceae,499205.0579,8989005.564,0.53,10.9,A,O,0
-JAM_A02,66,Attalea speciosa,Arecaceae,499210.5531,8989004.379,0.33,26.6,A,P,0
-JAM_A02,67,Dialium guianense,Fabaceae,499216.3588,8989009.002,0.89,13.8,A,O,0
-JAM_A02,68,Dinizia excelsa,Fabaceae,499208.7121,8988995.787,0.94,100.0,A,O,0
-JAM_A02,86a,Pradosia praealta,Sapotaceae,499201.1324,8988992.361,0.73,42.3,A,O,0
-JAM_A02,87a,Clarisia racemosa,Moraceae,499193.6885,8988987.945,0.59,59.2,A,O,0
-JAM_A02,69,,,499196.6358,8988981.123,,35.9,D,O,0
-JAM_A02,70,Rinorea guianensis,Violaceae,499181.9793,8988985.283,0.78,50.1,A,O,0
-JAM_A02,71,Ocotea canaliculata,Lauraceae,499187.6025,8988973.621,0.48,42.0,A,O,0
-JAM_A02,72,Licania canescens,Chrysobalanaceae,499178.1139,8988962.099,0.88,46.1,A,O,0
-JAM_A02,73,Helicostylis sp.,Moraceae,499183.6491,8988958.42,0.65,44.4,A,O,0
-JAM_A02,74,Peltogyne leicointei,Fabaceae,499193.0018,8988970.932,0.8,36.4,A,O,0
-JAM_A02,75,Clarisia racemosa,Moraceae,499199.719,8988973.311,0.59,53.2,A,O,0
-JAM_A02,76,Peltogyne leicointei,Fabaceae,499200.6217,8988959.384,0.8,37.6,A,O,0
-JAM_A02,77,Helicostylis sp.,Moraceae,499202.6185,8988959.497,0.65,39.8,A,O,0
-JAM_A02,78,Couratari stellata,Lecythidaceae,499223.4967,8988968.67,0.63,78.5,A,O,0
-JAM_A02,79,Virola crebrinervia,Myristicaceae,499224.3593,8988969.718,0.5,51.0,A,O,0
-JAM_A02,80,,,499224.7266,8988981.72,,59.0,D,O,0
-JAM_A02,1,Luehea speciosa,Malvaceae,498840.0732,8987965.526,0.51,19.9,A,O,0
-JAM_A02,2,Zygia racemosa,Fabaceae,498840.6286,8987964.846,0.75,30.1,A,O,0
-JAM_A02,3,Vismia floribunda,Hypericaceae,498839.348,8987949.508,0.47,61.2,A,O,0
-JAM_A02,4,Poeppigia sp.,Fabaceae,498843.1068,8987952.637,0.69,40.0,A,O,0
-JAM_A02,5,Tetragastris panamensis,Burseraceae,498846.6887,8987964.256,0.73,22.0,A,O,0
-JAM_A02,6,Helicostylis sp.,Moraceae,498852.6453,8987964.962,0.65,16.5,A,O,0
-JAM_A02,7,Pseudopiptadenia suaveolens,Fabaceae,498853.145,8987964.98,0.68,19.6,A,O,0
-JAM_A02,142a,Hymenolobium petraeum,Fabaceae,498855.984,8987967.077,0.71,85.6,A,O,0
-JAM_A02,8,Tachigali paniculata,Fabaceae,498859.1812,8987964.689,0.56,10.8,A,O,0
-JAM_A02,9,Pourouma minor,Urticaceae,498859.6818,8987967.205,0.44,15.5,A,O,0
-JAM_A02,141a,Hymenolobium petraeum,Fabaceae,498861.6974,8987958.279,0.71,80.0,A,O,0
-JAM_A02,10,Ocotea sp.,Lauraceae,498864.6629,8987967.578,0.5,10.1,A,O,0
-JAM_A02,11,Protium hepytaphillum ,Burseraceae,498870.4514,8987967.878,0.63,24.9,A,O,0
-JAM_A02,12,Tachigali alba,Fabaceae,498869.4352,8987965.544,0.56,11.5,A,O,0
-JAM_A02,13,Virola crebrinervia,Myristicaceae,498872.85,8987956.666,0.5,74.1,A,O,0
-JAM_A02,20a,Hymenolobium petraeum,Fabaceae,498875.0876,8987953.745,0.71,58.5,A,O,0
-JAM_A02,21a,Inga alba,Fabaceae,498881.8446,8987956.977,0.59,42.0,A,O,0
-JAM_A02,14,Pouteria gongrijpii,Sapotaceae,498884.9136,8987931.094,0.8,42.1,A,O,0
-JAM_A02,15,Tachigali alba,Fabaceae,498868.6844,8987933.531,0.56,48.0,A,O,0
-JAM_A02,16,Helicostylis sp.,Moraceae,498866.0842,8987928.443,0.65,49.7,A,O,0
-JAM_A02,17,Guatteria schomburgkiana,Annonaceae,498863.6874,8987933.358,0.6,43.2,A,O,0
-JAM_A02,18,Sloanea guianensis,Elaeocarpaceae,498984.5582,8987975.224,0.82,18.1,A,O,0
-JAM_A02,19,Bowdichia nitida,Fabaceae,498992.7789,8987973.823,0.81,19.2,A,O,0
-JAM_A02,20,Couratari stellata,Lecythidaceae,499000.092,8987955.166,0.63,36.7,A,O,0
-JAM_A02,21,Nectandra cuspidata,Lauraceae,498997.3853,8987973.347,0.56,18.1,A,O,0
-JAM_A02,22,Helicostylis sp.,Moraceae,499000.5036,8987972.197,0.65,14.8,A,O,0
-JAM_A02,23,Thyrsodium paraense,Anacardiaceae,499002.7502,8987975.309,0.61,11.0,A,O,0
-JAM_A02,24,Buchenavia congesta,Combretaceae,499005.3318,8987970.431,0.71,55.0,A,O,0
-JAM_A02,25,Poeppigia sp.,Fabaceae,499007.255,8987974.928,0.69,18.1,A,O,0
-JAM_A02,26,Clarisia racemosa,Moraceae,499013.0295,8987976.31,0.59,20.8,A,O,0
-JAM_A02,27,Helicostylis sp.,Moraceae,499013.3461,8987975.324,0.65,13.9,A,O,0
-JAM_A02,28,Minquartia guianensis,Olacaceae,499013.2496,8987975.119,0.77,11.2,A,O,0
-JAM_A02,29,Tetragastris panamensis,Burseraceae,499012.8567,8987968.796,0.73,36.3,A,O,0
-JAM_A02,117a,Tetragastris altissima,Burseraceae,499014.8375,8987969.893,0.71,70.0,A,O,0
-JAM_A02,30,Helicostylis sp.,Moraceae,499015.1693,8987973.912,0.65,42.1,A,O,0
-JAM_A02,31,Inga alba,Fabaceae,499014.7123,8987977.292,0.59,37.4,A,O,0
-JAM_A02,32,,,499018.7735,8987973.587,,27.5,D,O,0
-JAM_A02,33,Maquira sclerophylla,Moraceae,499026.114,8987976.947,0.53,40.0,A,O,0
-JAM_A02,42a,Pourouma minor,Urticaceae,499020.4494,8987963.162,0.44,43.8,A,O,0
-JAM_A02,34,Pourouma minor,Urticaceae,499020.534,8987958.162,0.44,47.1,A,O,0
-JAM_A02,35,Pseudopiptadenia suaveolens,Fabaceae,499016.293,8987942.946,0.68,43.0,A,O,0
-JAM_A02,36,Pouteria guianensis,Sapotaceae,499030.4626,8987932.628,0.93,49.8,A,O,0
-JAM_A02,37,Pourouma minor,Urticaceae,499012.1624,8987950.75,0.44,43.5,A,O,0
-JAM_A02,38,Tapirira guianensis,Anacardiaceae,499011.1805,8987949.702,0.46,41.2,A,O,0
-JAM_A02,39,Clarisia racemosa,Moraceae,499012.3824,8987937.752,0.59,44.9,A,O,0
-JAM_A02,41,Pourouma minor,Urticaceae,498996.2659,8987944.973,0.44,38.4,A,O,0
-JAM_A02,42,Couratari stellata,Lecythidaceae,498999.2286,8987947.118,0.63,35.6,A,O,0
-JAM_A02,43,Guatteria schomburgkiana,Annonaceae,498986.5146,8987930.489,0.6,37.4,A,O,0
-JAM_A02,44,Tachigali alba,Fabaceae,499133.1693,8987984.17,0.56,10.0,A,O,0
-JAM_A02,45,Tetragastris panamensis,Burseraceae,499133.9365,8987985.794,0.73,10.9,A,O,0
-JAM_A02,46,Vataireopsis speciosa,Fabaceae,499135.5778,8987985.324,0.65,21.0,A,O,0
-JAM_A02,47,Parkia sp.,Fabaceae,499135.495,8987981.48,0.45,26.7,A,O,0
-JAM_A02,48,Helicostylis sp.,Moraceae,499142.2507,8987986.991,0.65,14.1,A,O,0
-JAM_A02,49,Peltogyne leicointei,Fabaceae,499144.8984,8987987.675,0.8,40.7,A,O,0
-JAM_A02,50,Helicostylis sp.,Moraceae,499145.1208,8987984.985,0.65,33.5,A,O,0
-JAM_A02,51,Aspidosperma nitidum,Apocynaceae,499147.7847,8987983.049,0.76,61.6,A,O,0
-JAM_A02,52,Eschweilera parviflora,Lecythidaceae,499150.647,8987984.772,0.89,61.3,A,O,0
-JAM_A02,53,Attalea speciosa,Arecaceae,499151.8514,8987987.165,0.33,26.0,A,P,0
-JAM_A02,54,Symphonia globulifera,Clusiaceae,499155.497,8987986.681,0.6,14.7,A,O,0
-JAM_A02,55,Couratari stellata,Lecythidaceae,499164.1819,8987983.394,0.63,39.5,A,O,0
-JAM_A02,56,Tachigali alba,Fabaceae,499169.6263,8987990.23,0.56,24.4,A,O,0
-JAM_A02,57,Vochysia guianensis,Vochysiaceae,499173.0161,8987989.205,0.51,15.6,A,O,0
-JAM_A02,58,Inga marginata,Fabaceae,499176.7195,8987989.235,0.57,12.6,A,O,0
-JAM_A02,59,Licania canescens,Chrysobalanaceae,499178.0548,8987980.351,0.88,40.2,A,O,0
-JAM_A02,60,Bertholletia excelsa,Lecythidaceae,499172.0313,8987956.288,0.64,125.0,A,O,0
-JAM_A02,61,Terminalia amazonia,Combretaceae,499169.6399,8987960.986,0.68,90.0,A,O,0
-JAM_A02,62,Helicostylis sp.,Moraceae,499159.1642,8987954.434,0.65,36.0,A,O,0
-JAM_A02,63,Tachigali myrmecophila,Fabaceae,499160.3187,8987952.584,0.53,45.0,A,O,0
-JAM_A02,64,NI,NI,499156.8551,8987958.136,0.64,41.0,A,O,0
-JAM_A02,68a,Clarisia racemosa,Moraceae,499151.0,8987968.385,0.59,58.2,A,O,0
-JAM_A02,65,NI,NI,499148.2766,8987952.866,0.64,52.6,A,O,0
-JAM_A02,66,Couratari stellata,Lecythidaceae,499279.6623,8988002.401,0.63,18.9,A,O,0
-JAM_A02,67,,,499280.285,8987998.45,,46.6,D,O,0
-JAM_A02,68,Tachigali alba,Fabaceae,499286.9002,8987989.976,0.56,62.4,A,O,0
-JAM_A02,69,Tetragastris panamensis,Burseraceae,499288.1447,8988004.412,0.73,33.5,A,O,0
-JAM_A02,70,Zygia racemosa,Fabaceae,499294.0342,8988001.163,0.75,14.6,A,O,0
-JAM_A02,71,Virola elongata,Myristicaceae,499295.7281,8987999.72,0.52,10.8,A,O,0
-JAM_A02,72,,,499297.7636,8987999.212,,17.9,D,O,0
-JAM_A02,73,Helicostylis sp.,Moraceae,499303.2292,8987999.893,0.65,11.8,A,O,0
-JAM_A02,74,Tetragastris panamensis,Burseraceae,499299.3009,8988001.865,0.73,38.6,A,O,0
-JAM_A02,75,Couratari stellata,Lecythidaceae,499301.6694,8987980.634,0.63,45.8,A,O,0
-JAM_A02,76,Tetragastris panamensis,Burseraceae,499307.7312,8987973.191,0.73,45.0,A,O,0
-JAM_A02,77,Dimorphandra macrostachya,Fabaceae,499316.4295,8987980.035,0.6,40.9,A,O,0
-JAM_A02,78,Apeiba echinata,Malvaceae,499310.0564,8987989.454,0.28,55.0,A,O,0
-JAM_A02,79,Pouteria gongrijpii,Sapotaceae,499313.6738,8987997.519,0.8,17.1,A,O,0
-JAM_A02,80,NI,NI,499319.3644,8987994.291,0.64,65.9,A,O,0
-JAM_A02,82,Tetragastris panamensis,Burseraceae,499295.4622,8987957.985,0.73,41.5,A,O,0
-JAM_A02,83,Brosimum rubescens,Moraceae,499292.479,8987958.303,0.83,44.9,A,O,0
-JAM_A02,84,Couratari stellata,Lecythidaceae,499287.6275,8987970.474,0.63,134.0,A,O,0
-JAM_A02,85,Helicostylis sp.,Moraceae,499290.3596,8987977.953,0.65,36.6,A,O,0
-JAM_A02,1,Guatteria schomburgkiana,Annonaceae,498804.5145,8986951.616,0.6,39.5,A,O,0
-JAM_A02,2,Apeiba echinata,Malvaceae,498807.9328,8986957.087,0.28,20.4,A,O,0
-JAM_A02,3,Pouteria gongrijpii,Sapotaceae,498810.7584,8986959.158,0.8,55.7,A,O,0
-JAM_A02,4,Abarema jupunba,Fabaceae,498812.7191,8986959.173,0.59,20.6,A,O,0
-JAM_A02,5,Pseudopiptadenia suaveolens,Fabaceae,498816.0544,8986957.427,0.68,18.3,A,O,0
-JAM_A02,6,Inga marginata,Fabaceae,498827.4791,8986960.066,0.57,17.5,A,O,0
-JAM_A02,7,Protium hepytaphillum ,Burseraceae,498829.1798,8986962.951,0.63,14.5,A,O,0
-JAM_A02,8,Ocotea glomerata,Lauraceae,498831.4409,8986961.122,0.51,40.5,A,O,0
-JAM_A02,147a,Sacoglottis guianensis,Humiriaceae,498832.2621,8986955.26,0.84,70.0,A,O,0
-JAM_A02,10,Endopleura uchi,Humiriaceae,498838.5105,8986936.656,0.77,55.7,A,O,0
-JAM_A02,12,Sacoglottis guianensis,Humiriaceae,498838.3332,8986922.421,0.84,44.1,A,O,0
-JAM_A02,13,Couratari stellata,Lecythidaceae,498832.7128,8986935.111,0.63,70.0,A,O,0
-JAM_A02,14,Eschweilera grandifolia,Lecythidaceae,498813.3226,8986913.73,0.88,40.2,A,O,0
-JAM_A02,15,Trichilia micrantha,Meliaceae,498812.2999,8986914.471,0.61,73.8,A,O,0
-JAM_A02,16,Pouteria gongrijpii,Sapotaceae,498804.8033,8986925.648,0.8,50.0,A,O,0
-JAM_A02,17,Bowdichia nitida,Fabaceae,498802.7017,8986928.128,0.81,41.1,A,O,0
-JAM_A02,18,,,498801.1155,8986938.853,,35.5,D,O,0
-JAM_A02,19,Tetragastris panamensis,Burseraceae,498817.5987,8986942.232,0.73,35.0,A,O,0
-JAM_A02,20,Fusaea longifolia,Annonaceae,498943.2336,8986959.671,0.74,35.5,A,O,0
-JAM_A02,21,Euterpe oleracea,Arecaceae,498951.4241,8986966.444,0.41,13.1,A,P,0
-JAM_A02,122a,Handroanthus serratifolius,Bignoniaceae,498957.1675,8986958.935,0.64,45.5,A,O,0
-JAM_A02,31a,Apeiba echinata,Malvaceae,498957.956,8986956.999,0.28,73.0,A,O,0
-JAM_A02,22,Sloanea guianensis,Elaeocarpaceae,498950.4969,8986934.227,0.82,62.0,A,O,0
-JAM_A02,23,Maquira sclerophylla,Moraceae,498960.4946,8986969.28,0.53,18.1,A,O,0
-JAM_A02,24,Maquira sclerophylla,Moraceae,498964.227,8986969.119,0.53,23.3,A,O,0
-JAM_A02,25,Cedrelinga cateniformis,Fabaceae,498974.0767,8986955.458,0.5,65.6,A,O,0
-JAM_A02,26,Tachigali paniculata,Fabaceae,498979.4584,8986956.954,0.56,45.1,A,O,0
-JAM_A02,27,Eschweilera grandifolia,Lecythidaceae,498980.791,8986971.334,0.88,57.7,A,O,0
-JAM_A02,28,Protium hepytaphillum ,Burseraceae,498985.7813,8986969.581,0.63,13.1,A,O,0
-JAM_A02,29,Tachigali alba,Fabaceae,498989.4359,8986972.324,0.56,13.5,A,O,0
-JAM_A02,30,Cecropia engleriana,Urticaceae,498994.6012,8986935.241,0.49,62.9,A,O,0
-JAM_A02,55a,,,499094.9562,8986961.469,,76.3,D,O,0
-JAM_A02,31,Tetragastris panamensis,Burseraceae,499094.5038,8986976.437,0.73,13.2,A,O,0
-JAM_A02,32,Minquartia guianensis,Olacaceae,499095.8135,8986977.054,0.77,41.1,A,O,0
-JAM_A02,33,Maquira sclerophylla,Moraceae,499095.1946,8986978.3,0.53,11.4,A,O,0
-JAM_A02,34,Helicostylis sp.,Moraceae,499111.9692,8986977.787,0.65,37.8,A,O,0
-JAM_A02,36,Abuta grandifolia,Menispermaceae,499119.9579,8986963.688,0.45,110.0,A,O,0
-JAM_A02,37,Tachigali alba,Fabaceae,499126.1256,8986957.231,0.56,57.8,A,O,0
-JAM_A02,38,Dipteryx odorata,Fabaceae,499121.2393,8986976.809,0.92,58.0,A,O,0
-JAM_A02,39,Helicostylis sp.,Moraceae,499123.0066,8986979.467,0.65,19.3,A,O,0
-JAM_A02,40,Helicostylis sp.,Moraceae,499125.9462,8986979.428,0.65,27.1,A,O,0
-JAM_A02,41,Copaifera reticulata,Fabaceae,499135.6674,8986982.292,0.61,28.8,A,O,0
-JAM_A02,42,Ormosia nobilis,Fabaceae,499141.8286,8986977.635,0.58,69.7,A,O,0
-JAM_A02,43,Tachigali alba,Fabaceae,499134.56,8986966.985,0.56,42.0,A,O,0
-JAM_A02,44,Tetragastris panamensis,Burseraceae,499145.7513,8986948.967,0.73,54.8,A,O,0
-JAM_A02,45,Poeppigia sp.,Fabaceae,499145.0944,8986946.908,0.69,48.3,A,O,0
-JAM_A02,46,,,499137.8042,8986942.259,,49.8,D,O,0
-JAM_A02,47,Minquartia guianensis,Olacaceae,499137.9306,8986953.276,0.77,47.4,A,O,0
-JAM_A02,48,Couratari stellata,Lecythidaceae,499118.2217,8986938.52,0.63,46.1,A,O,0
-JAM_A02,49,Attalea speciosa,Arecaceae,499257.0712,8986987.445,0.33,26.6,A,P,0
-JAM_A02,50,Tetragastris panamensis,Burseraceae,499258.3227,8986991.055,0.73,35.7,A,O,0
-JAM_A02,51,,,499259.6709,8986987.455,,11.1,D,O,0
-JAM_A02,52,Maquira sclerophylla,Moraceae,499271.6623,8986992.539,0.53,15.0,A,O,0
-JAM_A02,53,Pouteria gongrijpii,Sapotaceae,499272.9284,8986981.213,0.8,60.0,A,O,0
-JAM_A02,54,Pradosia praealta,Sapotaceae,499273.0518,8986978.216,0.73,69.0,A,O,0
-JAM_A02,55,Virola elongata,Myristicaceae,499263.3724,8986970.413,0.52,55.5,A,O,0
-JAM_A02,56,Peltogyne leicointei,Fabaceae,499264.2869,8986972.492,0.8,80.0,A,O,0
-JAM_A02,57,Guatteria schomburgkiana,Annonaceae,499263.8247,8986959.422,0.6,43.2,A,O,0
-JAM_A02,58,,,499263.9069,8986957.424,,41.0,D,O,0
-JAM_A02,59,Copaifera reticulata,Fabaceae,499280.44,8986968.791,0.61,91.5,A,O,0
-JAM_A02,60,Peltogyne leicointei,Fabaceae,499281.3545,8986970.87,0.8,39.2,A,O,0
-JAM_A02,61,Cedrela odorata,Meliaceae,499285.3414,8986971.194,0.43,53.2,A,O,0
-JAM_A02,62,Vataireopsis speciosa,Fabaceae,499286.0404,8986954.208,0.65,52.0,A,O,0
+site,tree_id,scientific_name,family_name,utm_easting,utm_northing,wsd,dbh,dead,type,plot_id,htot_feldpausch
+JAM_A02,8,Vochysia guianensis,Vochysiaceae,498887.0032,8990912.63,0.51,26.1,A,O,0,20.34
+JAM_A02,55,Tachigali myrmecophila,Fabaceae,498881.9628,8990488.091,0.53,16.7,A,O,0,15.22
+JAM_A02,63,,,498881.4822,8990469.582,,30.3,D,O,0,22.26
+JAM_A02,50,Eschweilera coriacea,Lecythidaceae,498982.394,8990052.203,0.85,11.1,A,O,0,11.45
+JAM_A02,10,Tetragastris panamensis,Burseraceae,499726.3186,8990357.19,0.73,25.9,A,O,0,20.24
+JAM_A02,33,Virola sebifera,Myristicaceae,499726.2947,8990208.088,0.45,17.8,A,O,0,15.89
+JAM_A02,34,Xylopia sp.,Annonaceae,499725.0251,8990204.464,0.57,15.1,A,O,0,14.21
+JAM_A02,19,Sacoglottis guianensis,Humiriaceae,498877.6725,8988970.265,0.84,18.6,A,O,0,16.36
+JAM_A02,1,Nectandra cuspidata,Lauraceae,498887.2825,8990933.628,0.56,28.9,A,l,0,21.64
+JAM_A02,2,Apuleia leiocarpa,Fabaceae,498869.9919,8990930.248,0.77,58.0,A,O,0,31.44
+JAM_A02,6a,Bagassa guianensis,Moraceae,498877.7839,8990916.5,0.71,67.0,A,O,0,33.53
+JAM_A02,3,Helicostylis sp.,Moraceae,498878.7529,8990914.407,0.65,39.6,A,O,0,25.93
+JAM_A02,4,Copaifera reticulata,Fabaceae,498884.7798,8990917.845,0.61,35.0,A,O,0,24.21
+JAM_A02,5,Rinorea passoura,Violaceae,498884.7771,8990917.645,0.68,10.8,A,O,0,11.23
+JAM_A02,6,Attalea speciosa,Arecaceae,498887.0763,8990918.13,0.33,23.5,A,P,0,19.05
+JAM_A02,7,Tachigali myrmecophila,Fabaceae,498885.2638,8990901.781,0.53,29.0,A,O,0,21.68
+JAM_A02,9,Bertholletia excelsa,Lecythidaceae,498855.071,8990932.651,0.64,55.1,A,O,0,30.7
+JAM_A02,10,Handroanthus serratifolius,Bignoniaceae,498845.2346,8990942.586,0.64,60.8,A,O,0,32.13
+JAM_A02,11,Apeiba echinata,Malvaceae,498843.2301,8990941.773,0.28,45.5,A,O,0,27.91
+JAM_A02,12,Hymenolobium petraeum,Fabaceae,498841.2787,8990944.96,0.71,39.4,A,O,0,25.86
+JAM_A02,13,NI,NI,498886.9065,8990785.238,0.64,12.8,A,O,0,12.67
+JAM_A02,14,Eschweilera grandifolia,Lecythidaceae,498889.3023,8990785.097,0.88,13.6,A,O,0,13.22
+JAM_A02,15,Cordia scabrifolia,Boraginaceae,498889.3011,8990783.606,0.47,17.9,A,O,0,15.95
+JAM_A02,16,Vataireopsis speciosa,Fabaceae,498889.4474,8990758.748,0.65,15.8,A,O,0,14.66
+JAM_A02,17,Hymenolobium petraeum,Fabaceae,498887.4903,8990758.268,0.71,26.5,A,O,0,20.53
+JAM_A02,90a,Apeiba echinata,Malvaceae,498885.7831,8990753.995,0.28,37.9,A,O,0,25.31
+JAM_A02,89a,Tachigali alba,Fabaceae,498884.8177,8990753.555,0.56,38.0,A,O,0,25.35
+JAM_A02,18,Couratari stellata,Lecythidaceae,498891.2735,8990753.671,0.63,11.0,A,O,0,11.38
+JAM_A02,19,Attalea speciosa,Arecaceae,498890.5735,8990752.221,0.33,31.0,A,P,0,22.56
+JAM_A02,20,Tachigali alba,Fabaceae,498891.4247,8990751.376,0.56,15.0,A,O,0,14.15
+JAM_A02,21,Copaifera reticulata,Fabaceae,498888.0097,8990750.385,0.61,13.3,A,O,0,13.02
+JAM_A02,26a,Tachigali myrmecophila,Fabaceae,498880.463,8990759.279,0.53,53.0,A,O,0,30.13
+JAM_A02,22,NI,NI,498864.4251,8990761.221,0.64,49.5,A,O,0,29.14
+JAM_A02,23,Tetragastris panamensis,Burseraceae,498857.8318,8990755.646,0.73,36.7,A,O,0,24.86
+JAM_A02,24,,,498850.9097,8990755.061,,70.0,D,O,0,34.15
+JAM_A02,25,NI,NI,498869.9545,8990767.852,0.64,43.5,A,O,0,27.27
+JAM_A02,26,,,498858.8421,8990770.496,,36.2,D,O,0,24.67
+JAM_A02,27,Helicostylis sp.,Moraceae,498867.6413,8990787.867,0.65,46.3,A,O,0,28.17
+JAM_A02,28,,,498865.5133,8990789.981,,54.6,D,O,0,30.56
+JAM_A02,29,Pouteria gongrijpii,Sapotaceae,498861.9925,8990798.141,0.8,57.8,A,O,0,31.39
+JAM_A02,30,Eschweilera grandifolia,Lecythidaceae,498852.2729,8990794.739,0.88,70.4,A,O,0,34.23
+JAM_A02,31,Helicostylis sp.,Moraceae,498856.3196,8990778.597,0.65,40.5,A,O,0,26.25
+JAM_A02,32,,,498854.3801,8990645.819,,51.6,D,O,0,29.74
+JAM_A02,33,NI,NI,498857.369,8990646.076,0.64,50.7,A,O,0,29.48
+JAM_A02,36a,Copaifera reticulata,Fabaceae,498865.37,8990645.763,0.61,58.2,A,O,0,31.49
+JAM_A02,34,Helicostylis sp.,Moraceae,498882.9887,8990641.268,0.65,11.2,A,O,0,11.53
+JAM_A02,35,Manilkara huberi,Sapotaceae,498879.685,8990634.971,0.93,34.0,A,O,0,23.81
+JAM_A02,36,NI,NI,498880.8157,8990630.658,0.64,12.2,A,O,0,12.25
+JAM_A02,37,Theobroma glaucum,Malvaceae,498884.1952,8990627.943,0.53,10.4,A,O,0,10.93
+JAM_A02,38,Sacoglottis guianensis,Humiriaceae,498880.9562,8990626.061,0.84,12.2,A,O,0,12.25
+JAM_A02,39,Couepia racemosa,Chrysobalanaceae,498882.145,8990619.849,0.79,20.5,A,O,0,17.45
+JAM_A02,40,Tetragastris altissima,Burseraceae,498879.3486,8990613.295,0.71,49.5,A,O,0,29.14
+JAM_A02,41,Fusaea longifolia,Annonaceae,498880.9768,8990602.511,0.74,21.0,A,O,0,17.72
+JAM_A02,42,Tachigali myrmecophila,Fabaceae,498881.0531,8990600.013,0.53,29.8,A,O,0,22.04
+JAM_A02,43,NI,NI,498883.7584,8990599.745,0.64,30.0,A,O,0,22.13
+JAM_A02,44,Aspidosperma spruceanum,Apocynaceae,498877.6737,8990602.728,0.75,62.9,A,O,0,32.62
+JAM_A02,45,Symphonia globulifera,Clusiaceae,498868.2181,8990617.948,0.6,48.2,A,O,0,28.75
+JAM_A02,39a,Minquartia guianensis,Olacaceae,498861.0759,8990622.845,0.77,38.0,A,O,0,25.35
+JAM_A02,46,Vochysia guianensis,Vochysiaceae,498858.255,8990617.09,0.51,42.6,A,O,0,26.97
+JAM_A02,47,Tachigali alba,Fabaceae,498847.5705,8990607.15,0.56,44.3,A,O,0,27.53
+JAM_A02,49,NI,NI,498855.6021,8990605.837,0.64,43.3,A,O,0,27.2
+JAM_A02,51,Castilla ulei,Moraceae,498863.6031,8990605.524,0.75,54.4,A,O,0,30.51
+JAM_A02,52,Eschweilera parviflora,Lecythidaceae,498884.9098,8990492.947,0.89,12.3,A,O,0,12.32
+JAM_A02,53,Maquira sclerophylla,Moraceae,498884.5193,8990488.219,0.53,12.3,A,O,0,12.32
+JAM_A02,54,Tachigali myrmecophila,Fabaceae,498883.241,8990488.255,0.53,44.2,A,O,0,27.5
+JAM_A02,56,Terminalia amazonia,Combretaceae,498885.1098,8990487.211,0.68,17.9,A,O,0,15.95
+JAM_A02,57,Vochysia guianensis,Vochysiaceae,498884.5215,8990484.519,0.51,18.2,A,O,0,16.13
+JAM_A02,58,Tapirira guianensis,Anacardiaceae,498882.0637,8990483.773,0.46,35.8,A,O,0,24.52
+JAM_A02,59,Attalea speciosa,Arecaceae,498881.0802,8990484.155,0.33,19.9,A,P,0,17.11
+JAM_A02,60,Tetragastris panamensis,Burseraceae,498885.7024,8990482.802,0.73,19.7,A,O,0,17.0
+JAM_A02,61,Helicostylis sp.,Moraceae,498885.5059,8990482.638,0.65,40.6,A,O,0,26.28
+JAM_A02,64,Attalea speciosa,Arecaceae,498884.1409,8990463.092,0.33,29.4,A,P,0,21.86
+JAM_A02,65,Protium hepytaphillum ,Burseraceae,498882.2743,8990460.437,0.63,10.4,A,O,0,10.93
+JAM_A02,66,Euterpe oleracea,Arecaceae,498883.4554,8990458.419,0.41,16.1,A,P,0,14.85
+JAM_A02,67a,Tachigali alba,Fabaceae,498862.1138,8990466.159,0.56,62.5,A,O,0,32.53
+JAM_A02,68,Caryocar glabrum,Caryocaraceae,498850.3215,8990454.337,0.68,70.5,A,O,0,34.25
+JAM_A02,69,Peltogyne leicointei,Fabaceae,498839.4966,8990469.335,0.8,76.0,A,O,0,35.31
+JAM_A02,70,NI,NI,498837.5239,8990479.698,0.64,95.0,A,O,0,38.31
+JAM_A02,71,Couratari stellata,Lecythidaceae,498837.5265,8990475.198,0.63,38.5,A,O,0,25.53
+JAM_A02,72,Dipteryx odorata,Fabaceae,498839.4841,8990490.335,0.92,41.2,A,O,0,26.49
+JAM_A02,74,Inga alba,Fabaceae,498842.4271,8990501.79,0.59,48.3,A,O,0,28.78
+JAM_A02,1,Helicostylis sp.,Moraceae,498981.5583,8990393.213,0.65,11.4,A,O,0,11.67
+JAM_A02,2,Apeiba echinata,Malvaceae,498981.6786,8990388.911,0.28,21.2,A,O,0,17.83
+JAM_A02,3,Hymenaea intermedia,Fabaceae,498978.5911,8990384.472,0.82,48.6,A,O,0,28.87
+JAM_A02,4,NI,NI,498968.2224,8990385.377,0.64,71.0,A,O,0,34.35
+JAM_A02,143a,NI,NI,498976.0035,8990380.023,0.64,70.0,A,O,0,34.15
+JAM_A02,5,Brosimum rubescens,Moraceae,498982.4479,8990378.596,0.83,12.1,A,O,0,12.18
+JAM_A02,6,Copaifera reticulata,Fabaceae,498979.8982,8990377.447,0.61,14.1,A,O,0,13.56
+JAM_A02,7,Maquira sclerophylla,Moraceae,498979.2186,8990373.16,0.53,13.6,A,O,0,13.22
+JAM_A02,8,Miconia surinamensis,NI,498980.1976,8990372.641,0.61,13.8,A,O,0,13.36
+JAM_A02,9,Maquira sclerophylla,Moraceae,498980.4091,8990365.737,0.53,29.3,A,O,0,21.82
+JAM_A02,10,Zygia racemosa,Fabaceae,498978.5432,8990368.974,0.75,12.5,A,O,0,12.46
+JAM_A02,11,Poeppigia sp.,Fabaceae,498977.2509,8990362.0,0.69,15.5,A,O,0,14.47
+JAM_A02,12,Hymenaea courbaril,Fabaceae,498971.3398,8990364.217,0.79,64.0,A,O,0,32.87
+JAM_A02,13,Helicostylis sp.,Moraceae,498962.4837,8990367.792,0.65,36.3,A,O,0,24.71
+JAM_A02,14,Anacardium spruceanum,Anacardiaceae,498959.8186,8990375.844,0.48,39.0,A,O,0,25.71
+JAM_A02,15,Qualea paraensis,Vochysiaceae,498944.6126,8990371.145,0.69,99.1,A,O,0,38.85
+JAM_A02,16,Tachigali alba,Fabaceae,498957.4042,8990389.891,0.56,38.8,A,O,0,25.64
+JAM_A02,17,Apeiba echinata,Malvaceae,498936.1576,8990384.312,0.28,38.9,A,O,0,25.68
+JAM_A02,18,Glycydendron amazonicum,Euphorbiaceae,498959.4007,8990365.853,0.67,64.1,A,O,0,32.89
+JAM_A02,19,Tachigali alba,Fabaceae,498977.0285,8990349.505,0.56,20.6,A,O,0,17.5
+JAM_A02,20,,,498982.3657,8990243.648,,20.0,D,O,0,17.17
+JAM_A02,20a,Tachigali alba,Fabaceae,498973.9781,8990244.163,0.56,53.2,A,O,0,30.18
+JAM_A02,21,Virola sebifera,Myristicaceae,498978.8256,8990236.917,0.45,17.9,A,O,0,15.95
+JAM_A02,22,Eschweilera grandifolia,Lecythidaceae,498978.7237,8990236.822,0.88,11.5,A,O,0,11.75
+JAM_A02,23,Euterpe oleracea,Arecaceae,498981.0559,8990233.604,0.41,14.1,A,P,0,13.56
+JAM_A02,24,,,498980.3484,8990233.239,,64.0,D,O,0,32.87
+JAM_A02,25,Ormosia coccinea,Fabaceae,498982.9034,8990231.111,0.63,14.5,A,O,0,13.82
+JAM_A02,26,Virola elongata,Myristicaceae,498981.7049,8990231.17,0.52,13.1,A,O,0,12.88
+JAM_A02,27,Tachigali alba,Fabaceae,498963.2229,8990227.081,0.56,76.0,A,O,0,35.31
+JAM_A02,28,Cedrelinga cateniformis,Fabaceae,498936.0469,8990218.418,0.5,64.0,A,O,0,32.87
+JAM_A02,29,Mauriri chamissoana,Melastomataceae,498967.6733,8990200.839,0.64,36.4,A,O,0,24.75
+JAM_A02,37a,,,498970.5442,8990194.692,,37.8,D,O,0,25.28
+JAM_A02,30,Astronium gracile,Anacardiaceae,498982.5026,8990216.719,0.73,20.0,A,O,0,17.17
+JAM_A02,31,Mezilaurus itauba,Lauraceae,498982.2798,8990215.629,0.72,14.4,A,O,0,13.76
+JAM_A02,32,Tetragastris panamensis,Burseraceae,498979.604,8990216.762,0.73,10.6,A,O,0,11.08
+JAM_A02,33,Theobroma subincanum,Malvaceae,498981.9279,8990213.144,0.47,11.7,A,O,0,11.89
+JAM_A02,34,Sloanea guianensis,Elaeocarpaceae,498979.431,8990213.268,0.82,14.6,A,O,0,13.89
+JAM_A02,35,Annona exsucca,Annonaceae,498980.138,8990208.829,0.44,12.3,A,O,0,12.32
+JAM_A02,36,Tachigali myrmecophila,Fabaceae,498978.4763,8990089.539,0.53,65.4,A,O,0,33.18
+JAM_A02,37,Bixa arborea,Bixaceae,498980.4778,8990086.021,0.37,23.7,A,O,0,19.15
+JAM_A02,38,Cordia scabrifolia,Boraginaceae,498982.3802,8990081.003,0.47,13.1,A,O,0,12.88
+JAM_A02,39,Theobroma glaucum,Malvaceae,498981.9804,8990080.507,0.53,11.9,A,O,0,12.03
+JAM_A02,40,Guatteria schomburgkiana,Annonaceae,498947.9891,8990065.822,0.6,37.7,A,O,0,25.24
+JAM_A02,41,Vochysia guianensis,Vochysiaceae,498958.9821,8990079.22,0.51,52.8,A,O,0,30.07
+JAM_A02,42,Pouteria gongrijpii,Sapotaceae,498958.986,8990071.22,0.8,55.0,A,O,0,30.67
+JAM_A02,43,Aspidosperma nitidum,Apocynaceae,498948.9864,8990071.313,0.76,76.0,A,O,0,35.31
+JAM_A02,44,Tachigali alba,Fabaceae,498939.994,8990056.396,0.56,42.4,A,O,0,26.9
+JAM_A02,45,Tetragastris panamensis,Burseraceae,498949.994,8990055.303,0.73,36.0,A,O,0,24.6
+JAM_A02,46,Cecropia engleriana,Urticaceae,498945.9947,8990054.341,0.49,35.4,A,O,0,24.36
+JAM_A02,47,Pseudopiptadenia suaveolens,Fabaceae,498957.9941,8990054.229,0.68,36.0,A,O,0,24.6
+JAM_A02,53a,Tachigali myrmecophila,Fabaceae,498972.9959,8990049.09,0.53,46.1,A,O,0,28.1
+JAM_A02,48,Tachigali myrmecophila,Fabaceae,498978.998,8990044.035,0.53,41.0,A,O,0,26.42
+JAM_A02,49,Pouteria anibifolia,Sapotaceae,498983.7775,8990086.49,0.66,12.2,A,O,0,12.25
+JAM_A02,51,Zygia racemosa,Fabaceae,498985.0914,8989943.681,0.75,10.4,A,O,0,10.93
+JAM_A02,52,Licania canescens,Chrysobalanaceae,498980.9043,8989941.505,0.88,14.5,A,O,0,13.82
+JAM_A02,53,Astrocaryum aculeatum ,Arecaceae,498983.0811,8989939.996,0.51,18.4,A,P,0,16.25
+JAM_A02,54,Lecythis idatimon,Lecythidaceae,498984.8347,8989929.205,0.82,20.1,A,O,0,17.22
+JAM_A02,55,Ocotea canaliculata,Lauraceae,498985.6885,8989926.205,0.48,22.2,A,O,0,18.37
+JAM_A02,56,Bixa arborea,Bixaceae,498982.2807,8989920.531,0.37,16.9,A,O,0,15.35
+JAM_A02,83a,Pouteria gongrijpii,Sapotaceae,498976.2323,8989931.244,0.8,44.9,A,O,0,27.72
+JAM_A02,57,Minquartia guianensis,Olacaceae,498968.0786,8989934.28,0.77,37.7,A,O,0,25.24
+JAM_A02,73a,Mauriri chamissoana,Melastomataceae,498971.6941,8989941.75,0.64,48.9,A,O,0,28.96
+JAM_A02,58,Helicostylis sp.,Moraceae,498959.9762,8989936.317,0.65,38.3,A,O,0,25.46
+JAM_A02,59,NI,NI,498954.8738,8989938.34,0.64,42.0,A,O,0,26.77
+JAM_A02,60,Swartzia polyphylla,Fabaceae,498952.8738,8989938.35,0.69,48.4,A,O,0,28.81
+JAM_A02,61,,,498946.0276,8989935.388,,51.2,D,O,0,29.63
+JAM_A02,62,,,498960.0015,8989916.349,,43.0,D,O,0,27.1
+JAM_A02,63,Eschweilera coriacea,Lecythidaceae,498939.1042,8989914.456,0.85,39.5,A,O,0,25.89
+JAM_A02,64,Bertholletia excelsa,Lecythidaceae,498945.3092,8989910.431,0.64,66.3,A,O,0,33.38
+JAM_A02,65,Qualea paraensis,Vochysiaceae,498940.8731,8989899.47,0.69,54.6,A,O,0,30.56
+JAM_A02,80a,Qualea paraensis,Vochysiaceae,498977.7702,8989901.284,0.69,39.2,A,O,0,25.79
+JAM_A02,66,Tachigali myrmecophila,Fabaceae,498976.4113,8989908.28,0.53,50.2,A,O,0,29.34
+JAM_A02,67,Euterpe oleracea,Arecaceae,498987.1751,8989897.243,0.41,12.3,A,P,0,12.32
+JAM_A02,68,Virola elongata,Myristicaceae,498987.0163,8989904.233,0.52,12.6,A,O,0,12.53
+JAM_A02,69,,,498984.4728,8989907.041,,21.9,D,O,0,18.21
+JAM_A02,1,Annona exsucca,Annonaceae,499726.165,8990394.853,0.44,11.0,A,O,0,11.38
+JAM_A02,2,Virola sebifera,Myristicaceae,499725.7131,8990386.099,0.45,10.1,A,O,0,10.7
+JAM_A02,3,Couepia racemosa,Chrysobalanaceae,499730.2039,8990381.287,0.79,22.7,A,O,0,18.63
+JAM_A02,4,Capirona decorticans,Rubiaceae,499728.2457,8990369.488,0.59,21.6,A,O,0,18.05
+JAM_A02,5,Luehea speciosa,Malvaceae,499728.789,8990368.775,0.51,20.9,A,O,0,17.67
+JAM_A02,6,Copaifera reticulata,Fabaceae,499728.201,8990365.405,0.61,14.1,A,O,0,13.56
+JAM_A02,7,Helicostylis sp.,Moraceae,499730.4678,8990361.056,0.65,27.9,A,O,0,21.18
+JAM_A02,8,Ormosia coccinea,Fabaceae,499727.3438,8990359.95,0.63,11.1,A,O,0,11.45
+JAM_A02,9,Tachigali paniculata,Fabaceae,499727.0564,8990359.759,0.56,12.8,A,O,0,12.67
+JAM_A02,11,Maquira sclerophylla,Moraceae,499730.842,8990358.255,0.53,15.5,A,O,0,14.47
+JAM_A02,12,Virola elongata,Myristicaceae,499727.886,8990354.455,0.52,22.7,A,O,0,18.63
+JAM_A02,13,Ocotea canaliculata,Lauraceae,499731.5904,8990352.655,0.48,15.7,A,O,0,14.6
+JAM_A02,14,Symphonia globulifera,Clusiaceae,499728.2782,8990348.167,0.6,10.5,A,O,0,11.0
+JAM_A02,125a,Pterocarpus sp.,Fabaceae,499724.2798,8990348.282,0.51,35.1,A,O,0,24.25
+JAM_A02,5a,Tachigali alba,Fabaceae,499718.8462,8990355.413,0.56,45.8,A,O,0,28.01
+JAM_A02,15,Bombax paraense,Malvaceae,499706.54,8990360.749,0.39,53.2,A,O,0,30.18
+JAM_A02,16,Luehea speciosa,Malvaceae,499697.2325,8990365.999,0.51,43.0,A,O,0,27.1
+JAM_A02,17,Helicostylis sp.,Moraceae,499699.8541,8990355.961,0.65,35.0,A,O,0,24.21
+JAM_A02,18,Helicostylis sp.,Moraceae,499699.045,8990368.935,0.65,43.2,A,O,0,27.17
+JAM_A02,19,Minquartia guianensis,Olacaceae,499700.8574,8990371.872,0.77,49.9,A,O,0,29.25
+JAM_A02,20,Abuta grandifolia,Menispermaceae,499684.452,8990346.94,0.45,52.2,A,O,0,29.91
+JAM_A02,21,Hymenaea intermedia,Fabaceae,499682.2991,8990357.463,0.82,35.3,A,O,0,24.32
+JAM_A02,22,Peltogyne leicointei,Fabaceae,499682.2388,8990366.431,0.8,60.0,A,O,0,31.94
+JAM_A02,23,Astronium gracile,Anacardiaceae,499715.5437,8990392.37,0.73,36.7,A,O,0,24.86
+JAM_A02,130a,Eschweilera parviflora,Lecythidaceae,499720.6039,8990391.228,0.89,38.3,A,O,0,25.46
+JAM_A02,3a,NI,NI,499716.2284,8990381.391,0.64,51.9,A,O,0,29.82
+JAM_A02,24,Ormosia coccinea,Fabaceae,499728.1468,8990240.034,0.63,10.2,A,O,0,10.78
+JAM_A02,22a,Tachigali alba,Fabaceae,499716.1562,8990236.515,0.56,47.5,A,O,0,28.54
+JAM_A02,25,Peltogyne leicointei,Fabaceae,499725.7232,8990230.273,0.8,13.6,A,O,0,13.22
+JAM_A02,26,NI,NI,499726.2288,8990223.525,0.64,12.7,A,O,0,12.6
+JAM_A02,27,Neea oppositifolia,Nyctaginaceae,499728.5838,8990221.466,0.89,12.5,A,O,0,12.46
+JAM_A02,28,Pouteria gongrijpii,Sapotaceae,499728.4515,8990219.671,0.8,34.5,A,O,0,24.01
+JAM_A02,30,Lecythis idatimon,Lecythidaceae,499724.7607,8990217.208,0.82,17.7,A,O,0,15.83
+JAM_A02,31,Heisteria densifrons,Olacaceae,499726.285,8990213.4,0.65,16.4,A,O,0,15.04
+JAM_A02,32,,,499725.3692,8990211.857,,11.3,D,O,0,11.6
+JAM_A02,105a,Dinizia excelsa,Fabaceae,499724.2244,8990209.928,0.94,72.8,A,O,0,34.71
+JAM_A02,35,Tetragastris panamensis,Burseraceae,499726.4986,8990206.772,0.73,14.6,A,O,0,13.89
+JAM_A02,36,Clarisia racemosa,Moraceae,499704.6777,8990203.198,0.59,44.1,A,O,0,27.46
+JAM_A02,37,Apeiba echinata,Malvaceae,499703.784,8990218.289,0.28,43.1,A,O,0,27.14
+JAM_A02,39,Astronium gracile,Anacardiaceae,499677.9564,8990207.963,0.73,57.4,A,O,0,31.29
+JAM_A02,40,Pseudopiptadenia suaveolens,Fabaceae,499681.1276,8990223.789,0.68,40.0,A,O,0,26.07
+JAM_A02,41,NI,NI,499693.0589,8990236.031,0.64,39.7,A,O,0,25.97
+JAM_A02,42,Geissospermum sericeum,Apocynaceae,499700.3377,8990239.56,0.78,40.8,A,O,0,26.35
+JAM_A02,43,Pouteria gongrijpii,Sapotaceae,499724.3795,8990089.806,0.8,10.8,A,O,0,11.23
+JAM_A02,44,Virola elongata,Myristicaceae,499725.4453,8990086.186,0.52,11.5,A,O,0,11.75
+JAM_A02,91a,Helicostylis sp.,Moraceae,499725.0709,8990084.193,0.65,51.0,A,O,0,29.57
+JAM_A02,45,Apeiba echinata,Malvaceae,499725.6096,8990074.484,0.28,27.3,A,O,0,20.91
+JAM_A02,46,Tapirira guianensis,Anacardiaceae,499722.3116,8990063.844,0.46,11.4,A,O,0,11.67
+JAM_A02,90a,Tetragastris panamensis,Burseraceae,499722.0404,8990059.249,0.73,22.3,A,O,0,18.42
+JAM_A02,47,Virola sebifera,Myristicaceae,499722.5424,8990051.24,0.45,13.3,A,O,0,13.02
+JAM_A02,48,Maquira sclerophylla,Moraceae,499721.4904,8990049.859,0.53,19.3,A,O,0,16.77
+JAM_A02,88a,Licania heteromorpha,Chrysobalanaceae,499721.8451,8990045.953,0.82,17.1,A,O,0,15.47
+JAM_A02,50,Fusaea longifolia,Annonaceae,499705.4707,8990049.552,0.74,35.6,A,O,0,24.44
+JAM_A02,51,Pseudopiptadenia suaveolens,Fabaceae,499703.5455,8990051.587,0.68,62.0,A,O,0,32.41
+JAM_A02,52,Neea oppositifolia,Nyctaginaceae,499701.7693,8990057.62,0.89,35.7,A,O,0,24.48
+JAM_A02,47a,NI,NI,499713.0281,8990064.414,0.64,54.0,A,O,0,30.4
+JAM_A02,53,Guatteria schomburgkiana,Annonaceae,499697.2859,8990044.702,0.6,40.2,A,O,0,26.14
+JAM_A02,54,Tachigali alba,Fabaceae,499679.2517,8990044.032,0.56,47.8,A,O,0,28.63
+JAM_A02,56,Geissospermum sericeum,Apocynaceae,499686.1071,8990066.906,0.78,38.8,A,O,0,25.64
+JAM_A02,57,Clarisia racemosa,Moraceae,499690.2926,8990071.829,0.59,46.3,A,O,0,28.17
+JAM_A02,58,,,499691.9626,8990089.799,,54.0,D,O,0,30.4
+JAM_A02,59,Pouteria gongrijpii,Sapotaceae,499701.9609,8990089.616,0.8,55.3,A,O,0,30.75
+JAM_A02,60,NI,NI,499704.737,8990083.565,0.64,36.5,A,O,0,24.79
+JAM_A02,76a,,,499716.9173,8989934.934,,12.2,D,O,0,12.25
+JAM_A02,75a,Virola sebifera,Myristicaceae,499716.8363,8989933.491,0.45,12.8,A,O,0,12.67
+JAM_A02,74a,Attalea speciosa,Arecaceae,499718.4898,8989928.802,0.33,26.9,A,P,0,20.72
+JAM_A02,73a,Couratari stellata,Lecythidaceae,499718.1386,8989927.881,0.63,38.2,A,O,0,25.42
+JAM_A02,61,Sterculia pruriens,Malvaceae,499719.8407,8989926.191,0.49,14.0,A,O,0,13.49
+JAM_A02,67a,Parahancornia amapa,Apocynaceae,499717.3013,8989923.634,0.46,59.0,A,O,0,31.69
+JAM_A02,68a,Tetragastris panamensis,Burseraceae,499717.921,8989919.378,0.73,26.3,A,O,0,20.43
+JAM_A02,71a,Chimarrhis turbinata,Rubiaceae,499720.176,8989917.224,0.72,47.9,A,O,0,28.66
+JAM_A02,62,Eschweilera parviflora,Lecythidaceae,499723.1838,8989913.899,0.89,32.6,A,O,0,23.24
+JAM_A02,70a,Tetragastris panamensis,Burseraceae,499723.1986,8989903.134,0.73,33.8,A,O,0,23.73
+JAM_A02,63,Mayna odorata,Flacourtiaceae,499710.9189,8989914.142,0.64,47.3,A,O,0,28.48
+JAM_A02,65,Peltogyne leicointei,Fabaceae,499706.0026,8989901.247,0.8,51.5,A,O,0,29.71
+JAM_A02,66,Copaifera reticulata,Fabaceae,499700.7616,8989903.912,0.61,36.2,A,O,0,24.67
+JAM_A02,67,Pseudopiptadenia suaveolens,Fabaceae,499682.0119,8989932.686,0.68,68.0,A,O,0,33.74
+JAM_A02,68,Parkia sp.,Fabaceae,499694.3127,8989934.862,0.45,51.6,A,O,0,29.74
+JAM_A02,69,Tachigali alba,Fabaceae,499702.6513,8989937.587,0.56,39.7,A,O,0,25.97
+JAM_A02,1,Sterculia pruriens,Malvaceae,498723.043,8988959.421,0.49,12.3,A,O,0,12.32
+JAM_A02,2,Pouteria gongrijpii,Sapotaceae,498727.023,8988962.104,0.8,43.9,A,O,0,27.4
+JAM_A02,3,Poeppigia sp.,Fabaceae,498721.8527,8988958.059,0.69,15.8,A,O,0,14.66
+JAM_A02,4,Helicostylis sp.,Moraceae,498738.7909,8988959.611,0.65,17.5,A,O,0,15.71
+JAM_A02,5,NI,NI,498740.3029,8988961.959,0.64,10.1,A,O,0,10.7
+JAM_A02,148a,Pouteria gongrijpii,Sapotaceae,498741.454,8988957.452,0.8,58.9,A,O,0,31.67
+JAM_A02,6,,,498744.1125,8988959.174,,15.5,A,L,0,14.47
+JAM_A02,7,Ocotea canaliculata,Lauraceae,498744.428,8988958.967,0.48,18.1,A,O,0,16.07
+JAM_A02,8,Protium hepytaphillum ,Burseraceae,498746.24,8988961.308,0.63,10.6,A,O,0,11.08
+JAM_A02,4a,Virola crebrinervia,Myristicaceae,498741.6723,8988948.293,0.5,45.8,A,O,0,28.01
+JAM_A02,9,,,498725.4738,8988925.829,,49.7,D,O,0,29.19
+JAM_A02,10,Pouteria gongrijpii,Sapotaceae,498729.4725,8988925.726,0.8,47.2,A,O,0,28.45
+JAM_A02,11,Tachigali alba,Fabaceae,498731.784,8988921.686,0.56,43.9,A,O,0,27.4
+JAM_A02,12,Parkia sp.,Fabaceae,498745.9355,8988919.33,0.45,36.9,A,O,0,24.94
+JAM_A02,13,Pseudopiptadenia suaveolens,Fabaceae,498747.5293,8988937.198,0.68,52.0,A,O,0,29.85
+JAM_A02,14,Minquartia guianensis,Olacaceae,498759.4278,8988961.067,0.77,15.4,A,O,0,14.41
+JAM_A02,145a,Couma guianensis,Apocynaceae,498758.1202,8988954.832,0.47,46.0,A,O,0,28.07
+JAM_A02,15,Helicostylis sp.,Moraceae,498762.4439,8988959.496,0.65,15.7,A,O,0,14.6
+JAM_A02,16,Tachigali myrmecophila,Fabaceae,498763.3622,8988956.687,0.53,36.3,A,O,0,24.71
+JAM_A02,17,Ormosia coccinea,Fabaceae,498763.1671,8988959.179,0.63,13.2,A,O,0,12.95
+JAM_A02,142a,Peltogyne leicointei,Fabaceae,498769.3181,8988913.751,0.8,53.0,A,O,0,30.13
+JAM_A02,18,Copaifera reticulata,Fabaceae,498766.2888,8988939.697,0.61,41.5,A,O,0,26.59
+JAM_A02,122a,NI,NI,498868.4312,8988971.335,0.64,52.0,A,O,0,29.85
+JAM_A02,125a,Tetragastris panamensis,Burseraceae,498869.728,8988968.183,0.73,37.1,A,O,0,25.01
+JAM_A02,20,Zygia racemosa,Fabaceae,498877.6477,8988974.041,0.75,10.5,A,O,0,11.0
+JAM_A02,32a,Pourouma minor,Urticaceae,498882.1757,8988963.255,0.44,41.3,A,O,0,26.53
+JAM_A02,34a,Vochysia guianensis,Vochysiaceae,498884.7198,8988964.502,0.51,42.0,A,O,0,26.77
+JAM_A02,121a,,,498883.194,8988970.615,,26.2,D,O,0,20.38
+JAM_A02,21,NI,NI,498884.4123,8988970.636,0.64,19.7,A,O,0,17.0
+JAM_A02,22,Jacaranda copaia,Bignoniaceae,498898.5459,8988949.967,0.35,37.9,A,O,0,25.31
+JAM_A02,23,Zizyphus itacaiunensis,Ramnaceae,498899.0239,8988973.381,0.84,11.9,A,O,0,12.03
+JAM_A02,25,Virola elongata,Myristicaceae,498907.8587,8988974.756,0.52,14.0,A,O,0,13.49
+JAM_A02,26,Tachigali myrmecophila,Fabaceae,498911.1262,8988976.373,0.53,19.3,A,O,0,16.77
+JAM_A02,27,NI,NI,498909.9859,8988958.064,0.64,53.1,A,O,0,30.16
+JAM_A02,28,Parkia sp.,Fabaceae,498916.9516,8988958.756,0.45,41.0,A,O,0,26.42
+JAM_A02,29,Helicostylis sp.,Moraceae,498923.7594,8988935.57,0.65,47.3,A,O,0,28.48
+JAM_A02,30,Parkia sp.,Fabaceae,498912.8396,8988938.462,0.45,50.8,A,O,0,29.51
+JAM_A02,31,NI,NI,498901.9725,8988949.314,0.64,36.7,A,O,0,24.86
+JAM_A02,32,Caryocar villosum,Caryocaraceae,498893.5536,8988954.443,0.76,40.2,A,O,0,26.14
+JAM_A02,33,Jacaranda copaia,Bignoniaceae,498885.7561,8988940.742,0.35,45.7,A,O,0,27.98
+JAM_A02,34,Handroanthus serratifolius,Bignoniaceae,498914.2653,8988973.603,0.64,22.0,A,O,0,18.26
+JAM_A02,35,Strychnos subcordata,Loganiaceae,499026.1096,8988991.457,0.54,38.1,A,O,0,25.39
+JAM_A02,36,Eschweilera coriacea,Lecythidaceae,499027.9089,8988991.51,0.85,56.7,A,O,0,31.11
+JAM_A02,107a,Dinizia excelsa,Fabaceae,499028.0751,8988991.22,0.94,140.0,A,O,0,42.73
+JAM_A02,37,Lecythis idatimon,Lecythidaceae,499027.6331,8988993.171,0.82,14.3,A,O,0,13.69
+JAM_A02,38,Hymenaea intermedia,Fabaceae,499030.229,8988990.596,0.82,55.0,A,O,0,30.67
+JAM_A02,39,Parkia sp.,Fabaceae,499035.5247,8988988.984,0.45,23.3,A,O,0,18.94
+JAM_A02,40,Euterpe oleracea,Arecaceae,499035.5689,8988988.789,0.41,13.8,A,P,0,13.36
+JAM_A02,41,Poeppigia sp.,Fabaceae,499045.2477,8988993.588,0.69,10.2,A,O,0,10.78
+JAM_A02,42,Eschweilera grandifolia,Lecythidaceae,499051.3335,8988993.373,0.88,48.2,A,O,0,28.75
+JAM_A02,43,Virola elongata,Myristicaceae,499062.2153,8988991.531,0.52,18.6,A,O,0,16.36
+JAM_A02,44,Protium hepytaphillum ,Burseraceae,499053.5095,8988992.651,0.63,13.4,A,O,0,13.08
+JAM_A02,45,Heisteria densifrons,Olacaceae,499057.7644,8988993.855,0.65,10.5,A,O,0,11.0
+JAM_A02,46,Mouriri collocarpa,Melastomataceae,499059.7922,8988989.791,0.83,17.8,A,O,0,15.89
+JAM_A02,47,Maquira sclerophylla,Moraceae,499058.6149,8988989.659,0.53,11.0,A,O,0,11.38
+JAM_A02,48,Astronium gracile,Anacardiaceae,499065.6119,8988989.863,0.73,42.8,A,O,0,27.04
+JAM_A02,49,,,499057.544,8988985.504,,35.1,D,O,0,24.25
+JAM_A02,62a,Luehea speciosa,Malvaceae,499069.9709,8988975.069,0.51,61.0,A,O,0,32.17
+JAM_A02,50,NI,NI,499069.0135,8988973.077,0.64,52.8,A,O,0,30.07
+JAM_A02,51,Eschweilera grandifolia,Lecythidaceae,499065.8893,8988960.223,0.88,38.4,A,O,0,25.5
+JAM_A02,52,Astronium gracile,Anacardiaceae,499075.8851,8988960.515,0.73,80.5,A,O,0,36.11
+JAM_A02,53,Minquartia guianensis,Olacaceae,499066.6579,8988952.392,0.77,39.4,A,O,0,25.86
+JAM_A02,54,Hymenolobium petraeum,Fabaceae,499068.0995,8988950.471,0.71,50.2,A,O,0,29.34
+JAM_A02,55,NI,NI,499071.5403,8988948.608,0.64,51.6,A,O,0,29.74
+JAM_A02,56,Clarisia racemosa,Moraceae,499053.548,8988948.082,0.59,51.1,A,O,0,29.6
+JAM_A02,57,Peltogyne leicointei,Fabaceae,499059.6809,8988969.859,0.8,44.4,A,O,0,27.56
+JAM_A02,61a,NI,NI,499052.0208,8988972.58,0.64,47.7,A,O,0,28.6
+JAM_A02,58,Brosimum rubescens,Moraceae,499046.1289,8988967.499,0.83,47.2,A,O,0,28.45
+JAM_A02,60a,,,499045.1393,8988976.306,,45.9,D,O,0,28.04
+JAM_A02,59,Peltogyne leicointei,Fabaceae,499172.1741,8989002.499,0.8,22.0,A,O,0,18.26
+JAM_A02,60,Miconia surinamensis,NI,499174.2435,8989002.816,0.61,11.9,A,O,0,12.03
+JAM_A02,61,Dinizia excelsa,Fabaceae,499191.5157,8989003.797,0.94,130.5,A,O,0,42.02
+JAM_A02,62,Pseudopiptadenia suaveolens,Fabaceae,499195.9406,8989004.547,0.68,12.5,A,O,0,12.46
+JAM_A02,63,,,499200.9916,8989005.134,,11.5,D,O,0,11.75
+JAM_A02,64,Neea oppositifolia,Nyctaginaceae,499201.9174,8989004.986,0.89,11.1,A,O,0,11.45
+JAM_A02,65,Tachigali myrmecophila,Fabaceae,499205.0579,8989005.564,0.53,10.9,A,O,0,11.3
+JAM_A02,66,Attalea speciosa,Arecaceae,499210.5531,8989004.379,0.33,26.6,A,P,0,20.58
+JAM_A02,67,Dialium guianense,Fabaceae,499216.3588,8989009.002,0.89,13.8,A,O,0,13.36
+JAM_A02,68,Dinizia excelsa,Fabaceae,499208.7121,8988995.787,0.94,100.0,A,O,0,38.96
+JAM_A02,86a,Pradosia praealta,Sapotaceae,499201.1324,8988992.361,0.73,42.3,A,O,0,26.87
+JAM_A02,87a,Clarisia racemosa,Moraceae,499193.6885,8988987.945,0.59,59.2,A,O,0,31.74
+JAM_A02,69,,,499196.6358,8988981.123,,35.9,D,O,0,24.56
+JAM_A02,70,Rinorea guianensis,Violaceae,499181.9793,8988985.283,0.78,50.1,A,O,0,29.31
+JAM_A02,71,Ocotea canaliculata,Lauraceae,499187.6025,8988973.621,0.48,42.0,A,O,0,26.77
+JAM_A02,72,Licania canescens,Chrysobalanaceae,499178.1139,8988962.099,0.88,46.1,A,O,0,28.1
+JAM_A02,73,Helicostylis sp.,Moraceae,499183.6491,8988958.42,0.65,44.4,A,O,0,27.56
+JAM_A02,74,Peltogyne leicointei,Fabaceae,499193.0018,8988970.932,0.8,36.4,A,O,0,24.75
+JAM_A02,75,Clarisia racemosa,Moraceae,499199.719,8988973.311,0.59,53.2,A,O,0,30.18
+JAM_A02,76,Peltogyne leicointei,Fabaceae,499200.6217,8988959.384,0.8,37.6,A,O,0,25.2
+JAM_A02,77,Helicostylis sp.,Moraceae,499202.6185,8988959.497,0.65,39.8,A,O,0,26.0
+JAM_A02,78,Couratari stellata,Lecythidaceae,499223.4967,8988968.67,0.63,78.5,A,O,0,35.76
+JAM_A02,79,Virola crebrinervia,Myristicaceae,499224.3593,8988969.718,0.5,51.0,A,O,0,29.57
+JAM_A02,80,,,499224.7266,8988981.72,,59.0,D,O,0,31.69
+JAM_A02,1,Luehea speciosa,Malvaceae,498840.0732,8987965.526,0.51,19.9,A,O,0,17.11
+JAM_A02,2,Zygia racemosa,Fabaceae,498840.6286,8987964.846,0.75,30.1,A,O,0,22.17
+JAM_A02,3,Vismia floribunda,Hypericaceae,498839.348,8987949.508,0.47,61.2,A,O,0,32.22
+JAM_A02,4,Poeppigia sp.,Fabaceae,498843.1068,8987952.637,0.69,40.0,A,O,0,26.07
+JAM_A02,5,Tetragastris panamensis,Burseraceae,498846.6887,8987964.256,0.73,22.0,A,O,0,18.26
+JAM_A02,6,Helicostylis sp.,Moraceae,498852.6453,8987964.962,0.65,16.5,A,O,0,15.1
+JAM_A02,7,Pseudopiptadenia suaveolens,Fabaceae,498853.145,8987964.98,0.68,19.6,A,O,0,16.94
+JAM_A02,142a,Hymenolobium petraeum,Fabaceae,498855.984,8987967.077,0.71,85.6,A,O,0,36.94
+JAM_A02,8,Tachigali paniculata,Fabaceae,498859.1812,8987964.689,0.56,10.8,A,O,0,11.23
+JAM_A02,9,Pourouma minor,Urticaceae,498859.6818,8987967.205,0.44,15.5,A,O,0,14.47
+JAM_A02,141a,Hymenolobium petraeum,Fabaceae,498861.6974,8987958.279,0.71,80.0,A,O,0,36.02
+JAM_A02,10,Ocotea sp.,Lauraceae,498864.6629,8987967.578,0.5,10.1,A,O,0,10.7
+JAM_A02,11,Protium hepytaphillum ,Burseraceae,498870.4514,8987967.878,0.63,24.9,A,O,0,19.75
+JAM_A02,12,Tachigali alba,Fabaceae,498869.4352,8987965.544,0.56,11.5,A,O,0,11.75
+JAM_A02,13,Virola crebrinervia,Myristicaceae,498872.85,8987956.666,0.5,74.1,A,O,0,34.96
+JAM_A02,20a,Hymenolobium petraeum,Fabaceae,498875.0876,8987953.745,0.71,58.5,A,O,0,31.57
+JAM_A02,21a,Inga alba,Fabaceae,498881.8446,8987956.977,0.59,42.0,A,O,0,26.77
+JAM_A02,14,Pouteria gongrijpii,Sapotaceae,498884.9136,8987931.094,0.8,42.1,A,O,0,26.8
+JAM_A02,15,Tachigali alba,Fabaceae,498868.6844,8987933.531,0.56,48.0,A,O,0,28.69
+JAM_A02,16,Helicostylis sp.,Moraceae,498866.0842,8987928.443,0.65,49.7,A,O,0,29.19
+JAM_A02,17,Guatteria schomburgkiana,Annonaceae,498863.6874,8987933.358,0.6,43.2,A,O,0,27.17
+JAM_A02,18,Sloanea guianensis,Elaeocarpaceae,498984.5582,8987975.224,0.82,18.1,A,O,0,16.07
+JAM_A02,19,Bowdichia nitida,Fabaceae,498992.7789,8987973.823,0.81,19.2,A,O,0,16.71
+JAM_A02,20,Couratari stellata,Lecythidaceae,499000.092,8987955.166,0.63,36.7,A,O,0,24.86
+JAM_A02,21,Nectandra cuspidata,Lauraceae,498997.3853,8987973.347,0.56,18.1,A,O,0,16.07
+JAM_A02,22,Helicostylis sp.,Moraceae,499000.5036,8987972.197,0.65,14.8,A,O,0,14.02
+JAM_A02,23,Thyrsodium paraense,Anacardiaceae,499002.7502,8987975.309,0.61,11.0,A,O,0,11.38
+JAM_A02,24,Buchenavia congesta,Combretaceae,499005.3318,8987970.431,0.71,55.0,A,O,0,30.67
+JAM_A02,25,Poeppigia sp.,Fabaceae,499007.255,8987974.928,0.69,18.1,A,O,0,16.07
+JAM_A02,26,Clarisia racemosa,Moraceae,499013.0295,8987976.31,0.59,20.8,A,O,0,17.61
+JAM_A02,27,Helicostylis sp.,Moraceae,499013.3461,8987975.324,0.65,13.9,A,O,0,13.42
+JAM_A02,28,Minquartia guianensis,Olacaceae,499013.2496,8987975.119,0.77,11.2,A,O,0,11.53
+JAM_A02,29,Tetragastris panamensis,Burseraceae,499012.8567,8987968.796,0.73,36.3,A,O,0,24.71
+JAM_A02,117a,Tetragastris altissima,Burseraceae,499014.8375,8987969.893,0.71,70.0,A,O,0,34.15
+JAM_A02,30,Helicostylis sp.,Moraceae,499015.1693,8987973.912,0.65,42.1,A,O,0,26.8
+JAM_A02,31,Inga alba,Fabaceae,499014.7123,8987977.292,0.59,37.4,A,O,0,25.13
+JAM_A02,32,,,499018.7735,8987973.587,,27.5,D,O,0,21.0
+JAM_A02,33,Maquira sclerophylla,Moraceae,499026.114,8987976.947,0.53,40.0,A,O,0,26.07
+JAM_A02,42a,Pourouma minor,Urticaceae,499020.4494,8987963.162,0.44,43.8,A,O,0,27.37
+JAM_A02,34,Pourouma minor,Urticaceae,499020.534,8987958.162,0.44,47.1,A,O,0,28.41
+JAM_A02,35,Pseudopiptadenia suaveolens,Fabaceae,499016.293,8987942.946,0.68,43.0,A,O,0,27.1
+JAM_A02,36,Pouteria guianensis,Sapotaceae,499030.4626,8987932.628,0.93,49.8,A,O,0,29.22
+JAM_A02,37,Pourouma minor,Urticaceae,499012.1624,8987950.75,0.44,43.5,A,O,0,27.27
+JAM_A02,38,Tapirira guianensis,Anacardiaceae,499011.1805,8987949.702,0.46,41.2,A,O,0,26.49
+JAM_A02,39,Clarisia racemosa,Moraceae,499012.3824,8987937.752,0.59,44.9,A,O,0,27.72
+JAM_A02,41,Pourouma minor,Urticaceae,498996.2659,8987944.973,0.44,38.4,A,O,0,25.5
+JAM_A02,42,Couratari stellata,Lecythidaceae,498999.2286,8987947.118,0.63,35.6,A,O,0,24.44
+JAM_A02,43,Guatteria schomburgkiana,Annonaceae,498986.5146,8987930.489,0.6,37.4,A,O,0,25.13
+JAM_A02,44,Tachigali alba,Fabaceae,499133.1693,8987984.17,0.56,10.0,A,O,0,10.62
+JAM_A02,45,Tetragastris panamensis,Burseraceae,499133.9365,8987985.794,0.73,10.9,A,O,0,11.3
+JAM_A02,46,Vataireopsis speciosa,Fabaceae,499135.5778,8987985.324,0.65,21.0,A,O,0,17.72
+JAM_A02,47,Parkia sp.,Fabaceae,499135.495,8987981.48,0.45,26.7,A,O,0,20.62
+JAM_A02,48,Helicostylis sp.,Moraceae,499142.2507,8987986.991,0.65,14.1,A,O,0,13.56
+JAM_A02,49,Peltogyne leicointei,Fabaceae,499144.8984,8987987.675,0.8,40.7,A,O,0,26.32
+JAM_A02,50,Helicostylis sp.,Moraceae,499145.1208,8987984.985,0.65,33.5,A,O,0,23.61
+JAM_A02,51,Aspidosperma nitidum,Apocynaceae,499147.7847,8987983.049,0.76,61.6,A,O,0,32.32
+JAM_A02,52,Eschweilera parviflora,Lecythidaceae,499150.647,8987984.772,0.89,61.3,A,O,0,32.25
+JAM_A02,53,Attalea speciosa,Arecaceae,499151.8514,8987987.165,0.33,26.0,A,P,0,20.29
+JAM_A02,54,Symphonia globulifera,Clusiaceae,499155.497,8987986.681,0.6,14.7,A,O,0,13.95
+JAM_A02,55,Couratari stellata,Lecythidaceae,499164.1819,8987983.394,0.63,39.5,A,O,0,25.89
+JAM_A02,56,Tachigali alba,Fabaceae,499169.6263,8987990.23,0.56,24.4,A,O,0,19.5
+JAM_A02,57,Vochysia guianensis,Vochysiaceae,499173.0161,8987989.205,0.51,15.6,A,O,0,14.54
+JAM_A02,58,Inga marginata,Fabaceae,499176.7195,8987989.235,0.57,12.6,A,O,0,12.53
+JAM_A02,59,Licania canescens,Chrysobalanaceae,499178.0548,8987980.351,0.88,40.2,A,O,0,26.14
+JAM_A02,60,Bertholletia excelsa,Lecythidaceae,499172.0313,8987956.288,0.64,125.0,A,O,0,41.57
+JAM_A02,61,Terminalia amazonia,Combretaceae,499169.6399,8987960.986,0.68,90.0,A,O,0,37.61
+JAM_A02,62,Helicostylis sp.,Moraceae,499159.1642,8987954.434,0.65,36.0,A,O,0,24.6
+JAM_A02,63,Tachigali myrmecophila,Fabaceae,499160.3187,8987952.584,0.53,45.0,A,O,0,27.76
+JAM_A02,64,NI,NI,499156.8551,8987958.136,0.64,41.0,A,O,0,26.42
+JAM_A02,68a,Clarisia racemosa,Moraceae,499151.0,8987968.385,0.59,58.2,A,O,0,31.49
+JAM_A02,65,NI,NI,499148.2766,8987952.866,0.64,52.6,A,O,0,30.02
+JAM_A02,66,Couratari stellata,Lecythidaceae,499279.6623,8988002.401,0.63,18.9,A,O,0,16.54
+JAM_A02,67,,,499280.285,8987998.45,,46.6,D,O,0,28.26
+JAM_A02,68,Tachigali alba,Fabaceae,499286.9002,8987989.976,0.56,62.4,A,O,0,32.5
+JAM_A02,69,Tetragastris panamensis,Burseraceae,499288.1447,8988004.412,0.73,33.5,A,O,0,23.61
+JAM_A02,70,Zygia racemosa,Fabaceae,499294.0342,8988001.163,0.75,14.6,A,O,0,13.89
+JAM_A02,71,Virola elongata,Myristicaceae,499295.7281,8987999.72,0.52,10.8,A,O,0,11.23
+JAM_A02,72,,,499297.7636,8987999.212,,17.9,D,O,0,15.95
+JAM_A02,73,Helicostylis sp.,Moraceae,499303.2292,8987999.893,0.65,11.8,A,O,0,11.96
+JAM_A02,74,Tetragastris panamensis,Burseraceae,499299.3009,8988001.865,0.73,38.6,A,O,0,25.57
+JAM_A02,75,Couratari stellata,Lecythidaceae,499301.6694,8987980.634,0.63,45.8,A,O,0,28.01
+JAM_A02,76,Tetragastris panamensis,Burseraceae,499307.7312,8987973.191,0.73,45.0,A,O,0,27.76
+JAM_A02,77,Dimorphandra macrostachya,Fabaceae,499316.4295,8987980.035,0.6,40.9,A,O,0,26.39
+JAM_A02,78,Apeiba echinata,Malvaceae,499310.0564,8987989.454,0.28,55.0,A,O,0,30.67
+JAM_A02,79,Pouteria gongrijpii,Sapotaceae,499313.6738,8987997.519,0.8,17.1,A,O,0,15.47
+JAM_A02,80,NI,NI,499319.3644,8987994.291,0.64,65.9,A,O,0,33.29
+JAM_A02,82,Tetragastris panamensis,Burseraceae,499295.4622,8987957.985,0.73,41.5,A,O,0,26.59
+JAM_A02,83,Brosimum rubescens,Moraceae,499292.479,8987958.303,0.83,44.9,A,O,0,27.72
+JAM_A02,84,Couratari stellata,Lecythidaceae,499287.6275,8987970.474,0.63,134.0,A,O,0,42.29
+JAM_A02,85,Helicostylis sp.,Moraceae,499290.3596,8987977.953,0.65,36.6,A,O,0,24.82
+JAM_A02,1,Guatteria schomburgkiana,Annonaceae,498804.5145,8986951.616,0.6,39.5,A,O,0,25.89
+JAM_A02,2,Apeiba echinata,Malvaceae,498807.9328,8986957.087,0.28,20.4,A,O,0,17.39
+JAM_A02,3,Pouteria gongrijpii,Sapotaceae,498810.7584,8986959.158,0.8,55.7,A,O,0,30.85
+JAM_A02,4,Abarema jupunba,Fabaceae,498812.7191,8986959.173,0.59,20.6,A,O,0,17.5
+JAM_A02,5,Pseudopiptadenia suaveolens,Fabaceae,498816.0544,8986957.427,0.68,18.3,A,O,0,16.19
+JAM_A02,6,Inga marginata,Fabaceae,498827.4791,8986960.066,0.57,17.5,A,O,0,15.71
+JAM_A02,7,Protium hepytaphillum ,Burseraceae,498829.1798,8986962.951,0.63,14.5,A,O,0,13.82
+JAM_A02,8,Ocotea glomerata,Lauraceae,498831.4409,8986961.122,0.51,40.5,A,O,0,26.25
+JAM_A02,147a,Sacoglottis guianensis,Humiriaceae,498832.2621,8986955.26,0.84,70.0,A,O,0,34.15
+JAM_A02,10,Endopleura uchi,Humiriaceae,498838.5105,8986936.656,0.77,55.7,A,O,0,30.85
+JAM_A02,12,Sacoglottis guianensis,Humiriaceae,498838.3332,8986922.421,0.84,44.1,A,O,0,27.46
+JAM_A02,13,Couratari stellata,Lecythidaceae,498832.7128,8986935.111,0.63,70.0,A,O,0,34.15
+JAM_A02,14,Eschweilera grandifolia,Lecythidaceae,498813.3226,8986913.73,0.88,40.2,A,O,0,26.14
+JAM_A02,15,Trichilia micrantha,Meliaceae,498812.2999,8986914.471,0.61,73.8,A,O,0,34.9
+JAM_A02,16,Pouteria gongrijpii,Sapotaceae,498804.8033,8986925.648,0.8,50.0,A,O,0,29.28
+JAM_A02,17,Bowdichia nitida,Fabaceae,498802.7017,8986928.128,0.81,41.1,A,O,0,26.46
+JAM_A02,18,,,498801.1155,8986938.853,,35.5,D,O,0,24.4
+JAM_A02,19,Tetragastris panamensis,Burseraceae,498817.5987,8986942.232,0.73,35.0,A,O,0,24.21
+JAM_A02,20,Fusaea longifolia,Annonaceae,498943.2336,8986959.671,0.74,35.5,A,O,0,24.4
+JAM_A02,21,Euterpe oleracea,Arecaceae,498951.4241,8986966.444,0.41,13.1,A,P,0,12.88
+JAM_A02,122a,Handroanthus serratifolius,Bignoniaceae,498957.1675,8986958.935,0.64,45.5,A,O,0,27.91
+JAM_A02,31a,Apeiba echinata,Malvaceae,498957.956,8986956.999,0.28,73.0,A,O,0,34.75
+JAM_A02,22,Sloanea guianensis,Elaeocarpaceae,498950.4969,8986934.227,0.82,62.0,A,O,0,32.41
+JAM_A02,23,Maquira sclerophylla,Moraceae,498960.4946,8986969.28,0.53,18.1,A,O,0,16.07
+JAM_A02,24,Maquira sclerophylla,Moraceae,498964.227,8986969.119,0.53,23.3,A,O,0,18.94
+JAM_A02,25,Cedrelinga cateniformis,Fabaceae,498974.0767,8986955.458,0.5,65.6,A,O,0,33.22
+JAM_A02,26,Tachigali paniculata,Fabaceae,498979.4584,8986956.954,0.56,45.1,A,O,0,27.79
+JAM_A02,27,Eschweilera grandifolia,Lecythidaceae,498980.791,8986971.334,0.88,57.7,A,O,0,31.37
+JAM_A02,28,Protium hepytaphillum ,Burseraceae,498985.7813,8986969.581,0.63,13.1,A,O,0,12.88
+JAM_A02,29,Tachigali alba,Fabaceae,498989.4359,8986972.324,0.56,13.5,A,O,0,13.15
+JAM_A02,30,Cecropia engleriana,Urticaceae,498994.6012,8986935.241,0.49,62.9,A,O,0,32.62
+JAM_A02,55a,,,499094.9562,8986961.469,,76.3,D,O,0,35.37
+JAM_A02,31,Tetragastris panamensis,Burseraceae,499094.5038,8986976.437,0.73,13.2,A,O,0,12.95
+JAM_A02,32,Minquartia guianensis,Olacaceae,499095.8135,8986977.054,0.77,41.1,A,O,0,26.46
+JAM_A02,33,Maquira sclerophylla,Moraceae,499095.1946,8986978.3,0.53,11.4,A,O,0,11.67
+JAM_A02,34,Helicostylis sp.,Moraceae,499111.9692,8986977.787,0.65,37.8,A,O,0,25.28
+JAM_A02,36,Abuta grandifolia,Menispermaceae,499119.9579,8986963.688,0.45,110.0,A,O,0,40.12
+JAM_A02,37,Tachigali alba,Fabaceae,499126.1256,8986957.231,0.56,57.8,A,O,0,31.39
+JAM_A02,38,Dipteryx odorata,Fabaceae,499121.2393,8986976.809,0.92,58.0,A,O,0,31.44
+JAM_A02,39,Helicostylis sp.,Moraceae,499123.0066,8986979.467,0.65,19.3,A,O,0,16.77
+JAM_A02,40,Helicostylis sp.,Moraceae,499125.9462,8986979.428,0.65,27.1,A,O,0,20.81
+JAM_A02,41,Copaifera reticulata,Fabaceae,499135.6674,8986982.292,0.61,28.8,A,O,0,21.59
+JAM_A02,42,Ormosia nobilis,Fabaceae,499141.8286,8986977.635,0.58,69.7,A,O,0,34.09
+JAM_A02,43,Tachigali alba,Fabaceae,499134.56,8986966.985,0.56,42.0,A,O,0,26.77
+JAM_A02,44,Tetragastris panamensis,Burseraceae,499145.7513,8986948.967,0.73,54.8,A,O,0,30.62
+JAM_A02,45,Poeppigia sp.,Fabaceae,499145.0944,8986946.908,0.69,48.3,A,O,0,28.78
+JAM_A02,46,,,499137.8042,8986942.259,,49.8,D,O,0,29.22
+JAM_A02,47,Minquartia guianensis,Olacaceae,499137.9306,8986953.276,0.77,47.4,A,O,0,28.51
+JAM_A02,48,Couratari stellata,Lecythidaceae,499118.2217,8986938.52,0.63,46.1,A,O,0,28.1
+JAM_A02,49,Attalea speciosa,Arecaceae,499257.0712,8986987.445,0.33,26.6,A,P,0,20.58
+JAM_A02,50,Tetragastris panamensis,Burseraceae,499258.3227,8986991.055,0.73,35.7,A,O,0,24.48
+JAM_A02,51,,,499259.6709,8986987.455,,11.1,D,O,0,11.45
+JAM_A02,52,Maquira sclerophylla,Moraceae,499271.6623,8986992.539,0.53,15.0,A,O,0,14.15
+JAM_A02,53,Pouteria gongrijpii,Sapotaceae,499272.9284,8986981.213,0.8,60.0,A,O,0,31.94
+JAM_A02,54,Pradosia praealta,Sapotaceae,499273.0518,8986978.216,0.73,69.0,A,O,0,33.95
+JAM_A02,55,Virola elongata,Myristicaceae,499263.3724,8986970.413,0.52,55.5,A,O,0,30.8
+JAM_A02,56,Peltogyne leicointei,Fabaceae,499264.2869,8986972.492,0.8,80.0,A,O,0,36.02
+JAM_A02,57,Guatteria schomburgkiana,Annonaceae,499263.8247,8986959.422,0.6,43.2,A,O,0,27.17
+JAM_A02,58,,,499263.9069,8986957.424,,41.0,D,O,0,26.42
+JAM_A02,59,Copaifera reticulata,Fabaceae,499280.44,8986968.791,0.61,91.5,A,O,0,37.83
+JAM_A02,60,Peltogyne leicointei,Fabaceae,499281.3545,8986970.87,0.8,39.2,A,O,0,25.79
+JAM_A02,61,Cedrela odorata,Meliaceae,499285.3414,8986971.194,0.43,53.2,A,O,0,30.18
+JAM_A02,62,Vataireopsis speciosa,Fabaceae,499286.0404,8986954.208,0.65,52.0,A,O,0,29.85

@@ -1,643 +1,643 @@
-site,tree_id,scientific_name,family_name,wsd,agb_source,dbh,htot,hcom,dead,type
-SFX_A01,1,NI,NI,0.62,,11.3,,,A,O
-SFX_A01,2,NI,NI,0.62,,10.9,,,A,O
-SFX_A01,3,Jacaranda copaia,Bignoniaceae,0.35,,16.12,,,A,O
-SFX_A01,4,Cecropia ficifolia,Urticaceae,0.27,,29.5,,,A,O
-SFX_A01,5,Cecropia ficifolia,Urticaceae,0.27,,36.2,,,A,O
-SFX_A01,6,Socratea exorrhiza,Arecaceae,0.62,0.04549853,14.4,,,A,P
-SFX_A01,7,Jacaratia spinosa,Caricaceae,0.27,0.011520446,11.0,7.06,6.37,A,O
-SFX_A01,8,Neea oppositifolia,Nyctaginaceae,0.89,,11.7,,,A,O
-SFX_A01,9,Attalea maripa,Arecaceae,0.33,0.170173135,29.3,,,A,P
-SFX_A01,10,Cassia fastuosa,Fabaceae,0.81,,11.6,,,A,O
-SFX_A01,11,Schizolobium amazonicum,Fabaceae,0.49,,19.2,,,A,O
-SFX_A01,12,Castilla ulei,Moraceae,0.82,,14.8,,,A,O
-SFX_A01,13,Sapium marmieri,Euphorbiaceae,0.41,0.464425677,27.2,30.08,19.78,A,O
-SFX_A01,14,Castilla ulei,Moraceae,0.82,,11.3,,,A,O
-SFX_A01,15,Clarisia racemosa,Moraceae,0.59,,13.4,,,A,O
-SFX_A01,16,NI,NI,0.62,,10.7,,,A,O
-SFX_A01,17,Theobroma glaucum,Malvaceae,0.53,,13.1,,,A,O
-SFX_A01,18,Sapium marmieri,Euphorbiaceae,0.41,,10.7,,,A,O
-SFX_A01,19,Socratea exorrhiza,Arecaceae,0.62,0.054690591,15.9,22.84,18.32,A,P
-SFX_A01,20,Neea oppositifolia,Nyctaginaceae,0.89,,13.0,,,A,O
-SFX_A01,21,Inga marginata,Fabaceae,0.57,,11.3,,,A,O
-SFX_A01,22,Guatteria schomburgkiana,Annonaceae,0.6,,22.7,,,A,O
-SFX_A01,23,Cassia fastuosa,Fabaceae,0.81,,22.7,,,A,O
-SFX_A01,24,Zanthoxylum rhoifolium,Rutaceae,0.49,,17.6,,,A,O
-SFX_A01,25,Tabebuia serratifolia,Bignoniaceae,0.92,,20.5,,,A,O
-SFX_A01,26,Dalbergia melanoxylon,Fabaceae,0.8,,55.5,,,A,O
-SFX_A01,27,Tabernaemontana cymosa,Apocynaceae,0.47,,14.0,,,A,O
-SFX_A01,28,Hymenaea courbaril,Fabaceae,0.79,,16.6,,,A,O
-SFX_A01,29,Virola melinoni,Myristicaceae,0.48,,15.2,,,A,O
-SFX_A01,30,Attalea maripa,Arecaceae,0.33,0.220661455,33.7,,,A,P
-SFX_A01,31,Eschweilera parviflora,Lecythidaceae,0.89,0.048985315,11.3,8.48,5.68,A,O
-SFX_A01,32,Theobroma glaucum,Malvaceae,0.53,,21.9,,,A,O
-SFX_A01,33,Virola melinoni,Myristicaceae,0.48,0.276219667,23.0,21.54,17.64,A,O
-SFX_A01,34,Eschweilera parviflora,Lecythidaceae,0.89,,14.6,,,A,O
-SFX_A01,35,Theobroma glaucum,Malvaceae,0.53,,19.4,,,A,O
-SFX_A01,36,,,0.58,8.199048089,111.7,35.81,,D,O
-SFX_A01,37,Rinorea racemosa,Violaceae,0.68,,13.4,,,A,O
-SFX_A01,38,Inga thibaudiana,Fabaceae,0.58,,23.7,,,A,O
-SFX_A01,39,Cecropia ficifolia,Urticaceae,0.27,,16.9,,,A,O
-SFX_A01,40,Cecropia ficifolia,Urticaceae,0.27,,17.1,,,A,O
-SFX_A01,41,Nectandra cuspidata,Lauraceae,0.56,2.083963314,44.2,37.42,28.82,A,O
-SFX_A01,42,Dalbergia melanoxylon,Fabaceae,0.8,0.221644242,24.0,9.44,3.68,A,O
-SFX_A01,43,Dalbergia melanoxylon,Fabaceae,0.8,,22.1,,,A,O
-SFX_A01,44,Dalbergia melanoxylon,Fabaceae,0.8,,31.9,,,A,O
-SFX_A01,45,Astrocaryum aculeatum,Arecaceae,0.51,0.158500429,28.2,,,A,P
-SFX_A01,46,Socratea exorrhiza,Arecaceae,0.62,0.058584918,16.5,,,A,P
-SFX_A01,47,Theobroma glaucum,Malvaceae,0.53,,12.5,,,A,O
-SFX_A01,48,Castilla ulei,Moraceae,0.82,,20.7,,,A,O
-SFX_A01,49,Inga alba,Fabaceae,0.59,,31.0,,,A,O
-SFX_A01,50,Attalea maripa,Arecaceae,0.33,0.081422011,19.7,,,A,P
-SFX_A01,51,Protium heptaphyllum,Burseraceae,0.62,,17.3,,,A,O
-SFX_A01,52,Neea oppositifolia,Nyctaginaceae,0.89,,17.0,,,A,O
-SFX_A01,53,Socratea exorrhiza,Arecaceae,0.62,0.023547413,10.1,,,A,P
-SFX_A01,54,Cordia scabrifolia,Boraginaceae,0.47,,17.1,,,A,O
-SFX_A01,55,Theobroma glaucum,Malvaceae,0.53,,10.5,,,A,O
-SFX_A01,56,Vismia guianensis,Clusiaceae,0.46,,13.0,,,A,O
-SFX_A01,57,Attalea maripa,Arecaceae,0.33,0.194661689,31.5,,,A,P
-SFX_A01,58,Protium heptaphyllum,Burseraceae,0.62,,11.0,,,A,O
-SFX_A01,59,Theobroma glaucum,Malvaceae,0.53,,12.7,,,A,O
-SFX_A01,60,Socratea exorrhiza,Arecaceae,0.62,0.044913535,14.3,,,A,P
-SFX_A01,61,NI,NI,0.62,,13.1,,,A,O
-SFX_A01,1,Dalbergia melanoxylon,Fabaceae,0.8,0.870079309,41.8,12.22,6.72,A,O
-SFX_A01,2,Galipea trifoliata,NI,0.62,,11.5,,,A,O
-SFX_A01,3,Dalbergia melanoxylon,Fabaceae,0.8,,24.8,,,A,O
-SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,13.0,,,A,O
-SFX_A01,5,Dalbergia melanoxylon,Fabaceae,0.8,0.841349964,38.1,14.23,12.92,A,O
-SFX_A01,6,Dalbergia melanoxylon,Fabaceae,0.8,0.759776106,36.8,13.77,10.63,A,O
-SFX_A01,7,Brosimum rubescens,Moraceae,0.83,,27.7,,,A,O
-SFX_A01,8,Dalbergia melanoxylon,Fabaceae,0.8,1.187526541,38.5,19.66,14.8,A,O
-SFX_A01,9,Swartzia corrugata,Fabaceae,1.06,1.823692784,37.0,24.77,17.28,A,O
-SFX_A01,10,Rinorea racemosa,Violaceae,0.68,,13.5,,,A,O
-SFX_A01,11,Neea oppositifolia,Nyctaginaceae,0.89,,18.6,,,A,O
-SFX_A01,12,Tetragastris panamensis,Burseraceae,0.73,,25.6,,,A,O
-SFX_A01,13,Aspidosperma spruceanum,Apocynaceae,0.75,2.610148116,45.6,32.74,23.09,A,O
-SFX_A01,14,,,,0.01321884,10.9,,,A,L
-SFX_A01,15,Theobroma glaucum,Malvaceae,0.53,,10.9,,,A,O
-SFX_A01,16,Dalbergia melanoxylon,Fabaceae,0.8,,24.0,,,A,O
-SFX_A01,17,,,,0.014208072,12.5,,,A,L
-SFX_A01,18,Dalbergia melanoxylon,Fabaceae,0.8,0.553559217,36.1,10.43,6.62,A,O
-SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,31.8,,,A,O
-SFX_A01,20,Couratari stellata,Lecythidaceae,0.63,,12.1,,,A,O
-SFX_A01,21,Dalbergia melanoxylon,Fabaceae,0.8,,10.9,,,A,O
-SFX_A01,22,Dalbergia melanoxylon,Fabaceae,0.8,,10.9,,,A,O
-SFX_A01,23,Dalbergia melanoxylon,Fabaceae,0.8,,15.2,,,A,O
-SFX_A01,24,Dalbergia melanoxylon,Fabaceae,0.8,,22.7,,,A,O
-SFX_A01,25,,,0.58,0.201631277,30.8,9.01,,D,O
-SFX_A01,26,,,0.58,,32.5,,,D,O
-SFX_A01,27,Bertholletia excelsa,Lecythidaceae,0.64,,13.5,,,A,O
-SFX_A01,28,Dalbergia melanoxylon,Fabaceae,0.8,,16.2,,,A,O
-SFX_A01,29,Dalbergia melanoxylon,Fabaceae,0.8,,23.4,,,A,O
-SFX_A01,30,Dalbergia melanoxylon,Fabaceae,0.8,,24.2,,,A,O
-SFX_A01,31,,,0.58,0.230933165,37.7,6.49,,D,O
-SFX_A01,32,Dalbergia melanoxylon,Fabaceae,0.8,0.039535537,13.7,5.17,1.72,A,O
-SFX_A01,33,Clarisia racemosa,Moraceae,0.59,,14.7,,,A,O
-SFX_A01,34,Cordia scabrifolia,Boraginaceae,0.47,,20.5,,,A,O
-SFX_A01,35,Dalbergia melanoxylon,Fabaceae,0.8,0.186608077,19.7,11.8,6.84,A,O
-SFX_A01,36,Dalbergia melanoxylon,Fabaceae,0.8,,15.9,,,A,O
-SFX_A01,37,Dalbergia melanoxylon,Fabaceae,0.8,,24.0,,,A,O
-SFX_A01,38,,,0.58,,12.0,,,D,O
-SFX_A01,39,,,0.58,,23.0,,,D,O
-SFX_A01,40,Couratari stellata,Lecythidaceae,0.63,,10.3,,,A,O
-SFX_A01,41,Dalbergia melanoxylon,Fabaceae,0.8,,21.4,,,A,O
-SFX_A01,42,Dalbergia melanoxylon,Fabaceae,0.8,,29.8,,,A,O
-SFX_A01,43,Dalbergia melanoxylon,Fabaceae,0.8,,32.2,,,A,O
-SFX_A01,44,Tetragastris panamensis,Burseraceae,0.73,,11.0,,,A,O
-SFX_A01,45,Dalbergia melanoxylon,Fabaceae,0.8,0.512685569,35.3,10.1,6.07,A,O
-SFX_A01,46,Dalbergia melanoxylon,Fabaceae,0.8,,31.9,,,A,O
-SFX_A01,47,Dalbergia melanoxylon,Fabaceae,0.8,,10.1,,,A,O
-SFX_A01,48,Dalbergia melanoxylon,Fabaceae,0.8,,22.1,,,A,O
-SFX_A01,49,Jacaranda copaia,Bignoniaceae,0.35,,20.6,,,A,O
-SFX_A01,50,Tachigali myrmecophila,Fabaceae,0.48,,11.8,,,A,O
-SFX_A01,51,Dalbergia melanoxylon,Fabaceae,0.8,,37.2,,,A,O
-SFX_A01,52,Dalbergia melanoxylon,Fabaceae,0.8,,11.1,,,A,O
-SFX_A01,53,Zanthoxylum rhoifolium,Rutaceae,0.49,,23.3,,,A,O
-SFX_A01,54,Dalbergia melanoxylon,Fabaceae,0.8,,29.6,,,A,O
-SFX_A01,55,Neea oppositifolia,Nyctaginaceae,0.89,,11.5,,,A,O
-SFX_A01,56,Dalbergia melanoxylon,Fabaceae,0.8,0.947051689,45.5,11.23,7.0,A,O
-SFX_A01,57,Dalbergia melanoxylon,Fabaceae,0.8,,22.2,,,A,O
-SFX_A01,58,Eschweilera parviflora,Lecythidaceae,0.89,,11.9,,,A,O
-SFX_A01,59,Vismia guianensis,Clusiaceae,0.46,,15.3,,,A,O
-SFX_A01,60,Parkia sp.,Fabaceae,0.45,,22.0,,,A,O
-SFX_A01,61,Inga marginata,Fabaceae,0.57,,12.4,,,A,O
-SFX_A01,62,Helicostylis sp.,Moraceae,0.65,,10.6,,,A,O
-SFX_A01,63,Dalbergia melanoxylon,Fabaceae,0.8,,33.2,,,A,O
-SFX_A01,64,Brosimum rubescens,Moraceae,0.83,,14.0,,,A,O
-SFX_A01,65,NI,NI,0.62,,11.9,,,A,O
-SFX_A01,66,Tabebuia serratifolia,Bignoniaceae,0.92,,18.5,,,A,O
-SFX_A01,67,Virola melinoni,Myristicaceae,0.48,,12.3,,,A,O
-SFX_A01,68,Dalbergia melanoxylon,Fabaceae,0.8,,26.6,,,A,O
-SFX_A01,1,,,0.58,,14.7,,,D,O
-SFX_A01,2,Tetragastris panamensis,Burseraceae,0.73,,12.6,,,A,O
-SFX_A01,3,Dalbergia melanoxylon,Fabaceae,0.8,0.665705275,38.4,11.08,6.87,A,O
-SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,12.0,,,A,O
-SFX_A01,5,Inga marginata,Fabaceae,0.57,,10.6,,,A,O
-SFX_A01,6,Jacaratia spinosa,Caricaceae,0.27,0.598257645,40.7,26.78,12.24,A,O
-SFX_A01,7,Dalbergia melanoxylon,Fabaceae,0.8,0.572214981,36.3,10.66,3.56,A,O
-SFX_A01,8,Jacaranda copaia,Bignoniaceae,0.35,0.029513936,11.0,13.55,10.05,A,O
-SFX_A01,9,Virola melinoni,Myristicaceae,0.48,,11.1,,,A,O
-SFX_A01,10,Socratea exorrhiza,Arecaceae,0.62,0.065349123,17.5,,,A,P
-SFX_A01,11,NI,NI,0.62,,21.6,,,A,O
-SFX_A01,12,NI,NI,0.62,,13.5,,,A,O
-SFX_A01,13,Theobroma glaucum,Malvaceae,0.53,,14.2,,,A,O
-SFX_A01,14,Astronium gracile,Anacardiaceae,0.73,0.25310728,19.2,18.48,8.58,A,O
-SFX_A01,15,Sapium marmieri,Euphorbiaceae,0.41,,25.5,,,A,O
-SFX_A01,16,Bertholletia excelsa,Lecythidaceae,0.64,1.76013044,41.2,31.83,20.57,A,O
-SFX_A01,17,Helicostylis sp.,Moraceae,0.65,,12.2,,,A,O
-SFX_A01,18,,,0.58,0.620070783,47.0,12.66,6.0,D,O
-SFX_A01,19,Inga marginata,Fabaceae,0.57,,12.2,6.46,,A,O
-SFX_A01,20,Pterocarpus sp.,Fabaceae,0.51,0.247690544,23.7,16.91,10.63,A,O
-SFX_A01,21,NI,NI,0.62,,16.0,,,A,O
-SFX_A01,22,,,0.58,,18.1,,,D,O
-SFX_A01,23,Sterculia pruriens,Malvaceae,0.49,,16.2,,,A,O
-SFX_A01,24,,,0.58,,10.2,,,D,O
-SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,1.048774571,59.0,7.39,3.68,A,O
-SFX_A01,26,,,0.58,,14.2,,,D,O
-SFX_A01,27,Inga marginata,Fabaceae,0.57,,10.2,,,A,O
-SFX_A01,28,Tachigali myrmecophila,Fabaceae,0.48,,29.4,,,A,O
-SFX_A01,29,Laetia procera,Salicaceae,0.63,,17.7,,,A,O
-SFX_A01,30,Apeiba membranacea,Malvaceae,0.28,0.033024705,15.5,9.8,7.25,A,O
-SFX_A01,31,Cordia scabrifolia,Boraginaceae,0.47,,13.0,,,A,O
-SFX_A01,32,Cordia scabrifolia,Boraginaceae,0.47,,15.0,,,A,O
-SFX_A01,33,Stryphnodendron pulcherrimum,Fabaceae,0.47,,11.3,,,A,O
-SFX_A01,34,Castilla ulei,Moraceae,0.82,,14.5,,,A,O
-SFX_A01,35,Tetragastris panamensis,Burseraceae,0.73,,17.9,,,A,O
-SFX_A01,36,Tetragastris panamensis,Burseraceae,0.73,,19.8,,,A,O
-SFX_A01,37,Brosimum rubescens,Moraceae,0.83,,10.7,,,A,O
-SFX_A01,38,Dalbergia melanoxylon,Fabaceae,0.8,0.956305234,43.1,12.64,6.74,A,O
-SFX_A01,39,Tetragastris panamensis,Burseraceae,0.73,,10.3,,,A,O
-SFX_A01,40,Eriotheca globosa,Malvaceae,0.41,,16.6,,,A,O
-SFX_A01,41,Tetragastris panamensis,Burseraceae,0.73,,12.9,,,A,O
-SFX_A01,42,Pradosia praealta,Sapotaceae,0.73,,10.4,,,A,O
-SFX_A01,43,Tetragastris panamensis,Burseraceae,0.73,,13.2,,,A,O
-SFX_A01,44,Tetragastris panamensis,Burseraceae,0.73,,18.1,,,A,O
-SFX_A01,45,Dalbergia melanoxylon,Fabaceae,0.8,,42.0,,,A,O
-SFX_A01,46,Castilla ulei,Moraceae,0.82,,14.1,,,A,O
-SFX_A01,47,Rinorea racemosa,Violaceae,0.68,,11.5,,,A,O
-SFX_A01,48,Terminalia amazonia,Combretaceae,0.68,,18.5,,,A,O
-SFX_A01,49,,,0.58,,21.5,,,D,O
-SFX_A01,50,Guarea guidonia,Meliaceae,0.55,,22.2,,,A,O
-SFX_A01,51,Dalbergia melanoxylon,Fabaceae,0.8,,15.7,,,A,O
-SFX_A01,52,Ormosia grossa,Fabaceae,0.62,,10.8,,,A,O
-SFX_A01,53,Theobroma glaucum,Malvaceae,0.53,,13.7,,,A,O
-SFX_A01,54,Pouteria gongrijpii,Sapotaceae,0.8,,15.5,,,A,O
-SFX_A01,55,Pouteria gongrijpii,Sapotaceae,0.8,,20.5,,,A,O
-SFX_A01,56,Inga alba,Fabaceae,0.59,,15.3,,,A,O
-SFX_A01,57,Inga thibaudiana,Fabaceae,0.58,,13.9,,,A,O
-SFX_A01,58,,,0.58,,16.0,,,D,O
-SFX_A01,59,,,0.58,0.30777722,42.6,6.84,,D,O
-SFX_A01,60,Cordia scabrifolia,Boraginaceae,0.47,,12.1,,,A,O
-SFX_A01,61,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.3,,,A,O
-SFX_A01,62,Inga thibaudiana,Fabaceae,0.58,,17.7,,,A,O
-SFX_A01,63,Cordia scabrifolia,Boraginaceae,0.47,,18.7,,,A,O
-SFX_A01,64,Inga alba,Fabaceae,0.59,,28.2,,,A,O
-SFX_A01,65,Cordia scabrifolia,Boraginaceae,0.47,,17.2,,,A,O
-SFX_A01,66,Eschweilera coriacea,Lecythidaceae,0.85,,23.5,,,A,O
-SFX_A01,67,Xylopia sp.,Annonaceae,0.57,0.297952832,22.8,19.75,12.86,A,O
-SFX_A01,68,Tetragastris panamensis,Burseraceae,0.73,,28.2,,,A,O
-SFX_A01,69,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.2,,,A,O
-SFX_A01,70,Inga marginata,Fabaceae,0.57,,19.2,,,A,O
-SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,,11.3,,,A,O
-SFX_A01,72,Dalbergia melanoxylon,Fabaceae,0.8,,15.3,,,A,O
-SFX_A01,73,Dalbergia melanoxylon,Fabaceae,0.8,,26.0,,,A,O
-SFX_A01,74,Dalbergia melanoxylon,Fabaceae,0.8,,20.0,,,A,O
-SFX_A01,1,Dialium guianense,Fabaceae,0.89,0.068796664,13.2,8.71,4.35,A,O
-SFX_A01,2,Dalbergia melanoxylon,Fabaceae,0.8,0.595096062,50.0,5.84,5.66,A,O
-SFX_A01,3,NI,NI,0.62,,13.9,,,A,O
-SFX_A01,4,,,0.58,,10.2,,,D,O
-SFX_A01,5,Pouteria gongrijpii,Sapotaceae,0.8,,15.3,,,A,O
-SFX_A01,6,Galipea trifoliata,NI,0.62,,12.0,,,A,O
-SFX_A01,7,Theobroma glaucum,Malvaceae,0.53,0.075862894,16.5,10.33,5.58,A,O
-SFX_A01,8,Tetragastris panamensis,Burseraceae,0.73,,16.4,,,A,O
-SFX_A01,9,Pourouma minor,Urticaceae,0.44,,25.4,,,A,O
-SFX_A01,10,Guatteria schomburgkiana,Annonaceae,0.6,,17.1,,,A,O
-SFX_A01,11,Guatteria schomburgkiana,Annonaceae,0.6,,19.1,,,A,O
-SFX_A01,12,Pouteria sp.,Sapotaceae,0.78,,11.1,,,A,O
-SFX_A01,13,Astronium gracile,Anacardiaceae,0.73,2.631037012,60.8,19.15,12.46,A,O
-SFX_A01,14,NI,NI,0.62,,15.7,,,A,O
-SFX_A01,15,,,0.45,,27.8,,,D,O
-SFX_A01,16,Eschweilera parviflora,Lecythidaceae,0.89,,14.9,,,A,O
-SFX_A01,17,Dalbergia melanoxylon,Fabaceae,0.8,,12.3,,,A,O
-SFX_A01,18,Eschweilera parviflora,Lecythidaceae,0.89,,10.1,,,A,O
-SFX_A01,19,Vataireopsis speciosa,Fabaceae,0.65,,13.7,,,A,O
-SFX_A01,20,,,0.45,,18.7,,,D,O
-SFX_A01,21,,,0.45,,15.1,,,D,O
-SFX_A01,22,Tetragastris panamensis,Burseraceae,0.73,1.779399102,31.2,49.05,34.63,A,O
-SFX_A01,23,Stryphnodendron pulcherrimum,Fabaceae,0.47,,12.5,,,A,O
-SFX_A01,24,,,,0.013152273,10.8,,,A,L
-SFX_A01,25,,,0.45,0.405911999,46.6,10.5,,D,O
-SFX_A01,26,Protium heptaphyllum,Burseraceae,0.62,,13.7,,,A,O
-SFX_A01,27,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O
-SFX_A01,28,Brosimum obovata,Moraceae,0.68,,15.3,,,A,O
-SFX_A01,29,,,,0.014208072,12.5,,,A,L
-SFX_A01,30,Galipea trifoliata,NI,0.62,,17.4,,,A,O
-SFX_A01,31,Theobroma glaucum,Malvaceae,0.53,,10.8,,,A,O
-SFX_A01,32,Dialium guianense,Fabaceae,0.89,,14.5,,,A,O
-SFX_A01,33,Tetragastris panamensis,Burseraceae,0.73,,33.1,,,A,O
-SFX_A01,34,Pouteria gongrijpii,Sapotaceae,0.8,,42.8,,,A,O
-SFX_A01,35,Eschweilera coriacea,Lecythidaceae,0.85,,12.4,,,A,O
-SFX_A01,36,Theobroma glaucum,Malvaceae,0.53,0.053297689,12.1,13.5,8.59,A,O
-SFX_A01,37,Alibertia edulis,Rubiaceae,0.76,,12.8,,,A,O
-SFX_A01,38,Ormosia grossa,Fabaceae,0.62,0.03854441,10.8,10.46,6.75,A,O
-SFX_A01,39,Oenocarpus bacaba,Arecaceae,0.65,0.079893661,19.5,,,A,P
-SFX_A01,40,Pourouma minor,Urticaceae,0.44,,22.2,,,A,O
-SFX_A01,41,,,,0.014601611,13.2,,,A,L
-SFX_A01,42,Theobroma glaucum,Malvaceae,0.53,,10.8,,,A,O
-SFX_A01,43,Theobroma glaucum,Malvaceae,0.53,0.084307266,14.8,14.28,10.96,A,O
-SFX_A01,44,Parkia paraensis,Fabaceae,0.42,1.96440549,53.9,32.01,20.4,A,O
-SFX_A01,45,Pouteria gongrijpii,Sapotaceae,0.8,,17.4,,,A,O
-SFX_A01,46,Bertholletia excelsa,Lecythidaceae,0.64,6.744319318,77.0,34.92,25.51,A,O
-SFX_A01,47,,,0.7,,28.1,,,D,O
-SFX_A01,48,Alibertia edulis,Rubiaceae,0.76,,13.6,,,A,O
-SFX_A01,49,Couma guianensis,Apocynaceae,0.47,,12.8,,,A,O
-SFX_A01,50,Helicostylis sp.,Moraceae,0.65,,15.3,,,A,O
-SFX_A01,51,Couepia racemosa,Chrysobalanaceae,0.79,,14.9,,,A,O
-SFX_A01,52,Hevea brasiliensis,Euphorbiaceae,0.49,0.288479682,27.6,15.12,6.21,A,O
-SFX_A01,53,Guarea guidonia,Meliaceae,0.55,,12.8,,,A,O
-SFX_A01,54,Astrocaryum aculeatum,Arecaceae,0.51,0.105939516,22.7,,,A,P
-SFX_A01,55,Inga thibaudiana,Fabaceae,0.58,,14.1,,,A,O
-SFX_A01,56,Dalbergia melanoxylon,Fabaceae,0.8,,29.9,,,A,O
-SFX_A01,57,Neea oppositifolia,Nyctaginaceae,0.89,,10.0,,,A,O
-SFX_A01,58,Jacaranda copaia,Bignoniaceae,0.35,2.915408821,70.1,32.97,20.81,A,O
-SFX_A01,59,Dalbergia melanoxylon,Fabaceae,0.8,,12.1,,,A,O
-SFX_A01,60,Dalbergia melanoxylon,Fabaceae,0.8,,13.6,,,A,O
-SFX_A01,61,Pourouma minor,Urticaceae,0.44,,12.4,,,A,O
-SFX_A01,62,Pouteria sp.,Sapotaceae,0.78,,13.1,,,A,O
-SFX_A01,63,Lacunaria jenmanii,Quiinaceae,0.8,,12.5,,,A,O
-SFX_A01,64,Cordia scabrifolia,Boraginaceae,0.47,,16.1,,,A,O
-SFX_A01,65,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O
-SFX_A01,66,Strychnos subcordata,Loganiaceae,0.54,,13.1,,,A,O
-SFX_A01,67,Inga marginata,Fabaceae,0.57,,17.6,,,A,O
-SFX_A01,68,Thyrsodium paraense,Anacardiaceae,0.61,0.081705649,16.2,9.97,7.99,A,O
-SFX_A01,69,Brosimum rubescens,Moraceae,0.83,4.020042565,48.6,40.52,23.14,A,O
-SFX_A01,70,Cordia scabrifolia,Boraginaceae,0.47,,12.5,,,A,O
-SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,,11.0,,,A,O
-SFX_A01,72,Pouteria sp.,Sapotaceae,0.78,,13.0,,,A,O
-SFX_A01,73,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O
-SFX_A01,74,Strychnos subcordata,Loganiaceae,0.54,,11.9,,,A,O
-SFX_A01,75,Dalbergia melanoxylon,Fabaceae,0.8,,26.4,,,A,O
-SFX_A01,76,Vitex triflora,Lamiaceae,0.56,,10.5,,,A,O
-SFX_A01,77,Inga marginata,Fabaceae,0.57,,16.0,,,A,O
-SFX_A01,78,Dalbergia melanoxylon,Fabaceae,0.8,,15.3,,,A,O
-SFX_A01,79,Neea oppositifolia,Nyctaginaceae,0.89,0.171440084,18.9,10.56,6.31,A,O
-SFX_A01,80,Eriotheca globosa,Malvaceae,0.41,,15.4,,,A,O
-SFX_A01,81,Tetragastris panamensis,Burseraceae,0.73,,11.0,,,A,O
-SFX_A01,82,Dalbergia melanoxylon,Fabaceae,0.8,,31.4,,,A,O
-SFX_A01,83,Pourouma minor,Urticaceae,0.44,,18.2,,,A,O
-SFX_A01,84,Guatteria schomburgkiana,Annonaceae,0.6,,30.0,,,A,O
-SFX_A01,85,Neea oppositifolia,Nyctaginaceae,0.89,,13.3,,,A,O
-SFX_A01,86,Pouteria sp.,Sapotaceae,0.78,,10.0,,,A,O
-SFX_A01,87,Inga sp.,Fabaceae,0.58,,11.0,,,A,O
-SFX_A01,88,Tetragastris panamensis,Burseraceae,0.73,,11.5,,,A,O
-SFX_A01,1,Attalea maripa,Arecaceae,0.33,0.138262176,26.2,,,A,P
-SFX_A01,2,Galipea trifoliata,NI,0.62,,12.4,,,A,O
-SFX_A01,3,Theobroma glaucum,Malvaceae,0.53,,12.3,,,A,O
-SFX_A01,4,Thyrsodium paraense,Anacardiaceae,0.61,,14.6,,,A,O
-SFX_A01,5,Cecropia palmata,Urticaceae,0.35,,12.6,,,A,O
-SFX_A01,6,Ficus maxima,Moraceae,0.37,,12.1,,,A,O
-SFX_A01,7,,,0.45,,13.5,,,D,O
-SFX_A01,8,,,0.58,,12.0,,,D,O
-SFX_A01,9,Sloanea guianensis,Elaeocarpaceae,0.82,,11.5,,,A,O
-SFX_A01,10,Sloanea guianensis,Elaeocarpaceae,0.82,,12.1,,,A,O
-SFX_A01,11,Guatteria schomburgkiana,Annonaceae,0.6,,12.6,,,A,O
-SFX_A01,12,Inga marginata,Fabaceae,0.57,,10.7,,,A,O
-SFX_A01,13,Tachigali alba,Fabaceae,0.56,0.177112022,17.3,20.75,11.54,A,O
-SFX_A01,14,Theobroma glaucum,Malvaceae,0.53,,12.8,,,A,O
-SFX_A01,15,Theobroma glaucum,Malvaceae,0.53,,10.1,,,A,O
-SFX_A01,16,Guarea guidonia,Meliaceae,0.55,,10.9,,,A,O
-SFX_A01,17,Guatteria schomburgkiana,Annonaceae,0.6,,20.5,,,A,O
-SFX_A01,18,Dalbergia melanoxylon,Fabaceae,0.8,,17.9,,,A,O
-SFX_A01,19,Bertholletia excelsa,Lecythidaceae,0.64,,14.5,,,A,O
-SFX_A01,20,Cordia scabrifolia,Boraginaceae,0.47,,12.3,,,A,O
-SFX_A01,21,Ocotea glomerata,Lauraceae,0.51,6.653408935,74.5,46.35,29.98,A,O
-SFX_A01,22,Mimosa hostilis,Fabaceae,0.45,,21.0,,,A,O
-SFX_A01,23,NI,NI,0.62,,20.6,,,A,O
-SFX_A01,24,Attalea maripa,Arecaceae,0.33,0.131481006,25.5,,,A,P
-SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,,33.8,,,A,O
-SFX_A01,26,Attalea maripa,Arecaceae,0.33,0.136308645,26.0,,,A,P
-SFX_A01,27,Astronium gracile,Anacardiaceae,0.73,,14.6,,,A,O
-SFX_A01,28,Brosimum obovata,Moraceae,0.68,,15.9,,,A,O
-SFX_A01,29,Mimosa hostilis,Fabaceae,0.45,,17.7,,,A,O
-SFX_A01,30,Mimosa hostilis,Fabaceae,0.45,,11.1,,,A,O
-SFX_A01,31,,,0.58,0.017879152,15.0,2.71,,D,O
-SFX_A01,32,Dalbergia melanoxylon,Fabaceae,0.8,0.350041851,30.6,9.18,6.25,A,O
-SFX_A01,33,Theobroma glaucum,Malvaceae,0.53,0.014859781,10.4,5.1,3.09,A,O
-SFX_A01,34,Dalbergia melanoxylon,Fabaceae,0.8,,30.5,,,A,O
-SFX_A01,35,Jacaranda copaia,Bignoniaceae,0.35,,25.5,,,A,O
-SFX_A01,36,Astronium gracile,Anacardiaceae,0.73,,27.4,,,A,O
-SFX_A01,37,Poeppigia sp.,Fabaceae,0.69,,10.7,,,A,O
-SFX_A01,38,,,0.58,,12.6,,,D,O
-SFX_A01,39,Stryphnodendron pulcherrimum,Fabaceae,0.47,,11.0,,,A,O
-SFX_A01,40,Nectandra cuspidata,Lauraceae,0.56,,21.4,,,A,O
-SFX_A01,41,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.2,,,A,O
-SFX_A01,42,Neea oppositifolia,Nyctaginaceae,0.89,,17.5,,,A,O
-SFX_A01,43,Attalea maripa,Arecaceae,0.33,0.155383486,27.9,,,A,P
-SFX_A01,44,Tachigali myrmecophila,Fabaceae,0.48,,14.0,,,A,O
-SFX_A01,45,Castilla ulei,Moraceae,0.82,,28.9,,,A,O
-SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,18.4,,,A,O
-SFX_A01,47,Helicostylis sp.,Moraceae,0.65,,14.4,,,A,O
-SFX_A01,48,Couratari stellata,Lecythidaceae,0.63,,16.5,,,A,O
-SFX_A01,49,Inga marginata,Fabaceae,0.57,,17.4,,,A,O
-SFX_A01,50,,,0.45,,16.2,,,D,O
-SFX_A01,51,Guatteria schomburgkiana,Annonaceae,0.6,,15.8,,,A,O
-SFX_A01,52,,,0.45,,17.0,,,D,O
-SFX_A01,53,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O
-SFX_A01,54,Inga marginata,Fabaceae,0.57,,17.9,,,A,O
-SFX_A01,55,Nectandra cuspidata,Lauraceae,0.56,0.03751128,12.2,8.84,4.52,A,O
-SFX_A01,56,Enterolobium schomburgkii,Fabaceae,0.71,,12.7,,,A,O
-SFX_A01,57,Socratea exorrhiza,Arecaceae,0.62,0.040359712,13.5,,,A,P
-SFX_A01,58,NI,NI,0.62,,23.6,,,A,O
-SFX_A01,1,Galipea trifoliata,NI,0.62,,11.4,,,A,O
-SFX_A01,2,Neea oppositifolia,Nyctaginaceae,0.89,,13.3,,,A,O
-SFX_A01,3,Neea oppositifolia,Nyctaginaceae,0.89,,11.2,,,A,O
-SFX_A01,4,Neea oppositifolia,Nyctaginaceae,0.89,,12.0,,,A,O
-SFX_A01,5,NI,NI,0.62,,11.0,,,A,O
-SFX_A01,6,Neea oppositifolia,Nyctaginaceae,0.89,,11.3,,,A,O
-SFX_A01,7,Mimosa hostilis,Fabaceae,0.45,,12.8,,,A,O
-SFX_A01,8,Cordia scabrifolia,Boraginaceae,0.47,,11.3,,,A,O
-SFX_A01,9,Astronium gracile,Anacardiaceae,0.73,0.03237525,10.5,7.9,6.11,A,O
-SFX_A01,10,Astrocaryum aculeatum,Arecaceae,0.51,0.102499113,22.3,,,A,P
-SFX_A01,11,Terminalia amazonia,Combretaceae,0.68,,14.9,,,A,O
-SFX_A01,12,Neea oppositifolia,Nyctaginaceae,0.89,,11.4,,,A,O
-SFX_A01,13,Neea oppositifolia,Nyctaginaceae,0.89,,12.4,,,A,O
-SFX_A01,14,Couratari stellata,Lecythidaceae,0.63,,10.6,,,A,O
-SFX_A01,15,Neea oppositifolia,Nyctaginaceae,0.89,,23.0,,,A,O
-SFX_A01,16,Socratea exorrhiza,Arecaceae,0.62,0.074649894,18.8,,,A,P
-SFX_A01,17,Nectandra cuspidata,Lauraceae,0.56,,13.2,,,A,O
-SFX_A01,18,Inga sp.,Fabaceae,0.58,,12.2,,,A,O
-SFX_A01,19,,,0.58,,10.3,,,D,O
-SFX_A01,20,Mimosa hostilis,Fabaceae,0.45,,14.7,,,A,O
-SFX_A01,21,Mimosa hostilis,Fabaceae,0.45,,16.5,,,A,O
-SFX_A01,22,Cecropia ficifolia,Urticaceae,0.27,0.55939655,39.3,26.75,16.89,A,O
-SFX_A01,23,Mimosa hostilis,Fabaceae,0.45,,22.0,,,A,O
-SFX_A01,24,Mimosa hostilis,Fabaceae,0.45,,17.4,,,A,O
-SFX_A01,25,Mimosa hostilis,Fabaceae,0.45,,14.8,,,A,O
-SFX_A01,26,Mimosa hostilis,Fabaceae,0.45,0.053462032,13.0,13.81,4.51,A,O
-SFX_A01,27,Neea oppositifolia,Nyctaginaceae,0.89,,14.4,,,A,O
-SFX_A01,28,Galipea trifoliata,NI,0.62,,12.2,,,A,O
-SFX_A01,29,,,,0.014208072,12.5,,,A,L
-SFX_A01,30,Neea oppositifolia,Nyctaginaceae,0.89,,19.3,,,A,O
-SFX_A01,31,Galipea trifoliata,NI,0.62,,13.2,,,A,O
-SFX_A01,32,Astronium gracile,Anacardiaceae,0.73,,24.3,,,A,O
-SFX_A01,33,Rinorea racemosa,Violaceae,0.68,,11.3,,,A,O
-SFX_A01,34,Neea oppositifolia,Nyctaginaceae,0.89,,25.6,,,A,O
-SFX_A01,35,Helicostylis sp.,Moraceae,0.65,2.512738796,46.2,35.44,25.19,A,O
-SFX_A01,36,Rinorea racemosa,Violaceae,0.68,,13.6,,,A,O
-SFX_A01,37,Jacaranda copaia,Bignoniaceae,0.35,,20.5,,,A,O
-SFX_A01,38,Neea oppositifolia,Nyctaginaceae,0.89,,10.2,,,A,O
-SFX_A01,39,Theobroma glaucum,Malvaceae,0.53,,11.5,,,A,O
-SFX_A01,40,Couratari stellata,Lecythidaceae,0.63,,12.7,,,A,O
-SFX_A01,41,Pourouma minor,Urticaceae,0.44,,19.0,,,A,O
-SFX_A01,42,Inga marginata,Fabaceae,0.57,,31.4,,,A,O
-SFX_A01,43,Pouteria gongrijpii,Sapotaceae,0.8,,18.2,,,A,O
-SFX_A01,44,Rinorea racemosa,Violaceae,0.68,,10.3,,,A,O
-SFX_A01,45,NI,NI,0.62,,12.0,,,A,O
-SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,14.0,,,A,O
-SFX_A01,47,Neea oppositifolia,Nyctaginaceae,0.89,,10.7,,,A,O
-SFX_A01,48,Pourouma minor,Urticaceae,0.44,,16.9,,,A,O
-SFX_A01,49,Galipea trifoliata,NI,0.62,,14.2,,,A,O
-SFX_A01,50,Vitex triflora,Lamiaceae,0.56,0.032886436,12.3,7.63,3.61,A,O
-SFX_A01,51,Neea oppositifolia,Nyctaginaceae,0.89,,14.1,,,A,O
-SFX_A01,52,Mimosa hostilis,Fabaceae,0.45,,19.0,,,A,O
-SFX_A01,53,Mimosa hostilis,Fabaceae,0.45,,11.6,,,A,O
-SFX_A01,54,Mimosa hostilis,Fabaceae,0.45,0.180144359,19.0,21.79,13.41,A,O
-SFX_A01,55,Mimosa hostilis,Fabaceae,0.45,,16.7,,,A,O
-SFX_A01,56,Mimosa hostilis,Fabaceae,0.45,,14.5,,,A,O
-SFX_A01,57,Virola melinoni,Myristicaceae,0.48,1.144334272,43.0,25.54,21.6,A,O
-SFX_A01,58,Neea oppositifolia,Nyctaginaceae,0.89,,10.6,,,A,O
-SFX_A01,59,Pouteria sp.,Sapotaceae,0.78,,12.0,,,A,O
-SFX_A01,60,,,0.58,,12.8,,,D,O
-SFX_A01,61,Neea oppositifolia,Nyctaginaceae,0.89,,22.3,,,A,O
-SFX_A01,62,Pouteria sp.,Sapotaceae,0.78,,30.4,,,A,O
-SFX_A01,63,Neea oppositifolia,Nyctaginaceae,0.89,,15.2,,,A,O
-SFX_A01,64,Astronium gracile,Anacardiaceae,0.73,,13.0,,,A,O
-SFX_A01,65,Astrocaryum aculeatum,Arecaceae,0.51,0.112977242,23.5,,,A,P
-SFX_A01,66,Galipea trifoliata,NI,0.62,,19.7,,,A,O
-SFX_A01,67,Mimosa hostilis,Fabaceae,0.45,,15.4,,,A,O
-SFX_A01,68,Mimosa hostilis,Fabaceae,0.45,,15.3,,,A,O
-SFX_A01,69,Inga marginata,Fabaceae,0.57,,17.2,,,A,O
-SFX_A01,70,Galipea trifoliata,NI,0.62,,10.4,,,A,O
-SFX_A01,71,,,0.58,,14.2,,,D,O
-SFX_A01,1,Inga marginata,Fabaceae,0.57,,12.0,,,A,O
-SFX_A01,2,Pourouma minor,Urticaceae,0.44,,10.2,,,A,O
-SFX_A01,3,Castilla ulei,Moraceae,0.82,,17.4,,,A,O
-SFX_A01,4,Castilla ulei,Moraceae,0.82,,16.2,,,A,O
-SFX_A01,5,Virola melinoni,Myristicaceae,0.48,,13.4,,,A,O
-SFX_A01,6,NI,NI,0.62,,17.4,,,A,O
-SFX_A01,7,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.8,,,A,O
-SFX_A01,8,,,0.58,,28.0,,,D,O
-SFX_A01,9,Stryphnodendron pulcherrimum,Fabaceae,0.47,,14.2,,,A,O
-SFX_A01,10,Eschweilera parviflora,Lecythidaceae,0.89,,14.2,,,A,O
-SFX_A01,11,,,,0.015572874,15.1,,,A,L
-SFX_A01,12,,,,0.01301727,10.6,,,A,L
-SFX_A01,13,,,,0.014601611,13.2,,,A,L
-SFX_A01,14,Dalbergia melanoxylon,Fabaceae,0.8,,28.6,,,A,O
-SFX_A01,15,Galipea trifoliata,NI,0.62,,13.7,,,A,O
-SFX_A01,16,Neea oppositifolia,Nyctaginaceae,0.89,,28.5,,,A,O
-SFX_A01,17,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.6,,,A,O
-SFX_A01,18,Theobroma glaucum,Malvaceae,0.53,,12.6,,,A,O
-SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,12.0,,,A,O
-SFX_A01,20,Eschweilera parviflora,Lecythidaceae,0.89,,12.3,,,A,O
-SFX_A01,21,Stryphnodendron pulcherrimum,Fabaceae,0.47,0.028148498,11.0,9.72,5.21,A,O
-SFX_A01,22,Dalbergia melanoxylon,Fabaceae,0.8,0.446655662,23.2,20.37,8.36,A,O
-SFX_A01,23,Theobroma glaucum,Malvaceae,0.53,,10.6,,,A,O
-SFX_A01,24,Dalbergia melanoxylon,Fabaceae,0.8,1.064411087,36.9,19.19,5.51,A,O
-SFX_A01,25,,,0.58,7.972370444,120.0,29.04,,D,O
-SFX_A01,26,,,,0.016169353,16.4,,,A,L
-SFX_A01,27,Ceiba pentandra,Malvaceae,0.35,,25.1,,,A,O
-SFX_A01,28,Theobroma glaucum,Malvaceae,0.53,,10.2,,,A,O
-SFX_A01,29,Helicostylis sp.,Moraceae,0.65,,21.3,,,A,O
-SFX_A01,30,Dalbergia melanoxylon,Fabaceae,0.8,,22.2,,,A,O
-SFX_A01,31,,,0.58,,16.5,,,D,O
-SFX_A01,32,Hymenaea courbaril,Fabaceae,0.79,3.572612251,60.5,24.36,22.81,A,O
-SFX_A01,33,Tetragastris panamensis,Burseraceae,0.73,1.992310013,42.9,29.05,18.03,A,O
-SFX_A01,34,Theobroma glaucum,Malvaceae,0.53,,12.3,,,A,O
-SFX_A01,35,Pouteria gongrijpii,Sapotaceae,0.8,,19.7,,,A,O
-SFX_A01,36,Pourouma minor,Urticaceae,0.44,,19.1,,,A,O
-SFX_A01,37,Hymenolobium petraeum,Fabaceae,0.71,,21.3,,,A,O
-SFX_A01,38,Galipea trifoliata,NI,0.62,,15.0,,,A,O
-SFX_A01,39,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O
-SFX_A01,40,Dalbergia melanoxylon,Fabaceae,0.8,1.1786416,48.5,12.3,9.79,A,O
-SFX_A01,41,Inga sp.,Fabaceae,0.58,,17.2,,,A,O
-SFX_A01,42,Inga alba,Fabaceae,0.59,,31.1,,,A,O
-SFX_A01,43,NI,NI,0.62,,12.8,,,A,O
-SFX_A01,44,Pourouma minor,Urticaceae,0.44,,20.1,,,A,O
-SFX_A01,45,NI,NI,0.62,,11.1,,,A,O
-SFX_A01,46,NI,NI,0.62,,14.4,,,A,O
-SFX_A01,47,Zollernia paraensis,Fabaceae,0.99,,19.4,,,A,O
-SFX_A01,48,Tetragastris panamensis,Burseraceae,0.73,1.066065188,35.5,22.7,12.04,A,O
-SFX_A01,49,,,0.58,0.665186024,63.1,6.71,,D,O
-SFX_A01,50,NI,NI,0.62,,13.0,,,A,O
-SFX_A01,51,Ficus maxima,Moraceae,0.37,1.853481137,50.0,39.69,20.02,A,O
-SFX_A01,52,Theobroma glaucum,Malvaceae,0.53,,16.5,,,A,O
-SFX_A01,53,NI,NI,0.62,,11.3,,,A,O
-SFX_A01,54,Tetragastris panamensis,Burseraceae,0.73,2.464091456,49.5,26.98,18.37,A,O
-SFX_A01,55,Virola melinoni,Myristicaceae,0.48,,31.2,,,A,O
-SFX_A01,56,Pouteria gongrijpii,Sapotaceae,0.8,,10.5,,,A,O
-SFX_A01,57,Dalbergia melanoxylon,Fabaceae,0.8,,17.6,,,A,O
-SFX_A01,58,Sapium marmieri,Euphorbiaceae,0.41,1.117913181,42.2,30.08,18.65,A,O
-SFX_A01,59,Tetragastris panamensis,Burseraceae,0.73,,24.2,,,A,O
-SFX_A01,60,,,,0.016555215,17.3,,,A,L
-SFX_A01,61,Dalbergia melanoxylon,Fabaceae,0.8,,17.6,,,A,O
-SFX_A01,62,NI,NI,0.62,,12.7,,,A,O
-SFX_A01,63,NI,NI,0.62,,11.2,,,A,O
-SFX_A01,64,,,0.58,,11.6,,,D,O
-SFX_A01,65,,,0.58,,19.6,,,D,O
-SFX_A01,66,Dalbergia melanoxylon,Fabaceae,0.8,,25.9,,,A,O
-SFX_A01,67,Brosimum rubescens ,Moraceae,0.83,,13.9,,,A,O
-SFX_A01,68,Sapium marmieri,Euphorbiaceae,0.41,0.685768354,45.1,16.16,11.45,A,O
-SFX_A01,69,Dalbergia melanoxylon,Fabaceae,0.8,,24.3,,,A,O
-SFX_A01,70,Neea oppositifolia,Nyctaginaceae,0.89,0.176579472,15.8,15.57,10.31,A,O
-SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,1.344231718,50.3,13.04,5.44,A,O
-SFX_A01,72,NI,NI,0.62,,27.5,,,A,O
-SFX_A01,73,Eschweilera parviflora,Lecythidaceae,0.89,,12.8,,,A,O
-SFX_A01,74,Dalbergia melanoxylon,Fabaceae,0.8,,15.2,,,A,O
-SFX_A01,75,Zollernia paraensis,Fabaceae,0.99,3.517943874,46.8,31.87,19.42,A,O
-SFX_A01,76,,,,0.012739448,10.2,,,A,L
-SFX_A01,77,Theobroma glaucum,Malvaceae,0.53,,10.9,,,A,O
-SFX_A01,78,Inga alba,Fabaceae,0.59,0.133729431,14.1,22.55,14.71,A,O
-SFX_A01,79,Dalbergia melanoxylon,Fabaceae,0.8,,23.2,,,A,O
-SFX_A01,80,Tabebuia serratifolia,Bignoniaceae,0.92,,33.2,,,A,O
-SFX_A01,81,Tabebuia serratifolia,Bignoniaceae,0.92,,30.4,,,A,O
-SFX_A01,82,Inga alba,Fabaceae,0.59,,12.3,,,A,O
-SFX_A01,83,Inga alba,Fabaceae,0.59,,11.4,,,A,O
-SFX_A01,84,,,,0.013479137,11.3,,,A,L
-SFX_A01,85,Nectandra cuspidata,Lauraceae,0.56,,16.2,,,A,O
-SFX_A01,86,Dalbergia melanoxylon,Fabaceae,0.8,,32.0,,,A,O
-SFX_A01,1,,,0.58,,32.6,,,D,O
-SFX_A01,2,Terminalia amazonia,Combretaceae,0.68,,10.3,,,A,O
-SFX_A01,3,Brosimum obovata,Moraceae,0.68,,12.0,,,A,O
-SFX_A01,4,Neea oppositifolia,Nyctaginaceae,0.89,,11.6,,,A,O
-SFX_A01,5,NI,NI,0.62,,14.6,,,A,O
-SFX_A01,6,Castilla ulei,Moraceae,0.82,,10.1,,,A,O
-SFX_A01,7,Vitex triflora,Lamiaceae,0.56,,14.5,,,A,O
-SFX_A01,8,Inga marginata,Fabaceae,0.57,,10.6,,,A,O
-SFX_A01,9,Mimosa hostilis,Fabaceae,0.45,,13.4,,,A,O
-SFX_A01,10,Inga marginata,Fabaceae,0.57,,26.4,,,A,O
-SFX_A01,11,Cecropia ficifolia,Urticaceae,0.27,0.056573233,17.0,14.46,10.64,A,O
-SFX_A01,12,Tetragastris panamensis,Burseraceae,0.73,,10.2,,,A,O
-SFX_A01,13,Cecropia ficifolia,Urticaceae,0.27,,27.0,,,A,O
-SFX_A01,14,Cecropia ficifolia,Urticaceae,0.27,,32.7,,,A,O
-SFX_A01,15,Inga marginata,Fabaceae,0.57,,15.8,,,A,O
-SFX_A01,16,Inga marginata,Fabaceae,0.57,,16.2,,,A,O
-SFX_A01,17,Vitex triflora,Lamiaceae,0.56,,19.5,,,A,O
-SFX_A01,18,Mimosa hostilis,Fabaceae,0.45,,13.3,,,A,O
-SFX_A01,19,Mimosa hostilis,Fabaceae,0.45,,16.0,,,A,O
-SFX_A01,20,Mimosa hostilis,Fabaceae,0.45,,11.1,,,A,O
-SFX_A01,21,Vitex triflora,Lamiaceae,0.56,,17.8,,,A,O
-SFX_A01,22,Attalea maripa,Arecaceae,0.33,0.211033085,32.9,,,A,P
-SFX_A01,23,Inga marginata,Fabaceae,0.57,,11.5,,,A,O
-SFX_A01,24,Platymiscium filipes,Fabaceae,0.79,,11.7,,,A,O
-SFX_A01,25,Socratea exorrhiza,Arecaceae,0.62,0.041477095,13.7,,,A,P
-SFX_A01,26,Castilla ulei,Moraceae,0.82,,15.1,,,A,O
-SFX_A01,27,Guatteria schomburgkiana,Annonaceae,0.6,,21.2,,,A,O
-SFX_A01,28,Inga marginata,Fabaceae,0.57,,16.3,,,A,O
-SFX_A01,29,Inga marginata,Fabaceae,0.57,,13.0,,,A,O
-SFX_A01,30,Rinorea racemosa,Violaceae,0.68,,11.0,,,A,O
-SFX_A01,31,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O
-SFX_A01,32,Nectandra cuspidata,Lauraceae,0.56,,32.1,,,A,O
-SFX_A01,33,Attalea maripa,Arecaceae,0.33,0.177800093,30.0,,,A,P
-SFX_A01,34,Inga marginata,Fabaceae,0.57,,11.9,,,A,O
-SFX_A01,35,Inga marginata,Fabaceae,0.57,,14.0,,,A,O
-SFX_A01,36,Eschweilera parviflora,Lecythidaceae,0.89,,14.7,,,A,O
-SFX_A01,37,Theobroma glaucum,Malvaceae,0.53,,15.3,,,A,O
-SFX_A01,38,Poecilanthe effusa,Fabaceae,0.71,,12.1,,,A,O
-SFX_A01,39,Rheedia gardneriana,Clusiaceae,0.62,,16.6,,,A,O
-SFX_A01,40,,,0.58,,15.4,,,D,O
-SFX_A01,41,Cordia scabrifolia,Boraginaceae,0.47,,14.9,,,A,O
-SFX_A01,42,Annona ambotay,Annonaceae,0.41,0.027256699,11.3,10.15,5.6,A,O
-SFX_A01,43,Galipea trifoliata,NI,0.62,,13.7,,,A,O
-SFX_A01,44,Galipea trifoliata,NI,0.62,,14.3,,,A,O
-SFX_A01,45,Rinorea racemosa,Violaceae,0.68,,14.5,,,A,O
-SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,11.5,,,A,O
-SFX_A01,47,Poecilanthe effusa,Fabaceae,0.71,,11.0,,,A,O
-SFX_A01,48,Astronium gracile,Anacardiaceae,0.73,,10.5,,,A,O
-SFX_A01,49,Oenocarpus bacaba,Arecaceae,0.65,0.120223337,24.3,,,A,P
-SFX_A01,50,Mimosa hostilis,Fabaceae,0.45,,21.0,,,A,O
-SFX_A01,51,NI,NI,0.62,,13.9,,,A,O
-SFX_A01,52,Couratari stellata,Lecythidaceae,0.63,,11.6,,,A,O
-SFX_A01,53,Tetragastris panamensis,Burseraceae,0.73,,12.5,,,A,O
-SFX_A01,54,Neea oppositifolia,Nyctaginaceae,0.89,,10.3,,,A,O
-SFX_A01,55,Galipea trifoliata,NI,0.62,0.03349192,10.3,10.0,5.06,A,O
-SFX_A01,56,NI,NI,0.62,,12.0,,,A,O
-SFX_A01,57,Cordia scabrifolia,Boraginaceae,0.47,,13.2,,,A,O
-SFX_A01,58,NI,NI,0.62,,11.5,,,A,O
-SFX_A01,59,Tetragastris panamensis,Burseraceae,0.73,,14.3,,,A,O
-SFX_A01,60,Poecilanthe effusa,Fabaceae,0.71,,10.6,,,A,O
-SFX_A01,61,Attalea maripa,Arecaceae,0.33,0.180007543,30.2,,,A,P
-SFX_A01,62,Pourouma minor,Urticaceae,0.44,,14.0,,,A,O
-SFX_A01,63,Nectandra cuspidata,Lauraceae,0.56,,11.0,,,A,O
-SFX_A01,64,Euterpe oleracea,Arecaceae,0.41,0.023116305,10.0,,,A,P
-SFX_A01,65,Schefflera morototoni,Araliaceae,0.45,,25.5,,,A,O
-SFX_A01,1,,,0.58,,15.9,,,D,O
-SFX_A01,2,Dalbergia melanoxylon,Fabaceae,0.8,1.364982451,59.8,9.37,5.46,A,O
-SFX_A01,3,Hymenolobium petraeum,Fabaceae,0.71,,19.2,,,A,O
-SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,18.2,,,A,O
-SFX_A01,5,Poecilanthe effusa,Fabaceae,0.71,,12.6,,,A,O
-SFX_A01,6,Dalbergia melanoxylon,Fabaceae,0.8,,31.1,,,A,O
-SFX_A01,7,Galipea trifoliata,NI,0.62,,10.1,,,A,O
-SFX_A01,8,Dalbergia melanoxylon,Fabaceae,0.8,,34.8,,,A,O
-SFX_A01,9,Rinorea racemosa,Violaceae,0.68,,10.0,,,A,O
-SFX_A01,10,Rinorea racemosa,Violaceae,0.68,,14.9,,,A,O
-SFX_A01,11,,,0.58,,22.3,,,D,O
-SFX_A01,12,Rinorea passoura,Violaceae,0.68,,10.6,,,A,O
-SFX_A01,13,Poecilanthe effusa,Fabaceae,0.71,,13.3,,,A,O
-SFX_A01,14,Theobroma glaucum,Malvaceae,0.53,,13.5,,,A,O
-SFX_A01,15,Dalbergia melanoxylon,Fabaceae,0.8,2.997736284,66.2,16.79,10.78,A,O
-SFX_A01,16,Dalbergia melanoxylon,Fabaceae,0.8,1.498833901,44.0,19.0,8.95,A,O
-SFX_A01,17,Inga marginata,Fabaceae,0.57,,10.1,,,A,O
-SFX_A01,18,Poecilanthe effusa,Fabaceae,0.71,,10.5,,,A,O
-SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,12.6,,,A,O
-SFX_A01,20,Helicostylis sp.,Moraceae,0.65,4.186639431,52.7,45.39,27.2,A,O
-SFX_A01,21,,,,0.01266829,10.1,,,A,L
-SFX_A01,22,,,0.58,,14.1,,,D,O
-SFX_A01,23,Poecilanthe effusa,Fabaceae,0.71,,10.7,,,A,O
-SFX_A01,24,Rinorea racemosa,Violaceae,0.68,,11.7,,,A,O
-SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,1.879145203,52.6,16.67,6.95,A,O
-SFX_A01,26,Dalbergia melanoxylon,Fabaceae,0.8,0.890006104,43.3,11.65,5.75,A,O
-SFX_A01,27,,,0.58,,11.9,,,D,O
-SFX_A01,28,Gustavia poeppigiana,Lecythidaceae,0.66,,10.4,,,A,O
-SFX_A01,29,Dalbergia melanoxylon,Fabaceae,0.8,1.327426257,47.8,14.26,4.96,A,O
-SFX_A01,30,Inga sp.,Fabaceae,0.58,,10.6,,,A,O
-SFX_A01,31,Inga sp.,Fabaceae,0.58,,11.1,,,A,O
-SFX_A01,32,Inga sp.,Fabaceae,0.58,,16.0,,,A,O
-SFX_A01,33,Inga sp.,Fabaceae,0.58,,14.2,,,A,O
-SFX_A01,34,Zanthoxylum rhoifolium,Rutaceae,0.49,,25.8,,,A,O
-SFX_A01,35,Inga marginata,Fabaceae,0.57,,10.3,,,A,O
-SFX_A01,36,Dalbergia melanoxylon,Fabaceae,0.8,1.999997208,67.1,10.9,1.94,A,O
-SFX_A01,37,Poecilanthe effusa,Fabaceae,0.71,,10.2,,,A,O
-SFX_A01,38,Pouteria gongrijpii,Sapotaceae,0.8,,13.5,,,A,O
-SFX_A01,39,NI,NI,0.62,,29.1,,,A,O
-SFX_A01,40,Poecilanthe effusa,Fabaceae,0.71,,11.2,,,A,O
-SFX_A01,41,Tetragastris panamensis,Burseraceae,0.73,1.141988183,39.5,19.64,11.5,A,O
-SFX_A01,42,Parkia sp.,Fabaceae,0.45,,30.6,,,A,O
-SFX_A01,43,NI,NI,0.62,,10.6,,,A,O
-SFX_A01,44,Poecilanthe effusa,Fabaceae,0.71,,11.6,,,A,O
-SFX_A01,45,,,,0.012596424,10.0,,,A,L
-SFX_A01,46,Parkia gigantocarpa,Fabaceae,0.26,8.681787316,130.0,38.82,21.13,A,O
-SFX_A01,47,Neea oppositifolia,Nyctaginaceae,0.89,,21.0,,,A,O
-SFX_A01,48,Vataireopsis speciosa,Fabaceae,0.65,,10.5,,,A,O
-SFX_A01,49,Tabebuia serratifolia,Bignoniaceae,0.92,8.459324903,61.2,48.23,31.84,A,O
-SFX_A01,50,Cordia scabrifolia,Boraginaceae,0.47,,28.9,,,A,O
-SFX_A01,51,Poecilanthe effusa,Fabaceae,0.71,,11.0,,,A,O
-SFX_A01,52,Zollernia paraensis,Fabaceae,0.99,,26.1,,,A,O
-SFX_A01,53,Brosimum obovata,Moraceae,0.68,,12.4,,,A,O
-SFX_A01,54,Bertholletia excelsa,Lecythidaceae,0.64,12.99401533,90.0,49.24,27.67,A,O
-SFX_A01,55,Cordia scabrifolia,Boraginaceae,0.47,,14.2,,,A,O
-SFX_A01,56,Pouteria gongrijpii,Sapotaceae,0.8,3.450277924,51.0,32.6,20.84,A,O
-SFX_A01,57,,,0.58,,12.9,,,D,O
-SFX_A01,58,Theobroma glaucum,Malvaceae,0.53,,11.4,,,A,O
-SFX_A01,59,Neea oppositifolia,Nyctaginaceae,0.89,,21.1,,,A,O
-SFX_A01,60,Stryphnodendron pulcherrimum,Fabaceae,0.47,,14.5,,,A,O
-SFX_A01,61,Poecilanthe effusa,Fabaceae,0.71,,15.9,,,A,O
-SFX_A01,62,Dipteryx odorata,Fabaceae,0.92,4.240152496,49.6,36.81,24.75,A,O
-SFX_A01,63,NI,NI,0.62,,10.3,,,A,O
-SFX_A01,64,Dalbergia melanoxylon,Fabaceae,0.8,,18.9,,,A,O
-SFX_A01,65,Aspidosperma parvifolium,Apocynaceae,0.74,24.17442927,125.2,41.13,36.04,A,O
-SFX_A01,66,Dalbergia melanoxylon,Fabaceae,0.8,1.355172527,46.0,15.72,3.94,A,O
-SFX_A01,67,Galipea trifoliata,NI,0.62,,12.9,,,A,O
-SFX_A01,68,,,0.45,,19.2,,,D,O
-SFX_A01,69,Tetragastris panamensis,Burseraceae,0.73,,10.6,,,A,O
-SFX_A01,70,,,0.6,,14.2,,,D,O
-SFX_A01,71,Eschweilera parviflora,Lecythidaceae,0.89,,11.8,,,A,O
+site,tree_id,scientific_name,family_name,wsd,agb_source,dbh,htot,hcom,dead,type,htot_feldpausch
+SFX_A01,1,NI,NI,0.62,,11.3,,,A,O,11.6
+SFX_A01,2,NI,NI,0.62,,10.9,,,A,O,11.3
+SFX_A01,3,Jacaranda copaia,Bignoniaceae,0.35,,16.12,,,A,O,14.86
+SFX_A01,4,Cecropia ficifolia,Urticaceae,0.27,,29.5,,,A,O,21.91
+SFX_A01,5,Cecropia ficifolia,Urticaceae,0.27,,36.2,,,A,O,24.67
+SFX_A01,6,Socratea exorrhiza,Arecaceae,0.62,0.04549853,14.4,,,A,P,13.76
+SFX_A01,7,Jacaratia spinosa,Caricaceae,0.27,0.011520446,11.0,7.06,6.37,A,O,11.38
+SFX_A01,8,Neea oppositifolia,Nyctaginaceae,0.89,,11.7,,,A,O,11.89
+SFX_A01,9,Attalea maripa,Arecaceae,0.33,0.170173135,29.3,,,A,P,21.82
+SFX_A01,10,Cassia fastuosa,Fabaceae,0.81,,11.6,,,A,O,11.82
+SFX_A01,11,Schizolobium amazonicum,Fabaceae,0.49,,19.2,,,A,O,16.71
+SFX_A01,12,Castilla ulei,Moraceae,0.82,,14.8,,,A,O,14.02
+SFX_A01,13,Sapium marmieri,Euphorbiaceae,0.41,0.464425677,27.2,30.08,19.78,A,O,20.86
+SFX_A01,14,Castilla ulei,Moraceae,0.82,,11.3,,,A,O,11.6
+SFX_A01,15,Clarisia racemosa,Moraceae,0.59,,13.4,,,A,O,13.08
+SFX_A01,16,NI,NI,0.62,,10.7,,,A,O,11.15
+SFX_A01,17,Theobroma glaucum,Malvaceae,0.53,,13.1,,,A,O,12.88
+SFX_A01,18,Sapium marmieri,Euphorbiaceae,0.41,,10.7,,,A,O,11.15
+SFX_A01,19,Socratea exorrhiza,Arecaceae,0.62,0.054690591,15.9,22.84,18.32,A,P,14.73
+SFX_A01,20,Neea oppositifolia,Nyctaginaceae,0.89,,13.0,,,A,O,12.81
+SFX_A01,21,Inga marginata,Fabaceae,0.57,,11.3,,,A,O,11.6
+SFX_A01,22,Guatteria schomburgkiana,Annonaceae,0.6,,22.7,,,A,O,18.63
+SFX_A01,23,Cassia fastuosa,Fabaceae,0.81,,22.7,,,A,O,18.63
+SFX_A01,24,Zanthoxylum rhoifolium,Rutaceae,0.49,,17.6,,,A,O,15.77
+SFX_A01,25,Tabebuia serratifolia,Bignoniaceae,0.92,,20.5,,,A,O,17.45
+SFX_A01,26,Dalbergia melanoxylon,Fabaceae,0.8,,55.5,,,A,O,30.8
+SFX_A01,27,Tabernaemontana cymosa,Apocynaceae,0.47,,14.0,,,A,O,13.49
+SFX_A01,28,Hymenaea courbaril,Fabaceae,0.79,,16.6,,,A,O,15.16
+SFX_A01,29,Virola melinoni,Myristicaceae,0.48,,15.2,,,A,O,14.28
+SFX_A01,30,Attalea maripa,Arecaceae,0.33,0.220661455,33.7,,,A,P,23.69
+SFX_A01,31,Eschweilera parviflora,Lecythidaceae,0.89,0.048985315,11.3,8.48,5.68,A,O,11.6
+SFX_A01,32,Theobroma glaucum,Malvaceae,0.53,,21.9,,,A,O,18.21
+SFX_A01,33,Virola melinoni,Myristicaceae,0.48,0.276219667,23.0,21.54,17.64,A,O,18.79
+SFX_A01,34,Eschweilera parviflora,Lecythidaceae,0.89,,14.6,,,A,O,13.89
+SFX_A01,35,Theobroma glaucum,Malvaceae,0.53,,19.4,,,A,O,16.83
+SFX_A01,36,,,0.58,8.199048089,111.7,35.81,,D,O,40.3
+SFX_A01,37,Rinorea racemosa,Violaceae,0.68,,13.4,,,A,O,13.08
+SFX_A01,38,Inga thibaudiana,Fabaceae,0.58,,23.7,,,A,O,19.15
+SFX_A01,39,Cecropia ficifolia,Urticaceae,0.27,,16.9,,,A,O,15.35
+SFX_A01,40,Cecropia ficifolia,Urticaceae,0.27,,17.1,,,A,O,15.47
+SFX_A01,41,Nectandra cuspidata,Lauraceae,0.56,2.083963314,44.2,37.42,28.82,A,O,27.5
+SFX_A01,42,Dalbergia melanoxylon,Fabaceae,0.8,0.221644242,24.0,9.44,3.68,A,O,19.3
+SFX_A01,43,Dalbergia melanoxylon,Fabaceae,0.8,,22.1,,,A,O,18.31
+SFX_A01,44,Dalbergia melanoxylon,Fabaceae,0.8,,31.9,,,A,O,22.95
+SFX_A01,45,Astrocaryum aculeatum,Arecaceae,0.51,0.158500429,28.2,,,A,P,21.32
+SFX_A01,46,Socratea exorrhiza,Arecaceae,0.62,0.058584918,16.5,,,A,P,15.1
+SFX_A01,47,Theobroma glaucum,Malvaceae,0.53,,12.5,,,A,O,12.46
+SFX_A01,48,Castilla ulei,Moraceae,0.82,,20.7,,,A,O,17.56
+SFX_A01,49,Inga alba,Fabaceae,0.59,,31.0,,,A,O,22.56
+SFX_A01,50,Attalea maripa,Arecaceae,0.33,0.081422011,19.7,,,A,P,17.0
+SFX_A01,51,Protium heptaphyllum,Burseraceae,0.62,,17.3,,,A,O,15.59
+SFX_A01,52,Neea oppositifolia,Nyctaginaceae,0.89,,17.0,,,A,O,15.41
+SFX_A01,53,Socratea exorrhiza,Arecaceae,0.62,0.023547413,10.1,,,A,P,10.7
+SFX_A01,54,Cordia scabrifolia,Boraginaceae,0.47,,17.1,,,A,O,15.47
+SFX_A01,55,Theobroma glaucum,Malvaceae,0.53,,10.5,,,A,O,11.0
+SFX_A01,56,Vismia guianensis,Clusiaceae,0.46,,13.0,,,A,O,12.81
+SFX_A01,57,Attalea maripa,Arecaceae,0.33,0.194661689,31.5,,,A,P,22.78
+SFX_A01,58,Protium heptaphyllum,Burseraceae,0.62,,11.0,,,A,O,11.38
+SFX_A01,59,Theobroma glaucum,Malvaceae,0.53,,12.7,,,A,O,12.6
+SFX_A01,60,Socratea exorrhiza,Arecaceae,0.62,0.044913535,14.3,,,A,P,13.69
+SFX_A01,61,NI,NI,0.62,,13.1,,,A,O,12.88
+SFX_A01,1,Dalbergia melanoxylon,Fabaceae,0.8,0.870079309,41.8,12.22,6.72,A,O,26.7
+SFX_A01,2,Galipea trifoliata,NI,0.62,,11.5,,,A,O,11.75
+SFX_A01,3,Dalbergia melanoxylon,Fabaceae,0.8,,24.8,,,A,O,19.7
+SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,13.0,,,A,O,12.81
+SFX_A01,5,Dalbergia melanoxylon,Fabaceae,0.8,0.841349964,38.1,14.23,12.92,A,O,25.39
+SFX_A01,6,Dalbergia melanoxylon,Fabaceae,0.8,0.759776106,36.8,13.77,10.63,A,O,24.9
+SFX_A01,7,Brosimum rubescens,Moraceae,0.83,,27.7,,,A,O,21.09
+SFX_A01,8,Dalbergia melanoxylon,Fabaceae,0.8,1.187526541,38.5,19.66,14.8,A,O,25.53
+SFX_A01,9,Swartzia corrugata,Fabaceae,1.06,1.823692784,37.0,24.77,17.28,A,O,24.98
+SFX_A01,10,Rinorea racemosa,Violaceae,0.68,,13.5,,,A,O,13.15
+SFX_A01,11,Neea oppositifolia,Nyctaginaceae,0.89,,18.6,,,A,O,16.36
+SFX_A01,12,Tetragastris panamensis,Burseraceae,0.73,,25.6,,,A,O,20.09
+SFX_A01,13,Aspidosperma spruceanum,Apocynaceae,0.75,2.610148116,45.6,32.74,23.09,A,O,27.95
+SFX_A01,14,,,,0.01321884,10.9,,,A,L,11.3
+SFX_A01,15,Theobroma glaucum,Malvaceae,0.53,,10.9,,,A,O,11.3
+SFX_A01,16,Dalbergia melanoxylon,Fabaceae,0.8,,24.0,,,A,O,19.3
+SFX_A01,17,,,,0.014208072,12.5,,,A,L,12.46
+SFX_A01,18,Dalbergia melanoxylon,Fabaceae,0.8,0.553559217,36.1,10.43,6.62,A,O,24.63
+SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,31.8,,,A,O,22.9
+SFX_A01,20,Couratari stellata,Lecythidaceae,0.63,,12.1,,,A,O,12.18
+SFX_A01,21,Dalbergia melanoxylon,Fabaceae,0.8,,10.9,,,A,O,11.3
+SFX_A01,22,Dalbergia melanoxylon,Fabaceae,0.8,,10.9,,,A,O,11.3
+SFX_A01,23,Dalbergia melanoxylon,Fabaceae,0.8,,15.2,,,A,O,14.28
+SFX_A01,24,Dalbergia melanoxylon,Fabaceae,0.8,,22.7,,,A,O,18.63
+SFX_A01,25,,,0.58,0.201631277,30.8,9.01,,D,O,22.48
+SFX_A01,26,,,0.58,,32.5,,,D,O,23.2
+SFX_A01,27,Bertholletia excelsa,Lecythidaceae,0.64,,13.5,,,A,O,13.15
+SFX_A01,28,Dalbergia melanoxylon,Fabaceae,0.8,,16.2,,,A,O,14.91
+SFX_A01,29,Dalbergia melanoxylon,Fabaceae,0.8,,23.4,,,A,O,18.99
+SFX_A01,30,Dalbergia melanoxylon,Fabaceae,0.8,,24.2,,,A,O,19.4
+SFX_A01,31,,,0.58,0.230933165,37.7,6.49,,D,O,25.24
+SFX_A01,32,Dalbergia melanoxylon,Fabaceae,0.8,0.039535537,13.7,5.17,1.72,A,O,13.29
+SFX_A01,33,Clarisia racemosa,Moraceae,0.59,,14.7,,,A,O,13.95
+SFX_A01,34,Cordia scabrifolia,Boraginaceae,0.47,,20.5,,,A,O,17.45
+SFX_A01,35,Dalbergia melanoxylon,Fabaceae,0.8,0.186608077,19.7,11.8,6.84,A,O,17.0
+SFX_A01,36,Dalbergia melanoxylon,Fabaceae,0.8,,15.9,,,A,O,14.73
+SFX_A01,37,Dalbergia melanoxylon,Fabaceae,0.8,,24.0,,,A,O,19.3
+SFX_A01,38,,,0.58,,12.0,,,D,O,12.11
+SFX_A01,39,,,0.58,,23.0,,,D,O,18.79
+SFX_A01,40,Couratari stellata,Lecythidaceae,0.63,,10.3,,,A,O,10.85
+SFX_A01,41,Dalbergia melanoxylon,Fabaceae,0.8,,21.4,,,A,O,17.94
+SFX_A01,42,Dalbergia melanoxylon,Fabaceae,0.8,,29.8,,,A,O,22.04
+SFX_A01,43,Dalbergia melanoxylon,Fabaceae,0.8,,32.2,,,A,O,23.07
+SFX_A01,44,Tetragastris panamensis,Burseraceae,0.73,,11.0,,,A,O,11.38
+SFX_A01,45,Dalbergia melanoxylon,Fabaceae,0.8,0.512685569,35.3,10.1,6.07,A,O,24.32
+SFX_A01,46,Dalbergia melanoxylon,Fabaceae,0.8,,31.9,,,A,O,22.95
+SFX_A01,47,Dalbergia melanoxylon,Fabaceae,0.8,,10.1,,,A,O,10.7
+SFX_A01,48,Dalbergia melanoxylon,Fabaceae,0.8,,22.1,,,A,O,18.31
+SFX_A01,49,Jacaranda copaia,Bignoniaceae,0.35,,20.6,,,A,O,17.5
+SFX_A01,50,Tachigali myrmecophila,Fabaceae,0.48,,11.8,,,A,O,11.96
+SFX_A01,51,Dalbergia melanoxylon,Fabaceae,0.8,,37.2,,,A,O,25.05
+SFX_A01,52,Dalbergia melanoxylon,Fabaceae,0.8,,11.1,,,A,O,11.45
+SFX_A01,53,Zanthoxylum rhoifolium,Rutaceae,0.49,,23.3,,,A,O,18.94
+SFX_A01,54,Dalbergia melanoxylon,Fabaceae,0.8,,29.6,,,A,O,21.95
+SFX_A01,55,Neea oppositifolia,Nyctaginaceae,0.89,,11.5,,,A,O,11.75
+SFX_A01,56,Dalbergia melanoxylon,Fabaceae,0.8,0.947051689,45.5,11.23,7.0,A,O,27.91
+SFX_A01,57,Dalbergia melanoxylon,Fabaceae,0.8,,22.2,,,A,O,18.37
+SFX_A01,58,Eschweilera parviflora,Lecythidaceae,0.89,,11.9,,,A,O,12.03
+SFX_A01,59,Vismia guianensis,Clusiaceae,0.46,,15.3,,,A,O,14.34
+SFX_A01,60,Parkia sp.,Fabaceae,0.45,,22.0,,,A,O,18.26
+SFX_A01,61,Inga marginata,Fabaceae,0.57,,12.4,,,A,O,12.39
+SFX_A01,62,Helicostylis sp.,Moraceae,0.65,,10.6,,,A,O,11.08
+SFX_A01,63,Dalbergia melanoxylon,Fabaceae,0.8,,33.2,,,A,O,23.48
+SFX_A01,64,Brosimum rubescens,Moraceae,0.83,,14.0,,,A,O,13.49
+SFX_A01,65,NI,NI,0.62,,11.9,,,A,O,12.03
+SFX_A01,66,Tabebuia serratifolia,Bignoniaceae,0.92,,18.5,,,A,O,16.31
+SFX_A01,67,Virola melinoni,Myristicaceae,0.48,,12.3,,,A,O,12.32
+SFX_A01,68,Dalbergia melanoxylon,Fabaceae,0.8,,26.6,,,A,O,20.58
+SFX_A01,1,,,0.58,,14.7,,,D,O,13.95
+SFX_A01,2,Tetragastris panamensis,Burseraceae,0.73,,12.6,,,A,O,12.53
+SFX_A01,3,Dalbergia melanoxylon,Fabaceae,0.8,0.665705275,38.4,11.08,6.87,A,O,25.5
+SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,12.0,,,A,O,12.11
+SFX_A01,5,Inga marginata,Fabaceae,0.57,,10.6,,,A,O,11.08
+SFX_A01,6,Jacaratia spinosa,Caricaceae,0.27,0.598257645,40.7,26.78,12.24,A,O,26.32
+SFX_A01,7,Dalbergia melanoxylon,Fabaceae,0.8,0.572214981,36.3,10.66,3.56,A,O,24.71
+SFX_A01,8,Jacaranda copaia,Bignoniaceae,0.35,0.029513936,11.0,13.55,10.05,A,O,11.38
+SFX_A01,9,Virola melinoni,Myristicaceae,0.48,,11.1,,,A,O,11.45
+SFX_A01,10,Socratea exorrhiza,Arecaceae,0.62,0.065349123,17.5,,,A,P,15.71
+SFX_A01,11,NI,NI,0.62,,21.6,,,A,O,18.05
+SFX_A01,12,NI,NI,0.62,,13.5,,,A,O,13.15
+SFX_A01,13,Theobroma glaucum,Malvaceae,0.53,,14.2,,,A,O,13.62
+SFX_A01,14,Astronium gracile,Anacardiaceae,0.73,0.25310728,19.2,18.48,8.58,A,O,16.71
+SFX_A01,15,Sapium marmieri,Euphorbiaceae,0.41,,25.5,,,A,O,20.05
+SFX_A01,16,Bertholletia excelsa,Lecythidaceae,0.64,1.76013044,41.2,31.83,20.57,A,O,26.49
+SFX_A01,17,Helicostylis sp.,Moraceae,0.65,,12.2,,,A,O,12.25
+SFX_A01,18,,,0.58,0.620070783,47.0,12.66,6.0,D,O,28.38
+SFX_A01,19,Inga marginata,Fabaceae,0.57,,12.2,6.46,,A,O,12.25
+SFX_A01,20,Pterocarpus sp.,Fabaceae,0.51,0.247690544,23.7,16.91,10.63,A,O,19.15
+SFX_A01,21,NI,NI,0.62,,16.0,,,A,O,14.79
+SFX_A01,22,,,0.58,,18.1,,,D,O,16.07
+SFX_A01,23,Sterculia pruriens,Malvaceae,0.49,,16.2,,,A,O,14.91
+SFX_A01,24,,,0.58,,10.2,,,D,O,10.78
+SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,1.048774571,59.0,7.39,3.68,A,O,31.69
+SFX_A01,26,,,0.58,,14.2,,,D,O,13.62
+SFX_A01,27,Inga marginata,Fabaceae,0.57,,10.2,,,A,O,10.78
+SFX_A01,28,Tachigali myrmecophila,Fabaceae,0.48,,29.4,,,A,O,21.86
+SFX_A01,29,Laetia procera,Salicaceae,0.63,,17.7,,,A,O,15.83
+SFX_A01,30,Apeiba membranacea,Malvaceae,0.28,0.033024705,15.5,9.8,7.25,A,O,14.47
+SFX_A01,31,Cordia scabrifolia,Boraginaceae,0.47,,13.0,,,A,O,12.81
+SFX_A01,32,Cordia scabrifolia,Boraginaceae,0.47,,15.0,,,A,O,14.15
+SFX_A01,33,Stryphnodendron pulcherrimum,Fabaceae,0.47,,11.3,,,A,O,11.6
+SFX_A01,34,Castilla ulei,Moraceae,0.82,,14.5,,,A,O,13.82
+SFX_A01,35,Tetragastris panamensis,Burseraceae,0.73,,17.9,,,A,O,15.95
+SFX_A01,36,Tetragastris panamensis,Burseraceae,0.73,,19.8,,,A,O,17.05
+SFX_A01,37,Brosimum rubescens,Moraceae,0.83,,10.7,,,A,O,11.15
+SFX_A01,38,Dalbergia melanoxylon,Fabaceae,0.8,0.956305234,43.1,12.64,6.74,A,O,27.14
+SFX_A01,39,Tetragastris panamensis,Burseraceae,0.73,,10.3,,,A,O,10.85
+SFX_A01,40,Eriotheca globosa,Malvaceae,0.41,,16.6,,,A,O,15.16
+SFX_A01,41,Tetragastris panamensis,Burseraceae,0.73,,12.9,,,A,O,12.74
+SFX_A01,42,Pradosia praealta,Sapotaceae,0.73,,10.4,,,A,O,10.93
+SFX_A01,43,Tetragastris panamensis,Burseraceae,0.73,,13.2,,,A,O,12.95
+SFX_A01,44,Tetragastris panamensis,Burseraceae,0.73,,18.1,,,A,O,16.07
+SFX_A01,45,Dalbergia melanoxylon,Fabaceae,0.8,,42.0,,,A,O,26.77
+SFX_A01,46,Castilla ulei,Moraceae,0.82,,14.1,,,A,O,13.56
+SFX_A01,47,Rinorea racemosa,Violaceae,0.68,,11.5,,,A,O,11.75
+SFX_A01,48,Terminalia amazonia,Combretaceae,0.68,,18.5,,,A,O,16.31
+SFX_A01,49,,,0.58,,21.5,,,D,O,17.99
+SFX_A01,50,Guarea guidonia,Meliaceae,0.55,,22.2,,,A,O,18.37
+SFX_A01,51,Dalbergia melanoxylon,Fabaceae,0.8,,15.7,,,A,O,14.6
+SFX_A01,52,Ormosia grossa,Fabaceae,0.62,,10.8,,,A,O,11.23
+SFX_A01,53,Theobroma glaucum,Malvaceae,0.53,,13.7,,,A,O,13.29
+SFX_A01,54,Pouteria gongrijpii,Sapotaceae,0.8,,15.5,,,A,O,14.47
+SFX_A01,55,Pouteria gongrijpii,Sapotaceae,0.8,,20.5,,,A,O,17.45
+SFX_A01,56,Inga alba,Fabaceae,0.59,,15.3,,,A,O,14.34
+SFX_A01,57,Inga thibaudiana,Fabaceae,0.58,,13.9,,,A,O,13.42
+SFX_A01,58,,,0.58,,16.0,,,D,O,14.79
+SFX_A01,59,,,0.58,0.30777722,42.6,6.84,,D,O,26.97
+SFX_A01,60,Cordia scabrifolia,Boraginaceae,0.47,,12.1,,,A,O,12.18
+SFX_A01,61,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.3,,,A,O,10.85
+SFX_A01,62,Inga thibaudiana,Fabaceae,0.58,,17.7,,,A,O,15.83
+SFX_A01,63,Cordia scabrifolia,Boraginaceae,0.47,,18.7,,,A,O,16.42
+SFX_A01,64,Inga alba,Fabaceae,0.59,,28.2,,,A,O,21.32
+SFX_A01,65,Cordia scabrifolia,Boraginaceae,0.47,,17.2,,,A,O,15.53
+SFX_A01,66,Eschweilera coriacea,Lecythidaceae,0.85,,23.5,,,A,O,19.05
+SFX_A01,67,Xylopia sp.,Annonaceae,0.57,0.297952832,22.8,19.75,12.86,A,O,18.68
+SFX_A01,68,Tetragastris panamensis,Burseraceae,0.73,,28.2,,,A,O,21.32
+SFX_A01,69,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.2,,,A,O,10.78
+SFX_A01,70,Inga marginata,Fabaceae,0.57,,19.2,,,A,O,16.71
+SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,,11.3,,,A,O,11.6
+SFX_A01,72,Dalbergia melanoxylon,Fabaceae,0.8,,15.3,,,A,O,14.34
+SFX_A01,73,Dalbergia melanoxylon,Fabaceae,0.8,,26.0,,,A,O,20.29
+SFX_A01,74,Dalbergia melanoxylon,Fabaceae,0.8,,20.0,,,A,O,17.17
+SFX_A01,1,Dialium guianense,Fabaceae,0.89,0.068796664,13.2,8.71,4.35,A,O,12.95
+SFX_A01,2,Dalbergia melanoxylon,Fabaceae,0.8,0.595096062,50.0,5.84,5.66,A,O,29.28
+SFX_A01,3,NI,NI,0.62,,13.9,,,A,O,13.42
+SFX_A01,4,,,0.58,,10.2,,,D,O,10.78
+SFX_A01,5,Pouteria gongrijpii,Sapotaceae,0.8,,15.3,,,A,O,14.34
+SFX_A01,6,Galipea trifoliata,NI,0.62,,12.0,,,A,O,12.11
+SFX_A01,7,Theobroma glaucum,Malvaceae,0.53,0.075862894,16.5,10.33,5.58,A,O,15.1
+SFX_A01,8,Tetragastris panamensis,Burseraceae,0.73,,16.4,,,A,O,15.04
+SFX_A01,9,Pourouma minor,Urticaceae,0.44,,25.4,,,A,O,20.0
+SFX_A01,10,Guatteria schomburgkiana,Annonaceae,0.6,,17.1,,,A,O,15.47
+SFX_A01,11,Guatteria schomburgkiana,Annonaceae,0.6,,19.1,,,A,O,16.65
+SFX_A01,12,Pouteria sp.,Sapotaceae,0.78,,11.1,,,A,O,11.45
+SFX_A01,13,Astronium gracile,Anacardiaceae,0.73,2.631037012,60.8,19.15,12.46,A,O,32.13
+SFX_A01,14,NI,NI,0.62,,15.7,,,A,O,14.6
+SFX_A01,15,,,0.45,,27.8,,,D,O,21.14
+SFX_A01,16,Eschweilera parviflora,Lecythidaceae,0.89,,14.9,,,A,O,14.08
+SFX_A01,17,Dalbergia melanoxylon,Fabaceae,0.8,,12.3,,,A,O,12.32
+SFX_A01,18,Eschweilera parviflora,Lecythidaceae,0.89,,10.1,,,A,O,10.7
+SFX_A01,19,Vataireopsis speciosa,Fabaceae,0.65,,13.7,,,A,O,13.29
+SFX_A01,20,,,0.45,,18.7,,,D,O,16.42
+SFX_A01,21,,,0.45,,15.1,,,D,O,14.21
+SFX_A01,22,Tetragastris panamensis,Burseraceae,0.73,1.779399102,31.2,49.05,34.63,A,O,22.65
+SFX_A01,23,Stryphnodendron pulcherrimum,Fabaceae,0.47,,12.5,,,A,O,12.46
+SFX_A01,24,,,,0.013152273,10.8,,,A,L,11.23
+SFX_A01,25,,,0.45,0.405911999,46.6,10.5,,D,O,28.26
+SFX_A01,26,Protium heptaphyllum,Burseraceae,0.62,,13.7,,,A,O,13.29
+SFX_A01,27,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O,11.3
+SFX_A01,28,Brosimum obovata,Moraceae,0.68,,15.3,,,A,O,14.34
+SFX_A01,29,,,,0.014208072,12.5,,,A,L,12.46
+SFX_A01,30,Galipea trifoliata,NI,0.62,,17.4,,,A,O,15.65
+SFX_A01,31,Theobroma glaucum,Malvaceae,0.53,,10.8,,,A,O,11.23
+SFX_A01,32,Dialium guianense,Fabaceae,0.89,,14.5,,,A,O,13.82
+SFX_A01,33,Tetragastris panamensis,Burseraceae,0.73,,33.1,,,A,O,23.44
+SFX_A01,34,Pouteria gongrijpii,Sapotaceae,0.8,,42.8,,,A,O,27.04
+SFX_A01,35,Eschweilera coriacea,Lecythidaceae,0.85,,12.4,,,A,O,12.39
+SFX_A01,36,Theobroma glaucum,Malvaceae,0.53,0.053297689,12.1,13.5,8.59,A,O,12.18
+SFX_A01,37,Alibertia edulis,Rubiaceae,0.76,,12.8,,,A,O,12.67
+SFX_A01,38,Ormosia grossa,Fabaceae,0.62,0.03854441,10.8,10.46,6.75,A,O,11.23
+SFX_A01,39,Oenocarpus bacaba,Arecaceae,0.65,0.079893661,19.5,,,A,P,16.88
+SFX_A01,40,Pourouma minor,Urticaceae,0.44,,22.2,,,A,O,18.37
+SFX_A01,41,,,,0.014601611,13.2,,,A,L,12.95
+SFX_A01,42,Theobroma glaucum,Malvaceae,0.53,,10.8,,,A,O,11.23
+SFX_A01,43,Theobroma glaucum,Malvaceae,0.53,0.084307266,14.8,14.28,10.96,A,O,14.02
+SFX_A01,44,Parkia paraensis,Fabaceae,0.42,1.96440549,53.9,32.01,20.4,A,O,30.37
+SFX_A01,45,Pouteria gongrijpii,Sapotaceae,0.8,,17.4,,,A,O,15.65
+SFX_A01,46,Bertholletia excelsa,Lecythidaceae,0.64,6.744319318,77.0,34.92,25.51,A,O,35.49
+SFX_A01,47,,,0.7,,28.1,,,D,O,21.28
+SFX_A01,48,Alibertia edulis,Rubiaceae,0.76,,13.6,,,A,O,13.22
+SFX_A01,49,Couma guianensis,Apocynaceae,0.47,,12.8,,,A,O,12.67
+SFX_A01,50,Helicostylis sp.,Moraceae,0.65,,15.3,,,A,O,14.34
+SFX_A01,51,Couepia racemosa,Chrysobalanaceae,0.79,,14.9,,,A,O,14.08
+SFX_A01,52,Hevea brasiliensis,Euphorbiaceae,0.49,0.288479682,27.6,15.12,6.21,A,O,21.05
+SFX_A01,53,Guarea guidonia,Meliaceae,0.55,,12.8,,,A,O,12.67
+SFX_A01,54,Astrocaryum aculeatum,Arecaceae,0.51,0.105939516,22.7,,,A,P,18.63
+SFX_A01,55,Inga thibaudiana,Fabaceae,0.58,,14.1,,,A,O,13.56
+SFX_A01,56,Dalbergia melanoxylon,Fabaceae,0.8,,29.9,,,A,O,22.09
+SFX_A01,57,Neea oppositifolia,Nyctaginaceae,0.89,,10.0,,,A,O,10.62
+SFX_A01,58,Jacaranda copaia,Bignoniaceae,0.35,2.915408821,70.1,32.97,20.81,A,O,34.17
+SFX_A01,59,Dalbergia melanoxylon,Fabaceae,0.8,,12.1,,,A,O,12.18
+SFX_A01,60,Dalbergia melanoxylon,Fabaceae,0.8,,13.6,,,A,O,13.22
+SFX_A01,61,Pourouma minor,Urticaceae,0.44,,12.4,,,A,O,12.39
+SFX_A01,62,Pouteria sp.,Sapotaceae,0.78,,13.1,,,A,O,12.88
+SFX_A01,63,Lacunaria jenmanii,Quiinaceae,0.8,,12.5,,,A,O,12.46
+SFX_A01,64,Cordia scabrifolia,Boraginaceae,0.47,,16.1,,,A,O,14.85
+SFX_A01,65,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O,11.3
+SFX_A01,66,Strychnos subcordata,Loganiaceae,0.54,,13.1,,,A,O,12.88
+SFX_A01,67,Inga marginata,Fabaceae,0.57,,17.6,,,A,O,15.77
+SFX_A01,68,Thyrsodium paraense,Anacardiaceae,0.61,0.081705649,16.2,9.97,7.99,A,O,14.91
+SFX_A01,69,Brosimum rubescens,Moraceae,0.83,4.020042565,48.6,40.52,23.14,A,O,28.87
+SFX_A01,70,Cordia scabrifolia,Boraginaceae,0.47,,12.5,,,A,O,12.46
+SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,,11.0,,,A,O,11.38
+SFX_A01,72,Pouteria sp.,Sapotaceae,0.78,,13.0,,,A,O,12.81
+SFX_A01,73,Neea oppositifolia,Nyctaginaceae,0.89,,10.9,,,A,O,11.3
+SFX_A01,74,Strychnos subcordata,Loganiaceae,0.54,,11.9,,,A,O,12.03
+SFX_A01,75,Dalbergia melanoxylon,Fabaceae,0.8,,26.4,,,A,O,20.48
+SFX_A01,76,Vitex triflora,Lamiaceae,0.56,,10.5,,,A,O,11.0
+SFX_A01,77,Inga marginata,Fabaceae,0.57,,16.0,,,A,O,14.79
+SFX_A01,78,Dalbergia melanoxylon,Fabaceae,0.8,,15.3,,,A,O,14.34
+SFX_A01,79,Neea oppositifolia,Nyctaginaceae,0.89,0.171440084,18.9,10.56,6.31,A,O,16.54
+SFX_A01,80,Eriotheca globosa,Malvaceae,0.41,,15.4,,,A,O,14.41
+SFX_A01,81,Tetragastris panamensis,Burseraceae,0.73,,11.0,,,A,O,11.38
+SFX_A01,82,Dalbergia melanoxylon,Fabaceae,0.8,,31.4,,,A,O,22.73
+SFX_A01,83,Pourouma minor,Urticaceae,0.44,,18.2,,,A,O,16.13
+SFX_A01,84,Guatteria schomburgkiana,Annonaceae,0.6,,30.0,,,A,O,22.13
+SFX_A01,85,Neea oppositifolia,Nyctaginaceae,0.89,,13.3,,,A,O,13.02
+SFX_A01,86,Pouteria sp.,Sapotaceae,0.78,,10.0,,,A,O,10.62
+SFX_A01,87,Inga sp.,Fabaceae,0.58,,11.0,,,A,O,11.38
+SFX_A01,88,Tetragastris panamensis,Burseraceae,0.73,,11.5,,,A,O,11.75
+SFX_A01,1,Attalea maripa,Arecaceae,0.33,0.138262176,26.2,,,A,P,20.38
+SFX_A01,2,Galipea trifoliata,NI,0.62,,12.4,,,A,O,12.39
+SFX_A01,3,Theobroma glaucum,Malvaceae,0.53,,12.3,,,A,O,12.32
+SFX_A01,4,Thyrsodium paraense,Anacardiaceae,0.61,,14.6,,,A,O,13.89
+SFX_A01,5,Cecropia palmata,Urticaceae,0.35,,12.6,,,A,O,12.53
+SFX_A01,6,Ficus maxima,Moraceae,0.37,,12.1,,,A,O,12.18
+SFX_A01,7,,,0.45,,13.5,,,D,O,13.15
+SFX_A01,8,,,0.58,,12.0,,,D,O,12.11
+SFX_A01,9,Sloanea guianensis,Elaeocarpaceae,0.82,,11.5,,,A,O,11.75
+SFX_A01,10,Sloanea guianensis,Elaeocarpaceae,0.82,,12.1,,,A,O,12.18
+SFX_A01,11,Guatteria schomburgkiana,Annonaceae,0.6,,12.6,,,A,O,12.53
+SFX_A01,12,Inga marginata,Fabaceae,0.57,,10.7,,,A,O,11.15
+SFX_A01,13,Tachigali alba,Fabaceae,0.56,0.177112022,17.3,20.75,11.54,A,O,15.59
+SFX_A01,14,Theobroma glaucum,Malvaceae,0.53,,12.8,,,A,O,12.67
+SFX_A01,15,Theobroma glaucum,Malvaceae,0.53,,10.1,,,A,O,10.7
+SFX_A01,16,Guarea guidonia,Meliaceae,0.55,,10.9,,,A,O,11.3
+SFX_A01,17,Guatteria schomburgkiana,Annonaceae,0.6,,20.5,,,A,O,17.45
+SFX_A01,18,Dalbergia melanoxylon,Fabaceae,0.8,,17.9,,,A,O,15.95
+SFX_A01,19,Bertholletia excelsa,Lecythidaceae,0.64,,14.5,,,A,O,13.82
+SFX_A01,20,Cordia scabrifolia,Boraginaceae,0.47,,12.3,,,A,O,12.32
+SFX_A01,21,Ocotea glomerata,Lauraceae,0.51,6.653408935,74.5,46.35,29.98,A,O,35.03
+SFX_A01,22,Mimosa hostilis,Fabaceae,0.45,,21.0,,,A,O,17.72
+SFX_A01,23,NI,NI,0.62,,20.6,,,A,O,17.5
+SFX_A01,24,Attalea maripa,Arecaceae,0.33,0.131481006,25.5,,,A,P,20.05
+SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,,33.8,,,A,O,23.73
+SFX_A01,26,Attalea maripa,Arecaceae,0.33,0.136308645,26.0,,,A,P,20.29
+SFX_A01,27,Astronium gracile,Anacardiaceae,0.73,,14.6,,,A,O,13.89
+SFX_A01,28,Brosimum obovata,Moraceae,0.68,,15.9,,,A,O,14.73
+SFX_A01,29,Mimosa hostilis,Fabaceae,0.45,,17.7,,,A,O,15.83
+SFX_A01,30,Mimosa hostilis,Fabaceae,0.45,,11.1,,,A,O,11.45
+SFX_A01,31,,,0.58,0.017879152,15.0,2.71,,D,O,14.15
+SFX_A01,32,Dalbergia melanoxylon,Fabaceae,0.8,0.350041851,30.6,9.18,6.25,A,O,22.39
+SFX_A01,33,Theobroma glaucum,Malvaceae,0.53,0.014859781,10.4,5.1,3.09,A,O,10.93
+SFX_A01,34,Dalbergia melanoxylon,Fabaceae,0.8,,30.5,,,A,O,22.35
+SFX_A01,35,Jacaranda copaia,Bignoniaceae,0.35,,25.5,,,A,O,20.05
+SFX_A01,36,Astronium gracile,Anacardiaceae,0.73,,27.4,,,A,O,20.95
+SFX_A01,37,Poeppigia sp.,Fabaceae,0.69,,10.7,,,A,O,11.15
+SFX_A01,38,,,0.58,,12.6,,,D,O,12.53
+SFX_A01,39,Stryphnodendron pulcherrimum,Fabaceae,0.47,,11.0,,,A,O,11.38
+SFX_A01,40,Nectandra cuspidata,Lauraceae,0.56,,21.4,,,A,O,17.94
+SFX_A01,41,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.2,,,A,O,10.78
+SFX_A01,42,Neea oppositifolia,Nyctaginaceae,0.89,,17.5,,,A,O,15.71
+SFX_A01,43,Attalea maripa,Arecaceae,0.33,0.155383486,27.9,,,A,P,21.18
+SFX_A01,44,Tachigali myrmecophila,Fabaceae,0.48,,14.0,,,A,O,13.49
+SFX_A01,45,Castilla ulei,Moraceae,0.82,,28.9,,,A,O,21.64
+SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,18.4,,,A,O,16.25
+SFX_A01,47,Helicostylis sp.,Moraceae,0.65,,14.4,,,A,O,13.76
+SFX_A01,48,Couratari stellata,Lecythidaceae,0.63,,16.5,,,A,O,15.1
+SFX_A01,49,Inga marginata,Fabaceae,0.57,,17.4,,,A,O,15.65
+SFX_A01,50,,,0.45,,16.2,,,D,O,14.91
+SFX_A01,51,Guatteria schomburgkiana,Annonaceae,0.6,,15.8,,,A,O,14.66
+SFX_A01,52,,,0.45,,17.0,,,D,O,15.41
+SFX_A01,53,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O,11.53
+SFX_A01,54,Inga marginata,Fabaceae,0.57,,17.9,,,A,O,15.95
+SFX_A01,55,Nectandra cuspidata,Lauraceae,0.56,0.03751128,12.2,8.84,4.52,A,O,12.25
+SFX_A01,56,Enterolobium schomburgkii,Fabaceae,0.71,,12.7,,,A,O,12.6
+SFX_A01,57,Socratea exorrhiza,Arecaceae,0.62,0.040359712,13.5,,,A,P,13.15
+SFX_A01,58,NI,NI,0.62,,23.6,,,A,O,19.1
+SFX_A01,1,Galipea trifoliata,NI,0.62,,11.4,,,A,O,11.67
+SFX_A01,2,Neea oppositifolia,Nyctaginaceae,0.89,,13.3,,,A,O,13.02
+SFX_A01,3,Neea oppositifolia,Nyctaginaceae,0.89,,11.2,,,A,O,11.53
+SFX_A01,4,Neea oppositifolia,Nyctaginaceae,0.89,,12.0,,,A,O,12.11
+SFX_A01,5,NI,NI,0.62,,11.0,,,A,O,11.38
+SFX_A01,6,Neea oppositifolia,Nyctaginaceae,0.89,,11.3,,,A,O,11.6
+SFX_A01,7,Mimosa hostilis,Fabaceae,0.45,,12.8,,,A,O,12.67
+SFX_A01,8,Cordia scabrifolia,Boraginaceae,0.47,,11.3,,,A,O,11.6
+SFX_A01,9,Astronium gracile,Anacardiaceae,0.73,0.03237525,10.5,7.9,6.11,A,O,11.0
+SFX_A01,10,Astrocaryum aculeatum,Arecaceae,0.51,0.102499113,22.3,,,A,P,18.42
+SFX_A01,11,Terminalia amazonia,Combretaceae,0.68,,14.9,,,A,O,14.08
+SFX_A01,12,Neea oppositifolia,Nyctaginaceae,0.89,,11.4,,,A,O,11.67
+SFX_A01,13,Neea oppositifolia,Nyctaginaceae,0.89,,12.4,,,A,O,12.39
+SFX_A01,14,Couratari stellata,Lecythidaceae,0.63,,10.6,,,A,O,11.08
+SFX_A01,15,Neea oppositifolia,Nyctaginaceae,0.89,,23.0,,,A,O,18.79
+SFX_A01,16,Socratea exorrhiza,Arecaceae,0.62,0.074649894,18.8,,,A,P,16.48
+SFX_A01,17,Nectandra cuspidata,Lauraceae,0.56,,13.2,,,A,O,12.95
+SFX_A01,18,Inga sp.,Fabaceae,0.58,,12.2,,,A,O,12.25
+SFX_A01,19,,,0.58,,10.3,,,D,O,10.85
+SFX_A01,20,Mimosa hostilis,Fabaceae,0.45,,14.7,,,A,O,13.95
+SFX_A01,21,Mimosa hostilis,Fabaceae,0.45,,16.5,,,A,O,15.1
+SFX_A01,22,Cecropia ficifolia,Urticaceae,0.27,0.55939655,39.3,26.75,16.89,A,O,25.82
+SFX_A01,23,Mimosa hostilis,Fabaceae,0.45,,22.0,,,A,O,18.26
+SFX_A01,24,Mimosa hostilis,Fabaceae,0.45,,17.4,,,A,O,15.65
+SFX_A01,25,Mimosa hostilis,Fabaceae,0.45,,14.8,,,A,O,14.02
+SFX_A01,26,Mimosa hostilis,Fabaceae,0.45,0.053462032,13.0,13.81,4.51,A,O,12.81
+SFX_A01,27,Neea oppositifolia,Nyctaginaceae,0.89,,14.4,,,A,O,13.76
+SFX_A01,28,Galipea trifoliata,NI,0.62,,12.2,,,A,O,12.25
+SFX_A01,29,,,,0.014208072,12.5,,,A,L,12.46
+SFX_A01,30,Neea oppositifolia,Nyctaginaceae,0.89,,19.3,,,A,O,16.77
+SFX_A01,31,Galipea trifoliata,NI,0.62,,13.2,,,A,O,12.95
+SFX_A01,32,Astronium gracile,Anacardiaceae,0.73,,24.3,,,A,O,19.45
+SFX_A01,33,Rinorea racemosa,Violaceae,0.68,,11.3,,,A,O,11.6
+SFX_A01,34,Neea oppositifolia,Nyctaginaceae,0.89,,25.6,,,A,O,20.09
+SFX_A01,35,Helicostylis sp.,Moraceae,0.65,2.512738796,46.2,35.44,25.19,A,O,28.14
+SFX_A01,36,Rinorea racemosa,Violaceae,0.68,,13.6,,,A,O,13.22
+SFX_A01,37,Jacaranda copaia,Bignoniaceae,0.35,,20.5,,,A,O,17.45
+SFX_A01,38,Neea oppositifolia,Nyctaginaceae,0.89,,10.2,,,A,O,10.78
+SFX_A01,39,Theobroma glaucum,Malvaceae,0.53,,11.5,,,A,O,11.75
+SFX_A01,40,Couratari stellata,Lecythidaceae,0.63,,12.7,,,A,O,12.6
+SFX_A01,41,Pourouma minor,Urticaceae,0.44,,19.0,,,A,O,16.6
+SFX_A01,42,Inga marginata,Fabaceae,0.57,,31.4,,,A,O,22.73
+SFX_A01,43,Pouteria gongrijpii,Sapotaceae,0.8,,18.2,,,A,O,16.13
+SFX_A01,44,Rinorea racemosa,Violaceae,0.68,,10.3,,,A,O,10.85
+SFX_A01,45,NI,NI,0.62,,12.0,,,A,O,12.11
+SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,14.0,,,A,O,13.49
+SFX_A01,47,Neea oppositifolia,Nyctaginaceae,0.89,,10.7,,,A,O,11.15
+SFX_A01,48,Pourouma minor,Urticaceae,0.44,,16.9,,,A,O,15.35
+SFX_A01,49,Galipea trifoliata,NI,0.62,,14.2,,,A,O,13.62
+SFX_A01,50,Vitex triflora,Lamiaceae,0.56,0.032886436,12.3,7.63,3.61,A,O,12.32
+SFX_A01,51,Neea oppositifolia,Nyctaginaceae,0.89,,14.1,,,A,O,13.56
+SFX_A01,52,Mimosa hostilis,Fabaceae,0.45,,19.0,,,A,O,16.6
+SFX_A01,53,Mimosa hostilis,Fabaceae,0.45,,11.6,,,A,O,11.82
+SFX_A01,54,Mimosa hostilis,Fabaceae,0.45,0.180144359,19.0,21.79,13.41,A,O,16.6
+SFX_A01,55,Mimosa hostilis,Fabaceae,0.45,,16.7,,,A,O,15.22
+SFX_A01,56,Mimosa hostilis,Fabaceae,0.45,,14.5,,,A,O,13.82
+SFX_A01,57,Virola melinoni,Myristicaceae,0.48,1.144334272,43.0,25.54,21.6,A,O,27.1
+SFX_A01,58,Neea oppositifolia,Nyctaginaceae,0.89,,10.6,,,A,O,11.08
+SFX_A01,59,Pouteria sp.,Sapotaceae,0.78,,12.0,,,A,O,12.11
+SFX_A01,60,,,0.58,,12.8,,,D,O,12.67
+SFX_A01,61,Neea oppositifolia,Nyctaginaceae,0.89,,22.3,,,A,O,18.42
+SFX_A01,62,Pouteria sp.,Sapotaceae,0.78,,30.4,,,A,O,22.3
+SFX_A01,63,Neea oppositifolia,Nyctaginaceae,0.89,,15.2,,,A,O,14.28
+SFX_A01,64,Astronium gracile,Anacardiaceae,0.73,,13.0,,,A,O,12.81
+SFX_A01,65,Astrocaryum aculeatum,Arecaceae,0.51,0.112977242,23.5,,,A,P,19.05
+SFX_A01,66,Galipea trifoliata,NI,0.62,,19.7,,,A,O,17.0
+SFX_A01,67,Mimosa hostilis,Fabaceae,0.45,,15.4,,,A,O,14.41
+SFX_A01,68,Mimosa hostilis,Fabaceae,0.45,,15.3,,,A,O,14.34
+SFX_A01,69,Inga marginata,Fabaceae,0.57,,17.2,,,A,O,15.53
+SFX_A01,70,Galipea trifoliata,NI,0.62,,10.4,,,A,O,10.93
+SFX_A01,71,,,0.58,,14.2,,,D,O,13.62
+SFX_A01,1,Inga marginata,Fabaceae,0.57,,12.0,,,A,O,12.11
+SFX_A01,2,Pourouma minor,Urticaceae,0.44,,10.2,,,A,O,10.78
+SFX_A01,3,Castilla ulei,Moraceae,0.82,,17.4,,,A,O,15.65
+SFX_A01,4,Castilla ulei,Moraceae,0.82,,16.2,,,A,O,14.91
+SFX_A01,5,Virola melinoni,Myristicaceae,0.48,,13.4,,,A,O,13.08
+SFX_A01,6,NI,NI,0.62,,17.4,,,A,O,15.65
+SFX_A01,7,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.8,,,A,O,11.23
+SFX_A01,8,,,0.58,,28.0,,,D,O,21.23
+SFX_A01,9,Stryphnodendron pulcherrimum,Fabaceae,0.47,,14.2,,,A,O,13.62
+SFX_A01,10,Eschweilera parviflora,Lecythidaceae,0.89,,14.2,,,A,O,13.62
+SFX_A01,11,,,,0.015572874,15.1,,,A,L,14.21
+SFX_A01,12,,,,0.01301727,10.6,,,A,L,11.08
+SFX_A01,13,,,,0.014601611,13.2,,,A,L,12.95
+SFX_A01,14,Dalbergia melanoxylon,Fabaceae,0.8,,28.6,,,A,O,21.5
+SFX_A01,15,Galipea trifoliata,NI,0.62,,13.7,,,A,O,13.29
+SFX_A01,16,Neea oppositifolia,Nyctaginaceae,0.89,,28.5,,,A,O,21.46
+SFX_A01,17,Stryphnodendron pulcherrimum,Fabaceae,0.47,,10.6,,,A,O,11.08
+SFX_A01,18,Theobroma glaucum,Malvaceae,0.53,,12.6,,,A,O,12.53
+SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,12.0,,,A,O,12.11
+SFX_A01,20,Eschweilera parviflora,Lecythidaceae,0.89,,12.3,,,A,O,12.32
+SFX_A01,21,Stryphnodendron pulcherrimum,Fabaceae,0.47,0.028148498,11.0,9.72,5.21,A,O,11.38
+SFX_A01,22,Dalbergia melanoxylon,Fabaceae,0.8,0.446655662,23.2,20.37,8.36,A,O,18.89
+SFX_A01,23,Theobroma glaucum,Malvaceae,0.53,,10.6,,,A,O,11.08
+SFX_A01,24,Dalbergia melanoxylon,Fabaceae,0.8,1.064411087,36.9,19.19,5.51,A,O,24.94
+SFX_A01,25,,,0.58,7.972370444,120.0,29.04,,D,O,41.12
+SFX_A01,26,,,,0.016169353,16.4,,,A,L,15.04
+SFX_A01,27,Ceiba pentandra,Malvaceae,0.35,,25.1,,,A,O,19.85
+SFX_A01,28,Theobroma glaucum,Malvaceae,0.53,,10.2,,,A,O,10.78
+SFX_A01,29,Helicostylis sp.,Moraceae,0.65,,21.3,,,A,O,17.88
+SFX_A01,30,Dalbergia melanoxylon,Fabaceae,0.8,,22.2,,,A,O,18.37
+SFX_A01,31,,,0.58,,16.5,,,D,O,15.1
+SFX_A01,32,Hymenaea courbaril,Fabaceae,0.79,3.572612251,60.5,24.36,22.81,A,O,32.06
+SFX_A01,33,Tetragastris panamensis,Burseraceae,0.73,1.992310013,42.9,29.05,18.03,A,O,27.07
+SFX_A01,34,Theobroma glaucum,Malvaceae,0.53,,12.3,,,A,O,12.32
+SFX_A01,35,Pouteria gongrijpii,Sapotaceae,0.8,,19.7,,,A,O,17.0
+SFX_A01,36,Pourouma minor,Urticaceae,0.44,,19.1,,,A,O,16.65
+SFX_A01,37,Hymenolobium petraeum,Fabaceae,0.71,,21.3,,,A,O,17.88
+SFX_A01,38,Galipea trifoliata,NI,0.62,,15.0,,,A,O,14.15
+SFX_A01,39,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O,11.53
+SFX_A01,40,Dalbergia melanoxylon,Fabaceae,0.8,1.1786416,48.5,12.3,9.79,A,O,28.84
+SFX_A01,41,Inga sp.,Fabaceae,0.58,,17.2,,,A,O,15.53
+SFX_A01,42,Inga alba,Fabaceae,0.59,,31.1,,,A,O,22.61
+SFX_A01,43,NI,NI,0.62,,12.8,,,A,O,12.67
+SFX_A01,44,Pourouma minor,Urticaceae,0.44,,20.1,,,A,O,17.22
+SFX_A01,45,NI,NI,0.62,,11.1,,,A,O,11.45
+SFX_A01,46,NI,NI,0.62,,14.4,,,A,O,13.76
+SFX_A01,47,Zollernia paraensis,Fabaceae,0.99,,19.4,,,A,O,16.83
+SFX_A01,48,Tetragastris panamensis,Burseraceae,0.73,1.066065188,35.5,22.7,12.04,A,O,24.4
+SFX_A01,49,,,0.58,0.665186024,63.1,6.71,,D,O,32.66
+SFX_A01,50,NI,NI,0.62,,13.0,,,A,O,12.81
+SFX_A01,51,Ficus maxima,Moraceae,0.37,1.853481137,50.0,39.69,20.02,A,O,29.28
+SFX_A01,52,Theobroma glaucum,Malvaceae,0.53,,16.5,,,A,O,15.1
+SFX_A01,53,NI,NI,0.62,,11.3,,,A,O,11.6
+SFX_A01,54,Tetragastris panamensis,Burseraceae,0.73,2.464091456,49.5,26.98,18.37,A,O,29.14
+SFX_A01,55,Virola melinoni,Myristicaceae,0.48,,31.2,,,A,O,22.65
+SFX_A01,56,Pouteria gongrijpii,Sapotaceae,0.8,,10.5,,,A,O,11.0
+SFX_A01,57,Dalbergia melanoxylon,Fabaceae,0.8,,17.6,,,A,O,15.77
+SFX_A01,58,Sapium marmieri,Euphorbiaceae,0.41,1.117913181,42.2,30.08,18.65,A,O,26.83
+SFX_A01,59,Tetragastris panamensis,Burseraceae,0.73,,24.2,,,A,O,19.4
+SFX_A01,60,,,,0.016555215,17.3,,,A,L,15.59
+SFX_A01,61,Dalbergia melanoxylon,Fabaceae,0.8,,17.6,,,A,O,15.77
+SFX_A01,62,NI,NI,0.62,,12.7,,,A,O,12.6
+SFX_A01,63,NI,NI,0.62,,11.2,,,A,O,11.53
+SFX_A01,64,,,0.58,,11.6,,,D,O,11.82
+SFX_A01,65,,,0.58,,19.6,,,D,O,16.94
+SFX_A01,66,Dalbergia melanoxylon,Fabaceae,0.8,,25.9,,,A,O,20.24
+SFX_A01,67,Brosimum rubescens ,Moraceae,0.83,,13.9,,,A,O,13.42
+SFX_A01,68,Sapium marmieri,Euphorbiaceae,0.41,0.685768354,45.1,16.16,11.45,A,O,27.79
+SFX_A01,69,Dalbergia melanoxylon,Fabaceae,0.8,,24.3,,,A,O,19.45
+SFX_A01,70,Neea oppositifolia,Nyctaginaceae,0.89,0.176579472,15.8,15.57,10.31,A,O,14.66
+SFX_A01,71,Dalbergia melanoxylon,Fabaceae,0.8,1.344231718,50.3,13.04,5.44,A,O,29.37
+SFX_A01,72,NI,NI,0.62,,27.5,,,A,O,21.0
+SFX_A01,73,Eschweilera parviflora,Lecythidaceae,0.89,,12.8,,,A,O,12.67
+SFX_A01,74,Dalbergia melanoxylon,Fabaceae,0.8,,15.2,,,A,O,14.28
+SFX_A01,75,Zollernia paraensis,Fabaceae,0.99,3.517943874,46.8,31.87,19.42,A,O,28.32
+SFX_A01,76,,,,0.012739448,10.2,,,A,L,10.78
+SFX_A01,77,Theobroma glaucum,Malvaceae,0.53,,10.9,,,A,O,11.3
+SFX_A01,78,Inga alba,Fabaceae,0.59,0.133729431,14.1,22.55,14.71,A,O,13.56
+SFX_A01,79,Dalbergia melanoxylon,Fabaceae,0.8,,23.2,,,A,O,18.89
+SFX_A01,80,Tabebuia serratifolia,Bignoniaceae,0.92,,33.2,,,A,O,23.48
+SFX_A01,81,Tabebuia serratifolia,Bignoniaceae,0.92,,30.4,,,A,O,22.3
+SFX_A01,82,Inga alba,Fabaceae,0.59,,12.3,,,A,O,12.32
+SFX_A01,83,Inga alba,Fabaceae,0.59,,11.4,,,A,O,11.67
+SFX_A01,84,,,,0.013479137,11.3,,,A,L,11.6
+SFX_A01,85,Nectandra cuspidata,Lauraceae,0.56,,16.2,,,A,O,14.91
+SFX_A01,86,Dalbergia melanoxylon,Fabaceae,0.8,,32.0,,,A,O,22.99
+SFX_A01,1,,,0.58,,32.6,,,D,O,23.24
+SFX_A01,2,Terminalia amazonia,Combretaceae,0.68,,10.3,,,A,O,10.85
+SFX_A01,3,Brosimum obovata,Moraceae,0.68,,12.0,,,A,O,12.11
+SFX_A01,4,Neea oppositifolia,Nyctaginaceae,0.89,,11.6,,,A,O,11.82
+SFX_A01,5,NI,NI,0.62,,14.6,,,A,O,13.89
+SFX_A01,6,Castilla ulei,Moraceae,0.82,,10.1,,,A,O,10.7
+SFX_A01,7,Vitex triflora,Lamiaceae,0.56,,14.5,,,A,O,13.82
+SFX_A01,8,Inga marginata,Fabaceae,0.57,,10.6,,,A,O,11.08
+SFX_A01,9,Mimosa hostilis,Fabaceae,0.45,,13.4,,,A,O,13.08
+SFX_A01,10,Inga marginata,Fabaceae,0.57,,26.4,,,A,O,20.48
+SFX_A01,11,Cecropia ficifolia,Urticaceae,0.27,0.056573233,17.0,14.46,10.64,A,O,15.41
+SFX_A01,12,Tetragastris panamensis,Burseraceae,0.73,,10.2,,,A,O,10.78
+SFX_A01,13,Cecropia ficifolia,Urticaceae,0.27,,27.0,,,A,O,20.76
+SFX_A01,14,Cecropia ficifolia,Urticaceae,0.27,,32.7,,,A,O,23.28
+SFX_A01,15,Inga marginata,Fabaceae,0.57,,15.8,,,A,O,14.66
+SFX_A01,16,Inga marginata,Fabaceae,0.57,,16.2,,,A,O,14.91
+SFX_A01,17,Vitex triflora,Lamiaceae,0.56,,19.5,,,A,O,16.88
+SFX_A01,18,Mimosa hostilis,Fabaceae,0.45,,13.3,,,A,O,13.02
+SFX_A01,19,Mimosa hostilis,Fabaceae,0.45,,16.0,,,A,O,14.79
+SFX_A01,20,Mimosa hostilis,Fabaceae,0.45,,11.1,,,A,O,11.45
+SFX_A01,21,Vitex triflora,Lamiaceae,0.56,,17.8,,,A,O,15.89
+SFX_A01,22,Attalea maripa,Arecaceae,0.33,0.211033085,32.9,,,A,P,23.36
+SFX_A01,23,Inga marginata,Fabaceae,0.57,,11.5,,,A,O,11.75
+SFX_A01,24,Platymiscium filipes,Fabaceae,0.79,,11.7,,,A,O,11.89
+SFX_A01,25,Socratea exorrhiza,Arecaceae,0.62,0.041477095,13.7,,,A,P,13.29
+SFX_A01,26,Castilla ulei,Moraceae,0.82,,15.1,,,A,O,14.21
+SFX_A01,27,Guatteria schomburgkiana,Annonaceae,0.6,,21.2,,,A,O,17.83
+SFX_A01,28,Inga marginata,Fabaceae,0.57,,16.3,,,A,O,14.98
+SFX_A01,29,Inga marginata,Fabaceae,0.57,,13.0,,,A,O,12.81
+SFX_A01,30,Rinorea racemosa,Violaceae,0.68,,11.0,,,A,O,11.38
+SFX_A01,31,Theobroma glaucum,Malvaceae,0.53,,11.2,,,A,O,11.53
+SFX_A01,32,Nectandra cuspidata,Lauraceae,0.56,,32.1,,,A,O,23.03
+SFX_A01,33,Attalea maripa,Arecaceae,0.33,0.177800093,30.0,,,A,P,22.13
+SFX_A01,34,Inga marginata,Fabaceae,0.57,,11.9,,,A,O,12.03
+SFX_A01,35,Inga marginata,Fabaceae,0.57,,14.0,,,A,O,13.49
+SFX_A01,36,Eschweilera parviflora,Lecythidaceae,0.89,,14.7,,,A,O,13.95
+SFX_A01,37,Theobroma glaucum,Malvaceae,0.53,,15.3,,,A,O,14.34
+SFX_A01,38,Poecilanthe effusa,Fabaceae,0.71,,12.1,,,A,O,12.18
+SFX_A01,39,Rheedia gardneriana,Clusiaceae,0.62,,16.6,,,A,O,15.16
+SFX_A01,40,,,0.58,,15.4,,,D,O,14.41
+SFX_A01,41,Cordia scabrifolia,Boraginaceae,0.47,,14.9,,,A,O,14.08
+SFX_A01,42,Annona ambotay,Annonaceae,0.41,0.027256699,11.3,10.15,5.6,A,O,11.6
+SFX_A01,43,Galipea trifoliata,NI,0.62,,13.7,,,A,O,13.29
+SFX_A01,44,Galipea trifoliata,NI,0.62,,14.3,,,A,O,13.69
+SFX_A01,45,Rinorea racemosa,Violaceae,0.68,,14.5,,,A,O,13.82
+SFX_A01,46,Neea oppositifolia,Nyctaginaceae,0.89,,11.5,,,A,O,11.75
+SFX_A01,47,Poecilanthe effusa,Fabaceae,0.71,,11.0,,,A,O,11.38
+SFX_A01,48,Astronium gracile,Anacardiaceae,0.73,,10.5,,,A,O,11.0
+SFX_A01,49,Oenocarpus bacaba,Arecaceae,0.65,0.120223337,24.3,,,A,P,19.45
+SFX_A01,50,Mimosa hostilis,Fabaceae,0.45,,21.0,,,A,O,17.72
+SFX_A01,51,NI,NI,0.62,,13.9,,,A,O,13.42
+SFX_A01,52,Couratari stellata,Lecythidaceae,0.63,,11.6,,,A,O,11.82
+SFX_A01,53,Tetragastris panamensis,Burseraceae,0.73,,12.5,,,A,O,12.46
+SFX_A01,54,Neea oppositifolia,Nyctaginaceae,0.89,,10.3,,,A,O,10.85
+SFX_A01,55,Galipea trifoliata,NI,0.62,0.03349192,10.3,10.0,5.06,A,O,10.85
+SFX_A01,56,NI,NI,0.62,,12.0,,,A,O,12.11
+SFX_A01,57,Cordia scabrifolia,Boraginaceae,0.47,,13.2,,,A,O,12.95
+SFX_A01,58,NI,NI,0.62,,11.5,,,A,O,11.75
+SFX_A01,59,Tetragastris panamensis,Burseraceae,0.73,,14.3,,,A,O,13.69
+SFX_A01,60,Poecilanthe effusa,Fabaceae,0.71,,10.6,,,A,O,11.08
+SFX_A01,61,Attalea maripa,Arecaceae,0.33,0.180007543,30.2,,,A,P,22.22
+SFX_A01,62,Pourouma minor,Urticaceae,0.44,,14.0,,,A,O,13.49
+SFX_A01,63,Nectandra cuspidata,Lauraceae,0.56,,11.0,,,A,O,11.38
+SFX_A01,64,Euterpe oleracea,Arecaceae,0.41,0.023116305,10.0,,,A,P,10.62
+SFX_A01,65,Schefflera morototoni,Araliaceae,0.45,,25.5,,,A,O,20.05
+SFX_A01,1,,,0.58,,15.9,,,D,O,14.73
+SFX_A01,2,Dalbergia melanoxylon,Fabaceae,0.8,1.364982451,59.8,9.37,5.46,A,O,31.89
+SFX_A01,3,Hymenolobium petraeum,Fabaceae,0.71,,19.2,,,A,O,16.71
+SFX_A01,4,Dalbergia melanoxylon,Fabaceae,0.8,,18.2,,,A,O,16.13
+SFX_A01,5,Poecilanthe effusa,Fabaceae,0.71,,12.6,,,A,O,12.53
+SFX_A01,6,Dalbergia melanoxylon,Fabaceae,0.8,,31.1,,,A,O,22.61
+SFX_A01,7,Galipea trifoliata,NI,0.62,,10.1,,,A,O,10.7
+SFX_A01,8,Dalbergia melanoxylon,Fabaceae,0.8,,34.8,,,A,O,24.13
+SFX_A01,9,Rinorea racemosa,Violaceae,0.68,,10.0,,,A,O,10.62
+SFX_A01,10,Rinorea racemosa,Violaceae,0.68,,14.9,,,A,O,14.08
+SFX_A01,11,,,0.58,,22.3,,,D,O,18.42
+SFX_A01,12,Rinorea passoura,Violaceae,0.68,,10.6,,,A,O,11.08
+SFX_A01,13,Poecilanthe effusa,Fabaceae,0.71,,13.3,,,A,O,13.02
+SFX_A01,14,Theobroma glaucum,Malvaceae,0.53,,13.5,,,A,O,13.15
+SFX_A01,15,Dalbergia melanoxylon,Fabaceae,0.8,2.997736284,66.2,16.79,10.78,A,O,33.36
+SFX_A01,16,Dalbergia melanoxylon,Fabaceae,0.8,1.498833901,44.0,19.0,8.95,A,O,27.43
+SFX_A01,17,Inga marginata,Fabaceae,0.57,,10.1,,,A,O,10.7
+SFX_A01,18,Poecilanthe effusa,Fabaceae,0.71,,10.5,,,A,O,11.0
+SFX_A01,19,Dalbergia melanoxylon,Fabaceae,0.8,,12.6,,,A,O,12.53
+SFX_A01,20,Helicostylis sp.,Moraceae,0.65,4.186639431,52.7,45.39,27.2,A,O,30.05
+SFX_A01,21,,,,0.01266829,10.1,,,A,L,10.7
+SFX_A01,22,,,0.58,,14.1,,,D,O,13.56
+SFX_A01,23,Poecilanthe effusa,Fabaceae,0.71,,10.7,,,A,O,11.15
+SFX_A01,24,Rinorea racemosa,Violaceae,0.68,,11.7,,,A,O,11.89
+SFX_A01,25,Dalbergia melanoxylon,Fabaceae,0.8,1.879145203,52.6,16.67,6.95,A,O,30.02
+SFX_A01,26,Dalbergia melanoxylon,Fabaceae,0.8,0.890006104,43.3,11.65,5.75,A,O,27.2
+SFX_A01,27,,,0.58,,11.9,,,D,O,12.03
+SFX_A01,28,Gustavia poeppigiana,Lecythidaceae,0.66,,10.4,,,A,O,10.93
+SFX_A01,29,Dalbergia melanoxylon,Fabaceae,0.8,1.327426257,47.8,14.26,4.96,A,O,28.63
+SFX_A01,30,Inga sp.,Fabaceae,0.58,,10.6,,,A,O,11.08
+SFX_A01,31,Inga sp.,Fabaceae,0.58,,11.1,,,A,O,11.45
+SFX_A01,32,Inga sp.,Fabaceae,0.58,,16.0,,,A,O,14.79
+SFX_A01,33,Inga sp.,Fabaceae,0.58,,14.2,,,A,O,13.62
+SFX_A01,34,Zanthoxylum rhoifolium,Rutaceae,0.49,,25.8,,,A,O,20.19
+SFX_A01,35,Inga marginata,Fabaceae,0.57,,10.3,,,A,O,10.85
+SFX_A01,36,Dalbergia melanoxylon,Fabaceae,0.8,1.999997208,67.1,10.9,1.94,A,O,33.55
+SFX_A01,37,Poecilanthe effusa,Fabaceae,0.71,,10.2,,,A,O,10.78
+SFX_A01,38,Pouteria gongrijpii,Sapotaceae,0.8,,13.5,,,A,O,13.15
+SFX_A01,39,NI,NI,0.62,,29.1,,,A,O,21.73
+SFX_A01,40,Poecilanthe effusa,Fabaceae,0.71,,11.2,,,A,O,11.53
+SFX_A01,41,Tetragastris panamensis,Burseraceae,0.73,1.141988183,39.5,19.64,11.5,A,O,25.89
+SFX_A01,42,Parkia sp.,Fabaceae,0.45,,30.6,,,A,O,22.39
+SFX_A01,43,NI,NI,0.62,,10.6,,,A,O,11.08
+SFX_A01,44,Poecilanthe effusa,Fabaceae,0.71,,11.6,,,A,O,11.82
+SFX_A01,45,,,,0.012596424,10.0,,,A,L,10.62
+SFX_A01,46,Parkia gigantocarpa,Fabaceae,0.26,8.681787316,130.0,38.82,21.13,A,O,41.98
+SFX_A01,47,Neea oppositifolia,Nyctaginaceae,0.89,,21.0,,,A,O,17.72
+SFX_A01,48,Vataireopsis speciosa,Fabaceae,0.65,,10.5,,,A,O,11.0
+SFX_A01,49,Tabebuia serratifolia,Bignoniaceae,0.92,8.459324903,61.2,48.23,31.84,A,O,32.22
+SFX_A01,50,Cordia scabrifolia,Boraginaceae,0.47,,28.9,,,A,O,21.64
+SFX_A01,51,Poecilanthe effusa,Fabaceae,0.71,,11.0,,,A,O,11.38
+SFX_A01,52,Zollernia paraensis,Fabaceae,0.99,,26.1,,,A,O,20.34
+SFX_A01,53,Brosimum obovata,Moraceae,0.68,,12.4,,,A,O,12.39
+SFX_A01,54,Bertholletia excelsa,Lecythidaceae,0.64,12.99401533,90.0,49.24,27.67,A,O,37.61
+SFX_A01,55,Cordia scabrifolia,Boraginaceae,0.47,,14.2,,,A,O,13.62
+SFX_A01,56,Pouteria gongrijpii,Sapotaceae,0.8,3.450277924,51.0,32.6,20.84,A,O,29.57
+SFX_A01,57,,,0.58,,12.9,,,D,O,12.74
+SFX_A01,58,Theobroma glaucum,Malvaceae,0.53,,11.4,,,A,O,11.67
+SFX_A01,59,Neea oppositifolia,Nyctaginaceae,0.89,,21.1,,,A,O,17.78
+SFX_A01,60,Stryphnodendron pulcherrimum,Fabaceae,0.47,,14.5,,,A,O,13.82
+SFX_A01,61,Poecilanthe effusa,Fabaceae,0.71,,15.9,,,A,O,14.73
+SFX_A01,62,Dipteryx odorata,Fabaceae,0.92,4.240152496,49.6,36.81,24.75,A,O,29.16
+SFX_A01,63,NI,NI,0.62,,10.3,,,A,O,10.85
+SFX_A01,64,Dalbergia melanoxylon,Fabaceae,0.8,,18.9,,,A,O,16.54
+SFX_A01,65,Aspidosperma parvifolium,Apocynaceae,0.74,24.17442927,125.2,41.13,36.04,A,O,41.58
+SFX_A01,66,Dalbergia melanoxylon,Fabaceae,0.8,1.355172527,46.0,15.72,3.94,A,O,28.07
+SFX_A01,67,Galipea trifoliata,NI,0.62,,12.9,,,A,O,12.74
+SFX_A01,68,,,0.45,,19.2,,,D,O,16.71
+SFX_A01,69,Tetragastris panamensis,Burseraceae,0.73,,10.6,,,A,O,11.08
+SFX_A01,70,,,0.6,,14.2,,,D,O,13.62
+SFX_A01,71,Eschweilera parviflora,Lecythidaceae,0.89,,11.8,,,A,O,11.96

@@ -1,1359 +1,1359 @@
-site,tree_id,scientific_name,family_name,type,dbh_2015,dead_2015,hcom_2015,htot_2015,dbh_2018,dead_2018
-TAP_A03,001a,Pouteria gongrijpii,Sapotaceae,O,10.5,False,,,,True
-TAP_A03,001b,Nectandra cuspidata,Lauraceae,O,20.5,False,,,,True
-TAP_A03,002a,Virola michelii,Myristicaceae,O,11.0,False,,,,True
-TAP_A03,002b,Protium paniculatum,Burseraceae,O,18.0,False,,,,True
-TAP_A03,003a,Sterculia pruriens,Malvaceae,O,13.9,False,,,14.7,False
-TAP_A03,003b,,,O,35.7,True,,,,True
-TAP_A03,004a,Maquira coriacea,Moraceae,O,33.5,False,,,40.9,False
-TAP_A03,004b,Pouteria macrophylla,Sapotaceae,O,10.4,False,,,,True
-TAP_A03,005a,Ocotea cernua,Lauraceae,O,24.7,False,,,25.8,False
-TAP_A03,005b,Protium heptaphyllum,Burseraceae,O,19.8,False,,,,True
-TAP_A03,006a,,,O,11.5,True,,,,True
-TAP_A03,006b,Symphonia globulifera,Clusiaceae,O,10.6,False,,,,True
-TAP_A03,007a,,,O,21.5,True,,,,True
-TAP_A03,007b,Duguetia surinamensis,Annonaceae,O,11.0,False,,,,True
-TAP_A03,008a,Sapium marmieri,Euphorbiaceae,O,24.3,False,,,,True
-TAP_A03,008b,Aniba parviflora,Lauraceae,O,15.7,False,,,,True
-TAP_A03,009a,Maquira coriacea,Moraceae,O,10.9,False,,,,True
-TAP_A03,009b,Tachigali paniculata,Fabaceae,O,12.1,False,,,,True
-TAP_A03,010a,Maquira coriacea,Moraceae,O,12.0,False,,,,True
-TAP_A03,010b,Protium hebetatum,Burseraceae,O,15.1,False,,,15.7,False
-TAP_A03,011a,Cordia scabrifolia,Boraginaceae,O,11.0,False,,,,True
-TAP_A03,011b,Protium paniculatum,Burseraceae,O,14.1,False,,,,True
-TAP_A03,012a,Strychnos subcordata,Loganiaceae,O,11.8,False,,,,True
-TAP_A03,012b,Apeiba petoumo,Malvaceae,O,12.0,False,,,11.9,False
-TAP_A03,013a,,,O,41.7,True,,,,True
-TAP_A03,013b,Inga thibaudiana,Fabaceae,O,12.4,False,,,13.5,False
-TAP_A03,014a,,,O,13.1,True,,,,True
-TAP_A03,014b,Luehea speciosa,Malvaceae,O,15.4,False,,,16.6,False
-TAP_A03,015a,,,O,12.7,True,,,,True
-TAP_A03,015b,Nectandra cuspidata,Lauraceae,O,14.3,False,,,15.9,False
-TAP_A03,016a,Eschweilera coriacea,Lecythidaceae,O,15.2,False,,,,True
-TAP_A03,016b,Pourouma minor,Urticaceae,O,30.9,False,,,35.3,False
-TAP_A03,017a,Eschweilera coriacea,Lecythidaceae,O,10.7,False,13.51,22.58,11.5,False
-TAP_A03,017b,Pourouma minor,Urticaceae,O,53.7,False,13.51,22.58,54.4,False
-TAP_A03,018a,,,O,14.8,False,,,,True
-TAP_A03,018b,Laetia procera,Salicaceae,O,22.4,False,,,,True
-TAP_A03,019a,Lecythis idatimon,Lecythidaceae,O,14.8,False,,,,True
-TAP_A03,019b,Protium paniculatum,Burseraceae,O,11.1,False,,,,True
-TAP_A03,020a,Cordia scabrifolia,Boraginaceae,O,22.5,False,,,22.3,False
-TAP_A03,020b,Casearia javitensis,Salicaceae,O,12.5,False,,,,True
-TAP_A03,021a,Jacaranda copaia,Bignoniaceae,O,13.9,False,,,17.3,False
-TAP_A03,021b,Inga thibaudiana,Fabaceae,O,11.0,False,,,,True
-TAP_A03,022a,Pseudopiptadenia psilostachya,Fabaceae,O,37.6,False,,,38.5,False
-TAP_A03,022b,Ocotea cernua,Lauraceae,O,41.7,False,,,,True
-TAP_A03,023a,Ormosia grossa,Fabaceae,O,10.4,False,,,10.7,False
-TAP_A03,023b,Laetia procera,Salicaceae,O,42.7,False,,,,True
-TAP_A03,024a,Neea oppositifolia,Nyctaginaceae,O,20.3,False,,,20.6,False
-TAP_A03,024b,Protium paniculatum,Burseraceae,O,11.7,False,,,,True
-TAP_A03,025a,Inga sp,Fabaceae,O,18.7,False,,,20.2,False
-TAP_A03,025b,Protium paniculatum,Burseraceae,O,16.7,False,,,,True
-TAP_A03,026a,Eperua bijuga,Fabaceae,O,16.6,False,18.37,28.06,17.0,False
-TAP_A03,026b,Pourouma minor,Urticaceae,O,52.0,False,18.37,28.06,55.4,False
-TAP_A03,027a,Pouteria gongrijpii,Sapotaceae,O,14.0,False,,,15.9,False
-TAP_A03,027b,Protium paniculatum,Burseraceae,O,10.6,False,,,,True
-TAP_A03,028a,Chrysophyllum sanguinolentum,Sapotaceae,O,23.4,False,18.67,29.29,23.9,False
-TAP_A03,028b,Pourouma minor,Urticaceae,O,54.6,False,18.67,29.29,55.7,False
-TAP_A03,029a,Vitex triflora,Lamiaceae,O,18.1,False,,,18.5,False
-TAP_A03,029b,,,O,27.8,False,,,29.3,False
-TAP_A03,030a,Pouteria gongrijpii,Sapotaceae,O,23.8,False,,,24.8,False
-TAP_A03,030b,Maquira coriacea,Moraceae,O,13.0,False,,,13.6,False
-TAP_A03,031a,,,O,15.8,True,,,,True
-TAP_A03,031b,Nectandra cuspidata,Lauraceae,O,11.5,False,,,12.2,False
-TAP_A03,032a,Guatteria schomburgkiana,Annonaceae,O,10.5,False,,,11.3,False
-TAP_A03,032b,Protium paniculatum,Burseraceae,O,11.0,False,,,10.9,False
-TAP_A03,033a,Schefflera morototoni,Araliaceae,O,11.7,False,,,14.0,False
-TAP_A03,033b,Pouteria gongrijpii,Sapotaceae,O,11.7,False,,,12.3,False
-TAP_A03,034a,Cecropia engleriana,Urticaceae,O,10.3,False,,,11.6,False
-TAP_A03,034b,Anacardium spruceanum,Anacardiaceae,O,22.3,False,,,20.3,False
-TAP_A03,035a,Nectandra cuspidata,Lauraceae,O,29.6,False,,,29.9,False
-TAP_A03,035b,Nectandra cuspidata,Lauraceae,O,27.6,False,,,,True
-TAP_A03,036a,Pseudopiptadenia suaveolens,Fabaceae,O,10.9,False,,,11.1,False
-TAP_A03,036b,Theobroma glaucum,Malvaceae,O,11.0,False,,,10.2,False
-TAP_A03,037a,Maquira coriacea,Moraceae,O,13.7,False,,,14.6,False
-TAP_A03,037b,Protium paniculatum,Burseraceae,O,22.6,False,,,21.1,False
-TAP_A03,038a,Pseudopiptadenia psilostachya,Fabaceae,O,18.9,False,24.39,41.72,23.7,False
-TAP_A03,038b,Tachigali paniculata,Fabaceae,O,78.4,False,24.39,41.72,,True
-TAP_A03,039a,,,O,14.1,False,,,15.8,False
-TAP_A03,039b,Guatteria schomburgkiana,Annonaceae,O,18.7,False,,,,True
-TAP_A03,040a,Eperua bijuga,Fabaceae,O,13.2,False,,,13.7,False
-TAP_A03,040b,Rinorea guianensis,Violaceae,O,25.0,False,,,,True
-TAP_A03,041a,Cordia scabrifolia,Boraginaceae,O,19.8,False,,,15.0,False
-TAP_A03,041b,Pouteria sp,Sapotaceae,O,12.0,False,,,12.7,False
-TAP_A03,042a,Sapium marmieri,Euphorbiaceae,O,23.2,False,18.51,29.72,24.9,False
-TAP_A03,042b,Licania canescens,Chrysobalanaceae,O,50.8,False,18.51,29.72,51.9,False
-TAP_A03,043a,Cordia scabrifolia,Boraginaceae,O,15.8,False,,,17.5,False
-TAP_A03,043b,Licania canescens,Chrysobalanaceae,O,12.7,False,,,13.1,False
-TAP_A03,044a,Ocotea cernua,Lauraceae,O,10.2,False,,,,True
-TAP_A03,044b,Eschweilera coriacea,Lecythidaceae,O,27.4,False,,,28.1,False
-TAP_A03,045a,Pouteria gongrijpii,Sapotaceae,O,13.1,False,,,13.5,False
-TAP_A03,045b,Rinorea guianensis,Violaceae,O,11.7,False,,,12.5,False
-TAP_A03,046a,Lecythis lurida,Lecythidaceae,O,10.6,False,,,22.9,False
-TAP_A03,046b,Eschweilera amazonica,Lecythidaceae,O,42.4,False,,,42.7,False
-TAP_A03,047a,Poeppigia procera,Fabaceae,O,10.4,False,,,10.5,False
-TAP_A03,047b,Tachigali myrmecophila,Fabaceae,O,30.6,False,,,31.7,False
-TAP_A03,048a,,,O,12.8,True,,,,True
-TAP_A03,048b,Protium paniculatum,Burseraceae,O,12.4,False,,,12.1,False
-TAP_A03,049a,,,O,20.8,True,,,,True
-TAP_A03,049b,Clarisia racemosa,Moraceae,O,11.4,False,,,11.3,False
-TAP_A03,050a,Inga sp,Fabaceae,O,11.9,False,,,13.5,False
-TAP_A03,050b,Neea oppositifolia,Nyctaginaceae,O,12.9,False,,,13.2,False
-TAP_A03,051a,Pouteria gongrijpii,Sapotaceae,O,11.2,False,,,11.8,False
-TAP_A03,051b,Inga thibaudiana,Fabaceae,O,11.6,False,,,,True
-TAP_A03,052a,Couratari stellata,Lecythidaceae,O,12.5,False,,,12.7,False
-TAP_A03,052b,Tachigali myrmecophila,Fabaceae,O,20.4,False,,,,True
-TAP_A03,053a,Pouteria guianensis,Sapotaceae,O,11.4,False,,,,True
-TAP_A03,053b,,,O,41.2,False,,,41.4,False
-TAP_A03,054a,,,O,12.8,False,,,29.0,False
-TAP_A03,054b,Duguetia surinamensis,Annonaceae,O,15.6,False,,,16.0,False
-TAP_A03,055a,,,O,10.5,False,,,12.2,False
-TAP_A03,055b,Inga thibaudiana,Fabaceae,O,17.3,False,,,17.6,False
-TAP_A03,056b,Protium paniculatum,Burseraceae,O,22.4,False,,,22.4,False
-TAP_A03,057b,Cordia scabrifolia,Boraginaceae,O,16.1,False,,,16.6,False
-TAP_A03,058b,Simarouba amara,Simaroubaceae,O,12.7,False,,,,True
-TAP_A03,059b,Pouteria gongrijpii,Sapotaceae,O,10.6,False,,,11.1,False
-TAP_A03,060b,Jacaranda copaia,Bignoniaceae,O,19.8,False,,,,True
-TAP_A03,061b,Rinorea guianensis,Violaceae,O,12.0,False,,,,True
-TAP_A03,062b,Eschweilera parviflora,Lecythidaceae,O,13.2,False,,,,True
-TAP_A03,063b,,,O,50.6,True,,11.76,,True
-TAP_A03,064b,Inga thibaudiana,Fabaceae,O,14.3,False,,,,True
-TAP_A03,065b,Ormosia grossa,Fabaceae,O,11.5,False,,,,True
-TAP_A03,066a,Ocotea canaliculata,Lauraceae,O,,,,,15.4,False
-TAP_A03,067a,Symphonia globulifera,Clusiaceae,O,,,,,10.5,False
-TAP_A03,068a,Inga thibaudiana,Fabaceae,O,,,,,11.3,False
-TAP_A03,001a,Protium paniculatum,Burseraceae,O,13.2,False,25.15,28.95,13.4,False
-TAP_A03,001b,Tachigali myrmecophila,Fabaceae,O,15.6,False,7.04,10.34,33.5,False
-TAP_A03,002a,Licania canescens,Chrysobalanaceae,O,14.3,False,4.93,5.92,15.2,False
-TAP_A03,002b,Neea oppositifolia,Nyctaginaceae,O,15.1,False,9.62,13.09,15.0,False
-TAP_A03,003a,Oenocarpus bacaba,Arecaceae,P,11.5,False,7.26,13.67,12.2,False
-TAP_A03,003b,Rinorea guianensis,Violaceae,O,15.2,False,6.2,10.09,16.4,False
-TAP_A03,004a,,,O,12.0,False,7.39,8.34,17.2,False
-TAP_A03,004b,Inga thibaudiana,Fabaceae,O,11.6,False,7.41,13.4,11.8,False
-TAP_A03,005a,,,O,13.2,False,9.76,12.62,19.7,False
-TAP_A03,005b,Ocotea cernua,Lauraceae,O,21.2,False,15.17,21.34,21.2,False
-TAP_A03,006a,Rinorea guianensis,Violaceae,O,19.0,False,,,19.0,False
-TAP_A03,006b,Guatteria schomburgkiana,Annonaceae,O,44.4,False,18.21,25.11,44.4,False
-TAP_A03,007a,Dimorphandra macrostachya,Fabaceae,O,40.7,False,20.45,25.58,,True
-TAP_A03,007b,Rinorea guianensis,Violaceae,O,19.8,False,,,19.7,False
-TAP_A03,008a,,,O,12.4,False,,,13.1,False
-TAP_A03,008b,Ormosia amazonica,Fabaceae,O,15.8,False,,,48.5,False
-TAP_A03,009a,Sextonia rubra,Lauraceae,O,25.9,False,,,28.0,False
-TAP_A03,009b,Licania octandra,Chrysobalanaceae,O,14.0,False,,,14.6,False
-TAP_A03,010a,Inga thibaudiana,Fabaceae,O,17.6,False,,,18.0,False
-TAP_A03,010b,,,O,52.6,True,19.34,22.27,,True
-TAP_A03,011a,,,O,11.4,False,,,18.7,False
-TAP_A03,011b,,,O,12.6,True,,,,True
-TAP_A03,012a,Pouteria sp,Sapotaceae,O,10.8,False,,,11.3,False
-TAP_A03,012b,,,O,12.2,True,,,,True
-TAP_A03,013a,Protium paniculatum,Burseraceae,O,11.0,False,,,11.1,False
-TAP_A03,013b,Pouteria gongrijpii,Sapotaceae,O,28.2,False,,,28.0,False
-TAP_A03,014a,Cecropia palmata,Urticaceae,O,12.5,False,,,17.2,False
-TAP_A03,014b,Pouteria sp,Sapotaceae,O,12.9,False,,,13.4,False
-TAP_A03,015a,Rinorea guianensis,Violaceae,O,24.0,False,,,,True
-TAP_A03,015b,Licania canescens,Chrysobalanaceae,O,24.8,False,,,25.5,False
-TAP_A03,016a,Licania canescens,Chrysobalanaceae,O,40.1,False,10.66,13.79,41.5,False
-TAP_A03,016b,Eschweilera amazonica,Lecythidaceae,O,14.7,False,,,15.9,False
-TAP_A03,017a,Cecropia palmata,Urticaceae,O,13.5,False,,,20.5,False
-TAP_A03,017b,Pouteria guianensis,Sapotaceae,O,14.1,False,,,14.0,False
-TAP_A03,018a,Inga sp,Fabaceae,O,10.3,False,,,18.2,False
-TAP_A03,018b,Virola michelii,Myristicaceae,O,24.4,False,,,24.6,False
-TAP_A03,019a,Protium paniculatum,Burseraceae,O,14.6,False,,,16.2,False
-TAP_A03,019b,Inga thibaudiana,Fabaceae,O,14.4,False,,,15.1,False
-TAP_A03,020a,Cecropia palmata,Urticaceae,O,16.2,False,,,20.5,False
-TAP_A03,020b,Sagotia racemosa,Euphorbiaceae,O,20.4,False,,,20.9,False
-TAP_A03,021a,Ambelania acida,Apocynaceae,O,12.9,False,,,,True
-TAP_A03,021b,Rinorea guianensis,Violaceae,O,10.8,False,,,11.2,False
-TAP_A03,022a,Ambelania acida,Apocynaceae,O,10.6,False,,,,True
-TAP_A03,022b,Eschweilera apiculata,Lecythidaceae,O,19.4,False,,,19.4,False
-TAP_A03,023a,Inga sp,Fabaceae,O,23.0,False,,,23.1,False
-TAP_A03,023b,Rinorea guianensis,Violaceae,O,16.3,False,,,16.6,False
-TAP_A03,024a,Pourouma minor,Urticaceae,O,25.8,False,,,,True
-TAP_A03,024b,Pradosia cochlearia,Sapotaceae,O,28.7,False,,,30.0,False
-TAP_A03,025a,Pourouma minor,Urticaceae,O,15.0,False,,,17.5,False
-TAP_A03,025b,Brosimum parinarioides,Moraceae,O,41.6,False,18.48,27.55,41.5,False
-TAP_A03,026a,Eschweilera ovata,Lecythidaceae,O,19.6,False,,,20.0,False
-TAP_A03,026b,Eschweilera parviflora,Lecythidaceae,O,27.2,False,,,27.7,False
-TAP_A03,027a,Ocotea cernua,Lauraceae,O,12.6,False,,,,True
-TAP_A03,027b,Pouteria retinervis,Sapotaceae,O,11.8,False,,,12.1,False
-TAP_A03,028a,Protium paniculatum,Burseraceae,O,11.5,False,,,11.7,False
-TAP_A03,028b,Protium heptaphyllum,Burseraceae,O,17.3,False,,,17.3,False
-TAP_A03,029a,Pourouma minor,Urticaceae,O,14.5,False,,,20.4,False
-TAP_A03,029b,Rinorea guianensis,Violaceae,O,24.6,False,,,24.5,False
-TAP_A03,030a,Inga alba,Fabaceae,O,20.0,False,,,33.5,False
-TAP_A03,030b,Ormosia coccinea,Fabaceae,O,21.4,False,,,21.5,False
-TAP_A03,031a,Pourouma minor,Urticaceae,O,10.4,False,,,14.1,False
-TAP_A03,031b,Neea oppositifolia,Nyctaginaceae,O,11.6,False,,,12.4,False
-TAP_A03,032a,Pourouma minor,Urticaceae,O,12.7,False,,,17.7,False
-TAP_A03,032b,Iryanthera laevis,Myristicaceae,O,17.2,False,,,17.3,False
-TAP_A03,033a,Inga sp,Fabaceae,O,20.2,False,,,17.7,False
-TAP_A03,033b,Manilkara huberi,Sapotaceae,O,20.0,False,,,19.3,False
-TAP_A03,034a,Sloanea guianensis,Elaeocarpaceae,O,10.4,False,,,12.3,False
-TAP_A03,034b,Dialium guianense,Fabaceae,O,44.8,False,14.52,28.51,44.4,False
-TAP_A03,035a,Sterculia pruriens,Malvaceae,O,12.1,False,,,12.3,False
-TAP_A03,035b,Pouteria macrophylla,Sapotaceae,O,11.7,False,,,12.7,False
-TAP_A03,036a,Annona sp,Annonaceae,O,10.2,False,,,10.4,False
-TAP_A03,036b,Eschweilera apiculata,Lecythidaceae,O,18.2,False,,,18.8,False
-TAP_A03,037a,Sagotia racemosa,Euphorbiaceae,O,12.6,False,,,12.8,False
-TAP_A03,037b,Eschweilera coriacea,Lecythidaceae,O,32.0,False,,,31.8,False
-TAP_A03,038a,Sagotia racemosa,Euphorbiaceae,O,14.9,False,,,15.3,False
-TAP_A03,038b,Protium paniculatum,Burseraceae,O,15.5,False,,,15.0,False
-TAP_A03,039a,Strychnos subcordata,Loganiaceae,O,13.9,False,,,14.3,False
-TAP_A03,039b,Rinorea guianensis,Violaceae,O,13.1,False,,,13.5,False
-TAP_A03,040a,Inga thibaudiana,Fabaceae,O,12.0,False,,,,True
-TAP_A03,040b,Eschweilera coriacea,Lecythidaceae,O,11.4,False,,,,True
-TAP_A03,041a,,,O,20.5,False,,,21.6,False
-TAP_A03,041b,Marlierea velutina,Myrtaceae,O,10.6,False,,,11.8,False
-TAP_A03,042a,Sloanea guianensis,Elaeocarpaceae,O,10.3,False,,,11.6,False
-TAP_A03,042b,Theobroma subincanum,Malvaceae,O,12.0,False,,,12.9,False
-TAP_A03,043a,Pouteria gongrijpii,Sapotaceae,O,10.8,False,,,10.8,False
-TAP_A03,043b,Inga thibaudiana,Fabaceae,O,19.5,False,,,21.0,False
-TAP_A03,044a,Pouteria sp,Sapotaceae,O,12.5,False,,,13.4,False
-TAP_A03,044b,Rinorea guianensis,Violaceae,O,22.9,False,,,23.0,False
-TAP_A03,045a,Pouteria gongrijpii,Sapotaceae,O,13.4,False,,,,True
-TAP_A03,045b,Dialium guianense,Fabaceae,O,17.3,False,,,18.6,False
-TAP_A03,046a,Eschweilera parviflora,Lecythidaceae,O,13.9,False,,,,True
-TAP_A03,046b,Eschweilera parviflora,Lecythidaceae,O,12.8,False,,,13.2,False
-TAP_A03,047a,Ocotea cernua,Lauraceae,O,13.5,False,,,13.9,False
-TAP_A03,047b,Eschweilera parviflora,Lecythidaceae,O,13.3,False,,,16.2,False
-TAP_A03,048a,Cecropia palmata,Urticaceae,O,16.1,False,,,,True
-TAP_A03,048b,Eschweilera parviflora,Lecythidaceae,O,13.6,False,,,16.1,False
-TAP_A03,049a,,,O,11.8,False,,,,True
-TAP_A03,049b,Eschweilera parviflora,Lecythidaceae,O,18.4,False,,,18.3,False
-TAP_A03,050b,,,O,26.0,True,,,,True
-TAP_A03,051b,Eschweilera parviflora,Lecythidaceae,O,24.4,False,,,25.0,False
-TAP_A03,052b,Goupia glabra,Goupiaceae,O,110.0,False,23.39,37.83,101.9,False
-TAP_A03,053b,Rinorea guianensis,Violaceae,O,26.7,False,,,26.6,False
-TAP_A03,054a,Inga sp.,Fabaceae,O,,,,,12.4,False
-TAP_A03,055a,Cecropia distachya,Urticaceae,O,,,,,13.2,False
-TAP_A03,056a,Cecropia distachya,Urticaceae,O,,,,,12.3,False
-TAP_A03,057a,Inga sp.,Fabaceae,O,,,,,12.6,False
-TAP_A03,058a,Cecropia palmata,Urticaceae,O,,,,,11.3,False
-TAP_A03,059a,Inga sp.,Fabaceae,O,,,,,12.1,False
-TAP_A03,060a,Pourouma minor,Urticaceae,O,,,,,10.9,False
-TAP_A03,001a,Alexa grandiflora,Fabaceae,O,20.6,False,8.58,14.36,21.2,False
-TAP_A03,001b,,,O,10.3,True,,6.2,,True
-TAP_A03,002a,Cordia scabrifolia,Boraginaceae,O,18.3,False,9.47,14.01,22.0,False
-TAP_A03,002b,,,O,12.1,True,,2.39,,True
-TAP_A03,003a,Cordia scabrifolia,Boraginaceae,O,16.2,False,8.47,12.56,17.3,False
-TAP_A03,003b,Ocotea cernua,Lauraceae,O,14.6,False,9.34,14.19,,True
-TAP_A03,004a,,,O,15.5,True,,11.33,,True
-TAP_A03,004b,Jacaranda copaia,Bignoniaceae,O,28.4,False,6.73,11.38,,True
-TAP_A03,005a,,,O,22.4,True,,12.07,,True
-TAP_A03,005b,Jacaranda copaia,Bignoniaceae,O,18.3,False,11.16,19.36,,True
-TAP_A03,006a,,,O,10.0,True,,,,True
-TAP_A03,006b,,,O,19.9,True,,14.36,,True
-TAP_A03,007a,Attalea maripa,Arecaceae,P,55.0,False,4.81,14.77,51.9,False
-TAP_A03,007b,,,O,14.0,True,,1.26,,True
-TAP_A03,008a,Jacaranda copaia,Bignoniaceae,O,10.5,False,9.59,12.54,,True
-TAP_A03,008b,Maquira coriacea,Moraceae,O,11.8,False,2.81,8.49,,True
-TAP_A03,009a,Attalea maripa,Arecaceae,P,41.5,False,3.94,10.1,41.3,False
-TAP_A03,009b,,,O,72.0,True,,,,True
-TAP_A03,010a,,,O,16.0,True,,9.76,,True
-TAP_A03,010b,Ocotea cernua,Lauraceae,O,19.7,False,7.44,13.09,,True
-TAP_A03,011a,,,O,15.2,True,,5.01,,True
-TAP_A03,011b,Nectandra cuspidata,Lauraceae,O,17.4,False,3.79,14.94,,True
-TAP_A03,012a,,,O,12.2,True,,13.37,,True
-TAP_A03,012b,,,O,11.3,True,,3.97,,True
-TAP_A03,013a,Astrocaryum aculeatum,Arecaceae,P,23.8,False,6.48,13.16,23.3,False
-TAP_A03,013b,,,O,10.2,True,,9.82,,True
-TAP_A03,014a,Bellucia grossularioides,Melastomataceae,O,16.8,False,9.45,13.37,,True
-TAP_A03,014b,,,O,10.7,True,,3.19,,True
-TAP_A03,015a,Poeppigia procera,Fabaceae,O,19.0,False,11.44,16.84,21.1,False
-TAP_A03,015b,,,O,11.7,True,,7.11,,True
-TAP_A03,016a,Poeppigia procera,Fabaceae,O,19.8,False,11.44,15.73,,True
-TAP_A03,016b,,,O,13.7,True,,13.02,,True
-TAP_A03,017a,,,O,12.0,True,,12.42,,True
-TAP_A03,017b,,,O,15.5,True,,13.28,,True
-TAP_A03,018a,Lecythis lurida,Lecythidaceae,O,10.8,False,6.24,9.34,21.6,False
-TAP_A03,018b,Nectandra cuspidata,Lauraceae,O,13.3,False,4.19,6.39,,True
-TAP_A03,019a,Lecythis lurida,Lecythidaceae,O,11.3,False,6.53,10.76,12.7,False
-TAP_A03,019b,Inga alba,Fabaceae,O,20.6,False,8.08,12.67,,True
-TAP_A03,020a,Lecythis lurida,Lecythidaceae,O,10.5,False,4.31,7.12,11.1,False
-TAP_A03,020b,,,O,39.5,False,10.83,17.47,,True
-TAP_A03,021a,Cordia scabrifolia,Boraginaceae,O,14.5,False,8.25,14.01,,True
-TAP_A03,021b,Cordia scabrifolia,Boraginaceae,O,20.9,False,10.77,18.38,,True
-TAP_A03,022a,Cordia scabrifolia,Boraginaceae,O,23.7,False,10.59,15.57,,True
-TAP_A03,022b,Cordia scabrifolia,Boraginaceae,O,20.1,False,10.79,16.01,28.0,False
-TAP_A03,023a,,,O,12.2,True,,9.93,,True
-TAP_A03,023b,Neea oppositifolia,Nyctaginaceae,O,12.0,False,2.42,6.37,,True
-TAP_A03,024a,Trattinnickia burserifolia,Burseraceae,O,15.7,False,8.26,13.64,16.2,False
-TAP_A03,024b,Attalea maripa,Arecaceae,P,35.5,False,4.68,12.3,,True
-TAP_A03,025a,Guatteria schomburgkiana,Annonaceae,O,10.4,False,8.33,11.56,10.9,False
-TAP_A03,025b,Bertholletia excelsa,Lecythidaceae,O,23.3,False,9.94,12.95,27.4,False
-TAP_A03,026a,,,O,10.8,True,,9.41,,True
-TAP_A03,026b,Banara guianensis,Salicaceae,O,10.3,False,1.41,2.59,,True
-TAP_A03,027a,Theobroma glaucum,Malvaceae,O,10.4,False,8.46,12.79,,True
-TAP_A03,027b,Ormosia grossa,Fabaceae,O,12.0,False,2.12,6.37,,True
-TAP_A03,028a,Handroanthus impetiginosus,Bignoniaceae,O,31.4,False,12.85,17.13,20.8,False
-TAP_A03,028b,Attalea maripa,Arecaceae,P,33.0,False,,9.71,,True
-TAP_A03,029a,Poeppigia procera,Fabaceae,O,13.4,False,10.48,13.68,,True
-TAP_A03,029b,,,O,14.0,True,,7.93,,True
-TAP_A03,030a,Couratari stellata,Lecythidaceae,O,10.2,False,7.62,9.22,,True
-TAP_A03,030b,Banara guianensis,Salicaceae,O,18.1,False,7.51,14.85,,True
-TAP_A03,031a,Guatteria schomburgkiana,Annonaceae,O,16.7,False,7.85,15.52,,True
-TAP_A03,031b,Banara guianensis,Salicaceae,O,10.6,False,4.49,8.73,17.2,False
-TAP_A03,032a,Poeppigia procera,Fabaceae,O,20.0,False,11.26,16.87,,True
-TAP_A03,032b,,,O,12.1,True,,8.98,,True
-TAP_A03,033a,Astrocaryum aculeatum,Arecaceae,P,28.2,False,8.529999999999998,16.53,12.4,False
-TAP_A03,033b,Helicostylis tomentosa,Moraceae,O,13.5,False,2.92,11.64,,True
-TAP_A03,034a,Maquira coriacea,Moraceae,O,13.3,False,7.45,11.32,,True
-TAP_A03,034b,Trattinnickia burserifolia,Burseraceae,O,12.9,False,5.0,7.71,,True
-TAP_A03,035a,Bellucia grossularioides,Melastomataceae,O,20.9,False,7.88,14.37,,True
-TAP_A03,035b,Guatteria schomburgkiana,Annonaceae,O,13.7,False,5.84,8.87,28.3,False
-TAP_A03,036a,,,O,14.9,True,,14.56,,True
-TAP_A03,036b,Guatteria schomburgkiana,Annonaceae,O,11.2,False,6.62,12.27,15.3,False
-TAP_A03,037a,,,O,15.5,True,,7.59,,True
-TAP_A03,037b,Guatteria schomburgkiana,Annonaceae,O,15.2,False,8.92,11.98,11.3,False
-TAP_A03,038a,Inga alba,Fabaceae,O,20.7,False,10.69,17.16,29.3,False
-TAP_A03,038b,Guatteria schomburgkiana,Annonaceae,O,14.9,False,7.26,14.25,,True
-TAP_A03,039a,Bellucia grossularioides,Melastomataceae,O,19.4,False,7.29,14.7,,True
-TAP_A03,039b,Cordia scabrifolia,Boraginaceae,O,23.7,False,11.03,15.01,12.4,False
-TAP_A03,040a,,,O,16.3,True,,,,True
-TAP_A03,040b,Guatteria schomburgkiana,Annonaceae,O,16.7,False,8.58,13.06,,True
-TAP_A03,041a,Jacaranda copaia,Bignoniaceae,O,24.1,False,11.6,17.9,30.1,False
-TAP_A03,041b,Banara guianensis,Salicaceae,O,13.3,False,,7.59,,True
-TAP_A03,042a,,,O,14.0,True,,5.23,,True
-TAP_A03,042b,Couepia robusta,Chrysobalanaceae,O,17.1,False,7.42,11.01,,True
-TAP_A03,043a,,,O,10.7,True,,8.3,,True
-TAP_A03,043b,Couepia robusta,Chrysobalanaceae,O,19.0,False,7.71,11.4,,True
-TAP_A03,044a,Attalea maripa,Arecaceae,P,39.4,False,7.2,17.48,39.9,False
-TAP_A03,044b,,,O,12.6,True,,11.45,,True
-TAP_A03,045a,,,O,11.7,True,,7.27,,True
-TAP_A03,045b,,,O,11.6,True,,9.48,,True
-TAP_A03,046a,Bellucia grossularioides,Melastomataceae,O,10.3,False,5.44,8.58,,True
-TAP_A03,046b,Sapium marmieri,Euphorbiaceae,O,15.7,False,7.08,11.75,,True
-TAP_A03,047a,,,O,12.6,False,7.53,10.75,,True
-TAP_A03,047b,Jacaranda copaia,Bignoniaceae,O,25.3,False,15.16,17.31,,True
-TAP_A03,048a,,,O,11.9,True,,13.48,,True
-TAP_A03,048b,Cordia scabrifolia,Boraginaceae,O,26.2,False,10.45,16.84,,True
-TAP_A03,049a,Guatteria schomburgkiana,Annonaceae,O,20.3,False,12.2,16.71,23.6,False
-TAP_A03,049b,Jacaranda copaia,Bignoniaceae,O,29.0,False,12.79,17.89,,True
-TAP_A03,050a,Maquira coriacea,Moraceae,O,10.2,False,6.42,11.19,12.7,False
-TAP_A03,050b,,,O,10.8,True,,10.11,,True
-TAP_A03,051a,Maquira coriacea,Moraceae,O,12.4,False,8.14,12.81,,True
-TAP_A03,051b,Vismia guianensis,Hypericaceae,O,14.1,False,6.58,9.54,,True
-TAP_A03,052a,Cordia scabrifolia,Boraginaceae,O,17.2,False,9.9,13.56,,True
-TAP_A03,052b,Trattinnickia burserifolia,Burseraceae,O,13.4,False,7.12,10.33,15.9,False
-TAP_A03,053a,Cordia scabrifolia,Boraginaceae,O,13.1,False,6.89,9.54,,True
-TAP_A03,053b,Inga sp,Fabaceae,O,11.0,False,3.06,6.43,,True
-TAP_A03,054a,,,O,14.0,True,,6.04,,True
-TAP_A03,054b,,,O,10.9,True,,12.21,,True
-TAP_A03,055a,,,O,10.9,True,,10.02,,True
-TAP_A03,055b,Guatteria schomburgkiana,Annonaceae,O,14.6,False,9.1,13.83,17.5,False
-TAP_A03,056a,,,O,27.4,False,12.61,20.84,26.9,False
-TAP_A03,056b,,,O,16.2,True,,9.8,,True
-TAP_A03,057a,,,O,13.2,True,,14.54,16.7,False
-TAP_A03,057b,Trattinnickia burserifolia,Burseraceae,O,12.8,False,5.3,9.67,14.5,False
-TAP_A03,058a,,,O,13.7,True,,11.22,,True
-TAP_A03,058b,Cordia scabrifolia,Boraginaceae,O,15.5,False,7.22,11.56,,True
-TAP_A03,059a,Cecropia ficifolia,Urticaceae,O,20.6,False,13.62,16.78,,True
-TAP_A03,059b,,,O,19.7,True,,17.81,,True
-TAP_A03,060a,,,O,20.7,True,,7.78,,True
-TAP_A03,060b,Sapium marmieri,Euphorbiaceae,O,20.5,False,12.58,18.21,,True
-TAP_A03,061a,,,O,10.5,True,,9.93,,True
-TAP_A03,061b,Sapium marmieri,Euphorbiaceae,O,20.5,False,13.48,18.21,,True
-TAP_A03,062a,,,O,10.8,True,,9.03,,True
-TAP_A03,062b,Trattinnickia burserifolia,Burseraceae,O,10.7,False,8.16,10.6,,True
-TAP_A03,063b,Guatteria schomburgkiana,Annonaceae,O,17.1,False,9.18,11.51,19.4,False
-TAP_A03,064b,Sapium marmieri,Euphorbiaceae,O,20.4,False,5.28,12.22,24.7,False
-TAP_A03,065b,,,O,13.6,True,,6.61,,True
-TAP_A03,066b,,,O,12.2,True,,2.01,,True
-TAP_A03,067a,Jacaranda copaia,Bignoniaceae,O,,,,,15.6,False
-TAP_A03,001a,Byrsonima crispa,Malpighiaceae,O,24.3,False,13.09,20.19,,True
-TAP_A03,001b,,,O,12.2,True,,10.43,,True
-TAP_A03,002a,,,O,13.2,True,,5.57,,True
-TAP_A03,002b,Guatteria schomburgkiana,Annonaceae,O,14.1,False,9.31,14.77,,True
-TAP_A03,003a,,,O,12.0,True,,15.42,,True
-TAP_A03,003b,Guatteria schomburgkiana,Annonaceae,O,18.9,False,9.99,17.05,19.1,False
-TAP_A03,004a,Inga alba,Fabaceae,O,38.3,False,11.44,30.01,,True
-TAP_A03,004b,Guatteria schomburgkiana,Annonaceae,O,10.8,False,7.7,12.09,,True
-TAP_A03,005a,Inga alba,Fabaceae,O,39.2,False,14.15,23.98,,True
-TAP_A03,005b,,,O,27.0,True,,13.26,,True
-TAP_A03,006a,Inga thibaudiana,Fabaceae,O,12.1,False,,15.18,,True
-TAP_A03,006b,Cordia scabrifolia,Boraginaceae,O,23.1,False,11.29,17.03,,True
-TAP_A03,007a,Guatteria schomburgkiana,Annonaceae,O,15.7,False,10.42,19.21,,True
-TAP_A03,007b,,,O,17.1,True,,7.79,,True
-TAP_A03,008a,Xylopia sp,Annonaceae,O,10.7,False,10.83,16.89,,True
-TAP_A03,008b,,,O,12.5,True,8.3,14.39,,True
-TAP_A03,009a,,,O,12.2,True,,2.99,,True
-TAP_A03,009b,Guatteria schomburgkiana,Annonaceae,O,18.8,False,,11.5,,True
-TAP_A03,010a,,,O,60.0,True,,,,True
-TAP_A03,010b,,,O,19.6,True,,17.67,,True
-TAP_A03,011a,,,O,10.9,True,,7.81,,True
-TAP_A03,011b,Bagassa guianensis,Moraceae,O,13.1,False,9.1,13.11,,True
-TAP_A03,012a,Cordia scabrifolia,Boraginaceae,O,18.0,False,12.28,18.05,20.6,False
-TAP_A03,012b,Guatteria schomburgkiana,Annonaceae,O,14.9,False,9.8,13.06,,True
-TAP_A03,013a,Xylopia sp,Annonaceae,O,11.1,False,7.0,10.97,,True
-TAP_A03,013b,Guatteria schomburgkiana,Annonaceae,O,13.3,False,5.86,13.88,,True
-TAP_A03,014a,Apeiba petoumo,Malvaceae,O,12.1,False,5.88,12.09,,True
-TAP_A03,014b,Couratari stellata,Lecythidaceae,O,11.9,False,5.8,10.58,,True
-TAP_A03,015a,Xylopia sp,Annonaceae,O,12.7,False,8.64,10.4,,True
-TAP_A03,015b,Guatteria schomburgkiana,Annonaceae,O,11.0,False,6.87,11.17,,True
-TAP_A03,016a,Guatteria schomburgkiana,Annonaceae,O,21.4,False,7.96,15.51,20.7,False
-TAP_A03,016b,Banara guianensis,Salicaceae,O,13.9,False,4.83,7.31,,True
-TAP_A03,017a,Cordia scabrifolia,Boraginaceae,O,23.3,False,12.6,18.43,25.8,False
-TAP_A03,017b,,,O,14.9,True,,10.77,,True
-TAP_A03,018a,Casearia grandiflora,Salicaceae,O,18.9,False,10.01,14.22,31.4,False
-TAP_A03,018b,Vismia guianensis,Hypericaceae,O,13.5,False,4.99,9.73,,True
-TAP_A03,019a,Cordia scabrifolia,Boraginaceae,O,28.1,False,10.1,18.1,30.6,False
-TAP_A03,019b,Bellucia grossularioides,Melastomataceae,O,9.4,False,6.37,13.64,,True
-TAP_A03,020a,Laetia procera,Salicaceae,O,13.8,False,10.05,13.81,,True
-TAP_A03,020b,Sapium marmieri,Euphorbiaceae,O,32.2,False,12.73,20.2,,True
-TAP_A03,021a,Cordia scabrifolia,Boraginaceae,O,18.0,False,12.72,18.81,,True
-TAP_A03,021b,Strychnos subcordata,Loganiaceae,O,10.3,False,4.48,11.7,,True
-TAP_A03,022a,,,O,26.1,True,14.34,18.92,,True
-TAP_A03,022b,Cordia scabrifolia,Boraginaceae,O,12.5,False,5.71,12.16,,True
-TAP_A03,023a,,,O,10.0,True,,10.41,,True
-TAP_A03,023b,Cordia scabrifolia,Boraginaceae,O,10.1,False,7.67,12.16,,True
-TAP_A03,024a,,,O,11.4,True,,10.41,,True
-TAP_A03,024b,Cordia scabrifolia,Boraginaceae,O,13.1,False,7.33,12.16,,True
-TAP_A03,025a,Abarema jupunba,Fabaceae,O,12.9,False,8.38,13.2,,True
-TAP_A03,025b,Trattinnickia burserifolia,Burseraceae,O,17.0,False,8.06,8.449999999999998,,True
-TAP_A03,026a,Xylopia sp,Annonaceae,O,11.6,False,17.06,18.26,,True
-TAP_A03,026b,Terminalia amazonia,Combretaceae,O,38.9,False,11.52,24.84,,True
-TAP_A03,027a,Inga alba,Fabaceae,O,15.5,False,5.66,13.75,,True
-TAP_A03,027b,Trattinnickia burserifolia,Burseraceae,O,30.4,False,10.05,21.7,,True
-TAP_A03,028a,Apeiba petoumo,Malvaceae,O,16.0,False,11.7,16.08,,True
-TAP_A03,028b,Cordia scabrifolia,Boraginaceae,O,20.6,False,13.96,17.42,,True
-TAP_A03,029a,Guatteria schomburgkiana,Annonaceae,O,13.6,False,10.16,14.27,,True
-TAP_A03,029b,Swartzia polyphylla,Fabaceae,O,23.9,False,5.31,7.68,,True
-TAP_A03,030a,Cordia scabrifolia,Boraginaceae,O,12.8,False,14.45,15.47,,True
-TAP_A03,030b,Guatteria schomburgkiana,Annonaceae,O,15.2,False,7.81,12.07,,True
-TAP_A03,031a,Cordia scabrifolia,Boraginaceae,O,16.0,False,10.96,11.78,,True
-TAP_A03,031b,Byrsonima crispa,Malpighiaceae,O,19.2,False,7.29,15.21,,True
-TAP_A03,032a,,,O,14.7,True,,10.01,,True
-TAP_A03,032b,,,O,15.9,False,9.62,15.67,,True
-TAP_A03,033a,,,O,17.1,True,,12.43,,True
-TAP_A03,033b,,,O,17.2,True,,9.67,,True
-TAP_A03,034a,,,O,28.6,True,,19.59,,True
-TAP_A03,034b,Cordia scabrifolia,Boraginaceae,O,28.0,False,10.87,18.38,,True
-TAP_A03,035a,,,O,10.8,True,,9.21,,True
-TAP_A03,035b,,,O,13.3,True,,10.17,,True
-TAP_A03,036a,Bertholletia excelsa,Lecythidaceae,O,17.3,False,11.52,18.71,,True
-TAP_A03,036b,,,O,21.1,True,,19.09,,True
-TAP_A03,037a,Inga alba,Fabaceae,O,10.8,False,8.26,17.09,,True
-TAP_A03,037b,Vismia floribunda,Hypericaceae,O,28.7,False,8.13,18.73,,True
-TAP_A03,038a,,,O,10.7,True,,15.49,,True
-TAP_A03,038b,Cordia scabrifolia,Boraginaceae,O,13.9,False,9.59,13.01,,True
-TAP_A03,039a,,,O,11.0,True,,1.85,,True
-TAP_A03,039b,Cordia scabrifolia,Boraginaceae,O,11.7,False,9.19,10.4,,True
-TAP_A03,040a,Caryocar glabrum,Caryocaraceae,O,15.7,False,9.98,14.24,,True
-TAP_A03,040b,Cordia scabrifolia,Boraginaceae,O,13.9,False,9.19,13.01,,True
-TAP_A03,041a,Cordia scabrifolia,Boraginaceae,O,12.0,False,10.65,13.72,,True
-TAP_A03,041b,,,O,25.7,True,,20.81,,True
-TAP_A03,042a,,,O,13.3,True,,11.13,,True
-TAP_A03,042b,Bagassa guianensis,Moraceae,O,23.3,False,6.3,13.01,,True
-TAP_A03,043a,,,O,11.1,True,,15.83,,True
-TAP_A03,043b,Bagassa guianensis,Moraceae,O,18.4,False,9.65,13.86,,True
-TAP_A03,044a,Guatteria schomburgkiana,Annonaceae,O,17.8,False,11.26,17.88,,True
-TAP_A03,044b,,,O,12.0,True,,10.46,,True
-TAP_A03,045a,,,O,22.2,True,,15.32,,True
-TAP_A03,045b,Bellucia grossularioides,Melastomataceae,O,12.5,False,8.37,9.98,,True
-TAP_A03,046a,Vismia latifolia,Hypericaceae,O,11.1,False,5.41,8.58,,True
-TAP_A03,046b,Jacaranda copaia,Bignoniaceae,O,15.7,False,12.21,16.72,,True
-TAP_A03,047a,Apeiba petoumo,Malvaceae,O,22.7,False,,16.15,,True
-TAP_A03,047b,,,O,12.3,True,,6.8,,True
-TAP_A03,048a,Apeiba petoumo,Malvaceae,O,14.5,False,,5.65,,True
-TAP_A03,048b,,,O,11.6,False,2.08,8.11,,True
-TAP_A03,049a,Trattinnickia burserifolia,Burseraceae,O,13.3,False,3.08,7.51,,True
-TAP_A03,049b,Bertholletia excelsa,Lecythidaceae,O,21.3,False,12.57,18.48,,True
-TAP_A03,050a,Cordia scabrifolia,Boraginaceae,O,24.9,False,13.39,17.44,,True
-TAP_A03,050b,,,O,18.5,True,,15.49,,True
-TAP_A03,051a,,,O,11.9,True,,14.36,,True
-TAP_A03,051b,Tapirira guianensis,Anacardiaceae,O,18.6,False,10.03,16.48,,True
-TAP_A03,052a,,,O,17.8,True,,6.07,,True
-TAP_A03,052b,Jacaranda copaia,Bignoniaceae,O,12.6,False,11.15,15.01,,True
-TAP_A03,053a,Apeiba petoumo,Malvaceae,O,17.9,False,,12.94,,True
-TAP_A03,053b,,,O,18.5,True,,17.09,,True
-TAP_A03,054a,Cordia scabrifolia,Boraginaceae,O,19.0,False,11.71,15.11,,True
-TAP_A03,054b,,,O,13.8,True,,17.33,,True
-TAP_A03,055a,,,O,40.0,True,,,,True
-TAP_A03,055b,Tapirira guianensis,Anacardiaceae,O,28.5,False,9.78,17.73,,True
-TAP_A03,056a,Cordia scabrifolia,Boraginaceae,O,23.5,False,9.87,12.36,,True
-TAP_A03,056b,,,O,13.4,True,,12.91,,True
-TAP_A03,057a,Cordia scabrifolia,Boraginaceae,O,26.7,False,15.61,17.37,,True
-TAP_A03,057b,,,O,14.3,True,,29.3,,True
-TAP_A03,058a,Cordia scabrifolia,Boraginaceae,O,18.5,False,10.08,14.94,,True
-TAP_A03,058b,,,O,11.5,True,,15.99,,True
-TAP_A03,059a,Cordia scabrifolia,Boraginaceae,O,12.7,False,9.34,13.65,,True
-TAP_A03,059b,Cordia scabrifolia,Boraginaceae,O,21.0,False,13.86,20.14,,True
-TAP_A03,060a,Cordia scabrifolia,Boraginaceae,O,19.5,False,13.65,17.58,,True
-TAP_A03,060b,Inga alba,Fabaceae,O,15.4,False,10.26,16.79,,True
-TAP_A03,061a,,,O,10.5,True,,12.43,,True
-TAP_A03,061b,Inga alba,Fabaceae,O,12.5,False,8.56,17.39,,True
-TAP_A03,062a,Guatteria schomburgkiana,Annonaceae,O,20.7,False,8.779999999999998,17.35,,True
-TAP_A03,062b,Inga alba,Fabaceae,O,13.4,False,7.39,16.44,,True
-TAP_A03,063a,Guatteria schomburgkiana,Annonaceae,O,13.1,False,11.03,14.52,,True
-TAP_A03,063b,,,O,14.4,True,,16.96,,True
-TAP_A03,064a,Cordia scabrifolia,Boraginaceae,O,19.6,False,12.6,15.16,,True
-TAP_A03,064b,Vismia floribunda,Hypericaceae,O,11.7,False,10.11,16.71,,True
-TAP_A03,065a,Xylopia sp,Annonaceae,O,11.3,False,4.78,7.97,,True
-TAP_A03,065b,,,O,11.2,True,,8.24,,True
-TAP_A03,066a,Guatteria schomburgkiana,Annonaceae,O,22.8,False,7.34,19.58,,True
-TAP_A03,067a,,,O,24.6,True,,19.83,,True
-TAP_A03,068a,,,O,15.3,True,,7.07,,True
-TAP_A03,069a,,,O,19.7,True,,11.78,,True
-TAP_A03,070a,,,O,12.0,True,,14.48,,True
-TAP_A03,071a,,,O,10.6,True,,8.91,,True
-TAP_A03,072a,,,O,14.9,True,,21.15,,True
-TAP_A03,073a,Pouteria sp,Sapotaceae,O,10.5,False,3.65,8.61,,True
-TAP_A03,074a,,,O,28.0,True,,17.3,,True
-TAP_A03,075a,,,O,30.8,True,,19.75,,True
-TAP_A03,076a,,,O,12.4,True,,8.73,,True
-TAP_A03,077a,Banara guianensis,Salicaceae,O,10.2,False,12.27,15.8,,True
-TAP_A03,078a,Bagassa guianensis,Moraceae,O,17.0,False,11.43,14.63,,True
-TAP_A03,079a,,,O,17.9,True,,21.7,,True
-TAP_A03,080a,Cordia scabrifolia,Boraginaceae,O,23.9,False,13.86,21.55,,True
-TAP_A03,001a,Cordia scabrifolia,Boraginaceae,O,13.7,False,10.51,14.51,17.6,False
-TAP_A03,001b,,,O,12.0,False,4.47,7.12,,True
-TAP_A03,002a,,,O,16.0,True,,2.51,,True
-TAP_A03,002b,,,O,14.0,True,,11.91,,True
-TAP_A03,003a,Cordia scabrifolia,Boraginaceae,O,20.4,False,23.09,29.15,20.7,False
-TAP_A03,003b,Bagassa guianensis,Moraceae,O,16.4,False,14.86,17.59,,True
-TAP_A03,004a,Attalea maripa,Arecaceae,P,41.0,False,5.82,17.28,39.2,False
-TAP_A03,004b,Cordia scabrifolia,Boraginaceae,O,13.9,False,3.38,5.76,,True
-TAP_A03,005a,Parkia sp,Fabaceae,O,11.6,False,9.54,13.07,13.1,False
-TAP_A03,005b,,,O,19.5,True,,12.25,,True
-TAP_A03,006a,Inga heterophylla,Fabaceae,O,17.1,False,8.22,18.94,16.0,False
-TAP_A03,006b,,,O,20.6,False,8.39,11.97,18.5,False
-TAP_A03,007a,Inga heterophylla,Fabaceae,O,11.3,False,9.43,14.58,11.6,False
-TAP_A03,007b,Bellucia grossularioides,Melastomataceae,O,20.1,False,11.56,18.63,,True
-TAP_A03,008a,,,O,,True,,12.86,,True
-TAP_A03,008b,,,O,12.1,True,,11.98,,True
-TAP_A03,009a,Attalea speciosa,Arecaceae,P,45.0,False,5.44,16.75,,True
-TAP_A03,009b,,,O,14.1,True,,13.74,,True
-TAP_A03,010a,Inga thibaudiana,Fabaceae,O,18.8,False,11.76,20.48,22.6,False
-TAP_A03,010b,Jacaranda copaia,Bignoniaceae,O,45.7,False,18.53,26.08,50.3,False
-TAP_A03,011a,Thyrsodium spruceanum,Anacardiaceae,O,12.0,False,6.41,12.67,13.1,False
-TAP_A03,011b,Goupia glabra,Goupiaceae,O,15.8,False,11.33,16.17,,True
-TAP_A03,012a,,,O,31.8,True,,24.61,,True
-TAP_A03,012b,Inga sp,Fabaceae,O,17.6,False,10.41,17.59,,True
-TAP_A03,013a,,,O,16.0,True,,17.4,,True
-TAP_A03,013b,,,O,13.1,True,,5.31,,True
-TAP_A03,014a,,,O,10.6,False,11.7,16.27,,True
-TAP_A03,014b,Brosimum acutifolium,Moraceae,O,15.8,False,8.84,15.01,17.2,False
-TAP_A03,015a,Inga alba,Fabaceae,O,20.8,False,6.45,23.68,22.1,False
-TAP_A03,015b,Inga alba,Fabaceae,O,25.4,False,12.86,21.73,28.6,False
-TAP_A03,016a,,,O,16.0,True,,13.09,,True
-TAP_A03,016b,,,O,11.1,True,6.32,11.16,,True
-TAP_A03,017a,Inga thibaudiana,Fabaceae,O,15.1,False,7.38,18.19,,True
-TAP_A03,017b,Terminalia amazonia,Combretaceae,O,31.4,False,16.4,27.3,35.5,False
-TAP_A03,018a,,,O,10.2,False,8.3,12.28,11.9,False
-TAP_A03,018b,Guatteria schomburgkiana,Annonaceae,O,44.8,False,13.29,17.51,45.5,False
-TAP_A03,019a,Inga alba,Fabaceae,O,39.2,False,12.32,28.42,41.7,False
-TAP_A03,019b,Cordia scabrifolia,Boraginaceae,O,10.8,False,10.54,13.82,,True
-TAP_A03,020a,Bagassa guianensis,Moraceae,O,17.8,False,8.88,13.11,22.6,False
-TAP_A03,020b,Pterocarpus sp,Fabaceae,O,11.8,False,13.2,18.54,,True
-TAP_A03,021a,Inga thibaudiana,Fabaceae,O,15.4,False,11.24,18.43,15.5,False
-TAP_A03,021b,Inga alba,Fabaceae,O,35.4,False,12.4,27.94,,True
-TAP_A03,022a,Rinorea pubiflora,Violaceae,O,32.4,False,13.85,21.67,36.0,False
-TAP_A03,022b,Banara guianensis,Salicaceae,O,21.6,False,11.94,18.69,,True
-TAP_A03,023a,Rinorea pubiflora,Violaceae,O,23.7,False,10.62,18.02,25.0,False
-TAP_A03,023b,Xylopia sp,Annonaceae,O,19.1,False,11.41,17.73,,True
-TAP_A03,024a,Inga alba,Fabaceae,O,15.1,False,15.48,21.13,16.0,False
-TAP_A03,024b,Couratari stellata,Lecythidaceae,O,18.8,False,14.7,20.0,,True
-TAP_A03,025a,,,O,11.4,True,,10.27,,True
-TAP_A03,025b,Neea oppositifolia,Nyctaginaceae,O,11.6,False,6.28,10.38,,True
-TAP_A03,026a,Inga alba,Fabaceae,O,23.1,False,15.09,24.31,23.9,False
-TAP_A03,026b,Pseudopiptadenia suaveolens,Fabaceae,O,25.4,False,14.9,23.15,27.8,False
-TAP_A03,027a,Eschweilera ovata,Lecythidaceae,O,35.5,False,16.25,25.26,35.6,False
-TAP_A03,027b,Inga thibaudiana,Fabaceae,O,26.0,False,12.72,23.96,,True
-TAP_A03,028a,,,O,16.2,True,,3.81,,True
-TAP_A03,028b,Rinorea guianensis,Violaceae,O,19.8,False,10.36,16.18,20.7,False
-TAP_A03,029a,Dialium guianense,Fabaceae,O,55.0,False,17.51,33.6,280.1,False
-TAP_A03,029b,Cecropia palmata,Urticaceae,O,31.0,False,17.8,26.19,,True
-TAP_A03,030a,Inga alba,Fabaceae,O,10.3,False,9.6,12.53,,True
-TAP_A03,030b,Jacaranda copaia,Bignoniaceae,O,16.5,False,17.8,21.18,,True
-TAP_A03,031a,Cordia scabrifolia,Boraginaceae,O,12.1,False,10.98,14.9,15.2,False
-TAP_A03,031b,,,O,75.8,False,16.05,26.83,,True
-TAP_A03,032a,Cordia scabrifolia,Boraginaceae,O,12.0,False,12.73,13.73,19.2,False
-TAP_A03,032b,Inga sp,Fabaceae,O,20.9,False,10.64,17.73,12.1,False
-TAP_A03,033a,Eschweilera ovata,Lecythidaceae,O,56.8,False,14.03,24.47,24.8,False
-TAP_A03,033b,Tapirira guianensis,Anacardiaceae,O,10.0,False,9.48,16.74,13.8,False
-TAP_A03,034a,,,O,17.9,True,,18.34,,True
-TAP_A03,034b,Inga sp,Fabaceae,O,10.5,False,11.14,16.46,,True
-TAP_A03,035a,,,O,12.3,False,10.85,15.85,15.3,False
-TAP_A03,035b,Inga alba,Fabaceae,O,18.0,False,9.63,16.91,18.3,False
-TAP_A03,036a,Rinorea guianensis,Violaceae,O,13.3,False,6.32,10.76,,True
-TAP_A03,036b,Geissospermum sericeum,Apocynaceae,O,50.4,False,14.48,24.21,58.9,False
-TAP_A03,037a,,,O,16.9,True,,17.38,,True
-TAP_A03,037b,,,O,17.5,True,,21.38,,True
-TAP_A03,038a,Inga thibaudiana,Fabaceae,O,14.5,False,15.37,22.7,,True
-TAP_A03,038b,Bertholletia excelsa,Lecythidaceae,O,11.5,False,9.34,15.26,12.7,False
-TAP_A03,039a,,,O,16.9,True,,14.41,,True
-TAP_A03,039b,Rinorea guianensis,Violaceae,O,17.9,False,6.74,13.7,,True
-TAP_A03,040a,Xylopia sp,Annonaceae,O,17.5,False,12.02,19.43,,True
-TAP_A03,040b,Cassia fastuosa,Fabaceae,O,42.3,False,8.74,22.1,44.6,False
-TAP_A03,041a,,,O,17.2,True,,14.84,,True
-TAP_A03,041b,Strychnos subcordata,Loganiaceae,O,10.8,False,11.0,15.85,12.1,False
-TAP_A03,042a,,,O,24.3,False,13.75,21.25,,True
-TAP_A03,042b,,,O,20.9,True,,12.97,,True
-TAP_A03,043a,Cordia scabrifolia,Boraginaceae,O,12.0,False,14.43,20.45,,True
-TAP_A03,043b,Inga thibaudiana,Fabaceae,O,24.6,False,11.37,23.91,27.8,False
-TAP_A03,044a,,,O,12.2,False,12.49,17.99,25.3,False
-TAP_A03,044b,,,O,31.9,False,15.54,27.82,33.1,False
-TAP_A03,045a,,,O,10.8,True,,15.22,,True
-TAP_A03,045b,Tapirira guianensis,Anacardiaceae,O,27.9,False,12.75,20.47,29.4,False
-TAP_A03,046a,Rinorea guianensis,Violaceae,O,22.0,False,8.07,14.32,22.3,False
-TAP_A03,046b,Tapirira guianensis,Anacardiaceae,O,25.1,False,11.32,20.75,27.9,False
-TAP_A03,047a,Eschweilera coriacea,Lecythidaceae,O,14.3,False,8.22,11.34,14.6,False
-TAP_A03,047b,Casearia javitensis,Salicaceae,O,15.6,False,8.59,13.83,15.9,False
-TAP_A03,048a,,,O,40.3,True,,5.72,,True
-TAP_A03,048b,Cordia scabrifolia,Boraginaceae,O,25.9,False,15.7,21.52,,True
-TAP_A03,049a,Inga alba,Fabaceae,O,18.8,False,16.16,22.15,19.9,False
-TAP_A03,049b,,,O,14.7,True,,15.33,,True
-TAP_A03,050a,Pouteria gongrijpii,Sapotaceae,O,19.2,False,11.48,16.49,19.5,False
-TAP_A03,050b,,,O,19.1,False,15.22,21.02,16.6,False
-TAP_A03,051a,Dimorphandra macrostachya,Fabaceae,O,12.9,False,9.9,15.37,23.6,False
-TAP_A03,051b,Cordia scabrifolia,Boraginaceae,O,20.6,False,17.14,17.14,,True
-TAP_A03,052a,,,O,12.9,False,9.21,16.17,13.1,False
-TAP_A03,052b,Strychnos subcordata,Loganiaceae,O,28.1,False,,12.65,22.9,False
-TAP_A03,053a,Schefflera morototoni,Araliaceae,O,20.1,False,19.23,21.28,,True
-TAP_A03,053b,Pouteria gongrijpii,Sapotaceae,O,17.5,False,11.76,17.13,20.0,False
-TAP_A03,054a,Jacaranda copaia,Bignoniaceae,O,28.7,False,15.99,23.15,29.4,False
-TAP_A03,054b,Apeiba petoumo,Malvaceae,O,37.0,False,8.96,14.12,,True
-TAP_A03,055a,Inga alba,Fabaceae,O,39.5,False,17.73,30.32,42.3,False
-TAP_A03,055b,Guatteria schomburgkiana,Annonaceae,O,10.5,False,7.08,10.11,12.0,False
-TAP_A03,056a,,,O,18.6,True,,18.13,17.5,False
-TAP_A03,056b,Banara guianensis,Salicaceae,O,16.4,False,13.18,20.56,17.8,False
-TAP_A03,057a,Inga thibaudiana,Fabaceae,O,22.1,False,8.82,14.73,,True
-TAP_A03,057b,,,O,,False,16.06,22.17,,True
-TAP_A03,058a,Pterocarpus sp,Fabaceae,O,23.4,False,13.81,20.0,25.1,False
-TAP_A03,058b,Sagotia racemosa,Euphorbiaceae,O,16.9,False,7.49,11.5,17.1,False
-TAP_A03,059a,Pterocarpus sp,Fabaceae,O,10.9,False,,7.49,16.9,False
-TAP_A03,060a,Inga alba,Fabaceae,O,15.2,False,9.23,15.87,,True
-TAP_A03,061a,Pouteria caimito,Sapotaceae,O,19.4,False,7.46,14.86,20.4,False
-TAP_A03,062a,Apeiba petoumo,Malvaceae,O,13.6,False,10.82,14.99,14.3,False
-TAP_A03,063a,Tapirira guianensis,Anacardiaceae,O,14.2,False,11.73,17.49,16.9,False
-TAP_A03,064a,,,O,15.7,False,9.91,17.73,17.2,False
-TAP_A03,065a,,,O,12.1,True,,15.42,,True
-TAP_A03,066a,Inga thibaudiana,Fabaceae,O,31.0,False,13.67,24.74,,True
-TAP_A03,067a,,,O,13.0,True,,8.68,,True
-TAP_A03,068a,Enterolobium maximum,Fabaceae,O,15.1,False,9.76,14.27,16.9,False
-TAP_A03,069a,,,O,14.1,False,15.6,14.47,,True
-TAP_A03,070a,Cordia scabrifolia,Boraginaceae,O,25.6,False,14.45,18.74,29.0,False
-TAP_A03,071a,Cordia scabrifolia,Boraginaceae,O,25.5,False,10.11,19.43,31.2,False
-TAP_A03,072a,,,O,17.9,True,,13.53,,True
-TAP_A03,073a,,,O,11.5,True,,15.76,,True
-TAP_A03,074a,Cordia goeldiana,Boraginaceae,O,25.3,False,19.11,26.91,,True
-TAP_A03,075a,Sapium marmieri,Euphorbiaceae,O,33.2,False,15.95,23.68,,True
-TAP_A03,076a,Inga alba,Fabaceae,O,20.2,False,12.19,18.36,,True
-TAP_A03,077a,,,O,10.3,True,,14.49,,True
-TAP_A03,078a,Inga alba,Fabaceae,O,28.7,False,13.99,30.0,31.7,False
-TAP_A03,079a,Inga alba,Fabaceae,O,23.0,False,17.9,27.91,25.5,False
-TAP_A03,080a,Cordia scabrifolia,Boraginaceae,O,,,,,10.0,False
-TAP_A03,001a,Jacaranda copaia,Bignoniaceae,O,26.4,False,14.17,20.56,31.4,False
-TAP_A03,001b,Bertholletia excelsa,Lecythidaceae,O,25.1,False,10.4,17.68,32.8,False
-TAP_A03,002a,Jacaranda copaia,Bignoniaceae,O,10.9,False,10.42,14.95,12.1,False
-TAP_A03,002b,Bertholletia excelsa,Lecythidaceae,O,10.3,False,7.27,11.38,,True
-TAP_A03,003a,Tapirira guianensis,Anacardiaceae,O,19.6,False,8.91,17.29,19.6,False
-TAP_A03,003b,,,O,17.1,True,,9.14,,True
-TAP_A03,004a,Tapirira guianensis,Anacardiaceae,O,17.6,False,6.91,14.43,19.0,False
-TAP_A03,004b,Cordia scabrifolia,Boraginaceae,O,11.3,False,5.53,9.54,,True
-TAP_A03,005a,Tapirira guianensis,Anacardiaceae,O,24.2,False,12.75,18.98,27.4,False
-TAP_A03,005b,,,O,17.3,True,6.35,12.23,,True
-TAP_A03,006a,Cordia scabrifolia,Boraginaceae,O,12.3,False,8.82,11.71,14.0,False
-TAP_A03,006b,Banara guianensis,Salicaceae,O,14.0,False,,11.89,,True
-TAP_A03,007a,Maquira coriacea,Moraceae,O,11.5,False,8.13,10.87,18.7,False
-TAP_A03,007b,Guatteria schomburgkiana,Annonaceae,O,22.2,False,6.04,13.87,,True
-TAP_A03,008a,Tapirira guianensis,Anacardiaceae,O,17.3,False,8.11,8.11,18.5,False
-TAP_A03,008b,Jacaranda copaia,Bignoniaceae,O,22.6,False,12.89,18.49,27.2,False
-TAP_A03,009a,Schefflera morototoni,Araliaceae,O,12.8,False,8.56,12.15,14.7,False
-TAP_A03,009b,,,O,10.5,True,,-1.28,,True
-TAP_A03,010a,Tapirira guianensis,Anacardiaceae,O,12.4,False,10.62,17.25,14.3,False
-TAP_A03,010b,,,O,27.0,True,,16.28,,True
-TAP_A03,011a,Tapirira guianensis,Anacardiaceae,O,16.9,False,8.21,13.59,19.7,False
-TAP_A03,011b,Luehea speciosa,Malvaceae,O,21.9,False,7.06,11.08,10.2,False
-TAP_A03,012a,Tapirira guianensis,Anacardiaceae,O,21.2,False,8.36,15.99,23.3,False
-TAP_A03,012b,Luehea speciosa,Malvaceae,O,10.1,False,0.42,2.99,20.4,False
-TAP_A03,013a,Attalea maripa,Arecaceae,P,53.3,False,1.52,8.07,,True
-TAP_A03,013b,Inga alba,Fabaceae,O,35.8,False,6.2,18.69,38.5,False
-TAP_A03,014a,Banara guianensis,Salicaceae,O,12.7,False,6.48,11.65,13.7,False
-TAP_A03,014b,,,O,21.1,True,,,,True
-TAP_A03,015a,Tapirira guianensis,Anacardiaceae,O,12.1,False,4.99,11.14,14.3,False
-TAP_A03,015b,Himatanthus sucuuba,Apocynaceae,O,18.5,False,14.17,21.24,,True
-TAP_A03,016a,Trattinnickia burserifolia,Burseraceae,O,14.4,False,5.07,7.82,14.0,False
-TAP_A03,016b,Attalea maripa,Arecaceae,P,37.6,False,4.41,15.21,,True
-TAP_A03,017a,,,O,10.3,False,6.26,8.9,11.5,False
-TAP_A03,017b,,,O,24.4,True,,13.74,,True
-TAP_A03,018a,Jacaranda copaia,Bignoniaceae,O,23.2,False,8.29,17.53,25.5,False
-TAP_A03,018b,Attalea maripa,Arecaceae,P,32.5,False,2.34,10.16,36.0,False
-TAP_A03,019a,Bellucia grossularioides,Melastomataceae,O,10.3,False,1.8,8.97,,True
-TAP_A03,019b,Bertholletia excelsa,Lecythidaceae,O,11.8,False,1.78,3.94,15.9,False
-TAP_A03,020a,Jacaranda copaia,Bignoniaceae,O,17.3,False,12.13,16.2,,True
-TAP_A03,020b,,,O,17.9,True,,10.91,,True
-TAP_A03,021a,Guatteria schomburgkiana,Annonaceae,O,13.3,False,0.36,8.17,,True
-TAP_A03,021b,,,O,21.5,True,,18.3,,True
-TAP_A03,022a,Bellucia grossularioides,Melastomataceae,O,18.6,False,7.44,12.17,20.3,False
-TAP_A03,022b,Attalea maripa,Arecaceae,P,36.4,False,6.08,12.94,,True
-TAP_A03,023a,Attalea maripa,Arecaceae,P,39.0,False,4.22,13.62,36.2,False
-TAP_A03,023b,Ormosia grossa,Fabaceae,O,12.1,False,2.24,7.35,,True
-TAP_A03,024a,Cecropia palmata,Urticaceae,O,14.9,False,3.84,5.97,15.0,False
-TAP_A03,024b,,,O,13.4,True,,4.97,,True
-TAP_A03,025a,Thyrsodium spruceanum,Anacardiaceae,O,11.2,False,2.64,4.03,12.0,False
-TAP_A03,025b,,,O,10.9,True,,4.05,,True
-TAP_A03,026a,Cecropia palmata,Urticaceae,O,14.4,False,-0.62,-0.2899999999999999,8.8,False
-TAP_A03,026b,Attalea maripa,Arecaceae,P,33.3,False,7.68,12.18,,True
-TAP_A03,027a,Jacaranda copaia,Bignoniaceae,O,13.9,False,8.32,11.54,11.8,False
-TAP_A03,027b,Guatteria schomburgkiana,Annonaceae,O,10.5,False,4.36,9.69,,True
-TAP_A03,028a,,,O,14.8,True,,9.77,,True
-TAP_A03,028b,Attalea maripa,Arecaceae,P,39.5,False,12.86,24.56,,True
-TAP_A03,029a,Guatteria schomburgkiana,Annonaceae,O,15.2,False,6.68,8.49,,True
-TAP_A03,029b,Attalea maripa,Arecaceae,P,39.0,False,4.04,16.05,,True
-TAP_A03,030a,Guatteria schomburgkiana,Annonaceae,O,19.8,False,6.26,12.15,,True
-TAP_A03,030b,,,O,11.5,True,,10.68,,True
-TAP_A03,031a,,,O,13.6,False,1.76,5.58,14.4,False
-TAP_A03,031b,Byrsonima crispa,Malpighiaceae,O,19.2,False,6.96,13.47,,True
-TAP_A03,032a,,,O,11.3,True,,,,True
-TAP_A03,032b,,,O,11.8,True,,11.87,,True
-TAP_A03,033a,,,O,19.1,True,,11.26,,True
-TAP_A03,033b,,,O,11.2,True,,6.71,,True
-TAP_A03,034a,Maquira coriacea,Moraceae,O,15.1,False,5.08,9.96,,True
-TAP_A03,034b,Simaba cedron,Simaroubaceae,O,10.5,False,6.48,7.96,,True
-TAP_A03,035a,Attalea maripa,Arecaceae,P,47.6,False,7.84,12.13,,True
-TAP_A03,036a,,,O,16.0,True,,4.55,,True
-TAP_A03,037a,Thyrsodium spruceanum,Anacardiaceae,O,10.8,False,1.71,3.6,12.7,False
-TAP_A03,038a,Guatteria schomburgkiana,Annonaceae,O,17.3,False,2.05,5.18,18.1,False
-TAP_A03,039a,Attalea maripa,Arecaceae,P,43.6,False,1.28,10.75,38.2,False
-TAP_A03,040a,Attalea maripa,Arecaceae,P,49.2,False,2.36,10.18,47.1,False
-TAP_A03,041a,Tapirira guianensis,Anacardiaceae,O,18.0,False,10.15,15.38,24.4,False
-TAP_A03,042a,Guatteria schomburgkiana,Annonaceae,O,23.2,False,7.51,14.8,21.3,False
-TAP_A03,043a,Tapirira guianensis,Anacardiaceae,O,18.4,False,7.93,15.38,21.6,False
-TAP_A03,044a,Tapirira guianensis,Anacardiaceae,O,18.0,False,6.28,14.23,19.7,False
-TAP_A03,045a,Caryocar glabrum,Caryocaraceae,O,22.0,False,7.69,13.46,19.1,False
-TAP_A03,046a,Attalea maripa,Arecaceae,P,41.7,False,3.35,10.15,41.7,False
-TAP_A03,047a,Jacaranda copaia,Bignoniaceae,O,26.3,False,15.76,20.76,28.6,False
-TAP_A03,048a,,,O,18.0,True,,,,True
-TAP_A03,049a,Cordia scabrifolia,Boraginaceae,O,11.6,False,5.42,8.86,12.1,False
-TAP_A03,050a,Cordia scabrifolia,Boraginaceae,O,19.5,False,11.92,13.06,18.5,False
-TAP_A03,051a,,,O,20.7,True,,9.73,,True
-TAP_A03,052a,Guatteria schomburgkiana,Annonaceae,O,13.8,False,4.98,9.5,15.3,False
-TAP_A03,053a,Tapirira guianensis,Anacardiaceae,O,11.5,False,7.05,9.59,13.4,False
-TAP_A03,054a,Tapirira guianensis,Anacardiaceae,O,10.5,False,5.76,9.59,12.4,False
-TAP_A03,055a,,,O,16.5,True,,4.72,,True
-TAP_A03,056a,Tapirira guianensis,Anacardiaceae,O,18.0,False,3.71,8.27,,True
-TAP_A03,057a,Xylopia sp,Annonaceae,O,12.8,False,5.47,8.07,,True
-TAP_A03,058a,Attalea maripa,Arecaceae,P,49.5,False,1.91,7.84,38.2,False
-TAP_A03,059a,Nectandra cuspidata,Lauraceae,O,19.2,False,6.51,10.82,,True
-TAP_A03,001a,Bagassa guianensis,Moraceae,O,25.5,False,,,27.1,False
-TAP_A03,001b,Maquira coriacea,Moraceae,O,10.9,False,,,25.5,False
-TAP_A03,002a,Maquira coriacea,Moraceae,O,12.4,False,,,14.0,False
-TAP_A03,002b,,,O,11.5,True,9.8,15.48,,True
-TAP_A03,003a,Bagassa guianensis,Moraceae,O,10.4,False,,,10.5,False
-TAP_A03,003b,,,O,14.0,True,14.51,17.18,,True
-TAP_A03,004a,Trattinnickia burserifolia,Burseraceae,O,16.1,False,10.41,13.88,17.2,False
-TAP_A03,004b,Cecropia palmata,Urticaceae,O,17.8,False,,,17.7,False
-TAP_A03,005a,Cordia scabrifolia,Boraginaceae,O,14.3,False,4.52,14.54,14.6,False
-TAP_A03,005b,,,O,48.2,False,,,41.6,False
-TAP_A03,006a,Cordia scabrifolia,Boraginaceae,O,13.2,False,,,13.4,False
-TAP_A03,006b,Casearia grandiflora,Salicaceae,O,24.6,False,,,26.9,False
-TAP_A03,007a,Casearia grandiflora,Salicaceae,O,15.8,False,,,17.2,False
-TAP_A03,007b,Bellucia grossularioides,Melastomataceae,O,17.3,False,,,18.3,False
-TAP_A03,008a,Bagassa guianensis,Moraceae,O,17.2,False,10.38,16.17,17.3,False
-TAP_A03,008b,Schefflera morototoni,Araliaceae,O,12.8,False,,,15.9,False
-TAP_A03,009a,Bagassa guianensis,Moraceae,O,12.2,False,,,12.3,False
-TAP_A03,009b,Trattinnickia burserifolia,Burseraceae,O,10.1,False,,,10.2,False
-TAP_A03,010a,Casearia grandiflora,Salicaceae,O,22.4,False,,,24.3,False
-TAP_A03,010b,Guatteria schomburgkiana,Annonaceae,O,10.5,False,,,11.3,False
-TAP_A03,011a,Vismia guianensis,Hypericaceae,O,24.6,False,,,25.1,False
-TAP_A03,011b,,,O,12.0,False,,,12.0,False
-TAP_A03,012a,Laetia procera,Salicaceae,O,19.5,False,,,19.7,False
-TAP_A03,012b,,,O,28.2,False,,,30.5,False
-TAP_A03,013a,Attalea maripa,Arecaceae,P,41.0,False,12.3,17.27,37.0,False
-TAP_A03,013b,,,O,24.2,False,9.65,16.91,23.0,False
-TAP_A03,014a,Guatteria schomburgkiana,Annonaceae,O,15.5,False,,,15.6,False
-TAP_A03,014b,Guatteria schomburgkiana,Annonaceae,O,31.6,False,10.53,15.75,22.6,False
-TAP_A03,015a,Bagassa guianensis,Moraceae,O,22.2,False,,,25.1,False
-TAP_A03,015b,,,O,23.0,False,15.61,26.75,26.3,False
-TAP_A03,016a,Dimorphandra macrostachya,Fabaceae,O,11.9,False,,,13.1,False
-TAP_A03,016b,,,O,25.2,False,,,27.1,False
-TAP_A03,017a,Inga thibaudiana,Fabaceae,O,25.9,False,,,26.9,False
-TAP_A03,017b,Cassia fastuosa,Fabaceae,O,31.7,False,,,33.4,False
-TAP_A03,018a,Schefflera morototoni,Araliaceae,O,17.3,False,,,19.2,False
-TAP_A03,018b,,,O,16.5,False,,,16.2,False
-TAP_A03,019a,Attalea maripa,Arecaceae,P,45.5,False,6.33,8.8,34.4,False
-TAP_A03,019b,,,O,12.7,False,4.31,16.44,12.8,False
-TAP_A03,020a,Cordia scabrifolia,Boraginaceae,O,17.4,False,,,18.1,False
-TAP_A03,020b,,,O,25.2,False,,,27.7,False
-TAP_A03,021a,Tapirira guianensis,Anacardiaceae,O,18.1,False,,,10.6,False
-TAP_A03,021b,,,O,13.4,False,,,13.4,False
-TAP_A03,022a,Tapirira guianensis,Anacardiaceae,O,29.2,False,,,,True
-TAP_A03,022b,,,O,15.9,False,,,18.5,False
-TAP_A03,023a,Attalea maripa,Arecaceae,P,40.8,False,13.2,17.27,41.7,False
-TAP_A03,023b,Cordia scabrifolia,Boraginaceae,O,17.9,False,5.66,20.23,,True
-TAP_A03,024a,Sapium marmieri,Euphorbiaceae,O,16.3,False,,,17.5,False
-TAP_A03,024b,,,O,19.5,False,,,21.5,False
-TAP_A03,025a,,,O,16.6,False,,,19.7,False
-TAP_A03,025b,,,O,12.7,False,5.81,8.54,12.8,False
-TAP_A03,026a,,,O,13.9,False,,,17.5,False
-TAP_A03,026b,Cordia scabrifolia,Boraginaceae,O,26.7,False,11.07,15.43,27.5,False
-TAP_A03,027a,,,O,18.1,False,,,20.4,False
-TAP_A03,027b,,,O,31.0,False,,,32.8,False
-TAP_A03,028a,,,O,21.7,False,,,22.9,False
-TAP_A03,028b,Casearia grandiflora,Salicaceae,O,17.2,False,,,20.0,False
-TAP_A03,029a,Bellucia grossularioides,Melastomataceae,O,12.9,False,6.45,10.93,13.1,False
-TAP_A03,029b,,,O,13.1,False,,,13.2,False
-TAP_A03,030a,Inga alba,Fabaceae,O,49.5,False,,,20.5,False
-TAP_A03,030b,Hymenaea courbaril,Fabaceae,O,11.5,False,11.34,26.47,12.1,False
-TAP_A03,031a,,,O,24.1,False,,,25.0,False
-TAP_A03,031b,Inga thibaudiana,Fabaceae,O,13.8,False,11.8,20.71,15.1,False
-TAP_A03,032a,,,O,13.5,False,,,,True
-TAP_A03,032b,Casearia grandiflora,Salicaceae,O,17.9,False,7.55,11.26,18.8,False
-TAP_A03,033a,Mabea angularis,Euphorbiaceae,O,13.0,False,,,13.1,False
-TAP_A03,033b,Bagassa guianensis,Moraceae,O,13.1,False,,,15.2,False
-TAP_A03,034a,,,O,16.5,False,,,16.6,False
-TAP_A03,034b,Esenbeckia febrifuga,Rutaceae,O,16.2,False,,,17.5,False
-TAP_A03,035a,,,O,19.5,False,,4.51,21.0,False
-TAP_A03,035b,,,O,26.2,True,,,,True
-TAP_A03,036a,,,O,12.8,False,,,12.6,False
-TAP_A03,036b,Caryocar villosum,Caryocaraceae,O,23.0,False,,,,True
-TAP_A03,037a,,,O,25.0,False,12.85,16.56,27.7,False
-TAP_A03,037b,Bertholletia excelsa,Lecythidaceae,O,15.1,False,,,17.0,False
-TAP_A03,038a,,,O,23.4,False,,,24.4,False
-TAP_A03,038b,Bertholletia excelsa,Lecythidaceae,O,16.8,False,,,19.8,False
-TAP_A03,039a,Bertholletia excelsa,Lecythidaceae,O,40.5,False,,,45.8,False
-TAP_A03,039b,Cecropia palmata,Urticaceae,O,21.8,False,18.12,25.45,19.4,False
-TAP_A03,040a,,,O,33.6,False,,,35.8,False
-TAP_A03,040b,Vismia guianensis,Hypericaceae,O,11.5,False,,,13.0,False
-TAP_A03,041a,,,O,16.5,False,8.38,16.89,20.2,False
-TAP_A03,041b,Vismia guianensis,Hypericaceae,O,15.7,False,,,17.3,False
-TAP_A03,042a,Guatteria schomburgkiana,Annonaceae,O,10.7,False,,,10.8,False
-TAP_A03,042b,Guatteria schomburgkiana,Annonaceae,O,15.8,False,,,16.0,False
-TAP_A03,043a,Guatteria schomburgkiana,Annonaceae,O,24.1,False,,,24.8,False
-TAP_A03,043b,,,O,18.6,True,,,,True
-TAP_A03,044a,Lecythis lurida,Lecythidaceae,O,10.0,False,,,10.5,False
-TAP_A03,044b,,,O,15.3,True,,,,True
-TAP_A03,045a,Cordia goeldiana,Boraginaceae,O,15.4,False,,,15.6,False
-TAP_A03,045b,Guatteria schomburgkiana,Annonaceae,O,11.1,False,,,11.2,False
-TAP_A03,046a,Attalea maripa,Arecaceae,P,59.6,False,,,37.6,False
-TAP_A03,046b,Jacaranda copaia,Bignoniaceae,O,14.6,False,4.37,16.85,15.7,False
-TAP_A03,047a,Maquira coriacea,Moraceae,O,12.3,False,,,13.2,False
-TAP_A03,047b,,,O,10.3,False,8.04,13.23,,True
-TAP_A03,048a,Laetia procera,Salicaceae,O,22.4,False,7.99,11.43,25.8,False
-TAP_A03,048b,,,O,14.0,False,12.49,21.37,14.3,False
-TAP_A03,049a,Cecropia ficifolia,Urticaceae,O,14.3,False,,,,True
-TAP_A03,049b,Casearia grandiflora,Salicaceae,O,22.8,False,,,24.2,False
-TAP_A03,050a,Cordia scabrifolia,Boraginaceae,O,13.5,False,,,13.7,False
-TAP_A03,050b,Guatteria schomburgkiana,Annonaceae,O,18.2,False,,,,True
-TAP_A03,051a,Cordia scabrifolia,Boraginaceae,O,10.3,False,,,10.3,False
-TAP_A03,051b,,,O,10.2,False,,,10.6,False
-TAP_A03,052a,,,O,19.5,False,,,22.3,False
-TAP_A03,052b,,,O,29.3,True,,,,True
-TAP_A03,053a,Cordia scabrifolia,Boraginaceae,O,13.8,False,14.5,31.73,13.7,False
-TAP_A03,053b,Inga alba,Fabaceae,O,47.1,False,10.11,14.56,51.0,False
-TAP_A03,054a,Cordia scabrifolia,Boraginaceae,O,14.9,False,14.5,27.82,15.0,False
-TAP_A03,054b,Inga alba,Fabaceae,O,42.3,False,8.59,11.76,45.6,False
-TAP_A03,055a,Dimorphandra macrostachya,Fabaceae,O,22.6,False,,,23.6,False
-TAP_A03,055b,Casearia grandiflora,Salicaceae,O,17.3,False,,,19.0,False
-TAP_A03,056a,Astrocaryum aculeatum,Arecaceae,P,30.0,False,,,27.1,False
-TAP_A03,056b,,,O,14.0,True,,,18.9,False
-TAP_A03,057a,Jacaranda copaia,Bignoniaceae,O,45.5,False,,,49.3,False
-TAP_A03,057b,Maquira coriacea,Moraceae,O,11.8,False,15.29,25.01,13.8,False
-TAP_A03,058a,Goupia glabra,Goupiaceae,O,11.7,False,,,11.8,False
-TAP_A03,058b,Neea oppositifolia,Nyctaginaceae,O,12.4,False,,,18.0,False
-TAP_A03,059a,Guatteria schomburgkiana,Annonaceae,O,12.3,False,6.55,9.69,12.4,False
-TAP_A03,059b,,,O,11.7,False,,,12.2,False
-TAP_A03,060a,Dimorphandra macrostachya,Fabaceae,O,23.5,False,,,24.0,False
-TAP_A03,060b,Guatteria schomburgkiana,Annonaceae,O,22.3,False,,,23.6,False
-TAP_A03,061a,Goupia glabra,Goupiaceae,O,16.4,False,,,18.8,False
-TAP_A03,061b,,,O,11.7,False,,,12.4,False
-TAP_A03,062a,,,O,16.4,False,17.17,21.64,18.5,False
-TAP_A03,062b,Bagassa guianensis,Moraceae,O,18.0,False,8.33,13.39,20.4,False
-TAP_A03,063a,Vismia guianensis,Hypericaceae,O,18.2,False,,,18.0,False
-TAP_A03,063b,Stryphnodendron pulcherrimum,Fabaceae,O,19.4,False,12.67,16.85,20.8,False
-TAP_A03,064a,Bagassa guianensis,Moraceae,O,22.6,False,,,26.4,False
-TAP_A03,064b,Apeiba petoumo,Malvaceae,O,10.3,False,,,11.6,False
-TAP_A03,065a,,,O,35.5,False,,,36.6,False
-TAP_A03,065b,,,O,18.0,False,,,21.2,False
-TAP_A03,066a,Bagassa guianensis,Moraceae,O,30.8,False,,,36.6,False
-TAP_A03,066b,Cecropia palmata,Urticaceae,O,22.9,False,,,,True
-TAP_A03,067a,Bagassa guianensis,Moraceae,O,14.0,False,9.07,13.46,15.9,False
-TAP_A03,067b,Inga thibaudiana,Fabaceae,O,14.3,False,,,15.5,False
-TAP_A03,068a,Attalea maripa,Arecaceae,P,47.0,False,,,45.5,False
-TAP_A03,068b,Inga thibaudiana,Fabaceae,O,34.8,False,7.98,18.08,35.7,False
-TAP_A03,069a,,,O,24.6,False,,,26.2,False
-TAP_A03,069b,Cecropia palmata,Urticaceae,O,20.2,False,,,20.4,False
-TAP_A03,070a,Casearia grandiflora,Salicaceae,O,23.6,False,,,24.3,False
-TAP_A03,070b,Bagassa guianensis,Moraceae,O,17.8,False,,,18.1,False
-TAP_A03,071a,,,O,12.5,True,14.28,22.03,,True
-TAP_A03,071b,Vismia guianensis,Hypericaceae,O,26.5,False,,8.02,24.1,False
-TAP_A03,072a,Casearia grandiflora,Salicaceae,O,16.6,False,,,20.1,False
-TAP_A03,072b,Banara guianensis,Salicaceae,O,10.3,False,13.4,18.04,,True
-TAP_A03,073a,Inga sp,Fabaceae,O,14.4,False,,,14.4,False
-TAP_A03,073b,Inga alba,Fabaceae,O,17.3,False,,,17.6,False
-TAP_A03,074a,Inga sp,Fabaceae,O,14.9,False,,,15.0,False
-TAP_A03,074b,Inga alba,Fabaceae,O,14.0,False,,,14.7,False
-TAP_A03,075a,Inga sp,Fabaceae,O,16.1,False,,,16.3,False
-TAP_A03,076a,Couratari stellata,Lecythidaceae,O,,,,,10.7,False
-TAP_A03,101a,Himatanthus sucuuba,Apocynaceae,O,,,,,11.1,False
-TAP_A03,102a,Bagassa guianensis,Moraceae,O,,,,,9.9,False
-TAP_A03,103a,Licania canescens,Chrysobalanaceae,O,,,,,11.9,False
-TAP_A03,104a,Guatteria schomburgkiana,Annonaceae,O,,,,,10.2,False
-TAP_A03,105a,Himatanthus sucuuba,Apocynaceae,O,,,,,10.3,False
-TAP_A03,106a,Inga thibaudiana,Fabaceae,O,,,,,10.3,False
-TAP_A03,107a,Cordia scabrifolia,Boraginaceae,O,,,,,12.5,False
-TAP_A03,108a,Tapirira guianensis,Anacardiaceae,O,,,,,10.4,False
-TAP_A03,109a,Jacaranda copaia,Bignoniaceae,O,,,,,10.9,False
-TAP_A03,110a,Inga thibaudiana,Fabaceae,O,,,,,10.3,False
-TAP_A03,001a,Jacaranda copaia,Bignoniaceae,O,25.6,False,,,,True
-TAP_A03,001b,Neea oppositifolia,Nyctaginaceae,O,33.2,False,,,34.7,False
-TAP_A03,002a,Jacaranda copaia,Bignoniaceae,O,14.1,False,,,16.2,False
-TAP_A03,002b,Sterculia pruriens,Malvaceae,O,12.0,False,12.85,15.26,15.0,False
-TAP_A03,003a,Bixa arborea,Bixaceae,O,24.3,False,,,30.0,False
-TAP_A03,003b,Cecropia palmata,Urticaceae,O,32.0,False,,,30.6,False
-TAP_A03,004a,,,O,16.4,True,,,,True
-TAP_A03,004b,Laetia procera,Salicaceae,O,15.9,False,,,17.1,False
-TAP_A03,005a,Parkia paraensis,Fabaceae,O,12.2,False,,,13.8,False
-TAP_A03,005b,,,O,15.6,True,,,,True
-TAP_A03,006a,Rinorea guianensis,Violaceae,O,12.9,False,,,13.1,False
-TAP_A03,006b,Eschweilera ovata,Lecythidaceae,O,28.5,False,,,28.6,False
-TAP_A03,007a,Jacaranda copaia,Bignoniaceae,O,25.6,False,,,27.7,False
-TAP_A03,007b,Cecropia ficifolia,Urticaceae,O,10.3,False,15.04,18.42,10.5,False
-TAP_A03,008a,,,O,26.8,True,,19.04,,True
-TAP_A03,008b,,,O,25.9,False,,,,True
-TAP_A03,009a,Jacaranda copaia,Bignoniaceae,O,11.9,False,14.42,15.96,,True
-TAP_A03,009b,Pouteria gongrijpii,Sapotaceae,O,21.5,False,,,,True
-TAP_A03,010a,Inga thibaudiana,Fabaceae,O,15.8,False,,,,True
-TAP_A03,010b,Inga thibaudiana,Fabaceae,O,12.1,False,,,15.4,False
-TAP_A03,011a,Parkia paraensis,Fabaceae,O,15.7,False,,,18.7,False
-TAP_A03,011b,Sapium marmieri,Euphorbiaceae,O,15.1,False,,,15.3,False
-TAP_A03,012a,Cecropia ficifolia,Urticaceae,O,31.9,False,,,,True
-TAP_A03,012b,Bagassa guianensis,Moraceae,O,12.2,False,,,11.3,False
-TAP_A03,013a,Couratari stellata,Lecythidaceae,O,10.1,False,,,12.4,False
-TAP_A03,013b,Cecropia palmata,Urticaceae,O,16.2,False,14.89,17.58,16.6,False
-TAP_A03,014a,Jacaranda copaia,Bignoniaceae,O,23.0,False,17.62,29.5,24.5,False
-TAP_A03,014b,Xylopia sp,Annonaceae,O,11.3,False,,,,True
-TAP_A03,015a,Cordia scabrifolia,Boraginaceae,O,11.2,False,10.33,14.62,13.7,False
-TAP_A03,015b,Neea oppositifolia,Nyctaginaceae,O,23.9,False,,,20.7,False
-TAP_A03,016a,Jacaranda copaia,Bignoniaceae,O,10.1,False,,,,True
-TAP_A03,016b,Inga heterophylla,Fabaceae,O,11.7,False,,,11.8,False
-TAP_A03,017a,Cecropia ficifolia,Urticaceae,O,34.3,False,,,31.0,False
-TAP_A03,017b,Pouteria macrophylla,Sapotaceae,O,13.1,False,,,,True
-TAP_A03,018a,Jacaranda copaia,Bignoniaceae,O,22.9,False,,,24.0,False
-TAP_A03,018b,Stryphnodendron pulcherrimum,Fabaceae,O,19.7,False,12.2,16.27,,True
-TAP_A03,019a,Jacaranda copaia,Bignoniaceae,O,14.5,False,,,22.0,False
-TAP_A03,019b,Jacaranda copaia,Bignoniaceae,O,10.3,False,,,10.5,False
-TAP_A03,020a,Jacaranda copaia,Bignoniaceae,O,31.6,False,,,34.7,False
-TAP_A03,020b,Zanthoxylum rhoifolium,Rutaceae,O,10.3,False,,,17.8,False
-TAP_A03,021a,Jacaranda copaia,Bignoniaceae,O,17.7,False,12.87,21.11,17.9,False
-TAP_A03,021b,Jacaranda copaia,Bignoniaceae,O,37.4,False,23.51,26.91,40.1,False
-TAP_A03,022a,Jacaranda copaia,Bignoniaceae,O,12.9,False,12.87,18.48,13.2,False
-TAP_A03,022b,,,O,17.6,True,,,,True
-TAP_A03,023a,Miconia poeppigii,Melastomataceae,O,10.9,False,,,,True
-TAP_A03,023b,Parkia multijuga,Fabaceae,O,14.4,False,,,,True
-TAP_A03,024a,,,O,33.7,True,,,,True
-TAP_A03,024b,,,O,10.5,True,,,,True
-TAP_A03,025a,Jacaranda copaia,Bignoniaceae,O,11.1,False,,,11.8,False
-TAP_A03,025b,Cecropia palmata,Urticaceae,O,11.1,False,,,11.3,False
-TAP_A03,026a,Jacaranda copaia,Bignoniaceae,O,11.4,False,,,12.0,False
-TAP_A03,026b,Xylopia nitida,Annonaceae,O,10.8,False,,,12.3,False
-TAP_A03,027a,,,O,17.0,True,,,,True
-TAP_A03,027b,,,O,10.7,True,,,,True
-TAP_A03,028a,,,O,48.2,True,,19.17,,True
-TAP_A03,028b,Neea oppositifolia,Nyctaginaceae,O,15.2,False,,,15.3,False
-TAP_A03,029a,,,O,33.4,True,,,,True
-TAP_A03,029b,Jacaranda copaia,Bignoniaceae,O,25.2,False,24.82,30.52,27.4,False
-TAP_A03,030a,Jacaranda copaia,Bignoniaceae,O,22.7,False,,,25.2,False
-TAP_A03,030b,Lecythis lurida,Lecythidaceae,O,62.5,False,25.88,29.74,63.0,False
-TAP_A03,031a,Cecropia palmata,Urticaceae,O,14.3,False,,,,True
-TAP_A03,031b,Pouteria sp,Sapotaceae,O,46.4,False,19.91,31.54,46.2,False
-TAP_A03,032a,Inga thibaudiana,Fabaceae,O,13.7,False,12.66,14.94,19.1,False
-TAP_A03,032b,,,O,14.7,False,12.49,20.65,17.2,False
-TAP_A03,033a,Pouteria guianensis,Sapotaceae,O,17.9,False,7.58,15.26,18.9,False
-TAP_A03,033b,Pouteria gongrijpii,Sapotaceae,O,32.6,False,,,33.7,False
-TAP_A03,034a,Jacaranda copaia,Bignoniaceae,O,28.3,False,,,30.6,False
-TAP_A03,034b,Sagotia racemosa,Euphorbiaceae,O,14.0,False,,,11.5,False
-TAP_A03,035a,Jacaranda copaia,Bignoniaceae,O,14.9,False,,,15.4,False
-TAP_A03,035b,,,L,10.4,False,,,10.8,False
-TAP_A03,036a,,,O,14.7,True,,,,True
-TAP_A03,036b,Licania canescens,Chrysobalanaceae,O,50.6,False,24.17,32.99,,True
-TAP_A03,037a,Jacaranda copaia,Bignoniaceae,O,13.2,False,,,14.2,False
-TAP_A03,037b,Jacaranda copaia,Bignoniaceae,O,12.9,False,,,13.2,False
-TAP_A03,038a,Inga thibaudiana,Fabaceae,O,10.9,False,,,14.5,False
-TAP_A03,038b,Schefflera morototoni,Araliaceae,O,12.8,False,15.56,19.71,14.5,False
-TAP_A03,039a,,,O,28.0,True,,,,True
-TAP_A03,039b,Jacaranda copaia,Bignoniaceae,O,11.1,False,,,12.7,False
-TAP_A03,040a,Cecropia ficifolia,Urticaceae,O,21.6,False,,,,True
-TAP_A03,040b,,,O,12.7,True,,,,True
-TAP_A03,041a,Jacaranda copaia,Bignoniaceae,O,19.2,False,,,19.5,False
-TAP_A03,041b,,,O,25.0,True,,,,True
-TAP_A03,042a,Sagotia racemosa,Euphorbiaceae,O,10.3,False,,,10.8,False
-TAP_A03,042b,Jacaranda copaia,Bignoniaceae,O,16.9,False,,,19.5,False
-TAP_A03,043a,,,O,34.1,True,,,,True
-TAP_A03,043b,Pouteria gongrijpii,Sapotaceae,O,18.1,False,13.64,19.33,19.8,False
-TAP_A03,044a,,,O,19.1,True,,,,True
-TAP_A03,044b,Jacaranda copaia,Bignoniaceae,O,12.0,False,,,19.7,False
-TAP_A03,045a,Jacaranda copaia,Bignoniaceae,O,16.9,False,20.9,24.83,18.2,False
-TAP_A03,045b,Jacaranda copaia,Bignoniaceae,O,11.8,False,,,13.3,False
-TAP_A03,046a,Capirona decorticans,Rubiaceae,O,24.1,False,16.77,22.73,25.5,False
-TAP_A03,046b,,,O,45.0,True,,,,True
-TAP_A03,047a,,,O,54.5,False,16.38,27.49,,True
-TAP_A03,047b,Pouteria sp,Sapotaceae,O,21.4,False,7.64,11.03,22.3,False
-TAP_A03,048a,Jacaranda copaia,Bignoniaceae,O,17.5,False,,,15.0,False
-TAP_A03,048b,,,L,11.2,False,,,11.5,False
-TAP_A03,049a,Inga thibaudiana,Fabaceae,O,20.7,False,,,24.8,False
-TAP_A03,049b,Inga heterophylla,Fabaceae,O,11.7,False,,,11.5,False
-TAP_A03,050a,Jacaranda copaia,Bignoniaceae,O,10.0,False,,,,True
-TAP_A03,050b,Manilkara bidentata,Sapotaceae,O,22.8,False,,,24.4,False
-TAP_A03,051a,Inga thibaudiana,Fabaceae,O,24.8,False,,,27.4,False
-TAP_A03,051b,Maquira coriacea,Moraceae,O,10.4,False,9.71,15.04,11.1,False
-TAP_A03,052a,,,O,71.0,False,24.11,35.8,,True
-TAP_A03,052b,Eschweilera coriacea,Lecythidaceae,O,36.0,False,,,25.9,False
-TAP_A03,053a,,,L,14.9,False,,,,True
-TAP_A03,053b,,,O,12.6,False,,,16.4,False
-TAP_A03,054a,Inga alba,Fabaceae,O,15.4,False,,,15.9,False
-TAP_A03,054b,Tachigali myrmecophila,Fabaceae,O,83.9,False,21.62,35.19,,True
-TAP_A03,055a,Dimorphandra macrostachya,Fabaceae,O,12.3,False,,,,True
-TAP_A03,055b,,,O,13.5,False,,,18.5,False
-TAP_A03,056a,Sagotia racemosa,Euphorbiaceae,O,16.5,False,,,16.9,False
-TAP_A03,056b,Manilkara bidentata,Sapotaceae,O,54.8,False,19.22,35.61,56.3,False
-TAP_A03,057a,Inga thibaudiana,Fabaceae,O,13.2,False,12.28,17.82,16.0,False
-TAP_A03,057b,Byrsonima densa,Malpighiaceae,O,15.3,False,,,16.2,False
-TAP_A03,058a,,,O,21.3,False,16.37,23.96,24.0,False
-TAP_A03,058b,,,O,23.0,True,,,,True
-TAP_A03,059a,,,O,97.7,True,,,,True
-TAP_A03,059b,Jacaranda copaia,Bignoniaceae,O,14.5,False,,,18.1,False
-TAP_A03,060a,Sagotia racemosa,Euphorbiaceae,O,14.5,False,,,15.3,False
-TAP_A03,060b,Tetragastris panamensis,Burseraceae,O,18.7,False,8.92,12.41,18.8,False
-TAP_A03,061a,,,O,10.4,False,,,13.1,False
-TAP_A03,061b,Jacaranda copaia,Bignoniaceae,O,12.1,False,,,13.4,False
-TAP_A03,062a,Schefflera morototoni,Araliaceae,O,15.3,False,,,,True
-TAP_A03,062b,,,O,11.5,True,,,,True
-TAP_A03,063a,,,O,14.6,True,,,,True
-TAP_A03,063b,Jacaranda copaia,Bignoniaceae,O,18.0,False,,,20.7,False
-TAP_A03,064a,Jacaranda copaia,Bignoniaceae,O,19.5,False,,,22.0,False
-TAP_A03,064b,Cecropia palmata,Urticaceae,O,11.9,False,12.37,17.13,,True
-TAP_A03,065a,Jacaranda copaia,Bignoniaceae,O,24.8,False,23.09,27.18,25.8,False
-TAP_A03,065b,,,O,15.8,False,,,16.6,False
-TAP_A03,066a,Cecropia ficifolia,Urticaceae,O,18.6,False,16.51,21.71,18.9,False
-TAP_A03,066b,Jacaranda copaia,Bignoniaceae,O,14.8,False,,,16.6,False
-TAP_A03,067a,Inga thibaudiana,Fabaceae,O,13.8,False,,,17.5,False
-TAP_A03,067b,Rinorea guianensis,Violaceae,O,14.2,False,,,12.7,False
-TAP_A03,068a,Laetia procera,Salicaceae,O,15.9,False,,,17.6,False
-TAP_A03,068b,Jacaranda copaia,Bignoniaceae,O,26.8,False,17.23,31.05,30.9,False
-TAP_A03,069a,Jacaranda copaia,Bignoniaceae,O,31.4,False,,,33.6,False
-TAP_A03,069b,,,O,11.9,False,,,12.1,False
-TAP_A03,070a,Xylopia nitida,Annonaceae,O,12.7,False,37.04,48.18,13.5,False
-TAP_A03,070b,Aniba parviflora,Lauraceae,O,26.8,False,,,27.1,False
-TAP_A03,071a,Dimorphandra macrostachya,Fabaceae,O,21.7,False,14.11,21.23,24.5,False
-TAP_A03,071b,Rinorea guianensis,Violaceae,O,14.2,False,,,,True
-TAP_A03,072a,Jacaranda copaia,Bignoniaceae,O,10.7,False,,,11.3,False
-TAP_A03,072b,Eschweilera ovata,Lecythidaceae,O,10.6,False,11.63,16.45,10.6,False
-TAP_A03,073a,Jacaranda copaia,Bignoniaceae,O,12.6,False,,,17.0,False
-TAP_A03,073b,Pouteria macrophylla,Sapotaceae,O,12.2,False,,,14.1,False
-TAP_A03,074a,Jacaranda copaia,Bignoniaceae,O,13.5,False,,,14.1,False
-TAP_A03,074b,,,O,17.1,False,,,17.2,False
-TAP_A03,075a,,,O,30.2,True,,,,True
-TAP_A03,075b,Rinorea guianensis,Violaceae,O,21.9,False,8.89,14.86,22.4,False
-TAP_A03,076a,Jacaranda copaia,Bignoniaceae,O,11.6,False,,,12.1,False
-TAP_A03,076b,Aspidosperma parvifolium,Apocynaceae,O,12.0,False,,,12.7,False
-TAP_A03,077a,Jacaranda copaia,Bignoniaceae,O,20.2,False,,,21.4,False
-TAP_A03,077b,Diospyros guianensis,Ebenaceae,O,33.0,False,,,20.4,False
-TAP_A03,078a,Jacaranda copaia,Bignoniaceae,O,23.4,False,,,24.4,False
-TAP_A03,078b,Rinorea guianensis,Violaceae,O,25.0,False,,,,True
-TAP_A03,079a,Jacaranda copaia,Bignoniaceae,O,13.7,False,,,14.4,False
-TAP_A03,079b,,,O,16.8,True,,,,True
-TAP_A03,080a,,,O,10.7,True,,,,True
-TAP_A03,080b,Tetragastris panamensis,Burseraceae,O,17.0,False,,,16.9,False
-TAP_A03,081a,Jacaranda copaia,Bignoniaceae,O,23.8,False,,,25.8,False
-TAP_A03,081b,Cecropia ficifolia,Urticaceae,O,22.5,False,,,23.3,False
-TAP_A03,082a,Inga grandis,Fabaceae,O,14.5,False,,,15.5,False
-TAP_A03,082b,Jacaranda copaia,Bignoniaceae,O,33.0,False,,,36.4,False
-TAP_A03,083a,Jacaranda copaia,Bignoniaceae,O,25.3,False,,,26.9,False
-TAP_A03,083b,Cecropia ficifolia,Urticaceae,O,14.6,False,13.0,16.7,14.8,False
-TAP_A03,084a,,,O,23.7,True,,,,True
-TAP_A03,084b,Micrandra minor,Euphorbiaceae,O,18.9,False,,,19.4,False
-TAP_A03,085a,,,O,65.0,True,,24.21,,True
-TAP_A03,085b,Xylopia sp,Annonaceae,O,12.2,False,,,12.4,False
-TAP_A03,086a,,,O,33.2,True,11.41,18.82,,True
-TAP_A03,086b,Pouteria retinervis,Sapotaceae,O,17.3,False,,,17.5,False
-TAP_A03,087a,,,O,13.2,True,,,,True
-TAP_A03,087b,Neea oppositifolia,Nyctaginaceae,O,23.2,False,9.12,16.05,23.2,False
-TAP_A03,088a,Jacaranda copaia,Bignoniaceae,O,17.5,False,,,18.2,False
-TAP_A03,088b,,,O,21.0,True,,,,True
-TAP_A03,089a,Jacaranda copaia,Bignoniaceae,O,17.3,False,,,17.8,False
-TAP_A03,090a,Inga alba,Fabaceae,O,10.4,False,,,11.1,False
-TAP_A03,091a,Cordia scabrifolia,Boraginaceae,O,13.5,False,12.62,13.9,13.7,False
-TAP_A03,092a,Jacaranda copaia,Bignoniaceae,O,14.5,False,10.73,16.57,,True
-TAP_A03,093a,Jacaranda copaia,Bignoniaceae,O,15.2,False,,,16.9,False
-TAP_A03,094a,Cecropia ficifolia,Urticaceae,O,24.7,False,,,24.8,False
-TAP_A03,095a,Inga thibaudiana,Fabaceae,O,16.0,False,,,18.8,False
-TAP_A03,096a,,,O,27.0,True,,,,True
-TAP_A03,097a,,,O,19.7,True,,,,True
-TAP_A03,098a,Jacaranda copaia,Bignoniaceae,O,26.0,False,,,28.2,False
-TAP_A03,099a,,,O,11.0,False,,,12.1,False
-TAP_A03,100a,Eschweilera ovata,Lecythidaceae,O,18.3,False,,,,True
-TAP_A03,001a,Strychnos subcordata,Loganiaceae,O,11.2,False,6.11,11.51,13.6,False
-TAP_A03,001b,Bellucia grossularioides,Melastomataceae,O,19.4,False,22.96,34.23,21.4,False
-TAP_A03,002a,Inga alba,Fabaceae,O,19.2,False,8.779999999999998,18.71,21.3,False
-TAP_A03,002b,Inga alba,Fabaceae,O,20.0,False,11.86,18.5,28.6,False
-TAP_A03,003a,Couratari stellata,Lecythidaceae,O,10.1,False,5.97,9.81,12.6,False
-TAP_A03,003b,Guatteria schomburgkiana,Annonaceae,O,21.1,False,,19.74,,True
-TAP_A03,004a,,,O,28.8,False,6.86,15.16,31.3,False
-TAP_A03,004b,Inga alba,Fabaceae,O,50.2,False,9.12,24.32,,True
-TAP_A03,005a,Inga thibaudiana,Fabaceae,O,14.7,False,9.07,14.97,,True
-TAP_A03,005b,Inga thibaudiana,Fabaceae,O,13.3,False,13.6,18.84,,True
-TAP_A03,006a,,,O,13.6,True,,16.25,,True
-TAP_A03,006b,Inga alba,Fabaceae,O,20.8,False,8.77,13.68,,True
-TAP_A03,007a,Cordia scabrifolia,Boraginaceae,O,15.9,False,13.49,17.99,17.0,False
-TAP_A03,007b,Inga thibaudiana,Fabaceae,O,26.0,False,6.28,21.63,,True
-TAP_A03,008a,Cordia scabrifolia,Boraginaceae,O,13.0,False,2.38,3.31,14.3,False
-TAP_A03,008b,Inga alba,Fabaceae,O,28.0,False,9.19,22.18,,True
-TAP_A03,009a,Cordia scabrifolia,Boraginaceae,O,20.1,False,13.64,19.33,20.9,False
-TAP_A03,009b,Cordia scabrifolia,Boraginaceae,O,12.0,False,11.27,13.53,12.1,False
-TAP_A03,010a,Cordia scabrifolia,Boraginaceae,O,21.4,False,11.92,16.15,22.8,False
-TAP_A03,010b,Byrsonima crispa,Malpighiaceae,O,16.2,False,7.76,10.94,16.9,False
-TAP_A03,011a,,,O,15.7,True,,15.73,,True
-TAP_A03,011b,,,O,11.6,True,,7.73,,True
-TAP_A03,012a,,,O,14.4,True,,15.73,,True
-TAP_A03,012b,Jacaranda copaia,Bignoniaceae,O,28.4,False,18.82,25.98,36.4,False
-TAP_A03,013a,Cordia scabrifolia,Boraginaceae,O,10.5,False,12.24,14.49,10.3,False
-TAP_A03,013b,Jacaranda copaia,Bignoniaceae,O,35.0,False,25.1,29.81,,True
-TAP_A03,014a,Guatteria schomburgkiana,Annonaceae,O,14.0,False,8.5,12.44,15.2,False
-TAP_A03,014b,Cassia fastuosa,Fabaceae,O,23.5,False,,16.34,,True
-TAP_A03,015a,Cordia scabrifolia,Boraginaceae,O,18.8,False,14.3,18.71,18.2,False
-TAP_A03,015b,Rinorea guianensis,Violaceae,O,11.2,False,4.31,7.64,12.7,False
-TAP_A03,016a,,,O,13.5,True,,8.68,,True
-TAP_A03,016b,Inga alba,Fabaceae,O,50.3,False,10.3,27.47,52.8,False
-TAP_A03,017a,,,O,25.0,True,,,,True
-TAP_A03,017b,,,O,38.1,True,,22.04,,True
-TAP_A03,018a,,,O,11.7,True,,9.06,,True
-TAP_A03,018b,Eschweilera coriacea,Lecythidaceae,O,13.0,False,9.53,15.95,16.3,False
-TAP_A03,019a,Cordia scabrifolia,Boraginaceae,O,24.8,False,18.06,23.64,26.9,False
-TAP_A03,019b,,,O,10.4,True,,11.01,,True
-TAP_A03,020a,,,O,22.0,True,,2.27,,True
-TAP_A03,020b,Byrsonima crispa,Malpighiaceae,O,16.2,False,11.3,18.05,,True
-TAP_A03,021a,,,O,11.9,True,,8.26,,True
-TAP_A03,021b,Theobroma glaucum,Malvaceae,O,12.5,False,9.38,12.94,12.9,False
-TAP_A03,022a,,,O,10.5,True,,8.62,,True
-TAP_A03,022b,Theobroma glaucum,Malvaceae,O,11.6,False,9.38,12.94,12.2,False
-TAP_A03,023a,Cecropia palmata,Urticaceae,O,16.5,False,,,,True
-TAP_A03,023b,,,O,17.0,True,,18.24,,True
-TAP_A03,024a,Cordia scabrifolia,Boraginaceae,O,11.8,False,,11.82,,True
-TAP_A03,024b,Cordia scabrifolia,Boraginaceae,O,11.6,False,4.79,8.26,,True
-TAP_A03,025a,,,O,30.0,True,,,,True
-TAP_A03,025b,Sapium marmieri,Euphorbiaceae,O,13.4,False,5.99,14.78,,True
-TAP_A03,026a,Guatteria schomburgkiana,Annonaceae,O,26.4,False,15.94,22.15,,True
-TAP_A03,026b,Apeiba petoumo,Malvaceae,O,12.0,False,6.02,11.77,,True
-TAP_A03,027a,Jacaranda copaia,Bignoniaceae,O,22.4,False,20.95,25.57,,True
-TAP_A03,027b,Cordia scabrifolia,Boraginaceae,O,14.9,False,9.02,17.41,,True
-TAP_A03,028a,,,O,31.9,True,,22.29,,True
-TAP_A03,028b,,,O,11.4,True,,10.41,,True
-TAP_A03,029a,,,O,29.5,True,,13.31,,True
-TAP_A03,029b,,,O,13.6,True,,5.97,,True
-TAP_A03,030a,,,O,16.2,True,,11.34,,True
-TAP_A03,030b,,,O,20.8,True,,23.17,,True
-TAP_A03,031a,Attalea maripa,Arecaceae,P,35.0,False,3.79,14.02,56.1,False
-TAP_A03,031b,,,O,15.2,True,,16.62,,True
-TAP_A03,032a,Cordia scabrifolia,Boraginaceae,O,20.0,False,17.32,22.93,,True
-TAP_A03,032b,Protium paniculatum,Burseraceae,O,13.7,False,8.27,12.13,13.9,False
-TAP_A03,033a,,,O,10.5,True,,1.94,,True
-TAP_A03,033b,Inga alba,Fabaceae,O,29.8,False,14.58,23.1,32.3,False
-TAP_A03,034a,,,O,19.3,True,,7.82,,True
-TAP_A03,034b,Inga alba,Fabaceae,O,14.5,False,4.12,6.45,14.7,False
-TAP_A03,035a,,,O,12.5,False,5.35,6.95,,True
-TAP_A03,035b,Pouteria sp,Sapotaceae,O,24.7,False,7.2,17.04,26.5,False
-TAP_A03,036a,,,O,10.9,True,,11.18,,True
-TAP_A03,036b,Inga thibaudiana,Fabaceae,O,20.0,False,5.52,9.65,20.7,False
-TAP_A03,037a,Cordia goeldiana,Boraginaceae,O,15.9,False,13.9,18.18,,True
-TAP_A03,037b,Inga alba,Fabaceae,O,12.2,False,9.12,15.97,,True
-TAP_A03,038a,,,O,19.8,True,,15.29,,True
-TAP_A03,038b,Inga alba,Fabaceae,O,19.2,False,11.92,17.59,21.0,False
-TAP_A03,039a,Cordia scabrifolia,Boraginaceae,O,13.3,False,10.73,13.06,,True
-TAP_A03,039b,Cordia scabrifolia,Boraginaceae,O,17.9,False,10.83,13.4,,True
-TAP_A03,040a,Cordia scabrifolia,Boraginaceae,O,21.0,False,15.09,19.82,21.3,False
-TAP_A03,040b,Cordia scabrifolia,Boraginaceae,O,10.6,False,8.9,11.65,,True
-TAP_A03,041a,,,O,11.8,True,,18.47,,True
-TAP_A03,041b,,,O,19.0,True,,10.29,,True
-TAP_A03,042a,,,O,18.0,True,,13.01,,True
-TAP_A03,042b,Cordia scabrifolia,Boraginaceae,O,24.6,False,14.16,18.5,21.5,False
-TAP_A03,043a,Ocotea cernua,Lauraceae,O,14.6,False,8.79,10.98,,True
-TAP_A03,043b,Inga alba,Fabaceae,O,11.5,False,8.6,10.47,,True
-TAP_A03,044a,,,O,18.4,True,,16.38,,True
-TAP_A03,044b,Inga alba,Fabaceae,O,19.5,False,12.3,17.85,20.1,False
-TAP_A03,045a,Cordia scabrifolia,Boraginaceae,O,199.0,False,14.56,17.3,22.4,False
-TAP_A03,045b,Cordia scabrifolia,Boraginaceae,O,12.5,False,10.16,15.74,12.7,False
-TAP_A03,046a,,,O,18.7,False,8.39,13.09,19.7,False
-TAP_A03,046b,Inga alba,Fabaceae,O,32.6,False,17.61,26.86,34.4,False
-TAP_A03,047a,,,O,29.7,False,11.59,18.84,30.9,False
-TAP_A03,047b,Inga sp,Fabaceae,O,11.8,False,6.61,9.3,,True
-TAP_A03,048a,Cordia scabrifolia,Boraginaceae,O,22.8,False,16.96,22.38,24.5,False
-TAP_A03,048b,,,O,27.8,False,14.44,20.2,30.6,False
-TAP_A03,049a,Banara guianensis,Salicaceae,O,10.0,False,10.59,13.03,,True
-TAP_A03,049b,,,O,12.5,True,,16.61,,True
-TAP_A03,050a,,,O,14.9,True,,5.9,,True
-TAP_A03,050b,Rinorea guianensis,Violaceae,O,27.3,False,14.48,19.71,29.8,False
-TAP_A03,051a,,,O,23.0,False,10.78,15.99,26.4,False
-TAP_A03,051b,Byrsonima crispa,Malpighiaceae,O,17.5,False,13.49,19.84,20.7,False
-TAP_A03,052a,Bagassa guianensis,Moraceae,O,20.9,False,14.87,25.44,24.2,False
-TAP_A03,052b,,,O,13.8,True,,16.15,,True
-TAP_A03,053a,Bagassa guianensis,Moraceae,O,28.6,False,21.66,31.85,16.6,False
-TAP_A03,053b,Thyrsodium spruceanum,Anacardiaceae,O,10.2,False,7.51,12.2,,True
-TAP_A03,054a,,,O,15.2,True,,11.59,,True
-TAP_A03,054b,Inga alba,Fabaceae,O,20.6,False,10.75,19.36,22.3,False
-TAP_A03,055a,Jacaranda copaia,Bignoniaceae,O,25.8,False,7.92,18.11,,True
-TAP_A03,055b,Guatteria schomburgkiana,Annonaceae,O,10.3,False,8.85,14.62,12.1,False
-TAP_A03,056a,,,O,20.5,True,,23.59,,True
-TAP_A03,056b,Aspidosperma parvifolium,Apocynaceae,O,11.5,False,3.21,7.62,12.7,False
-TAP_A03,057a,,,O,20.3,True,,29.75,,True
-TAP_A03,057b,,,O,16.7,True,,9.72,,True
-TAP_A03,058a,,,O,14.7,False,4.85,11.35,,True
-TAP_A03,058b,,,O,11.6,True,,8.04,,True
-TAP_A03,059a,,,O,12.4,True,9.88,11.56,,True
-TAP_A03,059b,Trattinnickia burserifolia,Burseraceae,O,12.3,False,4.49,8.22,13.4,False
-TAP_A03,060a,Cordia scabrifolia,Boraginaceae,O,18.3,False,,9.23,16.9,False
-TAP_A03,060b,Cordia scabrifolia,Boraginaceae,O,13.8,False,6.82,10.76,14.0,False
-TAP_A03,061a,Cordia scabrifolia,Boraginaceae,O,15.3,False,,6.8,15.3,False
-TAP_A03,061b,,,O,11.0,True,,3.62,,True
-TAP_A03,062b,Abarema jupunba,Fabaceae,O,10.4,False,8.33,13.83,24.5,False
-TAP_A03,063b,Cordia goeldiana,Boraginaceae,O,16.5,False,13.11,17.3,13.1,False
-TAP_A03,064b,Eriotheca globosa,Malvaceae,O,11.0,False,6.02,9.69,11.1,False
-TAP_A03,065a,Rinorea guianensis,Violaceae,O,,,,,9.2,False
-TAP_A03,066a,,,O,,,,,8.6,False
-TAP_A03,067a,Eriotheca globosa,Malvaceae,O,,,,,10.8,False
-TAP_A03,068a,Eriotheca globosa,Malvaceae,O,,,,,11.1,False
-TAP_A03,069a,Strychnos subcordata,Loganiaceae,O,,,,,15.9,False
-TAP_A03,001a,Guatteria schomburgkiana,Annonaceae,O,11.7,False,,,14.2,False
-TAP_A03,001b,,,O,15.4,True,,,,True
-TAP_A03,002a,Bagassa guianensis,Moraceae,O,12.9,False,,,15.2,False
-TAP_A03,002b,,,O,47.8,True,,0.0,,True
-TAP_A03,003a,,,O,12.9,True,,7.99,,True
-TAP_A03,003b,Guatteria schomburgkiana,Annonaceae,O,10.2,False,5.49,8.37,12.0,False
-TAP_A03,004a,Casearia grandiflora,Salicaceae,O,14.0,False,,,14.6,False
-TAP_A03,004b,Bagassa guianensis,Moraceae,O,19.2,False,8.63,14.16,21.9,False
-TAP_A03,005a,Guatteria schomburgkiana,Annonaceae,O,21.7,False,,,22.0,False
-TAP_A03,005b,Casearia grandiflora,Salicaceae,O,16.1,False,,,17.4,False
-TAP_A03,006a,Cordia scabrifolia,Boraginaceae,O,11.8,False,,,11.3,False
-TAP_A03,006b,Casearia grandiflora,Salicaceae,O,15.2,False,,,17.3,False
-TAP_A03,007a,Cordia scabrifolia,Boraginaceae,O,12.0,False,,,20.0,False
-TAP_A03,007b,Casearia grandiflora,Salicaceae,O,13.6,False,,,13.9,False
-TAP_A03,008a,Cordia scabrifolia,Boraginaceae,O,11.4,False,11.94,15.1,,True
-TAP_A03,008b,Casearia grandiflora,Salicaceae,O,12.3,False,,,14.4,False
-TAP_A03,009a,Chamaecrista xinguensis,Fabaceae,O,12.2,False,,,12.2,False
-TAP_A03,009b,Guatteria schomburgkiana,Annonaceae,O,15.5,False,,,15.9,False
-TAP_A03,010a,Stryphnodendron pulcherrimum,Fabaceae,O,12.9,False,,,,True
-TAP_A03,010b,,,O,13.2,False,,,17.0,False
-TAP_A03,011a,Banara guianensis,Salicaceae,O,10.5,False,,,10.5,False
-TAP_A03,011b,Guatteria schomburgkiana,Annonaceae,O,12.4,False,10.07,12.55,12.6,False
-TAP_A03,012a,,,O,10.2,True,,,,True
-TAP_A03,012b,Swartzia corrugata,Fabaceae,O,10.6,False,8.31,10.45,10.7,False
-TAP_A03,013a,Guatteria schomburgkiana,Annonaceae,O,16.0,False,,,18.1,False
-TAP_A03,013b,Swartzia corrugata,Fabaceae,O,11.2,False,,,11.4,False
-TAP_A03,014a,,,O,11.2,False,,,11.5,False
-TAP_A03,014b,Guatteria schomburgkiana,Annonaceae,O,22.6,False,,,23.7,False
-TAP_A03,015a,Casearia grandiflora,Salicaceae,O,15.7,False,2.34,4.43,18.3,False
-TAP_A03,015b,Simaba cedron,Simaroubaceae,O,10.3,False,,,10.7,False
-TAP_A03,016a,Sapium marmieri,Euphorbiaceae,O,18.3,False,,,22.2,False
-TAP_A03,016b,Banara guianensis,Salicaceae,O,11.7,False,,,,True
-TAP_A03,017a,Banara guianensis,Salicaceae,O,11.0,False,9.92,12.9,,True
-TAP_A03,017b,Guatteria schomburgkiana,Annonaceae,O,14.6,False,,,15.1,False
-TAP_A03,018a,Banara guianensis,Salicaceae,O,12.1,False,,,12.0,False
-TAP_A03,018b,,,O,14.1,True,,,,True
-TAP_A03,019a,Jacaranda copaia,Bignoniaceae,O,23.6,False,,,29.2,False
-TAP_A03,019b,Guatteria schomburgkiana,Annonaceae,O,17.1,False,,,19.4,False
-TAP_A03,020a,Goupia glabra,Goupiaceae,O,12.4,False,,,15.8,False
-TAP_A03,020b,Cecropia ficifolia,Urticaceae,O,10.3,False,6.09,9.23,7.2,False
-TAP_A03,021a,Bagassa guianensis,Moraceae,O,12.9,False,,,15.9,False
-TAP_A03,021b,Banara guianensis,Salicaceae,O,10.2,False,4.56,8.17,10.2,False
-TAP_A03,022a,Guatteria schomburgkiana,Annonaceae,O,23.7,False,,,28.0,False
-TAP_A03,022b,Bagassa guianensis,Moraceae,O,14.5,False,,,18.9,False
-TAP_A03,023a,Banara guianensis,Salicaceae,O,10.2,False,6.95,12.49,,True
-TAP_A03,023b,,,O,14.9,True,,,,True
-TAP_A03,024a,Banara guianensis,Salicaceae,O,10.2,False,,,10.1,False
-TAP_A03,024b,Himatanthus sucuuba,Apocynaceae,O,12.9,False,,,13.7,False
-TAP_A03,025a,Casearia grandiflora,Salicaceae,O,16.5,False,,,20.1,False
-TAP_A03,025b,Sapium marmieri,Euphorbiaceae,O,25.0,False,,,27.6,False
-TAP_A03,026a,Casearia grandiflora,Salicaceae,O,16.2,False,,,20.1,False
-TAP_A03,026b,Cordia scabrifolia,Boraginaceae,O,13.0,False,,,15.9,False
-TAP_A03,027a,Bagassa guianensis,Moraceae,O,11.7,False,,,14.5,False
-TAP_A03,027b,Cordia scabrifolia,Boraginaceae,O,15.9,False,,,17.5,False
-TAP_A03,028a,Guatteria schomburgkiana,Annonaceae,O,14.4,False,,,15.3,False
-TAP_A03,028b,Bagassa guianensis,Moraceae,O,47.8,False,,,20.5,False
-TAP_A03,029a,Guatteria schomburgkiana,Annonaceae,O,10.2,False,5.7,11.17,10.3,False
-TAP_A03,029b,Casearia grandiflora,Salicaceae,O,17.0,False,,,19.3,False
-TAP_A03,030a,Guatteria schomburgkiana,Annonaceae,O,14.8,False,,,15.3,False
-TAP_A03,030b,,,O,11.6,True,,7.12,,True
-TAP_A03,031a,Laetia procera,Salicaceae,O,15.0,False,,,16.1,False
-TAP_A03,031b,Cassia fastuosa,Fabaceae,O,38.5,False,11.93,21.23,40.7,False
-TAP_A03,032a,Cecropia palmata,Urticaceae,O,19.1,False,,,,True
-TAP_A03,032b,Guatteria schomburgkiana,Annonaceae,O,11.2,False,,,12.2,False
-TAP_A03,033a,Guatteria schomburgkiana,Annonaceae,O,21.7,False,,,22.9,False
-TAP_A03,033b,Guatteria schomburgkiana,Annonaceae,O,12.0,False,,,13.6,False
-TAP_A03,034a,,,O,10.0,True,,8.13,,True
-TAP_A03,034b,,,O,17.4,False,,,17.6,False
-TAP_A03,035a,Jacaranda copaia,Bignoniaceae,O,10.0,False,,,13.2,False
-TAP_A03,035b,,,O,21.4,True,,,,True
-TAP_A03,036a,,,O,10.1,True,,,,True
-TAP_A03,036b,Inga alba,Fabaceae,O,16.2,False,,,17.6,False
-TAP_A03,037a,,,O,10.0,True,,,,True
-TAP_A03,037b,Inga alba,Fabaceae,O,11.9,False,,,12.1,False
-TAP_A03,038a,Guatteria schomburgkiana,Annonaceae,O,18.1,False,8.4,12.32,20.5,False
-TAP_A03,038b,Inga sp,Fabaceae,O,24.5,False,,,,True
-TAP_A03,039a,Casearia grandiflora,Salicaceae,O,14.0,False,,,16.4,False
-TAP_A03,039b,Bagassa guianensis,Moraceae,O,17.8,False,,,20.9,False
-TAP_A03,040a,Jacaranda copaia,Bignoniaceae,O,17.5,False,,,22.2,False
-TAP_A03,040b,Guatteria schomburgkiana,Annonaceae,O,15.3,False,,,15.3,False
-TAP_A03,041a,Vismia guianensis,Hypericaceae,O,10.0,False,3.98,9.44,,True
-TAP_A03,041b,Casearia grandiflora,Salicaceae,O,12.6,False,,,13.4,False
-TAP_A03,042a,Banara guianensis,Salicaceae,O,17.0,False,,,16.8,False
-TAP_A03,042b,Guatteria schomburgkiana,Annonaceae,O,11.6,False,2.39,7.27,,True
-TAP_A03,043a,Casearia grandiflora,Salicaceae,O,16.3,False,,,,True
-TAP_A03,043b,Guatteria schomburgkiana,Annonaceae,O,22.1,False,17.21,20.65,23.0,False
-TAP_A03,044a,,,O,10.8,False,,,10.9,False
-TAP_A03,044b,Inga sp,Fabaceae,O,14.0,False,,,14.2,False
-TAP_A03,045a,,,O,23.0,False,,,23.3,False
-TAP_A03,045b,Casearia grandiflora,Salicaceae,O,16.1,False,,,16.8,False
-TAP_A03,046a,,,O,10.9,True,,,,True
-TAP_A03,046b,Inga thibaudiana,Fabaceae,O,12.7,False,,,16.6,False
-TAP_A03,047a,Maquira coriacea,Moraceae,O,12.7,False,6.74,12.58,13.7,False
-TAP_A03,047b,Casearia grandiflora,Salicaceae,O,11.9,False,,,12.7,False
-TAP_A03,048a,Laetia procera,Salicaceae,O,17.6,False,,,18.3,False
-TAP_A03,048b,Himatanthus sucuuba,Apocynaceae,O,11.0,False,,,11.7,False
-TAP_A03,049a,,,O,18.7,False,,,20.3,False
-TAP_A03,049b,Inga marginata,Fabaceae,O,11.0,False,,,11.2,False
-TAP_A03,050a,Talisia longifolia,Sapindaceae,O,10.3,False,,,10.7,False
-TAP_A03,050b,Inga sp,Fabaceae,O,14.4,False,,,14.6,False
-TAP_A03,051a,Bagassa guianensis,Moraceae,O,16.4,False,,,19.7,False
-TAP_A03,051b,Inga alba,Fabaceae,O,28.0,False,14.27,24.7,29.0,False
-TAP_A03,052a,Jacaranda copaia,Bignoniaceae,O,12.3,False,,,16.9,False
-TAP_A03,052b,Inga alba,Fabaceae,O,234.0,False,14.91,25.61,26.6,False
-TAP_A03,053a,Banara guianensis,Salicaceae,O,11.3,False,5.63,10.79,,True
-TAP_A03,053b,Bagassa guianensis,Moraceae,O,14.4,False,,,17.3,False
-TAP_A03,054a,Eriotheca globosa,Malvaceae,O,11.8,False,,,11.1,False
-TAP_A03,054b,Jacaranda copaia,Bignoniaceae,O,15.8,False,,,18.7,False
-TAP_A03,055a,Cecropia palmata,Urticaceae,O,12.7,False,,,,True
-TAP_A03,055b,Cordia scabrifolia,Boraginaceae,O,11.4,False,,,12.7,False
-TAP_A03,056a,Inga heterophylla,Fabaceae,O,19.8,False,,,20.2,False
-TAP_A03,056b,Cordia scabrifolia,Boraginaceae,O,17.0,False,,,18.7,False
-TAP_A03,057a,Cordia scabrifolia,Boraginaceae,O,15.5,False,9.92,16.7,17.5,False
-TAP_A03,057b,,,O,12.3,True,,,,True
-TAP_A03,058a,,,O,10.3,True,,,10.0,False
-TAP_A03,058b,Guatteria schomburgkiana,Annonaceae,O,13.2,False,,,15.7,False
-TAP_A03,059a,Cordia scabrifolia,Boraginaceae,O,20.3,False,,,23.9,False
-TAP_A03,059b,Vismia guianensis,Hypericaceae,O,10.6,False,,,10.7,False
-TAP_A03,060a,Guatteria schomburgkiana,Annonaceae,O,10.9,False,,,11.6,False
-TAP_A03,060b,Vismia guianensis,Hypericaceae,O,14.0,False,,,15.4,False
-TAP_A03,061a,Vismia guianensis,Hypericaceae,O,11.6,False,,,12.6,False
-TAP_A03,061b,Inga marginata,Fabaceae,O,21.7,False,6.73,16.5,,True
-TAP_A03,062a,Banara guianensis,Salicaceae,O,10.2,False,,,,True
-TAP_A03,062b,Inga marginata,Fabaceae,O,19.9,False,10.57,17.1,,True
-TAP_A03,063a,Guatteria schomburgkiana,Annonaceae,O,17.5,False,7.61,12.3,20.2,False
-TAP_A03,063b,Cordia scabrifolia,Boraginaceae,O,19.8,False,,,22.8,False
-TAP_A03,064a,Guatteria schomburgkiana,Annonaceae,O,21.7,False,,,25.1,False
-TAP_A03,064b,Eriotheca globosa,Malvaceae,O,16.9,False,,,18.2,False
-TAP_A03,065a,,,O,21.1,False,,,20.5,False
-TAP_A03,065b,Inga sp,Fabaceae,O,14.9,False,,,16.3,False
-TAP_A03,066a,Vismia guianensis,Hypericaceae,O,10.3,False,,,,True
-TAP_A03,066b,Inga sp,Fabaceae,O,11.5,False,,,11.7,False
-TAP_A03,067a,Guatteria schomburgkiana,Annonaceae,O,18.5,False,,,18.7,False
-TAP_A03,067b,Bagassa guianensis,Moraceae,O,12.4,False,,,13.6,False
-TAP_A03,068a,,,O,11.6,False,8.68,13.35,11.9,False
-TAP_A03,068b,Bagassa guianensis,Moraceae,O,21.1,False,10.67,25.09,24.3,False
-TAP_A03,069a,,,O,20.6,False,,,23.6,False
-TAP_A03,070a,Guatteria schomburgkiana,Annonaceae,O,12.4,False,,,13.2,False
-TAP_A03,071a,Banara guianensis,Salicaceae,O,11.3,False,,,11.3,False
-TAP_A03,072a,Casearia grandiflora,Salicaceae,O,17.0,False,10.65,15.24,20.2,False
-TAP_A03,073a,Guatteria schomburgkiana,Annonaceae,O,12.7,False,,,12.7,False
-TAP_A03,074a,Aspidosperma parvifolium,Apocynaceae,O,,,,,10.2,False
-TAP_A03,075a,,,O,,,,,10.6,False
+site,tree_id,scientific_name,family_name,type,dbh_2015,dead_2015,hcom_2015,htot_2015,dbh_2018,dead_2018,htot_feldpausch
+TAP_A03,001a,Pouteria gongrijpii,Sapotaceae,O,10.5,False,,,,True,
+TAP_A03,001b,Nectandra cuspidata,Lauraceae,O,20.5,False,,,,True,
+TAP_A03,002a,Virola michelii,Myristicaceae,O,11.0,False,,,,True,
+TAP_A03,002b,Protium paniculatum,Burseraceae,O,18.0,False,,,,True,
+TAP_A03,003a,Sterculia pruriens,Malvaceae,O,13.9,False,,,14.7,False,13.95
+TAP_A03,003b,,,O,35.7,True,,,,True,
+TAP_A03,004a,Maquira coriacea,Moraceae,O,33.5,False,,,40.9,False,26.39
+TAP_A03,004b,Pouteria macrophylla,Sapotaceae,O,10.4,False,,,,True,
+TAP_A03,005a,Ocotea cernua,Lauraceae,O,24.7,False,,,25.8,False,20.19
+TAP_A03,005b,Protium heptaphyllum,Burseraceae,O,19.8,False,,,,True,
+TAP_A03,006a,,,O,11.5,True,,,,True,
+TAP_A03,006b,Symphonia globulifera,Clusiaceae,O,10.6,False,,,,True,
+TAP_A03,007a,,,O,21.5,True,,,,True,
+TAP_A03,007b,Duguetia surinamensis,Annonaceae,O,11.0,False,,,,True,
+TAP_A03,008a,Sapium marmieri,Euphorbiaceae,O,24.3,False,,,,True,
+TAP_A03,008b,Aniba parviflora,Lauraceae,O,15.7,False,,,,True,
+TAP_A03,009a,Maquira coriacea,Moraceae,O,10.9,False,,,,True,
+TAP_A03,009b,Tachigali paniculata,Fabaceae,O,12.1,False,,,,True,
+TAP_A03,010a,Maquira coriacea,Moraceae,O,12.0,False,,,,True,
+TAP_A03,010b,Protium hebetatum,Burseraceae,O,15.1,False,,,15.7,False,14.6
+TAP_A03,011a,Cordia scabrifolia,Boraginaceae,O,11.0,False,,,,True,
+TAP_A03,011b,Protium paniculatum,Burseraceae,O,14.1,False,,,,True,
+TAP_A03,012a,Strychnos subcordata,Loganiaceae,O,11.8,False,,,,True,
+TAP_A03,012b,Apeiba petoumo,Malvaceae,O,12.0,False,,,11.9,False,12.03
+TAP_A03,013a,,,O,41.7,True,,,,True,
+TAP_A03,013b,Inga thibaudiana,Fabaceae,O,12.4,False,,,13.5,False,13.15
+TAP_A03,014a,,,O,13.1,True,,,,True,
+TAP_A03,014b,Luehea speciosa,Malvaceae,O,15.4,False,,,16.6,False,15.16
+TAP_A03,015a,,,O,12.7,True,,,,True,
+TAP_A03,015b,Nectandra cuspidata,Lauraceae,O,14.3,False,,,15.9,False,14.73
+TAP_A03,016a,Eschweilera coriacea,Lecythidaceae,O,15.2,False,,,,True,
+TAP_A03,016b,Pourouma minor,Urticaceae,O,30.9,False,,,35.3,False,24.32
+TAP_A03,017a,Eschweilera coriacea,Lecythidaceae,O,10.7,False,13.51,22.58,11.5,False,11.75
+TAP_A03,017b,Pourouma minor,Urticaceae,O,53.7,False,13.51,22.58,54.4,False,30.51
+TAP_A03,018a,,,O,14.8,False,,,,True,
+TAP_A03,018b,Laetia procera,Salicaceae,O,22.4,False,,,,True,
+TAP_A03,019a,Lecythis idatimon,Lecythidaceae,O,14.8,False,,,,True,
+TAP_A03,019b,Protium paniculatum,Burseraceae,O,11.1,False,,,,True,
+TAP_A03,020a,Cordia scabrifolia,Boraginaceae,O,22.5,False,,,22.3,False,18.42
+TAP_A03,020b,Casearia javitensis,Salicaceae,O,12.5,False,,,,True,
+TAP_A03,021a,Jacaranda copaia,Bignoniaceae,O,13.9,False,,,17.3,False,15.59
+TAP_A03,021b,Inga thibaudiana,Fabaceae,O,11.0,False,,,,True,
+TAP_A03,022a,Pseudopiptadenia psilostachya,Fabaceae,O,37.6,False,,,38.5,False,25.53
+TAP_A03,022b,Ocotea cernua,Lauraceae,O,41.7,False,,,,True,
+TAP_A03,023a,Ormosia grossa,Fabaceae,O,10.4,False,,,10.7,False,11.15
+TAP_A03,023b,Laetia procera,Salicaceae,O,42.7,False,,,,True,
+TAP_A03,024a,Neea oppositifolia,Nyctaginaceae,O,20.3,False,,,20.6,False,17.5
+TAP_A03,024b,Protium paniculatum,Burseraceae,O,11.7,False,,,,True,
+TAP_A03,025a,Inga sp,Fabaceae,O,18.7,False,,,20.2,False,17.28
+TAP_A03,025b,Protium paniculatum,Burseraceae,O,16.7,False,,,,True,
+TAP_A03,026a,Eperua bijuga,Fabaceae,O,16.6,False,18.37,28.06,17.0,False,15.41
+TAP_A03,026b,Pourouma minor,Urticaceae,O,52.0,False,18.37,28.06,55.4,False,30.77
+TAP_A03,027a,Pouteria gongrijpii,Sapotaceae,O,14.0,False,,,15.9,False,14.73
+TAP_A03,027b,Protium paniculatum,Burseraceae,O,10.6,False,,,,True,
+TAP_A03,028a,Chrysophyllum sanguinolentum,Sapotaceae,O,23.4,False,18.67,29.29,23.9,False,19.25
+TAP_A03,028b,Pourouma minor,Urticaceae,O,54.6,False,18.67,29.29,55.7,False,30.85
+TAP_A03,029a,Vitex triflora,Lamiaceae,O,18.1,False,,,18.5,False,16.31
+TAP_A03,029b,,,O,27.8,False,,,29.3,False,21.82
+TAP_A03,030a,Pouteria gongrijpii,Sapotaceae,O,23.8,False,,,24.8,False,19.7
+TAP_A03,030b,Maquira coriacea,Moraceae,O,13.0,False,,,13.6,False,13.22
+TAP_A03,031a,,,O,15.8,True,,,,True,
+TAP_A03,031b,Nectandra cuspidata,Lauraceae,O,11.5,False,,,12.2,False,12.25
+TAP_A03,032a,Guatteria schomburgkiana,Annonaceae,O,10.5,False,,,11.3,False,11.6
+TAP_A03,032b,Protium paniculatum,Burseraceae,O,11.0,False,,,10.9,False,11.3
+TAP_A03,033a,Schefflera morototoni,Araliaceae,O,11.7,False,,,14.0,False,13.49
+TAP_A03,033b,Pouteria gongrijpii,Sapotaceae,O,11.7,False,,,12.3,False,12.32
+TAP_A03,034a,Cecropia engleriana,Urticaceae,O,10.3,False,,,11.6,False,11.82
+TAP_A03,034b,Anacardium spruceanum,Anacardiaceae,O,22.3,False,,,20.3,False,17.33
+TAP_A03,035a,Nectandra cuspidata,Lauraceae,O,29.6,False,,,29.9,False,22.09
+TAP_A03,035b,Nectandra cuspidata,Lauraceae,O,27.6,False,,,,True,
+TAP_A03,036a,Pseudopiptadenia suaveolens,Fabaceae,O,10.9,False,,,11.1,False,11.45
+TAP_A03,036b,Theobroma glaucum,Malvaceae,O,11.0,False,,,10.2,False,10.78
+TAP_A03,037a,Maquira coriacea,Moraceae,O,13.7,False,,,14.6,False,13.89
+TAP_A03,037b,Protium paniculatum,Burseraceae,O,22.6,False,,,21.1,False,17.78
+TAP_A03,038a,Pseudopiptadenia psilostachya,Fabaceae,O,18.9,False,24.39,41.72,23.7,False,19.15
+TAP_A03,038b,Tachigali paniculata,Fabaceae,O,78.4,False,24.39,41.72,,True,
+TAP_A03,039a,,,O,14.1,False,,,15.8,False,14.66
+TAP_A03,039b,Guatteria schomburgkiana,Annonaceae,O,18.7,False,,,,True,
+TAP_A03,040a,Eperua bijuga,Fabaceae,O,13.2,False,,,13.7,False,13.29
+TAP_A03,040b,Rinorea guianensis,Violaceae,O,25.0,False,,,,True,
+TAP_A03,041a,Cordia scabrifolia,Boraginaceae,O,19.8,False,,,15.0,False,14.15
+TAP_A03,041b,Pouteria sp,Sapotaceae,O,12.0,False,,,12.7,False,12.6
+TAP_A03,042a,Sapium marmieri,Euphorbiaceae,O,23.2,False,18.51,29.72,24.9,False,19.75
+TAP_A03,042b,Licania canescens,Chrysobalanaceae,O,50.8,False,18.51,29.72,51.9,False,29.82
+TAP_A03,043a,Cordia scabrifolia,Boraginaceae,O,15.8,False,,,17.5,False,15.71
+TAP_A03,043b,Licania canescens,Chrysobalanaceae,O,12.7,False,,,13.1,False,12.88
+TAP_A03,044a,Ocotea cernua,Lauraceae,O,10.2,False,,,,True,
+TAP_A03,044b,Eschweilera coriacea,Lecythidaceae,O,27.4,False,,,28.1,False,21.28
+TAP_A03,045a,Pouteria gongrijpii,Sapotaceae,O,13.1,False,,,13.5,False,13.15
+TAP_A03,045b,Rinorea guianensis,Violaceae,O,11.7,False,,,12.5,False,12.46
+TAP_A03,046a,Lecythis lurida,Lecythidaceae,O,10.6,False,,,22.9,False,18.73
+TAP_A03,046b,Eschweilera amazonica,Lecythidaceae,O,42.4,False,,,42.7,False,27.0
+TAP_A03,047a,Poeppigia procera,Fabaceae,O,10.4,False,,,10.5,False,11.0
+TAP_A03,047b,Tachigali myrmecophila,Fabaceae,O,30.6,False,,,31.7,False,22.86
+TAP_A03,048a,,,O,12.8,True,,,,True,
+TAP_A03,048b,Protium paniculatum,Burseraceae,O,12.4,False,,,12.1,False,12.18
+TAP_A03,049a,,,O,20.8,True,,,,True,
+TAP_A03,049b,Clarisia racemosa,Moraceae,O,11.4,False,,,11.3,False,11.6
+TAP_A03,050a,Inga sp,Fabaceae,O,11.9,False,,,13.5,False,13.15
+TAP_A03,050b,Neea oppositifolia,Nyctaginaceae,O,12.9,False,,,13.2,False,12.95
+TAP_A03,051a,Pouteria gongrijpii,Sapotaceae,O,11.2,False,,,11.8,False,11.96
+TAP_A03,051b,Inga thibaudiana,Fabaceae,O,11.6,False,,,,True,
+TAP_A03,052a,Couratari stellata,Lecythidaceae,O,12.5,False,,,12.7,False,12.6
+TAP_A03,052b,Tachigali myrmecophila,Fabaceae,O,20.4,False,,,,True,
+TAP_A03,053a,Pouteria guianensis,Sapotaceae,O,11.4,False,,,,True,
+TAP_A03,053b,,,O,41.2,False,,,41.4,False,26.56
+TAP_A03,054a,,,O,12.8,False,,,29.0,False,21.68
+TAP_A03,054b,Duguetia surinamensis,Annonaceae,O,15.6,False,,,16.0,False,14.79
+TAP_A03,055a,,,O,10.5,False,,,12.2,False,12.25
+TAP_A03,055b,Inga thibaudiana,Fabaceae,O,17.3,False,,,17.6,False,15.77
+TAP_A03,056b,Protium paniculatum,Burseraceae,O,22.4,False,,,22.4,False,18.47
+TAP_A03,057b,Cordia scabrifolia,Boraginaceae,O,16.1,False,,,16.6,False,15.16
+TAP_A03,058b,Simarouba amara,Simaroubaceae,O,12.7,False,,,,True,
+TAP_A03,059b,Pouteria gongrijpii,Sapotaceae,O,10.6,False,,,11.1,False,11.45
+TAP_A03,060b,Jacaranda copaia,Bignoniaceae,O,19.8,False,,,,True,
+TAP_A03,061b,Rinorea guianensis,Violaceae,O,12.0,False,,,,True,
+TAP_A03,062b,Eschweilera parviflora,Lecythidaceae,O,13.2,False,,,,True,
+TAP_A03,063b,,,O,50.6,True,,11.76,,True,
+TAP_A03,064b,Inga thibaudiana,Fabaceae,O,14.3,False,,,,True,
+TAP_A03,065b,Ormosia grossa,Fabaceae,O,11.5,False,,,,True,
+TAP_A03,066a,Ocotea canaliculata,Lauraceae,O,,,,,15.4,False,14.41
+TAP_A03,067a,Symphonia globulifera,Clusiaceae,O,,,,,10.5,False,11.0
+TAP_A03,068a,Inga thibaudiana,Fabaceae,O,,,,,11.3,False,11.6
+TAP_A03,001a,Protium paniculatum,Burseraceae,O,13.2,False,25.15,28.95,13.4,False,13.08
+TAP_A03,001b,Tachigali myrmecophila,Fabaceae,O,15.6,False,7.04,10.34,33.5,False,23.61
+TAP_A03,002a,Licania canescens,Chrysobalanaceae,O,14.3,False,4.93,5.92,15.2,False,14.28
+TAP_A03,002b,Neea oppositifolia,Nyctaginaceae,O,15.1,False,9.62,13.09,15.0,False,14.15
+TAP_A03,003a,Oenocarpus bacaba,Arecaceae,P,11.5,False,7.26,13.67,12.2,False,12.25
+TAP_A03,003b,Rinorea guianensis,Violaceae,O,15.2,False,6.2,10.09,16.4,False,15.04
+TAP_A03,004a,,,O,12.0,False,7.39,8.34,17.2,False,15.53
+TAP_A03,004b,Inga thibaudiana,Fabaceae,O,11.6,False,7.41,13.4,11.8,False,11.96
+TAP_A03,005a,,,O,13.2,False,9.76,12.62,19.7,False,17.0
+TAP_A03,005b,Ocotea cernua,Lauraceae,O,21.2,False,15.17,21.34,21.2,False,17.83
+TAP_A03,006a,Rinorea guianensis,Violaceae,O,19.0,False,,,19.0,False,16.6
+TAP_A03,006b,Guatteria schomburgkiana,Annonaceae,O,44.4,False,18.21,25.11,44.4,False,27.56
+TAP_A03,007a,Dimorphandra macrostachya,Fabaceae,O,40.7,False,20.45,25.58,,True,
+TAP_A03,007b,Rinorea guianensis,Violaceae,O,19.8,False,,,19.7,False,17.0
+TAP_A03,008a,,,O,12.4,False,,,13.1,False,12.88
+TAP_A03,008b,Ormosia amazonica,Fabaceae,O,15.8,False,,,48.5,False,28.84
+TAP_A03,009a,Sextonia rubra,Lauraceae,O,25.9,False,,,28.0,False,21.23
+TAP_A03,009b,Licania octandra,Chrysobalanaceae,O,14.0,False,,,14.6,False,13.89
+TAP_A03,010a,Inga thibaudiana,Fabaceae,O,17.6,False,,,18.0,False,16.01
+TAP_A03,010b,,,O,52.6,True,19.34,22.27,,True,
+TAP_A03,011a,,,O,11.4,False,,,18.7,False,16.42
+TAP_A03,011b,,,O,12.6,True,,,,True,
+TAP_A03,012a,Pouteria sp,Sapotaceae,O,10.8,False,,,11.3,False,11.6
+TAP_A03,012b,,,O,12.2,True,,,,True,
+TAP_A03,013a,Protium paniculatum,Burseraceae,O,11.0,False,,,11.1,False,11.45
+TAP_A03,013b,Pouteria gongrijpii,Sapotaceae,O,28.2,False,,,28.0,False,21.23
+TAP_A03,014a,Cecropia palmata,Urticaceae,O,12.5,False,,,17.2,False,15.53
+TAP_A03,014b,Pouteria sp,Sapotaceae,O,12.9,False,,,13.4,False,13.08
+TAP_A03,015a,Rinorea guianensis,Violaceae,O,24.0,False,,,,True,
+TAP_A03,015b,Licania canescens,Chrysobalanaceae,O,24.8,False,,,25.5,False,20.05
+TAP_A03,016a,Licania canescens,Chrysobalanaceae,O,40.1,False,10.66,13.79,41.5,False,26.59
+TAP_A03,016b,Eschweilera amazonica,Lecythidaceae,O,14.7,False,,,15.9,False,14.73
+TAP_A03,017a,Cecropia palmata,Urticaceae,O,13.5,False,,,20.5,False,17.45
+TAP_A03,017b,Pouteria guianensis,Sapotaceae,O,14.1,False,,,14.0,False,13.49
+TAP_A03,018a,Inga sp,Fabaceae,O,10.3,False,,,18.2,False,16.13
+TAP_A03,018b,Virola michelii,Myristicaceae,O,24.4,False,,,24.6,False,19.6
+TAP_A03,019a,Protium paniculatum,Burseraceae,O,14.6,False,,,16.2,False,14.91
+TAP_A03,019b,Inga thibaudiana,Fabaceae,O,14.4,False,,,15.1,False,14.21
+TAP_A03,020a,Cecropia palmata,Urticaceae,O,16.2,False,,,20.5,False,17.45
+TAP_A03,020b,Sagotia racemosa,Euphorbiaceae,O,20.4,False,,,20.9,False,17.67
+TAP_A03,021a,Ambelania acida,Apocynaceae,O,12.9,False,,,,True,
+TAP_A03,021b,Rinorea guianensis,Violaceae,O,10.8,False,,,11.2,False,11.53
+TAP_A03,022a,Ambelania acida,Apocynaceae,O,10.6,False,,,,True,
+TAP_A03,022b,Eschweilera apiculata,Lecythidaceae,O,19.4,False,,,19.4,False,16.83
+TAP_A03,023a,Inga sp,Fabaceae,O,23.0,False,,,23.1,False,18.84
+TAP_A03,023b,Rinorea guianensis,Violaceae,O,16.3,False,,,16.6,False,15.16
+TAP_A03,024a,Pourouma minor,Urticaceae,O,25.8,False,,,,True,
+TAP_A03,024b,Pradosia cochlearia,Sapotaceae,O,28.7,False,,,30.0,False,22.13
+TAP_A03,025a,Pourouma minor,Urticaceae,O,15.0,False,,,17.5,False,15.71
+TAP_A03,025b,Brosimum parinarioides,Moraceae,O,41.6,False,18.48,27.55,41.5,False,26.59
+TAP_A03,026a,Eschweilera ovata,Lecythidaceae,O,19.6,False,,,20.0,False,17.17
+TAP_A03,026b,Eschweilera parviflora,Lecythidaceae,O,27.2,False,,,27.7,False,21.09
+TAP_A03,027a,Ocotea cernua,Lauraceae,O,12.6,False,,,,True,
+TAP_A03,027b,Pouteria retinervis,Sapotaceae,O,11.8,False,,,12.1,False,12.18
+TAP_A03,028a,Protium paniculatum,Burseraceae,O,11.5,False,,,11.7,False,11.89
+TAP_A03,028b,Protium heptaphyllum,Burseraceae,O,17.3,False,,,17.3,False,15.59
+TAP_A03,029a,Pourouma minor,Urticaceae,O,14.5,False,,,20.4,False,17.39
+TAP_A03,029b,Rinorea guianensis,Violaceae,O,24.6,False,,,24.5,False,19.55
+TAP_A03,030a,Inga alba,Fabaceae,O,20.0,False,,,33.5,False,23.61
+TAP_A03,030b,Ormosia coccinea,Fabaceae,O,21.4,False,,,21.5,False,17.99
+TAP_A03,031a,Pourouma minor,Urticaceae,O,10.4,False,,,14.1,False,13.56
+TAP_A03,031b,Neea oppositifolia,Nyctaginaceae,O,11.6,False,,,12.4,False,12.39
+TAP_A03,032a,Pourouma minor,Urticaceae,O,12.7,False,,,17.7,False,15.83
+TAP_A03,032b,Iryanthera laevis,Myristicaceae,O,17.2,False,,,17.3,False,15.59
+TAP_A03,033a,Inga sp,Fabaceae,O,20.2,False,,,17.7,False,15.83
+TAP_A03,033b,Manilkara huberi,Sapotaceae,O,20.0,False,,,19.3,False,16.77
+TAP_A03,034a,Sloanea guianensis,Elaeocarpaceae,O,10.4,False,,,12.3,False,12.32
+TAP_A03,034b,Dialium guianense,Fabaceae,O,44.8,False,14.52,28.51,44.4,False,27.56
+TAP_A03,035a,Sterculia pruriens,Malvaceae,O,12.1,False,,,12.3,False,12.32
+TAP_A03,035b,Pouteria macrophylla,Sapotaceae,O,11.7,False,,,12.7,False,12.6
+TAP_A03,036a,Annona sp,Annonaceae,O,10.2,False,,,10.4,False,10.93
+TAP_A03,036b,Eschweilera apiculata,Lecythidaceae,O,18.2,False,,,18.8,False,16.48
+TAP_A03,037a,Sagotia racemosa,Euphorbiaceae,O,12.6,False,,,12.8,False,12.67
+TAP_A03,037b,Eschweilera coriacea,Lecythidaceae,O,32.0,False,,,31.8,False,22.9
+TAP_A03,038a,Sagotia racemosa,Euphorbiaceae,O,14.9,False,,,15.3,False,14.34
+TAP_A03,038b,Protium paniculatum,Burseraceae,O,15.5,False,,,15.0,False,14.15
+TAP_A03,039a,Strychnos subcordata,Loganiaceae,O,13.9,False,,,14.3,False,13.69
+TAP_A03,039b,Rinorea guianensis,Violaceae,O,13.1,False,,,13.5,False,13.15
+TAP_A03,040a,Inga thibaudiana,Fabaceae,O,12.0,False,,,,True,
+TAP_A03,040b,Eschweilera coriacea,Lecythidaceae,O,11.4,False,,,,True,
+TAP_A03,041a,,,O,20.5,False,,,21.6,False,18.05
+TAP_A03,041b,Marlierea velutina,Myrtaceae,O,10.6,False,,,11.8,False,11.96
+TAP_A03,042a,Sloanea guianensis,Elaeocarpaceae,O,10.3,False,,,11.6,False,11.82
+TAP_A03,042b,Theobroma subincanum,Malvaceae,O,12.0,False,,,12.9,False,12.74
+TAP_A03,043a,Pouteria gongrijpii,Sapotaceae,O,10.8,False,,,10.8,False,11.23
+TAP_A03,043b,Inga thibaudiana,Fabaceae,O,19.5,False,,,21.0,False,17.72
+TAP_A03,044a,Pouteria sp,Sapotaceae,O,12.5,False,,,13.4,False,13.08
+TAP_A03,044b,Rinorea guianensis,Violaceae,O,22.9,False,,,23.0,False,18.79
+TAP_A03,045a,Pouteria gongrijpii,Sapotaceae,O,13.4,False,,,,True,
+TAP_A03,045b,Dialium guianense,Fabaceae,O,17.3,False,,,18.6,False,16.36
+TAP_A03,046a,Eschweilera parviflora,Lecythidaceae,O,13.9,False,,,,True,
+TAP_A03,046b,Eschweilera parviflora,Lecythidaceae,O,12.8,False,,,13.2,False,12.95
+TAP_A03,047a,Ocotea cernua,Lauraceae,O,13.5,False,,,13.9,False,13.42
+TAP_A03,047b,Eschweilera parviflora,Lecythidaceae,O,13.3,False,,,16.2,False,14.91
+TAP_A03,048a,Cecropia palmata,Urticaceae,O,16.1,False,,,,True,
+TAP_A03,048b,Eschweilera parviflora,Lecythidaceae,O,13.6,False,,,16.1,False,14.85
+TAP_A03,049a,,,O,11.8,False,,,,True,
+TAP_A03,049b,Eschweilera parviflora,Lecythidaceae,O,18.4,False,,,18.3,False,16.19
+TAP_A03,050b,,,O,26.0,True,,,,True,
+TAP_A03,051b,Eschweilera parviflora,Lecythidaceae,O,24.4,False,,,25.0,False,19.8
+TAP_A03,052b,Goupia glabra,Goupiaceae,O,110.0,False,23.39,37.83,101.9,False,39.2
+TAP_A03,053b,Rinorea guianensis,Violaceae,O,26.7,False,,,26.6,False,20.58
+TAP_A03,054a,Inga sp.,Fabaceae,O,,,,,12.4,False,12.39
+TAP_A03,055a,Cecropia distachya,Urticaceae,O,,,,,13.2,False,12.95
+TAP_A03,056a,Cecropia distachya,Urticaceae,O,,,,,12.3,False,12.32
+TAP_A03,057a,Inga sp.,Fabaceae,O,,,,,12.6,False,12.53
+TAP_A03,058a,Cecropia palmata,Urticaceae,O,,,,,11.3,False,11.6
+TAP_A03,059a,Inga sp.,Fabaceae,O,,,,,12.1,False,12.18
+TAP_A03,060a,Pourouma minor,Urticaceae,O,,,,,10.9,False,11.3
+TAP_A03,001a,Alexa grandiflora,Fabaceae,O,20.6,False,8.58,14.36,21.2,False,17.83
+TAP_A03,001b,,,O,10.3,True,,6.2,,True,
+TAP_A03,002a,Cordia scabrifolia,Boraginaceae,O,18.3,False,9.47,14.01,22.0,False,18.26
+TAP_A03,002b,,,O,12.1,True,,2.39,,True,
+TAP_A03,003a,Cordia scabrifolia,Boraginaceae,O,16.2,False,8.47,12.56,17.3,False,15.59
+TAP_A03,003b,Ocotea cernua,Lauraceae,O,14.6,False,9.34,14.19,,True,
+TAP_A03,004a,,,O,15.5,True,,11.33,,True,
+TAP_A03,004b,Jacaranda copaia,Bignoniaceae,O,28.4,False,6.73,11.38,,True,
+TAP_A03,005a,,,O,22.4,True,,12.07,,True,
+TAP_A03,005b,Jacaranda copaia,Bignoniaceae,O,18.3,False,11.16,19.36,,True,
+TAP_A03,006a,,,O,10.0,True,,,,True,
+TAP_A03,006b,,,O,19.9,True,,14.36,,True,
+TAP_A03,007a,Attalea maripa,Arecaceae,P,55.0,False,4.81,14.77,51.9,False,29.82
+TAP_A03,007b,,,O,14.0,True,,1.26,,True,
+TAP_A03,008a,Jacaranda copaia,Bignoniaceae,O,10.5,False,9.59,12.54,,True,
+TAP_A03,008b,Maquira coriacea,Moraceae,O,11.8,False,2.81,8.49,,True,
+TAP_A03,009a,Attalea maripa,Arecaceae,P,41.5,False,3.94,10.1,41.3,False,26.53
+TAP_A03,009b,,,O,72.0,True,,,,True,
+TAP_A03,010a,,,O,16.0,True,,9.76,,True,
+TAP_A03,010b,Ocotea cernua,Lauraceae,O,19.7,False,7.44,13.09,,True,
+TAP_A03,011a,,,O,15.2,True,,5.01,,True,
+TAP_A03,011b,Nectandra cuspidata,Lauraceae,O,17.4,False,3.79,14.94,,True,
+TAP_A03,012a,,,O,12.2,True,,13.37,,True,
+TAP_A03,012b,,,O,11.3,True,,3.97,,True,
+TAP_A03,013a,Astrocaryum aculeatum,Arecaceae,P,23.8,False,6.48,13.16,23.3,False,18.94
+TAP_A03,013b,,,O,10.2,True,,9.82,,True,
+TAP_A03,014a,Bellucia grossularioides,Melastomataceae,O,16.8,False,9.45,13.37,,True,
+TAP_A03,014b,,,O,10.7,True,,3.19,,True,
+TAP_A03,015a,Poeppigia procera,Fabaceae,O,19.0,False,11.44,16.84,21.1,False,17.78
+TAP_A03,015b,,,O,11.7,True,,7.11,,True,
+TAP_A03,016a,Poeppigia procera,Fabaceae,O,19.8,False,11.44,15.73,,True,
+TAP_A03,016b,,,O,13.7,True,,13.02,,True,
+TAP_A03,017a,,,O,12.0,True,,12.42,,True,
+TAP_A03,017b,,,O,15.5,True,,13.28,,True,
+TAP_A03,018a,Lecythis lurida,Lecythidaceae,O,10.8,False,6.24,9.34,21.6,False,18.05
+TAP_A03,018b,Nectandra cuspidata,Lauraceae,O,13.3,False,4.19,6.39,,True,
+TAP_A03,019a,Lecythis lurida,Lecythidaceae,O,11.3,False,6.53,10.76,12.7,False,12.6
+TAP_A03,019b,Inga alba,Fabaceae,O,20.6,False,8.08,12.67,,True,
+TAP_A03,020a,Lecythis lurida,Lecythidaceae,O,10.5,False,4.31,7.12,11.1,False,11.45
+TAP_A03,020b,,,O,39.5,False,10.83,17.47,,True,
+TAP_A03,021a,Cordia scabrifolia,Boraginaceae,O,14.5,False,8.25,14.01,,True,
+TAP_A03,021b,Cordia scabrifolia,Boraginaceae,O,20.9,False,10.77,18.38,,True,
+TAP_A03,022a,Cordia scabrifolia,Boraginaceae,O,23.7,False,10.59,15.57,,True,
+TAP_A03,022b,Cordia scabrifolia,Boraginaceae,O,20.1,False,10.79,16.01,28.0,False,21.23
+TAP_A03,023a,,,O,12.2,True,,9.93,,True,
+TAP_A03,023b,Neea oppositifolia,Nyctaginaceae,O,12.0,False,2.42,6.37,,True,
+TAP_A03,024a,Trattinnickia burserifolia,Burseraceae,O,15.7,False,8.26,13.64,16.2,False,14.91
+TAP_A03,024b,Attalea maripa,Arecaceae,P,35.5,False,4.68,12.3,,True,
+TAP_A03,025a,Guatteria schomburgkiana,Annonaceae,O,10.4,False,8.33,11.56,10.9,False,11.3
+TAP_A03,025b,Bertholletia excelsa,Lecythidaceae,O,23.3,False,9.94,12.95,27.4,False,20.95
+TAP_A03,026a,,,O,10.8,True,,9.41,,True,
+TAP_A03,026b,Banara guianensis,Salicaceae,O,10.3,False,1.41,2.59,,True,
+TAP_A03,027a,Theobroma glaucum,Malvaceae,O,10.4,False,8.46,12.79,,True,
+TAP_A03,027b,Ormosia grossa,Fabaceae,O,12.0,False,2.12,6.37,,True,
+TAP_A03,028a,Handroanthus impetiginosus,Bignoniaceae,O,31.4,False,12.85,17.13,20.8,False,17.61
+TAP_A03,028b,Attalea maripa,Arecaceae,P,33.0,False,,9.71,,True,
+TAP_A03,029a,Poeppigia procera,Fabaceae,O,13.4,False,10.48,13.68,,True,
+TAP_A03,029b,,,O,14.0,True,,7.93,,True,
+TAP_A03,030a,Couratari stellata,Lecythidaceae,O,10.2,False,7.62,9.22,,True,
+TAP_A03,030b,Banara guianensis,Salicaceae,O,18.1,False,7.51,14.85,,True,
+TAP_A03,031a,Guatteria schomburgkiana,Annonaceae,O,16.7,False,7.85,15.52,,True,
+TAP_A03,031b,Banara guianensis,Salicaceae,O,10.6,False,4.49,8.73,17.2,False,15.53
+TAP_A03,032a,Poeppigia procera,Fabaceae,O,20.0,False,11.26,16.87,,True,
+TAP_A03,032b,,,O,12.1,True,,8.98,,True,
+TAP_A03,033a,Astrocaryum aculeatum,Arecaceae,P,28.2,False,8.529999999999998,16.53,12.4,False,12.39
+TAP_A03,033b,Helicostylis tomentosa,Moraceae,O,13.5,False,2.92,11.64,,True,
+TAP_A03,034a,Maquira coriacea,Moraceae,O,13.3,False,7.45,11.32,,True,
+TAP_A03,034b,Trattinnickia burserifolia,Burseraceae,O,12.9,False,5.0,7.71,,True,
+TAP_A03,035a,Bellucia grossularioides,Melastomataceae,O,20.9,False,7.88,14.37,,True,
+TAP_A03,035b,Guatteria schomburgkiana,Annonaceae,O,13.7,False,5.84,8.87,28.3,False,21.37
+TAP_A03,036a,,,O,14.9,True,,14.56,,True,
+TAP_A03,036b,Guatteria schomburgkiana,Annonaceae,O,11.2,False,6.62,12.27,15.3,False,14.34
+TAP_A03,037a,,,O,15.5,True,,7.59,,True,
+TAP_A03,037b,Guatteria schomburgkiana,Annonaceae,O,15.2,False,8.92,11.98,11.3,False,11.6
+TAP_A03,038a,Inga alba,Fabaceae,O,20.7,False,10.69,17.16,29.3,False,21.82
+TAP_A03,038b,Guatteria schomburgkiana,Annonaceae,O,14.9,False,7.26,14.25,,True,
+TAP_A03,039a,Bellucia grossularioides,Melastomataceae,O,19.4,False,7.29,14.7,,True,
+TAP_A03,039b,Cordia scabrifolia,Boraginaceae,O,23.7,False,11.03,15.01,12.4,False,12.39
+TAP_A03,040a,,,O,16.3,True,,,,True,
+TAP_A03,040b,Guatteria schomburgkiana,Annonaceae,O,16.7,False,8.58,13.06,,True,
+TAP_A03,041a,Jacaranda copaia,Bignoniaceae,O,24.1,False,11.6,17.9,30.1,False,22.17
+TAP_A03,041b,Banara guianensis,Salicaceae,O,13.3,False,,7.59,,True,
+TAP_A03,042a,,,O,14.0,True,,5.23,,True,
+TAP_A03,042b,Couepia robusta,Chrysobalanaceae,O,17.1,False,7.42,11.01,,True,
+TAP_A03,043a,,,O,10.7,True,,8.3,,True,
+TAP_A03,043b,Couepia robusta,Chrysobalanaceae,O,19.0,False,7.71,11.4,,True,
+TAP_A03,044a,Attalea maripa,Arecaceae,P,39.4,False,7.2,17.48,39.9,False,26.04
+TAP_A03,044b,,,O,12.6,True,,11.45,,True,
+TAP_A03,045a,,,O,11.7,True,,7.27,,True,
+TAP_A03,045b,,,O,11.6,True,,9.48,,True,
+TAP_A03,046a,Bellucia grossularioides,Melastomataceae,O,10.3,False,5.44,8.58,,True,
+TAP_A03,046b,Sapium marmieri,Euphorbiaceae,O,15.7,False,7.08,11.75,,True,
+TAP_A03,047a,,,O,12.6,False,7.53,10.75,,True,
+TAP_A03,047b,Jacaranda copaia,Bignoniaceae,O,25.3,False,15.16,17.31,,True,
+TAP_A03,048a,,,O,11.9,True,,13.48,,True,
+TAP_A03,048b,Cordia scabrifolia,Boraginaceae,O,26.2,False,10.45,16.84,,True,
+TAP_A03,049a,Guatteria schomburgkiana,Annonaceae,O,20.3,False,12.2,16.71,23.6,False,19.1
+TAP_A03,049b,Jacaranda copaia,Bignoniaceae,O,29.0,False,12.79,17.89,,True,
+TAP_A03,050a,Maquira coriacea,Moraceae,O,10.2,False,6.42,11.19,12.7,False,12.6
+TAP_A03,050b,,,O,10.8,True,,10.11,,True,
+TAP_A03,051a,Maquira coriacea,Moraceae,O,12.4,False,8.14,12.81,,True,
+TAP_A03,051b,Vismia guianensis,Hypericaceae,O,14.1,False,6.58,9.54,,True,
+TAP_A03,052a,Cordia scabrifolia,Boraginaceae,O,17.2,False,9.9,13.56,,True,
+TAP_A03,052b,Trattinnickia burserifolia,Burseraceae,O,13.4,False,7.12,10.33,15.9,False,14.73
+TAP_A03,053a,Cordia scabrifolia,Boraginaceae,O,13.1,False,6.89,9.54,,True,
+TAP_A03,053b,Inga sp,Fabaceae,O,11.0,False,3.06,6.43,,True,
+TAP_A03,054a,,,O,14.0,True,,6.04,,True,
+TAP_A03,054b,,,O,10.9,True,,12.21,,True,
+TAP_A03,055a,,,O,10.9,True,,10.02,,True,
+TAP_A03,055b,Guatteria schomburgkiana,Annonaceae,O,14.6,False,9.1,13.83,17.5,False,15.71
+TAP_A03,056a,,,O,27.4,False,12.61,20.84,26.9,False,20.72
+TAP_A03,056b,,,O,16.2,True,,9.8,,True,
+TAP_A03,057a,,,O,13.2,True,,14.54,16.7,False,15.22
+TAP_A03,057b,Trattinnickia burserifolia,Burseraceae,O,12.8,False,5.3,9.67,14.5,False,13.82
+TAP_A03,058a,,,O,13.7,True,,11.22,,True,
+TAP_A03,058b,Cordia scabrifolia,Boraginaceae,O,15.5,False,7.22,11.56,,True,
+TAP_A03,059a,Cecropia ficifolia,Urticaceae,O,20.6,False,13.62,16.78,,True,
+TAP_A03,059b,,,O,19.7,True,,17.81,,True,
+TAP_A03,060a,,,O,20.7,True,,7.78,,True,
+TAP_A03,060b,Sapium marmieri,Euphorbiaceae,O,20.5,False,12.58,18.21,,True,
+TAP_A03,061a,,,O,10.5,True,,9.93,,True,
+TAP_A03,061b,Sapium marmieri,Euphorbiaceae,O,20.5,False,13.48,18.21,,True,
+TAP_A03,062a,,,O,10.8,True,,9.03,,True,
+TAP_A03,062b,Trattinnickia burserifolia,Burseraceae,O,10.7,False,8.16,10.6,,True,
+TAP_A03,063b,Guatteria schomburgkiana,Annonaceae,O,17.1,False,9.18,11.51,19.4,False,16.83
+TAP_A03,064b,Sapium marmieri,Euphorbiaceae,O,20.4,False,5.28,12.22,24.7,False,19.65
+TAP_A03,065b,,,O,13.6,True,,6.61,,True,
+TAP_A03,066b,,,O,12.2,True,,2.01,,True,
+TAP_A03,067a,Jacaranda copaia,Bignoniaceae,O,,,,,15.6,False,14.54
+TAP_A03,001a,Byrsonima crispa,Malpighiaceae,O,24.3,False,13.09,20.19,,True,
+TAP_A03,001b,,,O,12.2,True,,10.43,,True,
+TAP_A03,002a,,,O,13.2,True,,5.57,,True,
+TAP_A03,002b,Guatteria schomburgkiana,Annonaceae,O,14.1,False,9.31,14.77,,True,
+TAP_A03,003a,,,O,12.0,True,,15.42,,True,
+TAP_A03,003b,Guatteria schomburgkiana,Annonaceae,O,18.9,False,9.99,17.05,19.1,False,16.65
+TAP_A03,004a,Inga alba,Fabaceae,O,38.3,False,11.44,30.01,,True,
+TAP_A03,004b,Guatteria schomburgkiana,Annonaceae,O,10.8,False,7.7,12.09,,True,
+TAP_A03,005a,Inga alba,Fabaceae,O,39.2,False,14.15,23.98,,True,
+TAP_A03,005b,,,O,27.0,True,,13.26,,True,
+TAP_A03,006a,Inga thibaudiana,Fabaceae,O,12.1,False,,15.18,,True,
+TAP_A03,006b,Cordia scabrifolia,Boraginaceae,O,23.1,False,11.29,17.03,,True,
+TAP_A03,007a,Guatteria schomburgkiana,Annonaceae,O,15.7,False,10.42,19.21,,True,
+TAP_A03,007b,,,O,17.1,True,,7.79,,True,
+TAP_A03,008a,Xylopia sp,Annonaceae,O,10.7,False,10.83,16.89,,True,
+TAP_A03,008b,,,O,12.5,True,8.3,14.39,,True,
+TAP_A03,009a,,,O,12.2,True,,2.99,,True,
+TAP_A03,009b,Guatteria schomburgkiana,Annonaceae,O,18.8,False,,11.5,,True,
+TAP_A03,010a,,,O,60.0,True,,,,True,
+TAP_A03,010b,,,O,19.6,True,,17.67,,True,
+TAP_A03,011a,,,O,10.9,True,,7.81,,True,
+TAP_A03,011b,Bagassa guianensis,Moraceae,O,13.1,False,9.1,13.11,,True,
+TAP_A03,012a,Cordia scabrifolia,Boraginaceae,O,18.0,False,12.28,18.05,20.6,False,17.5
+TAP_A03,012b,Guatteria schomburgkiana,Annonaceae,O,14.9,False,9.8,13.06,,True,
+TAP_A03,013a,Xylopia sp,Annonaceae,O,11.1,False,7.0,10.97,,True,
+TAP_A03,013b,Guatteria schomburgkiana,Annonaceae,O,13.3,False,5.86,13.88,,True,
+TAP_A03,014a,Apeiba petoumo,Malvaceae,O,12.1,False,5.88,12.09,,True,
+TAP_A03,014b,Couratari stellata,Lecythidaceae,O,11.9,False,5.8,10.58,,True,
+TAP_A03,015a,Xylopia sp,Annonaceae,O,12.7,False,8.64,10.4,,True,
+TAP_A03,015b,Guatteria schomburgkiana,Annonaceae,O,11.0,False,6.87,11.17,,True,
+TAP_A03,016a,Guatteria schomburgkiana,Annonaceae,O,21.4,False,7.96,15.51,20.7,False,17.56
+TAP_A03,016b,Banara guianensis,Salicaceae,O,13.9,False,4.83,7.31,,True,
+TAP_A03,017a,Cordia scabrifolia,Boraginaceae,O,23.3,False,12.6,18.43,25.8,False,20.19
+TAP_A03,017b,,,O,14.9,True,,10.77,,True,
+TAP_A03,018a,Casearia grandiflora,Salicaceae,O,18.9,False,10.01,14.22,31.4,False,22.73
+TAP_A03,018b,Vismia guianensis,Hypericaceae,O,13.5,False,4.99,9.73,,True,
+TAP_A03,019a,Cordia scabrifolia,Boraginaceae,O,28.1,False,10.1,18.1,30.6,False,22.39
+TAP_A03,019b,Bellucia grossularioides,Melastomataceae,O,9.4,False,6.37,13.64,,True,
+TAP_A03,020a,Laetia procera,Salicaceae,O,13.8,False,10.05,13.81,,True,
+TAP_A03,020b,Sapium marmieri,Euphorbiaceae,O,32.2,False,12.73,20.2,,True,
+TAP_A03,021a,Cordia scabrifolia,Boraginaceae,O,18.0,False,12.72,18.81,,True,
+TAP_A03,021b,Strychnos subcordata,Loganiaceae,O,10.3,False,4.48,11.7,,True,
+TAP_A03,022a,,,O,26.1,True,14.34,18.92,,True,
+TAP_A03,022b,Cordia scabrifolia,Boraginaceae,O,12.5,False,5.71,12.16,,True,
+TAP_A03,023a,,,O,10.0,True,,10.41,,True,
+TAP_A03,023b,Cordia scabrifolia,Boraginaceae,O,10.1,False,7.67,12.16,,True,
+TAP_A03,024a,,,O,11.4,True,,10.41,,True,
+TAP_A03,024b,Cordia scabrifolia,Boraginaceae,O,13.1,False,7.33,12.16,,True,
+TAP_A03,025a,Abarema jupunba,Fabaceae,O,12.9,False,8.38,13.2,,True,
+TAP_A03,025b,Trattinnickia burserifolia,Burseraceae,O,17.0,False,8.06,8.449999999999998,,True,
+TAP_A03,026a,Xylopia sp,Annonaceae,O,11.6,False,17.06,18.26,,True,
+TAP_A03,026b,Terminalia amazonia,Combretaceae,O,38.9,False,11.52,24.84,,True,
+TAP_A03,027a,Inga alba,Fabaceae,O,15.5,False,5.66,13.75,,True,
+TAP_A03,027b,Trattinnickia burserifolia,Burseraceae,O,30.4,False,10.05,21.7,,True,
+TAP_A03,028a,Apeiba petoumo,Malvaceae,O,16.0,False,11.7,16.08,,True,
+TAP_A03,028b,Cordia scabrifolia,Boraginaceae,O,20.6,False,13.96,17.42,,True,
+TAP_A03,029a,Guatteria schomburgkiana,Annonaceae,O,13.6,False,10.16,14.27,,True,
+TAP_A03,029b,Swartzia polyphylla,Fabaceae,O,23.9,False,5.31,7.68,,True,
+TAP_A03,030a,Cordia scabrifolia,Boraginaceae,O,12.8,False,14.45,15.47,,True,
+TAP_A03,030b,Guatteria schomburgkiana,Annonaceae,O,15.2,False,7.81,12.07,,True,
+TAP_A03,031a,Cordia scabrifolia,Boraginaceae,O,16.0,False,10.96,11.78,,True,
+TAP_A03,031b,Byrsonima crispa,Malpighiaceae,O,19.2,False,7.29,15.21,,True,
+TAP_A03,032a,,,O,14.7,True,,10.01,,True,
+TAP_A03,032b,,,O,15.9,False,9.62,15.67,,True,
+TAP_A03,033a,,,O,17.1,True,,12.43,,True,
+TAP_A03,033b,,,O,17.2,True,,9.67,,True,
+TAP_A03,034a,,,O,28.6,True,,19.59,,True,
+TAP_A03,034b,Cordia scabrifolia,Boraginaceae,O,28.0,False,10.87,18.38,,True,
+TAP_A03,035a,,,O,10.8,True,,9.21,,True,
+TAP_A03,035b,,,O,13.3,True,,10.17,,True,
+TAP_A03,036a,Bertholletia excelsa,Lecythidaceae,O,17.3,False,11.52,18.71,,True,
+TAP_A03,036b,,,O,21.1,True,,19.09,,True,
+TAP_A03,037a,Inga alba,Fabaceae,O,10.8,False,8.26,17.09,,True,
+TAP_A03,037b,Vismia floribunda,Hypericaceae,O,28.7,False,8.13,18.73,,True,
+TAP_A03,038a,,,O,10.7,True,,15.49,,True,
+TAP_A03,038b,Cordia scabrifolia,Boraginaceae,O,13.9,False,9.59,13.01,,True,
+TAP_A03,039a,,,O,11.0,True,,1.85,,True,
+TAP_A03,039b,Cordia scabrifolia,Boraginaceae,O,11.7,False,9.19,10.4,,True,
+TAP_A03,040a,Caryocar glabrum,Caryocaraceae,O,15.7,False,9.98,14.24,,True,
+TAP_A03,040b,Cordia scabrifolia,Boraginaceae,O,13.9,False,9.19,13.01,,True,
+TAP_A03,041a,Cordia scabrifolia,Boraginaceae,O,12.0,False,10.65,13.72,,True,
+TAP_A03,041b,,,O,25.7,True,,20.81,,True,
+TAP_A03,042a,,,O,13.3,True,,11.13,,True,
+TAP_A03,042b,Bagassa guianensis,Moraceae,O,23.3,False,6.3,13.01,,True,
+TAP_A03,043a,,,O,11.1,True,,15.83,,True,
+TAP_A03,043b,Bagassa guianensis,Moraceae,O,18.4,False,9.65,13.86,,True,
+TAP_A03,044a,Guatteria schomburgkiana,Annonaceae,O,17.8,False,11.26,17.88,,True,
+TAP_A03,044b,,,O,12.0,True,,10.46,,True,
+TAP_A03,045a,,,O,22.2,True,,15.32,,True,
+TAP_A03,045b,Bellucia grossularioides,Melastomataceae,O,12.5,False,8.37,9.98,,True,
+TAP_A03,046a,Vismia latifolia,Hypericaceae,O,11.1,False,5.41,8.58,,True,
+TAP_A03,046b,Jacaranda copaia,Bignoniaceae,O,15.7,False,12.21,16.72,,True,
+TAP_A03,047a,Apeiba petoumo,Malvaceae,O,22.7,False,,16.15,,True,
+TAP_A03,047b,,,O,12.3,True,,6.8,,True,
+TAP_A03,048a,Apeiba petoumo,Malvaceae,O,14.5,False,,5.65,,True,
+TAP_A03,048b,,,O,11.6,False,2.08,8.11,,True,
+TAP_A03,049a,Trattinnickia burserifolia,Burseraceae,O,13.3,False,3.08,7.51,,True,
+TAP_A03,049b,Bertholletia excelsa,Lecythidaceae,O,21.3,False,12.57,18.48,,True,
+TAP_A03,050a,Cordia scabrifolia,Boraginaceae,O,24.9,False,13.39,17.44,,True,
+TAP_A03,050b,,,O,18.5,True,,15.49,,True,
+TAP_A03,051a,,,O,11.9,True,,14.36,,True,
+TAP_A03,051b,Tapirira guianensis,Anacardiaceae,O,18.6,False,10.03,16.48,,True,
+TAP_A03,052a,,,O,17.8,True,,6.07,,True,
+TAP_A03,052b,Jacaranda copaia,Bignoniaceae,O,12.6,False,11.15,15.01,,True,
+TAP_A03,053a,Apeiba petoumo,Malvaceae,O,17.9,False,,12.94,,True,
+TAP_A03,053b,,,O,18.5,True,,17.09,,True,
+TAP_A03,054a,Cordia scabrifolia,Boraginaceae,O,19.0,False,11.71,15.11,,True,
+TAP_A03,054b,,,O,13.8,True,,17.33,,True,
+TAP_A03,055a,,,O,40.0,True,,,,True,
+TAP_A03,055b,Tapirira guianensis,Anacardiaceae,O,28.5,False,9.78,17.73,,True,
+TAP_A03,056a,Cordia scabrifolia,Boraginaceae,O,23.5,False,9.87,12.36,,True,
+TAP_A03,056b,,,O,13.4,True,,12.91,,True,
+TAP_A03,057a,Cordia scabrifolia,Boraginaceae,O,26.7,False,15.61,17.37,,True,
+TAP_A03,057b,,,O,14.3,True,,29.3,,True,
+TAP_A03,058a,Cordia scabrifolia,Boraginaceae,O,18.5,False,10.08,14.94,,True,
+TAP_A03,058b,,,O,11.5,True,,15.99,,True,
+TAP_A03,059a,Cordia scabrifolia,Boraginaceae,O,12.7,False,9.34,13.65,,True,
+TAP_A03,059b,Cordia scabrifolia,Boraginaceae,O,21.0,False,13.86,20.14,,True,
+TAP_A03,060a,Cordia scabrifolia,Boraginaceae,O,19.5,False,13.65,17.58,,True,
+TAP_A03,060b,Inga alba,Fabaceae,O,15.4,False,10.26,16.79,,True,
+TAP_A03,061a,,,O,10.5,True,,12.43,,True,
+TAP_A03,061b,Inga alba,Fabaceae,O,12.5,False,8.56,17.39,,True,
+TAP_A03,062a,Guatteria schomburgkiana,Annonaceae,O,20.7,False,8.779999999999998,17.35,,True,
+TAP_A03,062b,Inga alba,Fabaceae,O,13.4,False,7.39,16.44,,True,
+TAP_A03,063a,Guatteria schomburgkiana,Annonaceae,O,13.1,False,11.03,14.52,,True,
+TAP_A03,063b,,,O,14.4,True,,16.96,,True,
+TAP_A03,064a,Cordia scabrifolia,Boraginaceae,O,19.6,False,12.6,15.16,,True,
+TAP_A03,064b,Vismia floribunda,Hypericaceae,O,11.7,False,10.11,16.71,,True,
+TAP_A03,065a,Xylopia sp,Annonaceae,O,11.3,False,4.78,7.97,,True,
+TAP_A03,065b,,,O,11.2,True,,8.24,,True,
+TAP_A03,066a,Guatteria schomburgkiana,Annonaceae,O,22.8,False,7.34,19.58,,True,
+TAP_A03,067a,,,O,24.6,True,,19.83,,True,
+TAP_A03,068a,,,O,15.3,True,,7.07,,True,
+TAP_A03,069a,,,O,19.7,True,,11.78,,True,
+TAP_A03,070a,,,O,12.0,True,,14.48,,True,
+TAP_A03,071a,,,O,10.6,True,,8.91,,True,
+TAP_A03,072a,,,O,14.9,True,,21.15,,True,
+TAP_A03,073a,Pouteria sp,Sapotaceae,O,10.5,False,3.65,8.61,,True,
+TAP_A03,074a,,,O,28.0,True,,17.3,,True,
+TAP_A03,075a,,,O,30.8,True,,19.75,,True,
+TAP_A03,076a,,,O,12.4,True,,8.73,,True,
+TAP_A03,077a,Banara guianensis,Salicaceae,O,10.2,False,12.27,15.8,,True,
+TAP_A03,078a,Bagassa guianensis,Moraceae,O,17.0,False,11.43,14.63,,True,
+TAP_A03,079a,,,O,17.9,True,,21.7,,True,
+TAP_A03,080a,Cordia scabrifolia,Boraginaceae,O,23.9,False,13.86,21.55,,True,
+TAP_A03,001a,Cordia scabrifolia,Boraginaceae,O,13.7,False,10.51,14.51,17.6,False,15.77
+TAP_A03,001b,,,O,12.0,False,4.47,7.12,,True,
+TAP_A03,002a,,,O,16.0,True,,2.51,,True,
+TAP_A03,002b,,,O,14.0,True,,11.91,,True,
+TAP_A03,003a,Cordia scabrifolia,Boraginaceae,O,20.4,False,23.09,29.15,20.7,False,17.56
+TAP_A03,003b,Bagassa guianensis,Moraceae,O,16.4,False,14.86,17.59,,True,
+TAP_A03,004a,Attalea maripa,Arecaceae,P,41.0,False,5.82,17.28,39.2,False,25.79
+TAP_A03,004b,Cordia scabrifolia,Boraginaceae,O,13.9,False,3.38,5.76,,True,
+TAP_A03,005a,Parkia sp,Fabaceae,O,11.6,False,9.54,13.07,13.1,False,12.88
+TAP_A03,005b,,,O,19.5,True,,12.25,,True,
+TAP_A03,006a,Inga heterophylla,Fabaceae,O,17.1,False,8.22,18.94,16.0,False,14.79
+TAP_A03,006b,,,O,20.6,False,8.39,11.97,18.5,False,16.31
+TAP_A03,007a,Inga heterophylla,Fabaceae,O,11.3,False,9.43,14.58,11.6,False,11.82
+TAP_A03,007b,Bellucia grossularioides,Melastomataceae,O,20.1,False,11.56,18.63,,True,
+TAP_A03,008a,,,O,,True,,12.86,,True,
+TAP_A03,008b,,,O,12.1,True,,11.98,,True,
+TAP_A03,009a,Attalea speciosa,Arecaceae,P,45.0,False,5.44,16.75,,True,
+TAP_A03,009b,,,O,14.1,True,,13.74,,True,
+TAP_A03,010a,Inga thibaudiana,Fabaceae,O,18.8,False,11.76,20.48,22.6,False,18.58
+TAP_A03,010b,Jacaranda copaia,Bignoniaceae,O,45.7,False,18.53,26.08,50.3,False,29.37
+TAP_A03,011a,Thyrsodium spruceanum,Anacardiaceae,O,12.0,False,6.41,12.67,13.1,False,12.88
+TAP_A03,011b,Goupia glabra,Goupiaceae,O,15.8,False,11.33,16.17,,True,
+TAP_A03,012a,,,O,31.8,True,,24.61,,True,
+TAP_A03,012b,Inga sp,Fabaceae,O,17.6,False,10.41,17.59,,True,
+TAP_A03,013a,,,O,16.0,True,,17.4,,True,
+TAP_A03,013b,,,O,13.1,True,,5.31,,True,
+TAP_A03,014a,,,O,10.6,False,11.7,16.27,,True,
+TAP_A03,014b,Brosimum acutifolium,Moraceae,O,15.8,False,8.84,15.01,17.2,False,15.53
+TAP_A03,015a,Inga alba,Fabaceae,O,20.8,False,6.45,23.68,22.1,False,18.31
+TAP_A03,015b,Inga alba,Fabaceae,O,25.4,False,12.86,21.73,28.6,False,21.5
+TAP_A03,016a,,,O,16.0,True,,13.09,,True,
+TAP_A03,016b,,,O,11.1,True,6.32,11.16,,True,
+TAP_A03,017a,Inga thibaudiana,Fabaceae,O,15.1,False,7.38,18.19,,True,
+TAP_A03,017b,Terminalia amazonia,Combretaceae,O,31.4,False,16.4,27.3,35.5,False,24.4
+TAP_A03,018a,,,O,10.2,False,8.3,12.28,11.9,False,12.03
+TAP_A03,018b,Guatteria schomburgkiana,Annonaceae,O,44.8,False,13.29,17.51,45.5,False,27.91
+TAP_A03,019a,Inga alba,Fabaceae,O,39.2,False,12.32,28.42,41.7,False,26.66
+TAP_A03,019b,Cordia scabrifolia,Boraginaceae,O,10.8,False,10.54,13.82,,True,
+TAP_A03,020a,Bagassa guianensis,Moraceae,O,17.8,False,8.88,13.11,22.6,False,18.58
+TAP_A03,020b,Pterocarpus sp,Fabaceae,O,11.8,False,13.2,18.54,,True,
+TAP_A03,021a,Inga thibaudiana,Fabaceae,O,15.4,False,11.24,18.43,15.5,False,14.47
+TAP_A03,021b,Inga alba,Fabaceae,O,35.4,False,12.4,27.94,,True,
+TAP_A03,022a,Rinorea pubiflora,Violaceae,O,32.4,False,13.85,21.67,36.0,False,24.6
+TAP_A03,022b,Banara guianensis,Salicaceae,O,21.6,False,11.94,18.69,,True,
+TAP_A03,023a,Rinorea pubiflora,Violaceae,O,23.7,False,10.62,18.02,25.0,False,19.8
+TAP_A03,023b,Xylopia sp,Annonaceae,O,19.1,False,11.41,17.73,,True,
+TAP_A03,024a,Inga alba,Fabaceae,O,15.1,False,15.48,21.13,16.0,False,14.79
+TAP_A03,024b,Couratari stellata,Lecythidaceae,O,18.8,False,14.7,20.0,,True,
+TAP_A03,025a,,,O,11.4,True,,10.27,,True,
+TAP_A03,025b,Neea oppositifolia,Nyctaginaceae,O,11.6,False,6.28,10.38,,True,
+TAP_A03,026a,Inga alba,Fabaceae,O,23.1,False,15.09,24.31,23.9,False,19.25
+TAP_A03,026b,Pseudopiptadenia suaveolens,Fabaceae,O,25.4,False,14.9,23.15,27.8,False,21.14
+TAP_A03,027a,Eschweilera ovata,Lecythidaceae,O,35.5,False,16.25,25.26,35.6,False,24.44
+TAP_A03,027b,Inga thibaudiana,Fabaceae,O,26.0,False,12.72,23.96,,True,
+TAP_A03,028a,,,O,16.2,True,,3.81,,True,
+TAP_A03,028b,Rinorea guianensis,Violaceae,O,19.8,False,10.36,16.18,20.7,False,17.56
+TAP_A03,029a,Dialium guianense,Fabaceae,O,55.0,False,17.51,33.6,280.1,False,47.13
+TAP_A03,029b,Cecropia palmata,Urticaceae,O,31.0,False,17.8,26.19,,True,
+TAP_A03,030a,Inga alba,Fabaceae,O,10.3,False,9.6,12.53,,True,
+TAP_A03,030b,Jacaranda copaia,Bignoniaceae,O,16.5,False,17.8,21.18,,True,
+TAP_A03,031a,Cordia scabrifolia,Boraginaceae,O,12.1,False,10.98,14.9,15.2,False,14.28
+TAP_A03,031b,,,O,75.8,False,16.05,26.83,,True,
+TAP_A03,032a,Cordia scabrifolia,Boraginaceae,O,12.0,False,12.73,13.73,19.2,False,16.71
+TAP_A03,032b,Inga sp,Fabaceae,O,20.9,False,10.64,17.73,12.1,False,12.18
+TAP_A03,033a,Eschweilera ovata,Lecythidaceae,O,56.8,False,14.03,24.47,24.8,False,19.7
+TAP_A03,033b,Tapirira guianensis,Anacardiaceae,O,10.0,False,9.48,16.74,13.8,False,13.36
+TAP_A03,034a,,,O,17.9,True,,18.34,,True,
+TAP_A03,034b,Inga sp,Fabaceae,O,10.5,False,11.14,16.46,,True,
+TAP_A03,035a,,,O,12.3,False,10.85,15.85,15.3,False,14.34
+TAP_A03,035b,Inga alba,Fabaceae,O,18.0,False,9.63,16.91,18.3,False,16.19
+TAP_A03,036a,Rinorea guianensis,Violaceae,O,13.3,False,6.32,10.76,,True,
+TAP_A03,036b,Geissospermum sericeum,Apocynaceae,O,50.4,False,14.48,24.21,58.9,False,31.67
+TAP_A03,037a,,,O,16.9,True,,17.38,,True,
+TAP_A03,037b,,,O,17.5,True,,21.38,,True,
+TAP_A03,038a,Inga thibaudiana,Fabaceae,O,14.5,False,15.37,22.7,,True,
+TAP_A03,038b,Bertholletia excelsa,Lecythidaceae,O,11.5,False,9.34,15.26,12.7,False,12.6
+TAP_A03,039a,,,O,16.9,True,,14.41,,True,
+TAP_A03,039b,Rinorea guianensis,Violaceae,O,17.9,False,6.74,13.7,,True,
+TAP_A03,040a,Xylopia sp,Annonaceae,O,17.5,False,12.02,19.43,,True,
+TAP_A03,040b,Cassia fastuosa,Fabaceae,O,42.3,False,8.74,22.1,44.6,False,27.63
+TAP_A03,041a,,,O,17.2,True,,14.84,,True,
+TAP_A03,041b,Strychnos subcordata,Loganiaceae,O,10.8,False,11.0,15.85,12.1,False,12.18
+TAP_A03,042a,,,O,24.3,False,13.75,21.25,,True,
+TAP_A03,042b,,,O,20.9,True,,12.97,,True,
+TAP_A03,043a,Cordia scabrifolia,Boraginaceae,O,12.0,False,14.43,20.45,,True,
+TAP_A03,043b,Inga thibaudiana,Fabaceae,O,24.6,False,11.37,23.91,27.8,False,21.14
+TAP_A03,044a,,,O,12.2,False,12.49,17.99,25.3,False,19.95
+TAP_A03,044b,,,O,31.9,False,15.54,27.82,33.1,False,23.44
+TAP_A03,045a,,,O,10.8,True,,15.22,,True,
+TAP_A03,045b,Tapirira guianensis,Anacardiaceae,O,27.9,False,12.75,20.47,29.4,False,21.86
+TAP_A03,046a,Rinorea guianensis,Violaceae,O,22.0,False,8.07,14.32,22.3,False,18.42
+TAP_A03,046b,Tapirira guianensis,Anacardiaceae,O,25.1,False,11.32,20.75,27.9,False,21.18
+TAP_A03,047a,Eschweilera coriacea,Lecythidaceae,O,14.3,False,8.22,11.34,14.6,False,13.89
+TAP_A03,047b,Casearia javitensis,Salicaceae,O,15.6,False,8.59,13.83,15.9,False,14.73
+TAP_A03,048a,,,O,40.3,True,,5.72,,True,
+TAP_A03,048b,Cordia scabrifolia,Boraginaceae,O,25.9,False,15.7,21.52,,True,
+TAP_A03,049a,Inga alba,Fabaceae,O,18.8,False,16.16,22.15,19.9,False,17.11
+TAP_A03,049b,,,O,14.7,True,,15.33,,True,
+TAP_A03,050a,Pouteria gongrijpii,Sapotaceae,O,19.2,False,11.48,16.49,19.5,False,16.88
+TAP_A03,050b,,,O,19.1,False,15.22,21.02,16.6,False,15.16
+TAP_A03,051a,Dimorphandra macrostachya,Fabaceae,O,12.9,False,9.9,15.37,23.6,False,19.1
+TAP_A03,051b,Cordia scabrifolia,Boraginaceae,O,20.6,False,17.14,17.14,,True,
+TAP_A03,052a,,,O,12.9,False,9.21,16.17,13.1,False,12.88
+TAP_A03,052b,Strychnos subcordata,Loganiaceae,O,28.1,False,,12.65,22.9,False,18.73
+TAP_A03,053a,Schefflera morototoni,Araliaceae,O,20.1,False,19.23,21.28,,True,
+TAP_A03,053b,Pouteria gongrijpii,Sapotaceae,O,17.5,False,11.76,17.13,20.0,False,17.17
+TAP_A03,054a,Jacaranda copaia,Bignoniaceae,O,28.7,False,15.99,23.15,29.4,False,21.86
+TAP_A03,054b,Apeiba petoumo,Malvaceae,O,37.0,False,8.96,14.12,,True,
+TAP_A03,055a,Inga alba,Fabaceae,O,39.5,False,17.73,30.32,42.3,False,26.87
+TAP_A03,055b,Guatteria schomburgkiana,Annonaceae,O,10.5,False,7.08,10.11,12.0,False,12.11
+TAP_A03,056a,,,O,18.6,True,,18.13,17.5,False,15.71
+TAP_A03,056b,Banara guianensis,Salicaceae,O,16.4,False,13.18,20.56,17.8,False,15.89
+TAP_A03,057a,Inga thibaudiana,Fabaceae,O,22.1,False,8.82,14.73,,True,
+TAP_A03,057b,,,O,,False,16.06,22.17,,True,
+TAP_A03,058a,Pterocarpus sp,Fabaceae,O,23.4,False,13.81,20.0,25.1,False,19.85
+TAP_A03,058b,Sagotia racemosa,Euphorbiaceae,O,16.9,False,7.49,11.5,17.1,False,15.47
+TAP_A03,059a,Pterocarpus sp,Fabaceae,O,10.9,False,,7.49,16.9,False,15.35
+TAP_A03,060a,Inga alba,Fabaceae,O,15.2,False,9.23,15.87,,True,
+TAP_A03,061a,Pouteria caimito,Sapotaceae,O,19.4,False,7.46,14.86,20.4,False,17.39
+TAP_A03,062a,Apeiba petoumo,Malvaceae,O,13.6,False,10.82,14.99,14.3,False,13.69
+TAP_A03,063a,Tapirira guianensis,Anacardiaceae,O,14.2,False,11.73,17.49,16.9,False,15.35
+TAP_A03,064a,,,O,15.7,False,9.91,17.73,17.2,False,15.53
+TAP_A03,065a,,,O,12.1,True,,15.42,,True,
+TAP_A03,066a,Inga thibaudiana,Fabaceae,O,31.0,False,13.67,24.74,,True,
+TAP_A03,067a,,,O,13.0,True,,8.68,,True,
+TAP_A03,068a,Enterolobium maximum,Fabaceae,O,15.1,False,9.76,14.27,16.9,False,15.35
+TAP_A03,069a,,,O,14.1,False,15.6,14.47,,True,
+TAP_A03,070a,Cordia scabrifolia,Boraginaceae,O,25.6,False,14.45,18.74,29.0,False,21.68
+TAP_A03,071a,Cordia scabrifolia,Boraginaceae,O,25.5,False,10.11,19.43,31.2,False,22.65
+TAP_A03,072a,,,O,17.9,True,,13.53,,True,
+TAP_A03,073a,,,O,11.5,True,,15.76,,True,
+TAP_A03,074a,Cordia goeldiana,Boraginaceae,O,25.3,False,19.11,26.91,,True,
+TAP_A03,075a,Sapium marmieri,Euphorbiaceae,O,33.2,False,15.95,23.68,,True,
+TAP_A03,076a,Inga alba,Fabaceae,O,20.2,False,12.19,18.36,,True,
+TAP_A03,077a,,,O,10.3,True,,14.49,,True,
+TAP_A03,078a,Inga alba,Fabaceae,O,28.7,False,13.99,30.0,31.7,False,22.86
+TAP_A03,079a,Inga alba,Fabaceae,O,23.0,False,17.9,27.91,25.5,False,20.05
+TAP_A03,080a,Cordia scabrifolia,Boraginaceae,O,,,,,10.0,False,10.62
+TAP_A03,001a,Jacaranda copaia,Bignoniaceae,O,26.4,False,14.17,20.56,31.4,False,22.73
+TAP_A03,001b,Bertholletia excelsa,Lecythidaceae,O,25.1,False,10.4,17.68,32.8,False,23.32
+TAP_A03,002a,Jacaranda copaia,Bignoniaceae,O,10.9,False,10.42,14.95,12.1,False,12.18
+TAP_A03,002b,Bertholletia excelsa,Lecythidaceae,O,10.3,False,7.27,11.38,,True,
+TAP_A03,003a,Tapirira guianensis,Anacardiaceae,O,19.6,False,8.91,17.29,19.6,False,16.94
+TAP_A03,003b,,,O,17.1,True,,9.14,,True,
+TAP_A03,004a,Tapirira guianensis,Anacardiaceae,O,17.6,False,6.91,14.43,19.0,False,16.6
+TAP_A03,004b,Cordia scabrifolia,Boraginaceae,O,11.3,False,5.53,9.54,,True,
+TAP_A03,005a,Tapirira guianensis,Anacardiaceae,O,24.2,False,12.75,18.98,27.4,False,20.95
+TAP_A03,005b,,,O,17.3,True,6.35,12.23,,True,
+TAP_A03,006a,Cordia scabrifolia,Boraginaceae,O,12.3,False,8.82,11.71,14.0,False,13.49
+TAP_A03,006b,Banara guianensis,Salicaceae,O,14.0,False,,11.89,,True,
+TAP_A03,007a,Maquira coriacea,Moraceae,O,11.5,False,8.13,10.87,18.7,False,16.42
+TAP_A03,007b,Guatteria schomburgkiana,Annonaceae,O,22.2,False,6.04,13.87,,True,
+TAP_A03,008a,Tapirira guianensis,Anacardiaceae,O,17.3,False,8.11,8.11,18.5,False,16.31
+TAP_A03,008b,Jacaranda copaia,Bignoniaceae,O,22.6,False,12.89,18.49,27.2,False,20.86
+TAP_A03,009a,Schefflera morototoni,Araliaceae,O,12.8,False,8.56,12.15,14.7,False,13.95
+TAP_A03,009b,,,O,10.5,True,,-1.28,,True,
+TAP_A03,010a,Tapirira guianensis,Anacardiaceae,O,12.4,False,10.62,17.25,14.3,False,13.69
+TAP_A03,010b,,,O,27.0,True,,16.28,,True,
+TAP_A03,011a,Tapirira guianensis,Anacardiaceae,O,16.9,False,8.21,13.59,19.7,False,17.0
+TAP_A03,011b,Luehea speciosa,Malvaceae,O,21.9,False,7.06,11.08,10.2,False,10.78
+TAP_A03,012a,Tapirira guianensis,Anacardiaceae,O,21.2,False,8.36,15.99,23.3,False,18.94
+TAP_A03,012b,Luehea speciosa,Malvaceae,O,10.1,False,0.42,2.99,20.4,False,17.39
+TAP_A03,013a,Attalea maripa,Arecaceae,P,53.3,False,1.52,8.07,,True,
+TAP_A03,013b,Inga alba,Fabaceae,O,35.8,False,6.2,18.69,38.5,False,25.53
+TAP_A03,014a,Banara guianensis,Salicaceae,O,12.7,False,6.48,11.65,13.7,False,13.29
+TAP_A03,014b,,,O,21.1,True,,,,True,
+TAP_A03,015a,Tapirira guianensis,Anacardiaceae,O,12.1,False,4.99,11.14,14.3,False,13.69
+TAP_A03,015b,Himatanthus sucuuba,Apocynaceae,O,18.5,False,14.17,21.24,,True,
+TAP_A03,016a,Trattinnickia burserifolia,Burseraceae,O,14.4,False,5.07,7.82,14.0,False,13.49
+TAP_A03,016b,Attalea maripa,Arecaceae,P,37.6,False,4.41,15.21,,True,
+TAP_A03,017a,,,O,10.3,False,6.26,8.9,11.5,False,11.75
+TAP_A03,017b,,,O,24.4,True,,13.74,,True,
+TAP_A03,018a,Jacaranda copaia,Bignoniaceae,O,23.2,False,8.29,17.53,25.5,False,20.05
+TAP_A03,018b,Attalea maripa,Arecaceae,P,32.5,False,2.34,10.16,36.0,False,24.6
+TAP_A03,019a,Bellucia grossularioides,Melastomataceae,O,10.3,False,1.8,8.97,,True,
+TAP_A03,019b,Bertholletia excelsa,Lecythidaceae,O,11.8,False,1.78,3.94,15.9,False,14.73
+TAP_A03,020a,Jacaranda copaia,Bignoniaceae,O,17.3,False,12.13,16.2,,True,
+TAP_A03,020b,,,O,17.9,True,,10.91,,True,
+TAP_A03,021a,Guatteria schomburgkiana,Annonaceae,O,13.3,False,0.36,8.17,,True,
+TAP_A03,021b,,,O,21.5,True,,18.3,,True,
+TAP_A03,022a,Bellucia grossularioides,Melastomataceae,O,18.6,False,7.44,12.17,20.3,False,17.33
+TAP_A03,022b,Attalea maripa,Arecaceae,P,36.4,False,6.08,12.94,,True,
+TAP_A03,023a,Attalea maripa,Arecaceae,P,39.0,False,4.22,13.62,36.2,False,24.67
+TAP_A03,023b,Ormosia grossa,Fabaceae,O,12.1,False,2.24,7.35,,True,
+TAP_A03,024a,Cecropia palmata,Urticaceae,O,14.9,False,3.84,5.97,15.0,False,14.15
+TAP_A03,024b,,,O,13.4,True,,4.97,,True,
+TAP_A03,025a,Thyrsodium spruceanum,Anacardiaceae,O,11.2,False,2.64,4.03,12.0,False,12.11
+TAP_A03,025b,,,O,10.9,True,,4.05,,True,
+TAP_A03,026a,Cecropia palmata,Urticaceae,O,14.4,False,-0.62,-0.2899999999999999,8.8,False,9.68
+TAP_A03,026b,Attalea maripa,Arecaceae,P,33.3,False,7.68,12.18,,True,
+TAP_A03,027a,Jacaranda copaia,Bignoniaceae,O,13.9,False,8.32,11.54,11.8,False,11.96
+TAP_A03,027b,Guatteria schomburgkiana,Annonaceae,O,10.5,False,4.36,9.69,,True,
+TAP_A03,028a,,,O,14.8,True,,9.77,,True,
+TAP_A03,028b,Attalea maripa,Arecaceae,P,39.5,False,12.86,24.56,,True,
+TAP_A03,029a,Guatteria schomburgkiana,Annonaceae,O,15.2,False,6.68,8.49,,True,
+TAP_A03,029b,Attalea maripa,Arecaceae,P,39.0,False,4.04,16.05,,True,
+TAP_A03,030a,Guatteria schomburgkiana,Annonaceae,O,19.8,False,6.26,12.15,,True,
+TAP_A03,030b,,,O,11.5,True,,10.68,,True,
+TAP_A03,031a,,,O,13.6,False,1.76,5.58,14.4,False,13.76
+TAP_A03,031b,Byrsonima crispa,Malpighiaceae,O,19.2,False,6.96,13.47,,True,
+TAP_A03,032a,,,O,11.3,True,,,,True,
+TAP_A03,032b,,,O,11.8,True,,11.87,,True,
+TAP_A03,033a,,,O,19.1,True,,11.26,,True,
+TAP_A03,033b,,,O,11.2,True,,6.71,,True,
+TAP_A03,034a,Maquira coriacea,Moraceae,O,15.1,False,5.08,9.96,,True,
+TAP_A03,034b,Simaba cedron,Simaroubaceae,O,10.5,False,6.48,7.96,,True,
+TAP_A03,035a,Attalea maripa,Arecaceae,P,47.6,False,7.84,12.13,,True,
+TAP_A03,036a,,,O,16.0,True,,4.55,,True,
+TAP_A03,037a,Thyrsodium spruceanum,Anacardiaceae,O,10.8,False,1.71,3.6,12.7,False,12.6
+TAP_A03,038a,Guatteria schomburgkiana,Annonaceae,O,17.3,False,2.05,5.18,18.1,False,16.07
+TAP_A03,039a,Attalea maripa,Arecaceae,P,43.6,False,1.28,10.75,38.2,False,25.42
+TAP_A03,040a,Attalea maripa,Arecaceae,P,49.2,False,2.36,10.18,47.1,False,28.41
+TAP_A03,041a,Tapirira guianensis,Anacardiaceae,O,18.0,False,10.15,15.38,24.4,False,19.5
+TAP_A03,042a,Guatteria schomburgkiana,Annonaceae,O,23.2,False,7.51,14.8,21.3,False,17.88
+TAP_A03,043a,Tapirira guianensis,Anacardiaceae,O,18.4,False,7.93,15.38,21.6,False,18.05
+TAP_A03,044a,Tapirira guianensis,Anacardiaceae,O,18.0,False,6.28,14.23,19.7,False,17.0
+TAP_A03,045a,Caryocar glabrum,Caryocaraceae,O,22.0,False,7.69,13.46,19.1,False,16.65
+TAP_A03,046a,Attalea maripa,Arecaceae,P,41.7,False,3.35,10.15,41.7,False,26.66
+TAP_A03,047a,Jacaranda copaia,Bignoniaceae,O,26.3,False,15.76,20.76,28.6,False,21.5
+TAP_A03,048a,,,O,18.0,True,,,,True,
+TAP_A03,049a,Cordia scabrifolia,Boraginaceae,O,11.6,False,5.42,8.86,12.1,False,12.18
+TAP_A03,050a,Cordia scabrifolia,Boraginaceae,O,19.5,False,11.92,13.06,18.5,False,16.31
+TAP_A03,051a,,,O,20.7,True,,9.73,,True,
+TAP_A03,052a,Guatteria schomburgkiana,Annonaceae,O,13.8,False,4.98,9.5,15.3,False,14.34
+TAP_A03,053a,Tapirira guianensis,Anacardiaceae,O,11.5,False,7.05,9.59,13.4,False,13.08
+TAP_A03,054a,Tapirira guianensis,Anacardiaceae,O,10.5,False,5.76,9.59,12.4,False,12.39
+TAP_A03,055a,,,O,16.5,True,,4.72,,True,
+TAP_A03,056a,Tapirira guianensis,Anacardiaceae,O,18.0,False,3.71,8.27,,True,
+TAP_A03,057a,Xylopia sp,Annonaceae,O,12.8,False,5.47,8.07,,True,
+TAP_A03,058a,Attalea maripa,Arecaceae,P,49.5,False,1.91,7.84,38.2,False,25.42
+TAP_A03,059a,Nectandra cuspidata,Lauraceae,O,19.2,False,6.51,10.82,,True,
+TAP_A03,001a,Bagassa guianensis,Moraceae,O,25.5,False,,,27.1,False,20.81
+TAP_A03,001b,Maquira coriacea,Moraceae,O,10.9,False,,,25.5,False,20.05
+TAP_A03,002a,Maquira coriacea,Moraceae,O,12.4,False,,,14.0,False,13.49
+TAP_A03,002b,,,O,11.5,True,9.8,15.48,,True,
+TAP_A03,003a,Bagassa guianensis,Moraceae,O,10.4,False,,,10.5,False,11.0
+TAP_A03,003b,,,O,14.0,True,14.51,17.18,,True,
+TAP_A03,004a,Trattinnickia burserifolia,Burseraceae,O,16.1,False,10.41,13.88,17.2,False,15.53
+TAP_A03,004b,Cecropia palmata,Urticaceae,O,17.8,False,,,17.7,False,15.83
+TAP_A03,005a,Cordia scabrifolia,Boraginaceae,O,14.3,False,4.52,14.54,14.6,False,13.89
+TAP_A03,005b,,,O,48.2,False,,,41.6,False,26.63
+TAP_A03,006a,Cordia scabrifolia,Boraginaceae,O,13.2,False,,,13.4,False,13.08
+TAP_A03,006b,Casearia grandiflora,Salicaceae,O,24.6,False,,,26.9,False,20.72
+TAP_A03,007a,Casearia grandiflora,Salicaceae,O,15.8,False,,,17.2,False,15.53
+TAP_A03,007b,Bellucia grossularioides,Melastomataceae,O,17.3,False,,,18.3,False,16.19
+TAP_A03,008a,Bagassa guianensis,Moraceae,O,17.2,False,10.38,16.17,17.3,False,15.59
+TAP_A03,008b,Schefflera morototoni,Araliaceae,O,12.8,False,,,15.9,False,14.73
+TAP_A03,009a,Bagassa guianensis,Moraceae,O,12.2,False,,,12.3,False,12.32
+TAP_A03,009b,Trattinnickia burserifolia,Burseraceae,O,10.1,False,,,10.2,False,10.78
+TAP_A03,010a,Casearia grandiflora,Salicaceae,O,22.4,False,,,24.3,False,19.45
+TAP_A03,010b,Guatteria schomburgkiana,Annonaceae,O,10.5,False,,,11.3,False,11.6
+TAP_A03,011a,Vismia guianensis,Hypericaceae,O,24.6,False,,,25.1,False,19.85
+TAP_A03,011b,,,O,12.0,False,,,12.0,False,12.11
+TAP_A03,012a,Laetia procera,Salicaceae,O,19.5,False,,,19.7,False,17.0
+TAP_A03,012b,,,O,28.2,False,,,30.5,False,22.35
+TAP_A03,013a,Attalea maripa,Arecaceae,P,41.0,False,12.3,17.27,37.0,False,24.98
+TAP_A03,013b,,,O,24.2,False,9.65,16.91,23.0,False,18.79
+TAP_A03,014a,Guatteria schomburgkiana,Annonaceae,O,15.5,False,,,15.6,False,14.54
+TAP_A03,014b,Guatteria schomburgkiana,Annonaceae,O,31.6,False,10.53,15.75,22.6,False,18.58
+TAP_A03,015a,Bagassa guianensis,Moraceae,O,22.2,False,,,25.1,False,19.85
+TAP_A03,015b,,,O,23.0,False,15.61,26.75,26.3,False,20.43
+TAP_A03,016a,Dimorphandra macrostachya,Fabaceae,O,11.9,False,,,13.1,False,12.88
+TAP_A03,016b,,,O,25.2,False,,,27.1,False,20.81
+TAP_A03,017a,Inga thibaudiana,Fabaceae,O,25.9,False,,,26.9,False,20.72
+TAP_A03,017b,Cassia fastuosa,Fabaceae,O,31.7,False,,,33.4,False,23.57
+TAP_A03,018a,Schefflera morototoni,Araliaceae,O,17.3,False,,,19.2,False,16.71
+TAP_A03,018b,,,O,16.5,False,,,16.2,False,14.91
+TAP_A03,019a,Attalea maripa,Arecaceae,P,45.5,False,6.33,8.8,34.4,False,23.97
+TAP_A03,019b,,,O,12.7,False,4.31,16.44,12.8,False,12.67
+TAP_A03,020a,Cordia scabrifolia,Boraginaceae,O,17.4,False,,,18.1,False,16.07
+TAP_A03,020b,,,O,25.2,False,,,27.7,False,21.09
+TAP_A03,021a,Tapirira guianensis,Anacardiaceae,O,18.1,False,,,10.6,False,11.08
+TAP_A03,021b,,,O,13.4,False,,,13.4,False,13.08
+TAP_A03,022a,Tapirira guianensis,Anacardiaceae,O,29.2,False,,,,True,
+TAP_A03,022b,,,O,15.9,False,,,18.5,False,16.31
+TAP_A03,023a,Attalea maripa,Arecaceae,P,40.8,False,13.2,17.27,41.7,False,26.66
+TAP_A03,023b,Cordia scabrifolia,Boraginaceae,O,17.9,False,5.66,20.23,,True,
+TAP_A03,024a,Sapium marmieri,Euphorbiaceae,O,16.3,False,,,17.5,False,15.71
+TAP_A03,024b,,,O,19.5,False,,,21.5,False,17.99
+TAP_A03,025a,,,O,16.6,False,,,19.7,False,17.0
+TAP_A03,025b,,,O,12.7,False,5.81,8.54,12.8,False,12.67
+TAP_A03,026a,,,O,13.9,False,,,17.5,False,15.71
+TAP_A03,026b,Cordia scabrifolia,Boraginaceae,O,26.7,False,11.07,15.43,27.5,False,21.0
+TAP_A03,027a,,,O,18.1,False,,,20.4,False,17.39
+TAP_A03,027b,,,O,31.0,False,,,32.8,False,23.32
+TAP_A03,028a,,,O,21.7,False,,,22.9,False,18.73
+TAP_A03,028b,Casearia grandiflora,Salicaceae,O,17.2,False,,,20.0,False,17.17
+TAP_A03,029a,Bellucia grossularioides,Melastomataceae,O,12.9,False,6.45,10.93,13.1,False,12.88
+TAP_A03,029b,,,O,13.1,False,,,13.2,False,12.95
+TAP_A03,030a,Inga alba,Fabaceae,O,49.5,False,,,20.5,False,17.45
+TAP_A03,030b,Hymenaea courbaril,Fabaceae,O,11.5,False,11.34,26.47,12.1,False,12.18
+TAP_A03,031a,,,O,24.1,False,,,25.0,False,19.8
+TAP_A03,031b,Inga thibaudiana,Fabaceae,O,13.8,False,11.8,20.71,15.1,False,14.21
+TAP_A03,032a,,,O,13.5,False,,,,True,
+TAP_A03,032b,Casearia grandiflora,Salicaceae,O,17.9,False,7.55,11.26,18.8,False,16.48
+TAP_A03,033a,Mabea angularis,Euphorbiaceae,O,13.0,False,,,13.1,False,12.88
+TAP_A03,033b,Bagassa guianensis,Moraceae,O,13.1,False,,,15.2,False,14.28
+TAP_A03,034a,,,O,16.5,False,,,16.6,False,15.16
+TAP_A03,034b,Esenbeckia febrifuga,Rutaceae,O,16.2,False,,,17.5,False,15.71
+TAP_A03,035a,,,O,19.5,False,,4.51,21.0,False,17.72
+TAP_A03,035b,,,O,26.2,True,,,,True,
+TAP_A03,036a,,,O,12.8,False,,,12.6,False,12.53
+TAP_A03,036b,Caryocar villosum,Caryocaraceae,O,23.0,False,,,,True,
+TAP_A03,037a,,,O,25.0,False,12.85,16.56,27.7,False,21.09
+TAP_A03,037b,Bertholletia excelsa,Lecythidaceae,O,15.1,False,,,17.0,False,15.41
+TAP_A03,038a,,,O,23.4,False,,,24.4,False,19.5
+TAP_A03,038b,Bertholletia excelsa,Lecythidaceae,O,16.8,False,,,19.8,False,17.05
+TAP_A03,039a,Bertholletia excelsa,Lecythidaceae,O,40.5,False,,,45.8,False,28.01
+TAP_A03,039b,Cecropia palmata,Urticaceae,O,21.8,False,18.12,25.45,19.4,False,16.83
+TAP_A03,040a,,,O,33.6,False,,,35.8,False,24.52
+TAP_A03,040b,Vismia guianensis,Hypericaceae,O,11.5,False,,,13.0,False,12.81
+TAP_A03,041a,,,O,16.5,False,8.38,16.89,20.2,False,17.28
+TAP_A03,041b,Vismia guianensis,Hypericaceae,O,15.7,False,,,17.3,False,15.59
+TAP_A03,042a,Guatteria schomburgkiana,Annonaceae,O,10.7,False,,,10.8,False,11.23
+TAP_A03,042b,Guatteria schomburgkiana,Annonaceae,O,15.8,False,,,16.0,False,14.79
+TAP_A03,043a,Guatteria schomburgkiana,Annonaceae,O,24.1,False,,,24.8,False,19.7
+TAP_A03,043b,,,O,18.6,True,,,,True,
+TAP_A03,044a,Lecythis lurida,Lecythidaceae,O,10.0,False,,,10.5,False,11.0
+TAP_A03,044b,,,O,15.3,True,,,,True,
+TAP_A03,045a,Cordia goeldiana,Boraginaceae,O,15.4,False,,,15.6,False,14.54
+TAP_A03,045b,Guatteria schomburgkiana,Annonaceae,O,11.1,False,,,11.2,False,11.53
+TAP_A03,046a,Attalea maripa,Arecaceae,P,59.6,False,,,37.6,False,25.2
+TAP_A03,046b,Jacaranda copaia,Bignoniaceae,O,14.6,False,4.37,16.85,15.7,False,14.6
+TAP_A03,047a,Maquira coriacea,Moraceae,O,12.3,False,,,13.2,False,12.95
+TAP_A03,047b,,,O,10.3,False,8.04,13.23,,True,
+TAP_A03,048a,Laetia procera,Salicaceae,O,22.4,False,7.99,11.43,25.8,False,20.19
+TAP_A03,048b,,,O,14.0,False,12.49,21.37,14.3,False,13.69
+TAP_A03,049a,Cecropia ficifolia,Urticaceae,O,14.3,False,,,,True,
+TAP_A03,049b,Casearia grandiflora,Salicaceae,O,22.8,False,,,24.2,False,19.4
+TAP_A03,050a,Cordia scabrifolia,Boraginaceae,O,13.5,False,,,13.7,False,13.29
+TAP_A03,050b,Guatteria schomburgkiana,Annonaceae,O,18.2,False,,,,True,
+TAP_A03,051a,Cordia scabrifolia,Boraginaceae,O,10.3,False,,,10.3,False,10.85
+TAP_A03,051b,,,O,10.2,False,,,10.6,False,11.08
+TAP_A03,052a,,,O,19.5,False,,,22.3,False,18.42
+TAP_A03,052b,,,O,29.3,True,,,,True,
+TAP_A03,053a,Cordia scabrifolia,Boraginaceae,O,13.8,False,14.5,31.73,13.7,False,13.29
+TAP_A03,053b,Inga alba,Fabaceae,O,47.1,False,10.11,14.56,51.0,False,29.57
+TAP_A03,054a,Cordia scabrifolia,Boraginaceae,O,14.9,False,14.5,27.82,15.0,False,14.15
+TAP_A03,054b,Inga alba,Fabaceae,O,42.3,False,8.59,11.76,45.6,False,27.95
+TAP_A03,055a,Dimorphandra macrostachya,Fabaceae,O,22.6,False,,,23.6,False,19.1
+TAP_A03,055b,Casearia grandiflora,Salicaceae,O,17.3,False,,,19.0,False,16.6
+TAP_A03,056a,Astrocaryum aculeatum,Arecaceae,P,30.0,False,,,27.1,False,20.81
+TAP_A03,056b,,,O,14.0,True,,,18.9,False,16.54
+TAP_A03,057a,Jacaranda copaia,Bignoniaceae,O,45.5,False,,,49.3,False,29.08
+TAP_A03,057b,Maquira coriacea,Moraceae,O,11.8,False,15.29,25.01,13.8,False,13.36
+TAP_A03,058a,Goupia glabra,Goupiaceae,O,11.7,False,,,11.8,False,11.96
+TAP_A03,058b,Neea oppositifolia,Nyctaginaceae,O,12.4,False,,,18.0,False,16.01
+TAP_A03,059a,Guatteria schomburgkiana,Annonaceae,O,12.3,False,6.55,9.69,12.4,False,12.39
+TAP_A03,059b,,,O,11.7,False,,,12.2,False,12.25
+TAP_A03,060a,Dimorphandra macrostachya,Fabaceae,O,23.5,False,,,24.0,False,19.3
+TAP_A03,060b,Guatteria schomburgkiana,Annonaceae,O,22.3,False,,,23.6,False,19.1
+TAP_A03,061a,Goupia glabra,Goupiaceae,O,16.4,False,,,18.8,False,16.48
+TAP_A03,061b,,,O,11.7,False,,,12.4,False,12.39
+TAP_A03,062a,,,O,16.4,False,17.17,21.64,18.5,False,16.31
+TAP_A03,062b,Bagassa guianensis,Moraceae,O,18.0,False,8.33,13.39,20.4,False,17.39
+TAP_A03,063a,Vismia guianensis,Hypericaceae,O,18.2,False,,,18.0,False,16.01
+TAP_A03,063b,Stryphnodendron pulcherrimum,Fabaceae,O,19.4,False,12.67,16.85,20.8,False,17.61
+TAP_A03,064a,Bagassa guianensis,Moraceae,O,22.6,False,,,26.4,False,20.48
+TAP_A03,064b,Apeiba petoumo,Malvaceae,O,10.3,False,,,11.6,False,11.82
+TAP_A03,065a,,,O,35.5,False,,,36.6,False,24.82
+TAP_A03,065b,,,O,18.0,False,,,21.2,False,17.83
+TAP_A03,066a,Bagassa guianensis,Moraceae,O,30.8,False,,,36.6,False,24.82
+TAP_A03,066b,Cecropia palmata,Urticaceae,O,22.9,False,,,,True,
+TAP_A03,067a,Bagassa guianensis,Moraceae,O,14.0,False,9.07,13.46,15.9,False,14.73
+TAP_A03,067b,Inga thibaudiana,Fabaceae,O,14.3,False,,,15.5,False,14.47
+TAP_A03,068a,Attalea maripa,Arecaceae,P,47.0,False,,,45.5,False,27.91
+TAP_A03,068b,Inga thibaudiana,Fabaceae,O,34.8,False,7.98,18.08,35.7,False,24.48
+TAP_A03,069a,,,O,24.6,False,,,26.2,False,20.38
+TAP_A03,069b,Cecropia palmata,Urticaceae,O,20.2,False,,,20.4,False,17.39
+TAP_A03,070a,Casearia grandiflora,Salicaceae,O,23.6,False,,,24.3,False,19.45
+TAP_A03,070b,Bagassa guianensis,Moraceae,O,17.8,False,,,18.1,False,16.07
+TAP_A03,071a,,,O,12.5,True,14.28,22.03,,True,
+TAP_A03,071b,Vismia guianensis,Hypericaceae,O,26.5,False,,8.02,24.1,False,19.35
+TAP_A03,072a,Casearia grandiflora,Salicaceae,O,16.6,False,,,20.1,False,17.22
+TAP_A03,072b,Banara guianensis,Salicaceae,O,10.3,False,13.4,18.04,,True,
+TAP_A03,073a,Inga sp,Fabaceae,O,14.4,False,,,14.4,False,13.76
+TAP_A03,073b,Inga alba,Fabaceae,O,17.3,False,,,17.6,False,15.77
+TAP_A03,074a,Inga sp,Fabaceae,O,14.9,False,,,15.0,False,14.15
+TAP_A03,074b,Inga alba,Fabaceae,O,14.0,False,,,14.7,False,13.95
+TAP_A03,075a,Inga sp,Fabaceae,O,16.1,False,,,16.3,False,14.98
+TAP_A03,076a,Couratari stellata,Lecythidaceae,O,,,,,10.7,False,11.15
+TAP_A03,101a,Himatanthus sucuuba,Apocynaceae,O,,,,,11.1,False,11.45
+TAP_A03,102a,Bagassa guianensis,Moraceae,O,,,,,9.9,False,10.55
+TAP_A03,103a,Licania canescens,Chrysobalanaceae,O,,,,,11.9,False,12.03
+TAP_A03,104a,Guatteria schomburgkiana,Annonaceae,O,,,,,10.2,False,10.78
+TAP_A03,105a,Himatanthus sucuuba,Apocynaceae,O,,,,,10.3,False,10.85
+TAP_A03,106a,Inga thibaudiana,Fabaceae,O,,,,,10.3,False,10.85
+TAP_A03,107a,Cordia scabrifolia,Boraginaceae,O,,,,,12.5,False,12.46
+TAP_A03,108a,Tapirira guianensis,Anacardiaceae,O,,,,,10.4,False,10.93
+TAP_A03,109a,Jacaranda copaia,Bignoniaceae,O,,,,,10.9,False,11.3
+TAP_A03,110a,Inga thibaudiana,Fabaceae,O,,,,,10.3,False,10.85
+TAP_A03,001a,Jacaranda copaia,Bignoniaceae,O,25.6,False,,,,True,
+TAP_A03,001b,Neea oppositifolia,Nyctaginaceae,O,33.2,False,,,34.7,False,24.09
+TAP_A03,002a,Jacaranda copaia,Bignoniaceae,O,14.1,False,,,16.2,False,14.91
+TAP_A03,002b,Sterculia pruriens,Malvaceae,O,12.0,False,12.85,15.26,15.0,False,14.15
+TAP_A03,003a,Bixa arborea,Bixaceae,O,24.3,False,,,30.0,False,22.13
+TAP_A03,003b,Cecropia palmata,Urticaceae,O,32.0,False,,,30.6,False,22.39
+TAP_A03,004a,,,O,16.4,True,,,,True,
+TAP_A03,004b,Laetia procera,Salicaceae,O,15.9,False,,,17.1,False,15.47
+TAP_A03,005a,Parkia paraensis,Fabaceae,O,12.2,False,,,13.8,False,13.36
+TAP_A03,005b,,,O,15.6,True,,,,True,
+TAP_A03,006a,Rinorea guianensis,Violaceae,O,12.9,False,,,13.1,False,12.88
+TAP_A03,006b,Eschweilera ovata,Lecythidaceae,O,28.5,False,,,28.6,False,21.5
+TAP_A03,007a,Jacaranda copaia,Bignoniaceae,O,25.6,False,,,27.7,False,21.09
+TAP_A03,007b,Cecropia ficifolia,Urticaceae,O,10.3,False,15.04,18.42,10.5,False,11.0
+TAP_A03,008a,,,O,26.8,True,,19.04,,True,
+TAP_A03,008b,,,O,25.9,False,,,,True,
+TAP_A03,009a,Jacaranda copaia,Bignoniaceae,O,11.9,False,14.42,15.96,,True,
+TAP_A03,009b,Pouteria gongrijpii,Sapotaceae,O,21.5,False,,,,True,
+TAP_A03,010a,Inga thibaudiana,Fabaceae,O,15.8,False,,,,True,
+TAP_A03,010b,Inga thibaudiana,Fabaceae,O,12.1,False,,,15.4,False,14.41
+TAP_A03,011a,Parkia paraensis,Fabaceae,O,15.7,False,,,18.7,False,16.42
+TAP_A03,011b,Sapium marmieri,Euphorbiaceae,O,15.1,False,,,15.3,False,14.34
+TAP_A03,012a,Cecropia ficifolia,Urticaceae,O,31.9,False,,,,True,
+TAP_A03,012b,Bagassa guianensis,Moraceae,O,12.2,False,,,11.3,False,11.6
+TAP_A03,013a,Couratari stellata,Lecythidaceae,O,10.1,False,,,12.4,False,12.39
+TAP_A03,013b,Cecropia palmata,Urticaceae,O,16.2,False,14.89,17.58,16.6,False,15.16
+TAP_A03,014a,Jacaranda copaia,Bignoniaceae,O,23.0,False,17.62,29.5,24.5,False,19.55
+TAP_A03,014b,Xylopia sp,Annonaceae,O,11.3,False,,,,True,
+TAP_A03,015a,Cordia scabrifolia,Boraginaceae,O,11.2,False,10.33,14.62,13.7,False,13.29
+TAP_A03,015b,Neea oppositifolia,Nyctaginaceae,O,23.9,False,,,20.7,False,17.56
+TAP_A03,016a,Jacaranda copaia,Bignoniaceae,O,10.1,False,,,,True,
+TAP_A03,016b,Inga heterophylla,Fabaceae,O,11.7,False,,,11.8,False,11.96
+TAP_A03,017a,Cecropia ficifolia,Urticaceae,O,34.3,False,,,31.0,False,22.56
+TAP_A03,017b,Pouteria macrophylla,Sapotaceae,O,13.1,False,,,,True,
+TAP_A03,018a,Jacaranda copaia,Bignoniaceae,O,22.9,False,,,24.0,False,19.3
+TAP_A03,018b,Stryphnodendron pulcherrimum,Fabaceae,O,19.7,False,12.2,16.27,,True,
+TAP_A03,019a,Jacaranda copaia,Bignoniaceae,O,14.5,False,,,22.0,False,18.26
+TAP_A03,019b,Jacaranda copaia,Bignoniaceae,O,10.3,False,,,10.5,False,11.0
+TAP_A03,020a,Jacaranda copaia,Bignoniaceae,O,31.6,False,,,34.7,False,24.09
+TAP_A03,020b,Zanthoxylum rhoifolium,Rutaceae,O,10.3,False,,,17.8,False,15.89
+TAP_A03,021a,Jacaranda copaia,Bignoniaceae,O,17.7,False,12.87,21.11,17.9,False,15.95
+TAP_A03,021b,Jacaranda copaia,Bignoniaceae,O,37.4,False,23.51,26.91,40.1,False,26.11
+TAP_A03,022a,Jacaranda copaia,Bignoniaceae,O,12.9,False,12.87,18.48,13.2,False,12.95
+TAP_A03,022b,,,O,17.6,True,,,,True,
+TAP_A03,023a,Miconia poeppigii,Melastomataceae,O,10.9,False,,,,True,
+TAP_A03,023b,Parkia multijuga,Fabaceae,O,14.4,False,,,,True,
+TAP_A03,024a,,,O,33.7,True,,,,True,
+TAP_A03,024b,,,O,10.5,True,,,,True,
+TAP_A03,025a,Jacaranda copaia,Bignoniaceae,O,11.1,False,,,11.8,False,11.96
+TAP_A03,025b,Cecropia palmata,Urticaceae,O,11.1,False,,,11.3,False,11.6
+TAP_A03,026a,Jacaranda copaia,Bignoniaceae,O,11.4,False,,,12.0,False,12.11
+TAP_A03,026b,Xylopia nitida,Annonaceae,O,10.8,False,,,12.3,False,12.32
+TAP_A03,027a,,,O,17.0,True,,,,True,
+TAP_A03,027b,,,O,10.7,True,,,,True,
+TAP_A03,028a,,,O,48.2,True,,19.17,,True,
+TAP_A03,028b,Neea oppositifolia,Nyctaginaceae,O,15.2,False,,,15.3,False,14.34
+TAP_A03,029a,,,O,33.4,True,,,,True,
+TAP_A03,029b,Jacaranda copaia,Bignoniaceae,O,25.2,False,24.82,30.52,27.4,False,20.95
+TAP_A03,030a,Jacaranda copaia,Bignoniaceae,O,22.7,False,,,25.2,False,19.9
+TAP_A03,030b,Lecythis lurida,Lecythidaceae,O,62.5,False,25.88,29.74,63.0,False,32.64
+TAP_A03,031a,Cecropia palmata,Urticaceae,O,14.3,False,,,,True,
+TAP_A03,031b,Pouteria sp,Sapotaceae,O,46.4,False,19.91,31.54,46.2,False,28.14
+TAP_A03,032a,Inga thibaudiana,Fabaceae,O,13.7,False,12.66,14.94,19.1,False,16.65
+TAP_A03,032b,,,O,14.7,False,12.49,20.65,17.2,False,15.53
+TAP_A03,033a,Pouteria guianensis,Sapotaceae,O,17.9,False,7.58,15.26,18.9,False,16.54
+TAP_A03,033b,Pouteria gongrijpii,Sapotaceae,O,32.6,False,,,33.7,False,23.69
+TAP_A03,034a,Jacaranda copaia,Bignoniaceae,O,28.3,False,,,30.6,False,22.39
+TAP_A03,034b,Sagotia racemosa,Euphorbiaceae,O,14.0,False,,,11.5,False,11.75
+TAP_A03,035a,Jacaranda copaia,Bignoniaceae,O,14.9,False,,,15.4,False,14.41
+TAP_A03,035b,,,L,10.4,False,,,10.8,False,11.23
+TAP_A03,036a,,,O,14.7,True,,,,True,
+TAP_A03,036b,Licania canescens,Chrysobalanaceae,O,50.6,False,24.17,32.99,,True,
+TAP_A03,037a,Jacaranda copaia,Bignoniaceae,O,13.2,False,,,14.2,False,13.62
+TAP_A03,037b,Jacaranda copaia,Bignoniaceae,O,12.9,False,,,13.2,False,12.95
+TAP_A03,038a,Inga thibaudiana,Fabaceae,O,10.9,False,,,14.5,False,13.82
+TAP_A03,038b,Schefflera morototoni,Araliaceae,O,12.8,False,15.56,19.71,14.5,False,13.82
+TAP_A03,039a,,,O,28.0,True,,,,True,
+TAP_A03,039b,Jacaranda copaia,Bignoniaceae,O,11.1,False,,,12.7,False,12.6
+TAP_A03,040a,Cecropia ficifolia,Urticaceae,O,21.6,False,,,,True,
+TAP_A03,040b,,,O,12.7,True,,,,True,
+TAP_A03,041a,Jacaranda copaia,Bignoniaceae,O,19.2,False,,,19.5,False,16.88
+TAP_A03,041b,,,O,25.0,True,,,,True,
+TAP_A03,042a,Sagotia racemosa,Euphorbiaceae,O,10.3,False,,,10.8,False,11.23
+TAP_A03,042b,Jacaranda copaia,Bignoniaceae,O,16.9,False,,,19.5,False,16.88
+TAP_A03,043a,,,O,34.1,True,,,,True,
+TAP_A03,043b,Pouteria gongrijpii,Sapotaceae,O,18.1,False,13.64,19.33,19.8,False,17.05
+TAP_A03,044a,,,O,19.1,True,,,,True,
+TAP_A03,044b,Jacaranda copaia,Bignoniaceae,O,12.0,False,,,19.7,False,17.0
+TAP_A03,045a,Jacaranda copaia,Bignoniaceae,O,16.9,False,20.9,24.83,18.2,False,16.13
+TAP_A03,045b,Jacaranda copaia,Bignoniaceae,O,11.8,False,,,13.3,False,13.02
+TAP_A03,046a,Capirona decorticans,Rubiaceae,O,24.1,False,16.77,22.73,25.5,False,20.05
+TAP_A03,046b,,,O,45.0,True,,,,True,
+TAP_A03,047a,,,O,54.5,False,16.38,27.49,,True,
+TAP_A03,047b,Pouteria sp,Sapotaceae,O,21.4,False,7.64,11.03,22.3,False,18.42
+TAP_A03,048a,Jacaranda copaia,Bignoniaceae,O,17.5,False,,,15.0,False,14.15
+TAP_A03,048b,,,L,11.2,False,,,11.5,False,11.75
+TAP_A03,049a,Inga thibaudiana,Fabaceae,O,20.7,False,,,24.8,False,19.7
+TAP_A03,049b,Inga heterophylla,Fabaceae,O,11.7,False,,,11.5,False,11.75
+TAP_A03,050a,Jacaranda copaia,Bignoniaceae,O,10.0,False,,,,True,
+TAP_A03,050b,Manilkara bidentata,Sapotaceae,O,22.8,False,,,24.4,False,19.5
+TAP_A03,051a,Inga thibaudiana,Fabaceae,O,24.8,False,,,27.4,False,20.95
+TAP_A03,051b,Maquira coriacea,Moraceae,O,10.4,False,9.71,15.04,11.1,False,11.45
+TAP_A03,052a,,,O,71.0,False,24.11,35.8,,True,
+TAP_A03,052b,Eschweilera coriacea,Lecythidaceae,O,36.0,False,,,25.9,False,20.24
+TAP_A03,053a,,,L,14.9,False,,,,True,
+TAP_A03,053b,,,O,12.6,False,,,16.4,False,15.04
+TAP_A03,054a,Inga alba,Fabaceae,O,15.4,False,,,15.9,False,14.73
+TAP_A03,054b,Tachigali myrmecophila,Fabaceae,O,83.9,False,21.62,35.19,,True,
+TAP_A03,055a,Dimorphandra macrostachya,Fabaceae,O,12.3,False,,,,True,
+TAP_A03,055b,,,O,13.5,False,,,18.5,False,16.31
+TAP_A03,056a,Sagotia racemosa,Euphorbiaceae,O,16.5,False,,,16.9,False,15.35
+TAP_A03,056b,Manilkara bidentata,Sapotaceae,O,54.8,False,19.22,35.61,56.3,False,31.01
+TAP_A03,057a,Inga thibaudiana,Fabaceae,O,13.2,False,12.28,17.82,16.0,False,14.79
+TAP_A03,057b,Byrsonima densa,Malpighiaceae,O,15.3,False,,,16.2,False,14.91
+TAP_A03,058a,,,O,21.3,False,16.37,23.96,24.0,False,19.3
+TAP_A03,058b,,,O,23.0,True,,,,True,
+TAP_A03,059a,,,O,97.7,True,,,,True,
+TAP_A03,059b,Jacaranda copaia,Bignoniaceae,O,14.5,False,,,18.1,False,16.07
+TAP_A03,060a,Sagotia racemosa,Euphorbiaceae,O,14.5,False,,,15.3,False,14.34
+TAP_A03,060b,Tetragastris panamensis,Burseraceae,O,18.7,False,8.92,12.41,18.8,False,16.48
+TAP_A03,061a,,,O,10.4,False,,,13.1,False,12.88
+TAP_A03,061b,Jacaranda copaia,Bignoniaceae,O,12.1,False,,,13.4,False,13.08
+TAP_A03,062a,Schefflera morototoni,Araliaceae,O,15.3,False,,,,True,
+TAP_A03,062b,,,O,11.5,True,,,,True,
+TAP_A03,063a,,,O,14.6,True,,,,True,
+TAP_A03,063b,Jacaranda copaia,Bignoniaceae,O,18.0,False,,,20.7,False,17.56
+TAP_A03,064a,Jacaranda copaia,Bignoniaceae,O,19.5,False,,,22.0,False,18.26
+TAP_A03,064b,Cecropia palmata,Urticaceae,O,11.9,False,12.37,17.13,,True,
+TAP_A03,065a,Jacaranda copaia,Bignoniaceae,O,24.8,False,23.09,27.18,25.8,False,20.19
+TAP_A03,065b,,,O,15.8,False,,,16.6,False,15.16
+TAP_A03,066a,Cecropia ficifolia,Urticaceae,O,18.6,False,16.51,21.71,18.9,False,16.54
+TAP_A03,066b,Jacaranda copaia,Bignoniaceae,O,14.8,False,,,16.6,False,15.16
+TAP_A03,067a,Inga thibaudiana,Fabaceae,O,13.8,False,,,17.5,False,15.71
+TAP_A03,067b,Rinorea guianensis,Violaceae,O,14.2,False,,,12.7,False,12.6
+TAP_A03,068a,Laetia procera,Salicaceae,O,15.9,False,,,17.6,False,15.77
+TAP_A03,068b,Jacaranda copaia,Bignoniaceae,O,26.8,False,17.23,31.05,30.9,False,22.52
+TAP_A03,069a,Jacaranda copaia,Bignoniaceae,O,31.4,False,,,33.6,False,23.65
+TAP_A03,069b,,,O,11.9,False,,,12.1,False,12.18
+TAP_A03,070a,Xylopia nitida,Annonaceae,O,12.7,False,37.04,48.18,13.5,False,13.15
+TAP_A03,070b,Aniba parviflora,Lauraceae,O,26.8,False,,,27.1,False,20.81
+TAP_A03,071a,Dimorphandra macrostachya,Fabaceae,O,21.7,False,14.11,21.23,24.5,False,19.55
+TAP_A03,071b,Rinorea guianensis,Violaceae,O,14.2,False,,,,True,
+TAP_A03,072a,Jacaranda copaia,Bignoniaceae,O,10.7,False,,,11.3,False,11.6
+TAP_A03,072b,Eschweilera ovata,Lecythidaceae,O,10.6,False,11.63,16.45,10.6,False,11.08
+TAP_A03,073a,Jacaranda copaia,Bignoniaceae,O,12.6,False,,,17.0,False,15.41
+TAP_A03,073b,Pouteria macrophylla,Sapotaceae,O,12.2,False,,,14.1,False,13.56
+TAP_A03,074a,Jacaranda copaia,Bignoniaceae,O,13.5,False,,,14.1,False,13.56
+TAP_A03,074b,,,O,17.1,False,,,17.2,False,15.53
+TAP_A03,075a,,,O,30.2,True,,,,True,
+TAP_A03,075b,Rinorea guianensis,Violaceae,O,21.9,False,8.89,14.86,22.4,False,18.47
+TAP_A03,076a,Jacaranda copaia,Bignoniaceae,O,11.6,False,,,12.1,False,12.18
+TAP_A03,076b,Aspidosperma parvifolium,Apocynaceae,O,12.0,False,,,12.7,False,12.6
+TAP_A03,077a,Jacaranda copaia,Bignoniaceae,O,20.2,False,,,21.4,False,17.94
+TAP_A03,077b,Diospyros guianensis,Ebenaceae,O,33.0,False,,,20.4,False,17.39
+TAP_A03,078a,Jacaranda copaia,Bignoniaceae,O,23.4,False,,,24.4,False,19.5
+TAP_A03,078b,Rinorea guianensis,Violaceae,O,25.0,False,,,,True,
+TAP_A03,079a,Jacaranda copaia,Bignoniaceae,O,13.7,False,,,14.4,False,13.76
+TAP_A03,079b,,,O,16.8,True,,,,True,
+TAP_A03,080a,,,O,10.7,True,,,,True,
+TAP_A03,080b,Tetragastris panamensis,Burseraceae,O,17.0,False,,,16.9,False,15.35
+TAP_A03,081a,Jacaranda copaia,Bignoniaceae,O,23.8,False,,,25.8,False,20.19
+TAP_A03,081b,Cecropia ficifolia,Urticaceae,O,22.5,False,,,23.3,False,18.94
+TAP_A03,082a,Inga grandis,Fabaceae,O,14.5,False,,,15.5,False,14.47
+TAP_A03,082b,Jacaranda copaia,Bignoniaceae,O,33.0,False,,,36.4,False,24.75
+TAP_A03,083a,Jacaranda copaia,Bignoniaceae,O,25.3,False,,,26.9,False,20.72
+TAP_A03,083b,Cecropia ficifolia,Urticaceae,O,14.6,False,13.0,16.7,14.8,False,14.02
+TAP_A03,084a,,,O,23.7,True,,,,True,
+TAP_A03,084b,Micrandra minor,Euphorbiaceae,O,18.9,False,,,19.4,False,16.83
+TAP_A03,085a,,,O,65.0,True,,24.21,,True,
+TAP_A03,085b,Xylopia sp,Annonaceae,O,12.2,False,,,12.4,False,12.39
+TAP_A03,086a,,,O,33.2,True,11.41,18.82,,True,
+TAP_A03,086b,Pouteria retinervis,Sapotaceae,O,17.3,False,,,17.5,False,15.71
+TAP_A03,087a,,,O,13.2,True,,,,True,
+TAP_A03,087b,Neea oppositifolia,Nyctaginaceae,O,23.2,False,9.12,16.05,23.2,False,18.89
+TAP_A03,088a,Jacaranda copaia,Bignoniaceae,O,17.5,False,,,18.2,False,16.13
+TAP_A03,088b,,,O,21.0,True,,,,True,
+TAP_A03,089a,Jacaranda copaia,Bignoniaceae,O,17.3,False,,,17.8,False,15.89
+TAP_A03,090a,Inga alba,Fabaceae,O,10.4,False,,,11.1,False,11.45
+TAP_A03,091a,Cordia scabrifolia,Boraginaceae,O,13.5,False,12.62,13.9,13.7,False,13.29
+TAP_A03,092a,Jacaranda copaia,Bignoniaceae,O,14.5,False,10.73,16.57,,True,
+TAP_A03,093a,Jacaranda copaia,Bignoniaceae,O,15.2,False,,,16.9,False,15.35
+TAP_A03,094a,Cecropia ficifolia,Urticaceae,O,24.7,False,,,24.8,False,19.7
+TAP_A03,095a,Inga thibaudiana,Fabaceae,O,16.0,False,,,18.8,False,16.48
+TAP_A03,096a,,,O,27.0,True,,,,True,
+TAP_A03,097a,,,O,19.7,True,,,,True,
+TAP_A03,098a,Jacaranda copaia,Bignoniaceae,O,26.0,False,,,28.2,False,21.32
+TAP_A03,099a,,,O,11.0,False,,,12.1,False,12.18
+TAP_A03,100a,Eschweilera ovata,Lecythidaceae,O,18.3,False,,,,True,
+TAP_A03,001a,Strychnos subcordata,Loganiaceae,O,11.2,False,6.11,11.51,13.6,False,13.22
+TAP_A03,001b,Bellucia grossularioides,Melastomataceae,O,19.4,False,22.96,34.23,21.4,False,17.94
+TAP_A03,002a,Inga alba,Fabaceae,O,19.2,False,8.779999999999998,18.71,21.3,False,17.88
+TAP_A03,002b,Inga alba,Fabaceae,O,20.0,False,11.86,18.5,28.6,False,21.5
+TAP_A03,003a,Couratari stellata,Lecythidaceae,O,10.1,False,5.97,9.81,12.6,False,12.53
+TAP_A03,003b,Guatteria schomburgkiana,Annonaceae,O,21.1,False,,19.74,,True,
+TAP_A03,004a,,,O,28.8,False,6.86,15.16,31.3,False,22.69
+TAP_A03,004b,Inga alba,Fabaceae,O,50.2,False,9.12,24.32,,True,
+TAP_A03,005a,Inga thibaudiana,Fabaceae,O,14.7,False,9.07,14.97,,True,
+TAP_A03,005b,Inga thibaudiana,Fabaceae,O,13.3,False,13.6,18.84,,True,
+TAP_A03,006a,,,O,13.6,True,,16.25,,True,
+TAP_A03,006b,Inga alba,Fabaceae,O,20.8,False,8.77,13.68,,True,
+TAP_A03,007a,Cordia scabrifolia,Boraginaceae,O,15.9,False,13.49,17.99,17.0,False,15.41
+TAP_A03,007b,Inga thibaudiana,Fabaceae,O,26.0,False,6.28,21.63,,True,
+TAP_A03,008a,Cordia scabrifolia,Boraginaceae,O,13.0,False,2.38,3.31,14.3,False,13.69
+TAP_A03,008b,Inga alba,Fabaceae,O,28.0,False,9.19,22.18,,True,
+TAP_A03,009a,Cordia scabrifolia,Boraginaceae,O,20.1,False,13.64,19.33,20.9,False,17.67
+TAP_A03,009b,Cordia scabrifolia,Boraginaceae,O,12.0,False,11.27,13.53,12.1,False,12.18
+TAP_A03,010a,Cordia scabrifolia,Boraginaceae,O,21.4,False,11.92,16.15,22.8,False,18.68
+TAP_A03,010b,Byrsonima crispa,Malpighiaceae,O,16.2,False,7.76,10.94,16.9,False,15.35
+TAP_A03,011a,,,O,15.7,True,,15.73,,True,
+TAP_A03,011b,,,O,11.6,True,,7.73,,True,
+TAP_A03,012a,,,O,14.4,True,,15.73,,True,
+TAP_A03,012b,Jacaranda copaia,Bignoniaceae,O,28.4,False,18.82,25.98,36.4,False,24.75
+TAP_A03,013a,Cordia scabrifolia,Boraginaceae,O,10.5,False,12.24,14.49,10.3,False,10.85
+TAP_A03,013b,Jacaranda copaia,Bignoniaceae,O,35.0,False,25.1,29.81,,True,
+TAP_A03,014a,Guatteria schomburgkiana,Annonaceae,O,14.0,False,8.5,12.44,15.2,False,14.28
+TAP_A03,014b,Cassia fastuosa,Fabaceae,O,23.5,False,,16.34,,True,
+TAP_A03,015a,Cordia scabrifolia,Boraginaceae,O,18.8,False,14.3,18.71,18.2,False,16.13
+TAP_A03,015b,Rinorea guianensis,Violaceae,O,11.2,False,4.31,7.64,12.7,False,12.6
+TAP_A03,016a,,,O,13.5,True,,8.68,,True,
+TAP_A03,016b,Inga alba,Fabaceae,O,50.3,False,10.3,27.47,52.8,False,30.07
+TAP_A03,017a,,,O,25.0,True,,,,True,
+TAP_A03,017b,,,O,38.1,True,,22.04,,True,
+TAP_A03,018a,,,O,11.7,True,,9.06,,True,
+TAP_A03,018b,Eschweilera coriacea,Lecythidaceae,O,13.0,False,9.53,15.95,16.3,False,14.98
+TAP_A03,019a,Cordia scabrifolia,Boraginaceae,O,24.8,False,18.06,23.64,26.9,False,20.72
+TAP_A03,019b,,,O,10.4,True,,11.01,,True,
+TAP_A03,020a,,,O,22.0,True,,2.27,,True,
+TAP_A03,020b,Byrsonima crispa,Malpighiaceae,O,16.2,False,11.3,18.05,,True,
+TAP_A03,021a,,,O,11.9,True,,8.26,,True,
+TAP_A03,021b,Theobroma glaucum,Malvaceae,O,12.5,False,9.38,12.94,12.9,False,12.74
+TAP_A03,022a,,,O,10.5,True,,8.62,,True,
+TAP_A03,022b,Theobroma glaucum,Malvaceae,O,11.6,False,9.38,12.94,12.2,False,12.25
+TAP_A03,023a,Cecropia palmata,Urticaceae,O,16.5,False,,,,True,
+TAP_A03,023b,,,O,17.0,True,,18.24,,True,
+TAP_A03,024a,Cordia scabrifolia,Boraginaceae,O,11.8,False,,11.82,,True,
+TAP_A03,024b,Cordia scabrifolia,Boraginaceae,O,11.6,False,4.79,8.26,,True,
+TAP_A03,025a,,,O,30.0,True,,,,True,
+TAP_A03,025b,Sapium marmieri,Euphorbiaceae,O,13.4,False,5.99,14.78,,True,
+TAP_A03,026a,Guatteria schomburgkiana,Annonaceae,O,26.4,False,15.94,22.15,,True,
+TAP_A03,026b,Apeiba petoumo,Malvaceae,O,12.0,False,6.02,11.77,,True,
+TAP_A03,027a,Jacaranda copaia,Bignoniaceae,O,22.4,False,20.95,25.57,,True,
+TAP_A03,027b,Cordia scabrifolia,Boraginaceae,O,14.9,False,9.02,17.41,,True,
+TAP_A03,028a,,,O,31.9,True,,22.29,,True,
+TAP_A03,028b,,,O,11.4,True,,10.41,,True,
+TAP_A03,029a,,,O,29.5,True,,13.31,,True,
+TAP_A03,029b,,,O,13.6,True,,5.97,,True,
+TAP_A03,030a,,,O,16.2,True,,11.34,,True,
+TAP_A03,030b,,,O,20.8,True,,23.17,,True,
+TAP_A03,031a,Attalea maripa,Arecaceae,P,35.0,False,3.79,14.02,56.1,False,30.96
+TAP_A03,031b,,,O,15.2,True,,16.62,,True,
+TAP_A03,032a,Cordia scabrifolia,Boraginaceae,O,20.0,False,17.32,22.93,,True,
+TAP_A03,032b,Protium paniculatum,Burseraceae,O,13.7,False,8.27,12.13,13.9,False,13.42
+TAP_A03,033a,,,O,10.5,True,,1.94,,True,
+TAP_A03,033b,Inga alba,Fabaceae,O,29.8,False,14.58,23.1,32.3,False,23.11
+TAP_A03,034a,,,O,19.3,True,,7.82,,True,
+TAP_A03,034b,Inga alba,Fabaceae,O,14.5,False,4.12,6.45,14.7,False,13.95
+TAP_A03,035a,,,O,12.5,False,5.35,6.95,,True,
+TAP_A03,035b,Pouteria sp,Sapotaceae,O,24.7,False,7.2,17.04,26.5,False,20.53
+TAP_A03,036a,,,O,10.9,True,,11.18,,True,
+TAP_A03,036b,Inga thibaudiana,Fabaceae,O,20.0,False,5.52,9.65,20.7,False,17.56
+TAP_A03,037a,Cordia goeldiana,Boraginaceae,O,15.9,False,13.9,18.18,,True,
+TAP_A03,037b,Inga alba,Fabaceae,O,12.2,False,9.12,15.97,,True,
+TAP_A03,038a,,,O,19.8,True,,15.29,,True,
+TAP_A03,038b,Inga alba,Fabaceae,O,19.2,False,11.92,17.59,21.0,False,17.72
+TAP_A03,039a,Cordia scabrifolia,Boraginaceae,O,13.3,False,10.73,13.06,,True,
+TAP_A03,039b,Cordia scabrifolia,Boraginaceae,O,17.9,False,10.83,13.4,,True,
+TAP_A03,040a,Cordia scabrifolia,Boraginaceae,O,21.0,False,15.09,19.82,21.3,False,17.88
+TAP_A03,040b,Cordia scabrifolia,Boraginaceae,O,10.6,False,8.9,11.65,,True,
+TAP_A03,041a,,,O,11.8,True,,18.47,,True,
+TAP_A03,041b,,,O,19.0,True,,10.29,,True,
+TAP_A03,042a,,,O,18.0,True,,13.01,,True,
+TAP_A03,042b,Cordia scabrifolia,Boraginaceae,O,24.6,False,14.16,18.5,21.5,False,17.99
+TAP_A03,043a,Ocotea cernua,Lauraceae,O,14.6,False,8.79,10.98,,True,
+TAP_A03,043b,Inga alba,Fabaceae,O,11.5,False,8.6,10.47,,True,
+TAP_A03,044a,,,O,18.4,True,,16.38,,True,
+TAP_A03,044b,Inga alba,Fabaceae,O,19.5,False,12.3,17.85,20.1,False,17.22
+TAP_A03,045a,Cordia scabrifolia,Boraginaceae,O,199.0,False,14.56,17.3,22.4,False,18.47
+TAP_A03,045b,Cordia scabrifolia,Boraginaceae,O,12.5,False,10.16,15.74,12.7,False,12.6
+TAP_A03,046a,,,O,18.7,False,8.39,13.09,19.7,False,17.0
+TAP_A03,046b,Inga alba,Fabaceae,O,32.6,False,17.61,26.86,34.4,False,23.97
+TAP_A03,047a,,,O,29.7,False,11.59,18.84,30.9,False,22.52
+TAP_A03,047b,Inga sp,Fabaceae,O,11.8,False,6.61,9.3,,True,
+TAP_A03,048a,Cordia scabrifolia,Boraginaceae,O,22.8,False,16.96,22.38,24.5,False,19.55
+TAP_A03,048b,,,O,27.8,False,14.44,20.2,30.6,False,22.39
+TAP_A03,049a,Banara guianensis,Salicaceae,O,10.0,False,10.59,13.03,,True,
+TAP_A03,049b,,,O,12.5,True,,16.61,,True,
+TAP_A03,050a,,,O,14.9,True,,5.9,,True,
+TAP_A03,050b,Rinorea guianensis,Violaceae,O,27.3,False,14.48,19.71,29.8,False,22.04
+TAP_A03,051a,,,O,23.0,False,10.78,15.99,26.4,False,20.48
+TAP_A03,051b,Byrsonima crispa,Malpighiaceae,O,17.5,False,13.49,19.84,20.7,False,17.56
+TAP_A03,052a,Bagassa guianensis,Moraceae,O,20.9,False,14.87,25.44,24.2,False,19.4
+TAP_A03,052b,,,O,13.8,True,,16.15,,True,
+TAP_A03,053a,Bagassa guianensis,Moraceae,O,28.6,False,21.66,31.85,16.6,False,15.16
+TAP_A03,053b,Thyrsodium spruceanum,Anacardiaceae,O,10.2,False,7.51,12.2,,True,
+TAP_A03,054a,,,O,15.2,True,,11.59,,True,
+TAP_A03,054b,Inga alba,Fabaceae,O,20.6,False,10.75,19.36,22.3,False,18.42
+TAP_A03,055a,Jacaranda copaia,Bignoniaceae,O,25.8,False,7.92,18.11,,True,
+TAP_A03,055b,Guatteria schomburgkiana,Annonaceae,O,10.3,False,8.85,14.62,12.1,False,12.18
+TAP_A03,056a,,,O,20.5,True,,23.59,,True,
+TAP_A03,056b,Aspidosperma parvifolium,Apocynaceae,O,11.5,False,3.21,7.62,12.7,False,12.6
+TAP_A03,057a,,,O,20.3,True,,29.75,,True,
+TAP_A03,057b,,,O,16.7,True,,9.72,,True,
+TAP_A03,058a,,,O,14.7,False,4.85,11.35,,True,
+TAP_A03,058b,,,O,11.6,True,,8.04,,True,
+TAP_A03,059a,,,O,12.4,True,9.88,11.56,,True,
+TAP_A03,059b,Trattinnickia burserifolia,Burseraceae,O,12.3,False,4.49,8.22,13.4,False,13.08
+TAP_A03,060a,Cordia scabrifolia,Boraginaceae,O,18.3,False,,9.23,16.9,False,15.35
+TAP_A03,060b,Cordia scabrifolia,Boraginaceae,O,13.8,False,6.82,10.76,14.0,False,13.49
+TAP_A03,061a,Cordia scabrifolia,Boraginaceae,O,15.3,False,,6.8,15.3,False,14.34
+TAP_A03,061b,,,O,11.0,True,,3.62,,True,
+TAP_A03,062b,Abarema jupunba,Fabaceae,O,10.4,False,8.33,13.83,24.5,False,19.55
+TAP_A03,063b,Cordia goeldiana,Boraginaceae,O,16.5,False,13.11,17.3,13.1,False,12.88
+TAP_A03,064b,Eriotheca globosa,Malvaceae,O,11.0,False,6.02,9.69,11.1,False,11.45
+TAP_A03,065a,Rinorea guianensis,Violaceae,O,,,,,9.2,False,10.0
+TAP_A03,066a,,,O,,,,,8.6,False,9.52
+TAP_A03,067a,Eriotheca globosa,Malvaceae,O,,,,,10.8,False,11.23
+TAP_A03,068a,Eriotheca globosa,Malvaceae,O,,,,,11.1,False,11.45
+TAP_A03,069a,Strychnos subcordata,Loganiaceae,O,,,,,15.9,False,14.73
+TAP_A03,001a,Guatteria schomburgkiana,Annonaceae,O,11.7,False,,,14.2,False,13.62
+TAP_A03,001b,,,O,15.4,True,,,,True,
+TAP_A03,002a,Bagassa guianensis,Moraceae,O,12.9,False,,,15.2,False,14.28
+TAP_A03,002b,,,O,47.8,True,,0.0,,True,
+TAP_A03,003a,,,O,12.9,True,,7.99,,True,
+TAP_A03,003b,Guatteria schomburgkiana,Annonaceae,O,10.2,False,5.49,8.37,12.0,False,12.11
+TAP_A03,004a,Casearia grandiflora,Salicaceae,O,14.0,False,,,14.6,False,13.89
+TAP_A03,004b,Bagassa guianensis,Moraceae,O,19.2,False,8.63,14.16,21.9,False,18.21
+TAP_A03,005a,Guatteria schomburgkiana,Annonaceae,O,21.7,False,,,22.0,False,18.26
+TAP_A03,005b,Casearia grandiflora,Salicaceae,O,16.1,False,,,17.4,False,15.65
+TAP_A03,006a,Cordia scabrifolia,Boraginaceae,O,11.8,False,,,11.3,False,11.6
+TAP_A03,006b,Casearia grandiflora,Salicaceae,O,15.2,False,,,17.3,False,15.59
+TAP_A03,007a,Cordia scabrifolia,Boraginaceae,O,12.0,False,,,20.0,False,17.17
+TAP_A03,007b,Casearia grandiflora,Salicaceae,O,13.6,False,,,13.9,False,13.42
+TAP_A03,008a,Cordia scabrifolia,Boraginaceae,O,11.4,False,11.94,15.1,,True,
+TAP_A03,008b,Casearia grandiflora,Salicaceae,O,12.3,False,,,14.4,False,13.76
+TAP_A03,009a,Chamaecrista xinguensis,Fabaceae,O,12.2,False,,,12.2,False,12.25
+TAP_A03,009b,Guatteria schomburgkiana,Annonaceae,O,15.5,False,,,15.9,False,14.73
+TAP_A03,010a,Stryphnodendron pulcherrimum,Fabaceae,O,12.9,False,,,,True,
+TAP_A03,010b,,,O,13.2,False,,,17.0,False,15.41
+TAP_A03,011a,Banara guianensis,Salicaceae,O,10.5,False,,,10.5,False,11.0
+TAP_A03,011b,Guatteria schomburgkiana,Annonaceae,O,12.4,False,10.07,12.55,12.6,False,12.53
+TAP_A03,012a,,,O,10.2,True,,,,True,
+TAP_A03,012b,Swartzia corrugata,Fabaceae,O,10.6,False,8.31,10.45,10.7,False,11.15
+TAP_A03,013a,Guatteria schomburgkiana,Annonaceae,O,16.0,False,,,18.1,False,16.07
+TAP_A03,013b,Swartzia corrugata,Fabaceae,O,11.2,False,,,11.4,False,11.67
+TAP_A03,014a,,,O,11.2,False,,,11.5,False,11.75
+TAP_A03,014b,Guatteria schomburgkiana,Annonaceae,O,22.6,False,,,23.7,False,19.15
+TAP_A03,015a,Casearia grandiflora,Salicaceae,O,15.7,False,2.34,4.43,18.3,False,16.19
+TAP_A03,015b,Simaba cedron,Simaroubaceae,O,10.3,False,,,10.7,False,11.15
+TAP_A03,016a,Sapium marmieri,Euphorbiaceae,O,18.3,False,,,22.2,False,18.37
+TAP_A03,016b,Banara guianensis,Salicaceae,O,11.7,False,,,,True,
+TAP_A03,017a,Banara guianensis,Salicaceae,O,11.0,False,9.92,12.9,,True,
+TAP_A03,017b,Guatteria schomburgkiana,Annonaceae,O,14.6,False,,,15.1,False,14.21
+TAP_A03,018a,Banara guianensis,Salicaceae,O,12.1,False,,,12.0,False,12.11
+TAP_A03,018b,,,O,14.1,True,,,,True,
+TAP_A03,019a,Jacaranda copaia,Bignoniaceae,O,23.6,False,,,29.2,False,21.77
+TAP_A03,019b,Guatteria schomburgkiana,Annonaceae,O,17.1,False,,,19.4,False,16.83
+TAP_A03,020a,Goupia glabra,Goupiaceae,O,12.4,False,,,15.8,False,14.66
+TAP_A03,020b,Cecropia ficifolia,Urticaceae,O,10.3,False,6.09,9.23,7.2,False,8.34
+TAP_A03,021a,Bagassa guianensis,Moraceae,O,12.9,False,,,15.9,False,14.73
+TAP_A03,021b,Banara guianensis,Salicaceae,O,10.2,False,4.56,8.17,10.2,False,10.78
+TAP_A03,022a,Guatteria schomburgkiana,Annonaceae,O,23.7,False,,,28.0,False,21.23
+TAP_A03,022b,Bagassa guianensis,Moraceae,O,14.5,False,,,18.9,False,16.54
+TAP_A03,023a,Banara guianensis,Salicaceae,O,10.2,False,6.95,12.49,,True,
+TAP_A03,023b,,,O,14.9,True,,,,True,
+TAP_A03,024a,Banara guianensis,Salicaceae,O,10.2,False,,,10.1,False,10.7
+TAP_A03,024b,Himatanthus sucuuba,Apocynaceae,O,12.9,False,,,13.7,False,13.29
+TAP_A03,025a,Casearia grandiflora,Salicaceae,O,16.5,False,,,20.1,False,17.22
+TAP_A03,025b,Sapium marmieri,Euphorbiaceae,O,25.0,False,,,27.6,False,21.05
+TAP_A03,026a,Casearia grandiflora,Salicaceae,O,16.2,False,,,20.1,False,17.22
+TAP_A03,026b,Cordia scabrifolia,Boraginaceae,O,13.0,False,,,15.9,False,14.73
+TAP_A03,027a,Bagassa guianensis,Moraceae,O,11.7,False,,,14.5,False,13.82
+TAP_A03,027b,Cordia scabrifolia,Boraginaceae,O,15.9,False,,,17.5,False,15.71
+TAP_A03,028a,Guatteria schomburgkiana,Annonaceae,O,14.4,False,,,15.3,False,14.34
+TAP_A03,028b,Bagassa guianensis,Moraceae,O,47.8,False,,,20.5,False,17.45
+TAP_A03,029a,Guatteria schomburgkiana,Annonaceae,O,10.2,False,5.7,11.17,10.3,False,10.85
+TAP_A03,029b,Casearia grandiflora,Salicaceae,O,17.0,False,,,19.3,False,16.77
+TAP_A03,030a,Guatteria schomburgkiana,Annonaceae,O,14.8,False,,,15.3,False,14.34
+TAP_A03,030b,,,O,11.6,True,,7.12,,True,
+TAP_A03,031a,Laetia procera,Salicaceae,O,15.0,False,,,16.1,False,14.85
+TAP_A03,031b,Cassia fastuosa,Fabaceae,O,38.5,False,11.93,21.23,40.7,False,26.32
+TAP_A03,032a,Cecropia palmata,Urticaceae,O,19.1,False,,,,True,
+TAP_A03,032b,Guatteria schomburgkiana,Annonaceae,O,11.2,False,,,12.2,False,12.25
+TAP_A03,033a,Guatteria schomburgkiana,Annonaceae,O,21.7,False,,,22.9,False,18.73
+TAP_A03,033b,Guatteria schomburgkiana,Annonaceae,O,12.0,False,,,13.6,False,13.22
+TAP_A03,034a,,,O,10.0,True,,8.13,,True,
+TAP_A03,034b,,,O,17.4,False,,,17.6,False,15.77
+TAP_A03,035a,Jacaranda copaia,Bignoniaceae,O,10.0,False,,,13.2,False,12.95
+TAP_A03,035b,,,O,21.4,True,,,,True,
+TAP_A03,036a,,,O,10.1,True,,,,True,
+TAP_A03,036b,Inga alba,Fabaceae,O,16.2,False,,,17.6,False,15.77
+TAP_A03,037a,,,O,10.0,True,,,,True,
+TAP_A03,037b,Inga alba,Fabaceae,O,11.9,False,,,12.1,False,12.18
+TAP_A03,038a,Guatteria schomburgkiana,Annonaceae,O,18.1,False,8.4,12.32,20.5,False,17.45
+TAP_A03,038b,Inga sp,Fabaceae,O,24.5,False,,,,True,
+TAP_A03,039a,Casearia grandiflora,Salicaceae,O,14.0,False,,,16.4,False,15.04
+TAP_A03,039b,Bagassa guianensis,Moraceae,O,17.8,False,,,20.9,False,17.67
+TAP_A03,040a,Jacaranda copaia,Bignoniaceae,O,17.5,False,,,22.2,False,18.37
+TAP_A03,040b,Guatteria schomburgkiana,Annonaceae,O,15.3,False,,,15.3,False,14.34
+TAP_A03,041a,Vismia guianensis,Hypericaceae,O,10.0,False,3.98,9.44,,True,
+TAP_A03,041b,Casearia grandiflora,Salicaceae,O,12.6,False,,,13.4,False,13.08
+TAP_A03,042a,Banara guianensis,Salicaceae,O,17.0,False,,,16.8,False,15.29
+TAP_A03,042b,Guatteria schomburgkiana,Annonaceae,O,11.6,False,2.39,7.27,,True,
+TAP_A03,043a,Casearia grandiflora,Salicaceae,O,16.3,False,,,,True,
+TAP_A03,043b,Guatteria schomburgkiana,Annonaceae,O,22.1,False,17.21,20.65,23.0,False,18.79
+TAP_A03,044a,,,O,10.8,False,,,10.9,False,11.3
+TAP_A03,044b,Inga sp,Fabaceae,O,14.0,False,,,14.2,False,13.62
+TAP_A03,045a,,,O,23.0,False,,,23.3,False,18.94
+TAP_A03,045b,Casearia grandiflora,Salicaceae,O,16.1,False,,,16.8,False,15.29
+TAP_A03,046a,,,O,10.9,True,,,,True,
+TAP_A03,046b,Inga thibaudiana,Fabaceae,O,12.7,False,,,16.6,False,15.16
+TAP_A03,047a,Maquira coriacea,Moraceae,O,12.7,False,6.74,12.58,13.7,False,13.29
+TAP_A03,047b,Casearia grandiflora,Salicaceae,O,11.9,False,,,12.7,False,12.6
+TAP_A03,048a,Laetia procera,Salicaceae,O,17.6,False,,,18.3,False,16.19
+TAP_A03,048b,Himatanthus sucuuba,Apocynaceae,O,11.0,False,,,11.7,False,11.89
+TAP_A03,049a,,,O,18.7,False,,,20.3,False,17.33
+TAP_A03,049b,Inga marginata,Fabaceae,O,11.0,False,,,11.2,False,11.53
+TAP_A03,050a,Talisia longifolia,Sapindaceae,O,10.3,False,,,10.7,False,11.15
+TAP_A03,050b,Inga sp,Fabaceae,O,14.4,False,,,14.6,False,13.89
+TAP_A03,051a,Bagassa guianensis,Moraceae,O,16.4,False,,,19.7,False,17.0
+TAP_A03,051b,Inga alba,Fabaceae,O,28.0,False,14.27,24.7,29.0,False,21.68
+TAP_A03,052a,Jacaranda copaia,Bignoniaceae,O,12.3,False,,,16.9,False,15.35
+TAP_A03,052b,Inga alba,Fabaceae,O,234.0,False,14.91,25.61,26.6,False,20.58
+TAP_A03,053a,Banara guianensis,Salicaceae,O,11.3,False,5.63,10.79,,True,
+TAP_A03,053b,Bagassa guianensis,Moraceae,O,14.4,False,,,17.3,False,15.59
+TAP_A03,054a,Eriotheca globosa,Malvaceae,O,11.8,False,,,11.1,False,11.45
+TAP_A03,054b,Jacaranda copaia,Bignoniaceae,O,15.8,False,,,18.7,False,16.42
+TAP_A03,055a,Cecropia palmata,Urticaceae,O,12.7,False,,,,True,
+TAP_A03,055b,Cordia scabrifolia,Boraginaceae,O,11.4,False,,,12.7,False,12.6
+TAP_A03,056a,Inga heterophylla,Fabaceae,O,19.8,False,,,20.2,False,17.28
+TAP_A03,056b,Cordia scabrifolia,Boraginaceae,O,17.0,False,,,18.7,False,16.42
+TAP_A03,057a,Cordia scabrifolia,Boraginaceae,O,15.5,False,9.92,16.7,17.5,False,15.71
+TAP_A03,057b,,,O,12.3,True,,,,True,
+TAP_A03,058a,,,O,10.3,True,,,10.0,False,10.62
+TAP_A03,058b,Guatteria schomburgkiana,Annonaceae,O,13.2,False,,,15.7,False,14.6
+TAP_A03,059a,Cordia scabrifolia,Boraginaceae,O,20.3,False,,,23.9,False,19.25
+TAP_A03,059b,Vismia guianensis,Hypericaceae,O,10.6,False,,,10.7,False,11.15
+TAP_A03,060a,Guatteria schomburgkiana,Annonaceae,O,10.9,False,,,11.6,False,11.82
+TAP_A03,060b,Vismia guianensis,Hypericaceae,O,14.0,False,,,15.4,False,14.41
+TAP_A03,061a,Vismia guianensis,Hypericaceae,O,11.6,False,,,12.6,False,12.53
+TAP_A03,061b,Inga marginata,Fabaceae,O,21.7,False,6.73,16.5,,True,
+TAP_A03,062a,Banara guianensis,Salicaceae,O,10.2,False,,,,True,
+TAP_A03,062b,Inga marginata,Fabaceae,O,19.9,False,10.57,17.1,,True,
+TAP_A03,063a,Guatteria schomburgkiana,Annonaceae,O,17.5,False,7.61,12.3,20.2,False,17.28
+TAP_A03,063b,Cordia scabrifolia,Boraginaceae,O,19.8,False,,,22.8,False,18.68
+TAP_A03,064a,Guatteria schomburgkiana,Annonaceae,O,21.7,False,,,25.1,False,19.85
+TAP_A03,064b,Eriotheca globosa,Malvaceae,O,16.9,False,,,18.2,False,16.13
+TAP_A03,065a,,,O,21.1,False,,,20.5,False,17.45
+TAP_A03,065b,Inga sp,Fabaceae,O,14.9,False,,,16.3,False,14.98
+TAP_A03,066a,Vismia guianensis,Hypericaceae,O,10.3,False,,,,True,
+TAP_A03,066b,Inga sp,Fabaceae,O,11.5,False,,,11.7,False,11.89
+TAP_A03,067a,Guatteria schomburgkiana,Annonaceae,O,18.5,False,,,18.7,False,16.42
+TAP_A03,067b,Bagassa guianensis,Moraceae,O,12.4,False,,,13.6,False,13.22
+TAP_A03,068a,,,O,11.6,False,8.68,13.35,11.9,False,12.03
+TAP_A03,068b,Bagassa guianensis,Moraceae,O,21.1,False,10.67,25.09,24.3,False,19.45
+TAP_A03,069a,,,O,20.6,False,,,23.6,False,19.1
+TAP_A03,070a,Guatteria schomburgkiana,Annonaceae,O,12.4,False,,,13.2,False,12.95
+TAP_A03,071a,Banara guianensis,Salicaceae,O,11.3,False,,,11.3,False,11.6
+TAP_A03,072a,Casearia grandiflora,Salicaceae,O,17.0,False,10.65,15.24,20.2,False,17.28
+TAP_A03,073a,Guatteria schomburgkiana,Annonaceae,O,12.7,False,,,12.7,False,12.6
+TAP_A03,074a,Aspidosperma parvifolium,Apocynaceae,O,,,,,10.2,False,10.78
+TAP_A03,075a,,,O,,,,,10.6,False,11.08

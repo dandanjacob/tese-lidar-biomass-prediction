@@ -7,15 +7,25 @@ For each site with LiDAR intersections:
   3. Assigns plot_id to each tree via point-in-polygon using tree UTM
      coordinates and KML plot polygons (robust to naming inconsistencies)
   4. Filters to only plots present in the intersection table
-  5. Saves to data/processed/04_inventory/{site}.csv in UTF-8
+  5. Adds htot_feldpausch — height estimated from DBH via Weibull H-D model
+     (Feldpausch et al. 2012, Table 3, E. C. Amazonia region)
+     Original htot_{year} columns are preserved unchanged.
+  6. Saves to data/processed/04_inventory/{site}.csv in UTF-8
 
 Output columns always present (when source has the data):
   site, plot_id, tree_id, scientific_name, family_name,
-  dbh_{year}, htot_{year}, hcom_{year}, type_{year}, dead_{year}, wsd
+  dbh_{year}, htot_{year}, hcom_{year}, type_{year}, dead_{year}, wsd,
+  htot_feldpausch  ← estimated height (m); populated for all trees with DBH
 
   type: O = tree, P = palm
   dead: True/False
   wsd:  wood specific density (only pre-computed in FST_A01)
+
+Height estimation (Feldpausch et al. 2012, Biogeosciences 9:3381-3403, Table 3):
+  Region:  Eastern-Central Amazonia  (default for all sites in this project)
+  Model:   H = a * (1 - exp(-b * D^c))
+  Params:  a=48.131, b=0.0375, c=0.8228, RSE=4.918
+  Bias correction: C_F = exp(RSE^2 / 2) applied to the estimate
 """
 
 import re
@@ -23,6 +33,7 @@ import logging
 from pathlib import Path
 
 import geopandas as gpd
+import numpy as np
 import pandas as pd
 from shapely.geometry import Point
 
@@ -164,6 +175,41 @@ def assign_plots_spatial(df: pd.DataFrame, kml_plots: gpd.GeoDataFrame,
     return df[df["plot_id"].isin(valid_plot_ids)].copy()
 
 
+# ── Feldpausch 2012 height estimation ────────────────────────────────────────
+# Table 3 — E. C. Amazonia (default region for this project)
+# Feldpausch 2012 Table 3 — Eastern-Central Amazonia
+# H = a * (1 - exp(-b * D^c))   [D in cm, H in m]
+# C_F (Eq. 6) applies to log-linear biomass models, NOT to this Weibull — omitted here.
+_FELD_A, _FELD_B, _FELD_C = 48.131, 0.0375, 0.8228
+
+
+def estimate_height_feldpausch(dbh_series: pd.Series) -> pd.Series:
+    """Estimates tree height (m) from DBH (cm) using Feldpausch et al. 2012.
+
+    H = a * (1 - exp(-b * D^c))
+    Region: Eastern-Central Amazonia  (a=48.131, b=0.0375, c=0.8228, RSE=4.918)
+    Returns NaN for rows where DBH is missing or non-positive.
+    """
+    dbh = pd.to_numeric(dbh_series, errors="coerce")
+    valid = dbh > 0
+    h = pd.Series(np.nan, index=dbh.index)
+    h[valid] = _FELD_A * (1 - np.exp(-_FELD_B * dbh[valid] ** _FELD_C))
+    return h.round(2)
+
+
+def add_estimated_height(df: pd.DataFrame) -> pd.DataFrame:
+    """Adds htot_feldpausch column using the best available DBH column."""
+    dbh_cols = sorted([c for c in df.columns if c.startswith("dbh_")],
+                      key=lambda c: c.split("_")[-1], reverse=True)
+    bare_dbh = "dbh" if "dbh" in df.columns else None
+    src = dbh_cols[0] if dbh_cols else bare_dbh
+    if src is None:
+        df["htot_feldpausch"] = np.nan
+    else:
+        df["htot_feldpausch"] = estimate_height_feldpausch(df[src])
+    return df
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -212,6 +258,8 @@ def main() -> None:
             log.info(f"  [OK]   {site_key:<50}  {len(df):>5} árvores")
             total_trees += len(df)
             sites_done += 1
+
+        df = add_estimated_height(df)
 
         out_path = OUT_DIR / f"{site_key}.csv"
         df.to_csv(out_path, index=False, encoding="utf-8")

@@ -1,1 +1,1 @@
-site,tree_id,scientific_name,family_name,utm_easting,utm_northing,dbh,dead,type,plot_id
+site,tree_id,scientific_name,family_name,utm_easting,utm_northing,dbh,dead,type,plot_id,htot_feldpausch

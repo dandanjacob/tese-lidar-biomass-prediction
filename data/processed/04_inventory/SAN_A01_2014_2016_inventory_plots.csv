@@ -1,103 +1,103 @@
-site,tree_id,scientific_name,family_name,utm_easting,utm_northing,type,dbh_2014,dead_2014,hcom_2014,htot_2014,dbh_2016,dead_2016,plot_id
-SAN_A01,1,Sloanea guianensis,Elaeocarpaceae,735903.0405,9669925.923,O,10.8,False,2.47,3.38,,True,1
-SAN_A01,2,Cecropia ficifolia,Urticaceae,735901.5968,9669928.078,O,16.4,False,11.52,13.19,17.2,False,1
-SAN_A01,3,Inga alba,Fabaceae,735898.1384,9669926.374,O,31.0,False,9.48,24.19,33.7,False,1
-SAN_A01,4,Guatteria schomburgkiana,Annonaceae,735894.0366,9669926.751,O,10.2,False,9.51,14.17,,True,1
-SAN_A01,5,Pouteria guianensis,Sapotaceae,735893.9963,9669928.783,O,11.6,False,4.3,9.39,12.2,False,1
-SAN_A01,6,Jacaranda copaia,Bignoniaceae,735889.1038,9669926.188,O,21.0,False,14.86,18.36,22.2,False,1
-SAN_A01,7,Jacaranda copaia,Bignoniaceae,735888.4342,9669927.266,O,14.2,False,14.75,17.47,14.2,False,1
-SAN_A01,8,Jacaranda copaia,Bignoniaceae,735888.2032,9669926.27,O,21.1,False,14.84,22.03,21.4,False,1
-SAN_A01,9,Sloanea guianensis,Elaeocarpaceae,735887.8983,9669925.485,O,13.8,False,3.65,10.36,,True,1
-SAN_A01,10,Cecropia ficifolia,Urticaceae,735879.5629,9669929.102,O,20.7,False,4.91,5.67,20.6,False,1
-SAN_A01,11,Sloanea guianensis,Elaeocarpaceae,735879.5026,9669929.414,O,11.1,False,1.36,2.73,,True,1
-SAN_A01,12,Neea oppositifolia,Nyctaginaceae,735874.2951,9669930.612,O,10.7,False,3.24,4.8,10.8,False,1
-SAN_A01,13,Sloanea guianensis,Elaeocarpaceae,735869.7293,9669932.061,O,13.4,False,9.27,13.6,16.5,False,1
-SAN_A01,14,Stryphnodendron pulcherrimum,Fabaceae,735871.9291,9669931.856,O,23.0,False,9.49,14.36,24.0,False,1
-SAN_A01,15,Cecropia ficifolia,Urticaceae,735860.422,9669929.84,O,26.1,False,11.68,19.06,27.3,False,1
-SAN_A01,16,Pouteria sp.,Sapotaceae,735858.1846,9669929.016,O,10.2,False,2.96,4.97,11.2,False,1
-SAN_A01,17,Cecropia ficifolia,Urticaceae,735856.4562,9669928.968,O,10.3,False,7.91,10.67,10.4,False,1
-SAN_A01,18,Pouteria sp.,Sapotaceae,735874.8627,9669965.41,O,55.2,False,17.02,28.77,54.5,False,1
-SAN_A01,19,Simarouba amara,Simaroubaceae,735874.138,9669967.543,O,44.5,False,12.76,24.23,47.6,False,1
-SAN_A01,20,Pradosia cochlearia,Sapotaceae,735897.7603,9669947.7,O,51.3,False,16.06,27.47,53.0,False,1
-SAN_A01,21,Inga alba,Fabaceae,735900.8789,9669948.398,O,35.6,False,12.78,23.85,36.1,False,1
-SAN_A01,22,,,735900.6584,9669954.506,O,59.1,True,0.59,29.12,,True,1
-SAN_A01,23,Pouteria retinervis,Sapotaceae,735903.4822,9669945.096,O,39.7,False,12.45,19.34,36.0,False,1
-SAN_A01,24,Inga alba,Fabaceae,735906.0889,9669941.801,O,40.3,False,10.56,22.77,42.8,False,1
-SAN_A01,25,,,735751.3879,9669945.475,O,18.6,True,1.03,6.42,,True,2
-SAN_A01,26,Inga alba,Fabaceae,735748.2612,9669946.987,O,18.0,False,14.9,20.84,18.7,False,2
-SAN_A01,27,Inga thibaudiana,Fabaceae,735747.8537,9669945.959,O,14.8,False,13.27,19.95,14.7,False,2
-SAN_A01,28,Cecropia ficifolia,Urticaceae,735745.0623,9669949.58,O,24.2,False,18.69,25.26,24.4,False,2
-SAN_A01,29,Cecropia ficifolia,Urticaceae,735741.3692,9669947.921,O,36.0,False,15.17,26.31,37.2,False,2
-SAN_A01,30,Inga thibaudiana,Fabaceae,735737.58,9669946.079,O,19.8,False,11.42,20.4,20.0,False,2
-SAN_A01,31,Jacaranda copaia,Bignoniaceae,735736.2096,9669946.482,O,13.6,False,16.12,17.82,,True,2
-SAN_A01,32,Sloanea guianensis,Elaeocarpaceae,735731.6015,9669950.306,O,11.1,False,2.45,6.98,,True,2
-SAN_A01,33,Inga thibaudiana,Fabaceae,735724.1439,9669947.201,O,17.5,False,6.6,14.46,,True,2
-SAN_A01,34,Jacaranda copaia,Bignoniaceae,735716.1493,9669949.252,O,11.5,False,17.74,20.31,,True,2
-SAN_A01,35,Cecropia ficifolia,Urticaceae,735714.5705,9669949.47,O,28.3,False,9.2,17.79,,True,2
-SAN_A01,36,Cecropia ficifolia,Urticaceae,735724.4717,9669976.463,O,39.7,False,18.67,26.29,39.3,False,2
-SAN_A01,37,,,735724.1389,9669983.819,O,49.6,True,0.36,12.31,,True,2
-SAN_A01,38,Cecropia ficifolia,Urticaceae,735729.6841,9669990.648,O,36.8,False,15.55,26.29,,True,2
-SAN_A01,39,Eschweilera coriacea,Lecythidaceae,735740.8282,9669992.867,O,37.1,False,15.26,23.08,37.8,False,2
-SAN_A01,41,Eschweilera coriacea,Lecythidaceae,735746.6505,9669974.159,O,53.4,False,19.04,25.02,54.2,False,2
-SAN_A01,42,Cecropia ficifolia,Urticaceae,735737.6419,9669971.904,O,37.9,False,12.23,24.62,37.0,False,2
-SAN_A01,43,Dimorphandra macrostachya,Fabaceae,735747.9567,9669968.64,O,37.6,False,16.65,28.49,42.3,False,2
-SAN_A01,44,Pseudopiptadenia suaveolens,Fabaceae,735749.3636,9669964.166,O,63.0,False,28.26,44.77,63.0,False,2
-SAN_A01,18,Rinorea guianensis,Violaceae,738169.1414,9665929.572,O,28.3,False,11.84,24.23,,True,6
-SAN_A01,19,Pouteria gongrijpii,Sapotaceae,738172.2365,9665928.379,O,29.0,False,15.14,23.1,28.6,False,6
-SAN_A01,20,Minquartia guianensis,Olacaceae,738175.1806,9665923.293,O,26.8,False,12.15,17.93,26.9,False,6
-SAN_A01,21,Protium paniculatum,Burseraceae,738178.8116,9665920.416,O,16.7,False,9.15,20.22,17.7,False,6
-SAN_A01,22,,,738181.6287,9665913.473,O,48.4,True,,16.41,47.5,True,6
-SAN_A01,23,Guarea guidonia,Meliaceae,738181.1206,9665913.031,O,28.0,False,12.73,25.91,27.6,False,6
-SAN_A01,24,Pouteria guianensis,Sapotaceae,738182.5739,9665908.259,O,30.3,False,19.57,26.76,30.6,False,6
-SAN_A01,25,Trichilia micrantha,Meliaceae,738181.9514,9665907.45,O,19.8,False,12.95,23.05,19.9,False,6
-SAN_A01,26,Guarea guidonia,Meliaceae,738184.7407,9665902.633,O,22.5,False,20.04,23.81,23.0,False,6
-SAN_A01,27,Eschweilera coriacea,Lecythidaceae,738184.7799,9665901.059,O,52.4,False,17.49,27.28,53.0,False,6
-SAN_A01,28,Pradosia cochlearia,Sapotaceae,738186.5413,9665901.783,O,12.1,False,3.3,6.53,12.0,False,6
-SAN_A01,29,Tetragastris altissima,Burseraceae,738187.2573,9665902.806,O,22.7,False,14.96,22.21,22.9,False,6
-SAN_A01,30,Mezilaurus itauba,Lauraceae,738187.0605,9665902.77,O,20.9,False,19.12,24.38,21.7,False,6
-SAN_A01,31,Lecythis idatimon,Lecythidaceae,738189.7588,9665899.614,O,15.0,False,12.65,18.5,16.0,False,6
-SAN_A01,32,Pourouma minor,Urticaceae,738194.4933,9665886.167,O,42.5,False,20.68,28.55,42.6,False,6
-SAN_A01,33,Caryocar villosum,Caryocaraceae,738162.4806,9665875.562,O,130.2,False,19.41,56.94,130.3,False,6
-SAN_A01,34,Minquartia guianensis,Olacaceae,738161.4471,9665877.337,O,36.6,False,16.89,24.33,36.6,False,6
-SAN_A01,35,Minquartia guianensis,Olacaceae,738157.4995,9665867.242,O,52.3,False,14.56,17.35,52.4,False,6
-SAN_A01,36,Hymenaea parvifolia,Fabaceae,738148.713,9665882.303,O,86.9,False,31.61,41.72,,True,6
-SAN_A01,37,Bixa arborea,Bixaceae,738145.9197,9665885.215,O,45.2,False,16.1,23.35,46.0,False,6
-SAN_A01,38,Eschweilera coriacea,Lecythidaceae,738140.4434,9665896.479,O,46.9,False,19.02,31.78,47.2,False,6
-SAN_A01,39,Inga thibaudiana,Fabaceae,738149.6717,9665903.191,O,46.1,False,11.49,29.05,46.6,False,6
-SAN_A01,40,Pouteria gongrijpii,Sapotaceae,738160.3266,9665892.402,O,43.0,False,15.82,24.42,,True,6
-SAN_A01,41,,,738159.5022,9665895.698,O,70.8,True,,5.55,,True,6
-SAN_A01,42,Geissospermum sericeum,Apocynaceae,738159.5147,9665905.079,O,47.8,False,19.37,29.29,48.0,False,6
-SAN_A01,43,Tachigali paniculata,Fabaceae,738156.722,9665908.001,O,38.8,False,16.78,24.78,41.0,False,6
-SAN_A01,44,Pouteria guianensis,Sapotaceae,738153.7252,9665913.157,O,37.9,False,21.32,28.98,38.8,False,6
-SAN_A01,45,Minquartia guianensis,Olacaceae,738167.4998,9665912.036,O,37.9,False,12.49,19.95,,True,6
-SAN_A01,46,Chamaecrista xinguensis,Fabaceae,738239.2723,9665779.201,O,28.0,False,12.37,23.73,,True,7
-SAN_A01,47,Cordia scabrifolia,Boraginaceae,738235.451,9665777.624,O,49.7,False,16.9,21.23,49.0,False,7
-SAN_A01,48,Ormosia grossa,Fabaceae,738238.8288,9665774.456,O,11.0,False,14.49,18.29,10.7,False,7
-SAN_A01,49,Pouteria gongrijpii,Sapotaceae,738240.3224,9665773.387,O,55.2,False,20.65,35.0,55.3,False,7
-SAN_A01,50,Goupia glabra,Goupiaceae,738237.6776,9665772.234,O,41.8,False,21.69,34.41,41.8,False,7
-SAN_A01,51,,,738241.3125,9665762.76,O,10.6,True,,3.5,,True,7
-SAN_A01,52,Rinorea pubiflora,Violaceae,738246.0952,9665758.376,O,11.2,False,9.41,15.75,,True,7
-SAN_A01,53,,,738240.7103,9665770.859,O,56.8,True,1.66,14.97,,True,7
-SAN_A01,54,,,738219.5326,9665764.4,O,50.7,True,0.99,3.25,,True,7
-SAN_A01,55,Inga marginata,Fabaceae,738204.2622,9665761.091,O,45.1,False,13.84,24.61,,True,7
-SAN_A01,56,Tapirira guianensis,Anacardiaceae,738283.9124,9665653.078,O,10.2,False,6.82,11.87,11.3,False,8
-SAN_A01,57,Virola sebifera,Myristicaceae,738288.5642,9665653.605,O,10.0,False,7.53,12.01,10.0,False,8
-SAN_A01,58,Zollernia paraensis,Fabaceae,738255.6922,9665636.415,O,52.2,False,19.84,32.07,52.3,False,8
-SAN_A01,59,Protium paniculatum,Burseraceae,738289.5224,9665649.314,O,19.4,False,13.28,18.41,18.8,False,8
-SAN_A01,60,Maquira coriacea,Moraceae,738290.8497,9665638.821,O,12.8,False,8.81,13.38,13.4,False,8
-SAN_A01,61,Eschweilera ovata,Lecythidaceae,738295.3469,9665628.106,O,48.2,False,13.93,22.23,49.1,False,8
-SAN_A01,62,Inga sp.,Fabaceae,738297.1634,9665627.856,O,12.4,False,10.16,14.96,13.2,False,8
-SAN_A01,63,Aspidosperma parvifolium,Apocynaceae,738297.0264,9665626.909,O,10.1,False,6.25,8.42,9.7,False,8
-SAN_A01,64,Pouteria gongrijpii,Sapotaceae,738291.6896,9665623.815,O,36.5,False,21.27,28.44,37.5,False,8
-SAN_A01,65,Tachigali paniculata,Fabaceae,738300.4651,9665625.099,O,20.0,False,14.95,19.87,21.7,False,8
-SAN_A01,66,Inga alba,Fabaceae,738300.51,9665622.446,O,14.9,False,12.28,18.98,16.0,False,8
-SAN_A01,67,Strychnos subcordata,Loganiaceae,738300.986,9665614.416,O,12.3,False,0.58,1.24,,True,8
-SAN_A01,68,Geissospermum sericeum,Apocynaceae,738286.3782,9665608.24,O,50.6,False,15.16,20.07,50.7,False,8
-SAN_A01,69,,,738278.8611,9665616.089,O,125.3,True,1.56,12.25,,True,8
-SAN_A01,70,Eschweilera ovata,Lecythidaceae,738267.029,9665603.204,O,41.6,False,20.36,29.31,42.6,False,8
-SAN_A01,71,Eschweilera ovata,Lecythidaceae,738265.2702,9665591.657,O,35.9,False,20.12,31.07,36.0,False,8
-SAN_A01,72,Lecythis lurida,Lecythidaceae,738263.221,9665612.609,O,52.9,False,23.08,33.17,52.8,False,8
-SAN_A01,73,Terminalia amazonia,Combretaceae,738254.2604,9665611.095,O,114.4,False,30.14,45.31,114.4,False,8
-SAN_A01,74,Ocotea canaliculata,Lauraceae,738276.1246,9665620.148,O,55.4,False,20.7,31.88,,True,8
-SAN_A01,75,Trichilia micrantha,Meliaceae,738271.339,9665629.205,O,62.5,False,16.45,23.37,63.0,False,8
-SAN_A01,76,Xylopia sp.,Annonaceae,738302.7559,9665612.249,O,10.2,False,6.78,11.22,10.2,False,8
+site,tree_id,scientific_name,family_name,utm_easting,utm_northing,type,dbh_2014,dead_2014,hcom_2014,htot_2014,dbh_2016,dead_2016,plot_id,htot_feldpausch
+SAN_A01,1,Sloanea guianensis,Elaeocarpaceae,735903.0405,9669925.923,O,10.8,False,2.47,3.38,,True,1,
+SAN_A01,2,Cecropia ficifolia,Urticaceae,735901.5968,9669928.078,O,16.4,False,11.52,13.19,17.2,False,1,15.53
+SAN_A01,3,Inga alba,Fabaceae,735898.1384,9669926.374,O,31.0,False,9.48,24.19,33.7,False,1,23.69
+SAN_A01,4,Guatteria schomburgkiana,Annonaceae,735894.0366,9669926.751,O,10.2,False,9.51,14.17,,True,1,
+SAN_A01,5,Pouteria guianensis,Sapotaceae,735893.9963,9669928.783,O,11.6,False,4.3,9.39,12.2,False,1,12.25
+SAN_A01,6,Jacaranda copaia,Bignoniaceae,735889.1038,9669926.188,O,21.0,False,14.86,18.36,22.2,False,1,18.37
+SAN_A01,7,Jacaranda copaia,Bignoniaceae,735888.4342,9669927.266,O,14.2,False,14.75,17.47,14.2,False,1,13.62
+SAN_A01,8,Jacaranda copaia,Bignoniaceae,735888.2032,9669926.27,O,21.1,False,14.84,22.03,21.4,False,1,17.94
+SAN_A01,9,Sloanea guianensis,Elaeocarpaceae,735887.8983,9669925.485,O,13.8,False,3.65,10.36,,True,1,
+SAN_A01,10,Cecropia ficifolia,Urticaceae,735879.5629,9669929.102,O,20.7,False,4.91,5.67,20.6,False,1,17.5
+SAN_A01,11,Sloanea guianensis,Elaeocarpaceae,735879.5026,9669929.414,O,11.1,False,1.36,2.73,,True,1,
+SAN_A01,12,Neea oppositifolia,Nyctaginaceae,735874.2951,9669930.612,O,10.7,False,3.24,4.8,10.8,False,1,11.23
+SAN_A01,13,Sloanea guianensis,Elaeocarpaceae,735869.7293,9669932.061,O,13.4,False,9.27,13.6,16.5,False,1,15.1
+SAN_A01,14,Stryphnodendron pulcherrimum,Fabaceae,735871.9291,9669931.856,O,23.0,False,9.49,14.36,24.0,False,1,19.3
+SAN_A01,15,Cecropia ficifolia,Urticaceae,735860.422,9669929.84,O,26.1,False,11.68,19.06,27.3,False,1,20.91
+SAN_A01,16,Pouteria sp.,Sapotaceae,735858.1846,9669929.016,O,10.2,False,2.96,4.97,11.2,False,1,11.53
+SAN_A01,17,Cecropia ficifolia,Urticaceae,735856.4562,9669928.968,O,10.3,False,7.91,10.67,10.4,False,1,10.93
+SAN_A01,18,Pouteria sp.,Sapotaceae,735874.8627,9669965.41,O,55.2,False,17.02,28.77,54.5,False,1,30.54
+SAN_A01,19,Simarouba amara,Simaroubaceae,735874.138,9669967.543,O,44.5,False,12.76,24.23,47.6,False,1,28.57
+SAN_A01,20,Pradosia cochlearia,Sapotaceae,735897.7603,9669947.7,O,51.3,False,16.06,27.47,53.0,False,1,30.13
+SAN_A01,21,Inga alba,Fabaceae,735900.8789,9669948.398,O,35.6,False,12.78,23.85,36.1,False,1,24.63
+SAN_A01,22,,,735900.6584,9669954.506,O,59.1,True,0.59,29.12,,True,1,
+SAN_A01,23,Pouteria retinervis,Sapotaceae,735903.4822,9669945.096,O,39.7,False,12.45,19.34,36.0,False,1,24.6
+SAN_A01,24,Inga alba,Fabaceae,735906.0889,9669941.801,O,40.3,False,10.56,22.77,42.8,False,1,27.04
+SAN_A01,25,,,735751.3879,9669945.475,O,18.6,True,1.03,6.42,,True,2,
+SAN_A01,26,Inga alba,Fabaceae,735748.2612,9669946.987,O,18.0,False,14.9,20.84,18.7,False,2,16.42
+SAN_A01,27,Inga thibaudiana,Fabaceae,735747.8537,9669945.959,O,14.8,False,13.27,19.95,14.7,False,2,13.95
+SAN_A01,28,Cecropia ficifolia,Urticaceae,735745.0623,9669949.58,O,24.2,False,18.69,25.26,24.4,False,2,19.5
+SAN_A01,29,Cecropia ficifolia,Urticaceae,735741.3692,9669947.921,O,36.0,False,15.17,26.31,37.2,False,2,25.05
+SAN_A01,30,Inga thibaudiana,Fabaceae,735737.58,9669946.079,O,19.8,False,11.42,20.4,20.0,False,2,17.17
+SAN_A01,31,Jacaranda copaia,Bignoniaceae,735736.2096,9669946.482,O,13.6,False,16.12,17.82,,True,2,
+SAN_A01,32,Sloanea guianensis,Elaeocarpaceae,735731.6015,9669950.306,O,11.1,False,2.45,6.98,,True,2,
+SAN_A01,33,Inga thibaudiana,Fabaceae,735724.1439,9669947.201,O,17.5,False,6.6,14.46,,True,2,
+SAN_A01,34,Jacaranda copaia,Bignoniaceae,735716.1493,9669949.252,O,11.5,False,17.74,20.31,,True,2,
+SAN_A01,35,Cecropia ficifolia,Urticaceae,735714.5705,9669949.47,O,28.3,False,9.2,17.79,,True,2,
+SAN_A01,36,Cecropia ficifolia,Urticaceae,735724.4717,9669976.463,O,39.7,False,18.67,26.29,39.3,False,2,25.82
+SAN_A01,37,,,735724.1389,9669983.819,O,49.6,True,0.36,12.31,,True,2,
+SAN_A01,38,Cecropia ficifolia,Urticaceae,735729.6841,9669990.648,O,36.8,False,15.55,26.29,,True,2,
+SAN_A01,39,Eschweilera coriacea,Lecythidaceae,735740.8282,9669992.867,O,37.1,False,15.26,23.08,37.8,False,2,25.28
+SAN_A01,41,Eschweilera coriacea,Lecythidaceae,735746.6505,9669974.159,O,53.4,False,19.04,25.02,54.2,False,2,30.46
+SAN_A01,42,Cecropia ficifolia,Urticaceae,735737.6419,9669971.904,O,37.9,False,12.23,24.62,37.0,False,2,24.98
+SAN_A01,43,Dimorphandra macrostachya,Fabaceae,735747.9567,9669968.64,O,37.6,False,16.65,28.49,42.3,False,2,26.87
+SAN_A01,44,Pseudopiptadenia suaveolens,Fabaceae,735749.3636,9669964.166,O,63.0,False,28.26,44.77,63.0,False,2,32.64
+SAN_A01,18,Rinorea guianensis,Violaceae,738169.1414,9665929.572,O,28.3,False,11.84,24.23,,True,6,
+SAN_A01,19,Pouteria gongrijpii,Sapotaceae,738172.2365,9665928.379,O,29.0,False,15.14,23.1,28.6,False,6,21.5
+SAN_A01,20,Minquartia guianensis,Olacaceae,738175.1806,9665923.293,O,26.8,False,12.15,17.93,26.9,False,6,20.72
+SAN_A01,21,Protium paniculatum,Burseraceae,738178.8116,9665920.416,O,16.7,False,9.15,20.22,17.7,False,6,15.83
+SAN_A01,22,,,738181.6287,9665913.473,O,48.4,True,,16.41,47.5,True,6,28.54
+SAN_A01,23,Guarea guidonia,Meliaceae,738181.1206,9665913.031,O,28.0,False,12.73,25.91,27.6,False,6,21.05
+SAN_A01,24,Pouteria guianensis,Sapotaceae,738182.5739,9665908.259,O,30.3,False,19.57,26.76,30.6,False,6,22.39
+SAN_A01,25,Trichilia micrantha,Meliaceae,738181.9514,9665907.45,O,19.8,False,12.95,23.05,19.9,False,6,17.11
+SAN_A01,26,Guarea guidonia,Meliaceae,738184.7407,9665902.633,O,22.5,False,20.04,23.81,23.0,False,6,18.79
+SAN_A01,27,Eschweilera coriacea,Lecythidaceae,738184.7799,9665901.059,O,52.4,False,17.49,27.28,53.0,False,6,30.13
+SAN_A01,28,Pradosia cochlearia,Sapotaceae,738186.5413,9665901.783,O,12.1,False,3.3,6.53,12.0,False,6,12.11
+SAN_A01,29,Tetragastris altissima,Burseraceae,738187.2573,9665902.806,O,22.7,False,14.96,22.21,22.9,False,6,18.73
+SAN_A01,30,Mezilaurus itauba,Lauraceae,738187.0605,9665902.77,O,20.9,False,19.12,24.38,21.7,False,6,18.1
+SAN_A01,31,Lecythis idatimon,Lecythidaceae,738189.7588,9665899.614,O,15.0,False,12.65,18.5,16.0,False,6,14.79
+SAN_A01,32,Pourouma minor,Urticaceae,738194.4933,9665886.167,O,42.5,False,20.68,28.55,42.6,False,6,26.97
+SAN_A01,33,Caryocar villosum,Caryocaraceae,738162.4806,9665875.562,O,130.2,False,19.41,56.94,130.3,False,6,42.01
+SAN_A01,34,Minquartia guianensis,Olacaceae,738161.4471,9665877.337,O,36.6,False,16.89,24.33,36.6,False,6,24.82
+SAN_A01,35,Minquartia guianensis,Olacaceae,738157.4995,9665867.242,O,52.3,False,14.56,17.35,52.4,False,6,29.96
+SAN_A01,36,Hymenaea parvifolia,Fabaceae,738148.713,9665882.303,O,86.9,False,31.61,41.72,,True,6,
+SAN_A01,37,Bixa arborea,Bixaceae,738145.9197,9665885.215,O,45.2,False,16.1,23.35,46.0,False,6,28.07
+SAN_A01,38,Eschweilera coriacea,Lecythidaceae,738140.4434,9665896.479,O,46.9,False,19.02,31.78,47.2,False,6,28.45
+SAN_A01,39,Inga thibaudiana,Fabaceae,738149.6717,9665903.191,O,46.1,False,11.49,29.05,46.6,False,6,28.26
+SAN_A01,40,Pouteria gongrijpii,Sapotaceae,738160.3266,9665892.402,O,43.0,False,15.82,24.42,,True,6,
+SAN_A01,41,,,738159.5022,9665895.698,O,70.8,True,,5.55,,True,6,
+SAN_A01,42,Geissospermum sericeum,Apocynaceae,738159.5147,9665905.079,O,47.8,False,19.37,29.29,48.0,False,6,28.69
+SAN_A01,43,Tachigali paniculata,Fabaceae,738156.722,9665908.001,O,38.8,False,16.78,24.78,41.0,False,6,26.42
+SAN_A01,44,Pouteria guianensis,Sapotaceae,738153.7252,9665913.157,O,37.9,False,21.32,28.98,38.8,False,6,25.64
+SAN_A01,45,Minquartia guianensis,Olacaceae,738167.4998,9665912.036,O,37.9,False,12.49,19.95,,True,6,
+SAN_A01,46,Chamaecrista xinguensis,Fabaceae,738239.2723,9665779.201,O,28.0,False,12.37,23.73,,True,7,
+SAN_A01,47,Cordia scabrifolia,Boraginaceae,738235.451,9665777.624,O,49.7,False,16.9,21.23,49.0,False,7,28.99
+SAN_A01,48,Ormosia grossa,Fabaceae,738238.8288,9665774.456,O,11.0,False,14.49,18.29,10.7,False,7,11.15
+SAN_A01,49,Pouteria gongrijpii,Sapotaceae,738240.3224,9665773.387,O,55.2,False,20.65,35.0,55.3,False,7,30.75
+SAN_A01,50,Goupia glabra,Goupiaceae,738237.6776,9665772.234,O,41.8,False,21.69,34.41,41.8,False,7,26.7
+SAN_A01,51,,,738241.3125,9665762.76,O,10.6,True,,3.5,,True,7,
+SAN_A01,52,Rinorea pubiflora,Violaceae,738246.0952,9665758.376,O,11.2,False,9.41,15.75,,True,7,
+SAN_A01,53,,,738240.7103,9665770.859,O,56.8,True,1.66,14.97,,True,7,
+SAN_A01,54,,,738219.5326,9665764.4,O,50.7,True,0.99,3.25,,True,7,
+SAN_A01,55,Inga marginata,Fabaceae,738204.2622,9665761.091,O,45.1,False,13.84,24.61,,True,7,
+SAN_A01,56,Tapirira guianensis,Anacardiaceae,738283.9124,9665653.078,O,10.2,False,6.82,11.87,11.3,False,8,11.6
+SAN_A01,57,Virola sebifera,Myristicaceae,738288.5642,9665653.605,O,10.0,False,7.53,12.01,10.0,False,8,10.62
+SAN_A01,58,Zollernia paraensis,Fabaceae,738255.6922,9665636.415,O,52.2,False,19.84,32.07,52.3,False,8,29.94
+SAN_A01,59,Protium paniculatum,Burseraceae,738289.5224,9665649.314,O,19.4,False,13.28,18.41,18.8,False,8,16.48
+SAN_A01,60,Maquira coriacea,Moraceae,738290.8497,9665638.821,O,12.8,False,8.81,13.38,13.4,False,8,13.08
+SAN_A01,61,Eschweilera ovata,Lecythidaceae,738295.3469,9665628.106,O,48.2,False,13.93,22.23,49.1,False,8,29.02
+SAN_A01,62,Inga sp.,Fabaceae,738297.1634,9665627.856,O,12.4,False,10.16,14.96,13.2,False,8,12.95
+SAN_A01,63,Aspidosperma parvifolium,Apocynaceae,738297.0264,9665626.909,O,10.1,False,6.25,8.42,9.7,False,8,10.39
+SAN_A01,64,Pouteria gongrijpii,Sapotaceae,738291.6896,9665623.815,O,36.5,False,21.27,28.44,37.5,False,8,25.16
+SAN_A01,65,Tachigali paniculata,Fabaceae,738300.4651,9665625.099,O,20.0,False,14.95,19.87,21.7,False,8,18.1
+SAN_A01,66,Inga alba,Fabaceae,738300.51,9665622.446,O,14.9,False,12.28,18.98,16.0,False,8,14.79
+SAN_A01,67,Strychnos subcordata,Loganiaceae,738300.986,9665614.416,O,12.3,False,0.58,1.24,,True,8,
+SAN_A01,68,Geissospermum sericeum,Apocynaceae,738286.3782,9665608.24,O,50.6,False,15.16,20.07,50.7,False,8,29.48
+SAN_A01,69,,,738278.8611,9665616.089,O,125.3,True,1.56,12.25,,True,8,
+SAN_A01,70,Eschweilera ovata,Lecythidaceae,738267.029,9665603.204,O,41.6,False,20.36,29.31,42.6,False,8,26.97
+SAN_A01,71,Eschweilera ovata,Lecythidaceae,738265.2702,9665591.657,O,35.9,False,20.12,31.07,36.0,False,8,24.6
+SAN_A01,72,Lecythis lurida,Lecythidaceae,738263.221,9665612.609,O,52.9,False,23.08,33.17,52.8,False,8,30.07
+SAN_A01,73,Terminalia amazonia,Combretaceae,738254.2604,9665611.095,O,114.4,False,30.14,45.31,114.4,False,8,40.58
+SAN_A01,74,Ocotea canaliculata,Lauraceae,738276.1246,9665620.148,O,55.4,False,20.7,31.88,,True,8,
+SAN_A01,75,Trichilia micrantha,Meliaceae,738271.339,9665629.205,O,62.5,False,16.45,23.37,63.0,False,8,32.64
+SAN_A01,76,Xylopia sp.,Annonaceae,738302.7559,9665612.249,O,10.2,False,6.78,11.22,10.2,False,8,10.78
