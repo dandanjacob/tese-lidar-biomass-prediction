@@ -27,7 +27,10 @@ intersections: ## [Etapa 2] Cruza plots de inventário × tiles LiDAR → data/p
 clip: ## [Etapa 3] Recorta nuvens de pontos por parcela → data/processed/clipped_lidar/
 	python src/clip_lidar_to_plots.py
 
-pipeline: kml intersections clip ## Roda as 3 etapas em sequência (requer dados brutos em data/raw/)
+inventory: ## [Etapa 4] Normaliza CSVs de inventário → data/processed/04_inventory/
+	python src/prepare_inventory.py
+
+pipeline: kml intersections clip inventory ## Roda as 4 etapas em sequência (requer dados brutos em data/raw/)
 
 # ── Visualização ──────────────────────────────────────────────────────────────
 

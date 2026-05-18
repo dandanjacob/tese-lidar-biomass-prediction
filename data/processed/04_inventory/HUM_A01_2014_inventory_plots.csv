@@ -1,0 +1,252 @@
+site,tree_id,scientific_name,family_name,utm_easting,utm_northing,dbh,htot,hcom,dead,type,plot_id
+HUM_A01,65,Eschweilera amazonica,Lecythidaceae,646734.0354,8921462.621,12.9,10.42,7.11,False,O,1
+HUM_A01,66,Byrsonima crispa,Malpighiaceae,646730.5238,8921463.746,32.3,20.46,15.28,False,O,1
+HUM_A01,67,Annona exsucca,Annonaceae,646732.3802,8921459.308,20.3,18.23,8.37,False,O,1
+HUM_A01,68,Euterpe oleracea,Arecaceae,646729.6473,8921457.1,15.7,21.88,14.9,False,P,1
+HUM_A01,69,Inga marginata,Fabaceae,646725.1324,8921454.069,16.8,14.86,11.06,False,O,1
+HUM_A01,70,Inga marginata,Fabaceae,646725.565,8921451.132,10.1,12.62,7.89,False,O,1
+HUM_A01,71,Byrsonima crispa,Malpighiaceae,646725.4651,8921447.418,31.2,22.07,11.9,False,O,1
+HUM_A01,72,Protium hepytaphillum ,Burseraceae,646718.7887,8921444.788,18.4,20.43,13.75,False,O,1
+HUM_A01,73,Poeppigia sp.,Fabaceae,646717.6124,8921443.602,23.5,18.81,11.43,False,O,1
+HUM_A01,74,Protium hepytaphillum ,Burseraceae,646713.9571,8921444.845,39.4,19.61,10.41,False,O,1
+HUM_A01,75,Vitex triflora,Lamiaceae,646721.1845,8921441.164,59.1,26.55,16.68,False,O,1
+HUM_A01,76,Mouriri collocarpa,Melastomataceae,646719.2453,8921438.865,19.8,19.96,15.08,False,O,1
+HUM_A01,79,Protium hepytaphillum ,Burseraceae,646716.7797,8921437.042,13.5,13.68,10.46,False,O,1
+HUM_A01,80,Duguetia stelechantha,Annonaceae,646717.4824,8921435.756,11.1,16.25,13.15,False,O,1
+HUM_A01,81,Protium hepytaphillum ,Burseraceae,646712.2965,8921432.622,31.9,18.81,13.34,False,O,1
+HUM_A01,82,Inga thibaudiana,Fabaceae,646710.638,8921427.532,17.1,17.87,9.64,False,O,1
+HUM_A01,83,Terminalia amazonia,Combretaceae,646710.3074,8921426.693,20.2,20.27,18.53,False,O,1
+HUM_A01,84,Inga marginata,Fabaceae,646706.7811,8921420.121,14.1,15.46,9.68,False,O,1
+HUM_A01,85,Apuleia leiocarpa,Fabaceae,646703.7451,8921424.554,65.0,44.76,28.53,False,O,1
+HUM_A01,86,Chimarrhis turbinata,Rubiaceae,646683.4333,8921449.855,52.0,24.21,18.22,False,O,1
+HUM_A01,87,Helicostylis sp.,Moraceae,646693.9587,8921461.861,70.0,34.29,20.5,False,O,1
+HUM_A01,89,Parkia sp.,Fabaceae,646722.0013,8921458.418,44.5,34.94,26.63,False,O,1
+HUM_A01,90,Vitex triflora,Lamiaceae,646729.1049,8921458.094,42.5,32.27,15.64,False,O,1
+HUM_A01,91,Tachigali alba,Fabaceae,646720.1937,8921470.086,56.4,35.36,24.14,False,O,1
+HUM_A01,92,Ambelania acida,Apocynaceae,646721.2407,8921466.249,48.0,34.64,24.92,False,O,1
+HUM_A01,93,,,646720.3129,8921455.943,67.0,32.89,26.11,False,O,1
+HUM_A01,110,Hymenaea courbaril,Fabaceae,646704.162,8921459.027,75.0,39.5,25.29,False,O,1
+HUM_A01,77,Apuleia leiocarpa,Fabaceae,646603.3152,8921261.406,37.0,36.83,23.7,False,O,2
+HUM_A01,78,,,646605.2756,8921268.598,59.5,2.83,,True,O,2
+HUM_A01,94,Dialium guianense,Fabaceae,646598.4953,8921261.744,38.6,29.31,18.32,False,O,2
+HUM_A01,95,Ormosia coccinea,Fabaceae,646596.5035,8921257.172,20.8,17.76,10.64,False,O,2
+HUM_A01,96,Ceiba pentandra,Malvaceae,646596.7151,8921254.787,27.3,21.13,15.53,False,O,2
+HUM_A01,97,Couratari stellata,Lecythidaceae,646595.0121,8921255.973,33.3,32.82,23.27,False,O,2
+HUM_A01,98,Casearia grandiflora,Salicaceae,646577.5554,8921268.131,39.0,27.21,26.35,False,O,2
+HUM_A01,99,Helicostylis sp.,Moraceae,646574.1492,8921270.503,39.5,30.86,21.5,False,O,2
+HUM_A01,100,,,646569.6386,8921274.855,42.2,3.06,,True,O,2
+HUM_A01,101,Hevea brasiliensis,Euphorbiaceae,646573.8295,8921280.41,38.8,25.87,16.39,False,O,2
+HUM_A01,102,Ceiba pentandra,Malvaceae,646571.8793,8921282.95,70.0,38.51,28.32,False,O,2
+HUM_A01,103,Jacaratia spinosa,Caricaceae,646585.9097,8921299.772,54.2,26.92,20.45,False,O,2
+HUM_A01,104,Hevea brasiliensis,Euphorbiaceae,646587.33,8921308.286,87.0,37.99,22.71,False,O,2
+HUM_A01,105,Ceiba pentandra,Malvaceae,646590.7027,8921306.101,58.4,33.08,16.52,False,O,2
+HUM_A01,106,Rinorea racemosa,Violaceae,646600.9256,8921303.048,35.5,30.47,20.68,False,O,2
+HUM_A01,107,Parkia paraensis,Fabaceae,646604.5425,8921299.526,135.0,47.85,21.63,False,O,2
+HUM_A01,108,Ceiba pentandra,Malvaceae,646607.8152,8921293.814,47.1,22.81,16.13,False,O,2
+HUM_A01,111,Enterolobium schomburgkii,Fabaceae,646620.6336,8921294.469,13.2,16.81,11.56,False,O,2
+HUM_A01,112,Ormosia coccinea,Fabaceae,646622.3238,8921292.541,11.0,9.52,6.52,False,O,2
+HUM_A01,113,Euterpe oleracea,Arecaceae,646620.4819,8921290.817,15.7,22.51,18.39,False,P,2
+HUM_A01,114,Euterpe oleracea,Arecaceae,646617.4739,8921292.632,16.2,21.86,20.69,False,P,2
+HUM_A01,115,Cecropia engleriana,Urticaceae,646616.9997,8921291.971,16.0,18.22,14.97,False,O,2
+HUM_A01,116,Myrcia velutina,Myrtaceae,646617.8626,8921288.87,34.0,32.62,27.68,False,O,2
+HUM_A01,117,Euterpe oleracea,Arecaceae,646622.9059,8921287.311,17.0,29.09,24.24,False,P,2
+HUM_A01,118,Helicostylis sp.,Moraceae,646621.59,8921287.187,18.1,22.45,10.91,False,O,2
+HUM_A01,119,Casearia grandiflora,Salicaceae,646612.702,8921282.512,10.9,19.29,12.1,False,O,2
+HUM_A01,120,Platymiscium trinitatis,Fabaceae,646612.6075,8921279.768,21.9,25.55,20.0,False,O,2
+HUM_A01,121,Rheedia gardneriana,Clusiaceae,646613.8249,8921277.985,11.0,16.89,10.13,False,O,2
+HUM_A01,122,Galipea sp.,,646612.337,8921276.766,19.1,18.4,11.99,False,O,2
+HUM_A01,123,Dipteryx odorata,Fabaceae,646607.4044,8921277.72,60.0,37.06,18.85,False,O,2
+HUM_A01,124,Pterocarpus sp.,Fabaceae,646610.9168,8921274.768,12.0,14.45,9.41,False,O,2
+HUM_A01,125,Annona exsucca,Annonaceae,646611.4768,8921272.92,19.5,24.54,18.11,False,O,2
+HUM_A01,126,Miconia surinamensis,,646608.5499,8921271.438,13.7,15.28,11.81,False,O,2
+HUM_A01,127,Annona exsucca,Annonaceae,646607.9086,8921269.653,13.0,14.21,11.5,False,O,2
+HUM_A01,128,Helicostylis sp.,Moraceae,646604.3024,8921263.332,19.1,25.17,16.45,False,O,2
+HUM_A01,38,Eschweilera grandifolia,Lecythidaceae,646562.6549,8921440.728,15.3,18.5,14.16,False,O,3
+HUM_A01,39,Protium hepytaphillum ,Burseraceae,646560.2172,8921442.396,25.5,26.02,21.5,False,O,3
+HUM_A01,40,Protium hepytaphillum ,Burseraceae,646558.7689,8921438.454,37.0,31.27,16.69,False,O,3
+HUM_A01,41,Cedrela odorata,Meliaceae,646556.0563,8921456.648,52.7,28.27,17.29,False,O,3
+HUM_A01,42,Dialium guianense,Fabaceae,646557.9149,8921479.374,51.0,15.05,10.8,False,O,3
+HUM_A01,43,Terminalia amazonia,Combretaceae,646567.1241,8921487.126,47.7,26.75,16.18,False,O,3
+HUM_A01,44,Hevea brasiliensis,Euphorbiaceae,646571.0646,8921495.178,66.3,39.43,25.06,False,O,3
+HUM_A01,45,Swietenia macrophylla ,Meliaceae,646584.4426,8921479.247,55.7,27.65,21.27,False,O,3
+HUM_A01,109,,,646588.6966,8921473.972,21.4,3.78,,True,O,3
+HUM_A01,110,Rinorea racemosa,Violaceae,646589.1004,8921473.121,13.3,16.98,13.03,False,O,3
+HUM_A01,111,Astronium gracile,Anacardiaceae,646592.9362,8921468.076,38.5,33.21,19.72,False,O,3
+HUM_A01,112,Helicostylis sp.,Moraceae,646590.9637,8921466.868,26.8,22.15,12.61,False,O,3
+HUM_A01,113,Stryphnodendron pulcherrimum,Fabaceae,646587.9861,8921462.878,32.2,27.67,20.24,False,O,3
+HUM_A01,114,Aspidosperma nitidum,Apocynaceae,646586.5778,8921463.439,12.3,13.85,11.12,False,O,3
+HUM_A01,115,Pouteria venosa,Sapotaceae,646585.1026,8921471.334,80.0,49.04,37.16,False,O,3
+HUM_A01,116,Rinorea passoura,Violaceae,646579.6102,8921465.136,11.8,8.95,6.05,False,O,3
+HUM_A01,117,,,646580.4659,8921464.051,15.4,17.38,13.8,False,O,3
+HUM_A01,118,Byrsonima crispa,Malpighiaceae,646581.6484,8921458.517,23.0,19.1,12.92,False,O,3
+HUM_A01,119,Euterpe oleracea,Arecaceae,646574.361,8921450.262,13.2,15.67,12.25,False,P,3
+HUM_A01,120,Inga marginata,Fabaceae,646570.9972,8921451.629,13.5,11.51,8.27,False,O,3
+HUM_A01,121,Castilla ulei,Moraceae,646569.7483,8921449.204,46.7,24.48,17.94,False,O,3
+HUM_A01,122,Apuleia leiocarpa,Fabaceae,646564.9394,8921454.4,46.2,36.41,26.95,False,O,3
+HUM_A01,123,Euterpe oleracea,Arecaceae,646570.6881,8921449.428,12.4,19.08,16.31,False,P,3
+HUM_A01,124,Annona exsucca,Annonaceae,646569.3401,8921448.187,12.2,8.91,5.7,False,O,3
+HUM_A01,125,Euterpe oleracea,Arecaceae,646562.7118,8921451.756,14.4,17.22,14.61,False,P,3
+HUM_A01,126,Jacaratia spinosa,Caricaceae,646561.4056,8921446.075,43.5,19.84,14.95,False,O,3
+HUM_A01,127,Diospyros artanthifolia,,646562.6903,8921443.364,10.2,13.18,10.66,False,O,3
+HUM_A01,1,,,646572.6645,8921634.061,76.0,41.57,27.02,False,O,4
+HUM_A01,46,Annona tenuiflora,,646595.057,8921613.783,13.5,11.73,8.43,False,O,4
+HUM_A01,47,Vitex triflora,Lamiaceae,646593.2209,8921615.762,48.1,25.27,12.35,False,O,4
+HUM_A01,48,Byrsonima crispa,Malpighiaceae,646584.8895,8921608.871,35.5,16.76,13.12,False,O,4
+HUM_A01,49,Eriotheca globosa,Malvaceae,646587.1567,8921604.019,10.3,6.23,3.91,False,O,4
+HUM_A01,50,Inga alba,Fabaceae,646583.0132,8921594.825,13.6,9.86,6.96,False,O,4
+HUM_A01,51,Eriotheca globosa,Malvaceae,646581.1476,8921596.996,12.0,12.97,9.86,False,O,4
+HUM_A01,52,Pouteria sp.,Sapotaceae,646582.1391,8921603.206,14.8,7.93,6.16,False,O,4
+HUM_A01,53,Vitex triflora,Lamiaceae,646575.6829,8921593.12,23.2,7.21,5.43,False,O,4
+HUM_A01,54,Ceiba pentandra,Malvaceae,646573.57,8921593.731,52.2,25.87,17.74,False,O,4
+HUM_A01,55,Sterculia pruriens,Malvaceae,646570.4233,8921594.007,19.9,15.84,12.19,False,O,4
+HUM_A01,56,Spondias sp.,Anacardiaceae,646575.1202,8921588.01,33.8,24.37,17.45,False,O,4
+HUM_A01,57,Astrocaryum murumuru,Arecaceae,646574.4398,8921588.671,17.6,10.74,5.67,False,P,4
+HUM_A01,58,Protium hepytaphillum ,Burseraceae,646567.5256,8921579.524,18.4,15.38,12.05,False,O,4
+HUM_A01,59,Castilla ulei,Moraceae,646565.7862,8921577.232,27.6,19.27,12.28,False,O,4
+HUM_A01,60,,,646566.7187,8921580.707,10.4,12.26,,True,O,4
+HUM_A01,61,Terminalia amazonia,Combretaceae,646545.4075,8921623.037,39.9,29.86,19.88,False,O,4
+HUM_A01,62,Swartzia corrugata,Fabaceae,646548.0761,8921623.826,48.5,29.12,21.7,False,O,4
+HUM_A01,63,Pouteria gongrijpii,Sapotaceae,646550.8501,8921628.332,38.0,24.89,19.38,False,O,4
+HUM_A01,64,Ficus broadwayi,Moraceae,646566.8652,8921644.578,90.0,49.75,40.45,False,O,4
+HUM_A01,2,Astrocaryum murumuru,Arecaceae,646449.0433,8921477.18,15.9,11.66,9.66,False,P,5
+HUM_A01,3,,,646448.6088,8921477.478,14.0,1.72,,True,O,5
+HUM_A01,4,Ceiba pentandra,Malvaceae,646445.1581,8921479.153,51.1,26.87,16.06,False,O,5
+HUM_A01,5,Sterculia pruriens,Malvaceae,646446.6274,8921473.989,31.0,28.18,20.12,False,O,5
+HUM_A01,6,,,646425.0202,8921457.303,37.1,3.02,,True,O,5
+HUM_A01,7,Swietenia macrophylla ,Meliaceae,646417.6792,8921446.87,26.5,16.97,12.96,False,O,5
+HUM_A01,8,Eschweilera grandifolia,Lecythidaceae,646396.7202,8921467.747,71.0,32.12,20.33,False,O,5
+HUM_A01,9,Tamarindus indica,,646395.9125,8921469.918,66.5,27.09,16.88,False,O,5
+HUM_A01,10,Ceiba pentandra,Malvaceae,646397.0898,8921485.845,36.2,16.85,11.01,False,O,5
+HUM_A01,11,,,646424.3138,8921493.571,48.4,19.57,11.97,False,O,5
+HUM_A01,12,Ceiba pentandra,Malvaceae,646407.5787,8921482.908,41.8,32.38,22.84,False,O,5
+HUM_A01,13,Diospyros guianensis,Ebenaceae,646406.6821,8921482.024,40.5,28.64,21.36,False,O,5
+HUM_A01,14,Protium hepytaphillum ,Burseraceae,646415.2144,8921488.972,41.0,23.09,14.14,False,O,5
+HUM_A01,15,Helicostylis sp.,Moraceae,646417.3311,8921489.596,54.8,32.71,23.84,False,O,5
+HUM_A01,16,,,646413.5021,8921497.532,64.0,6.63,,True,O,5
+HUM_A01,17,,,646410.6889,8921496.233,70.0,37.35,24.71,False,O,5
+HUM_A01,1,Helicostylis sp.,Moraceae,650912.0924,8921064.427,44.7,15.6,11.34,False,O,6
+HUM_A01,2,Tetragastris panamensis,Burseraceae,650909.143,8921061.165,67.9,29.39,15.91,False,O,6
+HUM_A01,3,Rinorea racemosa,Violaceae,650918.5652,8921075.037,53.0,27.42,16.22,False,O,6
+HUM_A01,4,Aspidosperma nitidum,Apocynaceae,650914.4725,8921075.997,58.5,25.87,18.26,False,O,6
+HUM_A01,5,Tetragastris panamensis,Burseraceae,650917.695,8921078.465,61.6,22.75,13.03,False,O,6
+HUM_A01,6,Tetragastris panamensis,Burseraceae,650910.5561,8921088.975,42.4,32.73,18.26,False,O,6
+HUM_A01,7,Tetragastris panamensis,Burseraceae,650893.0056,8921080.951,40.0,28.25,17.92,False,O,6
+HUM_A01,8,Tetragastris panamensis,Burseraceae,650889.3501,8921076.983,60.9,32.03,14.25,False,O,6
+HUM_A01,9,Bertholletia excelsa,Lecythidaceae,650893.9749,8921098.997,45.8,26.62,17.18,False,O,6
+HUM_A01,10,Tetragastris panamensis,Burseraceae,650897.6792,8921102.986,39.0,19.27,13.77,False,O,6
+HUM_A01,11,Castilla ulei,Moraceae,650936.3875,8921099.25,54.5,22.65,16.75,False,O,6
+HUM_A01,12,Tachigali alba,Fabaceae,650933.6739,8921092.654,60.1,35.21,21.07,False,O,6
+HUM_A01,19,Tetragastris panamensis,Burseraceae,650942.8218,8921092.473,39.0,24.48,15.32,False,O,6
+HUM_A01,20,Diospyros artanthifolia,,650938.966,8921087.421,18.7,21.61,8.78,False,O,6
+HUM_A01,21,Galipea trifoliata,,650939.6599,8921084.984,13.7,13.61,6.53,False,O,6
+HUM_A01,22,Iryanthera paraensis,Myristicaceae,650938.3651,8921080.567,11.8,10.3,4.98,False,O,6
+HUM_A01,23,Aspidosperma nitidum,Apocynaceae,650937.9472,8921078.234,15.3,18.71,12.47,False,O,6
+HUM_A01,24,Astrocaryum aculeatum ,Arecaceae,650934.4942,8921075.432,18.9,26.49,18.25,False,O,6
+HUM_A01,25,Hevea brasiliensis,Euphorbiaceae,650936.7526,8921071.415,22.9,22.99,17.21,False,O,6
+HUM_A01,26,Vochysia micrantha,Vochysiaceae,650934.8849,8921068.878,33.5,30.61,19.58,False,O,6
+HUM_A01,27,Tetragastris panamensis,Burseraceae,650934.7855,8921068.909,19.2,19.71,10.05,False,O,6
+HUM_A01,28,Cecropia ficifolia,Urticaceae,650932.6679,8921066.565,43.2,31.02,18.43,False,O,6
+HUM_A01,29,Platymiscium trinitatis,Fabaceae,650928.9279,8921067.533,14.8,20.11,15.47,False,O,6
+HUM_A01,30,Helicostylis sp.,Moraceae,650929.5994,8921066.463,11.7,12.99,7.61,False,O,6
+HUM_A01,31,Tetragastris panamensis,Burseraceae,650933.5597,8921063.912,16.6,16.56,12.47,False,O,6
+HUM_A01,32,Thyrsodium paraense,Anacardiaceae,650930.5137,8921060.684,20.5,23.61,13.57,False,O,6
+HUM_A01,33,Vochysia micrantha,Vochysiaceae,650929.0839,8921061.254,14.8,13.12,7.79,False,O,6
+HUM_A01,34,Rinorea racemosa,Violaceae,650932.1089,8921059.195,20.1,23.64,14.2,False,O,6
+HUM_A01,35,Apeiba echinata,Malvaceae,650929.675,8921057.394,23.5,11.57,6.67,False,O,6
+HUM_A01,36,Duguetia furfuracea,,650925.1916,8921055.956,11.0,13.58,4.78,False,O,6
+HUM_A01,37,,,650912.5388,8921060.04,76.0,40.47,25.57,False,O,6
+HUM_A01,13,Handroanthus serratifolius,Bignoniaceae,650877.9353,8920910.667,13.3,16.47,11.62,False,O,7
+HUM_A01,14,Vochysia micrantha,Vochysiaceae,650875.0446,8920907.945,14.5,14.6,11.01,False,O,7
+HUM_A01,15,Tapirira guianensis,Anacardiaceae,650875.8604,8920907.149,22.9,21.66,13.38,False,O,7
+HUM_A01,16,Dictyocaryum ptarianum,,650878.4891,8920905.217,16.6,13.74,9.81,False,O,7
+HUM_A01,17,Guarea guidonia,Meliaceae,650877.7865,8920902.273,17.4,13.96,10.26,False,O,7
+HUM_A01,18,Virola melinoni,Myristicaceae,650875.2184,8920900.291,14.2,13.13,8.61,False,O,7
+HUM_A01,19,Pourouma minor,Urticaceae,650873.7884,8920896.967,20.5,18.98,13.97,False,O,7
+HUM_A01,20,Helicostylis sp.,Moraceae,650875.8639,8920896.548,23.4,16.99,13.18,False,O,7
+HUM_A01,21,Tetragastris panamensis,Burseraceae,650876.0288,8920894.346,14.5,18.91,12.31,False,O,7
+HUM_A01,22,Diospyros artanthifolia,,650875.2795,8920890.097,14.7,17.78,9.95,False,O,7
+HUM_A01,23,Virola melinoni,Myristicaceae,650868.6462,8920892.769,45.3,31.35,24.4,False,O,7
+HUM_A01,24,Castilla ulei,Moraceae,650867.8556,8920891.68,50.1,21.91,13.07,False,O,7
+HUM_A01,25,Helicostylis sp.,Moraceae,650872.32,8920889.69,14.5,19.06,14.99,False,O,7
+HUM_A01,26,Helicostylis sp.,Moraceae,650872.1516,8920888.031,25.9,14.38,9.65,False,O,7
+HUM_A01,27,Jacaratia spinosa,Caricaceae,650873.4529,8920887.214,13.0,11.76,9.89,False,O,7
+HUM_A01,28,Swartzia corrugata,Fabaceae,650869.5381,8920887.087,43.7,18.52,13.05,False,O,7
+HUM_A01,29,Guarea guidonia,Meliaceae,650869.788,8920877.66,20.0,22.11,14.61,False,O,7
+HUM_A01,30,,,650867.9953,8920878.495,21.0,10.19,,True,O,7
+HUM_A01,31,Iryanthera paraensis,Myristicaceae,650869.9583,8920876.824,10.4,11.54,8.53,False,O,7
+HUM_A01,32,Duguetia furfuracea,,650866.6308,8920874.141,11.0,12.02,5.28,False,O,7
+HUM_A01,33,Dictyocaryum ptarianum,,650867.534,8920872.555,23.0,16.83,13.5,False,O,7
+HUM_A01,34,Maquira sclerophylla,Moraceae,650866.2688,8920872.098,41.9,23.95,16.28,False,O,7
+HUM_A01,35,Helicostylis sp.,Moraceae,650864.3159,8920872.487,30.0,25.88,19.86,False,O,7
+HUM_A01,36,Ormosia coccinea,Fabaceae,650861.0051,8920872.152,68.0,44.63,32.77,False,O,7
+HUM_A01,37,Helicostylis sp.,Moraceae,650858.5639,8920868.855,25.2,22.18,16.19,False,O,7
+HUM_A01,38,Guarea guidonia,Meliaceae,650862.7899,8920866.552,10.4,10.51,8.15,False,O,7
+HUM_A01,39,Helicostylis sp.,Moraceae,650857.0128,8920865.176,13.0,11.82,6.9,False,O,7
+HUM_A01,40,Helicostylis sp.,Moraceae,650839.6981,8920877.162,43.0,32.87,26.5,False,O,7
+HUM_A01,42,Tetragastris panamensis,Burseraceae,650830.0905,8920909.938,63.2,33.05,23.63,False,O,7
+HUM_A01,43,Helicostylis sp.,Moraceae,650835.1422,8920915.875,46.0,29.47,16.05,False,O,7
+HUM_A01,44,Tetragastris panamensis,Burseraceae,650847.2867,8920915.664,42.0,25.71,18.29,False,O,7
+HUM_A01,45,Tetragastris panamensis,Burseraceae,650856.6766,8920913.529,46.7,23.76,16.25,False,O,7
+HUM_A01,46,Bowdichia nitida,Fabaceae,650862.5286,8920902.327,38.3,28.36,19.1,False,O,7
+HUM_A01,47,,,650715.0842,8921060.623,21.5,3.97,,True,O,8
+HUM_A01,48,Laportea aestuans,,650710.6358,8921061.55,12.8,9.7,5.32,False,O,8
+HUM_A01,49,Laportea aestuans,,650713.8172,8921058.464,18.8,10.07,6.02,False,O,8
+HUM_A01,50,Jacaratia spinosa,Caricaceae,650707.4926,8921058.468,20.0,12.02,8.45,False,O,8
+HUM_A01,51,Dictyocaryum ptarianum,,650713.6602,8921051.853,17.1,19.96,22.35,False,O,8
+HUM_A01,52,Aspidosperma spruceanum,Apocynaceae,650708.3649,8921051.699,33.6,31.59,24.02,False,O,8
+HUM_A01,53,Jacaratia spinosa,Caricaceae,650708.9113,8921050.223,18.6,11.26,9.35,False,O,8
+HUM_A01,54,Virola melinoni,Myristicaceae,650706.2847,8921042.476,25.1,25.25,16.07,False,O,8
+HUM_A01,55,Helicostylis sp.,Moraceae,650707.1508,8921041.974,23.6,23.61,17.13,False,O,8
+HUM_A01,56,Helicostylis sp.,Moraceae,650705.7095,8921034.714,22.9,18.93,7.32,False,O,8
+HUM_A01,57,Chloroleucon mangense,,650700.5494,8921034.642,27.5,21.76,15.01,False,O,8
+HUM_A01,58,Chloroleucon mangense,,650700.4863,8921031.408,20.1,23.93,13.94,False,O,8
+HUM_A01,59,,,650699.8771,8921017.628,10.3,11.42,5.4,False,O,8
+HUM_A01,60,Laetia procera,Salicaceae,650697.4348,8921018.455,33.9,21.57,14.46,False,O,8
+HUM_A01,61,Euterpe oleracea,Arecaceae,650697.6205,8921018.407,14.0,17.41,13.76,False,P,8
+HUM_A01,62,Solanum absconditum,,650696.8683,8921020.664,11.5,7.81,6.04,False,O,8
+HUM_A01,63,Laportea aestuans,,650696.26,8921021.86,12.9,11.12,6.65,False,O,8
+HUM_A01,64,Hevea brasiliensis,Euphorbiaceae,650694.5155,8921018.161,13.6,12.39,7.59,False,O,8
+HUM_A01,65,Jacaratia spinosa,Caricaceae,650691.9063,8921020.911,46.4,27.8,11.37,False,O,8
+HUM_A01,66,Apuleia leiocarpa,Fabaceae,650666.2045,8921025.282,95.0,46.59,30.75,False,O,8
+HUM_A01,67,Tetragastris panamensis,Burseraceae,650705.1805,8921028.672,48.6,26.72,20.11,False,O,8
+HUM_A01,69,Pouteria gongrijpii,Sapotaceae,650670.8562,8921071.453,38.0,33.07,21.61,False,O,8
+HUM_A01,70,Tetragastris panamensis,Burseraceae,650699.6036,8921064.85,39.5,29.06,19.92,False,O,8
+HUM_A01,71,Helicostylis sp.,Moraceae,650702.4116,8921065.393,35.8,37.62,24.81,False,O,8
+HUM_A01,72,Inga marginata,Fabaceae,650652.5849,8921184.655,14.3,11.64,6.57,False,O,9
+HUM_A01,73,Jacaranda copaia,Bignoniaceae,650648.4618,8921184.688,12.4,10.49,7.67,False,O,9
+HUM_A01,74,Laportea aestuans,,650650.2073,8921173.329,16.1,13.05,6.43,False,O,9
+HUM_A01,75,Ceiba pentandra,Malvaceae,650649.5834,8921172.937,31.5,30.0,26.28,False,O,9
+HUM_A01,76,Tetragastris panamensis,Burseraceae,650646.2133,8921170.054,13.2,10.42,7.01,False,O,9
+HUM_A01,77,Inga grandis,Fabaceae,650650.3288,8921167.616,16.8,9.94,7.01,False,O,9
+HUM_A01,78,Pourouma minor,Urticaceae,650643.0752,8921166.132,18.4,14.75,11.71,False,O,9
+HUM_A01,79,Pouteria sp.,Sapotaceae,650641.7072,8921164.968,23.0,16.06,12.08,False,O,9
+HUM_A01,80,Theobroma glaucum,Malvaceae,650643.4307,8921163.431,16.7,20.63,16.74,False,O,9
+HUM_A01,81,,,650642.6144,8921158.253,36.8,27.53,20.25,False,O,9
+HUM_A01,82,,,650648.6177,8921158.762,11.0,8.78,,True,O,9
+HUM_A01,83,Geissospermum sericeum,Apocynaceae,650640.8324,8921155.536,31.2,15.23,11.33,False,O,9
+HUM_A01,84,Ceiba pentandra,Malvaceae,650638.6604,8921143.063,35.8,25.26,17.45,False,O,9
+HUM_A01,85,Neea oppositifolia,Nyctaginaceae,650639.6604,8921142.711,18.9,18.92,13.6,False,O,9
+HUM_A01,86,Casearia javitensis,Salicaceae,650642.1605,8921141.83,13.5,13.81,8.9,False,O,9
+HUM_A01,87,Galipea sp.,,650640.3481,8921139.02,20.7,21.68,12.97,False,O,9
+HUM_A01,88,Tabebuia chrysotricha,,650602.4618,8921151.579,47.8,38.68,27.29,False,O,9
+HUM_A01,89,Bertholletia excelsa,Lecythidaceae,650621.1737,8921169.89,68.8,30.97,21.97,False,O,9
+HUM_A01,90,Hevea brasiliensis,Euphorbiaceae,650634.0056,8921158.193,65.3,28.82,18.77,False,O,9
+HUM_A01,91,Apeiba echinata,Malvaceae,650602.2969,8920989.514,36.8,19.83,12.08,False,O,10
+HUM_A01,92,Laportea aestuans,,650600.163,8920986.516,19.8,14.72,9.01,False,O,10
+HUM_A01,93,Jacaratia spinosa,Caricaceae,650603.051,8920983.717,39.0,20.77,15.89,False,O,10
+HUM_A01,94,Laportea aestuans,,650598.9828,8920978.673,18.6,8.63,6.18,False,O,10
+HUM_A01,95,,,650603.0556,8920969.638,14.0,12.97,,True,O,10
+HUM_A01,96,,,650599.1712,8920970.196,28.5,2.22,,True,O,10
+HUM_A01,97,Chloroleucon mangense,,650598.1351,8920960.629,12.9,13.71,10.47,False,O,10
+HUM_A01,98,,,650598.0082,8920955.308,31.8,15.14,,True,O,10
+HUM_A01,99,Jacaratia spinosa,Caricaceae,650596.8038,8920954.376,12.7,8.62,6.38,False,O,10
+HUM_A01,100,Laportea aestuans,,650595.194,8920956.264,10.5,8.5,6.25,False,O,10
+HUM_A01,101,Laportea aestuans,,650597.9199,8920947.777,20.0,12.36,8.86,False,O,10
+HUM_A01,102,Tetragastris panamensis,Burseraceae,650594.7766,8920949.59,50.3,24.15,15.08,False,O,10
+HUM_A01,103,,,650592.3778,8920947.804,24.0,25.37,17.52,False,O,10
+HUM_A01,104,Dictyocaryum ptarianum,,650591.6214,8920948.984,24.1,24.15,16.44,False,O,10
+HUM_A01,105,Sapium marmieri,Euphorbiaceae,650596.8884,8920945.292,12.2,16.9,12.34,False,O,10
+HUM_A01,106,Apeiba echinata,Malvaceae,650556.1723,8920962.16,56.3,33.71,26.11,False,O,10
+HUM_A01,107,Rinorea racemosa,Violaceae,650564.7347,8920982.194,36.0,26.33,16.62,False,O,10
+HUM_A01,108,Astronium gracile,Anacardiaceae,650571.3774,8920998.362,45.0,35.7,28.13,False,O,10
+HUM_A01,109,Helicostylis sp.,Moraceae,650575.6365,8920995.117,41.0,36.59,24.87,False,O,10

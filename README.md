@@ -23,6 +23,10 @@ Dados brutos (baixados manualmente)
         (src/clip_lidar_to_plots.py)
                 │
                 ▼
+        Normalização do inventário              →  data/processed/04_inventory/
+        (src/prepare_inventory.py)
+                │
+                ▼
         Extração de métricas LiDAR              →  (a implementar)
         (altura do dossel, densidade, etc.)
                 │
