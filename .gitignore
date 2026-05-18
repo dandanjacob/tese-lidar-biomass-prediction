@@ -6,6 +6,8 @@ data/training/
 # Subdiretórios grandes de data/processed (não versionar)
 data/processed/kml/
 data/processed/clipped_lidar/
+data/processed/03_clipped_lidar/
+data/processed/06_model/*.joblib
 
 # Credenciais
 .env
