@@ -6,6 +6,8 @@ Análise exploratória e visualizações do pipeline de predição de biomassa.
 |---|---|
 | `02_lidar_analysis.ipynb` | Análise dos tiles LiDAR: distribuição por site/UTM, densidade de pontos, visualização de nuvem de pontos |
 | `03_inventory_analysis.ipynb` | Análise do inventário florestal: DAP, espécies, mortalidade, estimativa de biomassa (Brown 1997) |
+| `05_intersection_analysis.ipynb` | Análise de interseções: cobertura por site, match temporal, área e formato |
+| `06_inventory_data_quality.ipynb` | Qualidade dos dados de inventário: completude por campo e elegibilidade por modelo de biomassa |
 | `04_intersection_example.ipynb` | Exemplo detalhado de um plot: LiDAR clippado + árvores do inventário lado a lado |
 | `05_intersection_analysis.ipynb` | Análise das interseções: cobertura por site, melhor match temporal, distribuição de gaps |
 
