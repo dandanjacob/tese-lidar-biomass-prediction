@@ -1,4 +1,4 @@
-.PHONY: help install compile kml intersections clip pipeline notebook
+.PHONY: help install compile kml intersections clip pipeline notebook app map map-interactive inventory
 
 # Mostra este menu de ajuda
 help:
