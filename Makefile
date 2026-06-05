@@ -1,4 +1,4 @@
-.PHONY: help install compile kml intersections clip pipeline notebook app map map-interactive inventory
+.PHONY: help install install-app compile kml intersections clip pipeline notebook app map map-interactive inventory
 
 # Mostra este menu de ajuda
 help:
@@ -7,11 +7,15 @@ help:
 
 # ── Ambiente ──────────────────────────────────────────────────────────────────
 
-install: ## Instala dependências fixadas em requirements.txt
+install: ## Instala o ambiente COMPLETO (treino + app) de requirements-dev.txt
+	uv pip sync requirements-dev.txt
+
+install-app: ## Instala só as dependências do APP (deploy) de requirements.txt
 	uv pip sync requirements.txt
 
-compile: ## Recompila requirements.txt a partir de requirements.in (atualiza versões)
-	uv pip compile requirements.in -o requirements.txt
+compile: ## Recompila os dois locks (app → requirements.txt, treino → requirements-dev.txt)
+	uv pip compile requirements-app.in -o requirements.txt
+	uv pip compile requirements.in -o requirements-dev.txt
 
 # ── Pipeline de dados ─────────────────────────────────────────────────────────
 # Pré-requisito: baixar os dados brutos manualmente no ORNL DAAC (ver README)
