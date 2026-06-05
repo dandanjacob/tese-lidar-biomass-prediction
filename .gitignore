@@ -1,13 +1,20 @@
 # Data (não versionar)
 data/raw/inventory/
-data/raw/lidar/
 data/training/
+
+# LiDAR bruto: ignora os tiles .laz (GBs), MAS versiona o CSV de inventário de tiles
+# (~632 KB) — o app precisa dos limites de TODOS os tiles para a cobertura e o mapa.
+data/raw/lidar/*
+!data/raw/lidar/*/
+data/raw/lidar/*/*
+!data/raw/lidar/*/cms_brazil_lidar_tile_inventory.csv
 
 # Subdiretórios grandes de data/processed (não versionar)
 data/processed/kml/
 data/processed/clipped_lidar/
 data/processed/03_clipped_lidar/
 data/processed/06_model/*.joblib
+data/processed/06_model/*.pt
 
 # Credenciais
 .env
@@ -42,3 +49,8 @@ notebooks/results/*.html
 # OS
 .DS_Store
 Thumbs.db
+
+# Backups grandes e config local de ferramentas (não versionar)
+*.backup.tgz
+data/processed/*.backup.tgz
+.claude/

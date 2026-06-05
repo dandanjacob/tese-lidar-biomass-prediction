@@ -7,7 +7,9 @@ filters points within the plot polygon, and writes a single clipped LAZ file.
 Output: data/processed/03_clipped_lidar/{inventory_site}/{plot_id}.laz
 """
 
+import json
 import logging
+import shutil
 from collections import defaultdict
 from pathlib import Path
 
@@ -18,6 +20,8 @@ import pandas as pd
 from shapely import contains_xy, prepare
 from shapely.geometry import Polygon
 from tqdm import tqdm
+
+from plot_loading import load_plots_dissolved
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -38,18 +42,13 @@ OUTPUT_DIR = ROOT / "data/processed/03_clipped_lidar"
 
 
 def load_inventory_plots() -> dict:
-    """Returns {(site, plot_id): shapely Polygon in WGS84}"""
-    plots = {}
-    for kml in KML_DIR.glob("*.kml"):
-        if "lidar" in kml.name:
-            continue
-        try:
-            gdf = gpd.read_file(kml, driver="KML").set_crs("EPSG:4326")
-            for _, row in gdf.iterrows():
-                plots[(kml.stem, str(row["Name"]))] = row.geometry
-        except Exception as e:
-            log.warning(f"Could not read {kml.name}: {e}")
-    return plots
+    """Returns {(site, plot_id): shapely geometry in WGS84}.
+
+    Usa plot_id corrigido (ver src/plot_loading.py) e a UNIÃO das partes de cada
+    parcela — assim parcelas multipartes recortam todos os seus pedaços, não só um.
+    """
+    g = load_plots_dissolved(KML_DIR)
+    return {(r.inventory_file, str(r.plot_id)): r.geometry for r in g.itertuples()}
 
 
 def utm_proj_str(utmzone: str) -> str:
@@ -112,6 +111,13 @@ def main():
     intersections = pd.read_csv(INTERSECTIONS_CSV)
     lidar_meta = pd.read_csv(LIDAR_CSV).set_index("filename")
 
+    # Recorte é refeito do zero: remove clips antigos (plot_ids podem ter mudado) mas
+    # preserva arquivos de topo (README.md, clip_summary.json).
+    if OUTPUT_DIR.exists():
+        for sub in OUTPUT_DIR.iterdir():
+            if sub.is_dir():
+                shutil.rmtree(sub)
+
     log.info("Loading inventory plot polygons...")
     plots = load_inventory_plots()
     log.info(f"  {len(plots)} plots loaded")
@@ -125,11 +131,13 @@ def main():
     plot_chunks: dict[tuple, list] = defaultdict(list)
     plot_header: dict[tuple, laspy.LasHeader] = {}
 
+    corrupt_tiles, missing_tiles = 0, 0
     log.info(f"Reading {len(by_laz)} LAZ tiles...")
     for laz_file, plot_keys in tqdm(by_laz.items(), unit="tile"):
         laz_path = LIDAR_DIR / laz_file
         if not laz_path.exists():
             log.warning(f"Missing: {laz_file}")
+            missing_tiles += 1
             continue
 
         utmzone = lidar_meta.loc[laz_file, "utmzone"]
@@ -139,6 +147,7 @@ def main():
             las = laspy.read(laz_path)
         except Exception as e:
             log.warning(f"Skipping corrupt tile {laz_file}: {e}")
+            corrupt_tiles += 1
             continue
 
         for site, plot_id in plot_keys:
@@ -170,9 +179,22 @@ def main():
     ) - set(plot_chunks.keys())
     empty = len(no_points)
 
+    summary = {
+        "written": written,
+        "plots_no_points": empty,
+        "corrupt_tiles": corrupt_tiles,
+        "missing_tiles": missing_tiles,
+        "tiles_read": len(by_laz),
+        "plots_in_intersections": int(
+            intersections.groupby(["inventory_file", "plot_id"]).ngroups
+        ),
+    }
+    (OUTPUT_DIR / "clip_summary.json").write_text(json.dumps(summary, indent=2))
+
     log.info(f"\nDone.")
     log.info(f"  Written: {written} LAZ files")
     log.info(f"  Empty (no points after clip): {empty} plots")
+    log.info(f"  Corrupt tiles: {corrupt_tiles} · Missing tiles: {missing_tiles}")
     log.info(f"  Output: {OUTPUT_DIR}")
 
 

@@ -56,6 +56,12 @@ src/                ← scripts de processamento
 | **CloudCompare** | Inspecionar nuvens de pontos `.laz` em 3D — visualizar altura, densidade, verificar se o clip de uma parcela ficou correto | Linux: `flatpak install flathub org.cloudcompare.CloudCompare` · outros: [cloudcompare.org](https://cloudcompare.org/release/index.html) |
 | **QGIS** | Visualizar geometrias em contexto geográfico 2D — sobrepor polígonos do inventário com tiles LiDAR no mapa, validar interseções | [qgis.org](https://qgis.org/download) |
 
+## Problemas conhecidos
+
+⚠️ Há questões abertas de qualidade de dados (parcelas com `Name` repetido nos KMLs
+e clips dessincronizados das interseções) que afetam interseções, clips e biomassa.
+Detalhes, impacto e plano de correção em [`docs/known-issues.md`](docs/known-issues.md).
+
 ## Documentação detalhada
 
 | Pasta | README |

@@ -30,6 +30,9 @@ from pathlib import Path
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+from shapely.geometry import Point
+
+from plot_loading import assign_plot_ids
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -186,6 +189,61 @@ def plot_areas(site_key: str) -> dict:
         return {}
 
 
+# ── Atribuição de árvores às quadras (split espacial) ───────────────────────────
+
+def _utm_proj(lon: float, lat: float) -> str:
+    zone = int((lon + 180) // 6) + 1
+    south = "+south" if lat < 0 else ""
+    return (f"+proj=utm +zone={zone} {south} +ellps=GRS80 "
+            "+towgs84=0,0,0,0,0,0,0 +units=m +no_defs")
+
+
+def quadra_geoms(site_key: str):
+    """GeoDataFrame das quadras do site em UTM: colunas name (Name), quadra (plot_id),
+    geometry. Usa a mesma regra de plot_id do pipeline (assign_plot_ids). Retorna None
+    se não houver KML/geometria."""
+    kml = KML_DIR / f"{site_key}.kml"
+    if not kml.exists():
+        return None
+    try:
+        g = gpd.read_file(kml, driver="KML").set_crs("EPSG:4326")
+    except Exception:
+        return None
+    g = g[g.geometry.notna() & ~g.geometry.is_empty].reset_index(drop=True)
+    if g.empty:
+        return None
+    g["name"] = g["Name"].astype(str).str.strip()
+    g["quadra"] = assign_plot_ids(g["Name"])
+    c = g.geometry.union_all().centroid
+    return g.to_crs(_utm_proj(c.x, c.y))[["name", "quadra", "geometry"]]
+
+
+def assign_quadras(df: pd.DataFrame, quadras: gpd.GeoDataFrame) -> pd.Series:
+    """Para cada árvore, o id da quadra em que cai, RESTRITO às quadras do seu próprio
+    `Name` de campo (plot_id) — assim o split nunca cruza parcelas-de-campo distintas.
+    Dentro das candidatas: contém → se várias (quadras sobrepostas), centroide mais
+    próximo; se nenhuma, polígono mais próximo. NaN se sem coordenada ou Name sem quadra."""
+    east = pd.to_numeric(df["utm_easting"], errors="coerce")
+    north = pd.to_numeric(df["utm_northing"], errors="coerce")
+    field = df["plot_id"].astype(str).str.strip()
+    by_name = {nm: sub for nm, sub in quadras.groupby("name")}
+    out = pd.Series(index=df.index, dtype=object)
+    for idx in df.index:
+        x, y = east[idx], north[idx]
+        cand = by_name.get(field[idx])
+        if pd.isna(x) or pd.isna(y) or cand is None or len(cand) == 0:
+            continue
+        pt = Point(x, y)
+        inside = cand[cand.geometry.contains(pt)]
+        if len(inside) == 1:
+            out[idx] = inside.iloc[0]["quadra"]
+        elif len(inside) > 1:
+            out[idx] = inside.loc[inside.geometry.centroid.distance(pt).idxmin(), "quadra"]
+        else:
+            out[idx] = cand.loc[cand.geometry.distance(pt).idxmin(), "quadra"]
+    return out
+
+
 # ── Summary table ──────────────────────────────────────────────────────────────
 
 def build_summary(df: pd.DataFrame, site_key: str, areas: dict,
@@ -273,14 +331,38 @@ def main():
 
         df = calc_biomass(df, sp_dict, gn_dict, site_mean_wd)
 
-        # Save per-tree file
-        df.to_csv(OUT_DIR / f"{site_key}.csv", index=False, encoding="utf-8")
-
-        # Summary
-        areas = plot_areas(site_key)
         if "plot_id" not in df.columns:
             df["plot_id"] = "unknown"
-        summary = build_summary(df, site_key, areas, lidar_yr, gap)
+
+        # Split por QUADRA: atribui cada árvore à quadra pela posição (utm_easting/northing),
+        # refinando a parcela-de-campo (Name) nas quadras que a compõem. Só para sites
+        # multipartes (Name repetido); nos demais a quadra já é o próprio Name.
+        quadras = quadra_geoms(site_key)
+        df["quadra_id"] = np.nan
+        multipart = (quadras is not None and quadras["name"].nunique() < len(quadras)
+                     and {"utm_easting", "utm_northing"}.issubset(df.columns))
+        if multipart:
+            qid = assign_quadras(df, quadras)
+            df["quadra_id"] = qid
+            frac = float(qid.notna().mean())
+            if frac >= 0.5:
+                areas = dict(zip(quadras["quadra"], (quadras.geometry.area / 10_000).round(4)))
+                df_sum = df[qid.notna()].copy()
+                df_sum["plot_id"] = qid[qid.notna()].astype(str)
+                n_drop = len(df) - len(df_sum)
+                log.info(f"      quadras: {df_sum['plot_id'].nunique()} parcelas · "
+                         f"{frac:.0%} árvores localizadas"
+                         + (f" · {n_drop} sem coordenada descartadas" if n_drop else ""))
+            else:  # zona UTM provavelmente errada → não arrisca o split
+                log.warning(f"      {site_key}: só {frac:.0%} localizadas — mantendo nível de parcela")
+                areas, df_sum = plot_areas(site_key), df
+        else:
+            areas, df_sum = plot_areas(site_key), df
+
+        # Save per-tree file (inclui quadra_id quando houve split)
+        df.to_csv(OUT_DIR / f"{site_key}.csv", index=False, encoding="utf-8")
+
+        summary = build_summary(df_sum, site_key, areas, lidar_yr, gap)
         all_summaries.append(summary)
 
         n_m1 = df["iagc_m1_kgC"].notna().sum()
