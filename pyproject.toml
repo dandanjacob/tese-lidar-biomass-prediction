@@ -4,20 +4,31 @@ version = "0.1.0"
 description = "Estimativa de biomassa da floresta amazônica a partir de dados LiDAR (NASA) cruzados com inventários florestais de campo"
 readme = "README.md"
 requires-python = ">=3.11"
+# Dependências do APP Streamlit (instaladas por padrão; é o que o Streamlit Cloud
+# resolve via uv a partir deste pyproject/uv.lock). Mantido enxuto de propósito.
 dependencies = [
+    "streamlit>=1.40",
+    "folium>=0.17",
+    "plotly>=5.24",
     "geopandas>=1.1.3",
-    "jupyter>=1.1.1",
-    "landsatxplore>=0.12.1",
     "laspy[lazrs]>=2.7.0",
-    "matplotlib>=3.10.8",
     "numpy>=2.4.4",
     "pandas>=3.0.2",
     "pyproj>=3.7.2",
-    "pyyaml>=6.0.3",
-    "rasterio>=1.4.4",
-    "scikit-learn>=1.8.0",
-    "scipy>=1.17.1",
     "shapely>=2.1.2",
+    "pyyaml>=6.0.3",
+]
+
+# Dependências de TREINO/pesquisa (modelos, notebooks). NÃO vão pro deploy do app.
+# Instale localmente com:  uv sync --extra dev
+[project.optional-dependencies]
+dev = [
     "torch>=2.11.0",
     "torchvision>=0.26.0",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "matplotlib>=3.10.8",
+    "rasterio>=1.4.4",
+    "jupyter>=1.1.1",
+    "landsatxplore>=0.12.1",
 ]
