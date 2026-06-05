@@ -7,3 +7,9 @@ font = "sans serif"
 
 [server]
 headless = true
+# recarrega o app no navegador automaticamente ao salvar qualquer arquivo .py
+runOnSave = true
+
+[runner]
+# reexecuta de forma rápida assim que o código muda
+fastReruns = true

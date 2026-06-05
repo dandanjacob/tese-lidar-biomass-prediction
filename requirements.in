@@ -10,3 +10,12 @@ jupyterlab>=4.0
 pyproj>=3.6
 geopandas>=0.14
 geodatasets>=2023.3
+scikit-learn>=1.4
+joblib>=1.3
+# App Streamlit (dashboard) — necessários no deploy (Streamlit Community Cloud)
+streamlit>=1.40
+folium>=0.17
+plotly>=5.24
+# Modelo PointNet (treino da nuvem crua). Instalar a build CPU:
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0

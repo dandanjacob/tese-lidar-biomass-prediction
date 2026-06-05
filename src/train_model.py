@@ -21,7 +21,9 @@ Output:
   data/processed/06_model/cv_results.csv — per-fold metrics
 """
 
+import json
 import logging
+from datetime import datetime, timezone
 from pathlib import Path
 
 import joblib
@@ -29,7 +31,7 @@ import laspy
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.model_selection import LeaveOneGroupOut
+from sklearn.model_selection import KFold
 from sklearn.metrics import root_mean_squared_error, r2_score
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -44,6 +46,31 @@ N_PTS          = 1024   # canopy points sampled per plot
 GROUND_RADIUS  = 1.0    # m — radius for local ground estimation
 CANOPY_MIN_H   = 2.0    # m — points below this are considered ground returns
 SEED           = 42
+N_SPLITS       = 5      # dobras do k-fold (todas as parcelas num pote só, peso 1)
+OUTLIER_XY_M   = 200.0  # m — pontos além disto da mediana XY são ruído de recorte
+
+# Alvo em log: AGB é muito assimétrico (cauda longa). Treinar em log1p e prever com
+# expm1 estabiliza a cauda; as métricas continuam calculadas em Mg/ha (escala original).
+Y_FWD = np.log1p
+Y_INV = np.expm1
+
+
+def drop_xy_outliers(x: np.ndarray, y: np.ndarray, z: np.ndarray,
+                     max_dist: float = OUTLIER_XY_M):
+    """Remove pontos espúrios do recorte (ex.: retornos em zona/origem UTM errada).
+    Mantém só pontos a <= max_dist da mediana XY. Conserta parcelas cuja extensão
+    estoura para centenas de km por causa de alguns pontos fora do lugar — sem
+    descartar a parcela inteira. Devolve a nuvem intacta se não houver o que filtrar."""
+    cx, cy = np.median(x), np.median(y)
+    keep = (np.abs(x - cx) <= max_dist) & (np.abs(y - cy) <= max_dist)
+    if keep.sum() < 10 or keep.all():
+        return x, y, z
+    return x[keep], y[keep], z[keep]
+
+# Hiperparâmetros do modelo (fonte única — usados no CV, no modelo final e no JSON
+# de métricas que a página de Modelos do app lê).
+GBR_PARAMS = dict(n_estimators=300, max_depth=4, learning_rate=0.05,
+                  subsample=0.8, random_state=SEED)
 
 
 def local_ground_normalize(x: np.ndarray, y: np.ndarray,
@@ -83,6 +110,8 @@ def load_canopy_heights(laz_path: Path, n: int,
 
     if len(z) < 10:
         return None
+
+    x, y, z = drop_xy_outliers(x, y, z)
 
     # Sanity check: plot extent should be < 1 km
     x_range = x.max() - x.min()
@@ -141,33 +170,33 @@ def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str]]:
             np.array(groups), labels)
 
 
-def evaluate_cv(X: np.ndarray, y: np.ndarray, groups: np.ndarray) -> pd.DataFrame:
-    logo = LeaveOneGroupOut()
-    all_te, all_pred = [], []
-    records = []
-    for tr, te in logo.split(X, y, groups):
-        site = groups[te[0]]
-        model = GradientBoostingRegressor(
-            n_estimators=300, max_depth=4, learning_rate=0.05,
-            subsample=0.8, random_state=SEED
-        )
-        model.fit(X[tr], y[tr])
-        pred = model.predict(X[te])
+def evaluate_cv(X: np.ndarray, y: np.ndarray) -> tuple[pd.DataFrame, dict]:
+    """K-fold aleatório sobre TODAS as parcelas (peso 1 cada, sem distinção de site).
+    A métrica global agrupa as previsões de todas as dobras (cada parcela conta 1 vez)."""
+    kf = KFold(n_splits=N_SPLITS, shuffle=True, random_state=SEED)
+    all_te, all_pred, records = [], [], []
+    for i, (tr, te) in enumerate(kf.split(X), 1):
+        model = GradientBoostingRegressor(**GBR_PARAMS)
+        model.fit(X[tr], Y_FWD(y[tr]))
+        pred = Y_INV(model.predict(X[te]))
         rmse  = root_mean_squared_error(y[te], pred)
-        r2    = r2_score(y[te], pred) if len(te) > 1 else float("nan")
+        r2    = r2_score(y[te], pred)
         rrmse = rmse / y[te].mean() * 100
         all_te.extend(y[te]); all_pred.extend(pred)
-        records.append({"site": site, "n_test": len(te),
+        records.append({"fold": i, "n_test": len(te),
                         "rmse": round(rmse, 2), "r2": round(r2, 4),
                         "rrmse_pct": round(rrmse, 2)})
-        log.info(f"  {site:<45} n={len(te):>3}  "
-                 f"RMSE={rmse:.1f}  R²={r2:.3f}")
+        log.info(f"  fold {i}  n={len(te):>3}  RMSE={rmse:.1f}  R²={r2:.3f}")
 
     overall_rmse = root_mean_squared_error(all_te, all_pred)
     overall_r2   = r2_score(all_te, all_pred)
-    log.info(f"\n  LOSO global — RMSE={overall_rmse:.1f}  R²={overall_r2:.3f}  "
-             f"rRMSE={overall_rmse/np.mean(all_te)*100:.1f}%")
-    return pd.DataFrame(records)
+    overall_rrmse = overall_rmse / np.mean(all_te) * 100
+    log.info(f"\n  Global ({N_SPLITS}-fold) — RMSE={overall_rmse:.1f}  "
+             f"R²={overall_r2:.3f}  rRMSE={overall_rrmse:.1f}%")
+    global_metrics = {"rmse": round(float(overall_rmse), 2),
+                      "r2": round(float(overall_r2), 4),
+                      "rrmse_pct": round(float(overall_rrmse), 2)}
+    return pd.DataFrame(records), global_metrics
 
 
 def main():
@@ -180,21 +209,53 @@ def main():
     log.info(f"  Features por plot: {X.shape[1]} ({N_PTS} alturas + 1 densidade)")
     log.info(f"  AGB M1 — média: {y.mean():.1f}  std: {y.std():.1f}  [Mg/ha]")
 
-    log.info("\nValidação cruzada (leave-one-site-out):")
-    cv = evaluate_cv(X, y, groups)
+    log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
+    cv, global_metrics = evaluate_cv(X, y)
     cv.to_csv(OUT_DIR / "cv_results.csv", index=False)
-    log.info(f"\n  Média CV — RMSE={cv.rmse.mean():.1f}  "
+    log.info(f"\n  Média das dobras — RMSE={cv.rmse.mean():.1f}  "
              f"R²={cv.r2.mean():.3f}  rRMSE={cv.rrmse_pct.mean():.1f}%")
 
     log.info("\nTreinando modelo final (todos os plots)...")
-    final = GradientBoostingRegressor(
-        n_estimators=300, max_depth=4, learning_rate=0.05,
-        subsample=0.8, random_state=SEED
-    )
-    final.fit(X, y)
+    final = GradientBoostingRegressor(**GBR_PARAMS)
+    final.fit(X, Y_FWD(y))
     joblib.dump({"model": final, "n_pts": N_PTS, "labels": labels},
                 OUT_DIR / "model.joblib")
     log.info(f"  Salvo em {OUT_DIR / 'model.joblib'}")
+
+    # Resumo legível pelo app (página de Modelos) — fonte única de hiperparâmetros e
+    # métricas globais. cv_results.csv tem o detalhe por site.
+    metrics = {
+        "key": "gbr",
+        "name": "GBR — alturas ordenadas",
+        "model": "GradientBoostingRegressor",
+        "library": "scikit-learn",
+        "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "target": "agb_m1_Mg_ha",
+        "cv_file": "cv_results.csv",
+        "approach_key": "model_approach",
+        "n_plots": int(X.shape[0]),
+        "n_sites": int(len(set(groups))),
+        "n_features": int(X.shape[1]),
+        "agb_mean": round(float(y.mean()), 1),
+        "agb_std": round(float(y.std()), 1),
+        "cv": f"K-fold aleatório ({N_SPLITS} dobras, peso 1/parcela)",
+        "hyperparameters": GBR_PARAMS,
+        "preprocessing": {
+            "n_points": N_PTS,
+            "ground_radius_m": GROUND_RADIUS,
+            "canopy_min_h_m": CANOPY_MIN_H,
+            "target_transform": "log1p",
+            "feature": "vetor de alturas do dossel ordenadas + log(nº de pontos)",
+        },
+        "cv_global": global_metrics,
+        "cv_fold_mean": {
+            "rmse": round(float(cv.rmse.mean()), 2),
+            "r2": round(float(cv.r2.mean()), 4),
+            "rrmse_pct": round(float(cv.rrmse_pct.mean()), 2),
+        },
+    }
+    (OUT_DIR / "model_metrics.json").write_text(json.dumps(metrics, indent=2, ensure_ascii=False))
+    log.info(f"  Métricas em {OUT_DIR / 'model_metrics.json'}")
 
 
 if __name__ == "__main__":
