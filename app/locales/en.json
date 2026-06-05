@@ -2,7 +2,8 @@
   "common": {
     "language": "Language",
     "page_title": "LiDAR Biomass — Amazon",
-    "sidebar_caption": "Master's thesis · FGV\nAmazon biomass estimation from LiDAR"
+    "sidebar_caption": "Master's thesis · FGV\nAmazon biomass estimation from LiDAR",
+    "footer": "<div style=\"text-align:center; color:#888; font-size:0.85em; margin-top:2rem\">Developed by <b>Daniel Jacob Tonn</b> as part of a master's thesis at <b>EMAp – FGV</b>.<br>Contact: <a href=\"mailto:danieljt.djt@gmail.com\">danieljt.djt@gmail.com</a></div>"
   },
   "nav": {
     "section": "Navigation",
@@ -12,7 +13,8 @@
     "geometry": "Plot Geometry",
     "pointcloud": "Point Cloud",
     "biomass": "Biomass",
-    "models": "Models"
+    "models": "Models",
+    "cronograma": "Roadmap"
   },
   "charts": {
     "frequency": "Frequency",
@@ -285,5 +287,9 @@
     "importance_caption": "How much each metric contributes to the Gradient Boosting (top 15). Only available for interpretable models (ABA).",
     "col_fold": "Fold",
     "fold_mean": "Per-fold mean"
+  },
+  "cronograma": {
+    "title": "Project roadmap",
+    "caption": "What has been done and the plan for the next steps."
   }
 }

@@ -22,6 +22,7 @@ st.sidebar.caption(t("common.sidebar_caption"))
 # Navegação — os títulos vêm do JSON, então mudam de idioma automaticamente.
 pages = [
     st.Page("pages/home.py", title=t("nav.home"), icon="🏠", default=True),
+    st.Page("pages/cronograma.py", title=t("nav.cronograma"), icon="🗓️"),
     st.Page("pages/map.py", title=t("nav.map"), icon="🗺️"),
     st.Page("pages/intersections.py", title=t("nav.intersections"), icon="📊"),
     st.Page("pages/geometry.py", title=t("nav.geometry"), icon="📐"),
@@ -30,3 +31,7 @@ pages = [
     st.Page("pages/models.py", title=t("nav.models"), icon="🤖"),
 ]
 st.navigation(pages).run()
+
+# Rodapé global — aparece ao fim de qualquer página (main.py roda a cada navegação).
+st.markdown("---")
+st.markdown(t("common.footer"), unsafe_allow_html=True)

@@ -2,7 +2,8 @@
   "common": {
     "language": "Idioma",
     "page_title": "LiDAR Biomass",
-    "sidebar_caption": "Dissertação de mestrado · FGV\nEstimativa de biomassa da Amazônia por LiDAR"
+    "sidebar_caption": "Dissertação de mestrado · FGV\nEstimativa de biomassa da Amazônia por LiDAR",
+    "footer": "<div style=\"text-align:center; color:#888; font-size:0.85em; margin-top:2rem\">Desenvolvido por <b>Daniel Jacob Tonn</b> como parte de uma dissertação de mestrado na <b>EMAp – FGV</b>.<br>Contato: <a href=\"mailto:danieljt.djt@gmail.com\">danieljt.djt@gmail.com</a></div>"
   },
   "nav": {
     "section": "Navegação",
@@ -12,7 +13,8 @@
     "geometry": "Geometria das Parcelas",
     "pointcloud": "Nuvem de Pontos",
     "biomass": "Biomassa",
-    "models": "Modelos"
+    "models": "Modelos",
+    "cronograma": "Cronograma"
   },
   "charts": {
     "frequency": "Frequência",
@@ -285,5 +287,9 @@
     "importance_caption": "Quanto cada métrica contribui para o Gradient Boosting (top 15). Só disponível em modelos interpretáveis (ABA).",
     "col_fold": "Dobra",
     "fold_mean": "Média das dobras"
+  },
+  "cronograma": {
+    "title": "Cronograma do projeto",
+    "caption": "O que já foi feito e o plano dos próximos passos."
   }
 }
