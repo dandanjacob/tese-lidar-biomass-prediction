@@ -147,7 +147,7 @@ Corrigidos quatro bugs de dados e um bug do app. **Parcelas treináveis (verdes)
 | D | KML como `LineString` (sem área) → ponto-em-polígono e área falham | `FNA`, `TAP_A0x` (anel fechado) | polygonizar em `prepare_inventory` e `calculate_biomass` |
 | — | `_usability` contava linha com AGB nulo como "usável" (app) | (app) | filtrar `agb_m1_Mg_ha` não-nulo |
 
-### Resíduo (60 vermelhas, não recuperadas) — limitação genuína de dado
+### Resíduo (60 vermelhas na recuperação; 52 após o dedup do §7) — limitação genuína de dado
 
 - **`TAP_A01_2009`** (6): coordenadas não caem nos polígonos.
 - **`TAP_A04`/`TAP_A05`** (6): geometria do KML é **`MultiLineString` aberta** (não fecha em
@@ -155,21 +155,57 @@ Corrigidos quatro bugs de dados e um bug do app. **Parcelas treináveis (verdes)
   `499.998`, `500.000` — KML malformado). Cruzam tiles LiDAR (por isso aparecem como **pin
   vermelho** no mapa), mas não há polígono a desenhar nem interior a recortar (sem clip, sem
   AGB). Ver §4.
-- **`FN_2015`** (1): raw sem coordenada.
-- O restante (`TAC`, `HUM`, `SAN`, `JAM`…) são parcelas individuais sem árvore medida dentro,
+- **`FN_2015`** (1): coordenadas UTM corrompidas no CSV — recuperável por parsing (ver §8).
+- **`JAM_A03_2013`** (8): eram **feições duplicadas**, não vermelhas reais — corrigido no §7.
+- O restante (`TAC`, `HUM`, `SAN`…) são parcelas individuais sem árvore medida dentro,
   em sites que já funcionam — não são bug, são parcelas vazias.
 
 Clips **não** foram refeitos: as parcelas recuperadas já tinham `.laz` (eram "vermelhas" =
 cobertas e clipadas, só faltava o rótulo). Interseções e clips são geométricos e não mudaram.
 
-## Números de referência (auditoria 2026-06-04, pós-reprocessamento)
+## 7. Feições duplicadas no `JAM_A03_2013` (✅ 2026-06-07)
+
+O KML do `JAM_A03_2013` traz **16 feições que são, na verdade, 8 parcelas** — cada uma
+**repetida** (sobreposição 100%, distância de centroide 0,0 m; confirmado: plot 0≡8, 1≡9,
+…, 7≡15). Como o `Name` é não informativo (tudo `"0"`), o `assign_plot_ids` numerava 0..15,
+inflando a contagem. As árvores eram atribuídas à 1ª cópia (vira **verde**); a duplicata
+ficava sem AGB → **8 parcelas-fantasma vermelhas**. Varredura global de geometrias idênticas:
+**só o `JAM_A03_2013`** tinha o problema (8 duplicatas no total).
+
+**Correção:** `plot_loading.drop_duplicate_geometries` remove feições com geometria idêntica
+a uma anterior do mesmo arquivo (mantém a 1ª ocorrência, então os `plot_id` seguem batendo
+com biomassa/clips já gerados). Aplicada nos quatro pontos que leem KML —
+`plot_loading.load_plots` (→ interseções e clips), `app/lib/data.py` (→ mapa/cobertura),
+`calculate_biomass.quadra_geoms` e `outlier_filter.plot_geometry`.
+
+Efeito: **total 589 → 581 · vermelhas 60 → 52**; **verdes seguem 493** (as fantasmas eram
+todas vermelhas) → **não exige retreino**. No mapa, o que parecia "vermelho cobrindo o verde"
+era a duplicata empilhada no mesmo ponto; colapsada, sobra só a parcela verde correta.
+
+## 8. Biomassa ausente/baixa no gráfico por parcela — `FN`/`FNA` (parcial)
+
+Sintoma: no gráfico de AGB por parcela (página Biomassa, ordenado por AGB) parcelas de
+`FN`/`FNA` aparecem no fim, aparentemente sem estimativa. Dois casos distintos:
+
+- **`FNA_A01_2013`** (✅ não é bug): **tem** AGB, mas **baixa** (4–35 Mg/ha) — DBH a partir de
+  5,3 cm e média ~22 cm (nas demais a média é ~36 e começa em 10 cm), compatível com
+  **floresta secundária/jovem**. Barras curtas no fim do gráfico, não ausência de valor.
+- **`FN_A01_2015`** (🔴 aberto, recuperável): 1 linha `unknown`, **683 árvores, AGB nulo**.
+  As coordenadas UTM no CSV estão **corrompidas com pontos de milhar**
+  (`utm_easting = "70.661.811.988.124"` em vez de `706618.12`; idem northing). Sem coordenada
+  numérica → árvores não entram em nenhuma quadra → sem área → AGB/ha nulo. DBH/altura estão
+  OK, então é recuperável por parsing (como o bug A): reinterpretar o separador decimal.
+  **Ainda não corrigido** — recuperá-lo adicionaria parcela(s) treinável(is) e exigiria novo
+  retreino.
+
+## Números de referência (auditoria 2026-06-07, pós-recuperação + dedup)
 
 Conferidos contra os arquivos regerados; consistentes entre as páginas do app:
 
 | Métrica | Valor | Onde aparece |
 |---|---:|---|
 | Tiles no inventário LiDAR da NASA | 3.152 | Organização |
-| Parcelas no inventário (cada quadra = 1) | 589 | Cobertura |
+| Parcelas no inventário (cada quadra = 1, pós-dedup §7) | 581 | Cobertura |
 | Sites de inventário (total) | 28 | — |
 | Tiles LiDAR distintos usados | 242 | Home, Mapa |
 | Sites de inventário com cobertura | 27 | — |
@@ -182,7 +218,7 @@ Conferidos contra os arquivos regerados; consistentes entre as páginas do app:
 | Clips no disco | 540 (553 − 13 vazias) | Home |
 | Parcelas com AGB de campo (nível quadra) | 509 | Biomassa |
 | Parcelas treináveis / pareáveis AGB × LiDAR (verdes) | 493 | Mapa, Modelos |
-| Parcelas vermelhas (cruzam LiDAR, sem rótulo) | 60 | Mapa |
+| Parcelas vermelhas (cruzam LiDAR, sem rótulo, pós-dedup §7) | 52 | Mapa |
 | Parcelas treináveis sem outliers (área > 0,5 ha ou comp. < 0,6 removidas) | 325 | Modelos |
 </content>
 </invoke>

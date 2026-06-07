@@ -15,6 +15,7 @@ _SRC = ROOT / "src"
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
 from plot_loading import assign_plot_ids as _assign_plot_ids
+from plot_loading import drop_duplicate_geometries as _drop_dup_geoms
 
 
 def _mtime(path: Path) -> float:
@@ -90,6 +91,7 @@ def _load_plot_features(_code_key):
         if g.empty:
             continue
         g["geometry"] = g.geometry.apply(_ensure_polygon)
+        g = _drop_dup_geoms(g)  # JAM_A03_2013: 16 feições = 8 parcelas duplicadas
         g["site"] = kml.stem
         g["plot_id"] = _corrected_plot_id(g)
         frames.append(g[["site", "plot_id", "geometry"]])

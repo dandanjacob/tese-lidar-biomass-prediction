@@ -35,6 +35,21 @@ def _ensure_polygon(geom):
     return geom
 
 
+def drop_duplicate_geometries(g: "gpd.GeoDataFrame") -> "gpd.GeoDataFrame":
+    """Remove feições cuja geometria é IDÊNTICA à de uma feição anterior do mesmo arquivo.
+
+    Alguns KMLs duplicam parcelas: o `JAM_A03_2013` traz 16 feições que são, na verdade,
+    8 parcelas — cada uma repetida (sobreposição 100%, mesmo centroide). Sem isto a
+    contagem inflava e surgiam parcelas-fantasma sem rótulo (vermelhas no mapa). Mantém
+    a PRIMEIRA ocorrência, então os plot_id seguem batendo com biomassa/clips já gerados.
+    Espelhado em app/lib/data.py — manter idêntico."""
+    if g.empty:
+        return g
+    key = g.geometry.normalize().to_wkb()
+    keep = ~pd.Series(list(key), index=g.index).duplicated()
+    return g[keep.values].reset_index(drop=True)
+
+
 def assign_plot_ids(names) -> list[str]:
     """plot_id único por feature (ver regra no topo do módulo).
 
@@ -71,6 +86,7 @@ def load_plots(kml_dir) -> gpd.GeoDataFrame:
         if g.empty:
             continue
         g["geometry"] = g.geometry.apply(_ensure_polygon)
+        g = drop_duplicate_geometries(g)
         g["plot_id"] = assign_plot_ids(g["Name"])
         g["inventory_file"] = kml.stem
         frames.append(g[["inventory_file", "plot_id", "geometry"]])

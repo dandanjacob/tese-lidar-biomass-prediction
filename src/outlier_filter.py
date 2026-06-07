@@ -48,7 +48,7 @@ def plot_geometry() -> "gpd.GeoDataFrame":
     src = str(ROOT / "src")
     if src not in sys.path:
         sys.path.insert(0, src)
-    from plot_loading import assign_plot_ids
+    from plot_loading import assign_plot_ids, drop_duplicate_geometries
 
     frames = []
     for kml in KML_DIR.glob("*.kml"):
@@ -61,6 +61,7 @@ def plot_geometry() -> "gpd.GeoDataFrame":
         g = g[g.geometry.notna() & ~g.geometry.is_empty].reset_index(drop=True)
         if g.empty:
             continue
+        g = drop_duplicate_geometries(g)  # JAM_A03_2013: feições duplicadas
         g["site"] = kml.stem
         g["plot_id"] = assign_plot_ids(g["Name"])
         frames.append(g[["site", "plot_id", "geometry"]])

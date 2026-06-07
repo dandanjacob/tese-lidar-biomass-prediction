@@ -32,7 +32,7 @@ import numpy as np
 import pandas as pd
 from shapely.geometry import Point
 
-from plot_loading import assign_plot_ids
+from plot_loading import assign_plot_ids, drop_duplicate_geometries
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -229,6 +229,7 @@ def quadra_geoms(site_key: str):
           & g.geometry.geom_type.isin(["Polygon", "MultiPolygon"])].reset_index(drop=True)
     if g.empty:
         return None
+    g = drop_duplicate_geometries(g)  # JAM_A03_2013: feições duplicadas → 1 só por quadra
     g["name"] = g["Name"].astype(str).str.strip()
     g["quadra"] = assign_plot_ids(g["Name"])
     c = g.geometry.union_all().centroid
