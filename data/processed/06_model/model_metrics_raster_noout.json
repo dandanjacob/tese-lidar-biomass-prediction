@@ -1,18 +1,18 @@
 {
-  "key": "raster",
+  "key": "raster_noout",
   "name": "CNN 2D — rasters de altura",
   "model": "CNN 2D (rasters de altura)",
   "library": "PyTorch",
-  "variant": "full",
-  "trained_at": "2026-06-07 21:13 UTC",
+  "variant": "no_outliers",
+  "trained_at": "2026-06-07 21:36 UTC",
   "target": "agb_m1_Mg_ha",
-  "n_plots": 493,
-  "n_sites": 23,
+  "n_plots": 325,
+  "n_sites": 18,
   "n_features": "raster 32×32×4",
-  "agb_mean": 173.5,
-  "agb_std": 158.9,
+  "agb_mean": 153.9,
+  "agb_std": 96.2,
   "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
-  "cv_file": "cv_results_raster.csv",
+  "cv_file": "cv_results_raster_noout.csv",
   "approach_key": "model_approach_raster",
   "hyperparameters": {
     "arquitetura": "Conv(4→16→32→64)+BN+pool · global-pool · Linear(64→64→1)",
@@ -26,13 +26,13 @@
     "dropout": 0.3
   },
   "cv_global": {
-    "rmse": 142.1,
-    "r2": 0.2002,
-    "rrmse_pct": 81.9
+    "rmse": 66.15,
+    "r2": 0.5268,
+    "rrmse_pct": 42.99
   },
   "cv_fold_mean": {
-    "rmse": 138.96,
-    "r2": 0.2134,
-    "rrmse_pct": 80.53
+    "rmse": 65.83,
+    "r2": 0.5185,
+    "rrmse_pct": 42.67
   }
 }
