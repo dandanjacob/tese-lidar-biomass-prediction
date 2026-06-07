@@ -177,12 +177,17 @@ else:
     extra_cols[1].metric(t("pointcloud.plot_area"), f"{r['area_ha']:.3f} ha")
     extra_cols[2].metric(t("pointcloud.density_mean"), f"{r['rho_w_m3_mean']:.3f} g/cm³")
     # Gap de anos entre o voo LiDAR e a medição de campo (do summary de biomassa).
+    # gap_anos = ano_lidar − ano_inventário → >0 LiDAR mais recente; <0 LiDAR mais antigo.
     if "gap_anos" in r.index and np.isfinite(r["gap_anos"]):
-        gap = abs(int(round(float(r["gap_anos"]))))
+        gap_signed = int(round(float(r["gap_anos"])))
+        direction = (t("pointcloud.gap_same") if gap_signed == 0
+                     else t("pointcloud.gap_lidar_newer") if gap_signed > 0
+                     else t("pointcloud.gap_lidar_older"))
         yr = (f" · {t('pointcloud.lidar_year')} {int(r['ano_lidar'])}"
               if "ano_lidar" in r.index and np.isfinite(r["ano_lidar"]) else "")
         extra_cols[3].metric(t("pointcloud.gap_years"),
-                             t("pointcloud.gap_value", n=gap),
+                             t("pointcloud.gap_value", n=abs(gap_signed)),
+                             delta=direction, delta_color="off",
                              help=t("pointcloud.gap_help") + yr)
     else:
         extra_cols[3].metric(t("pointcloud.gap_years"), "—")
