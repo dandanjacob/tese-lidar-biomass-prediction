@@ -258,6 +258,12 @@ def main():
     joblib.dump({"model": final, "feature_names": feat_names, "labels": labels},
                 OUT_DIR / f"model_aba{SUFFIX}.joblib")
 
+    # Histórico de treino: RMSE (Mg/ha) no conjunto de treino a cada iteração de boosting.
+    stages = [root_mean_squared_error(y, Y_INV(p)) for p in final.staged_predict(X)]
+    (OUT_DIR / f"history_aba{SUFFIX}.json").write_text(json.dumps({
+        "x": list(range(1, len(stages) + 1)), "y": [round(float(v), 3) for v in stages],
+        "x_kind": "iteration", "y_kind": "rmse"}, ensure_ascii=False))
+
     # Importância das features (vantagem da ABA: modelo interpretável) — top 15.
     imp = sorted(zip(feat_names, final.feature_importances_),
                  key=lambda t: t[1], reverse=True)

@@ -174,3 +174,22 @@ render_detail(sel)
 
 st.markdown("---")
 st.markdown(t("models.results_desc"))
+
+# ── Evolução do treino (uma curva por modelo, no final da página) ──
+hist_items = [(m, data.load_model_history(m.get("cv_file", "cv_results.csv")))
+              for m in (full + noout)]
+hist_items = [(m, h) for m, h in hist_items if h and h.get("x") and h.get("y")]
+if hist_items:
+    st.markdown("---")
+    st.markdown(f"### {t('models.evolution_title')}")
+    st.caption(t("models.evolution_caption"))
+    cols = st.columns(2)
+    for i, (m, h) in enumerate(hist_items):
+        fig_h = px.line(
+            x=h["x"], y=h["y"],
+            labels={"x": t(f"models.hist_x_{h.get('x_kind', 'epoch')}"),
+                    "y": t(f"models.hist_y_{h.get('y_kind', 'loss')}")},
+            title=f"{m.get('name', m['key'])} · {_variant_label(m)}")
+        fig_h.update_traces(line_color=C_BLUE)
+        fig_h.update_layout(height=280, margin=dict(l=0, r=10, t=50, b=10))
+        cols[i % 2].plotly_chart(fig_h, use_container_width=True, key=f"hist_{m['key']}")

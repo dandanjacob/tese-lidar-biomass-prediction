@@ -138,13 +138,14 @@ class PointNetReg(nn.Module):
         return self.head(g).squeeze(-1)   # (B,)
 
 
-def train_fold(items, tr_idx, y_mean, y_std, rng):
+def train_fold(items, tr_idx, y_mean, y_std, rng, history=None):
     model = PointNetReg()
     opt = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
     lossf = nn.MSELoss()
     model.train()
     for _ in range(EPOCHS):
         order = rng.permutation(tr_idx)
+        ep_loss, nb = 0.0, 0
         for b in range(0, len(order), BATCH):
             idxs = order[b:b + BATCH]
             xb = sample_batch(items, idxs, rng)
@@ -153,6 +154,9 @@ def train_fold(items, tr_idx, y_mean, y_std, rng):
             loss = lossf(model(xb), yb)
             loss.backward()
             opt.step()
+            ep_loss += float(loss); nb += 1
+        if history is not None:
+            history.append(ep_loss / max(nb, 1))  # loss média da época (alvo padronizado)
     return model
 
 
@@ -199,10 +203,14 @@ def main():
 
     log.info("\nTreinando modelo final (todas as parcelas)...")
     y_mean, y_std = Y_FWD(y).mean(), Y_FWD(y).std() + 1e-6
-    final = train_fold(items, np.arange(len(items)), y_mean, y_std, rng)
+    hist = []
+    final = train_fold(items, np.arange(len(items)), y_mean, y_std, rng, history=hist)
     torch.save({"state_dict": final.state_dict(), "y_mean": float(y_mean),
                 "y_std": float(y_std), "n_sample": N_SAMPLE, "xyz_scale": XYZ_SCALE},
                OUT_DIR / f"model_pointnet{SUFFIX}.pt")
+    (OUT_DIR / f"history_pointnet{SUFFIX}.json").write_text(json.dumps({
+        "x": list(range(1, len(hist) + 1)), "y": [round(v, 5) for v in hist],
+        "x_kind": "epoch", "y_kind": "loss"}, ensure_ascii=False))
 
     metrics = {
         "key": f"pointnet{SUFFIX}",

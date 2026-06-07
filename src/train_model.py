@@ -276,6 +276,12 @@ def main():
                 OUT_DIR / f"model{SUFFIX}.joblib")
     log.info(f"  Salvo em {OUT_DIR / f'model{SUFFIX}.joblib'}")
 
+    # Histórico de treino: RMSE (Mg/ha) no conjunto de treino a cada iteração de boosting.
+    stages = [root_mean_squared_error(y, Y_INV(p)) for p in final.staged_predict(X)]
+    (OUT_DIR / f"history{SUFFIX}.json").write_text(json.dumps({
+        "x": list(range(1, len(stages) + 1)), "y": [round(float(v), 3) for v in stages],
+        "x_kind": "iteration", "y_kind": "rmse"}, ensure_ascii=False))
+
     # Resumo legível pelo app (página de Modelos) — fonte única de hiperparâmetros e
     # métricas globais. cv_results.csv tem o detalhe por site.
     metrics = {

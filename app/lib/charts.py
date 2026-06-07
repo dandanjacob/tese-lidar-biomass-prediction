@@ -48,10 +48,10 @@ def coverage_breakdown_bar(segments, title=None):
             hovertemplate=f"{label}: {count}<extra></extra>",
         ))
     fig.update_layout(
-        barmode="stack", height=170, title=title,
-        margin=dict(l=0, r=0, t=40 if title else 10, b=0),
+        barmode="stack", height=200, title=title,
+        margin=dict(l=0, r=0, t=40 if title else 30, b=30),
         xaxis=dict(visible=False), yaxis=dict(visible=False),
-        legend=dict(orientation="h", yanchor="top", y=-0.1, x=0),
+        legend=dict(orientation="h", yanchor="top", y=-0.2, x=0),
     )
     return fig
 

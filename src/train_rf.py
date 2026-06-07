@@ -80,6 +80,16 @@ def main():
     joblib.dump({"model": final, "feature_names": feat_names, "labels": labels},
                 OUT_DIR / f"model_rf{SUFFIX}.joblib")
 
+    # Histórico de treino: RMSE (Mg/ha) no treino conforme a floresta cresce. RF não tem
+    # "épocas"; usa-se a média acumulada das predições das primeiras k árvores.
+    tree_preds = np.array([est.predict(X) for est in final.estimators_])  # log space
+    cum = np.cumsum(tree_preds, axis=0) / np.arange(1, len(tree_preds) + 1)[:, None]
+    step = max(1, len(tree_preds) // 100)
+    xs = list(range(step, len(tree_preds) + 1, step))
+    ys = [round(float(root_mean_squared_error(y, Y_INV(cum[i - 1]))), 3) for i in xs]
+    (OUT_DIR / f"history_rf{SUFFIX}.json").write_text(json.dumps({
+        "x": xs, "y": ys, "x_kind": "trees", "y_kind": "rmse"}, ensure_ascii=False))
+
     imp = sorted(zip(feat_names, final.feature_importances_),
                  key=lambda t: t[1], reverse=True)
     log.info("\n  Features mais importantes:")

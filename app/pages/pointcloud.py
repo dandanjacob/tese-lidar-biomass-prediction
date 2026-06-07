@@ -1,5 +1,6 @@
 """Visualizador 3D de nuvem de pontos LiDAR + biomassa da parcela."""
 
+import re
 from pathlib import Path
 
 import laspy
@@ -10,6 +11,12 @@ import streamlit as st
 from lib import data
 from lib.i18n import md, t, with_acronyms
 from lib.theme import C_BLUE, C_LIGHT, C_RED
+
+
+def _natural_key(s):
+    """Ordenação natural: 'plot_2' antes de 'plot_10' (não alfabética). Quebra a string
+    em trechos numéricos e textuais, comparando números como números."""
+    return [int(c) if c.isdigit() else c.lower() for c in re.split(r"(\d+)", str(s))]
 
 st.title(t("pointcloud.title"))
 st.caption(with_acronyms(t("pointcloud.caption")), unsafe_allow_html=True)
@@ -24,7 +31,7 @@ col1, col2 = st.columns([2, 1])
 with col1:
     site = st.selectbox(t("pointcloud.site"), sites)
 with col2:
-    plots_available = sorted(clip[clip["site"] == site]["plot"].tolist())
+    plots_available = sorted(clip[clip["site"] == site]["plot"].tolist(), key=_natural_key)
     plot = st.selectbox(t("pointcloud.plot"), plots_available)
 
 max_pts = st.slider(t("pointcloud.max_points"), 5_000, 100_000, 30_000, step=5_000,
@@ -62,6 +69,7 @@ fig = go.Figure(data=[go.Scatter3d(
 )])
 
 n_noheight = 0
+n_standing = 0
 if show_trees and not trees.empty:
     tx = trees["utm_easting"].to_numpy() - cx
     ty = trees["utm_northing"].to_numpy() - cy
@@ -80,6 +88,7 @@ if show_trees and not trees.empty:
 
     # Árvores COM altura → linha vertical (solo → topo) + marcador no topo.
     has_h = np.isfinite(h_all) & (h_all > 0)
+    n_standing = int(has_h.sum())
     if has_h.any():
         lx, ly, lz = [], [], []
         for ax, ay, g, h in zip(tx[has_h], ty[has_h], ground[has_h], h_all[has_h]):
@@ -112,6 +121,15 @@ fig.update_layout(
     scene=dict(xaxis_title="X (m)", yaxis_title="Y (m)", zaxis_title=t("pointcloud.axis_z"),
                aspectmode="data"),
 )
+if show_trees and not trees.empty:
+    # Contagem no canto inferior direito: de pé (linhas vermelhas) · sem altura (×) · total.
+    fig.add_annotation(
+        xref="paper", yref="paper", x=1, y=0, xanchor="right", yanchor="bottom",
+        showarrow=False, align="right",
+        text=t("pointcloud.trees_count_box",
+               standing=n_standing, noheight=n_noheight, total=len(trees)),
+        bgcolor="rgba(255,255,255,0.75)", bordercolor="#cccccc", borderwidth=1,
+        font=dict(size=12))
 st.plotly_chart(fig, use_container_width=True)
 if show_trees and not trees.empty:
     cap = t("pointcloud.trees_caption", n=len(trees))

@@ -140,13 +140,14 @@ class VoxelCNN(nn.Module):
         return self.head(self.net(x)).squeeze(-1)
 
 
-def train_fold(items, tr_idx, y_mean, y_std, rng):
+def train_fold(items, tr_idx, y_mean, y_std, rng, history=None):
     model = VoxelCNN()
     opt = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
     lossf = nn.MSELoss()
     model.train()
     for _ in range(EPOCHS):
         order = rng.permutation(tr_idx)
+        ep_loss, nb = 0.0, 0
         for b in range(0, len(order), BATCH):
             idxs = order[b:b + BATCH]
             if len(idxs) < 2:                  # BatchNorm precisa de batch > 1
@@ -154,8 +155,12 @@ def train_fold(items, tr_idx, y_mean, y_std, rng):
             xb = make_batch(items, idxs, rng, aug=True)
             yb = torch.tensor([(Y_FWD(items[i][1]) - y_mean) / y_std for i in idxs], dtype=torch.float32)
             opt.zero_grad()
-            lossf(model(xb), yb).backward()
+            loss = lossf(model(xb), yb)
+            loss.backward()
             opt.step()
+            ep_loss += float(loss); nb += 1
+        if history is not None:
+            history.append(ep_loss / max(nb, 1))  # loss média da época (alvo padronizado)
     return model
 
 
@@ -202,7 +207,11 @@ def main():
 
     log.info("\nTreinando modelo final (todas as parcelas)...")
     y_mean, y_std = Y_FWD(y).mean(), Y_FWD(y).std() + 1e-6
-    final = train_fold(items, np.arange(len(items)), y_mean, y_std, rng)
+    hist = []
+    final = train_fold(items, np.arange(len(items)), y_mean, y_std, rng, history=hist)
+    (OUT_DIR / f"history_voxel{SUFFIX}.json").write_text(json.dumps({
+        "x": list(range(1, len(hist) + 1)), "y": [round(v, 5) for v in hist],
+        "x_kind": "epoch", "y_kind": "loss"}, ensure_ascii=False))
     torch.save({"state_dict": final.state_dict(), "y_mean": float(y_mean),
                 "y_std": float(y_std), "grid": [VX, VY, VZ], "zmax": ZMAX},
                OUT_DIR / f"model_voxel{SUFFIX}.pt")

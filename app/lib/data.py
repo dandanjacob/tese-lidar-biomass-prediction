@@ -468,6 +468,21 @@ def load_cv_results(fname="cv_results.csv"):
     return _load_cv(_mtime(_MODEL_DIR / fname), fname)
 
 
+def load_model_history(cv_file="cv_results.csv"):
+    """Histórico de treino do modelo: evolução do erro/loss conforme o treino avança
+    (history_*.json gravado pelos scripts de treino). O nome deriva do cv_file
+    (cv_results_x.csv → history_x.json). Retorna dict {x, y, x_kind, y_kind} ou None."""
+    fname = cv_file.replace("cv_results", "history").replace(".csv", ".json")
+    path = _MODEL_DIR / fname
+    if not path.exists():
+        return None
+    import json
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return None
+
+
 @st.cache_data
 def best_match(temporal_df):
     return (
