@@ -36,6 +36,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 
 # Filtro da variante "sem outliers" (no-op quando EXCLUDE_OUTLIERS != 1).
 from outlier_filter import filter_summary, SUFFIX, VARIANT
+from train_eval import save_oof, save_lc, learning_curve
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -228,7 +229,7 @@ def evaluate_cv(X: np.ndarray, y: np.ndarray) -> tuple[pd.DataFrame, dict]:
     """K-fold aleatório sobre TODAS as parcelas (peso 1 cada, sem distinção de site).
     A métrica global agrupa as previsões de todas as dobras (cada parcela conta 1 vez)."""
     kf = KFold(n_splits=N_SPLITS, shuffle=True, random_state=SEED)
-    all_te, all_pred, records = [], [], []
+    all_te, all_pred, all_idx, records = [], [], [], []
     for i, (tr, te) in enumerate(kf.split(X), 1):
         model = GradientBoostingRegressor(**GBR_PARAMS)
         model.fit(X[tr], Y_FWD(y[tr]))
@@ -236,7 +237,7 @@ def evaluate_cv(X: np.ndarray, y: np.ndarray) -> tuple[pd.DataFrame, dict]:
         rmse  = root_mean_squared_error(y[te], pred)
         r2    = r2_score(y[te], pred)
         rrmse = rmse / y[te].mean() * 100
-        all_te.extend(y[te]); all_pred.extend(pred)
+        all_te.extend(y[te]); all_pred.extend(pred); all_idx.extend(te)
         records.append({"fold": i, "n_test": len(te),
                         "rmse": round(rmse, 2), "r2": round(r2, 4),
                         "rrmse_pct": round(rrmse, 2)})
@@ -250,7 +251,7 @@ def evaluate_cv(X: np.ndarray, y: np.ndarray) -> tuple[pd.DataFrame, dict]:
     global_metrics = {"rmse": round(float(overall_rmse), 2),
                       "r2": round(float(overall_r2), 4),
                       "rrmse_pct": round(float(overall_rrmse), 2)}
-    return pd.DataFrame(records), global_metrics
+    return pd.DataFrame(records), global_metrics, (all_te, all_pred, all_idx)
 
 
 def main():
@@ -264,8 +265,12 @@ def main():
     log.info(f"  AGB M1 — média: {y.mean():.1f}  std: {y.std():.1f}  [Mg/ha]")
 
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
-    cv, global_metrics = evaluate_cv(X, y)
+    cv, global_metrics, (oof_t, oof_p, oof_i) = evaluate_cv(X, y)
     cv.to_csv(OUT_DIR / f"cv_results{SUFFIX}.csv", index=False)
+    save_oof(OUT_DIR / f"oof{SUFFIX}.json", oof_t, oof_p, groups[oof_i])
+    sizes, rmses = learning_curve(len(X), SEED, lambda tr, te: root_mean_squared_error(
+        y[te], Y_INV(GradientBoostingRegressor(**GBR_PARAMS).fit(X[tr], Y_FWD(y[tr])).predict(X[te]))))
+    save_lc(OUT_DIR / f"lc{SUFFIX}.json", sizes, rmses)
     log.info(f"\n  Média das dobras — RMSE={cv.rmse.mean():.1f}  "
              f"R²={cv.r2.mean():.3f}  rRMSE={cv.rrmse_pct.mean():.1f}%")
 

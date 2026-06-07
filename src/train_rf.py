@@ -27,6 +27,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 from train_model import OUT_DIR, SEED, N_SPLITS, Y_FWD, Y_INV
 from train_aba import build_dataset, CELL, GROUND_RADIUS, CANOPY_MIN_H
 from outlier_filter import SUFFIX, VARIANT
+from train_eval import save_oof, save_lc, learning_curve
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -38,7 +39,7 @@ RF_PARAMS = dict(n_estimators=500, max_depth=None, min_samples_leaf=3,
 
 def evaluate_cv(X, y) -> tuple[pd.DataFrame, dict]:
     kf = KFold(n_splits=N_SPLITS, shuffle=True, random_state=SEED)
-    all_te, all_pred, records = [], [], []
+    all_te, all_pred, all_idx, records = [], [], [], []
     for i, (tr, te) in enumerate(kf.split(X), 1):
         model = RandomForestRegressor(**RF_PARAMS)
         model.fit(X[tr], Y_FWD(y[tr]))
@@ -46,7 +47,7 @@ def evaluate_cv(X, y) -> tuple[pd.DataFrame, dict]:
         rmse  = root_mean_squared_error(y[te], pred)
         r2    = r2_score(y[te], pred)
         rrmse = rmse / y[te].mean() * 100
-        all_te.extend(y[te]); all_pred.extend(pred)
+        all_te.extend(y[te]); all_pred.extend(pred); all_idx.extend(te)
         records.append({"fold": i, "n_test": len(te), "rmse": round(rmse, 2),
                         "r2": round(r2, 4), "rrmse_pct": round(rrmse, 2)})
         log.info(f"  fold {i}  n={len(te):>3}  RMSE={rmse:.1f}  R²={r2:.3f}")
@@ -58,7 +59,7 @@ def evaluate_cv(X, y) -> tuple[pd.DataFrame, dict]:
              f"rRMSE={g_rrmse:.1f}%")
     return pd.DataFrame(records), {"rmse": round(float(g_rmse), 2),
                                    "r2": round(float(g_r2), 4),
-                                   "rrmse_pct": round(float(g_rrmse), 2)}
+                                   "rrmse_pct": round(float(g_rrmse), 2)}, (all_te, all_pred, all_idx)
 
 
 def main():
@@ -69,8 +70,12 @@ def main():
     log.info(f"  AGB M1 — média {y.mean():.1f} std {y.std():.1f} [Mg/ha]")
 
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
-    cv, g = evaluate_cv(X, y)
+    cv, g, (oof_t, oof_p, oof_i) = evaluate_cv(X, y)
     cv.to_csv(OUT_DIR / f"cv_results_rf{SUFFIX}.csv", index=False)
+    save_oof(OUT_DIR / f"oof_rf{SUFFIX}.json", oof_t, oof_p, groups[oof_i])
+    sizes, rmses = learning_curve(len(X), SEED, lambda tr, te: root_mean_squared_error(
+        y[te], Y_INV(RandomForestRegressor(**RF_PARAMS).fit(X[tr], Y_FWD(y[tr])).predict(X[te]))))
+    save_lc(OUT_DIR / f"lc_rf{SUFFIX}.json", sizes, rmses)
     log.info(f"\n  Média das dobras — RMSE={cv.rmse.mean():.1f}  R²={cv.r2.mean():.3f}  "
              f"rRMSE={cv.rrmse_pct.mean():.1f}%")
 

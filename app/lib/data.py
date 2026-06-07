@@ -468,11 +468,10 @@ def load_cv_results(fname="cv_results.csv"):
     return _load_cv(_mtime(_MODEL_DIR / fname), fname)
 
 
-def load_model_history(cv_file="cv_results.csv"):
-    """Histórico de treino do modelo: evolução do erro/loss conforme o treino avança
-    (history_*.json gravado pelos scripts de treino). O nome deriva do cv_file
-    (cv_results_x.csv → history_x.json). Retorna dict {x, y, x_kind, y_kind} ou None."""
-    fname = cv_file.replace("cv_results", "history").replace(".csv", ".json")
+def _model_side_json(cv_file, prefix):
+    """Lê um JSON-irmão do modelo (history/oof/lc), nomeado a partir do cv_file
+    (cv_results_x.csv → {prefix}_x.json; cv_results.csv → {prefix}.json)."""
+    fname = cv_file.replace("cv_results", prefix).replace(".csv", ".json")
     path = _MODEL_DIR / fname
     if not path.exists():
         return None
@@ -481,6 +480,22 @@ def load_model_history(cv_file="cv_results.csv"):
         return json.loads(path.read_text())
     except Exception:
         return None
+
+
+def load_model_history(cv_file="cv_results.csv"):
+    """Evolução do erro/loss conforme o treino avança. {x, y, x_kind, y_kind} ou None."""
+    return _model_side_json(cv_file, "history")
+
+
+def load_model_oof(cv_file="cv_results.csv"):
+    """Previsões out-of-fold por parcela (predito × observado, resíduos).
+    {y_true, y_pred, site} ou None."""
+    return _model_side_json(cv_file, "oof")
+
+
+def load_model_lc(cv_file="cv_results.csv"):
+    """Learning curve: erro de teste vs tamanho do treino. {sizes, rmse} ou None."""
+    return _model_side_json(cv_file, "lc")
 
 
 @st.cache_data

@@ -104,6 +104,59 @@ def render_detail(m):
         st.plotly_chart(fig_i, use_container_width=True, key=f"imp_{m['key']}")
         st.caption(t("models.importance_caption"))
 
+    # ── Diagnóstico do modelo: predito × observado, resíduos, learning curve, evolução ──
+    cvf = m.get("cv_file", "cv_results.csv")
+    oof = data.load_model_oof(cvf)
+    lc = data.load_model_lc(cvf)
+    hist = data.load_model_history(cvf)
+    if (oof and oof.get("y_true")) or (lc and lc.get("sizes")) or (hist and hist.get("x")):
+        st.markdown(f"#### {t('models.section_diagnostics')}")
+        st.caption(t("models.diag_caption"))
+        dcols, di = st.columns(2), 0
+
+        if oof and oof.get("y_true"):
+            yt, yp = oof["y_true"], oof["y_pred"]
+            mx = max(max(yt), max(yp)) * 1.05
+            fig_s = px.scatter(x=yt, y=yp, opacity=0.6,
+                               labels={"x": t("models.obs"), "y": t("models.pred")},
+                               title=t("models.scatter_title"))
+            fig_s.add_shape(type="line", x0=0, y0=0, x1=mx, y1=mx,
+                            line=dict(dash="dash", color="gray", width=1))
+            fig_s.update_traces(marker_color=C_BLUE)
+            fig_s.update_xaxes(range=[0, mx]); fig_s.update_yaxes(range=[0, mx])
+            fig_s.update_layout(height=330, margin=dict(l=0, r=10, t=50, b=10))
+            dcols[di % 2].plotly_chart(fig_s, use_container_width=True, key=f"oof_{m['key']}")
+            di += 1
+
+            resid = [p - o for p, o in zip(yp, yt)]
+            fig_r = px.scatter(x=yt, y=resid, opacity=0.6,
+                               labels={"x": t("models.obs"), "y": t("models.residual")},
+                               title=t("models.resid_title"))
+            fig_r.add_hline(y=0, line_dash="dash", line_color="gray")
+            fig_r.update_traces(marker_color=C_RED)
+            fig_r.update_layout(height=330, margin=dict(l=0, r=10, t=50, b=10))
+            dcols[di % 2].plotly_chart(fig_r, use_container_width=True, key=f"resid_{m['key']}")
+            di += 1
+
+        if lc and lc.get("sizes"):
+            fig_l = px.line(x=lc["sizes"], y=lc["rmse"], markers=True,
+                            labels={"x": t("models.lc_x"), "y": t("models.hist_y_rmse")},
+                            title=t("models.lc_title"))
+            fig_l.update_traces(line_color=C_BLUE)
+            fig_l.update_layout(height=330, margin=dict(l=0, r=10, t=50, b=10))
+            dcols[di % 2].plotly_chart(fig_l, use_container_width=True, key=f"lc_{m['key']}")
+            di += 1
+
+        if hist and hist.get("x"):
+            fig_e = px.line(x=hist["x"], y=hist["y"],
+                            labels={"x": t(f"models.hist_x_{hist.get('x_kind', 'epoch')}"),
+                                    "y": t(f"models.hist_y_{hist.get('y_kind', 'loss')}")},
+                            title=t("models.evolution_title"))
+            fig_e.update_traces(line_color=C_BLUE)
+            fig_e.update_layout(height=330, margin=dict(l=0, r=10, t=50, b=10))
+            dcols[di % 2].plotly_chart(fig_e, use_container_width=True, key=f"evo_{m['key']}")
+            di += 1
+
 
 # ── Página ──
 st.title(t("models.title"))
@@ -174,22 +227,3 @@ render_detail(sel)
 
 st.markdown("---")
 st.markdown(t("models.results_desc"))
-
-# ── Evolução do treino (uma curva por modelo, no final da página) ──
-hist_items = [(m, data.load_model_history(m.get("cv_file", "cv_results.csv")))
-              for m in (full + noout)]
-hist_items = [(m, h) for m, h in hist_items if h and h.get("x") and h.get("y")]
-if hist_items:
-    st.markdown("---")
-    st.markdown(f"### {t('models.evolution_title')}")
-    st.caption(t("models.evolution_caption"))
-    cols = st.columns(2)
-    for i, (m, h) in enumerate(hist_items):
-        fig_h = px.line(
-            x=h["x"], y=h["y"],
-            labels={"x": t(f"models.hist_x_{h.get('x_kind', 'epoch')}"),
-                    "y": t(f"models.hist_y_{h.get('y_kind', 'loss')}")},
-            title=f"{m.get('name', m['key'])} · {_variant_label(m)}")
-        fig_h.update_traces(line_color=C_BLUE)
-        fig_h.update_layout(height=280, margin=dict(l=0, r=10, t=50, b=10))
-        cols[i % 2].plotly_chart(fig_h, use_container_width=True, key=f"hist_{m['key']}")

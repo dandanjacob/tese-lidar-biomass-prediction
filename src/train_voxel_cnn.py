@@ -38,6 +38,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 from train_model import (height_above_ground, xy_inlier_mask, CANOPY_MIN_H, LAZ_DIR,
                          SUMMARY, OUT_DIR, GROUND_RADIUS, N_SPLITS, Y_FWD, Y_INV)
 from outlier_filter import filter_summary, SUFFIX, VARIANT
+from train_eval import save_oof, save_lc, learning_curve
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -185,7 +186,7 @@ def main():
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
     rng = np.random.default_rng(SEED)
     kf = KFold(n_splits=N_SPLITS, shuffle=True, random_state=SEED)
-    all_te, all_pred, records = [], [], []
+    all_te, all_pred, all_site, records = [], [], [], []
     for i, (tr, te) in enumerate(kf.split(np.zeros(len(items))), 1):
         y_mean, y_std = Y_FWD(y[tr]).mean(), Y_FWD(y[tr]).std() + 1e-6
         model = train_fold(items, tr, y_mean, y_std, rng)
@@ -193,13 +194,21 @@ def main():
         rmse = root_mean_squared_error(y[te], pred)
         r2 = r2_score(y[te], pred)
         rrmse = rmse / y[te].mean() * 100
-        all_te.extend(y[te]); all_pred.extend(pred)
+        all_te.extend(y[te]); all_pred.extend(pred); all_site.extend(groups[te])
         records.append({"fold": i, "n_test": len(te), "rmse": round(rmse, 2),
                         "r2": round(r2, 4), "rrmse_pct": round(rrmse, 2)})
         log.info(f"  fold {i}  n={len(te):>3}  RMSE={rmse:.1f}  R²={r2:.3f}")
 
     cv = pd.DataFrame(records)
     cv.to_csv(OUT_DIR / f"cv_results_voxel{SUFFIX}.csv", index=False)
+    save_oof(OUT_DIR / f"oof_voxel{SUFFIX}.json", all_te, all_pred, all_site)
+
+    def _lc_eval(tr, te):
+        ym, ys = Y_FWD(y[tr]).mean(), Y_FWD(y[tr]).std() + 1e-6
+        m = train_fold(items, tr, ym, ys, rng)
+        return root_mean_squared_error(y[te], Y_INV(predict(m, items, te, ym, ys, rng)))
+    sizes, rmses = learning_curve(len(items), SEED, _lc_eval)
+    save_lc(OUT_DIR / f"lc_voxel{SUFFIX}.json", sizes, rmses)
     g_rmse = root_mean_squared_error(all_te, all_pred)
     g_r2 = r2_score(all_te, all_pred)
     g_rrmse = g_rmse / np.mean(all_te) * 100
