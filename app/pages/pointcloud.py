@@ -40,24 +40,59 @@ with st.spinner(t("pointcloud.loading")):
     las = laspy.read(laz_path)
     n_total = len(las.x)
     idx = np.random.choice(n_total, min(max_pts, n_total), replace=False)
-    x, y, z = np.array(las.x)[idx], np.array(las.y)[idx], np.array(las.z)[idx]
-    # centraliza pra melhor visualização
-    x -= x.mean()
-    y -= y.mean()
+    # centraliza X/Y pela média da nuvem INTEIRA (não da amostra), para a posição das
+    # árvores do inventário (mesmo referencial UTM) cair no lugar certo no gráfico.
+    cx, cy = float(np.mean(las.x)), float(np.mean(las.y))
+    x = np.array(las.x)[idx] - cx
+    y = np.array(las.y)[idx] - cy
+    z = np.array(las.z)[idx]
 
 st.info(t("pointcloud.info_points", total=n_total, shown=len(idx), pct=100 * len(idx) // n_total))
+
+# Árvores do inventário de campo dentro do polígono da parcela (posição + altura).
+trees = data.plot_tree_positions(site, plot.replace("plot_", ""))
+show_trees = st.checkbox(t("pointcloud.show_trees"), value=True,
+                         help=t("pointcloud.show_trees_help")) if not trees.empty else False
 
 fig = go.Figure(data=[go.Scatter3d(
     x=x, y=y, z=z, mode="markers",
     marker=dict(size=1.5, color=z, colorscale="Viridis",
                 colorbar=dict(title=t("pointcloud.colorbar_height")), opacity=0.85),
+    name=t("pointcloud.lidar_layer"),
 )])
+
+if show_trees and not trees.empty:
+    tx = trees["utm_easting"].to_numpy() - cx
+    ty = trees["utm_northing"].to_numpy() - cy
+    th = np.nan_to_num(trees["height_m"].to_numpy(), nan=0.0)
+    # solo local de cada árvore: menor z dos pontos amostrados num raio de 2 m
+    # (fallback: menor z da nuvem). A linha vai do solo até a altura da árvore.
+    zmin = float(z.min())
+    ground = np.array([
+        z[(np.abs(x - ax) < 2) & (np.abs(y - ay) < 2)].min()
+        if ((np.abs(x - ax) < 2) & (np.abs(y - ay) < 2)).any() else zmin
+        for ax, ay in zip(tx, ty)])
+    lx, ly, lz = [], [], []
+    for ax, ay, g, h in zip(tx, ty, ground, th):
+        lx += [ax, ax, None]
+        ly += [ay, ay, None]
+        lz += [g, g + h, None]
+    fig.add_trace(go.Scatter3d(
+        x=lx, y=ly, z=lz, mode="lines", line=dict(color=C_RED, width=5),
+        name=t("pointcloud.trees_layer")))
+    fig.add_trace(go.Scatter3d(
+        x=tx, y=ty, z=ground + th, mode="markers",
+        marker=dict(size=3, color=C_RED, symbol="circle"),
+        name=t("pointcloud.trees_tops"),
+        hovertext=[f"{h:.1f} m" for h in th], hoverinfo="text"))
 fig.update_layout(
     height=620, margin=dict(l=0, r=0, t=10, b=0),
     scene=dict(xaxis_title="X (m)", yaxis_title="Y (m)", zaxis_title=t("pointcloud.axis_z"),
                aspectmode="data"),
 )
 st.plotly_chart(fig, use_container_width=True)
+if show_trees and not trees.empty:
+    st.caption(t("pointcloud.trees_caption", n=len(trees)))
 
 c1, c2, c3 = st.columns(3)
 c1.metric(t("pointcloud.height_min"), f"{z.min():.1f} m")

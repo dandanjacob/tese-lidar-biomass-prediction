@@ -213,6 +213,58 @@ def load_plot_quality():
 
 
 @st.cache_data
+def _plot_tree_positions(_code_key, _inv_mtime, site, plot_id):
+    """Árvores do inventário de campo que caem DENTRO do polígono da parcela (quadra),
+    em coordenadas UTM (mesmo referencial do .laz recortado). Para sobrepor a posição e a
+    altura das árvores à nuvem de pontos. Filtro espacial (within) — funciona em sites
+    multiparte sem depender de como o plot_id é nomeado. Colunas: utm_easting, utm_northing,
+    height_m (htot medida; se ausente, htot_feldpausch), dbh, dead. Vazio se sem dado."""
+    inv_path = ROOT / "data/processed/04_inventory" / f"{site}.csv"
+    if not inv_path.exists():
+        return pd.DataFrame()
+    inv = pd.read_csv(inv_path, low_memory=False)
+    if not {"utm_easting", "utm_northing"}.issubset(inv.columns):
+        return pd.DataFrame()
+    e = pd.to_numeric(inv["utm_easting"], errors="coerce")
+    n = pd.to_numeric(inv["utm_northing"], errors="coerce")
+    ok = e.notna() & n.notna()
+    feats = load_plot_features()
+    sub = feats[(feats["site"] == site) & (feats["plot_id"].astype(str) == str(plot_id))]
+    if not ok.any() or sub.empty:
+        return pd.DataFrame()
+    poly_ll = sub.dissolve(by="plot_id").geometry.iloc[0]
+    utm = _utm_proj(poly_ll.centroid.x, poly_ll.centroid.y)
+    poly_u = gpd.GeoSeries([poly_ll], crs="EPSG:4326").to_crs(utm).iloc[0]
+    pts = gpd.GeoDataFrame(inv[ok].copy(),
+                           geometry=gpd.points_from_xy(e[ok], n[ok]), crs=utm)
+    inside = pts[pts.geometry.within(poly_u)]
+    if inside.empty:
+        return pd.DataFrame()
+    h = pd.to_numeric(inside.get("htot"), errors="coerce") if "htot" in inside else pd.Series(dtype=float)
+    hf = (pd.to_numeric(inside.get("htot_feldpausch"), errors="coerce")
+          if "htot_feldpausch" in inside else pd.Series(dtype=float))
+    h = h.reindex(inside.index)
+    out = pd.DataFrame({
+        "utm_easting": inside.geometry.x.to_numpy(),
+        "utm_northing": inside.geometry.y.to_numpy(),
+        "height_m": h.where(h.notna(), hf.reindex(inside.index)).to_numpy(),
+        "dbh": (pd.to_numeric(inside.get("dbh"), errors="coerce").to_numpy()
+                if "dbh" in inside else np.nan),
+        # 'dead' às vezes vem sujo (ex.: JAM_A03) — normaliza pra booleano robusto.
+        "dead": (inside["dead"].astype(str).str.upper().isin(["TRUE", "1", "T", "YES"]).to_numpy()
+                 if "dead" in inside else np.zeros(len(inside), dtype=bool)),
+    })
+    return out.reset_index(drop=True)
+
+
+def plot_tree_positions(site, plot_id):
+    return _plot_tree_positions(
+        _src_mtime(),
+        _mtime(ROOT / "data/processed/04_inventory" / f"{site}.csv"),
+        site, plot_id)
+
+
+@st.cache_data
 def _inventory_plot_counts(_code_key):
     """Nº de parcelas distintas por site, com plot_id corrigido (ver _corrected_plot_id).
     Consistente com as interseções (sempre inventário ≥ interseção)."""
