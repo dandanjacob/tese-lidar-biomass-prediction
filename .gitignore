@@ -1,5 +1,6 @@
 # Data (não versionar)
 data/raw/inventory/
+data/raw/metadata/
 data/training/
 
 # LiDAR bruto: ignora os tiles .laz (GBs), MAS versiona o CSV de inventário de tiles

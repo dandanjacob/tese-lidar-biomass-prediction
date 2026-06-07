@@ -14,4 +14,4 @@ horizontal plane** (around the vertical axis) and flips in X/Y — the height ax
 rotated, since canopy top and base are not interchangeable.
 
 > 3D convolution is the most complete representation, but also the heaviest and most
-> prone to overfitting: many more parameters for only ~380 plots.
+> prone to overfitting: many more parameters for only ~493 plots.

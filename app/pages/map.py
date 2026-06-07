@@ -14,13 +14,24 @@ st.markdown(t("map.intro_map"))
 
 raw = data.load_intersections()
 
-intersected_keys = set(zip(raw["inventory_file"], raw["plot_id"].astype(str)))
+# Categoria de aproveitamento por parcela (verde/vermelho/cinza) — mesma do gráfico
+# "O que chega aos modelos" e do funil de treino.
+USABILITY = data.plot_usability()
+
+# Estilo por categoria: (cor do pin folium, cor do polígono)
+CAT_STYLE = {
+    "green": ("green", "#2e9e5b"),
+    "red":   ("red",   "#e84545"),
+    "gray":  ("gray",  "#aaaaaa"),
+}
 
 
 @st.cache_data
-def build_map(csv_mtime: float, layer_tiles: str, layer_yes: str, layer_no: str, tooltip_tpl: str) -> str:
-    # csv_mtime entra só como chave de cache: muda quando o CSV de interseções é
-    # regerado, forçando o mapa a recolorir (senão ficaria preso na versão antiga).
+def build_map(cache_key: float, layer_tiles: str, lbl_green: str, lbl_red: str,
+              lbl_gray: str, tooltip_tpl: str) -> str:
+    # cache_key entra só como chave de cache: soma os mtimes de interseções, biomassa
+    # e clips (+ código), então o mapa recolore quando QUALQUER um deles é regerado
+    # (senão as cores verde/vermelho/cinza ficariam presas na versão antiga).
     lidar_csv_dir = sorted((data.ROOT / "data/raw/lidar").glob("LiDAR_Forest_Inventory_Brazil_*"))[0]
     lidar_meta = pd.read_csv(lidar_csv_dir / "cms_brazil_lidar_tile_inventory.csv")
 
@@ -39,22 +50,23 @@ def build_map(csv_mtime: float, layer_tiles: str, layer_yes: str, layer_no: str,
     tile_group.add_to(m)
 
     # Uma marcação por parcela (plot_id corrigido; partes unidas por dissolve) —
-    # mesma definição de parcela do pipeline, então o vermelho/cinza bate com o CSV.
+    # mesma definição de parcela do pipeline, então as cores batem com o funil.
     all_plots = data.load_plot_features().dissolve(by=["site", "plot_id"]).reset_index()
     all_plots = all_plots[all_plots.geometry.notna() & ~all_plots.geometry.is_empty]
 
     rows = list(all_plots.iterrows())
-    n_yes = sum((r["site"], r["plot_id"]) in intersected_keys for _, r in rows)
-    n_no = len(rows) - n_yes
-    plot_group_yes = folium.FeatureGroup(name=f"{layer_yes} ({n_yes})", show=True)
-    plot_group_no = folium.FeatureGroup(name=f"{layer_no} ({n_no})", show=True)
+    cats = [USABILITY.get((r["site"], r["plot_id"]), "gray") for _, r in rows]
+    n = {c: cats.count(c) for c in ("green", "red", "gray")}
+    groups = {
+        "green": folium.FeatureGroup(name=f"{lbl_green} ({n['green']})", show=True),
+        "red":   folium.FeatureGroup(name=f"{lbl_red} ({n['red']})", show=True),
+        "gray":  folium.FeatureGroup(name=f"{lbl_gray} ({n['gray']})", show=True),
+    }
 
-    for _, row in rows:
+    for (_, row), cat in zip(rows, cats):
         geom = row.geometry
-        has = (row["site"], row["plot_id"]) in intersected_keys
-        grp = plot_group_yes if has else plot_group_no
-        pin_color = "red" if has else "gray"
-        poly_color = "#e84545" if has else "#aaaaaa"
+        grp = groups[cat]
+        pin_color, poly_color = CAT_STYLE[cat]
         site_short = row["site"].replace("_inventory_plots", "").replace("_inventory", "")
         tooltip = tooltip_tpl.format(site=site_short, plot=row["plot_id"])
         # representative_point() cai SOBRE a geometria (o centroide de um MultiPolygon
@@ -68,30 +80,52 @@ def build_map(csv_mtime: float, layer_tiles: str, layer_yes: str, layer_no: str,
             tooltip=tooltip,
         ).add_to(grp)
 
-        # Polígono — visível ao aproximar
+        # Geometria — visível ao aproximar. Polígonos viram área preenchida; parcelas
+        # de inventário LINEAR (transectos TAP_A01/A04/A05, ver docs/known-issues.md §6)
+        # não têm área → desenhadas como linha, em vez de sumirem (antes o .exterior numa
+        # LineString estourava e era engolido → pin sem geometria, parecia bug silencioso).
         try:
-            geoms = geom.geoms if geom.geom_type == "MultiPolygon" else [geom]
-            for part in geoms:
-                coords = [[c2[1], c2[0]] for c2 in part.exterior.coords]
-                folium.Polygon(
-                    locations=coords, color=poly_color, fill=True,
-                    fill_opacity=0.5, weight=1.5, tooltip=tooltip,
-                ).add_to(grp)
+            gt = geom.geom_type
+            if gt in ("Polygon", "MultiPolygon"):
+                parts = geom.geoms if gt == "MultiPolygon" else [geom]
+                for part in parts:
+                    coords = [[c2[1], c2[0]] for c2 in part.exterior.coords]
+                    folium.Polygon(
+                        locations=coords, color=poly_color, fill=True,
+                        fill_opacity=0.5, weight=1.5, tooltip=tooltip,
+                    ).add_to(grp)
+            elif gt in ("LineString", "MultiLineString"):
+                parts = geom.geoms if gt == "MultiLineString" else [geom]
+                for part in parts:
+                    coords = [[c2[1], c2[0]] for c2 in part.coords]
+                    folium.PolyLine(
+                        locations=coords, color=poly_color, weight=3,
+                        opacity=0.9, tooltip=f"{tooltip} (transecto / sem área)",
+                    ).add_to(grp)
         except Exception:
             pass
 
-    plot_group_yes.add_to(m)
-    plot_group_no.add_to(m)
+    for g in groups.values():
+        g.add_to(m)
     folium.LayerControl(collapsed=False).add_to(m)
     return m._repr_html_()
 
 
 _inters_csv = data.ROOT / "data/processed/02_intersections/lidar_inventory_intersections.csv"
+_summary_csv = data.ROOT / "data/processed/05_biomass/summary.csv"
+_clip_json = data.ROOT / "data/processed/03_clipped_lidar/clip_summary.json"
+_cache_key = (data._mtime(_inters_csv) + data._mtime(_summary_csv)
+              + data._mtime(_clip_json) + data._src_mtime())
 components.html(
-    build_map(data._mtime(_inters_csv), t("map.layer_tiles"), t("map.layer_plots_yes"),
-              t("map.layer_plots_no"), t("map.tooltip_plot")),
+    build_map(_cache_key, t("map.layer_tiles"),
+              t("map.layer_usable"), t("map.layer_covered_nolabel"),
+              t("map.layer_no_lidar"), t("map.tooltip_plot")),
     height=580, scrolling=False,
 )
+st.caption(t("map.legend_caption"))
+
+with st.expander(t("map.design_note_title")):
+    st.markdown(t("map.design_note"))
 
 st.markdown("---")
 st.markdown(f"### {t('map.table_title')}")

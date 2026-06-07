@@ -14,4 +14,4 @@ plano horizontal** (em torno do eixo vertical) e espelha em X/Y — o eixo de al
 é girado, pois cabeça e base do dossel não são intercambiáveis.
 
 > Convolução 3D é a representação mais completa, mas também a mais pesada e a mais
-> propensa a overfit: são muito mais parâmetros para apenas ~380 parcelas.
+> propensa a overfit: são muito mais parâmetros para apenas ~493 parcelas.

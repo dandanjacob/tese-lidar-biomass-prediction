@@ -26,6 +26,7 @@ pages = [
     st.Page("pages/map.py", title=t("nav.map"), icon="🗺️"),
     st.Page("pages/intersections.py", title=t("nav.intersections"), icon="📊"),
     st.Page("pages/geometry.py", title=t("nav.geometry"), icon="📐"),
+    st.Page("pages/outliers.py", title=t("nav.outliers"), icon="🔍"),
     st.Page("pages/pointcloud.py", title=t("nav.pointcloud"), icon="☁️"),
     st.Page("pages/biomass.py", title=t("nav.biomass"), icon="🌿"),
     st.Page("pages/models.py", title=t("nav.models"), icon="🤖"),

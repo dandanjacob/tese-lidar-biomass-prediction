@@ -2705,6 +2705,128 @@ ANA_A01,119a,Couratari stellata,Lecythidaceae,722079.648035251,9628713.28580328,
 ANA_A01,120a,Apeiba petoumo,Malvaceae,722080.097536496,9628718.71151158,O,,,,,10.2,False,22,10.78
 ANA_A01,121a,,,722080.993648632,9628719.65926846,O,,,,,12.7,False,22,12.6
 ANA_A01,122a,Eschweilera coriacea,Lecythidaceae,722083.687669085,9628728.87596199,O,,,,,11.1,False,22,11.45
+ANA_A01,106a,Albizia pedicellaris,Fabaceae,722061.441725501,9628843.83495103,O,26.0,False,,,,True,23,
+ANA_A01,107a,Eschweilera coriacea,Lecythidaceae,722064.529377398,9628844.03958378,O,25.7,False,,,,True,23,
+ANA_A01,108a,Helicostylis tomentosa,Moraceae,722070.683547735,9628843.61994442,O,12.0,False,,,12.2,False,23,12.25
+ANA_A01,109a,Abarema jupunba,Fabaceae,722075.856622821,9628847.32104504,O,29.5,False,,,30.2,False,23,22.22
+ANA_A01,110a,Minquartia guianensis,Olacaceae,722077.863413127,9628843.13036517,O,27.8,False,,,27.8,False,23,21.14
+ANA_A01,111a,Eschweilera coriacea,Lecythidaceae,722077.890320036,9628846.15842336,O,19.7,False,,,20.4,False,23,17.39
+ANA_A01,112a,Caryocar glabrum,Caryocaraceae,722077.903773491,9628847.67245245,O,97.5,False,27.72,51.47,100.9,False,23,39.07
+ANA_A01,113a,Virola michelii,Myristicaceae,722070.759918801,9628848.31685838,O,13.9,False,,,15.1,False,23,14.21
+ANA_A01,114a,Lecythis lurida,Lecythidaceae,722067.666084201,9628846.90803168,O,51.6,False,32.25,43.57,52.2,False,23,29.91
+ANA_A01,114b,Eschweilera coriacea,Lecythidaceae,722089.146058743,9628842.36102636,O,16.2,False,,,16.2,False,23,14.91
+ANA_A01,115a,Sterculia pruriens,Malvaceae,722068.763641334,9628850.93073303,O,15.2,False,,,15.3,False,23,14.34
+ANA_A01,115b,Eschweilera coriacea,Lecythidaceae,722089.142124385,9628843.64925176,O,31.0,False,,,32.5,False,23,23.2
+ANA_A01,116a,Pouteria sp.,Sapotaceae,722061.573809618,9628849.01560638,O,24.0,False,,,24.2,False,23,19.4
+ANA_A01,116b,,,722090.156521194,9628845.95138166,O,13.9,False,,,14.1,False,23,13.56
+ANA_A01,117a,Nectandra cuspidata,Lauraceae,722061.843261216,9628859.58414329,O,23.8,False,,,,True,23,
+ANA_A01,117b,Eschweilera parviflora,Lecythidaceae,722087.596112475,9628850.61225152,O,23.5,False,,,24.0,False,23,19.3
+ANA_A01,118a,Eschweilera coriacea,Lecythidaceae,722061.867036357,9628860.51666126,O,15.4,False,,,16.6,False,23,15.16
+ANA_A01,118b,Eschweilera coriacea,Lecythidaceae,722089.727613117,9628851.42649598,O,16.5,False,,,17.5,False,23,15.71
+ANA_A01,119a,Dialium guianense,Fabaceae,722067.856873433,9628856.75848792,O,27.4,False,,,28.0,False,23,21.23
+ANA_A01,119b,Brosimum rubescens,Moraceae,722094.221117057,9628848.20154553,O,40.0,False,,,41.9,False,23,26.73
+ANA_A01,120a,Mezilaurus itauba,Lauraceae,722071.872117897,9628854.2536479,O,14.1,False,,,14.0,False,23,13.49
+ANA_A01,120b,Eschweilera coriacea,Lecythidaceae,722101.44956572,9628841.81300531,O,12.2,False,,,13.4,False,23,13.08
+ANA_A01,121a,Albizia pedicellaris,Fabaceae,722068.989041984,9628863.22371957,O,40.5,False,,,43.4,False,23,27.23
+ANA_A01,121b,Maquira coriacea,Moraceae,722101.447954488,9628841.9100912,O,57.2,False,29.31,39.37,,True,23,
+ANA_A01,122a,,,722074.067244367,9628866.77921296,L,12.6,False,,,13.1,False,23,12.88
+ANA_A01,122b,Lecythis idatimon,Lecythidaceae,722109.640090867,9628841.72820426,O,19.0,False,,,19.4,False,23,16.83
+ANA_A01,123a,Virola elongata,Myristicaceae,722075.067858134,9628866.6707792,O,64.9,False,22.17,37.04,65.7,False,23,33.25
+ANA_A01,123b,Eschweilera parviflora,Lecythidaceae,722110.607874709,9628843.75967675,O,55.3,False,23.56,35.32,54.1,False,23,30.43
+ANA_A01,124a,Eschweilera coriacea,Lecythidaceae,722072.089284706,9628868.52517239,O,12.6,False,,,12.7,False,23,12.6
+ANA_A01,124b,,,722107.284599468,9628854.84179115,O,60.0,True,,23.28,,True,23,
+ANA_A01,125a,Eugenia punicifolia,Myrtaceae,722071.082005473,9628868.12558249,O,17.4,False,,,18.0,False,23,16.01
+ANA_A01,125b,Sloanea guianensis,Elaeocarpaceae,722107.252882098,9628856.18693493,O,12.0,False,,,12.1,False,23,12.18
+ANA_A01,126a,Protium paniculatum,Burseraceae,722068.043687889,9628866.40372633,O,14.5,False,,,14.6,False,23,13.89
+ANA_A01,126b,Guatteria schomburgkiana,Annonaceae,722100.174835455,9628858.02748692,O,19.3,False,,,20.5,False,23,17.45
+ANA_A01,127a,Aiouea sp.,Lauraceae,722066.135115272,9628871.04382344,O,16.6,False,,,16.5,False,23,15.1
+ANA_A01,127b,,,722093.146879147,9628855.66388964,O,12.8,True,,,,True,23,
+ANA_A01,128a,Pouteria guianensis,Sapotaceae,722067.188734216,9628873.70482631,O,46.0,False,,,75.09999999999998,False,23,35.15
+ANA_A01,128b,Rinorea racemosa,Violaceae,722087.891346694,9628856.24697304,O,11.5,False,,,11.9,False,23,12.03
+ANA_A01,129a,Couratari stellata,Lecythidaceae,722064.172591573,9628872.61435593,O,19.8,False,,,20.1,False,23,17.22
+ANA_A01,129b,Pouteria reticulata,Sapotaceae,722088.087452732,9628859.30544275,O,19.5,False,,,17.2,False,23,15.53
+ANA_A01,130a,Nectandra cuspidata,Lauraceae,722062.191963285,9628873.26107342,O,17.6,False,,,17.6,False,23,15.77
+ANA_A01,130b,Eschweilera coriacea,Lecythidaceae,722091.072470989,9628865.92343438,O,27.5,False,,,28.0,False,23,21.23
+ANA_A01,131a,Coussarea brevicaulis,Rubiaceae,722062.165546461,9628872.22494235,O,33.4,False,,,34.7,False,23,24.09
+ANA_A01,131b,Maquira coriacea,Moraceae,722089.059502862,9628870.70198523,O,23.5,False,,,24.2,False,23,19.4
+ANA_A01,132a,Pouteria guianensis,Sapotaceae,722062.337255813,9628878.95979431,O,27.7,False,,,27.7,False,23,21.09
+ANA_A01,132b,Eschweilera coriacea,Lecythidaceae,722090.052363112,9628870.97988664,O,45.5,False,,,46.2,False,23,28.14
+ANA_A01,133a,Brosimum parinarioides,Moraceae,722068.27223749,9628878.20375203,O,18.2,False,,,18.5,False,23,16.31
+ANA_A01,133b,Nectandra cuspidata,Lauraceae,722088.856669795,9628872.11333476,O,13.0,False,,,13.4,False,23,13.08
+ANA_A01,134a,Protium heptaphyllum,Burseraceae,722069.233226021,9628876.54112167,O,23.7,False,,,23.6,False,23,19.1
+ANA_A01,134b,Ocotea canaliculata,Lauraceae,722092.02538979,9628873.1091474,O,27.0,False,,,27.5,False,23,21.0
+ANA_A01,135a,Protium paniculatum,Burseraceae,722071.281234342,9628880.37840153,O,23.5,False,,,23.4,False,23,18.99
+ANA_A01,135b,Protium paniculatum,Burseraceae,722092.988028702,9628876.82522234,O,44.5,False,,,46.5,False,23,28.23
+ANA_A01,136a,Tachigali paniculata,Fabaceae,722075.25146477,9628881.88638421,O,38.6,False,,,46.2,False,23,28.14
+ANA_A01,136b,Abarema mataybifolia,Fabaceae,722091.000608716,9628879.55224987,O,24.5,False,,,27.2,False,23,20.86
+ANA_A01,137a,Nectandra cuspidata,Lauraceae,722066.371102274,9628882.05879382,O,12.0,False,,,12.1,False,23,12.18
+ANA_A01,137b,Manilkara huberi,Sapotaceae,722087.063809789,9628878.79248789,O,12.5,False,,,13.1,False,23,12.88
+ANA_A01,138a,Hevea brasiliensis,Euphorbiaceae,722065.466764107,9628885.79954409,O,16.0,False,,,16.9,False,23,15.35
+ANA_A01,138b,Cordia scabrifolia,Boraginaceae,722086.669248307,9628879.34237877,O,10.2,False,,,10.2,False,23,10.78
+ANA_A01,139a,,,722062.464056565,9628883.93322345,O,11.2,True,,,,True,23,
+ANA_A01,139b,Tachigali paniculata,Fabaceae,722086.079412412,9628884.99889357,O,27.5,False,,,29.7,False,23,22.0
+ANA_A01,140a,Chimarrhis turbinata,Rubiaceae,722062.456131518,9628883.62238413,O,47.3,False,,,48.7,False,23,28.9
+ANA_A01,140b,Tetragastris altissima,Burseraceae,722087.056961662,9628886.84623616,O,16.9,False,,,17.0,False,23,15.41
+ANA_A01,141a,Inga thibaudiana,Fabaceae,722062.720299752,9628893.98369483,O,15.0,False,,,15.5,False,23,14.47
+ANA_A01,141b,Eschweilera coriacea,Lecythidaceae,722092.922272006,9628885.58502983,O,23.0,False,,,24.4,False,23,19.5
+ANA_A01,142a,Tachigali myrmecophila,Fabaceae,722066.54974664,9628890.39722935,O,12.4,False,,,14.6,False,23,13.89
+ANA_A01,142b,Pouteria cladantha,Sapotaceae,722089.974141627,9628889.7759971,O,40.0,False,,,41.7,False,23,26.66
+ANA_A01,143a,Lecythis lurida,Lecythidaceae,722068.524635744,9628891.23508477,O,52.4,False,33.95,46.87,54.1,False,23,30.43
+ANA_A01,143b,Minquartia guianensis,Olacaceae,722090.947493122,9628889.62572219,O,11.0,False,,,10.7,False,23,11.15
+ANA_A01,144b,Tachigali paniculata,Fabaceae,722095.824910465,9628887.8951205,O,14.0,False,,,16.4,False,23,15.04
+ANA_A01,145a,Cordia scabrifolia,Boraginaceae,722070.507111716,9628892.78149548,O,11.2,False,,,14.0,False,23,13.49
+ANA_A01,145b,Rinorea guianensis,Violaceae,722095.827042438,9628887.69927508,O,17.0,False,,,17.0,False,23,15.41
+ANA_A01,146a,Cecropia engleriana,Urticaceae,722072.41503492,9628889.93245913,O,22.0,False,,,25.5,False,23,20.05
+ANA_A01,146b,Abarema mataybifolia,Fabaceae,722097.825157826,9628883.69439875,O,13.5,False,,,15.0,False,23,14.15
+ANA_A01,147a,Couratari stellata,Lecythidaceae,722076.302620883,9628887.82904588,O,10.7,False,,,10.8,False,23,11.23
+ANA_A01,147b,Swartzia corrugata,Fabaceae,722099.84285304,9628879.52045535,O,20.0,False,,,21.8,False,23,18.15
+ANA_A01,148a,Eschweilera ovata,Lecythidaceae,722081.196885675,9628888.11547601,O,11.6,False,,,11.9,False,23,12.03
+ANA_A01,148b,Inga marginata,Fabaceae,722100.93880519,9628872.58923122,O,25.0,False,,,24.7,False,23,19.65
+ANA_A01,149a,Pouteria gongrijpii,Sapotaceae,722082.190093866,9628891.57979134,O,44.2,False,,,46.0,False,23,28.07
+ANA_A01,149b,Virola elongata,Myristicaceae,722102.856377334,9628875.72852855,O,21.4,False,,,22.0,False,23,18.26
+ANA_A01,150a,Pradosia cochlearia,Sapotaceae,722086.080417089,9628889.08234416,O,40.6,False,,,41.9,False,23,26.73
+ANA_A01,150b,Brosimum parinarioides,Moraceae,722106.792980226,9628875.69151969,O,15.0,False,,,16.2,False,23,14.91
+ANA_A01,151a,Virola sebifera,Myristicaceae,722084.103707343,9628878.18626099,O,17.4,False,,,,True,23,
+ANA_A01,151b,,,722107.767544734,9628876.0409002,O,37.5,True,,,,True,23,
+ANA_A01,152a,Vismia floribunda,Hypericaceae,722081.1444687,9628878.87562355,O,30.9,False,,,36.4,False,23,24.75
+ANA_A01,152b,Zygia racemosa,Fabaceae,722107.864902331,9628872.10841251,O,14.5,False,,,15.6,False,23,14.54
+ANA_A01,153a,Tachigali paniculata,Fabaceae,722079.164854949,9628878.32919315,O,14.6,False,,,17.5,False,23,15.71
+ANA_A01,153b,Couratari stellata,Lecythidaceae,722107.425401979,9628869.86654315,O,11.8,False,,,11.9,False,23,12.03
+ANA_A01,154a,Sagotia racemosa,Euphorbiaceae,722077.189799196,9628878.58622818,O,20.3,False,,,20.4,False,23,17.39
+ANA_A01,154b,Brosimum rubescens,Moraceae,722109.587132296,9628866.74483315,O,21.0,False,,,22.9,False,23,18.73
+ANA_A01,155a,Chimarrhis turbinata,Rubiaceae,722076.168821465,9628875.67664563,O,12.9,False,,,12.7,False,23,12.6
+ANA_A01,155b,Inga thibaudiana,Fabaceae,722105.06579685,9628864.3819307,O,40.0,False,,,42.0,False,23,26.77
+ANA_A01,156a,,,722079.149097991,9628876.31383498,O,10.6,False,,,11.1,False,23,11.45
+ANA_A01,156b,Virola sebifera,Myristicaceae,722106.151579221,9628860.42186078,O,35.0,False,,,36.4,False,23,24.75
+ANA_A01,157a,Minquartia guianensis,Olacaceae,722080.125230872,9628874.17665389,O,37.9,False,,,38.7,False,23,25.61
+ANA_A01,157b,Vochysia guianensis,Vochysiaceae,722100.063673922,9628865.22422748,O,18.8,False,,,21.0,False,23,17.72
+ANA_A01,158a,Sagotia racemosa,Euphorbiaceae,722079.11915977,9628872.48465447,O,16.4,False,,,16.5,False,23,15.1
+ANA_A01,158b,Couratari stellata,Lecythidaceae,722107.660688834,9628880.35704521,O,13.5,False,,,14.3,False,23,13.69
+ANA_A01,159a,Pouteria sp.,Sapotaceae,722083.103010301,9628874.4117758,O,11.9,False,,,11.8,False,23,11.96
+ANA_A01,159b,Poeppigia procera,Fabaceae,722108.567165027,9628883.09089489,O,24.6,False,,,24.6,False,23,19.6
+ANA_A01,160a,Heisteria densifrons,Olacaceae,722082.090121826,9628869.82210965,O,14.9,False,,,15.0,False,23,14.15
+ANA_A01,160b,Sloanea guianensis,Elaeocarpaceae,722104.594888343,9628886.55770905,O,19.2,False,,,21.9,False,23,18.21
+ANA_A01,161a,Albizia pedicellaris,Fabaceae,722084.064405742,9628861.99742522,O,15.7,False,,,16.1,False,23,14.85
+ANA_A01,161b,Manilkara huberi,Sapotaceae,722103.692166387,9628883.13271001,O,14.0,False,,,15.3,False,23,14.34
+ANA_A01,162a,Pouteria guianensis,Sapotaceae,722085.065581936,9628859.30132723,O,50.0,False,24.39,36.27,55.7,False,23,30.85
+ANA_A01,162b,,,722104.399999945,9628886.5874293,O,22.8,False,,,26.1,False,23,20.34
+ANA_A01,163a,Helicostylis tomentosa,Moraceae,722083.052724128,9628860.0976975,O,21.2,False,,,22.9,False,23,18.73
+ANA_A01,163b,Tachigali myrmecophila,Fabaceae,722102.609417767,9628888.78993473,O,40.0,False,,,46.8,False,23,28.32
+ANA_A01,164a,Protium paniculatum,Burseraceae,722083.050614218,9628859.4971068,O,15.6,False,,,17.7,False,23,15.83
+ANA_A01,165a,Ocotea canaliculata,Lauraceae,722084.053973835,9628857.70038857,O,10.7,False,,,10.6,False,23,11.08
+ANA_A01,166a,Licania octandra,Chrysobalanaceae,722079.023042326,9628860.19096967,O,41.3,False,,,41.4,False,23,26.56
+ANA_A01,167a,,,722077.980009735,9628856.25195064,L,19.3,False,,,20.1,False,23,17.22
+ANA_A01,168a,Virola sebifera,Myristicaceae,722081.998442397,9628849.8692126,O,11.2,False,,,13.1,False,23,12.88
+ANA_A01,169a,Xylopia nitida,Annonaceae,722085.052627257,9628849.62424635,O,32.9,False,,,34.8,False,23,24.13
+ANA_A01,170a,Pradosia cochlearia,Sapotaceae,722085.048620655,9628846.63133474,O,38.3,False,,,39.5,False,23,25.89
+ANA_A01,171a,Minquartia guianensis,Olacaceae,722079.923627624,9628844.29829246,O,16.6,False,,,22.9,False,23,18.73
+ANA_A01,172a,Pouteria macrophylla,Sapotaceae,722062.112712814,9628870.15268021,O,,,,,10.8,False,23,11.23
+ANA_A01,173a,Eschweilera ovata,Lecythidaceae,722063.212450929,9628874.17872886,O,,,,,10.3,False,23,10.85
+ANA_A01,174a,Eschweilera ovata,Lecythidaceae,722065.316319327,9628879.09732824,O,,,,,10.7,False,23,11.15
+ANA_A01,175a,Couratari stellata,Lecythidaceae,722073.880611302,9628852.55455057,O,,,,,10.2,False,23,10.78
+ANA_A01,176a,,,722072.792623543,9628847.55094848,L,,,,,11.6,False,23,11.82
+ANA_A01,177a,Protium hebetatum,Burseraceae,722078.904865141,9628845.07578345,O,,,,,10.8,False,23,11.23
+ANA_A01,178a,Eschweilera apiculata,Lecythidaceae,722078.975771452,9628854.14489518,O,,,,,15.9,False,23,14.73
 ANA_A01,164b,Aspidosperma spruceanum,Apocynaceae,722079.483616836,9628998.49225013,O,63.0,False,26.75,39.68,65.6,False,24,33.22
 ANA_A01,165b,Geissospermum sericeum,Apocynaceae,722082.250220509,9628990.89283746,O,36.8,False,,,,True,24,
 ANA_A01,166b,Parinari excelsa,Chrysobalanaceae,722079.755961983,9628995.8422904,O,25.5,False,,,26.7,False,24,20.62
@@ -3286,6 +3408,376 @@ ANA_A01,470a,Duguetia surinamensis,Annonaceae,721703.487465698,9628939.55034871,
 ANA_A01,471a,Aspidosperma parvifolium,Apocynaceae,721702.071283183,9628963.47192938,O,,,,,10.7,False,28,11.15
 ANA_A01,472a,,,721710.209393344,9628970.95490789,O,,,,,11.1,False,28,11.45
 ANA_A01,473a,,,721710.2477772,9628968.01396383,O,,,,,11.5,False,28,11.75
+ANA_A01,001a,Brosimum rubescens,Moraceae,722908.922645748,9628700.52943162,O,29.2,False,,,29.6,False,29,21.95
+ANA_A01,002a,Micropholis venulosa,Sapotaceae,722912.730771595,9628703.05129807,O,15.5,False,,,16.0,False,29,14.79
+ANA_A01,002b,Geissospermum sericeum,Apocynaceae,722935.950202954,9628700.92756226,O,16.3,False,,,,True,29,
+ANA_A01,003a,Geissospermum sericeum,Apocynaceae,722914.70527954,9628702.15983046,O,11.5,False,,,11.8,False,29,11.96
+ANA_A01,003b,Myrcia splendens,Myrtaceae,722945.088239593,9628704.18093954,O,14.8,False,,,15.1,False,29,14.21
+ANA_A01,004a,Eschweilera sp.,Lecythidaceae,722915.696633772,9628700.27122324,O,23.6,False,,,23.4,False,29,18.99
+ANA_A01,004b,Theobroma glaucum,Malvaceae,722934.302416927,9628703.80439239,O,13.3,False,,,13.5,False,29,13.15
+ANA_A01,005a,Inga heterophylla,Fabaceae,722910.689487036,9628705.18154518,O,13.1,False,,,13.5,False,29,13.15
+ANA_A01,005b,Neea oppositifolia,Nyctaginaceae,722934.817813353,9628709.19317983,O,12.6,False,,,12.3,False,29,12.32
+ANA_A01,006a,Lecythis idatimon,Lecythidaceae,722910.546475664,9628709.10098516,O,24.2,False,,,28.2,False,29,21.32
+ANA_A01,006b,Helicostylis tomentosa,Moraceae,722938.6850942,9628707.87631581,O,10.3,False,,,10.9,False,29,11.3
+ANA_A01,007a,Eschweilera ovata,Lecythidaceae,722930.163468902,9628700.74003682,O,24.7,False,,,26.5,False,29,20.53
+ANA_A01,007b,Lecythis lurida,Lecythidaceae,722935.97641055,9628710.70402778,O,25.7,False,,,25.5,False,29,20.05
+ANA_A01,008a,Spondias sp.,Anacardiaceae,722931.376355884,9628703.89705815,O,15.5,False,,,15.8,False,29,14.66
+ANA_A01,008b,,,722934.115000045,9628701.84483331,O,10.4,False,,,11.6,False,29,11.82
+ANA_A01,009a,Eschweilera ovata,Lecythidaceae,722931.539388928,9628705.9483428,O,12.3,False,,,13.4,False,29,13.08
+ANA_A01,010a,Zygia racemosa,Fabaceae,722926.310730736,9628700.71220387,O,31.3,False,,,31.4,False,29,22.73
+ANA_A01,010b,Eschweilera ovata,Lecythidaceae,722934.611805699,9628718.06045242,O,17.0,False,,,17.2,False,29,15.53
+ANA_A01,011a,Virola michelii,Myristicaceae,722923.725224433,9628709.24102139,O,13.8,False,,,14.8,False,29,14.02
+ANA_A01,012a,Alibertia edulis,Rubiaceae,722924.778030663,9628710.25106272,O,17.1,False,,,19.2,False,29,16.71
+ANA_A01,012b,Helicostylis tomentosa,Moraceae,722939.606214081,9628715.74631019,O,12.0,False,,,,True,29,
+ANA_A01,013a,Pouteria gongrijpii,Sapotaceae,722924.826186161,9628711.41488888,O,10.6,False,,,11.2,False,29,11.53
+ANA_A01,013b,Aspidosperma excelsum,Apocynaceae,722936.917540658,9628720.02136155,O,26.0,False,,,25.9,False,29,20.24
+ANA_A01,014a,Pouteria sp.,Sapotaceae,722928.954822717,9628712.07127961,O,12.7,False,,,15.4,False,29,14.41
+ANA_A01,014b,Thyrsodium spruceanum,Anacardiaceae,722934.762001643,9628719.72439048,O,20.4,False,,,21.9,False,29,18.21
+ANA_A01,015a,Virola michelii,Myristicaceae,722928.219936619,9628717.08714258,O,42.1,False,,,48.5,False,29,28.84
+ANA_A01,015b,Eschweilera ovata,Lecythidaceae,722937.066140149,9628721.49251952,O,11.4,False,,,11.6,False,29,11.82
+ANA_A01,016a,Tachigali paniculata,Fabaceae,722927.72872864,9628713.96062353,O,12.5,False,,,31.4,False,29,22.73
+ANA_A01,016b,Micropholis venulosa,Sapotaceae,722941.157129105,9628719.92836633,O,15.4,False,,,,True,29,
+ANA_A01,017a,Couratari stellata,Lecythidaceae,722924.938548988,9628714.13048325,O,16.9,False,,,17.3,False,29,15.59
+ANA_A01,017b,Protium paniculatum,Burseraceae,722943.134326906,9628718.84491257,O,17.7,False,,,,True,29,
+ANA_A01,018a,Enterolobium maximum,Fabaceae,722926.119026216,9628717.18525913,O,63.2,False,,,70.0,False,29,34.15
+ANA_A01,018b,Maquira coriacea,Moraceae,722940.297053992,9628721.64880597,O,10.5,False,,,,True,29,
+ANA_A01,019a,Lecythis pisonis,Lecythidaceae,722924.03816969,9628717.96078562,O,13.0,False,,,13.3,False,29,13.02
+ANA_A01,019b,Eschweilera ovata,Lecythidaceae,722940.320081989,9628721.84555583,O,15.5,False,,,15.4,False,29,14.41
+ANA_A01,020a,Tachigali paniculata,Fabaceae,722922.983154829,9628718.10524151,O,12.4,False,,,13.8,False,29,13.36
+ANA_A01,020b,Aspidosperma parvifolium,Apocynaceae,722940.343109986,9628722.04230569,O,14.4,False,,,,True,29,
+ANA_A01,021a,Pradosia cochlearia,Sapotaceae,722919.743886623,9628714.09771982,O,12.3,False,,,43.3,False,29,27.2
+ANA_A01,021b,Matayba guianensis,Sapindaceae,722942.450996554,9628721.75299694,O,12.7,False,,,12.8,False,29,12.67
+ANA_A01,022a,Pouteria guianensis,Sapotaceae,722923.933854604,9628715.05419754,O,38.7,False,,,38.8,False,29,25.64
+ANA_A01,022b,Dipteryx odorata,Fabaceae,722934.800376457,9628724.9875338,O,67.2,False,24.55,32.44,,True,29,
+ANA_A01,023a,Couratari stellata,Lecythidaceae,722913.410386295,9628718.42854227,O,14.8,False,,,15.4,False,29,14.41
+ANA_A01,023b,Swartzia polyphylla,Fabaceae,722936.513936138,9628726.92718943,O,70.0,False,19.28,35.71,,True,29,
+ANA_A01,024a,Tetragastris panamensis,Burseraceae,722916.603685809,9628720.50270531,O,26.9,False,,,27.9,False,29,21.18
+ANA_A01,024b,Lecythis lurida,Lecythidaceae,722939.988557404,9628728.47600848,O,18.9,False,,,18.9,False,29,16.54
+ANA_A01,025a,Cecropia palmata,Urticaceae,722917.679607338,9628720.16963757,O,21.5,False,,,,True,29,
+ANA_A01,025b,Virola sebifera,Myristicaceae,722940.255794172,9628728.88099913,O,31.5,False,,,32.5,False,29,23.2
+ANA_A01,026a,Lecythis idatimon,Lecythidaceae,722915.494348958,9628724.2943025,O,24.3,False,,,25.0,False,29,19.8
+ANA_A01,026b,,,722940.098339504,9628729.45876534,O,16.3,False,,,16.8,False,29,15.29
+ANA_A01,027a,Lacmellea aculeata,Apocynaceae,722907.869364415,9628722.56627926,O,11.0,False,,,11.2,False,29,11.53
+ANA_A01,027b,Protium paniculatum,Burseraceae,722940.208121603,9628730.4415222,O,16.3,False,,,18.7,False,29,16.42
+ANA_A01,028a,Brosimum rubescens,Moraceae,722907.723455313,9628725.61900274,O,22.1,False,,,23.0,False,29,18.79
+ANA_A01,028b,Pradosia cochlearia,Sapotaceae,722935.778033027,9628730.98044208,O,28.0,False,,,28.0,False,29,21.23
+ANA_A01,029a,Neea oppositifolia,Nyctaginaceae,722908.863693299,9628724.91287955,O,14.0,False,,,14.9,False,29,14.08
+ANA_A01,029b,Eschweilera ovata,Lecythidaceae,722936.9731075,9628731.72810916,O,31.2,False,,,31.4,False,29,22.73
+ANA_A01,030a,Virola michelii,Myristicaceae,722914.382496854,9628725.19816799,O,11.6,False,,,12.7,False,29,12.6
+ANA_A01,030b,,,722938.05680342,9628731.30023928,O,10.5,True,,,,True,29,
+ANA_A01,031a,Hymenaea parvifolia,Fabaceae,722914.342149018,9628728.07796018,O,80.5,False,29.88,43.96,74.7,False,29,35.07
+ANA_A01,031b,Micropholis venulosa,Sapotaceae,722939.396201987,9628733.325788,O,11.9,False,,,11.9,False,29,12.03
+ANA_A01,032a,Eschweilera ovata,Lecythidaceae,722913.165893156,9628730.89474004,O,45.6,False,,,46.6,False,29,28.26
+ANA_A01,032b,Diospyros artanthifolia,Ebenaceae,722941.678733813,9628733.45379754,O,11.6,False,,,12.3,False,29,12.32
+ANA_A01,033a,Minquartia guianensis,Olacaceae,722910.835031229,9628732.6826222,O,13.0,False,,,13.9,False,29,13.42
+ANA_A01,033b,Vataireopsis speciosa,Fabaceae,722944.417772004,9628733.60740898,O,12.0,False,,,13.4,False,29,13.08
+ANA_A01,034a,Tachigali paniculata,Fabaceae,722907.212773454,9628736.30353493,O,45.0,False,,,90.1,False,29,37.62
+ANA_A01,034b,Lecythis lurida,Lecythidaceae,722943.961265639,9628733.58180707,O,37.8,False,,,37.8,False,29,25.28
+ANA_A01,035a,Virola mollissima,Myristicaceae,722913.071857333,9628735.68943149,O,67.2,False,26.51,41.89,36.4,False,29,24.75
+ANA_A01,035b,Guarea guidonia,Meliaceae,722944.087121396,9628734.56754125,O,10.5,False,,,11.6,False,29,11.82
+ANA_A01,036a,Pouteria sp.,Sapotaceae,722916.56268321,9628734.93143947,O,12.4,False,,,12.6,False,29,12.53
+ANA_A01,036b,Theobroma glaucum,Malvaceae,722941.042465556,9628737.91047431,O,14.0,False,,,14.0,False,29,13.49
+ANA_A01,037a,Neea oppositifolia,Nyctaginaceae,722920.00802162,9628733.20259987,O,11.8,False,,,11.8,False,29,11.96
+ANA_A01,037b,Eschweilera ovata,Lecythidaceae,722940.636271789,9628734.27427394,O,13.7,False,,,14.2,False,29,13.62
+ANA_A01,038a,Hymenaea parvifolia,Fabaceae,722916.546282171,9628740.70293313,O,15.7,False,,,16.2,False,29,14.91
+ANA_A01,038b,Micropholis venulosa,Sapotaceae,722939.876553368,9628737.84190431,O,15.7,False,,,16.6,False,29,15.16
+ANA_A01,039a,Brosimum rubescens,Moraceae,722915.351940448,9628741.2065503,O,14.0,False,,,14.8,False,29,14.02
+ANA_A01,039b,Pouteria sp.,Sapotaceae,722938.75026771,9628738.16564311,O,10.5,False,,,,True,29,
+ANA_A01,040a,Eschweilera coriacea,Lecythidaceae,722912.959014346,9628741.44306123,O,17.0,False,,,18.2,False,29,16.13
+ANA_A01,040b,Parkia multijuga,Fabaceae,722936.414157024,9628738.02770917,O,20.6,False,,,21.3,False,29,17.88
+ANA_A01,041a,Duguetia surinamensis,Annonaceae,722907.978441712,9628745.92218719,O,20.0,False,,,20.1,False,29,17.22
+ANA_A01,041b,Geissospermum sericeum,Apocynaceae,722935.221203881,9628737.66540381,O,11.5,False,,,11.5,False,29,11.75
+ANA_A01,042a,Rinorea guianensis,Violaceae,722915.303392093,9628746.97208932,O,14.2,False,,,14.6,False,29,13.89
+ANA_A01,042b,Couratari stellata,Lecythidaceae,722936.732219023,9628741.55134272,O,20.8,False,,,21.5,False,29,17.99
+ANA_A01,043a,Eschweilera coriacea,Lecythidaceae,722916.529881131,9628746.47442679,O,10.1,False,,,10.2,False,29,10.78
+ANA_A01,043b,Geissospermum sericeum,Apocynaceae,722940.29425022,9628741.76896198,O,34.2,False,,,34.1,False,29,23.85
+ANA_A01,044a,Laetia procera,Salicaceae,722927.479101488,9628746.21360157,O,23.5,False,,,23.8,False,29,19.2
+ANA_A01,044b,Geissospermum sericeum,Apocynaceae,722942.599853694,9628741.32379191,O,21.4,False,,,21.1,False,29,17.78
+ANA_A01,045a,Cordia scabrifolia,Boraginaceae,722929.911654121,9628746.36939944,O,22.1,False,,,27.0,False,29,20.76
+ANA_A01,045b,Eschweilera ovata,Lecythidaceae,722946.021027053,9628740.55289817,O,22.6,False,,,25.8,False,29,20.19
+ANA_A01,046a,Eschweilera coriacea,Lecythidaceae,722934.699124604,9628745.70419295,O,13.0,False,,,14.2,False,29,13.62
+ANA_A01,046b,Neea oppositifolia,Nyctaginaceae,722949.410053096,9628739.77604978,O,14.6,False,,,15.1,False,29,14.21
+ANA_A01,047a,Aspidosperma parvifolium,Apocynaceae,722932.143449721,9628743.6007453,O,15.6,False,,,15.6,False,29,14.54
+ANA_A01,047b,Licania canescens,Chrysobalanaceae,722949.454239286,9628740.07296096,O,10.8,False,,,27.3,False,29,20.91
+ANA_A01,048a,Eschweilera ovata,Lecythidaceae,722926.102306846,9628742.25628211,O,33.8,False,,,33.7,False,29,23.69
+ANA_A01,048b,Geissospermum sericeum,Apocynaceae,722936.944260355,9628743.90043174,O,18.5,False,,,19.1,False,29,16.65
+ANA_A01,049a,Pouteria sp.,Sapotaceae,722928.542841744,9628743.37598047,O,13.6,False,,,,True,29,
+ANA_A01,049b,Eschweilera ovata,Lecythidaceae,722940.722389494,9628745.79419609,O,19.8,False,,,19.9,False,29,17.11
+ANA_A01,050a,Inga thibaudiana,Fabaceae,722929.462028207,9628738.58673981,O,10.1,False,,,,True,29,
+ANA_A01,050b,Maquira coriacea,Moraceae,722943.164039621,9628746.14416347,O,23.4,False,,,23.8,False,29,19.2
+ANA_A01,051a,Tachigali paniculata,Fabaceae,722932.946129445,9628738.30871315,O,10.2,False,,,,True,29,
+ANA_A01,051b,Virola sebifera,Myristicaceae,722938.519296779,9628747.8944715,O,27.2,False,,,27.4,False,29,20.95
+ANA_A01,052a,Cordia scabrifolia,Boraginaceae,722934.078046339,9628737.88977523,O,13.2,False,,,,True,29,
+ANA_A01,052b,Pouteria sp.,Sapotaceae,722941.79996204,9628744.69149662,O,11.9,False,,,13.0,False,29,12.81
+ANA_A01,053a,Geissospermum sericeum,Apocynaceae,722924.747512275,9628737.72558455,O,13.0,False,,,,True,29,
+ANA_A01,053b,Virola mollissima,Myristicaceae,722963.884901369,9628748.15032123,O,15.9,False,,,,True,29,
+ANA_A01,054a,Pouteria guianensis,Sapotaceae,722925.861529358,9628736.43715131,O,25.3,False,,,27.8,False,29,21.14
+ANA_A01,054b,Tapirira guianensis,Anacardiaceae,722962.570335126,9628747.5730051,O,39.1,False,,,,True,29,
+ANA_A01,055a,Hymenaea parvifolia,Fabaceae,722923.565548254,9628737.2690725,O,67.3,False,35.12,41.85,67.9,False,29,33.72
+ANA_A01,055b,Aspidosperma parvifolium,Apocynaceae,722958.806617716,9628746.64433218,O,14.3,False,,,,True,29,
+ANA_A01,056a,Eschweilera coriacea,Lecythidaceae,722923.506720635,9628735.333332,O,18.0,False,,,18.5,False,29,16.31
+ANA_A01,056b,Pouteria sp.,Sapotaceae,722957.52714017,9628746.16975772,O,10.5,False,,,,True,29,
+ANA_A01,057a,Lecythis lurida,Lecythidaceae,722925.62075187,9628730.61802051,O,24.9,False,,,24.9,False,29,19.75
+ANA_A01,057b,Inga marginata,Fabaceae,722960.615949462,9628743.70118294,O,12.1,False,,,,True,29,
+ANA_A01,058a,Sloanea guianensis,Elaeocarpaceae,722925.644829619,9628731.19993359,O,14.2,False,,,18.7,False,29,16.42
+ANA_A01,058b,Lecythis idatimon,Lecythidaceae,722962.647557088,9628742.14659654,O,13.4,False,,,,True,29,
+ANA_A01,059a,,,722927.881852152,9628730.74206029,O,10.2,False,,,11.0,False,29,11.38
+ANA_A01,059b,Hymenaea parvifolia,Fabaceae,722962.338221018,9628740.64566537,O,74.8,False,31.17,41.19,,True,29,
+ANA_A01,060a,Lecythis idatimon,Lecythidaceae,722927.576780032,9628724.91102021,O,17.6,False,,,18.9,False,29,16.54
+ANA_A01,061b,,,722960.742453062,9628738.47638719,O,33.5,True,,,,True,29,
+ANA_A01,062b,Diospyros artanthifolia,Ebenaceae,722958.22690776,9628737.34279468,O,15.9,False,,,16.4,False,29,15.04
+ANA_A01,063b,Guatteria schomburgkiana,Annonaceae,722961.368967997,9628735.94274769,O,14.0,False,,,13.8,False,29,13.36
+ANA_A01,064b,Aspidosperma parvifolium,Apocynaceae,722958.015689406,9628730.41932546,O,12.1,False,,,,True,29,
+ANA_A01,065b,Neea oppositifolia,Nyctaginaceae,722954.710016685,9628730.53791801,O,12.4,False,,,12.5,False,29,12.46
+ANA_A01,066b,Pouteria oppositifolia,Sapotaceae,722957.429164582,9628727.42341775,O,58.5,False,12.69,23.5,65.5,False,29,33.2
+ANA_A01,067b,Theobroma glaucum,Malvaceae,722957.233656307,9628726.42478185,O,10.4,False,,,,True,29,
+ANA_A01,068b,Minquartia guianensis,Olacaceae,722959.306727529,9628725.93653987,O,25.0,False,,,27.4,False,29,20.95
+ANA_A01,069b,Guatteria schomburgkiana,Annonaceae,722958.452578828,9628727.0806241,O,15.0,False,,,,True,29,
+ANA_A01,071b,Neea oppositifolia,Nyctaginaceae,722958.502453746,9628722.03411882,O,19.8,False,,,20.0,False,29,17.17
+ANA_A01,072b,,,722958.730418353,9628718.0792652,O,24.4,True,,,,True,29,
+ANA_A01,073b,Eschweilera coriacea,Lecythidaceae,722954.423899982,9628717.38992545,O,29.2,False,,,29.9,False,29,22.09
+ANA_A01,074b,Pouteria sp.,Sapotaceae,722957.439768562,9628711.96942454,O,42.5,False,,,10.6,False,29,11.08
+ANA_A01,075b,Chimarrhis turbinata,Rubiaceae,722957.22818663,9628710.96781132,O,23.3,False,,,24.6,False,29,19.6
+ANA_A01,076b,Tapirira guianensis,Anacardiaceae,722956.192744421,9628710.82716607,O,18.8,False,,,19.1,False,29,16.65
+ANA_A01,077b,Minquartia guianensis,Olacaceae,722956.029609542,9628710.52296121,O,13.3,False,,,14.3,False,29,13.69
+ANA_A01,079b,Diospyros artanthifolia,Ebenaceae,722953.284389154,9628706.25233664,O,11.9,False,,,12.8,False,29,12.67
+ANA_A01,080a,Quiina florida,Ochnaceae,722916.5371818,9628708.37860954,O,,,,,10.8,False,29,11.23
+ANA_A01,081a,,,722907.581181801,9628723.98601049,L,,,,,12.2,False,29,12.25
+ANA_A01,082a,Pouteria macrophylla,Sapotaceae,722922.182269319,9628737.9596556,O,,,,,11.0,False,29,11.38
+ANA_A01,083a,,,722920.050710104,9628736.29025725,L,,,,,10.2,False,29,10.78
+ANA_A01,084a,Pouteria gongrijpii,Sapotaceae,722922.250751778,9628731.30215088,O,,,,,12.1,False,29,12.18
+ANA_A01,085a,Strychnos subcordata,Loganiaceae,722926.539353304,9628728.53819209,O,,,,,12.9,False,29,12.74
+ANA_A01,086a,Brosimum parinarioides,Moraceae,722924.456266587,9628715.07726796,O,,,,,12.4,False,29,12.39
+ANA_A01,087a,,,722922.539006308,9628703.49040069,O,,,,,12.4,False,29,12.39
+ANA_A01,061a,Eschweilera coriacea,Lecythidaceae,722896.188119326,9628852.52592088,O,19.9,False,,,,True,30,
+ANA_A01,062a,Rinorea guianensis,Violaceae,722900.173228294,9628856.92254816,O,21.1,False,,,21.4,False,30,17.94
+ANA_A01,063a,Pouteria oppositifolia,Sapotaceae,722904.843994587,9628853.50836134,O,56.8,False,24.56,36.43,,True,30,
+ANA_A01,064a,Dimorphandra macrostachya,Fabaceae,722914.458917319,9628854.67560423,O,18.2,False,,,25.8,False,30,20.19
+ANA_A01,065a,Inga thibaudiana,Fabaceae,722914.471983281,9628855.35129037,O,10.9,False,,,11.1,False,30,11.45
+ANA_A01,066a,Copaifera reticulata,Fabaceae,722919.271708749,9628855.79079238,O,73.3,False,18.43,27.97,,True,30,
+ANA_A01,067a,Minquartia guianensis,Olacaceae,722917.351818562,9628855.61499158,O,10.5,False,,,12.2,False,30,12.25
+ANA_A01,068a,Guatteria schomburgkiana,Annonaceae,722914.583977238,9628861.14288587,O,25.9,False,,,26.0,False,30,20.29
+ANA_A01,069a,Eschweilera sp.,Lecythidaceae,722915.537999073,9628861.2315908,O,12.2,False,,,15.6,False,30,14.54
+ANA_A01,070a,Theobroma glaucum,Malvaceae,722918.414781398,9628862.46350786,O,11.1,False,,,11.5,False,30,11.75
+ANA_A01,071a,Banara guianensis,Salicaceae,722916.575477107,9628866.1479662,O,13.0,False,,,,True,30,
+ANA_A01,072a,Eschweilera coriacea,Lecythidaceae,722911.782468141,9628863.57838931,O,35.7,False,,,56.5,False,30,31.06
+ANA_A01,073a,Lecythis idatimon,Lecythidaceae,722909.931876604,9628865.52233861,O,14.9,False,,,16.5,False,30,15.1
+ANA_A01,074a,Pouteria gongrijpii,Sapotaceae,722910.971420384,9628869.47063224,O,60.0,False,21.72,38.13,68.0,False,30,33.74
+ANA_A01,075a,Minquartia guianensis,Olacaceae,722900.360681608,9628862.31677389,O,25.0,False,,,25.6,False,30,20.09
+ANA_A01,076a,Guatteria poeppigiana,Annonaceae,722896.719520889,9628866.19651993,O,13.1,False,,,13.2,False,30,12.95
+ANA_A01,077a,Vochysia guianensis,Vochysiaceae,722904.302316815,9628867.10642648,O,61.5,False,29.85,42.33,63.1,False,30,32.66
+ANA_A01,078a,Eschweilera ovata,Lecythidaceae,722899.698699052,9628870.3179326,O,18.3,False,,,19.1,False,30,16.65
+ANA_A01,079a,Lecythis lurida,Lecythidaceae,722907.27056261,9628872.00356499,O,27.0,False,,,27.7,False,30,21.09
+ANA_A01,080a,Eschweilera coriacea,Lecythidaceae,722905.500363003,9628875.67863716,O,43.0,False,,,43.5,False,30,27.27
+ANA_A01,080b,Lecythis lurida,Lecythidaceae,722942.295445862,9628859.35413369,O,34.2,False,,,,True,30,
+ANA_A01,081a,Guarea guidonia,Meliaceae,722897.037613374,9628874.379625,O,13.2,False,,,13.9,False,30,13.42
+ANA_A01,081b,,,722921.175141669,9628854.61390683,O,24.0,False,,,23.9,False,30,19.25
+ANA_A01,082a,Miconia poeppigii,Melastomataceae,722898.103857481,9628877.84039146,O,21.2,False,,,24.4,False,30,19.5
+ANA_A01,083a,Bagassa guianensis,Moraceae,722897.243437922,9628879.67457534,O,16.1,False,,,17.6,False,30,15.77
+ANA_A01,083b,Chimarrhis turbinata,Rubiaceae,722927.90636987,9628855.61475283,O,104.9,False,31.9,44.92,101.9,False,30,39.2
+ANA_A01,084a,Couratari stellata,Lecythidaceae,722899.145467007,9628880.82060332,O,14.5,False,,,14.9,False,30,14.08
+ANA_A01,084b,Sloanea guianensis,Elaeocarpaceae,722927.908792231,9628856.09832441,O,10.7,False,,,12.2,False,30,12.25
+ANA_A01,085a,Colubrina glandulosa,Rhamnaceae,722905.52890076,9628876.6425622,O,19.2,False,,,19.6,False,30,16.94
+ANA_A01,085b,,,722927.916059315,9628857.54903913,O,12.4,False,,,15.8,False,30,14.66
+ANA_A01,086a,Minquartia guianensis,Olacaceae,722905.585976275,9628878.57041227,O,17.2,False,,,18.6,False,30,16.36
+ANA_A01,086b,Inga sp.,Fabaceae,722941.368398333,9628855.87446082,O,17.6,False,,,21.8,False,30,18.15
+ANA_A01,087a,Inga thibaudiana,Fabaceae,722917.571674983,9628869.13434611,O,11.8,False,,,13.2,False,30,12.95
+ANA_A01,087b,Manilkara huberi,Sapotaceae,722942.318361737,9628857.12507841,O,83.5,False,28.94,44.16,,True,30,
+ANA_A01,088a,Dialium guianense,Fabaceae,722919.54630096,9628875.10951951,O,49.4,False,,,49.9,False,30,29.25
+ANA_A01,088b,Rinorea guianensis,Violaceae,722942.245628741,9628864.19990604,O,34.4,False,,,,True,30,
+ANA_A01,089a,Tachigali paniculata,Fabaceae,722913.924748441,9628875.53115837,O,15.2,False,,,17.6,False,30,15.77
+ANA_A01,089b,Eschweilera sp.,Lecythidaceae,722939.385044051,9628863.93359013,O,24.6,False,,,27.3,False,30,20.91
+ANA_A01,090a,Parkia paraensis,Fabaceae,722914.975956086,9628881.41347012,O,39.3,False,,,,True,30,
+ANA_A01,090b,Minquartia guianensis,Olacaceae,722937.47798759,9628863.75604618,O,11.6,False,,,,True,30,
+ANA_A01,091a,Brosimum acutifolium,Moraceae,722917.775827375,9628881.68803246,O,63.0,False,25.32,42.31,60.5,False,30,32.06
+ANA_A01,091b,Inga sp.,Fabaceae,722939.365439025,9628866.6460963,O,15.5,False,,,,True,30,
+ANA_A01,092a,Strychnos subcordata,Loganiaceae,722913.130015305,9628882.19542631,O,13.0,False,,,15.2,False,30,14.28
+ANA_A01,092b,Eschweilera ovata,Lecythidaceae,722942.153965239,9628873.11612717,O,18.0,False,,,19.5,False,30,16.88
+ANA_A01,093a,Colubrina glandulosa,Rhamnaceae,722914.121277133,9628885.18247666,O,20.1,False,,,,True,30,
+ANA_A01,093b,Rinorea guianensis,Violaceae,722941.201440746,9628873.89823993,O,15.3,False,,,16.1,False,30,14.85
+ANA_A01,094a,Tachigali paniculata,Fabaceae,722914.160582871,9628887.11274032,O,18.1,False,,,,True,30,
+ANA_A01,094b,Neea oppositifolia,Nyctaginaceae,722942.678409779,9628877.04707021,O,29.1,False,,,29.9,False,30,22.09
+ANA_A01,095a,Couratari stellata,Lecythidaceae,722908.54522759,9628884.63013388,O,25.7,False,,,26.2,False,30,20.38
+ANA_A01,095b,Aspidosperma spruceanum,Apocynaceae,722941.155662052,9628878.84024388,O,18.0,False,,,19.7,False,30,17.0
+ANA_A01,096a,Inga sp.,Fabaceae,722911.423710356,9628888.76522352,O,26.0,False,,,17.4,False,30,15.65
+ANA_A01,096b,Couratari stellata,Lecythidaceae,722939.273715513,9628879.3367502,O,15.1,False,,,14.9,False,30,14.08
+ANA_A01,097a,Protium heptaphyllum,Burseraceae,722916.163816191,9628895.40675096,O,10.7,False,,,12.1,False,30,12.18
+ANA_A01,097b,Geissospermum sericeum,Apocynaceae,722939.260412103,9628881.17737939,O,11.6,False,,,12.9,False,30,12.74
+ANA_A01,098a,Tetragastris panamensis,Burseraceae,722917.109596783,9628897.04505716,O,19.7,False,,,20.1,False,30,17.22
+ANA_A01,098b,Rinorea guianensis,Violaceae,722935.520557361,9628879.55406382,O,29.5,False,,,29.4,False,30,21.86
+ANA_A01,099a,Castilla ulei,Moraceae,722913.46025657,9628897.63539015,O,14.0,False,,,14.3,False,30,13.69
+ANA_A01,099b,Ocotea canaliculata,Lauraceae,722935.511398494,9628882.45871138,O,18.0,False,,,19.0,False,30,16.6
+ANA_A01,100a,Dimorphandra macrostachya,Fabaceae,722914.396417302,9628898.69432225,O,17.1,False,,,17.6,False,30,15.77
+ANA_A01,100b,Myrcia splendens,Myrtaceae,722933.641764679,9628883.24388568,O,10.8,False,,,11.3,False,30,11.6
+ANA_A01,101a,Aspidosperma excelsum,Apocynaceae,722905.985504876,9628892.06536278,O,45.0,False,,,45.4,False,30,27.88
+ANA_A01,101b,Rinorea guianensis,Violaceae,722932.708474249,9628883.1523649,O,11.2,False,,,12.2,False,30,12.25
+ANA_A01,102a,Xylopia sp.,Annonaceae,722904.975486063,9628889.0808601,O,13.0,False,,,13.2,False,30,12.95
+ANA_A01,102b,Cecropia palmata,Urticaceae,722920.248218964,9628857.13458436,O,35.7,False,,,,True,30,
+ANA_A01,103a,Eschweilera ovata,Lecythidaceae,722902.338713142,9628892.84890986,O,12.8,False,,,12.7,False,30,12.6
+ANA_A01,103b,Geissospermum sericeum,Apocynaceae,722922.173079993,9628857.98717082,O,12.2,False,,,12.2,False,30,12.25
+ANA_A01,104a,,,722905.161493355,9628895.15274307,O,16.0,True,,,,True,30,
+ANA_A01,104b,Guatteria schomburgkiana,Annonaceae,722924.099573615,9628859.32343613,O,13.2,False,,,13.8,False,30,13.36
+ANA_A01,105a,Virola elongata,Myristicaceae,722903.410169458,9628897.5671099,O,78.0,False,29.37,39.68,74.0,False,30,34.94
+ANA_A01,105b,Geissospermum sericeum,Apocynaceae,722923.168217598,9628861.74793569,O,15.5,False,,,17.3,False,30,15.59
+ANA_A01,106a,Pouteria guianensis,Sapotaceae,722901.579128151,9628897.37924118,O,63.0,False,26.17,37.89,,True,30,
+ANA_A01,106b,,,722924.134747862,9628863.18986332,O,23.9,True,,,,True,30,
+ANA_A01,107a,Tetragastris panamensis,Burseraceae,722897.954468182,9628897.96622197,O,16.5,False,,,,True,30,
+ANA_A01,107b,Geissospermum sericeum,Apocynaceae,722922.233380688,9628863.3986671,O,10.5,False,,,12.4,False,30,12.39
+ANA_A01,108b,,,722921.269183197,9628862.3435431,O,38.8,False,,,43.7,False,30,27.33
+ANA_A01,109b,,,722923.309060707,9628875.6651427,O,13.7,True,,,,True,30,
+ANA_A01,110b,Inga sp.,Fabaceae,722920.466114017,9628873.65438896,O,10.5,False,,,,True,30,
+ANA_A01,111b,Tachigali paniculata,Fabaceae,722924.273686136,9628878.46225071,O,51.1,False,,,57.8,False,30,31.39
+ANA_A01,112b,,,722923.36285495,9628880.9807426,O,12.0,True,,,,True,30,
+ANA_A01,113b,Theobroma glaucum,Malvaceae,722923.375569953,9628882.23715712,O,11.7,False,,,11.9,False,30,12.03
+ANA_A01,114b,Guatteria schomburgkiana,Annonaceae,722925.235905731,9628881.64680597,O,15.6,False,,,15.7,False,30,14.6
+ANA_A01,115b,Guatteria schomburgkiana,Annonaceae,722924.355466259,9628887.45169392,O,10.7,False,,,14.3,False,30,13.69
+ANA_A01,116b,Poeppigia procera,Fabaceae,722920.68655755,9628890.36740766,O,10.2,False,,,,True,30,
+ANA_A01,117b,Eschweilera ovata,Lecythidaceae,722922.54134495,9628891.03595166,O,13.2,False,,,14.1,False,30,13.56
+ANA_A01,118b,Tachigali paniculata,Fabaceae,722924.38976115,9628891.22146043,O,69.0,False,36.76,50.03,68.4,False,30,33.82
+ANA_A01,119b,Strychnos subcordata,Loganiaceae,722923.503698058,9628894.89794961,O,12.4,False,,,12.7,False,30,12.6
+ANA_A01,120b,Aspidosperma excelsum,Apocynaceae,722920.784674036,9628897.80615008,O,72.9,False,27.21,40.39,72.4,False,30,34.63
+ANA_A01,121b,Neea oppositifolia,Nyctaginaceae,722922.645794368,9628900.40943628,O,10.2,False,,,,True,30,
+ANA_A01,122b,Eschweilera ovata,Lecythidaceae,722926.294776228,9628899.43203149,O,12.8,False,,,14.6,False,30,13.89
+ANA_A01,123b,Pouteria oppositifolia,Sapotaceae,722927.192711497,9628896.52817071,O,67.0,False,24.13,38.73,78.7,False,30,35.8
+ANA_A01,124b,Helicostylis tomentosa,Moraceae,722940.019810998,9628902.68092523,O,18.9,False,,,,True,30,
+ANA_A01,125b,Geissospermum sericeum,Apocynaceae,722941.884952787,9628899.28329786,O,17.3,False,,,18.4,False,30,16.25
+ANA_A01,126b,,,722939.131579078,9628899.00241998,O,25.2,True,,,,True,30,
+ANA_A01,127b,Rinorea guianensis,Violaceae,722936.380225453,9628898.23736713,O,12.6,False,,,16.5,False,30,15.1
+ANA_A01,128b,Rinorea guianensis,Violaceae,722936.381033486,9628898.04369714,O,21.6,False,,,22.3,False,30,18.42
+ANA_A01,129b,Guatteria schomburgkiana,Annonaceae,722939.146983027,9628896.87116512,O,13.0,False,,,13.5,False,30,13.15
+ANA_A01,130b,Helicostylis tomentosa,Moraceae,722939.148383386,9628896.67741468,O,27.8,False,,,28.3,False,30,21.37
+ANA_A01,131b,Eschweilera sp.,Lecythidaceae,722940.068543926,9628896.77071883,O,34.0,False,,,34.5,False,30,24.01
+ANA_A01,132b,Rinorea guianensis,Violaceae,722941.929788195,9628894.92210274,O,32.0,False,,,32.1,False,30,23.03
+ANA_A01,133b,Minquartia guianensis,Olacaceae,722938.241454934,9628894.45315067,O,13.6,False,,,14.5,False,30,13.82
+ANA_A01,134b,Helicostylis tomentosa,Moraceae,722940.089315337,9628894.25161447,O,49.0,False,,,73.5,False,30,34.84
+ANA_A01,135b,Theobroma glaucum,Malvaceae,722941.953700413,9628892.59613202,O,10.3,False,,,10.3,False,30,10.85
+ANA_A01,136b,Abarema mataybifolia,Fabaceae,722942.657391198,9628887.52400639,O,22.5,False,,,23.2,False,30,18.89
+ANA_A01,137b,Tachigali myrmecophila,Fabaceae,722939.23730618,9628884.37426167,O,27.4,False,,,,True,30,
+ANA_A01,138b,Diospyros artanthifolia,Ebenaceae,722937.36235796,9628886.03117887,O,12.8,False,,,,True,30,
+ANA_A01,139a,Tachigali paniculata,Fabaceae,722906.661748916,9628883.5783664,O,,,,,10.1,False,30,10.7
+ANA_A01,140a,Cordia scabrifolia,Boraginaceae,722903.898519637,9628884.16984822,O,,,,,10.1,False,30,10.7
+ANA_A01,141a,Quararibea guianensis,Malvaceae,722910.637567683,9628894.36374335,O,,,,,10.6,False,30,11.08
+ANA_A01,142a,Aniba parviflora,Lauraceae,722909.439897659,9628890.58683046,O,,,,,11.0,False,30,11.38
+ANA_A01,108a,Geissospermum sericeum,Apocynaceae,722892.015886333,9628998.84394459,O,23.5,False,,,24.5,False,31,19.55
+ANA_A01,109a,Enterolobium schomburgkii,Fabaceae,722888.815145423,9629003.03948873,O,57.0,False,22.01,37.65,59.5,False,31,31.81
+ANA_A01,110a,Aspidosperma excelsum,Apocynaceae,722888.823810253,9629002.94379502,O,11.4,False,,,11.9,False,31,12.03
+ANA_A01,111a,Calophyllum brasiliense,Calophyllaceae,722888.355909413,9629008.11125507,O,11.5,False,,,12.7,False,31,12.6
+ANA_A01,112a,Mezilaurus itauba,Lauraceae,722892.385851958,9629004.52345131,O,37.6,False,,,38.2,False,31,25.42
+ANA_A01,113a,Geissospermum sericeum,Apocynaceae,722895.150957083,9629004.65641063,O,33.1,False,,,33.9,False,31,23.77
+ANA_A01,114a,Cordia scabrifolia,Boraginaceae,722895.463080624,9629001.76016352,O,15.3,False,,,,True,31,
+ANA_A01,115a,Aiouea sp.,Lauraceae,722893.616696904,9629010.42937705,O,12.5,False,,,13.1,False,31,12.88
+ANA_A01,116a,Helicostylis tomentosa,Moraceae,722897.167553081,9629011.28272776,O,15.2,False,,,16.2,False,31,14.91
+ANA_A01,117a,,,722898.052782428,9629011.49727667,O,84.0,True,,12.24,,True,31,
+ANA_A01,118a,Ormosia grossa,Fabaceae,722897.033758757,9629012.44558705,O,10.4,False,,,,True,31,
+ANA_A01,119a,,,722896.922263486,9629013.41463646,O,14.6,False,,,,True,31,
+ANA_A01,120a,Alibertia edulis,Rubiaceae,722890.604350428,9629013.25250593,O,15.1,False,,,15.6,False,31,14.54
+ANA_A01,121a,Eschweilera coriacea,Lecythidaceae,722889.243702934,9629018.02614202,O,35.3,False,,,36.1,False,31,24.63
+ANA_A01,122a,Zygia racemosa,Fabaceae,722893.902462921,9629016.24139906,O,18.2,False,,,18.8,False,31,16.48
+ANA_A01,123a,Geissospermum sericeum,Apocynaceae,722892.448797343,9629021.5177284,O,39.1,False,,,39.1,False,31,25.75
+ANA_A01,124a,Tachigali paniculata,Fabaceae,722908.047524012,9628998.53636014,O,26.0,False,,,,True,31,
+ANA_A01,125a,Cordia scabrifolia,Boraginaceae,722907.952084447,9628999.22317338,O,12.6,False,,,,True,31,
+ANA_A01,126a,Brosimum rubescens,Moraceae,722905.154306446,9629006.06363586,O,18.7,False,,,20.2,False,31,17.28
+ANA_A01,127a,Pouteria gongrijpii,Sapotaceae,722909.417651125,9629008.49631994,O,46.0,False,,,36.3,False,31,24.71
+ANA_A01,128a,Vitex triflora,Lamiaceae,722906.6568332,9629008.54421027,O,16.4,False,,,57.9,False,31,31.42
+ANA_A01,129a,Couratari stellata,Lecythidaceae,722903.884617278,9629008.68912666,O,35.6,False,,,19.1,False,31,16.65
+ANA_A01,130a,Virola michelii,Myristicaceae,722905.125609086,9629013.03511968,O,11.6,False,,,12.9,False,31,12.74
+ANA_A01,132a,Geissospermum sericeum,Apocynaceae,722903.369064692,9629012.59923893,O,33.9,False,,,34.4,False,31,23.97
+ANA_A01,133a,Pouteria sp.,Sapotaceae,722902.464020987,9629012.57728866,O,12.8,False,,,13.8,False,31,13.36
+ANA_A01,134a,Eschweilera coriacea,Lecythidaceae,722901.472234154,9629013.23791231,O,10.8,False,,,11.0,False,31,11.38
+ANA_A01,135a,Maquira coriacea,Moraceae,722906.933364135,9629019.39736318,O,25.9,False,,,28.0,False,31,21.23
+ANA_A01,136a,Laetia procera,Salicaceae,722903.118027376,9629021.23409508,O,76.2,False,23.5,34.88,77.5,False,31,35.58
+ANA_A01,137a,Tetragastris panamensis,Burseraceae,722902.234849002,9629021.20148593,O,11.3,False,,,13.4,False,31,13.08
+ANA_A01,138a,Tachigali paniculata,Fabaceae,722906.786178352,9629026.51807737,O,64.0,False,18.84,33.72,,True,31,
+ANA_A01,139a,Ocotea canaliculata,Lauraceae,722902.172142905,9629028.28101807,O,24.0,False,,,24.3,False,31,19.45
+ANA_A01,139b,Pouteria guianensis,Sapotaceae,722912.111948101,9629002.80393967,O,19.0,False,,,,True,31,
+ANA_A01,140a,Alexa grandiflora,Fabaceae,722901.358409605,9629027.84867679,O,18.0,False,,,20.1,False,31,17.22
+ANA_A01,140b,Tachigali paniculata,Fabaceae,722914.033720428,9629002.42751706,O,25.3,False,,,,True,31,
+ANA_A01,141a,Tachigali paniculata,Fabaceae,722898.832422727,9629027.1418035,O,11.4,False,,,13.5,False,31,13.15
+ANA_A01,141b,Sloanea guianensis,Elaeocarpaceae,722913.680129668,9629004.70369006,O,12.3,False,,,13.3,False,31,13.02
+ANA_A01,142a,Sterculia pruriens,Malvaceae,722898.589554613,9629029.08959221,O,11.5,False,,,,True,31,
+ANA_A01,142b,Virola sebifera,Myristicaceae,722912.648836159,9629005.38357237,O,44.0,False,,,46.2,False,31,28.14
+ANA_A01,143a,Minquartia guianensis,Olacaceae,722902.234286225,9629034.20205137,O,16.0,False,,,16.2,False,31,14.91
+ANA_A01,143b,Rinorea pubiflora,Violaceae,722915.292909343,9629006.21582067,O,11.9,False,,,12.0,False,31,12.11
+ANA_A01,144a,Licania guianensis,Chrysobalanaceae,722899.556741638,9629035.03257578,O,20.7,False,,,31.0,False,31,22.56
+ANA_A01,144b,,,722917.365435148,9629004.85121111,O,10.4,False,,,12.5,False,31,12.46
+ANA_A01,145a,Ocotea canaliculata,Lauraceae,722898.708845956,9629034.98276707,O,19.1,False,,,19.4,False,31,16.83
+ANA_A01,145b,Tachigali paniculata,Fabaceae,722917.070822129,9629006.64128479,O,13.8,False,,,15.0,False,31,14.15
+ANA_A01,146a,,,722897.739516217,9629035.90685272,O,26.9,True,,,,True,31,
+ANA_A01,146b,Abarema mataybifolia,Fabaceae,722919.030267021,9629005.97208825,O,13.6,False,,,15.5,False,31,14.47
+ANA_A01,147a,,,722895.932229582,9629036.77628472,O,23.0,True,,,,True,31,
+ANA_A01,147b,,,722918.760437753,9629007.56714081,O,12.9,True,,,,True,31,
+ANA_A01,148a,Helicostylis tomentosa,Moraceae,722894.747363392,9629039.63483548,O,17.4,False,,,,True,31,
+ANA_A01,148b,,,722920.92722399,9629005.69923238,O,43.0,True,,,,True,31,
+ANA_A01,149a,Pouteria oppositifolia,Sapotaceae,722898.11403594,9629039.66327393,O,18.0,False,,,19.1,False,31,16.65
+ANA_A01,149b,Rinorea guianensis,Violaceae,722920.493192275,9629008.19755819,O,24.6,False,,,25.0,False,31,19.8
+ANA_A01,150a,Pouteria oppositifolia,Sapotaceae,722898.937364733,9629039.81652826,O,28.7,False,,,29.9,False,31,22.09
+ANA_A01,150b,,,722919.370868439,9629009.37916477,O,44.3,True,,,,True,31,
+ANA_A01,151a,Chimarrhis turbinata,Rubiaceae,722900.595668787,9629040.02588973,O,36.0,False,,,37.9,False,31,25.31
+ANA_A01,151b,Rinorea pubiflora,Violaceae,722916.67800477,9629009.0280497,O,12.0,False,,,12.1,False,31,12.18
+ANA_A01,152a,Spondias sp.,Anacardiaceae,722898.798320938,9629040.89047677,O,14.6,False,,,18.5,False,31,16.31
+ANA_A01,152b,Lecythis lurida,Lecythidaceae,722916.6289026,9629009.32639532,O,12.1,False,,,12.4,False,31,12.39
+ANA_A01,153a,Eschweilera coriacea,Lecythidaceae,722897.010911876,9629041.75021887,O,10.8,False,,,,True,31,
+ANA_A01,153b,Eschweilera coriacea,Lecythidaceae,722910.088734313,9629016.23010394,O,14.2,False,,,15.0,False,31,14.15
+ANA_A01,154a,Pseudopiptadenia suaveolens,Fabaceae,722892.134420918,9629040.43386774,O,76.0,False,18.79,35.75,109.8,False,31,40.1
+ANA_A01,154b,Guatteria schomburgkiana,Annonaceae,722913.912180139,9629014.84676796,O,28.3,False,,,31.8,False,31,22.9
+ANA_A01,155a,Protium paniculatum,Burseraceae,722887.828329814,9629041.58934323,O,14.8,False,,,,True,31,
+ANA_A01,155b,,,722915.843267882,9629014.09992514,O,14.1,False,,,14.6,False,31,13.89
+ANA_A01,156a,Eschweilera coriacea,Lecythidaceae,722886.321335,9629039.84270518,O,12.8,False,,,,True,31,
+ANA_A01,156b,Oenocarpus bacaba,Arecaceae,722919.833464068,9629011.99501343,P,12.7,False,,,12.8,False,31,12.67
+ANA_A01,157a,,,722888.995645088,9629038.28199924,L,13.4,False,,,,True,31,
+ANA_A01,157b,Tachigali paniculata,Fabaceae,722920.705772993,9629012.21586078,O,43.1,False,,,51.6,False,31,29.74
+ANA_A01,158a,Minquartia guianensis,Olacaceae,722886.570907401,9629037.15988999,O,15.0,False,,,15.9,False,31,14.73
+ANA_A01,158b,Pouteria gongrijpii,Sapotaceae,722921.57708804,9629012.43719262,O,10.8,False,,,11.5,False,31,11.75
+ANA_A01,159a,Abarema mataybifolia,Fabaceae,722887.411348994,9629037.21333241,O,27.3,False,,,31.6,False,31,22.82
+ANA_A01,159b,Protium paniculatum,Burseraceae,722928.908748084,9629012.20240375,O,24.4,False,,,24.0,False,31,19.3
+ANA_A01,160a,Aspidosperma spruceanum,Apocynaceae,722889.285406359,9629035.39665326,O,30.7,False,,,31.2,False,31,22.65
+ANA_A01,160b,Minquartia guianensis,Olacaceae,722931.837247032,9629011.24954444,O,13.5,False,,,,True,31,
+ANA_A01,161a,Minquartia guianensis,Olacaceae,722895.317263226,9629034.78353224,O,22.0,False,,,23.3,False,31,18.94
+ANA_A01,161b,,,722933.059857788,9629009.74464078,O,68.0,True,,14.71,,True,31,
+ANA_A01,162a,Hevea brasiliensis,Euphorbiaceae,722890.62617628,9629030.63270706,O,22.8,False,,,23.6,False,31,19.1
+ANA_A01,162b,Maquira coriacea,Moraceae,722932.578536504,9629007.5952694,O,21.3,False,,,22.6,False,31,18.58
+ANA_A01,163a,Eschweilera coriacea,Lecythidaceae,722889.961515991,9629028.66417931,O,17.9,False,,,18.8,False,31,16.48
+ANA_A01,163b,Zollernia paraensis,Fabaceae,722929.43183686,9629004.80697509,O,26.1,False,,,26.1,False,31,20.34
+ANA_A01,164a,Maquira coriacea,Moraceae,722889.990492118,9629028.37564472,O,51.1,False,28.51,34.29,52.5,False,31,29.99
+ANA_A01,164b,Lecythis lurida,Lecythidaceae,722927.013026444,9629002.85874836,O,11.4,False,,,11.5,False,31,11.75
+ANA_A01,165a,Ormosia grossa,Fabaceae,722892.758009938,9629026.86097178,O,14.6,False,,,15.0,False,31,14.15
+ANA_A01,165b,,,722932.96152439,9629001.09136499,O,22.1,False,,,,True,31,
+ANA_A01,166a,Helicostylis tomentosa,Moraceae,722888.464952509,9629026.18069793,O,18.9,False,,,19.5,False,31,16.88
+ANA_A01,166b,Inga sp.,Fabaceae,722932.267797544,9628999.86876485,O,11.7,False,,,,True,31,
+ANA_A01,168b,Vatairea sericea,Fabaceae,722927.163811079,9629025.59017465,O,13.0,False,,,13.2,False,31,12.95
+ANA_A01,169b,Inga sp.,Fabaceae,722927.0030556,9629026.40029779,O,10.4,False,,,10.3,False,31,10.85
+ANA_A01,170b,,,722923.779492792,9629024.83857984,O,15.0,True,,,,True,31,
+ANA_A01,171b,Tachigali paniculata,Fabaceae,722923.512085005,9629026.24951241,O,18.1,False,,,18.5,False,31,16.31
+ANA_A01,172b,Inga pilosula,Fabaceae,722922.343311832,9629023.05742154,O,13.8,False,,,13.8,False,31,13.36
+ANA_A01,173b,Inga alba,Fabaceae,722919.984901055,9629026.29931984,O,37.8,False,,,38.8,False,31,25.64
+ANA_A01,174b,Geissospermum sericeum,Apocynaceae,722924.113941291,9629027.69983706,O,59.0,False,10.75,20.94,60.2,False,31,31.98
+ANA_A01,175b,Sterculia pruriens,Malvaceae,722923.997847135,9629028.30524919,O,13.3,False,,,13.4,False,31,13.08
+ANA_A01,176b,Tachigali paniculata,Fabaceae,722924.591255453,9629029.75969205,O,20.0,False,,,19.9,False,31,17.11
+ANA_A01,177b,,,722923.804356876,9629029.31426941,O,11.4,True,,,,True,31,
+ANA_A01,178b,,,722923.572168565,9629030.52509367,O,35.1,True,,,,True,31,
+ANA_A01,179b,Tachigali paniculata,Fabaceae,722922.900867205,9629029.47450116,O,27.6,False,,,29.7,False,31,22.0
+ANA_A01,180b,Geissospermum sericeum,Apocynaceae,722920.031165137,9629030.85604716,O,27.9,False,,,28.3,False,31,21.37
+ANA_A01,181b,Byrsonima crispa,Malpighiaceae,722920.185292269,9629034.71990506,O,27.3,False,,,,True,31,
+ANA_A01,182b,Tachigali paniculata,Fabaceae,722919.962048866,9629035.92636886,O,31.6,False,,,,True,31,
+ANA_A01,183b,Astronium graveolens,Anacardiaceae,722919.217904189,9629039.9479149,O,23.1,False,,,26.5,False,31,20.53
+ANA_A01,184b,Guatteria schomburgkiana,Annonaceae,722923.411415713,9629040.21936633,O,10.0,False,,,,True,31,
+ANA_A01,185b,Geissospermum sericeum,Apocynaceae,722922.886273338,9629038.54870572,O,48.8,False,,,48.9,False,31,28.96
+ANA_A01,186b,Tachigali myrmecophila,Fabaceae,722922.866675842,9629038.64972886,O,16.6,False,,,17.4,False,31,15.65
+ANA_A01,187b,Cecropia ficifolia,Urticaceae,722927.430692947,9629032.97217945,O,14.6,False,,,17.7,False,31,15.83
+ANA_A01,188b,Stryphnodendron pulcherrimum,Fabaceae,722925.719450364,9629037.18496488,O,47.6,False,,,51.8,False,31,29.8
+ANA_A01,194b,Pouteria gongrijpii,Sapotaceae,722907.27944638,9629040.47280887,O,10.4,False,,,11.1,False,31,11.45
+ANA_A01,195b,Maquira coriacea,Moraceae,722908.453135828,9629038.35146481,O,19.7,False,,,23.0,False,31,18.79
+ANA_A01,196b,Protium paniculatum,Burseraceae,722905.652386289,9629040.06527707,O,32.7,False,,,32.9,False,31,23.36
+ANA_A01,197b,Inga sp.,Fabaceae,722908.262574086,9629034.04801909,O,15.7,False,,,16.7,False,31,15.22
+ANA_A01,198b,,,722909.160317348,9629033.79911881,O,11.0,False,,,,True,31,
+ANA_A01,199b,Strychnos subcordata,Loganiaceae,722910.325125103,9629031.86504395,O,13.0,False,,,,True,31,
+ANA_A01,200b,Pouteria oppositifolia,Sapotaceae,722908.867575752,9629030.0943023,O,23.2,False,,,24.2,False,31,19.4
+ANA_A01,201a,,,722889.536386623,9629041.22563258,L,,,,,19.1,False,31,16.65
+ANA_A01,202a,Pouteria macrophylla,Sapotaceae,722899.760196587,9629039.97002483,O,,,,,11.1,False,31,11.45
+ANA_A01,203a,Quiina florida,Ochnaceae,722900.661355208,9629039.53652007,O,,,,,10.8,False,31,11.23
+ANA_A01,204a,Pouteria macrophylla,Sapotaceae,722897.446291256,9629008.86010423,O,,,,,10.8,False,31,11.23
+ANA_A01,205a,Neea oppositifolia,Nyctaginaceae,722905.456463986,9629003.81253546,O,,,,,12.2,False,31,12.25
+ANA_A01,206a,,,722898.594692538,9628998.87889528,O,,,,,11.1,False,31,11.45
 ANA_A01,167a,Sloanea guianensis,Elaeocarpaceae,722887.896317381,9629144.98829146,O,10.1,False,,,11.1,False,32,11.45
 ANA_A01,168a,Cecropia distachya,Urticaceae,722888.918106449,9629145.0975789,O,11.9,False,,,17.5,False,32,15.71
 ANA_A01,169a,Cecropia palmata,Urticaceae,722890.961684584,9629145.31615378,O,23.1,False,,,27.1,False,32,20.81

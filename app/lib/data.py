@@ -116,6 +116,100 @@ def load_plot_geometries():
     return _load_plot_geometries(_src_mtime())
 
 
+# ── Qualidade geométrica das parcelas (página de outliers) ──────────────────────
+
+def _utm_proj(lon: float, lat: float) -> str:
+    """String proj4 do fuso UTM que contém (lon, lat). Mesma regra do pipeline
+    (src/calculate_biomass.py) — usada para testar a posição das árvores contra o
+    polígono da parcela no CRS métrico nativo do site."""
+    zone = int((lon + 180) // 6) + 1
+    south = "+south" if lat < 0 else ""
+    return (f"+proj=utm +zone={zone} {south} +ellps=GRS80 "
+            "+towgs84=0,0,0,0,0,0,0 +units=m +no_defs")
+
+
+def _rect_wh(geom):
+    """(largura, comprimento) em metros do retângulo de menor área que envolve o
+    polígono — largura = lado menor, comprimento = lado maior. Em CRS métrico."""
+    import math
+    r = geom.minimum_rotated_rectangle
+    if r.geom_type != "Polygon":  # degenerada → cai no bounding box
+        minx, miny, maxx, maxy = geom.bounds
+        return tuple(sorted([maxx - minx, maxy - miny]))
+    xs, ys = r.exterior.coords.xy
+    e0 = math.dist((xs[0], ys[0]), (xs[1], ys[1]))
+    e1 = math.dist((xs[1], ys[1]), (xs[2], ys[2]))
+    return tuple(sorted([e0, e1]))
+
+
+@st.cache_data
+def _trees_located_per_plot(_code_key):
+    """Por (site, plot_id corrigido): nº de árvores do inventário cuja coordenada UTM
+    cai DENTRO do polígono da parcela. Espacial (sjoin within) — independe de como o
+    plot_id é nomeado, então funciona mesmo em sites multiparte. Sites sem coordenada
+    (utm ausente) simplesmente não contribuem (contagem 0)."""
+    from shapely import wkb  # noqa: F401  (garante shapely disponível)
+    inv_dir = ROOT / "data/processed/04_inventory"
+    feats = load_plot_features()
+    counts: dict = {}
+    for site, sub in feats.groupby("site"):
+        inv_path = inv_dir / f"{site}.csv"
+        if not inv_path.exists():
+            continue
+        inv = pd.read_csv(inv_path, low_memory=False)
+        if not {"utm_easting", "utm_northing"}.issubset(inv.columns):
+            continue
+        e = pd.to_numeric(inv["utm_easting"], errors="coerce")
+        n = pd.to_numeric(inv["utm_northing"], errors="coerce")
+        ok = e.notna() & n.notna()
+        if not ok.any():
+            continue
+        polys = sub.dissolve(by="plot_id").reset_index()[["plot_id", "geometry"]]
+        c = polys.geometry.union_all().centroid
+        utm = _utm_proj(c.x, c.y)
+        polys_u = polys.to_crs(utm)
+        pts = gpd.GeoDataFrame(
+            geometry=gpd.points_from_xy(e[ok], n[ok]), crs=utm)
+        try:
+            j = gpd.sjoin(pts, polys_u, predicate="within", how="inner")
+        except Exception:
+            continue
+        for pid, cnt in j.groupby("plot_id").size().items():
+            counts[(site, pid)] = int(cnt)
+    return counts
+
+
+@st.cache_data
+def _load_plot_quality(_code_key, _bio_mtime):
+    geo = load_plot_geometries().copy()  # CRS de área-igual (métrico)
+    wh = geo.geometry.apply(_rect_wh)
+    geo["width_m"] = [w for w, _ in wh]
+    geo["length_m"] = [h for _, h in wh]
+    geo["aspect"] = geo["length_m"] / geo["width_m"].replace(0, np.nan)
+
+    bio = load_biomass_summary()
+    if not bio.empty:
+        geo = geo.merge(bio[["site", "plot_id", "n_arvores"]],
+                        on=["site", "plot_id"], how="left")
+    else:
+        geo["n_arvores"] = np.nan
+
+    located = _trees_located_per_plot(_code_key)
+    geo["n_located"] = [located.get((s, p), 0)
+                        for s, p in zip(geo["site"], geo["plot_id"])]
+    denom = geo["n_arvores"].where(geo["n_arvores"] > 0)
+    geo["pct_pos"] = (100 * geo["n_located"] / denom).clip(upper=100)
+    return geo
+
+
+def load_plot_quality():
+    """Geometria por parcela (área, compacidade, largura/comprimento, aspecto) + nº de
+    árvores (do summary de biomassa) + % de árvores com posição confiável (caem dentro
+    do polígono). Uma linha por (site, plot_id corrigido)."""
+    return _load_plot_quality(
+        _src_mtime(), _mtime(ROOT / "data/processed/05_biomass/summary.csv"))
+
+
 @st.cache_data
 def _inventory_plot_counts(_code_key):
     """Nº de parcelas distintas por site, com plot_id corrigido (ver _corrected_plot_id).
@@ -193,6 +287,55 @@ def _coverage_geom(_code_key):
     }
 
 
+@st.cache_data
+def _usability(_code_key, _bio_mtime, _clip_mtime):
+    """Categoria de aproveitamento de CADA parcela de inventário (site, plot_id):
+
+    - "green": tem AGB calculada E nuvem recortada → entra no treino
+    - "red":   cruza o LiDAR, mas sem rótulo utilizável (sem árvores separáveis
+               por polígono / sem biomassa)
+    - "gray":  sem sobreposição com o LiDAR
+
+    Interseção geométrica ≠ parcela utilizável. Mesma definição usada no gráfico de
+    'O que chega aos modelos' e nas cores do mapa de cobertura."""
+    feats = load_plot_features()
+    universe = set(zip(feats["site"].astype(str), feats["plot_id"].astype(str)))
+
+    inter = load_intersections()
+    overlap = set(zip(inter["inventory_file"].astype(str),
+                      inter["plot_id"].astype(str))) & universe
+
+    bio = load_biomass_summary()
+    if not bio.empty and "agb_m1_Mg_ha" in bio.columns:
+        bio = bio[bio["agb_m1_Mg_ha"].notna()]   # só rótulo válido = treinável
+    agb = (set(zip(bio["site"].astype(str), bio["plot_id"].astype(str)))
+           if not bio.empty else set())
+
+    clips = load_clipped_stats()
+    clipset = set(zip(clips["site"].astype(str),
+                      clips["plot"].astype(str).str.replace("plot_", "", n=1)))
+
+    green = (agb & clipset) & overlap
+    return {k: ("green" if k in green else ("red" if k in overlap else "gray"))
+            for k in universe}
+
+
+def plot_usability():
+    return _usability(
+        _src_mtime(),
+        _mtime(ROOT / "data/processed/05_biomass/summary.csv"),
+        _mtime(ROOT / "data/processed/03_clipped_lidar/clip_summary.json"))
+
+
+def training_coverage():
+    """Contagens da partição verde/vermelho/cinza (deriva de plot_usability)."""
+    from collections import Counter
+    c = Counter(plot_usability().values())
+    return {"total": sum(c.values()), "usable": c["green"],
+            "unusable": c["red"], "no_lidar": c["gray"],
+            "overlap": c["green"] + c["red"]}
+
+
 def coverage_stats():
     """Parte geométrica (cacheada) + leitura fresca do clip_summary.json (muda após o
     re-clip), para os corrompidos/vazias refletirem sempre o último recorte."""
@@ -249,6 +392,10 @@ def load_models() -> list:
                 m = json.loads(p.read_text())
                 m.setdefault("key", p.stem.replace("model_metrics", "").strip("_") or "gbr")
                 m.setdefault("cv_file", "cv_results.csv")
+                # Variante do conjunto de treino: "full" (interseções completas) ou
+                # "no_outliers" (parcelas-outlier removidas). JSONs antigos não têm o
+                # campo → assume "full".
+                m.setdefault("variant", "no_outliers" if p.stem.endswith("_noout") else "full")
                 out.append(m)
             except Exception:
                 pass

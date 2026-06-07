@@ -34,6 +34,9 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import KFold
 from sklearn.metrics import root_mean_squared_error, r2_score
 
+# Filtro da variante "sem outliers" (no-op quando EXCLUDE_OUTLIERS != 1).
+from outlier_filter import filter_summary, SUFFIX, VARIANT
+
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
 
@@ -43,8 +46,11 @@ SUMMARY   = ROOT / "data/processed/05_biomass/summary.csv"
 OUT_DIR   = ROOT / "data/processed/06_model"
 
 N_PTS          = 1024   # canopy points sampled per plot
-GROUND_RADIUS  = 1.0    # m — radius for local ground estimation
-CANOPY_MIN_H   = 2.0    # m — points below this are considered ground returns
+GROUND_RADIUS  = 1.0    # m — radius for local ground estimation (fallback)
+CANOPY_MIN_H   = 1.3    # m — piso do dossel: altura do peito (DBH). Abaixo disto não há
+                        # métrica de inventário correspondente → descartado.
+MIN_GROUND_PTS = 20     # mín. de pontos de solo (classe 2) p/ interpolar um DTM; abaixo
+                        # disto cai no mínimo-local (ex.: DUC, dossel sem retorno de solo)
 SEED           = 42
 N_SPLITS       = 5      # dobras do k-fold (todas as parcelas num pote só, peso 1)
 OUTLIER_XY_M   = 200.0  # m — pontos além disto da mediana XY são ruído de recorte
@@ -55,17 +61,63 @@ Y_FWD = np.log1p
 Y_INV = np.expm1
 
 
+def xy_inlier_mask(x: np.ndarray, y: np.ndarray,
+                   max_dist: float = OUTLIER_XY_M) -> np.ndarray:
+    """Máscara booleana dos pontos a <= max_dist da mediana XY (inliers do recorte)."""
+    cx, cy = np.median(x), np.median(y)
+    keep = (np.abs(x - cx) <= max_dist) & (np.abs(y - cy) <= max_dist)
+    if keep.sum() < 10 or keep.all():
+        return np.ones(len(x), dtype=bool)
+    return keep
+
+
 def drop_xy_outliers(x: np.ndarray, y: np.ndarray, z: np.ndarray,
                      max_dist: float = OUTLIER_XY_M):
     """Remove pontos espúrios do recorte (ex.: retornos em zona/origem UTM errada).
     Mantém só pontos a <= max_dist da mediana XY. Conserta parcelas cuja extensão
     estoura para centenas de km por causa de alguns pontos fora do lugar — sem
     descartar a parcela inteira. Devolve a nuvem intacta se não houver o que filtrar."""
-    cx, cy = np.median(x), np.median(y)
-    keep = (np.abs(x - cx) <= max_dist) & (np.abs(y - cy) <= max_dist)
-    if keep.sum() < 10 or keep.all():
-        return x, y, z
+    keep = xy_inlier_mask(x, y, max_dist)
     return x[keep], y[keep], z[keep]
+
+
+def ground_from_classification(x: np.ndarray, y: np.ndarray, z: np.ndarray,
+                               classification: np.ndarray,
+                               min_ground: int = MIN_GROUND_PTS):
+    """Altura acima do solo via DTM interpolado dos pontos de SOLO (classe LAS 2).
+
+    Constrói uma superfície de solo por triangulação (TIN linear) sobre os pontos
+    classificados como solo e a avalia em cada (x, y); fora do casco convexo usa o
+    vizinho mais próximo. Devolve `z - solo` ou None quando há poucos pontos de solo
+    (ex.: dossel fechado sem retorno de chão) — aí o chamador usa o mínimo-local."""
+    g = classification == 2
+    if int(g.sum()) < min_ground:
+        return None
+    from scipy.interpolate import LinearNDInterpolator, NearestNDInterpolator
+    gx, gy, gz = x[g].astype(np.float64), y[g].astype(np.float64), z[g].astype(np.float64)
+    pts = np.column_stack([gx, gy])
+    try:
+        lin = LinearNDInterpolator(pts, gz)
+        ground = lin(x, y)
+    except Exception:
+        return None
+    nan = np.isnan(ground)
+    if nan.any():
+        near = NearestNDInterpolator(pts, gz)
+        ground[nan] = near(x[nan], y[nan])
+    return (z - ground).astype(np.float32)
+
+
+def height_above_ground(x: np.ndarray, y: np.ndarray, z: np.ndarray,
+                        classification: np.ndarray | None = None,
+                        cell_size: float = GROUND_RADIUS) -> np.ndarray:
+    """Altura acima do solo. Prefere o DTM da classe 2 (mais fiel em dossel denso);
+    cai no mínimo-local quando não há solo classificado suficiente."""
+    if classification is not None:
+        hag = ground_from_classification(x, y, z, classification)
+        if hag is not None:
+            return hag
+    return local_ground_normalize(x, y, z, cell_size)
 
 # Hiperparâmetros do modelo (fonte única — usados no CV, no modelo final e no JSON
 # de métricas que a página de Modelos do app lê).
@@ -104,6 +156,7 @@ def load_canopy_heights(laz_path: Path, n: int,
         x = np.array(las.x, dtype=np.float64)
         y = np.array(las.y, dtype=np.float64)
         z = np.array(las.z, dtype=np.float32)
+        cls = np.array(las.classification, dtype=np.uint8)
     except Exception as e:
         log.warning(f"  [SKIP] {laz_path.name}: {e}")
         return None
@@ -111,7 +164,8 @@ def load_canopy_heights(laz_path: Path, n: int,
     if len(z) < 10:
         return None
 
-    x, y, z = drop_xy_outliers(x, y, z)
+    keep = xy_inlier_mask(x, y)
+    x, y, z, cls = x[keep], y[keep], z[keep], cls[keep]
 
     # Sanity check: plot extent should be < 1 km
     x_range = x.max() - x.min()
@@ -121,7 +175,7 @@ def load_canopy_heights(laz_path: Path, n: int,
                     f"({x_range:.0f}×{y_range:.0f} m)")
         return None
 
-    hag = local_ground_normalize(x, y, z, GROUND_RADIUS)
+    hag = height_above_ground(x, y, z, cls, GROUND_RADIUS)
     total_pts = len(hag)
 
     canopy = hag[hag >= CANOPY_MIN_H]
@@ -140,7 +194,7 @@ def load_canopy_heights(laz_path: Path, n: int,
 
 def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str]]:
     """Returns X, y, site_groups (for LOSO CV), labels."""
-    df = pd.read_csv(SUMMARY)
+    df = filter_summary(pd.read_csv(SUMMARY))
     df = df[df["agb_m1_Mg_ha"].notna()].copy()
 
     rng = np.random.default_rng(SEED)
@@ -211,7 +265,7 @@ def main():
 
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
     cv, global_metrics = evaluate_cv(X, y)
-    cv.to_csv(OUT_DIR / "cv_results.csv", index=False)
+    cv.to_csv(OUT_DIR / f"cv_results{SUFFIX}.csv", index=False)
     log.info(f"\n  Média das dobras — RMSE={cv.rmse.mean():.1f}  "
              f"R²={cv.r2.mean():.3f}  rRMSE={cv.rrmse_pct.mean():.1f}%")
 
@@ -219,19 +273,20 @@ def main():
     final = GradientBoostingRegressor(**GBR_PARAMS)
     final.fit(X, Y_FWD(y))
     joblib.dump({"model": final, "n_pts": N_PTS, "labels": labels},
-                OUT_DIR / "model.joblib")
-    log.info(f"  Salvo em {OUT_DIR / 'model.joblib'}")
+                OUT_DIR / f"model{SUFFIX}.joblib")
+    log.info(f"  Salvo em {OUT_DIR / f'model{SUFFIX}.joblib'}")
 
     # Resumo legível pelo app (página de Modelos) — fonte única de hiperparâmetros e
     # métricas globais. cv_results.csv tem o detalhe por site.
     metrics = {
-        "key": "gbr",
+        "key": f"gbr{SUFFIX}",
         "name": "GBR — alturas ordenadas",
         "model": "GradientBoostingRegressor",
         "library": "scikit-learn",
+        "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "target": "agb_m1_Mg_ha",
-        "cv_file": "cv_results.csv",
+        "cv_file": f"cv_results{SUFFIX}.csv",
         "approach_key": "model_approach",
         "n_plots": int(X.shape[0]),
         "n_sites": int(len(set(groups))),
@@ -254,8 +309,8 @@ def main():
             "rrmse_pct": round(float(cv.rrmse_pct.mean()), 2),
         },
     }
-    (OUT_DIR / "model_metrics.json").write_text(json.dumps(metrics, indent=2, ensure_ascii=False))
-    log.info(f"  Métricas em {OUT_DIR / 'model_metrics.json'}")
+    (OUT_DIR / f"model_metrics{SUFFIX}.json").write_text(json.dumps(metrics, indent=2, ensure_ascii=False))
+    log.info(f"  Métricas em {OUT_DIR / f'model_metrics{SUFFIX}.json'}")
 
 
 if __name__ == "__main__":

@@ -26,6 +26,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 
 from train_model import OUT_DIR, SEED, N_SPLITS, Y_FWD, Y_INV
 from train_aba import build_dataset, CELL, GROUND_RADIUS, CANOPY_MIN_H
+from outlier_filter import SUFFIX, VARIANT
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -69,7 +70,7 @@ def main():
 
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
     cv, g = evaluate_cv(X, y)
-    cv.to_csv(OUT_DIR / "cv_results_rf.csv", index=False)
+    cv.to_csv(OUT_DIR / f"cv_results_rf{SUFFIX}.csv", index=False)
     log.info(f"\n  Média das dobras — RMSE={cv.rmse.mean():.1f}  R²={cv.r2.mean():.3f}  "
              f"rRMSE={cv.rrmse_pct.mean():.1f}%")
 
@@ -77,7 +78,7 @@ def main():
     final = RandomForestRegressor(**RF_PARAMS)
     final.fit(X, Y_FWD(y))
     joblib.dump({"model": final, "feature_names": feat_names, "labels": labels},
-                OUT_DIR / "model_rf.joblib")
+                OUT_DIR / f"model_rf{SUFFIX}.joblib")
 
     imp = sorted(zip(feat_names, final.feature_importances_),
                  key=lambda t: t[1], reverse=True)
@@ -86,13 +87,14 @@ def main():
         log.info(f"    {name:<18} {val:.3f}")
 
     metrics = {
-        "key": "rf",
+        "key": f"rf{SUFFIX}",
         "name": "Random Forest — métricas estruturais (ABA)",
         "model": "RandomForestRegressor",
         "library": "scikit-learn",
+        "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "target": "agb_m1_Mg_ha",
-        "cv_file": "cv_results_rf.csv",
+        "cv_file": f"cv_results_rf{SUFFIX}.csv",
         "approach_key": "model_approach_rf",
         "n_plots": int(X.shape[0]),
         "n_sites": int(len(set(groups))),
@@ -116,9 +118,10 @@ def main():
                          "r2": round(float(cv.r2.mean()), 4),
                          "rrmse_pct": round(float(cv.rrmse_pct.mean()), 2)},
     }
-    (OUT_DIR / "model_metrics_rf.json").write_text(
+    (OUT_DIR / f"model_metrics_rf{SUFFIX}.json").write_text(
         json.dumps(metrics, indent=2, ensure_ascii=False))
-    log.info(f"\n  Salvo: model_rf.joblib · cv_results_rf.csv · model_metrics_rf.json")
+    log.info(f"\n  Salvo: model_rf{SUFFIX}.joblib · cv_results_rf{SUFFIX}.csv · "
+             f"model_metrics_rf{SUFFIX}.json")
 
 
 if __name__ == "__main__":

@@ -87,17 +87,30 @@ def normalize_year(s: str) -> str:
     return f"20{s}" if len(s) == 2 else s
 
 
+def _norm_col(s: str) -> str:
+    """Chave de coluna robusta a separadores: 'UTM Easting', 'UTM.Easting',
+    'UTM_Easting' e 'UTMEasting' colapsam todas para 'utmeasting'."""
+    return re.sub(r"[^a-z0-9]", "", str(s).lower())
+
+
 def normalize_columns(raw: pd.DataFrame) -> pd.DataFrame:
+    # Lookup das colunas do raw por chave normalizada (1ª ocorrência vence).
+    by_norm: dict[str, str] = {}
+    for c in raw.columns:
+        by_norm.setdefault(_norm_col(c), c)
+
     out = pd.DataFrame()
     for out_name, candidates in SCALAR_MAP:
         for cand in candidates:
-            if cand in raw.columns:
-                out[out_name] = raw[cand]
+            rc = by_norm.get(_norm_col(cand))
+            if rc is not None:
+                out[out_name] = raw[rc]
                 break
     for out_name, candidates in BARE_MAP.items():
         for cand in candidates:
-            if cand in raw.columns and out_name not in out.columns:
-                out[out_name] = raw[cand]
+            rc = by_norm.get(_norm_col(cand))
+            if rc is not None and out_name not in out.columns:
+                out[out_name] = raw[rc]
                 break
     for col in raw.columns:
         for prefix, pattern in YEAR_PATTERNS.items():
@@ -112,6 +125,20 @@ def normalize_columns(raw: pd.DataFrame) -> pd.DataFrame:
 
 # ── Plot assignment via point-in-polygon ──────────────────────────────────────
 
+def _ensure_polygon(geom):
+    """(Multi)LineString de anel fechado → polígono. Vários KMLs (FNA, TAP_A0x) trazem
+    as parcelas como LINHAS, não polígonos; sem isso o point-in-polygon nunca acerta
+    (um ponto nunca está 'within' uma linha). Espelha app/lib/data.py:_ensure_polygon."""
+    from shapely.ops import polygonize, unary_union
+    if geom is None or geom.is_empty:
+        return geom
+    if geom.geom_type in ("LineString", "MultiLineString"):
+        polys = list(polygonize(geom))
+        if polys:
+            return unary_union(polys)
+    return geom
+
+
 def load_kml_plots(site_key: str) -> gpd.GeoDataFrame | None:
     """Loads KML plot polygons for a site, returns GeoDataFrame or None."""
     kml = KML_DIR / f"{site_key}.kml"
@@ -119,6 +146,8 @@ def load_kml_plots(site_key: str) -> gpd.GeoDataFrame | None:
         return None
     try:
         gdf = gpd.read_file(kml, driver="KML").set_crs("EPSG:4326")
+        gdf["geometry"] = gdf.geometry.apply(_ensure_polygon)
+        gdf = gdf[gdf.geometry.geom_type.isin(["Polygon", "MultiPolygon"])]
         gdf["plot_id"] = gdf["Name"].astype(str).str.strip()
         return gdf[["plot_id", "geometry"]]
     except Exception as e:
@@ -146,8 +175,19 @@ def assign_plots_spatial(df: pd.DataFrame, kml_plots: gpd.GeoDataFrame,
 
     # Detect coordinate system: lat/lon (|easting| < 180) vs UTM (easting > 1000)
     if abs(easting_mean) < 180:
-        # Coordinates are lon/lat — build GeoDataFrame directly in WGS84
-        geom = [Point(e, n) for e, n in zip(trees["utm_easting"], trees["utm_northing"])]
+        # Coordenadas em graus. Alguns sites (ex. DUC_A01_2016) trazem lat/lon
+        # TROCADOS (easting=latitude, northing=longitude). Testa as duas ordens e
+        # fica com a que coloca mais árvores dentro das parcelas.
+        kml_union = kml_plots.geometry.union_all()
+
+        def _pts(lon_col, lat_col):
+            pts = [Point(lo, la) for lo, la in zip(trees[lon_col], trees[lat_col])]
+            hits = sum(kml_union.contains(p) for p in pts[:300])
+            return hits, pts
+
+        hit_ne, pts_ne = _pts("utm_easting", "utm_northing")   # easting=lon, northing=lat
+        hit_sw, pts_sw = _pts("utm_northing", "utm_easting")   # trocado
+        geom = pts_sw if hit_sw > hit_ne else pts_ne
         trees_gdf = gpd.GeoDataFrame(trees.copy(), geometry=geom, crs="EPSG:4326")
         kml_utm = kml_plots  # already WGS84
     else:
@@ -217,7 +257,14 @@ def main() -> None:
     valid_plots: dict[str, set] = {}
     for _, row in intersections.iterrows():
         key = row["inventory_file"]
-        valid_plots.setdefault(key, set()).add(str(row["plot_id"]).strip())
+        pid = str(row["plot_id"]).strip()
+        # A interseção usa o plot_id CORRIGIDO (ex. "T01_1"/"T01_2" em sites
+        # multiparte), mas a atribuição espacial devolve o Name cru do KML ("T01").
+        # Aceita ambos: o nome-base (campo) e o corrigido — senão sites multiparte
+        # (CAU, PAR, TAN, FST) caem para zero árvores. A separação em quadras é feita
+        # depois, em calculate_biomass.
+        valid_plots.setdefault(key, set()).add(pid)
+        valid_plots[key].add(re.sub(r"_\d+$", "", pid))
 
     total_trees = 0
     sites_done, sites_warn, sites_err = 0, 0, 0

@@ -32,6 +32,30 @@ def hist_with_stats(df, col, color, title, xlabel, bin_size=None):
     return fig
 
 
+def coverage_breakdown_bar(segments, title=None):
+    """Barra horizontal empilhada de uma partição (ex.: aproveitamento das parcelas).
+
+    segments: lista de (rótulo, contagem, cor). A largura de cada faixa é proporcional
+    à contagem; o rótulo da legenda já traz a contagem e o %."""
+    total = sum(c for _, c, _ in segments) or 1
+    fig = go.Figure()
+    for label, count, color in segments:
+        fig.add_trace(go.Bar(
+            y=[""], x=[count], orientation="h", marker_color=color,
+            name=f"{label}: {count} ({100 * count / total:.0f}%)",
+            text=[str(count)], textposition="inside", insidetextanchor="middle",
+            textfont=dict(color="white", size=14),
+            hovertemplate=f"{label}: {count}<extra></extra>",
+        ))
+    fig.update_layout(
+        barmode="stack", height=170, title=title,
+        margin=dict(l=0, r=0, t=40 if title else 10, b=0),
+        xaxis=dict(visible=False), yaxis=dict(visible=False),
+        legend=dict(orientation="h", yanchor="top", y=-0.1, x=0),
+    )
+    return fig
+
+
 def plot_shape(geom, color, axis_range=None, height=300):
     """Desenha o contorno de uma parcela (polígono) centrado, com eixos em metros
     e proporção 1:1. Aceita Polygon ou MultiPolygon; axis_range fixa a escala."""

@@ -56,9 +56,10 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import KFold
 from sklearn.metrics import root_mean_squared_error, r2_score
 
-from train_model import (local_ground_normalize, drop_xy_outliers, LAZ_DIR, SUMMARY,
+from train_model import (height_above_ground, xy_inlier_mask, LAZ_DIR, SUMMARY,
                          OUT_DIR, GROUND_RADIUS, CANOPY_MIN_H, GBR_PARAMS, SEED,
                          N_SPLITS, Y_FWD, Y_INV)
+from outlier_filter import filter_summary, SUFFIX, VARIANT
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -127,18 +128,20 @@ def extract_features(laz_path: Path) -> dict | None:
         x = np.array(las.x, dtype=np.float64)
         y = np.array(las.y, dtype=np.float64)
         z = np.array(las.z, dtype=np.float32)
+        cls = np.array(las.classification, dtype=np.uint8)
     except Exception as e:
         log.warning(f"  [SKIP] {laz_path.name}: {e}")
         return None
 
     if len(z) < 10:
         return None
-    x, y, z = drop_xy_outliers(x, y, z)
+    keep = xy_inlier_mask(x, y)
+    x, y, z, cls = x[keep], y[keep], z[keep], cls[keep]
     if (x.max() - x.min()) > 1000 or (y.max() - y.min()) > 1000:
         log.warning(f"  [SKIP] {laz_path.name}: extensão implausível")
         return None
 
-    hag = local_ground_normalize(x, y, z, GROUND_RADIUS)
+    hag = height_above_ground(x, y, z, cls, GROUND_RADIUS)
     hag = np.clip(hag, 0.0, None)  # ruído abaixo do solo → 0
 
     canopy = hag[hag >= CANOPY_MIN_H]
@@ -177,7 +180,7 @@ def extract_features(laz_path: Path) -> dict | None:
 
 def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str], list[str]]:
     """Retorna X, y, grupos-de-site (LOSO), rótulos das parcelas, nomes das features."""
-    df = pd.read_csv(SUMMARY)
+    df = filter_summary(pd.read_csv(SUMMARY))
     df = df[df["agb_m1_Mg_ha"].notna()].copy()
 
     rows, y_rows, groups, labels = [], [], [], []
@@ -245,7 +248,7 @@ def main():
 
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
     cv, g = evaluate_cv(X, y)
-    cv.to_csv(OUT_DIR / "cv_results_aba.csv", index=False)
+    cv.to_csv(OUT_DIR / f"cv_results_aba{SUFFIX}.csv", index=False)
     log.info(f"\n  Média das dobras — RMSE={cv.rmse.mean():.1f}  R²={cv.r2.mean():.3f}  "
              f"rRMSE={cv.rrmse_pct.mean():.1f}%")
 
@@ -253,7 +256,7 @@ def main():
     final = GradientBoostingRegressor(**GBR_PARAMS)
     final.fit(X, Y_FWD(y))
     joblib.dump({"model": final, "feature_names": feat_names, "labels": labels},
-                OUT_DIR / "model_aba.joblib")
+                OUT_DIR / f"model_aba{SUFFIX}.joblib")
 
     # Importância das features (vantagem da ABA: modelo interpretável) — top 15.
     imp = sorted(zip(feat_names, final.feature_importances_),
@@ -263,13 +266,14 @@ def main():
         log.info(f"    {name:<18} {val:.3f}")
 
     metrics = {
-        "key": "aba",
+        "key": f"aba{SUFFIX}",
         "name": "GBR — métricas estruturais (ABA)",
         "model": "GradientBoostingRegressor",
         "library": "scikit-learn",
+        "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "target": "agb_m1_Mg_ha",
-        "cv_file": "cv_results_aba.csv",
+        "cv_file": f"cv_results_aba{SUFFIX}.csv",
         "approach_key": "model_approach_aba",
         "n_plots": int(X.shape[0]),
         "n_sites": int(len(set(groups))),
@@ -293,9 +297,10 @@ def main():
                          "r2": round(float(cv.r2.mean()), 4),
                          "rrmse_pct": round(float(cv.rrmse_pct.mean()), 2)},
     }
-    (OUT_DIR / "model_metrics_aba.json").write_text(
+    (OUT_DIR / f"model_metrics_aba{SUFFIX}.json").write_text(
         json.dumps(metrics, indent=2, ensure_ascii=False))
-    log.info(f"\n  Salvo: model_aba.joblib · cv_results_aba.csv · model_metrics_aba.json")
+    log.info(f"\n  Salvo: model_aba{SUFFIX}.joblib · cv_results_aba{SUFFIX}.csv · "
+             f"model_metrics_aba{SUFFIX}.json")
 
 
 if __name__ == "__main__":

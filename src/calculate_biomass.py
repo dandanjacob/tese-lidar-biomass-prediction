@@ -175,13 +175,28 @@ def calc_biomass(df: pd.DataFrame, sp_dict: dict, gn_dict: dict,
 
 # ── Plot area from KML ─────────────────────────────────────────────────────────
 
+def _ensure_polygon(geom):
+    """(Multi)LineString de anel fechado → polígono. KMLs como FNA/TAP trazem parcelas
+    como LINHAS: sem isto a área dá 0 (linha não tem área) → AGB = soma/0 = NaN."""
+    from shapely.ops import polygonize, unary_union
+    if geom is None or geom.is_empty:
+        return geom
+    if geom.geom_type in ("LineString", "MultiLineString"):
+        polys = list(polygonize(geom))
+        if polys:
+            return unary_union(polys)
+    return geom
+
+
 def plot_areas(site_key: str) -> dict:
     """Returns {plot_id: area_ha} from KML geometry."""
     kml = KML_DIR / f"{site_key}.kml"
     if not kml.exists():
         return {}
     try:
-        gdf = gpd.read_file(kml, driver="KML").set_crs("EPSG:4326").to_crs(EQUAL_AREA)
+        gdf = gpd.read_file(kml, driver="KML").set_crs("EPSG:4326")
+        gdf["geometry"] = gdf.geometry.apply(_ensure_polygon)
+        gdf = gdf[gdf.geometry.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(EQUAL_AREA)
         gdf["plot_id"] = gdf["Name"].astype(str).str.strip()
         gdf = gdf.dissolve(by="plot_id").reset_index()
         return dict(zip(gdf["plot_id"], (gdf.geometry.area / 10_000).round(4)))
@@ -209,7 +224,9 @@ def quadra_geoms(site_key: str):
         g = gpd.read_file(kml, driver="KML").set_crs("EPSG:4326")
     except Exception:
         return None
-    g = g[g.geometry.notna() & ~g.geometry.is_empty].reset_index(drop=True)
+    g["geometry"] = g.geometry.apply(_ensure_polygon)
+    g = g[g.geometry.notna() & ~g.geometry.is_empty
+          & g.geometry.geom_type.isin(["Polygon", "MultiPolygon"])].reset_index(drop=True)
     if g.empty:
         return None
     g["name"] = g["Name"].astype(str).str.strip()

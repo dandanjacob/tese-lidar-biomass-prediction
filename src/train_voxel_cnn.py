@@ -35,8 +35,9 @@ import torch.nn as nn
 from sklearn.model_selection import KFold
 from sklearn.metrics import root_mean_squared_error, r2_score
 
-from train_model import (local_ground_normalize, drop_xy_outliers, LAZ_DIR, SUMMARY,
-                         OUT_DIR, GROUND_RADIUS, N_SPLITS, Y_FWD, Y_INV)
+from train_model import (height_above_ground, xy_inlier_mask, CANOPY_MIN_H, LAZ_DIR,
+                         SUMMARY, OUT_DIR, GROUND_RADIUS, N_SPLITS, Y_FWD, Y_INV)
+from outlier_filter import filter_summary, SUFFIX, VARIANT
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -60,17 +61,23 @@ def voxelize(laz_path: Path):
         x = np.array(las.x, dtype=np.float64)
         y = np.array(las.y, dtype=np.float64)
         z = np.array(las.z, dtype=np.float32)
+        cls = np.array(las.classification, dtype=np.uint8)
     except Exception as e:
         log.warning(f"  [SKIP] {laz_path.name}: {e}")
         return None
     if len(z) < 100:
         return None
-    x, y, z = drop_xy_outliers(x, y, z)
+    keep = xy_inlier_mask(x, y)
+    x, y, z, cls = x[keep], y[keep], z[keep], cls[keep]
     if (x.max() - x.min()) > 1000 or (y.max() - y.min()) > 1000:
         log.warning(f"  [SKIP] {laz_path.name}: extent implausível")
         return None
 
-    hag = np.clip(local_ground_normalize(x, y, z, GROUND_RADIUS), 0, ZMAX - 1e-3)
+    hag = height_above_ground(x, y, z, cls, GROUND_RADIUS)
+    m = hag >= CANOPY_MIN_H            # mantém só dossel (≥ altura do peito)
+    if int(m.sum()) >= 50:
+        x, y, hag = x[m], y[m], hag[m]
+    hag = np.clip(hag, 0, ZMAX - 1e-3)
     dx = (x.max() - x.min()) or 1.0
     dy = (y.max() - y.min()) or 1.0
     cx = np.clip(((x - x.min()) / dx * VX).astype(int), 0, VX - 1)
@@ -86,7 +93,7 @@ def voxelize(laz_path: Path):
 
 
 def build_dataset():
-    df = pd.read_csv(SUMMARY)
+    df = filter_summary(pd.read_csv(SUMMARY))
     df = df[df["agb_m1_Mg_ha"].notna()].copy()
     items = []
     for _, row in df.iterrows():
@@ -187,7 +194,7 @@ def main():
         log.info(f"  fold {i}  n={len(te):>3}  RMSE={rmse:.1f}  R²={r2:.3f}")
 
     cv = pd.DataFrame(records)
-    cv.to_csv(OUT_DIR / "cv_results_voxel.csv", index=False)
+    cv.to_csv(OUT_DIR / f"cv_results_voxel{SUFFIX}.csv", index=False)
     g_rmse = root_mean_squared_error(all_te, all_pred)
     g_r2 = r2_score(all_te, all_pred)
     g_rrmse = g_rmse / np.mean(all_te) * 100
@@ -198,13 +205,14 @@ def main():
     final = train_fold(items, np.arange(len(items)), y_mean, y_std, rng)
     torch.save({"state_dict": final.state_dict(), "y_mean": float(y_mean),
                 "y_std": float(y_std), "grid": [VX, VY, VZ], "zmax": ZMAX},
-               OUT_DIR / "model_voxel.pt")
+               OUT_DIR / f"model_voxel{SUFFIX}.pt")
 
     metrics = {
-        "key": "voxel",
+        "key": f"voxel{SUFFIX}",
         "name": "CNN 3D — voxels",
         "model": "CNN 3D (voxels de ocupação)",
         "library": "PyTorch",
+        "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "target": "agb_m1_Mg_ha",
         "n_plots": len(items),
@@ -213,7 +221,7 @@ def main():
         "agb_mean": round(float(y.mean()), 1),
         "agb_std": round(float(y.std()), 1),
         "cv": f"K-fold aleatório ({N_SPLITS} dobras, peso 1/parcela)",
-        "cv_file": "cv_results_voxel.csv",
+        "cv_file": f"cv_results_voxel{SUFFIX}.csv",
         "approach_key": "model_approach_voxel",
         "hyperparameters": {
             "arquitetura": "Conv3d(2→16→32→64)+BN+pool · global-pool · Linear(64→64→1)",
@@ -233,9 +241,9 @@ def main():
                          "r2": round(float(cv.r2.mean()), 4),
                          "rrmse_pct": round(float(cv.rrmse_pct.mean()), 2)},
     }
-    (OUT_DIR / "model_metrics_voxel.json").write_text(
+    (OUT_DIR / f"model_metrics_voxel{SUFFIX}.json").write_text(
         json.dumps(metrics, indent=2, ensure_ascii=False))
-    log.info(f"  Métricas em {OUT_DIR / 'model_metrics_voxel.json'}")
+    log.info(f"  Métricas em {OUT_DIR / f'model_metrics_voxel{SUFFIX}.json'}")
 
 
 if __name__ == "__main__":

@@ -5,8 +5,12 @@ import plotly.express as px
 import streamlit as st
 
 from lib import data
+from lib.charts import coverage_breakdown_bar
 from lib.i18n import t
-from lib.theme import C_BLUE, C_LIGHT, C_PINK
+from lib.theme import C_BLUE, C_LIGHT, C_PINK, C_RED
+
+C_GREEN = "#2e9e5b"
+C_GRAY = "#9aa0a6"
 
 st.title(t("intersections.title"))
 st.markdown(t("intersections.intro"))
@@ -79,6 +83,24 @@ with col2:
     st.markdown(t("intersections.best_desc", n=total_best))
 
 st.caption(t("intersections.chart_note"))
+
+# ── O que chega aos modelos (verde/vermelho/cinza) ──
+st.markdown("---")
+st.markdown(f"### {t('intersections.usable_title')}")
+st.markdown(t("intersections.usable_intro"))
+
+tc = data.training_coverage()
+st.plotly_chart(
+    coverage_breakdown_bar([
+        (t("intersections.usable_green"), tc["usable"], C_GREEN),
+        (t("intersections.usable_red"), tc["unusable"], C_RED),
+        (t("intersections.usable_gray"), tc["no_lidar"], C_GRAY),
+    ]),
+    use_container_width=True,
+)
+st.caption(t("intersections.usable_caption",
+             total=tc["total"], overlap=tc["overlap"],
+             green=tc["usable"], red=tc["unusable"], gray=tc["no_lidar"]))
 
 # ── Cobertura do inventário pelo LiDAR ──
 st.markdown("---")

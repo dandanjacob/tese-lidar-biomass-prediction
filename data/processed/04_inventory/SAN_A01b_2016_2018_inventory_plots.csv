@@ -1,4 +1,86 @@
 site,tree_id,scientific_name,family_name,utm_easting,utm_northing,type,dbh_2016,dead_2016,hcom_2016,htot_2016,dbh_2018,dead_2018,plot_id,htot_feldpausch
+SAN_A01b,001a,,,737023.9021,9667676.135,O,11.8,True,,,,True,1,
+SAN_A01b,001b,,,736996.5789,9667665.749,O,54.2,True,,,,True,1,
+SAN_A01b,002a,Laetia procera,Salicaceae,737022.8308,9667674.906,O,17.7,False,,,18.1,False,1,16.07
+SAN_A01b,002b,,,736984.3719,9667656.421,O,58.4,True,,,,True,1,
+SAN_A01b,003a,,,737024.3998,9667674.128,O,12.1,False,,,,True,1,
+SAN_A01b,003b,Guatteria schomburgkiana,Annonaceae,737025.242,9667661.87,O,12.7,False,,,13.4,True,1,13.08
+SAN_A01b,004a,Apeiba petoumo,Malvaceae,737024.8838,9667673.224,O,18.0,False,,,18.8,False,1,16.48
+SAN_A01b,004b,,,737021.1943,9667660.875,O,11.4,False,,,,True,1,
+SAN_A01b,005a,Inga alba,Fabaceae,737017.8316,9667671.337,O,21.6,False,,,22.8,False,1,18.68
+SAN_A01b,005b,Theobroma glaucum,Malvaceae,737019.8881,9667659.055,O,10.2,False,,,10.3,False,1,10.85
+SAN_A01b,006a,Jacaranda copaia,Bignoniaceae,737028.644,9667673.721,O,23.7,False,21.84,24.22,26.7,False,1,20.62
+SAN_A01b,006b,Vismia floribunda,Hypericaceae,737016.6913,9667660.709,O,12.5,False,,,14.0,False,1,13.49
+SAN_A01b,007a,,,737028.574,9667671.697,O,13.0,False,,,13.7,False,1,13.29
+SAN_A01b,007b,,,737019.4754,9667661.927,O,14.6,False,,,,True,1,
+SAN_A01b,008a,,,737030.3585,9667671.579,O,10.7,True,,,,True,1,
+SAN_A01b,008b,Vismia floribunda,Hypericaceae,737021.4302,9667662.558,O,15.2,False,,,16.3,False,1,14.98
+SAN_A01b,009a,Vismia floribunda,Hypericaceae,737028.6851,9667670.413,O,14.3,False,,,15.3,False,1,14.34
+SAN_A01b,009b,Jacaranda copaia,Bignoniaceae,737023.1362,9667665.776,O,14.4,False,,,16.6,False,1,15.16
+SAN_A01b,010a,Lacmellea aculeata,Apocynaceae,737031.7099,9667668.395,O,11.0,False,,,12.5,False,1,12.46
+SAN_A01b,010b,Schefflera morototoni,Araliaceae,737022.1568,9667667.593,O,22.2,False,,,20.8,False,1,17.61
+SAN_A01b,011a,Vismia floribunda,Hypericaceae,737025.6841,9667667.442,O,13.2,False,,,14.0,False,1,13.49
+SAN_A01b,011b,Schefflera morototoni,Araliaceae,737022.1568,9667667.593,O,24.1,False,,,25.1,False,1,19.85
+SAN_A01b,012a,Miconia poeppigii,Melastomataceae,737029.4617,9667665.742,O,16.6,False,15.8,20.3,19.1,False,1,16.65
+SAN_A01b,012b,Cordia scabrifolia,Boraginaceae,737014.8455,9667664.095,O,12.8,False,,,13.1,False,1,12.88
+SAN_A01b,013a,Vismia floribunda,Hypericaceae,737021.2785,9667656.497,O,25.8,False,,,27.7,False,1,21.09
+SAN_A01b,013b,Byrsonima crispa,Malpighiaceae,737012.5886,9667672.483,O,15.0,False,,,16.6,False,1,15.16
+SAN_A01b,014a,Jacaranda copaia,Bignoniaceae,737029.9382,9667660.582,O,19.5,False,,,21.8,False,1,18.15
+SAN_A01b,014b,,,737013.7306,9667674.643,O,13.7,True,,,,True,1,
+SAN_A01b,015a,Apeiba petoumo,Malvaceae,737031.7091,9667658.344,O,19.1,False,,,20.5,False,1,17.45
+SAN_A01b,015b,Jacaranda copaia,Bignoniaceae,737008.7919,9667672.013,O,18.3,False,,,21.2,False,1,17.83
+SAN_A01b,016a,Inga sp.,Fabaceae,737033.112,9667657.853,O,21.2,False,,,23.7,False,1,19.15
+SAN_A01b,016b,Guatteria schomburgkiana,Annonaceae,737012.5395,9667674.704,O,20.0,False,,,21.3,False,1,17.88
+SAN_A01b,017a,Guatteria schomburgkiana,Annonaceae,737037.0096,9667657.374,O,16.1,False,,,16.0,False,1,14.79
+SAN_A01b,018a,Rinorea guianensis,Violaceae,737032.2211,9667656.327,O,22.0,False,,,,True,1,
+SAN_A01b,019a,Jacaranda copaia,Bignoniaceae,737028.5231,9667655.783,O,25.1,False,,,28.6,False,1,21.5
+SAN_A01b,020a,Jacaranda copaia,Bignoniaceae,737027.0027,9667652.264,O,23.4,False,23.6,27.02,25.5,False,1,20.05
+SAN_A01b,021a,Inga thibaudiana,Fabaceae,737027.2858,9667650.689,O,14.0,False,,,14.7,False,1,13.95
+SAN_A01b,022a,Guatteria schomburgkiana,Annonaceae,737031.7063,9667649.879,O,12.1,False,,,,True,1,
+SAN_A01b,023a,Guatteria schomburgkiana,Annonaceae,737035.1668,9667649.778,O,12.2,False,,,12.1,False,1,12.18
+SAN_A01b,024a,Tetragastris altissima,Burseraceae,737033.91,9667645.791,O,13.4,False,,,13.4,False,1,13.08
+SAN_A01b,025a,Tetragastris altissima,Burseraceae,737033.8195,9667645.749,O,15.8,False,,,15.9,False,1,14.73
+SAN_A01b,026a,,,737039.7648,9667649.656,O,14.2,True,,,,True,1,
+SAN_A01b,027a,Laetia procera,Salicaceae,737039.8725,9667647.337,O,17.1,False,,,17.9,False,1,15.95
+SAN_A01b,028a,Vismia floribunda,Hypericaceae,737033.3296,9667642.669,O,20.4,False,,,21.8,False,1,18.15
+SAN_A01b,029a,Laetia procera,Salicaceae,737041.2728,9667644.717,O,16.2,False,,,16.9,False,1,15.35
+SAN_A01b,030a,Parkia paraensis,Fabaceae,737042.1735,9667645.143,O,22.4,False,,,24.3,False,1,19.45
+SAN_A01b,031a,,,737038.2353,9667639.861,O,12.8,True,,,,True,1,
+SAN_A01b,032a,,,737037.9987,9667638.834,O,19.1,True,,,,True,1,
+SAN_A01b,033a,,,737042.9013,9667640.617,O,29.0,True,,,,True,1,
+SAN_A01b,034a,Byrsonima crispa,Malpighiaceae,737043.6872,9667640.2,O,12.7,False,,,13.4,False,1,13.08
+SAN_A01b,035a,Eschweilera coriacea,Lecythidaceae,737045.5456,9667638.826,O,12.2,False,,,13.5,False,1,13.15
+SAN_A01b,036a,Eschweilera coriacea,Lecythidaceae,737045.5456,9667638.826,O,10.8,False,,,11.8,False,1,11.96
+SAN_A01b,037a,Eschweilera coriacea,Lecythidaceae,737045.5456,9667638.826,O,10.8,False,,,11.3,False,1,11.6
+SAN_A01b,038a,Laetia procera,Salicaceae,737048.4956,9667638.557,O,19.7,False,,,20.7,False,1,17.56
+SAN_A01b,039a,Guatteria schomburgkiana,Annonaceae,737038.1588,9667635.821,O,16.3,False,,,16.6,False,1,15.16
+SAN_A01b,040a,Byrsonima crispa,Malpighiaceae,737036.6189,9667634.501,O,11.0,False,8.67,13.1,12.8,False,1,12.67
+SAN_A01b,041a,Tetragastris altissima,Burseraceae,737038.0984,9667631.768,O,12.3,False,,,12.4,False,1,12.39
+SAN_A01b,042a,Strychnos subcordata,Loganiaceae,737036.7148,9667632.245,O,11.1,False,,,,True,1,
+SAN_A01b,043a,Apeiba petoumo,Malvaceae,737034.9396,9667629.296,O,18.4,False,,,19.1,False,1,16.65
+SAN_A01b,044a,Inga alba,Fabaceae,737033.1533,9667630.508,O,34.7,False,,,33.7,False,1,23.69
+SAN_A01b,045a,Inga alba,Fabaceae,737033.1533,9667630.508,O,40.0,False,,,42.3,False,1,26.87
+SAN_A01b,046a,Nectandra cuspidata,Lauraceae,737034.8336,9667633.636,O,10.1,False,,,10.5,False,1,11.0
+SAN_A01b,047a,Laetia procera,Salicaceae,737034.5894,9667636.165,O,12.7,False,,,12.6,False,1,12.53
+SAN_A01b,048a,Laetia procera,Salicaceae,737034.5894,9667636.165,O,15.4,False,,,14.8,False,1,14.02
+SAN_A01b,049a,Laetia procera,Salicaceae,737033.7491,9667637.715,O,10.8,False,,,10.8,False,1,11.23
+SAN_A01b,050a,,,737035.396,9667638.847,O,13.4,True,,,,True,1,
+SAN_A01b,051a,Guatteria schomburgkiana,Annonaceae,737029.5643,9667639.171,O,16.5,False,,,16.6,False,1,15.16
+SAN_A01b,052a,Inga thibaudiana,Fabaceae,737029.3155,9667639.628,O,12.2,False,10.74,16.91,12.5,False,1,12.46
+SAN_A01b,053a,Miconia poeppigii,Melastomataceae,737034.5467,9667644.61,O,17.1,False,,,19.5,False,1,16.88
+SAN_A01b,054a,Jacaranda copaia,Bignoniaceae,737032.0996,9667644.944,O,24.8,False,,,27.7,False,1,21.09
+SAN_A01b,055a,Vismia floribunda,Hypericaceae,737025.732,9667646.211,O,21.6,False,,,22.6,False,1,18.58
+SAN_A01b,056a,Byrsonima crispa,Malpighiaceae,737023.5631,9667646.012,O,18.6,False,,,16.9,False,1,15.35
+SAN_A01b,057a,Jacaranda copaia,Bignoniaceae,737027.7424,9667650.898,O,32.7,False,,,36.0,False,1,24.6
+SAN_A01b,058a,Vismia floribunda,Hypericaceae,737027.6716,9667653.135,O,10.9,False,,,11.8,False,1,11.96
+SAN_A01b,059a,,,737027.1796,9667654.045,O,10.5,True,,,,True,1,
+SAN_A01b,060a,Vismia floribunda,Hypericaceae,737024.4297,9667652.801,O,21.2,False,13.99,17.39,23.3,False,1,18.94
+SAN_A01b,061a,Eschweilera parviflora,Lecythidaceae,737020.9131,9667650.867,O,10.9,False,,,11.1,False,1,11.45
+SAN_A01b,062a,Guatteria schomburgkiana,Annonaceae,737020.1046,9667651.301,O,13.0,False,,,13.2,False,1,12.95
+SAN_A01b,063a,Guatteria schomburgkiana,Annonaceae,737024.1106,9667655.495,O,15.5,False,,,15.9,False,1,14.73
+SAN_A01b,064a,Vismia floribunda,Hypericaceae,737025.9496,9667656.321,O,14.4,False,,,15.0,False,1,14.15
+SAN_A01b,065a,Jacaranda copaia,Bignoniaceae,737026.1328,9667658.097,O,22.3,False,,,25.0,True,1,19.8
+SAN_A01b,066a,Rinorea guianensis,Violaceae,737041.1518,9667649.177,O,,,,,10.3,False,1,10.85
 SAN_A01b,001a,,,736910.3807,9667923.18,O,22.0,False,,,22.4,False,2,18.47
 SAN_A01b,001b,Eschweilera coriacea,Lecythidaceae,736890.3347,9667914.087,O,44.1,False,26.19,35.07,47.2,False,2,28.45
 SAN_A01b,002a,Parkia paraensis,Fabaceae,736902.8456,9667920.434,O,46.8,False,17.54,28.99,46.8,False,2,28.32
