@@ -58,13 +58,15 @@ fig = go.Figure(data=[go.Scatter3d(
     x=x, y=y, z=z, mode="markers",
     marker=dict(size=1.5, color=z, colorscale="Viridis",
                 colorbar=dict(title=t("pointcloud.colorbar_height")), opacity=0.85),
-    name=t("pointcloud.lidar_layer"),
+    name=t("pointcloud.lidar_layer"), showlegend=False,
 )])
 
+n_noheight = 0
 if show_trees and not trees.empty:
     tx = trees["utm_easting"].to_numpy() - cx
     ty = trees["utm_northing"].to_numpy() - cy
-    th = np.nan_to_num(trees["height_m"].to_numpy(), nan=0.0)
+    h_all = trees["height_m"].to_numpy()
+    sp_all = (trees["species"].to_numpy() if "species" in trees else np.array([""] * len(tx)))
     # solo local de cada árvore: menor z dos pontos amostrados num raio de 2 m
     # (fallback: menor z da nuvem). A linha vai do solo até a altura da árvore.
     zmin = float(z.min())
@@ -72,19 +74,39 @@ if show_trees and not trees.empty:
         z[(np.abs(x - ax) < 2) & (np.abs(y - ay) < 2)].min()
         if ((np.abs(x - ax) < 2) & (np.abs(y - ay) < 2)).any() else zmin
         for ax, ay in zip(tx, ty)])
-    lx, ly, lz = [], [], []
-    for ax, ay, g, h in zip(tx, ty, ground, th):
-        lx += [ax, ax, None]
-        ly += [ay, ay, None]
-        lz += [g, g + h, None]
-    fig.add_trace(go.Scatter3d(
-        x=lx, y=ly, z=lz, mode="lines", line=dict(color=C_RED, width=5),
-        name=t("pointcloud.trees_layer")))
-    fig.add_trace(go.Scatter3d(
-        x=tx, y=ty, z=ground + th, mode="markers",
-        marker=dict(size=3, color=C_RED, symbol="circle"),
-        name=t("pointcloud.trees_tops"),
-        hovertext=[f"{h:.1f} m" for h in th], hoverinfo="text"))
+
+    def _sp(s):
+        return f" · {s}" if isinstance(s, str) and s not in ("", "nan", "NA", "None") else ""
+
+    # Árvores COM altura → linha vertical (solo → topo) + marcador no topo.
+    has_h = np.isfinite(h_all) & (h_all > 0)
+    if has_h.any():
+        lx, ly, lz = [], [], []
+        for ax, ay, g, h in zip(tx[has_h], ty[has_h], ground[has_h], h_all[has_h]):
+            lx += [ax, ax, None]
+            ly += [ay, ay, None]
+            lz += [g, g + h, None]
+        fig.add_trace(go.Scatter3d(
+            x=lx, y=ly, z=lz, mode="lines", line=dict(color=C_RED, width=5),
+            name=t("pointcloud.trees_layer"), showlegend=False, hoverinfo="skip"))
+        tops = [f"{h:.1f} m{_sp(s)}" for h, s in zip(h_all[has_h], sp_all[has_h])]
+        fig.add_trace(go.Scatter3d(
+            x=tx[has_h], y=ty[has_h], z=ground[has_h] + h_all[has_h], mode="markers",
+            marker=dict(size=3, color=C_RED, symbol="circle"),
+            name=t("pointcloud.trees_tops"), showlegend=False,
+            hovertext=tops, hoverinfo="text"))
+
+    # Árvores SEM altura medida/estimável (sem Htot e sem DBH) → marcador cinza rente
+    # ao solo. NÃO são árvores caídas: é dado de altura ausente. Hover deixa explícito.
+    no_h = ~has_h
+    n_noheight = int(no_h.sum())
+    if no_h.any():
+        labs = [f"{t('pointcloud.height_unknown')}{_sp(s)}" for s in sp_all[no_h]]
+        fig.add_trace(go.Scatter3d(
+            x=tx[no_h], y=ty[no_h], z=ground[no_h], mode="markers",
+            marker=dict(size=3, color="#888888", symbol="x", opacity=0.7),
+            name=t("pointcloud.trees_noheight"), showlegend=False,
+            hovertext=labs, hoverinfo="text"))
 fig.update_layout(
     height=620, margin=dict(l=0, r=0, t=10, b=0),
     scene=dict(xaxis_title="X (m)", yaxis_title="Y (m)", zaxis_title=t("pointcloud.axis_z"),
@@ -92,7 +114,10 @@ fig.update_layout(
 )
 st.plotly_chart(fig, use_container_width=True)
 if show_trees and not trees.empty:
-    st.caption(t("pointcloud.trees_caption", n=len(trees)))
+    cap = t("pointcloud.trees_caption", n=len(trees))
+    if n_noheight:
+        cap += " " + t("pointcloud.trees_noheight_note", n=n_noheight)
+    st.caption(cap)
 
 c1, c2, c3 = st.columns(3)
 c1.metric(t("pointcloud.height_min"), f"{z.min():.1f} m")

@@ -253,6 +253,8 @@ def _plot_tree_positions(_code_key, _inv_mtime, site, plot_id):
         # 'dead' às vezes vem sujo (ex.: JAM_A03) — normaliza pra booleano robusto.
         "dead": (inside["dead"].astype(str).str.upper().isin(["TRUE", "1", "T", "YES"]).to_numpy()
                  if "dead" in inside else np.zeros(len(inside), dtype=bool)),
+        "species": (inside["scientific_name"].astype(str).to_numpy()
+                    if "scientific_name" in inside else ""),
     })
     return out.reset_index(drop=True)
 
