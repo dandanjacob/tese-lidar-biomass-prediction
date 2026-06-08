@@ -4,7 +4,7 @@
   "model": "GradientBoostingRegressor",
   "library": "scikit-learn",
   "variant": "no_outliers",
-  "trained_at": "2026-06-07 21:22 UTC",
+  "trained_at": "2026-06-08 00:01 UTC",
   "target": "agb_m1_Mg_ha",
   "cv_file": "cv_results_noout.csv",
   "approach_key": "model_approach",

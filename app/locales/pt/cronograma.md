@@ -1,34 +1,36 @@
 ## ✅ O que já foi feito
 
-1. **Coleta dos dados** — nuvens de pontos LiDAR aerotransportado (NASA / ORNL DAAC) e
-   inventários florestais de campo da Amazônia.
-2. **Entendimento dos dados** — exploração da estrutura, qualidade e cobertura de cada
-   fonte, e organização do pipeline de processamento.
-3. **Interseções LiDAR × inventário** — cruzamento espacial para descobrir quais parcelas
-   de campo têm cobertura LiDAR (e com qual defasagem de anos entre o voo e a medição).
-4. **Biomassa dos inventários de campo** — cálculo da AGB por parcela a partir do
-   inventário (DBH, altura, densidade da madeira), em três variantes de fórmula
-   (M1 / M2 / M3). É o **alvo** que os modelos tentam prever.
-5. **Primeiros modelos "às cegas"** — jogando a nuvem de pontos (crua ou resumida) direto
-   no modelo, **sem padronizar** as parcelas: GBR, Random Forest, PointNet e CNNs 2D/3D.
+1. **Coleta e entendimento dos dados** — nuvens de pontos LiDAR aerotransportado
+   (NASA / ORNL DAAC) e inventários florestais de campo da Amazônia; exploração de
+   estrutura, qualidade e cobertura.
+2. **Interseções LiDAR × inventário** — cruzamento espacial das parcelas com cobertura
+   LiDAR, incluindo a defasagem de anos entre o voo e a medição de campo.
+3. **Biomassa de referência (o alvo)** — AGB por parcela a partir do inventário (DBH,
+   altura, densidade da madeira), em três fórmulas (M1 / M2 / M3).
+4. **Recuperação do dataset** — deduplicação e correções elevaram as parcelas
+   utilizáveis de **383 → 493** (e **325** após remover outliers de área/forma).
+5. **Seis modelos, duas variantes** — GBR, Random Forest, ABA (métricas), PointNet e
+   CNNs 2D/3D, treinados **com e sem outliers** e avaliados por validação cruzada k-fold.
+6. **Diagnóstico por modelo** — predito × observado, resíduos, *learning curve* e
+   evolução do treino (RMSE + R²); na nuvem de pontos, sobreposição das árvores do
+   inventário (posição, altura, espécie) e a métrica de gap temporal LiDAR × inventário.
+7. **Redução de dimensionalidade (experimento)** — GBR com **K quantis de altura**
+   (de 8 a 256): o R² satura já com **~16 quantis** (~0,44 sem outliers), confirmando
+   que as 1024 alturas originais eram, em boa parte, ruído que alimentava *overfitting*.
 
 ## 🎯 O plano (próximos passos)
 
-Os primeiros modelos **renderam pouco** — sinal de que o dado de entrada está
-heterogêneo demais (parcelas com áreas, formatos e densidades muito diferentes).
+Leitura até aqui: **poucas features bem escolhidas (ABA / quantis) generalizam melhor
+que a nuvem crua de alta dimensão**, e remover outliers ajuda bastante.
 
-1. **Padronizar as nuvens de pontos** — recortar todas com **área e formato mais
-   parecidos** (um *footprint* regular). A vantagem é dupla:
-   - gera um **dataset bem maior**, já que cada parcela grande pode virar várias
-     unidades menores;
-   - cada unidade fica **mais precisa**, por representar uma área menor e mais homogênea.
-2. **Re-rodar os modelos** com essas parcelas **melhor categorizadas** e comparar com a
-   rodada "às cegas".
-3. **Estudar mais modelos** sobre esse dataset padronizado.
-4. **Plano B — métricas no lugar da nuvem crua:** se os modelos que recebem a **nuvem de
-   pontos como entrada** continuarem ruins, migrar para modelos alimentados por
-   **métricas extraídas das nuvens** (altura máxima, percentis, densidade, etc.) — a
-   abordagem por área (ABA).
+1. **Padronizar o *footprint* das parcelas** — recortar todas com área e formato
+   parecidos, gerando um dataset maior e mais homogêneo (cada parcela grande vira
+   várias unidades menores).
+2. **Aprofundar a abordagem por métricas / ABA** e a regularização, já que supera a
+   nuvem crua.
+3. **Corrigir os modelos PyTorch** — o voxel ainda fica abaixo de prever a média
+   (R² < 0): *early stopping* e menos capacidade.
+4. **Re-rodar e comparar** tudo sobre o dataset padronizado.
 
 ---
 

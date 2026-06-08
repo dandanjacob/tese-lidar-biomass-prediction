@@ -339,7 +339,8 @@
     "r2_pos": "R² > 0",
     "r2_neg": "R² ≤ 0",
     "evolution_title": "Training evolution",
-    "evolution_caption": "Error/loss on the TRAINING set as the final model (all plots) trains. For the GBRs, RMSE (Mg/ha) per boosting iteration; for Random Forest, RMSE as the forest grows; for the PyTorch models (PointNet, CNNs), the mean loss per epoch (MSE on the standardized target). This is a training curve — it does not replace the cross-validation metrics above.",
+    "evolution_r2_title": "Training evolution — R²",
+    "evolution_caption": "RMSE and R² on the TRAINING set as the final model (all plots) trains — GBR/ABA per boosting iteration, Random Forest as the forest grows, PyTorch models per epoch. This is a training curve, measured on the same plots used to fit: R² climbs toward 1 because the model memorizes the data it saw. It does not replace the cross-validation R² above (on unseen plots) — the gap between the two measures overfitting.",
     "hist_x_epoch": "epoch",
     "hist_x_iteration": "boosting iteration",
     "hist_x_trees": "number of trees",
@@ -354,8 +355,10 @@
     "resid_title": "Residuals vs observed",
     "lc_title": "Learning curve",
     "lc_x": "training size (plots)",
+    "lc_y": "RMSE (Mg/ha)",
     "chart_rmse_title": "RMSE per fold (Mg/ha)",
     "col_site": "Site",
+    "col_plot": "Plot",
     "col_n": "n",
     "col_rmse": "RMSE",
     "col_r2": "R²",
@@ -369,6 +372,7 @@
     "col_variant": "Set",
     "variant_full": "Full intersections",
     "variant_noout": "Outliers removed (area > 0.5 ha or compactness < 0.6)",
+    "variant_dimred": "Dimensionality reduction — GBR with K height quantiles (no outliers)",
     "noout_pending": "Outlier-free models still training — they appear here once their metrics are generated."
   },
   "cronograma": {

@@ -4,7 +4,7 @@
   "model": "CNN 3D (voxels de ocupação)",
   "library": "PyTorch",
   "variant": "no_outliers",
-  "trained_at": "2026-06-07 21:41 UTC",
+  "trained_at": "2026-06-08 00:20 UTC",
   "target": "agb_m1_Mg_ha",
   "n_plots": 325,
   "n_sites": 18,

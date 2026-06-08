@@ -72,7 +72,7 @@ def main():
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
     cv, g, (oof_t, oof_p, oof_i) = evaluate_cv(X, y)
     cv.to_csv(OUT_DIR / f"cv_results_rf{SUFFIX}.csv", index=False)
-    save_oof(OUT_DIR / f"oof_rf{SUFFIX}.json", oof_t, oof_p, groups[oof_i])
+    save_oof(OUT_DIR / f"oof_rf{SUFFIX}.json", oof_t, oof_p, np.array(labels)[oof_i])
     sizes, rmses = learning_curve(len(X), SEED, lambda tr, te: root_mean_squared_error(
         y[te], Y_INV(RandomForestRegressor(**RF_PARAMS).fit(X[tr], Y_FWD(y[tr])).predict(X[te]))))
     save_lc(OUT_DIR / f"lc_rf{SUFFIX}.json", sizes, rmses)
@@ -91,9 +91,10 @@ def main():
     cum = np.cumsum(tree_preds, axis=0) / np.arange(1, len(tree_preds) + 1)[:, None]
     step = max(1, len(tree_preds) // 100)
     xs = list(range(step, len(tree_preds) + 1, step))
-    ys = [round(float(root_mean_squared_error(y, Y_INV(cum[i - 1]))), 3) for i in xs]
+    rmses = [round(float(root_mean_squared_error(y, Y_INV(cum[i - 1]))), 3) for i in xs]
+    r2s = [round(float(r2_score(y, Y_INV(cum[i - 1]))), 4) for i in xs]
     (OUT_DIR / f"history_rf{SUFFIX}.json").write_text(json.dumps({
-        "x": xs, "y": ys, "x_kind": "trees", "y_kind": "rmse"}, ensure_ascii=False))
+        "x": xs, "rmse": rmses, "r2": r2s, "x_kind": "trees"}, ensure_ascii=False))
 
     imp = sorted(zip(feat_names, final.feature_importances_),
                  key=lambda t: t[1], reverse=True)

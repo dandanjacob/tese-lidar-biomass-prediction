@@ -4,7 +4,7 @@
   "model": "PointNet (MLP por ponto + max-pool)",
   "library": "PyTorch",
   "variant": "full",
-  "trained_at": "2026-06-07 21:07 UTC",
+  "trained_at": "2026-06-07 23:41 UTC",
   "target": "agb_m1_Mg_ha",
   "n_plots": 493,
   "n_sites": 23,

@@ -160,9 +160,9 @@ def train_fold(items, tr_idx, y_mean, y_std, rng, history=None):
     opt = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
     lossf = nn.MSELoss()
     model.train()
+    yt_hist = np.array([items[i][1] for i in tr_idx], dtype=float) if history is not None else None
     for _ in range(EPOCHS):
         order = rng.permutation(tr_idx)
-        ep_loss, nb = 0.0, 0
         for b in range(0, len(order), BATCH):
             idxs = order[b:b + BATCH]
             if len(idxs) < 2:           # BatchNorm precisa de batch > 1
@@ -173,9 +173,10 @@ def train_fold(items, tr_idx, y_mean, y_std, rng, history=None):
             loss = lossf(model(xb), yb)
             loss.backward()
             opt.step()
-            ep_loss += float(loss); nb += 1
-        if history is not None:
-            history.append(ep_loss / max(nb, 1))  # loss média da época (alvo padronizado)
+        if history is not None:  # RMSE/R² no treino ao fim de cada época
+            p = Y_INV(predict(model, items, tr_idx, y_mean, y_std, rng))
+            history.append((float(root_mean_squared_error(yt_hist, p)), float(r2_score(yt_hist, p))))
+            model.train()
     return model
 
 
@@ -195,12 +196,13 @@ def main():
     items = build_dataset()
     y = np.array([it[1] for it in items], dtype=np.float32)
     groups = np.array([it[2] for it in items])
+    labels = np.array([it[3] for it in items])
     log.info(f"  AGB M1 — média {y.mean():.1f} std {y.std():.1f} [Mg/ha]")
 
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
     rng = np.random.default_rng(SEED)
     kf = KFold(n_splits=N_SPLITS, shuffle=True, random_state=SEED)
-    all_te, all_pred, all_site, records = [], [], [], []
+    all_te, all_pred, all_lab, records = [], [], [], []
     for i, (tr, te) in enumerate(kf.split(np.zeros(len(items))), 1):
         y_mean, y_std = Y_FWD(y[tr]).mean(), Y_FWD(y[tr]).std() + 1e-6
         model = train_fold(items, tr, y_mean, y_std, rng)
@@ -208,14 +210,14 @@ def main():
         rmse = root_mean_squared_error(y[te], pred)
         r2 = r2_score(y[te], pred)
         rrmse = rmse / y[te].mean() * 100
-        all_te.extend(y[te]); all_pred.extend(pred); all_site.extend(groups[te])
+        all_te.extend(y[te]); all_pred.extend(pred); all_lab.extend(labels[te])
         records.append({"fold": i, "n_test": len(te), "rmse": round(rmse, 2),
                         "r2": round(r2, 4), "rrmse_pct": round(rrmse, 2)})
         log.info(f"  fold {i}  n={len(te):>3}  RMSE={rmse:.1f}  R²={r2:.3f}")
 
     cv = pd.DataFrame(records)
     cv.to_csv(OUT_DIR / f"cv_results_raster{SUFFIX}.csv", index=False)
-    save_oof(OUT_DIR / f"oof_raster{SUFFIX}.json", all_te, all_pred, all_site)
+    save_oof(OUT_DIR / f"oof_raster{SUFFIX}.json", all_te, all_pred, all_lab)
 
     def _lc_eval(tr, te):
         ym, ys = Y_FWD(y[tr]).mean(), Y_FWD(y[tr]).std() + 1e-6
@@ -233,8 +235,9 @@ def main():
     hist = []
     final = train_fold(items, np.arange(len(items)), y_mean, y_std, rng, history=hist)
     (OUT_DIR / f"history_raster{SUFFIX}.json").write_text(json.dumps({
-        "x": list(range(1, len(hist) + 1)), "y": [round(v, 5) for v in hist],
-        "x_kind": "epoch", "y_kind": "loss"}, ensure_ascii=False))
+        "x": list(range(1, len(hist) + 1)),
+        "rmse": [round(h[0], 3) for h in hist], "r2": [round(h[1], 4) for h in hist],
+        "x_kind": "epoch"}, ensure_ascii=False))
     torch.save({"state_dict": final.state_dict(), "y_mean": float(y_mean),
                 "y_std": float(y_std), "grid": GRID, "h_scale": H_SCALE},
                OUT_DIR / f"model_raster{SUFFIX}.pt")

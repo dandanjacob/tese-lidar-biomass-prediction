@@ -4,7 +4,7 @@
   "model": "RandomForestRegressor",
   "library": "scikit-learn",
   "variant": "no_outliers",
-  "trained_at": "2026-06-07 21:25 UTC",
+  "trained_at": "2026-06-08 00:03 UTC",
   "target": "agb_m1_Mg_ha",
   "cv_file": "cv_results_rf_noout.csv",
   "approach_key": "model_approach_rf",

@@ -11,12 +11,19 @@ import json
 import numpy as np
 
 
-def save_oof(path, y_true, y_pred, sites):
-    """Salva as previsões out-of-fold (uma por parcela): y real, y previsto e site."""
+def save_oof(path, y_true, y_pred, labels):
+    """Salva as previsões out-of-fold (uma por parcela): y real, y previsto, site e
+    plot_id. `labels` são as strings "site|plot_id" (alinhadas a y_true/y_pred)."""
+    sites, plots = [], []
+    for lab in labels:
+        s, _, p = str(lab).partition("|")
+        sites.append(s)
+        plots.append(p)
     path.write_text(json.dumps({
         "y_true": [round(float(v), 3) for v in y_true],
         "y_pred": [round(float(v), 3) for v in y_pred],
-        "site": [str(s) for s in sites],
+        "site": sites,
+        "plot": plots,
     }, ensure_ascii=False))
 
 

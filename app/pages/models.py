@@ -14,11 +14,17 @@ from lib.i18n import md, t, with_acronyms
 from lib.theme import C_BLUE, C_RED
 
 # Ordem canônica de exibição (por modelo, dentro de cada grupo de variante).
-ORDER = ["gbr", "aba", "rf", "pointnet", "raster", "voxel"]
+# As entradas gbrh* são o sweep de redução de dimensionalidade (K quantis de altura).
+ORDER = ["gbr", "aba", "rf", "pointnet", "raster", "voxel",
+         "gbrh8", "gbrh16", "gbrh32", "gbrh64", "gbrh128", "gbrh256"]
 
 
 def _base_key(m):
     return m["key"][:-6] if m["key"].endswith("_noout") else m["key"]
+
+
+def _is_dimred(m):
+    return _base_key(m).startswith("gbrh")
 
 
 def _ord(m):
@@ -115,10 +121,16 @@ def render_detail(m):
         dcols, di = st.columns(2), 0
 
         if oof and oof.get("y_true"):
-            yt, yp = oof["y_true"], oof["y_pred"]
-            mx = max(max(yt), max(yp)) * 1.05
-            fig_s = px.scatter(x=yt, y=yp, opacity=0.6,
-                               labels={"x": t("models.obs"), "y": t("models.pred")},
+            odf = pd.DataFrame({
+                "obs": oof["y_true"], "pred": oof["y_pred"],
+                t("models.col_site"): oof.get("site", [""] * len(oof["y_true"])),
+                t("models.col_plot"): oof.get("plot", [""] * len(oof["y_true"]))})
+            odf[t("models.residual")] = odf["pred"] - odf["obs"]
+            mx = max(odf["obs"].max(), odf["pred"].max()) * 1.05
+            hover = {"obs": ":.1f", "pred": ":.1f",
+                     t("models.col_site"): True, t("models.col_plot"): True}
+            fig_s = px.scatter(odf, x="obs", y="pred", opacity=0.6, hover_data=hover,
+                               labels={"obs": t("models.obs"), "pred": t("models.pred")},
                                title=t("models.scatter_title"))
             fig_s.add_shape(type="line", x0=0, y0=0, x1=mx, y1=mx,
                             line=dict(dash="dash", color="gray", width=1))
@@ -128,10 +140,9 @@ def render_detail(m):
             dcols[di % 2].plotly_chart(fig_s, use_container_width=True, key=f"oof_{m['key']}")
             di += 1
 
-            resid = [p - o for p, o in zip(yp, yt)]
-            fig_r = px.scatter(x=yt, y=resid, opacity=0.6,
-                               labels={"x": t("models.obs"), "y": t("models.residual")},
-                               title=t("models.resid_title"))
+            fig_r = px.scatter(odf, x="obs", y=t("models.residual"), opacity=0.6,
+                               hover_data=hover,
+                               labels={"obs": t("models.obs")}, title=t("models.resid_title"))
             fig_r.add_hline(y=0, line_dash="dash", line_color="gray")
             fig_r.update_traces(marker_color=C_RED)
             fig_r.update_layout(height=330, margin=dict(l=0, r=10, t=50, b=10))
@@ -140,22 +151,31 @@ def render_detail(m):
 
         if lc and lc.get("sizes"):
             fig_l = px.line(x=lc["sizes"], y=lc["rmse"], markers=True,
-                            labels={"x": t("models.lc_x"), "y": t("models.hist_y_rmse")},
+                            labels={"x": t("models.lc_x"), "y": t("models.lc_y")},
                             title=t("models.lc_title"))
             fig_l.update_traces(line_color=C_BLUE)
             fig_l.update_layout(height=330, margin=dict(l=0, r=10, t=50, b=10))
             dcols[di % 2].plotly_chart(fig_l, use_container_width=True, key=f"lc_{m['key']}")
             di += 1
 
-        if hist and hist.get("x"):
-            fig_e = px.line(x=hist["x"], y=hist["y"],
-                            labels={"x": t(f"models.hist_x_{hist.get('x_kind', 'epoch')}"),
-                                    "y": t(f"models.hist_y_{hist.get('y_kind', 'loss')}")},
+        if hist and hist.get("x") and hist.get("rmse"):
+            xlab = t(f"models.hist_x_{hist.get('x_kind', 'epoch')}")
+            fig_e = px.line(x=hist["x"], y=hist["rmse"],
+                            labels={"x": xlab, "y": t("models.hist_y_rmse")},
                             title=t("models.evolution_title"))
-            fig_e.update_traces(line_color=C_BLUE)
+            fig_e.update_traces(line_color=C_RED)
             fig_e.update_layout(height=330, margin=dict(l=0, r=10, t=50, b=10))
             dcols[di % 2].plotly_chart(fig_e, use_container_width=True, key=f"evo_{m['key']}")
             di += 1
+
+            if hist.get("r2"):
+                fig_e2 = px.line(x=hist["x"], y=hist["r2"],
+                                 labels={"x": xlab, "y": "R²"},
+                                 title=t("models.evolution_r2_title"))
+                fig_e2.update_traces(line_color=C_BLUE)
+                fig_e2.update_layout(height=330, margin=dict(l=0, r=10, t=50, b=10))
+                dcols[di % 2].plotly_chart(fig_e2, use_container_width=True, key=f"evor2_{m['key']}")
+                di += 1
 
 
 # ── Página ──
@@ -168,8 +188,9 @@ if not models:
     st.stop()
 
 models = sorted(models, key=_ord)
-full = [m for m in models if m.get("variant") != "no_outliers"]
-noout = [m for m in models if m.get("variant") == "no_outliers"]
+full = [m for m in models if m.get("variant") != "no_outliers" and not _is_dimred(m)]
+noout = [m for m in models if m.get("variant") == "no_outliers" and not _is_dimred(m)]
+dimred = [m for m in models if _is_dimred(m)]
 
 st.markdown(t("models.intro"))
 
@@ -215,6 +236,8 @@ if noout:
     _group(t("models.variant_noout"), noout)
 else:
     st.caption(t("models.noout_pending"))
+if dimred:
+    _group(t("models.variant_dimred"), dimred)
 
 if clicked and clicked != st.session_state.models_sel:
     st.session_state.models_sel = clicked

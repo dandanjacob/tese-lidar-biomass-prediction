@@ -483,13 +483,13 @@ def _model_side_json(cv_file, prefix):
 
 
 def load_model_history(cv_file="cv_results.csv"):
-    """Evolução do erro/loss conforme o treino avança. {x, y, x_kind, y_kind} ou None."""
+    """Evolução do treino conforme avança. {x, rmse, r2, x_kind} ou None."""
     return _model_side_json(cv_file, "history")
 
 
 def load_model_oof(cv_file="cv_results.csv"):
     """Previsões out-of-fold por parcela (predito × observado, resíduos).
-    {y_true, y_pred, site} ou None."""
+    {y_true, y_pred, site, plot} ou None."""
     return _model_side_json(cv_file, "oof")
 
 

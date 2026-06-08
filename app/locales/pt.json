@@ -339,7 +339,8 @@
     "r2_pos": "R² > 0",
     "r2_neg": "R² ≤ 0",
     "evolution_title": "Evolução do treino",
-    "evolution_caption": "Erro/loss no conjunto de TREINO conforme o treino do modelo final (todas as parcelas) avança. Para os GBR, RMSE (Mg/ha) por iteração de boosting; para o Random Forest, RMSE conforme a floresta cresce; para os modelos PyTorch (PointNet, CNNs), a loss média por época (MSE no alvo padronizado). É curva de treino — não substitui as métricas de validação cruzada acima.",
+    "evolution_r2_title": "Evolução do treino — R²",
+    "evolution_caption": "RMSE e R² no conjunto de TREINO conforme o modelo final (todas as parcelas) avança — GBR/ABA por iteração de boosting, Random Forest conforme a floresta cresce, modelos PyTorch por época. É curva de treino, medida nas mesmas parcelas usadas no ajuste: o R² sobe rumo a 1 porque o modelo decora os dados que viu. Não substitui o R² da validação cruzada acima (em parcelas não vistas) — a diferença entre os dois mede o overfitting.",
     "hist_x_epoch": "época",
     "hist_x_iteration": "iteração de boosting",
     "hist_x_trees": "nº de árvores",
@@ -354,8 +355,10 @@
     "resid_title": "Resíduos vs observado",
     "lc_title": "Learning curve",
     "lc_x": "tamanho do treino (parcelas)",
+    "lc_y": "RMSE (Mg/ha)",
     "chart_rmse_title": "RMSE por dobra (Mg/ha)",
     "col_site": "Site",
+    "col_plot": "Parcela",
     "col_n": "n",
     "col_rmse": "RMSE",
     "col_r2": "R²",
@@ -369,6 +372,7 @@
     "col_variant": "Conjunto",
     "variant_full": "Interseções completas",
     "variant_noout": "Remoção de outliers (área > 0,5 ha ou compacidade < 0,6)",
+    "variant_dimred": "Redução de dimensionalidade — GBR com K quantis de altura (sem outliers)",
     "noout_pending": "Modelos sem outliers ainda em treinamento — aparecem aqui assim que as métricas forem geradas."
   },
   "cronograma": {

@@ -250,7 +250,7 @@ def main():
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
     cv, g, (oof_t, oof_p, oof_i) = evaluate_cv(X, y)
     cv.to_csv(OUT_DIR / f"cv_results_aba{SUFFIX}.csv", index=False)
-    save_oof(OUT_DIR / f"oof_aba{SUFFIX}.json", oof_t, oof_p, groups[oof_i])
+    save_oof(OUT_DIR / f"oof_aba{SUFFIX}.json", oof_t, oof_p, np.array(labels)[oof_i])
     sizes, rmses = learning_curve(len(X), SEED, lambda tr, te: root_mean_squared_error(
         y[te], Y_INV(GradientBoostingRegressor(**GBR_PARAMS).fit(X[tr], Y_FWD(y[tr])).predict(X[te]))))
     save_lc(OUT_DIR / f"lc_aba{SUFFIX}.json", sizes, rmses)
@@ -264,10 +264,12 @@ def main():
                 OUT_DIR / f"model_aba{SUFFIX}.joblib")
 
     # Histórico de treino: RMSE (Mg/ha) no conjunto de treino a cada iteração de boosting.
-    stages = [root_mean_squared_error(y, Y_INV(p)) for p in final.staged_predict(X)]
+    preds = [Y_INV(p) for p in final.staged_predict(X)]
+    rmses = [round(float(root_mean_squared_error(y, p)), 3) for p in preds]
+    r2s = [round(float(r2_score(y, p)), 4) for p in preds]
     (OUT_DIR / f"history_aba{SUFFIX}.json").write_text(json.dumps({
-        "x": list(range(1, len(stages) + 1)), "y": [round(float(v), 3) for v in stages],
-        "x_kind": "iteration", "y_kind": "rmse"}, ensure_ascii=False))
+        "x": list(range(1, len(rmses) + 1)), "rmse": rmses, "r2": r2s,
+        "x_kind": "iteration"}, ensure_ascii=False))
 
     # Importância das features (vantagem da ABA: modelo interpretável) — top 15.
     imp = sorted(zip(feat_names, final.feature_importances_),

@@ -4,7 +4,7 @@
   "model": "CNN 2D (rasters de altura)",
   "library": "PyTorch",
   "variant": "full",
-  "trained_at": "2026-06-07 21:13 UTC",
+  "trained_at": "2026-06-07 23:46 UTC",
   "target": "agb_m1_Mg_ha",
   "n_plots": 493,
   "n_sites": 23,

@@ -267,7 +267,7 @@ def main():
     log.info(f"\nValidação cruzada (k-fold aleatório, {N_SPLITS} dobras, peso 1/parcela):")
     cv, global_metrics, (oof_t, oof_p, oof_i) = evaluate_cv(X, y)
     cv.to_csv(OUT_DIR / f"cv_results{SUFFIX}.csv", index=False)
-    save_oof(OUT_DIR / f"oof{SUFFIX}.json", oof_t, oof_p, groups[oof_i])
+    save_oof(OUT_DIR / f"oof{SUFFIX}.json", oof_t, oof_p, np.array(labels)[oof_i])
     sizes, rmses = learning_curve(len(X), SEED, lambda tr, te: root_mean_squared_error(
         y[te], Y_INV(GradientBoostingRegressor(**GBR_PARAMS).fit(X[tr], Y_FWD(y[tr])).predict(X[te]))))
     save_lc(OUT_DIR / f"lc{SUFFIX}.json", sizes, rmses)
@@ -282,10 +282,12 @@ def main():
     log.info(f"  Salvo em {OUT_DIR / f'model{SUFFIX}.joblib'}")
 
     # Histórico de treino: RMSE (Mg/ha) no conjunto de treino a cada iteração de boosting.
-    stages = [root_mean_squared_error(y, Y_INV(p)) for p in final.staged_predict(X)]
+    preds = [Y_INV(p) for p in final.staged_predict(X)]
+    rmses = [round(float(root_mean_squared_error(y, p)), 3) for p in preds]
+    r2s = [round(float(r2_score(y, p)), 4) for p in preds]
     (OUT_DIR / f"history{SUFFIX}.json").write_text(json.dumps({
-        "x": list(range(1, len(stages) + 1)), "y": [round(float(v), 3) for v in stages],
-        "x_kind": "iteration", "y_kind": "rmse"}, ensure_ascii=False))
+        "x": list(range(1, len(rmses) + 1)), "rmse": rmses, "r2": r2s,
+        "x_kind": "iteration"}, ensure_ascii=False))
 
     # Resumo legível pelo app (página de Modelos) — fonte única de hiperparâmetros e
     # métricas globais. cv_results.csv tem o detalhe por site.
