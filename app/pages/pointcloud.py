@@ -58,22 +58,39 @@ st.info(t("pointcloud.info_points", total=n_total, shown=len(idx), pct=100 * len
 
 # Árvores do inventário de campo dentro do polígono da parcela (posição + altura).
 trees = data.plot_tree_positions(site, plot.replace("plot_", ""))
-show_trees = st.checkbox(t("pointcloud.show_trees"), value=True,
-                         help=t("pointcloud.show_trees_help")) if not trees.empty else False
 
-fig = go.Figure(data=[go.Scatter3d(
-    x=x, y=y, z=z, mode="markers",
-    marker=dict(size=1.5, color=z, colorscale="Viridis",
-                colorbar=dict(title=t("pointcloud.colorbar_height")), opacity=0.85),
-    name=t("pointcloud.lidar_layer"), showlegend=False,
-)])
+c_trees, c_cloud, c_src = st.columns([1, 1, 1.4])
+with c_trees:
+    show_trees = st.checkbox(t("pointcloud.show_trees"), value=True,
+                             help=t("pointcloud.show_trees_help")) if not trees.empty else False
+with c_cloud:
+    show_cloud = st.checkbox(t("pointcloud.show_cloud"), value=True,
+                             help=t("pointcloud.show_cloud_help"))
+# Qual altura desenhar: estimativa atual × corrigida pelo gap temporal.
+height_col = "height_m"
+with c_src:
+    if show_trees and not trees.empty and "height_m_gap" in trees.columns:
+        height_col = st.radio(
+            t("pointcloud.height_source"), options=["height_m", "height_m_gap"],
+            format_func=lambda o: (t("pointcloud.height_source_current") if o == "height_m"
+                                   else t("pointcloud.height_source_gap")),
+            horizontal=True, help=t("pointcloud.height_source_help"))
+
+fig = go.Figure()
+if show_cloud:
+    fig.add_trace(go.Scatter3d(
+        x=x, y=y, z=z, mode="markers",
+        marker=dict(size=1.5, color=z, colorscale="Viridis",
+                    colorbar=dict(title=t("pointcloud.colorbar_height")), opacity=0.85),
+        name=t("pointcloud.lidar_layer"), showlegend=False,
+    ))
 
 n_noheight = 0
 n_standing = 0
 if show_trees and not trees.empty:
     tx = trees["utm_easting"].to_numpy() - cx
     ty = trees["utm_northing"].to_numpy() - cy
-    h_all = trees["height_m"].to_numpy()
+    h_all = trees[height_col].to_numpy()
     sp_all = (trees["species"].to_numpy() if "species" in trees else np.array([""] * len(tx)))
     # solo local de cada árvore: menor z dos pontos amostrados num raio de 2 m
     # (fallback: menor z da nuvem). A linha vai do solo até a altura da árvore.

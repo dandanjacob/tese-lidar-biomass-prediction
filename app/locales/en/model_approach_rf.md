@@ -1,3 +1,5 @@
+> **Input:** the same 37 structural metrics as ABA — height percentiles, canopy cover, CHM roughness and vertical density.
+
 Uses **exactly the same 37 structural metrics** as the ABA approach (height
 distribution, vertical density and convolutional CHM metrics), but swaps **Gradient
 Boosting** for a **Random Forest**.

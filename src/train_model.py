@@ -35,7 +35,7 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import root_mean_squared_error, r2_score
 
 # Filtro da variante "sem outliers" (no-op quando EXCLUDE_OUTLIERS != 1).
-from outlier_filter import filter_summary, SUFFIX, VARIANT
+from outlier_filter import filter_summary, SUFFIX, VARIANT, TARGET
 from train_eval import save_oof, save_lc, learning_curve
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -196,7 +196,7 @@ def load_canopy_heights(laz_path: Path, n: int,
 def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str]]:
     """Returns X, y, site_groups (for LOSO CV), labels."""
     df = filter_summary(pd.read_csv(SUMMARY))
-    df = df[df["agb_m1_Mg_ha"].notna()].copy()
+    df = df[df[TARGET].notna()].copy()
 
     rng = np.random.default_rng(SEED)
     X_rows, y_rows, groups, labels = [], [], [], []
@@ -216,7 +216,7 @@ def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str]]:
         heights, total_pts = result
         feat = np.append(heights, np.log1p(total_pts).astype(np.float32))
         X_rows.append(feat)
-        y_rows.append(row["agb_m1_Mg_ha"])
+        y_rows.append(row[TARGET])
         groups.append(site)
         labels.append(f"{site}|{pid}")
 
@@ -298,7 +298,7 @@ def main():
         "library": "scikit-learn",
         "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "target": "agb_m1_Mg_ha",
+        "target": TARGET,
         "cv_file": f"cv_results{SUFFIX}.csv",
         "approach_key": "model_approach",
         "n_plots": int(X.shape[0]),

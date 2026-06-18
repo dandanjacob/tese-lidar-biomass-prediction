@@ -1,3 +1,5 @@
+> **Input:** 37 structural canopy metrics — height percentiles, canopy cover, CHM roughness and vertical density.
+
 The plot becomes a **vector of structural metrics** — not the cloud itself. This is
 the classic approach in forest LiDAR literature (*Area-Based Approach*, ABA) and,
 unlike the networks, it makes explicit **which forest properties** drive the

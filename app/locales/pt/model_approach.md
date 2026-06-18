@@ -1,3 +1,5 @@
+> **Input:** 1025 atributos por parcela — 1024 alturas do dossel ordenadas + log(nº de pontos total).
+
 O modelo prevê a **biomassa acima do solo (AGB)** de uma parcela a partir da sua
 **nuvem de pontos LiDAR clipada** — o inventário de campo não entra na previsão, só
 fornece o alvo de treino. Para cada parcela, a nuvem vira um vetor de tamanho fixo:

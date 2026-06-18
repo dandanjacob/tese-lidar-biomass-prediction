@@ -240,14 +240,21 @@ def _plot_tree_positions(_code_key, _inv_mtime, site, plot_id):
     inside = pts[pts.geometry.within(poly_u)]
     if inside.empty:
         return pd.DataFrame()
-    h = pd.to_numeric(inside.get("htot"), errors="coerce") if "htot" in inside else pd.Series(dtype=float)
-    hf = (pd.to_numeric(inside.get("htot_feldpausch"), errors="coerce")
-          if "htot_feldpausch" in inside else pd.Series(dtype=float))
-    h = h.reindex(inside.index)
+    def _num(col):
+        return (pd.to_numeric(inside[col], errors="coerce")
+                if col in inside else pd.Series(np.nan, index=inside.index))
+    # height_m: melhor estimativa base (medida > ajuste local > Feldpausch). Fallback
+    # para CSVs antigos sem htot_estimated. height_m_gap: a estimativa corrigida pelo
+    # gap temporal (DBH crescido até o ano do LiDAR), gerada por prepare_inventory.
+    h_est, h_meas, h_feld = _num("htot_estimated"), _num("htot"), _num("htot_feldpausch")
+    height_m = h_est.where(h_est.notna(), h_meas.where(h_meas.notna(), h_feld))
+    h_gap = _num("htot_estimated_gap")
+    height_m_gap = h_gap.where(h_gap.notna(), height_m)
     out = pd.DataFrame({
         "utm_easting": inside.geometry.x.to_numpy(),
         "utm_northing": inside.geometry.y.to_numpy(),
-        "height_m": h.where(h.notna(), hf.reindex(inside.index)).to_numpy(),
+        "height_m": height_m.to_numpy(),
+        "height_m_gap": height_m_gap.to_numpy(),
         "dbh": (pd.to_numeric(inside.get("dbh"), errors="coerce").to_numpy()
                 if "dbh" in inside else np.nan),
         # 'dead' às vezes vem sujo (ex.: JAM_A03) — normaliza pra booleano robusto.

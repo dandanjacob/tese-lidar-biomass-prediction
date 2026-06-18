@@ -1,0 +1,39 @@
+{
+  "key": "voxel_gap_noout",
+  "name": "CNN 3D — voxels",
+  "model": "CNN 3D (voxels de ocupação)",
+  "library": "PyTorch",
+  "variant": "gap_corrected_noout",
+  "trained_at": "2026-06-18 03:06 UTC",
+  "target": "agb_m1_Mg_ha_gap",
+  "n_plots": 325,
+  "n_sites": 18,
+  "n_features": "voxels 16×16×16×2",
+  "agb_mean": 156.6,
+  "agb_std": 101.5,
+  "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
+  "cv_file": "cv_results_voxel_gap_noout.csv",
+  "approach_key": "model_approach_voxel",
+  "hyperparameters": {
+    "arquitetura": "Conv3d(2→16→32→64)+BN+pool · global-pool · Linear(64→64→1)",
+    "grade": "16×16×16",
+    "zmax_m": 40.0,
+    "canais": "ocupação, log-densidade",
+    "aumento": "rot90 XY + flips",
+    "epochs": 60,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.3
+  },
+  "cv_global": {
+    "rmse": 71.7,
+    "r2": 0.5011,
+    "rrmse_pct": 45.79
+  },
+  "cv_fold_mean": {
+    "rmse": 70.38,
+    "r2": 0.5114,
+    "rrmse_pct": 44.65
+  }
+}

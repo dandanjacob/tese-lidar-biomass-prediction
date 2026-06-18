@@ -20,7 +20,11 @@ ORDER = ["gbr", "aba", "rf", "pointnet", "raster", "voxel",
 
 
 def _base_key(m):
-    return m["key"][:-6] if m["key"].endswith("_noout") else m["key"]
+    k = m["key"]
+    for suf in ("_gap_noout", "_noout", "_gap"):
+        if k.endswith(suf):
+            return k[:-len(suf)]
+    return k
 
 
 def _is_dimred(m):
@@ -33,8 +37,14 @@ def _ord(m):
 
 
 def _variant_label(m):
-    return (t("models.variant_noout") if m.get("variant") == "no_outliers"
-            else t("models.variant_full"))
+    v = m.get("variant")
+    if v == "no_outliers":
+        return t("models.variant_noout")
+    if v == "gap_corrected_noout":
+        return t("models.variant_gap_noout")
+    if v == "gap_corrected":
+        return t("models.variant_gap")
+    return t("models.variant_full")
 
 
 def render_detail(m):
@@ -188,8 +198,10 @@ if not models:
     st.stop()
 
 models = sorted(models, key=_ord)
-full = [m for m in models if m.get("variant") != "no_outliers" and not _is_dimred(m)]
+full = [m for m in models if m.get("variant") == "full" and not _is_dimred(m)]
 noout = [m for m in models if m.get("variant") == "no_outliers" and not _is_dimred(m)]
+gap = [m for m in models if str(m.get("variant", "")).startswith("gap_corrected")
+       and not _is_dimred(m)]
 dimred = [m for m in models if _is_dimred(m)]
 
 st.markdown(t("models.intro"))
@@ -197,16 +209,28 @@ st.markdown(t("models.intro"))
 # ── Comparação global (uma linha por modelo; inclui os sem outliers) ──
 if len(models) > 1:
     st.markdown(f"### {t('models.section_compare')}")
+    rmse_c, r2_c, rrmse_c = t("models.cv_rmse"), t("models.cv_r2"), t("models.cv_rrmse")
     comp = pd.DataFrame([{
         t("models.col_model"): m.get("name", m.get("model", m["key"])),
         t("models.col_variant"): _variant_label(m),
-        t("models.m_plots"): m.get("n_plots", "—"),
-        t("models.cv_rmse"): m.get("cv_global", {}).get("rmse", "—"),
-        t("models.cv_r2"): m.get("cv_global", {}).get("r2", "—"),
-        t("models.cv_rrmse"): m.get("cv_global", {}).get("rrmse_pct", "—"),
-    } for m in (full + noout)])
-    st.table(comp)
+        t("models.m_plots"): m.get("n_plots"),
+        rmse_c: m.get("cv_global", {}).get("rmse"),
+        r2_c: m.get("cv_global", {}).get("r2"),
+        rrmse_c: m.get("cv_global", {}).get("rrmse_pct"),
+    } for m in (full + noout + gap)])
+
+    # Gradiente verde→vermelho por métrica (todas as células coloridas). Direção:
+    # R² maior é melhor (RdYlGn); RMSE e rRMSE menor é melhor (RdYlGn invertido).
+    for c in (rmse_c, r2_c, rrmse_c):
+        comp[c] = pd.to_numeric(comp[c], errors="coerce")
+    sty = (comp.style
+           .hide(axis="index")
+           .format({rmse_c: "{:.2f}", r2_c: "{:.3f}", rrmse_c: "{:.1f}%"}, na_rep="—")
+           .background_gradient(cmap="RdYlGn", subset=[r2_c])
+           .background_gradient(cmap="RdYlGn_r", subset=[rmse_c, rrmse_c]))
+    st.table(sty)
     st.caption(t("models.compare_caption"))
+    st.caption(t("models.compare_highlight"))
 
 # ── Seletor por botões, agrupado por variante ──
 st.markdown(f"### {t('models.section_choose')}")
@@ -236,6 +260,8 @@ if noout:
     _group(t("models.variant_noout"), noout)
 else:
     st.caption(t("models.noout_pending"))
+if gap:
+    _group(t("models.variant_gap"), gap)
 if dimred:
     _group(t("models.variant_dimred"), dimred)
 

@@ -26,7 +26,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 
 from train_model import OUT_DIR, SEED, N_SPLITS, Y_FWD, Y_INV
 from train_aba import build_dataset, CELL, GROUND_RADIUS, CANOPY_MIN_H
-from outlier_filter import SUFFIX, VARIANT
+from outlier_filter import SUFFIX, VARIANT, TARGET
 from train_eval import save_oof, save_lc, learning_curve
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -109,7 +109,7 @@ def main():
         "library": "scikit-learn",
         "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "target": "agb_m1_Mg_ha",
+        "target": TARGET,
         "cv_file": f"cv_results_rf{SUFFIX}.csv",
         "approach_key": "model_approach_rf",
         "n_plots": int(X.shape[0]),

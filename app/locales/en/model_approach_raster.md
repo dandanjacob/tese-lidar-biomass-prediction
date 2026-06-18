@@ -1,3 +1,5 @@
+> **Input:** 32×32 2D grid — 4 channels per cell: max height, mean height, log density and std deviation.
+
 Here the plot becomes a **top-down "image"**. After normalizing height above ground, the
 points are dropped into a 32×32 grid and each cell stores height statistics — capturing
 the **horizontal structure** (gaps, crown clumping) that GBR and PointNet discard.

@@ -1,3 +1,5 @@
+> **Input:** 37 métricas estruturais do dossel — percentis de altura, cobertura de dossel, rugosidade do CHM e densidade vertical.
+
 A parcela vira um **vetor de métricas estruturais** — não a nuvem em si. É a
 abordagem clássica da literatura de LiDAR florestal (*Area-Based Approach*, ABA) e,
 ao contrário das redes, deixa explícito **quais propriedades da floresta** sustentam

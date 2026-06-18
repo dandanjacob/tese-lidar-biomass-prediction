@@ -1,3 +1,5 @@
+> **Input:** K+1 atributos — K quantis da distribuição de altura do dossel + log(nº de pontos). K ∈ {8, 16, 32, 64, 128, 256}.
+
 Mesma ideia do **GBR — alturas ordenadas**, mas reduzindo a dimensionalidade. Em vez
 de 1024 alturas amostradas e ordenadas (1025 atributos para 493 parcelas — muito mais
 atributos que amostras, o que leva o modelo a *decorar* o treino), cada parcela vira

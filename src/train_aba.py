@@ -59,7 +59,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 from train_model import (height_above_ground, xy_inlier_mask, LAZ_DIR, SUMMARY,
                          OUT_DIR, GROUND_RADIUS, CANOPY_MIN_H, GBR_PARAMS, SEED,
                          N_SPLITS, Y_FWD, Y_INV)
-from outlier_filter import filter_summary, SUFFIX, VARIANT
+from outlier_filter import filter_summary, SUFFIX, VARIANT, TARGET
 from train_eval import save_oof, save_lc, learning_curve
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -182,7 +182,7 @@ def extract_features(laz_path: Path) -> dict | None:
 def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str], list[str]]:
     """Retorna X, y, grupos-de-site (LOSO), rótulos das parcelas, nomes das features."""
     df = filter_summary(pd.read_csv(SUMMARY))
-    df = df[df["agb_m1_Mg_ha"].notna()].copy()
+    df = df[df[TARGET].notna()].copy()
 
     rows, y_rows, groups, labels = [], [], [], []
     feat_names: list[str] | None = None
@@ -201,7 +201,7 @@ def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str], list
             feat_names = list(feats.keys())
 
         rows.append([feats[k] for k in feat_names])
-        y_rows.append(row["agb_m1_Mg_ha"])
+        y_rows.append(row[TARGET])
         groups.append(site)
         labels.append(f"{site}|{pid}")
 
@@ -285,7 +285,7 @@ def main():
         "library": "scikit-learn",
         "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "target": "agb_m1_Mg_ha",
+        "target": TARGET,
         "cv_file": f"cv_results_aba{SUFFIX}.csv",
         "approach_key": "model_approach_aba",
         "n_plots": int(X.shape[0]),

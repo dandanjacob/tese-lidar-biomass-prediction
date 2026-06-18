@@ -1,3 +1,5 @@
+> **Input:** raw point cloud — each point as (x, y, height), with no pre-computed metrics.
+
 This model takes the **raw point cloud** — no metric extraction, no canopy filter, no
 sorting. The only transformation is the one the scope accepts:
 

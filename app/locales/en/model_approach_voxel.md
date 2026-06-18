@@ -1,3 +1,5 @@
+> **Input:** 16×16×16 3D volume — 2 channels per voxel: occupancy (0/1) and log density.
+
 Here the plot becomes a **3D volume**. After normalizing height above ground, space is
 split into a 16×16×16 grid (plot XY × height 0 to 40 m) and each voxel stores what is
 there. A **3D CNN** convolves over the volume, seeing **vertical and horizontal**

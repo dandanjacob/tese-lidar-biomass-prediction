@@ -1,3 +1,5 @@
+> **Input:** volume 3D 16×16×16 — 2 canais por voxel: ocupação (0/1) e log-densidade.
+
 Aqui a parcela vira um **volume 3D**. Depois de normalizar a altura pro solo, o espaço
 é dividido numa grade 16×16×16 (XY da parcela × altura de 0 a 40 m) e cada voxel guarda
 o que há ali. Uma **CNN 3D** convolve no volume, enxergando a estrutura **vertical e

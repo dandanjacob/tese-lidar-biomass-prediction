@@ -1,3 +1,5 @@
+> **Input:** as mesmas 37 métricas estruturais do ABA — percentis de altura, cobertura de dossel, rugosidade do CHM e densidade vertical.
+
 Usa **exatamente as mesmas 37 métricas estruturais** da abordagem ABA (distribuição
 de altura, densidade vertical e métricas convolucionais do CHM), mas troca o
 **Gradient Boosting** por um **Random Forest**.

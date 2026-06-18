@@ -51,6 +51,19 @@ RHO_W_MEAN = 0.6   # mean tropical wood density g/cm³ (fallback)
 RHO_S      = 0.40  # snag density g/cm³ (Palace et al. 2007)
 EQUAL_AREA = "+proj=aea +lat_1=-5 +lat_2=-42 +lat_0=-32 +lon_0=-60 +datum=WGS84 +units=m +no_defs"
 
+# Correção do gap temporal: incremento de DBH default quando a árvore não tem
+# remedição (espelha prepare_inventory.DEFAULT_INCREMENT_CM_YR).
+DEFAULT_INCREMENT_CM_YR = 0.18
+MAX_INCREMENT_CM_YR     = 5.0
+# Feldpausch 2012 E.C. Amazonia (mesma curva H-D de prepare_inventory), usada só
+# para escalar a altura quando o DBH é crescido até o ano do LiDAR.
+_FELD_A, _FELD_B, _FELD_C = 48.131, 0.0375, 0.8228
+
+
+def _feld_height(dbh):
+    d = pd.to_numeric(dbh, errors="coerce")
+    return _FELD_A * (1 - np.exp(-_FELD_B * d.clip(lower=0.01) ** _FELD_C))
+
 
 # ── Wood density lookup ────────────────────────────────────────────────────────
 
@@ -101,8 +114,13 @@ def pick_best_year_col(cols, prefix, lidar_year):
     return min(suffixed, key=lambda c: abs(int(c.split("_")[-1]) - lidar_year))
 
 
-def prepare_tree_data(df: pd.DataFrame, lidar_year: int) -> pd.DataFrame:
-    """Selects best-year DBH / htot and resolves dead / type columns."""
+def prepare_tree_data(df: pd.DataFrame, lidar_year: int, gap: float = np.nan) -> pd.DataFrame:
+    """Selects best-year DBH / htot and resolves dead / type columns.
+
+    Também adiciona a versão corrigida pelo gap temporal (dbh_used_gap / htot_used_gap):
+    cresce o DBH pelo incremento anual (coluna dbh_incr_cm_yr vinda de prepare_inventory,
+    senão o default) ao longo do gap e re-escala a altura pela curva Feldpausch. NÃO
+    substitui dbh_used/htot_used — são colunas novas para a biomassa corrigida."""
     cols = df.columns.tolist()
 
     dbh_col  = pick_best_year_col(cols, "dbh",  lidar_year)
@@ -122,53 +140,70 @@ def prepare_tree_data(df: pd.DataFrame, lidar_year: int) -> pd.DataFrame:
     out["htot_used"]   = h_meas.where(h_meas > 0, h_feld)
     out["htot_source"] = np.where(h_meas > 0, "measured", "feldpausch")
 
+    # ── Versão corrigida pelo gap temporal ────────────────────────────────────
+    incr = (pd.to_numeric(df.get("dbh_incr_cm_yr"), errors="coerce")
+            if "dbh_incr_cm_yr" in df.columns else pd.Series(np.nan, index=df.index))
+    incr = incr.fillna(DEFAULT_INCREMENT_CM_YR).clip(lower=0.0, upper=MAX_INCREMENT_CM_YR)
+    dbh_base = out["dbh_used"]
+    if np.isnan(gap) or gap == 0:
+        out["dbh_used_gap"]  = dbh_base
+        out["htot_used_gap"] = out["htot_used"]
+    else:
+        dbh_g = (dbh_base + incr * gap).clip(lower=1.0)
+        out["dbh_used_gap"]  = dbh_g
+        out["htot_used_gap"] = out["htot_used"] * (_feld_height(dbh_g) / _feld_height(dbh_base))
+
     return out
+
+
+def _three_models(dbh, htot, dead, typ, rho):
+    """M1/M2/M3 (kgC) para um par (dbh, htot). Devolve (m1, m2, m3) arredondados."""
+    valid_dh = dbh.notna() & (dbh > 0) & htot.notna() & (htot > 0)
+    valid_d  = dbh.notna() & (dbh > 0)
+    is_palm  = typ == "P"
+    is_dead  = dead == True
+    is_alive = ~is_dead
+
+    lv = valid_dh & ~is_palm & is_alive   # live trees
+    dt = valid_dh & ~is_palm & is_dead    # dead trees
+    lp = valid_d  &  is_palm & is_alive   # live palms (no height needed)
+
+    # Model 1: all trees, Chave 2014, mean rho_w
+    m1 = pd.Series(np.nan, index=dbh.index)
+    m1[valid_dh] = iagc_chave2014(dbh[valid_dh], htot[valid_dh], RHO_W_MEAN)
+
+    # Model 2: live / dead / palm split, mean rho_w
+    m2 = pd.Series(np.nan, index=dbh.index)
+    m2[lv] = iagc_chave2014(dbh[lv], htot[lv], RHO_W_MEAN)
+    m2[dt] = iagc_chambers2000(dbh[dt], htot[dt])
+    m2[lp] = iagc_goodman2013(dbh[lp])
+
+    # Model 3: same split but species-specific rho_w
+    m3 = pd.Series(np.nan, index=dbh.index)
+    m3[lv] = iagc_chave2014(dbh[lv], htot[lv], rho[lv])
+    m3[dt] = iagc_chambers2000(dbh[dt], htot[dt])
+    m3[lp] = iagc_goodman2013(dbh[lp])
+
+    return m1.round(4), m2.round(4), m3.round(4)
 
 
 def calc_biomass(df: pd.DataFrame, sp_dict: dict, gn_dict: dict,
                  site_mean_wd: float) -> pd.DataFrame:
-    """Adds iagc_m1_kgC, iagc_m2_kgC, iagc_m3_kgC columns."""
-
-    dbh  = df["dbh_used"]
-    htot = df["htot_used"]
+    """Adds iagc_m{1,2,3}_kgC (base) e iagc_m{1,2,3}_kgC_gap (corrigido pelo gap)."""
     dead = df["dead_used"]
     typ  = df["type_used"]
 
-    valid_dh  = dbh.notna() & (dbh > 0) & htot.notna() & (htot > 0)
-    valid_d   = dbh.notna() & (dbh > 0)
-    is_palm   = typ == "P"
-    is_dead   = dead == True
-    is_alive  = ~is_dead
-
-    # ── Model 1: all trees, Chave 2014, mean rho_w ──────────────────────────
-    m1 = pd.Series(np.nan, index=df.index)
-    mask = valid_dh
-    m1[mask] = iagc_chave2014(dbh[mask], htot[mask], RHO_W_MEAN)
-    df["iagc_m1_kgC"] = m1.round(4)
-
-    # ── Model 2: live trees / dead trees / palms, mean rho_w ─────────────────
-    m2 = pd.Series(np.nan, index=df.index)
-    # live trees
-    lv = valid_dh & ~is_palm & is_alive
-    m2[lv] = iagc_chave2014(dbh[lv], htot[lv], RHO_W_MEAN)
-    # dead trees
-    dt = valid_dh & ~is_palm & is_dead
-    m2[dt] = iagc_chambers2000(dbh[dt], htot[dt])
-    # live palms (no height needed)
-    lp = valid_d & is_palm & is_alive
-    m2[lp] = iagc_goodman2013(dbh[lp])
-    df["iagc_m2_kgC"] = m2.round(4)
-
-    # ── Model 3: same as M2 but species-specific rho_w ───────────────────────
     sci = df.get("scientific_name", pd.Series("", index=df.index)).fillna("")
     rho = sci.apply(lambda s: lookup_wood_density(s, sp_dict, gn_dict, site_mean_wd))
     df["rho_w_m3"] = rho.round(4)
 
-    m3 = pd.Series(np.nan, index=df.index)
-    m3[lv] = iagc_chave2014(dbh[lv], htot[lv], rho[lv])
-    m3[dt] = iagc_chambers2000(dbh[dt], htot[dt])
-    m3[lp] = iagc_goodman2013(dbh[lp])
-    df["iagc_m3_kgC"] = m3.round(4)
+    # Biomassa base (DBH/altura como medidos/estimados, sem correção temporal)
+    m1, m2, m3 = _three_models(df["dbh_used"], df["htot_used"], dead, typ, rho)
+    df["iagc_m1_kgC"], df["iagc_m2_kgC"], df["iagc_m3_kgC"] = m1, m2, m3
+
+    # Biomassa corrigida pelo gap (DBH crescido até o ano do LiDAR + altura re-escalada)
+    g1, g2, g3 = _three_models(df["dbh_used_gap"], df["htot_used_gap"], dead, typ, rho)
+    df["iagc_m1_kgC_gap"], df["iagc_m2_kgC_gap"], df["iagc_m3_kgC_gap"] = g1, g2, g3
 
     return df
 
@@ -305,6 +340,10 @@ def build_summary(df: pd.DataFrame, site_key: str, areas: dict,
             "agc_m3_MgC_ha":  agc_ha("iagc_m3_kgC"),
             "agb_m3_Mg_ha":   agb_ha("iagc_m3_kgC"),
             "rho_w_m3_mean":  round(grp["rho_w_m3"].mean(), 4),
+            # Versão corrigida pelo gap temporal (DBH/altura crescidos até o ano do LiDAR)
+            "agb_m1_Mg_ha_gap": agb_ha("iagc_m1_kgC_gap"),
+            "agb_m2_Mg_ha_gap": agb_ha("iagc_m2_kgC_gap"),
+            "agb_m3_Mg_ha_gap": agb_ha("iagc_m3_kgC_gap"),
         })
     return pd.DataFrame(rows)
 
@@ -338,7 +377,7 @@ def main():
         if df.empty:
             continue
 
-        df = prepare_tree_data(df, lidar_yr)
+        df = prepare_tree_data(df, lidar_yr, gap)
 
         # Site mean wood density (fallback for M3 when species/genus not in GWDD)
         sci = df.get("scientific_name", pd.Series("", index=df.index)).fillna("")

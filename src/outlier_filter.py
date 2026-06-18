@@ -36,9 +36,19 @@ AREA_MAX_HA = 0.5
 COMP_MIN = 0.6
 
 # Estado da variante, lido do ambiente (uma vez por processo).
+#   EXCLUDE_OUTLIERS=1 → remove parcelas-outlier (sufixo "_noout")
+#   TARGET_GAP=1       → alvo AGB corrigido pelo gap temporal (sufixo "_gap")
+# As duas flags compõem (sufixo "_gap_noout" quando ambas ligadas).
 EXCLUDE = os.environ.get("EXCLUDE_OUTLIERS") == "1"
-SUFFIX = "_noout" if EXCLUDE else ""
-VARIANT = "no_outliers" if EXCLUDE else "full"
+GAP = os.environ.get("TARGET_GAP") == "1"
+
+# Coluna-alvo do treino. A versão "_gap" cresce DBH/altura até o ano do LiDAR
+# (ver prepare_inventory/calculate_biomass) — mesmas parcelas, AGB realinhado.
+TARGET = "agb_m1_Mg_ha_gap" if GAP else "agb_m1_Mg_ha"
+
+SUFFIX = ("_gap" if GAP else "") + ("_noout" if EXCLUDE else "")
+VARIANT = (("gap_corrected" if GAP else "full") if not EXCLUDE
+           else ("gap_corrected_noout" if GAP else "no_outliers"))
 
 
 @lru_cache(maxsize=1)

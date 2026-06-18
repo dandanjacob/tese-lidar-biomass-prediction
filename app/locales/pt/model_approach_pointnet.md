@@ -1,3 +1,5 @@
+> **Input:** nuvem de pontos crua — cada ponto como (x, y, altura), sem métricas pré-calculadas.
+
 Este modelo recebe a **nuvem de pontos crua** — sem extrair métricas, sem filtro de
 dossel, sem ordenar. A única transformação é a que o escopo aceita:
 

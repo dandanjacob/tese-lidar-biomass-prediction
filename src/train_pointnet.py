@@ -40,7 +40,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 
 from train_model import (height_above_ground, xy_inlier_mask, CANOPY_MIN_H, LAZ_DIR,
                          SUMMARY, OUT_DIR, GROUND_RADIUS, N_SPLITS, Y_FWD, Y_INV)
-from outlier_filter import filter_summary, SUFFIX, VARIANT
+from outlier_filter import filter_summary, SUFFIX, VARIANT, TARGET
 from train_eval import save_oof, save_lc, learning_curve
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -93,7 +93,7 @@ def load_raw_points(laz_path: Path, rng: np.random.Generator):
 def build_dataset():
     """Lista de (pts, agb, site, label) com a nuvem crua de cada parcela."""
     df = filter_summary(pd.read_csv(SUMMARY))
-    df = df[df["agb_m1_Mg_ha"].notna()].copy()
+    df = df[df[TARGET].notna()].copy()
     rng = np.random.default_rng(SEED)
     items = []
     for _, row in df.iterrows():
@@ -104,7 +104,7 @@ def build_dataset():
         pts = load_raw_points(laz, rng)
         if pts is None:
             continue
-        items.append((pts, float(row["agb_m1_Mg_ha"]), site, f"{site}|{pid}"))
+        items.append((pts, float(row[TARGET]), site, f"{site}|{pid}"))
     log.info(f"  {len(items)} parcelas | {len(set(i[2] for i in items))} sites")
     return items
 
@@ -231,7 +231,7 @@ def main():
         "library": "PyTorch",
         "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "target": "agb_m1_Mg_ha",
+        "target": TARGET,
         "n_plots": len(items),
         "n_sites": int(len(set(groups))),
         "n_features": "XYZ (cru)",

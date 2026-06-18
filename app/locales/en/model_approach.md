@@ -1,3 +1,5 @@
+> **Input:** 1025 features per plot — 1024 sorted canopy heights + log(total point count).
+
 The model predicts a plot's **above-ground biomass (AGB)** from its **clipped LiDAR
 point cloud** — the field inventory is not used in the prediction, it only provides the
 training target. For each plot, the cloud is turned into a fixed-length vector:

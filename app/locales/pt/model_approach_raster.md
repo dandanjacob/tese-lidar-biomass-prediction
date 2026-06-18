@@ -1,3 +1,5 @@
+> **Input:** grade 2D 32×32 — 4 canais por célula: altura máxima, média, densidade (log) e desvio-padrão.
+
 Aqui a parcela vira uma **"imagem" vista de cima**. Depois de normalizar a altura pro
 solo, os pontos são jogados numa grade 32×32 e cada célula guarda estatísticas de
 altura — captando também a **estrutura horizontal** (clareiras, agrupamento de copas)

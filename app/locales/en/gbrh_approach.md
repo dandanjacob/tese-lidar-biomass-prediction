@@ -1,3 +1,5 @@
+> **Input:** K+1 features — K quantiles of the canopy height distribution + log(point count). K ∈ {8, 16, 32, 64, 128, 256}.
+
 Same idea as **GBR — ordered heights**, but reducing dimensionality. Instead of 1024
 sampled, sorted heights (1025 features for 493 plots — far more features than samples,
 which leads the model to *memorize* the training set), each plot becomes just **K
