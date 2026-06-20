@@ -16,6 +16,7 @@ data/processed/clipped_lidar/
 data/processed/03_clipped_lidar/
 data/processed/06_model/*.joblib
 data/processed/06_model/*.pt
+data/processed/06_model/runlogs/
 
 # Credenciais
 .env

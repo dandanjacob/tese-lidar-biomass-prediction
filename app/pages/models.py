@@ -21,10 +21,34 @@ ORDER = ["gbr", "aba", "rf", "pointnet", "raster", "voxel",
 
 def _base_key(m):
     k = m["key"]
-    for suf in ("_gap_noout", "_noout", "_gap"):
+    for suf in ("_gap_noout", "_noout", "_gap", "_ground", "_raw"):
         if k.endswith(suf):
             return k[:-len(suf)]
     return k
+
+
+# Ordem das variantes na ablação de pré-processamento (raw → só solo → ambos →
+# remoção de outliers → correção de gap). Usada para agrupar a tabela por modelo.
+_VARIANT_RANK = {"raw": 0, "ground_only": 1, "full": 2,
+                 "no_outliers": 3, "gap_corrected": 4, "gap_corrected_noout": 5}
+
+
+def _variant_rank(m):
+    return _VARIANT_RANK.get(m.get("variant"), 9)
+
+
+def _inject_row_attrs(html, models_in_order):
+    """Adiciona data-model="<base>" a cada <tr> do corpo da tabela do Styler,
+    na mesma ordem das linhas, para o realce por hover (CSS :has)."""
+    head, sep, rest = html.partition("<tbody>")
+    if not sep:
+        return html
+    body, _, tail = rest.partition("</tbody>")
+    frags = body.split("<tr")
+    rebuilt = frags[0]
+    for frag, m in zip(frags[1:], models_in_order):
+        rebuilt += f'<tr data-model="{_base_key(m)}"' + frag
+    return head + "<tbody>" + rebuilt + "</tbody>" + tail
 
 
 def _is_dimred(m):
@@ -44,6 +68,10 @@ def _variant_label(m):
         return t("models.variant_gap_noout")
     if v == "gap_corrected":
         return t("models.variant_gap")
+    if v == "raw":
+        return t("models.variant_raw")
+    if v == "ground_only":
+        return t("models.variant_ground")
     return t("models.variant_full")
 
 
@@ -199,6 +227,8 @@ if not models:
 
 models = sorted(models, key=_ord)
 full = [m for m in models if m.get("variant") == "full" and not _is_dimred(m)]
+raw_v = [m for m in models if m.get("variant") == "raw" and not _is_dimred(m)]
+ground_v = [m for m in models if m.get("variant") == "ground_only" and not _is_dimred(m)]
 noout = [m for m in models if m.get("variant") == "no_outliers" and not _is_dimred(m)]
 gap = [m for m in models if str(m.get("variant", "")).startswith("gap_corrected")
        and not _is_dimred(m)]
@@ -210,6 +240,11 @@ st.markdown(t("models.intro"))
 if len(models) > 1:
     st.markdown(f"### {t('models.section_compare')}")
     rmse_c, r2_c, rrmse_c = t("models.cv_rmse"), t("models.cv_r2"), t("models.cv_rrmse")
+    # Agrupa por NÍVEL de processamento (raw → só solo → ambos → noout → gap) e, dentro
+    # de cada nível, pela ordem dos modelos. Assim os modelos do mesmo nível ficam
+    # sequenciais e cada modelo aparece uma vez por nível.
+    comp_models = sorted(raw_v + ground_v + full + noout + gap,
+                         key=lambda m: (_variant_rank(m), _ord(m)))
     comp = pd.DataFrame([{
         t("models.col_model"): m.get("name", m.get("model", m["key"])),
         t("models.col_variant"): _variant_label(m),
@@ -217,7 +252,7 @@ if len(models) > 1:
         rmse_c: m.get("cv_global", {}).get("rmse"),
         r2_c: m.get("cv_global", {}).get("r2"),
         rrmse_c: m.get("cv_global", {}).get("rrmse_pct"),
-    } for m in (full + noout + gap)])
+    } for m in comp_models])
 
     # Gradiente verde→vermelho por métrica (todas as células coloridas). Direção:
     # R² maior é melhor (RdYlGn); RMSE e rRMSE menor é melhor (RdYlGn invertido).
@@ -227,8 +262,29 @@ if len(models) > 1:
            .hide(axis="index")
            .format({rmse_c: "{:.2f}", r2_c: "{:.3f}", rrmse_c: "{:.1f}%"}, na_rep="—")
            .background_gradient(cmap="RdYlGn", subset=[r2_c])
-           .background_gradient(cmap="RdYlGn_r", subset=[rmse_c, rrmse_c]))
-    st.table(sty)
+           .background_gradient(cmap="RdYlGn_r", subset=[rmse_c, rrmse_c])
+           .set_table_attributes('class="cmp-table"'))
+
+    # Hover: ao passar o mouse num modelo, todas as linhas DESSE modelo (em todos os
+    # níveis) ficam em destaque e as demais esmaecem — compara o mesmo modelo entre
+    # níveis e modelos diferentes no mesmo nível. Uma regra :has() por modelo-base.
+    bases = list(dict.fromkeys(_base_key(m) for m in comp_models))
+    css = ["<style>",
+           ".cmp-table{border-collapse:collapse;width:100%;background:#fff;"
+           "color:#1a1a1a;font-size:0.92rem;}",
+           ".cmp-table th,.cmp-table td{padding:6px 10px;text-align:right;"
+           "border-bottom:1px solid #eee;}",
+           ".cmp-table th{border-bottom:2px solid #ccc;background:#f5f5f5;}",
+           ".cmp-table th:nth-child(-n+2),.cmp-table td:nth-child(-n+2)"
+           "{text-align:left;}",
+           ".cmp-table tbody tr{transition:opacity .15s ease;}",
+           ".cmp-table tbody tr:hover{font-weight:600;}"]
+    for b in bases:
+        css.append(f'.cmp-table:has(tbody tr[data-model="{b}"]:hover) '
+                   f'tbody tr:not([data-model="{b}"]){{opacity:.2;}}')
+    css.append("</style>")
+    html = _inject_row_attrs(sty.to_html(), comp_models)
+    st.markdown("\n".join(css) + html, unsafe_allow_html=True)
     st.caption(t("models.compare_caption"))
     st.caption(t("models.compare_highlight"))
 
@@ -256,6 +312,10 @@ def _group(label, group):
 
 
 _group(t("models.variant_full"), full)
+if ground_v:
+    _group(t("models.variant_ground"), ground_v)
+if raw_v:
+    _group(t("models.variant_raw"), raw_v)
 if noout:
     _group(t("models.variant_noout"), noout)
 else:

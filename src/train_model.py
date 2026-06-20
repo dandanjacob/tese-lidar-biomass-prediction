@@ -34,8 +34,10 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import KFold
 from sklearn.metrics import root_mean_squared_error, r2_score
 
-# Filtro da variante "sem outliers" (no-op quando EXCLUDE_OUTLIERS != 1).
-from outlier_filter import filter_summary, SUFFIX, VARIANT, TARGET
+# Filtro da variante "sem outliers" (no-op quando EXCLUDE_OUTLIERS != 1) e os flags
+# de pré-processamento (PREPROC=both|ground|raw).
+from outlier_filter import (filter_summary, SUFFIX, VARIANT, TARGET,
+                            DO_GROUND, DO_HEIGHT_FILTER)
 from train_eval import save_oof, save_lc, learning_curve
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -50,6 +52,10 @@ N_PTS          = 1024   # canopy points sampled per plot
 GROUND_RADIUS  = 1.0    # m — radius for local ground estimation (fallback)
 CANOPY_MIN_H   = 1.3    # m — piso do dossel: altura do peito (DBH). Abaixo disto não há
                         # métrica de inventário correspondente → descartado.
+# Limiar EFETIVO do filtro de dossel: 1,3 m no fluxo padrão; -inf desliga a remoção
+# (PREPROC=ground|raw), mantendo todos os pontos. CANOPY_MIN_H segue sendo o piso
+# "de projeto" usado nas features de cobertura do ABA, sempre finito.
+CANOPY_FILTER_H = CANOPY_MIN_H if DO_HEIGHT_FILTER else float("-inf")
 MIN_GROUND_PTS = 20     # mín. de pontos de solo (classe 2) p/ interpolar um DTM; abaixo
                         # disto cai no mínimo-local (ex.: DUC, dossel sem retorno de solo)
 SEED           = 42
@@ -113,7 +119,13 @@ def height_above_ground(x: np.ndarray, y: np.ndarray, z: np.ndarray,
                         classification: np.ndarray | None = None,
                         cell_size: float = GROUND_RADIUS) -> np.ndarray:
     """Altura acima do solo. Prefere o DTM da classe 2 (mais fiel em dossel denso);
-    cai no mínimo-local quando não há solo classificado suficiente."""
+    cai no mínimo-local quando não há solo classificado suficiente.
+
+    Com PREPROC=raw (DO_GROUND=False) NÃO há projeção do solo: devolve o Z centrado
+    pelo mínimo da parcela (z - z.min) — remove só o offset de altitude absoluta,
+    sem corrigir relevo/inclinação. É o baseline "sem processamento" da ablação."""
+    if not DO_GROUND:
+        return (z - z.min()).astype(np.float32)
     if classification is not None:
         hag = ground_from_classification(x, y, z, classification)
         if hag is not None:
@@ -179,7 +191,7 @@ def load_canopy_heights(laz_path: Path, n: int,
     hag = height_above_ground(x, y, z, cls, GROUND_RADIUS)
     total_pts = len(hag)
 
-    canopy = hag[hag >= CANOPY_MIN_H]
+    canopy = hag[hag >= CANOPY_FILTER_H]
     if len(canopy) == 0:
         canopy = hag  # fallback: no filtering if nothing survives
 

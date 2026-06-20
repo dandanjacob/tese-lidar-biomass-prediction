@@ -57,8 +57,8 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import root_mean_squared_error, r2_score
 
 from train_model import (height_above_ground, xy_inlier_mask, LAZ_DIR, SUMMARY,
-                         OUT_DIR, GROUND_RADIUS, CANOPY_MIN_H, GBR_PARAMS, SEED,
-                         N_SPLITS, Y_FWD, Y_INV)
+                         OUT_DIR, GROUND_RADIUS, CANOPY_MIN_H, CANOPY_FILTER_H,
+                         GBR_PARAMS, SEED, N_SPLITS, Y_FWD, Y_INV)
 from outlier_filter import filter_summary, SUFFIX, VARIANT, TARGET
 from train_eval import save_oof, save_lc, learning_curve
 
@@ -145,7 +145,7 @@ def extract_features(laz_path: Path) -> dict | None:
     hag = height_above_ground(x, y, z, cls, GROUND_RADIUS)
     hag = np.clip(hag, 0.0, None)  # ruído abaixo do solo → 0
 
-    canopy = hag[hag >= CANOPY_MIN_H]
+    canopy = hag[hag >= CANOPY_FILTER_H]
     if len(canopy) < 5:
         canopy = hag  # fallback: parcela muito esparsa / aberta
 

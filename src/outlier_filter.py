@@ -42,13 +42,34 @@ COMP_MIN = 0.6
 EXCLUDE = os.environ.get("EXCLUDE_OUTLIERS") == "1"
 GAP = os.environ.get("TARGET_GAP") == "1"
 
+# Pré-processamento da nuvem (ablação da tese). São duas etapas, aplicadas hoje
+# por padrão: (1) PROJEÇÃO DO SOLO — z vira altura sobre o solo; (2) REMOÇÃO DOS
+# RETORNOS ATÉ 1,3 m (altura do peito/DBH). Acionado por env var, sem alterar a
+# lógica dos scripts de treino:
+#   PREPROC=both   (default) → projeta o solo E remove ≤ 1,3 m   (sufixo "")
+#   PREPROC=ground           → só projeta o solo                  (sufixo "_ground")
+#   PREPROC=raw              → nenhuma das duas (Z centrado cru)   (sufixo "_raw")
+# O filtro de 1,3 m só faz sentido após projetar o solo, por isso não há combinação
+# "remoção sem projeção".
+PREPROC = os.environ.get("PREPROC", "both")
+if PREPROC not in ("both", "ground", "raw"):
+    raise SystemExit(f"PREPROC inválido: {PREPROC!r} (use both|ground|raw)")
+DO_GROUND = PREPROC != "raw"            # projeção do solo (altura sobre o solo)
+DO_HEIGHT_FILTER = PREPROC == "both"    # remoção dos pontos até 1,3 m
+
 # Coluna-alvo do treino. A versão "_gap" cresce DBH/altura até o ano do LiDAR
 # (ver prepare_inventory/calculate_biomass) — mesmas parcelas, AGB realinhado.
 TARGET = "agb_m1_Mg_ha_gap" if GAP else "agb_m1_Mg_ha"
 
-SUFFIX = ("_gap" if GAP else "") + ("_noout" if EXCLUDE else "")
-VARIANT = (("gap_corrected" if GAP else "full") if not EXCLUDE
-           else ("gap_corrected_noout" if GAP else "no_outliers"))
+_PREPROC_SUFFIX = {"both": "", "ground": "_ground", "raw": "_raw"}[PREPROC]
+SUFFIX = ("_gap" if GAP else "") + ("_noout" if EXCLUDE else "") + _PREPROC_SUFFIX
+# A ablação de pré-processamento roda sobre o alvo-base (full); as variantes raw/
+# ground têm rótulo próprio. As demais combinações mantêm a lógica gap/noout.
+if PREPROC == "both":
+    VARIANT = (("gap_corrected" if GAP else "full") if not EXCLUDE
+               else ("gap_corrected_noout" if GAP else "no_outliers"))
+else:
+    VARIANT = "raw" if PREPROC == "raw" else "ground_only"
 
 
 @lru_cache(maxsize=1)

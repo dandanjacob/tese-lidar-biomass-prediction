@@ -30,6 +30,7 @@ pages = [
     st.Page("pages/pointcloud.py", title=t("nav.pointcloud"), icon="☁️"),
     st.Page("pages/biomass.py", title=t("nav.biomass"), icon="🌿"),
     st.Page("pages/models.py", title=t("nav.models"), icon="🤖"),
+    st.Page("pages/benchmarks.py", title=t("nav.benchmarks"), icon="📚"),
 ]
 st.navigation(pages).run()
 

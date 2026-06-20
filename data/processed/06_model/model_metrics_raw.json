@@ -1,0 +1,41 @@
+{
+  "key": "gbr_raw",
+  "name": "GBR — alturas ordenadas",
+  "model": "GradientBoostingRegressor",
+  "library": "scikit-learn",
+  "variant": "raw",
+  "trained_at": "2026-06-20 20:33 UTC",
+  "target": "agb_m1_Mg_ha",
+  "cv_file": "cv_results_raw.csv",
+  "approach_key": "model_approach",
+  "n_plots": 493,
+  "n_sites": 23,
+  "n_features": 1025,
+  "agb_mean": 173.5,
+  "agb_std": 158.9,
+  "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
+  "hyperparameters": {
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "random_state": 42
+  },
+  "preprocessing": {
+    "n_points": 1024,
+    "ground_radius_m": 1.0,
+    "canopy_min_h_m": 1.3,
+    "target_transform": "log1p",
+    "feature": "vetor de alturas do dossel ordenadas + log(nº de pontos)"
+  },
+  "cv_global": {
+    "rmse": 142.99,
+    "r2": 0.1901,
+    "rrmse_pct": 82.42
+  },
+  "cv_fold_mean": {
+    "rmse": 140.29,
+    "r2": 0.1857,
+    "rrmse_pct": 80.81
+  }
+}
