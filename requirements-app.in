@@ -1,7 +1,10 @@
-# Dependências do APP Streamlit (deploy).
-# O Streamlit Community Cloud instala a partir do requirements.txt — que é compilado
-# DESTE arquivo. Mantido enxuto de propósito: sem torch/jupyterlab/scikit-learn/etc.
-# (pesam e quebram o build no Cloud). O lock completo de treino é requirements-dev.txt.
+# Dependências do APP Streamlit — cópia de referência/backup.
+# O Streamlit Community Cloud NA VERDADE instala via `uv sync` a partir do uv.lock
+# (compilado de pyproject.toml [project.dependencies]) — ele prioriza uv.lock sobre
+# requirements.txt quando os dois existem no repo. Editar SÓ este arquivo não tem
+# efeito no deploy; a fonte real das deps do app é pyproject.toml. Mantido enxuto de
+# propósito: sem torch/jupyterlab/scikit-learn/etc. O lock completo de treino é
+# requirements-dev.txt / `uv sync --extra dev`.
 streamlit>=1.40
 folium>=0.17
 plotly>=5.24
