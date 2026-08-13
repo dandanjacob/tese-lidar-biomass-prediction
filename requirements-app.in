@@ -7,6 +7,7 @@ folium>=0.17
 plotly>=5.24
 pandas>=2.0
 numpy>=1.26
+matplotlib>=3.8
 geopandas>=0.14
 shapely>=2.0
 laspy[lazrs]>=2.5
