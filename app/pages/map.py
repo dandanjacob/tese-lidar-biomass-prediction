@@ -35,7 +35,16 @@ def build_map(cache_key: float, layer_tiles: str, lbl_green: str, lbl_red: str,
     lidar_csv_dir = sorted((data.ROOT / "data/raw/lidar").glob("LiDAR_Forest_Inventory_Brazil_*"))[0]
     lidar_meta = pd.read_csv(lidar_csv_dir / "cms_brazil_lidar_tile_inventory.csv")
 
-    m = folium.Map(location=[-5.5, -57.0], zoom_start=5, tiles="CartoDB positron")
+    # CartoDB Positron via basemaps.cartocdn.com passou a exigir API key (carto.com/
+    # basemaps/apikey) e devolve tiles com marca d'água sem uma — trocado pelo Esri
+    # World Light Gray Canvas, gratuito e sem chave, com a mesma estética minimalista.
+    m = folium.Map(location=[-5.5, -57.0], zoom_start=5, tiles=None)
+    folium.TileLayer(
+        tiles=("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/"
+               "World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"),
+        attr="Esri, HERE, Garmin, © OpenStreetMap contributors",
+        name="Esri Light Gray", control=False,
+    ).add_to(m)
 
     # Tiles LiDAR utilizados — camada alternável pelo controle de camadas
     tiles_used = set(raw["laz_file"])

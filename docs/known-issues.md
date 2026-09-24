@@ -220,5 +220,3 @@ Conferidos contra os arquivos regerados; consistentes entre as páginas do app:
 | Parcelas treináveis / pareáveis AGB × LiDAR (verdes) | 493 | Mapa, Modelos |
 | Parcelas vermelhas (cruzam LiDAR, sem rótulo, pós-dedup §7) | 52 | Mapa |
 | Parcelas treináveis sem outliers (área > 0,5 ha ou comp. < 0,6 removidas) | 325 | Modelos |
-</content>
-</invoke>

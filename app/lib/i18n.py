@@ -167,13 +167,17 @@ def with_acronyms(text: str) -> str:
     return "".join(p if p.startswith("`") else _wrap_acronyms(p, glo) for p in parts)
 
 
-def language_selector():
-    """Seletor de idioma na sidebar. Persiste a escolha em st.session_state['lang']."""
+def language_selector_top():
+    """Seletor de idioma como segmented control compacto, no topo do conteúdo
+    principal (não mais um selectbox perdido no fim da sidebar)."""
     if "lang" not in st.session_state:
         st.session_state["lang"] = DEFAULT_LANG
-    st.sidebar.selectbox(
-        t("common.language"),
-        options=list(LANGUAGES.keys()),
-        format_func=lambda c: LANGUAGES[c],
-        key="lang",
-    )
+    _, col = st.columns([6, 1])
+    with col:
+        st.segmented_control(
+            t("common.language"),
+            options=list(LANGUAGES.keys()),
+            format_func=lambda c: c.upper(),
+            key="lang",
+            label_visibility="collapsed",
+        )

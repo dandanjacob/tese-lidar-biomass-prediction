@@ -7,16 +7,23 @@
   },
   "nav": {
     "section": "Navigation",
-    "home": "Home",
+    "section_framing": "Framing",
+    "section_article": "The Article",
+    "section_data": "Data & Method",
+    "section_modeling": "Modeling",
+    "section_appendix": "Appendix",
+    "home": "Context & Motivation",
+    "artigo": "Full Article",
     "map": "Coverage Map",
     "intersections": "Intersection Analysis",
     "geometry": "Plot Geometry",
     "outliers": "Geometry Outliers",
     "pointcloud": "Point Cloud",
-    "biomass": "Biomass",
+    "biomass": "Reference Biomass",
     "models": "Models",
-    "cronograma": "Roadmap",
-    "benchmarks": "Literature Comparison"
+    "cronograma": "Progress & Roadmap",
+    "benchmarks": "Literature Comparison",
+    "qualidade": "Data Quality"
   },
   "charts": {
     "frequency": "Frequency",
@@ -418,5 +425,20 @@
     "refs_note": "Primary sources (LiDAR models): Asner & Mascaro 2014 (Remote Sens. Environ.); Longo et al. 2016 (Global Biogeochem. Cycles); Bispo et al. 2020 (RSE); d'Oliveira et al. 2012 (RSE); GEDI L4A/L4B (ORNL DAAC); Oehmcke et al. 2024 (RSE). Adversarial verification pending — revalidate after the API limit resets. GEDI L4A accuracy comes from independent validations: Naidoo et al. 2024 (African savanna vs ALS, Science of Remote Sensing) and a temperate-US forest evaluation (GIScience & Remote Sensing, 2023).",
     "col_config": "Config",
     "compare_highlight": "Colour: green→red gradient per metric — 🟩 best, 🟥 worst (higher R² is better; lower RMSE and rRMSE are better). Empty cells = not reported."
+  },
+  "qualidade": {
+    "title": "Data Quality — Audit Log",
+    "caption": "History of data bugs found, correction decisions, and the residual of genuine limitations — docs/known-issues.md, the project's method appendix."
+  },
+  "artigo": {
+    "title": "Estimating Amazonian Biomass from Airborne LiDAR",
+    "subtitle": "A comparative approach between structural metrics and deep learning over point clouds",
+    "byline": "Daniel Jacob Tonn · Master's Dissertation · EMAp — School of Applied Mathematics, FGV",
+    "tab_resumo": "Abstract",
+    "tab_intro": "1 · Introduction",
+    "tab_dados": "2 · Data & Method",
+    "tab_resultados": "3 · Results",
+    "tab_discussao": "4 · Discussion",
+    "tab_referencias": "5 · References"
   }
 }
