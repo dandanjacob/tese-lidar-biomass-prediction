@@ -35,8 +35,11 @@ Pipeline por parcela (idêntico a train_model.py até a altura sobre o solo):
   4. Alvo: AGB M1 (Mg/ha) do summary de inventário.
 
 Modelo: GradientBoostingRegressor (mesmos hiperparâmetros de train_model.py).
-Avaliação: leave-one-site-out (LOSO), igual às demais abordagens, para comparação
-justa.
+Avaliação: k-fold ALEATÓRIO sobre todas as parcelas (sem agrupar por site) — não é
+LOSO: `groups` é calculado e logado só para contagem, nunca passado ao particionador.
+Ver train_model.py e artigo_discussao.md §4.2 para a ressalva de autocorrelação
+espacial (quadras vizinhas do mesmo campo são sub-parcelas correlacionadas, não
+amostras independentes).
 Saídas:
   data/processed/06_model/model_aba.joblib
   data/processed/06_model/cv_results_aba.csv
@@ -180,7 +183,7 @@ def extract_features(laz_path: Path) -> dict | None:
 
 
 def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str], list[str]]:
-    """Retorna X, y, grupos-de-site (LOSO), rótulos das parcelas, nomes das features."""
+    """Retorna X, y, grupos-de-site (bookkeeping — não usado para particionar o k-fold), rótulos das parcelas, nomes das features."""
     df = filter_summary(pd.read_csv(SUMMARY))
     df = df[df[TARGET].notna()].copy()
 

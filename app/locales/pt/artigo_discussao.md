@@ -18,24 +18,57 @@ representam um esforço logístico considerável.
 ### 4.2 A limitação mais importante: validação espacialmente ingênua
 
 A validação cruzada k-fold aleatória usada em todos os resultados da Seção 3 particiona
-**parcelas**, não **sítios** — parcelas do mesmo site de inventário podem, e
-frequentemente estão, distribuídas entre o fold de treino e o fold de teste
-simultaneamente. Parcelas vizinhas do mesmo sítio compartilham condições edáficas,
-histórico de perturbação e, sobretudo, a mesma campanha de voo LiDAR (mesma densidade de
-varredura, mesmo ano, mesmo sensor) — fontes de autocorrelação espacial que infla
-artificialmente o R² reportado, porque o modelo pode estar parcialmente "memorizando"
-propriedades do sítio, não aprendendo uma relação estrutura-biomassa que se transporta
-para floresta nunca vista.
+**parcelas**, não **sítios**. É importante separar dois mecanismos distintos pelos
+quais isso pode inflar o R² reportado — eles têm força de evidência diferente, e
+merecem tratamento diferente.
 
-A consequência direta: os números da Seção 3 respondem "quanto da variância **dentro da
-amostra de sítios já vistos** é explicada pela estrutura do dossel" — não "quão bem isto
-generaliza para um hectare novo da Amazônia", que é a pergunta que a motivação do
-trabalho (Seção 1.1) coloca. Fechar essa lacuna exige reportar *leave-one-site-out*
-(LOSO) como métrica principal, não como nota de rodapé — e é esperável que o R² caia sob
-esse protocolo mais exigente. Isto não invalida o achado central da Seção 4.1 (a relação
-entre dimensionalidade e desempenho deve se manter qualitativamente sob LOSO), mas
-invalida qualquer leitura dos números absolutos de R²/RMSE como medida de prontidão
-operacional.
+**(a) Pseudo-replicação dentro de uma mesma quadra/campo — mecanismo que não depende de
+heterogeneidade biológica entre sítios.** Muitas das 325 parcelas do conjunto final não
+são amostras independentes de "a floresta amazônica": são **subdivisões contíguas de um
+mesmo campo original**. Dos 325, **125 (38%) pertencem a um grupo de ≥2 quadras-irmãs**
+derivadas do mesmo `Name` de campo (ex.: CAU tem campos como T17–T22 cada um dividido em
+4–5 quadras adjacentes; FST tem 4 campos divididos em 5 quadras cada) — e **um único
+sítio (CAU) responde por 85 das 325 parcelas (26% da amostra inteira)**. Quadras vizinhas
+de um mesmo campo compartilham, literalmente, o mesmo dossel contínuo ou dosséis a
+poucas dezenas de metros um do outro: seus vetores de altura são amostras altamente
+correlacionadas da mesma realização física de floresta, não realizações independentes
+de "estrutura típica da Amazônia". Um modelo pode ajustar o padrão numérico específico
+de um campo (treino) e prever bem sua quadra-irmã (teste) sem ter aprendido nada que se
+transporte para um hectare genuinamente não amostrado — isso é verdade **mesmo sob a
+hipótese de que toda a floresta amazônica fosse biologicamente homogênea**, porque o
+problema não é "os sítios são diferentes entre si", é "as unidades de teste e treino,
+dentro de um sítio, não são estatisticamente independentes". Esse mecanismo é o mais
+sólido dos dois e o que mais pesa nesta ressalva.
+
+**(b) Confundidor de campanha/densidade de varredura — mecanismo condicional, cuja força
+depende de quanto os sítios de fato diferem entre si.** Se a floresta amostrada for de
+fato aproximadamente homogênea entre sítios (mesmo bioma, mesma faixa de biomassa típica,
+sem efeito sistemático de solo/perturbação/região correlacionado com o alvo) e nenhuma
+feature identificar o sítio diretamente, este segundo mecanismo é fraco — e a crítica de
+que "misturar sítios é um problema" perde força nesse cenário, como argumentado. Mas a
+premissa de homogeneidade não é demonstrada pelos próprios dados do projeto: o pipeline
+de alometria (`config/allometry.yaml`) usa curvas altura-diâmetro **regionais distintas**
+(Amazônia centro-oriental, ocidental, Escudo das Guianas, Escudo Brasileiro) precisamente
+porque a relação estrutura↔biomassa varia por região — e a feature `log(nº de pontos)` /
+`pt_density`, presente em todos os modelos, captura densidade de varredura, que
+correlaciona com campanha de voo e, por acaso, com região. Este mecanismo permanece
+**plausível, não testado** (Seção 4.5) — mais fraco que (a), mas não eliminado.
+
+A consequência prática: mesmo que (b) se revele desprezível após a análise estratificada
+por campanha (Seção 4.5, ainda pendente), o mecanismo (a) por si só já é suficiente para
+que os números da Seção 3 devam ser lidos como "quanto da variância é explicada quando
+se permite reaproveitar informação de quadras vizinhas do mesmo campo" — não "quão bem
+isto generaliza para um hectare novo da Amazônia", que é a pergunta que a motivação do
+trabalho (Seção 1.1) coloca. Fechar essa lacuna exige reportar uma validação agrupada por
+sítio (ou, de forma ainda mais conservadora, por campo/`Name` de origem da quadra) como
+métrica principal, não como nota de rodapé — com a ressalva prática de que os 18 sítios
+do conjunto final têm tamanhos muito desiguais (de 4 a 85 parcelas), então um
+*leave-one-site-out* ingênuo produzirá folds de variância muito heterogênea e deve ser
+reportado por sítio, não só agregado. É esperável que o R² caia sob esse protocolo mais
+exigente. Isto não invalida o achado central da Seção 4.1 (a relação entre
+dimensionalidade e desempenho deve se manter qualitativamente, já que ambos os mecanismos
+acima afetam todos os modelos comparados de forma semelhante), mas invalida qualquer
+leitura dos números absolutos de R²/RMSE como medida de prontidão operacional.
 
 ### 4.3 Ausência de quantificação de incerteza
 
@@ -87,14 +120,21 @@ amostral estruturalmente maior que a mesma métrica sobre uma parcela de 1 ha �
 significa que as métricas agregadas de RMSE/R² da Seção 3 não são igualmente confiáveis
 para todas as parcelas do conjunto, mas isto não é reportado de forma estratificada.
 
-### 4.7 Números da literatura: verificação pendente
+### 4.7 Números da literatura: verificação concluída (três erros corrigidos)
 
-A comparação da Seção 3.5 usa valores extraídos de fontes primárias por pesquisa
-automatizada, mas a verificação adversarial — conferência de cada número contra o
-artigo original, linha a linha — **não foi concluída** (limite de API atingido durante a
-coleta). Qualquer valor da literatura citado neste artigo deve ser tratado como
-preliminar até essa verificação ser concluída; um único número mal transcrito
-compromete a credibilidade de toda a comparação em uma banca ou revisão por pares.
+A comparação da Seção 3.5 usava, em versões anteriores deste texto, valores extraídos
+de fontes primárias por pesquisa automatizada sem verificação adversarial linha a
+linha. Essa verificação foi concluída e encontrou três erros, já corrigidos no texto
+atual: (i) Bispo et al. (2020) estava atribuído à Amazônia com R² = 0,58 / rRMSE =
+36,0% — o estudo é sobre o Cerrado brasileiro e os valores reais são R² = 0,93 / rRMSE
+= 13% (modelo só-LiDAR); (ii) o DOI citado para Asner & Mascaro (2014) apontava para um
+artigo diferente (albedo boreal, mesma revista/volume); (iii) o número do GEDI L4A em
+savana africana (R² ≈ 0,42, correto) estava atribuído a "Naidoo et al." — o autor
+líder correto é Li et al. (2024), com Naidoo como coautor. Longo et al. (2016) e
+Oehmcke et al. (2024) foram confirmados sem ressalva. Esta correção ilustra exatamente
+o risco que a versão anterior deste parágrafo já havia antecipado: um número mal
+transcrito — ou, neste caso, três — compromete a credibilidade de toda a comparação
+até ser verificado.
 
 ### 4.8 Síntese e trabalho futuro
 
@@ -107,8 +147,8 @@ resultado defensável de dissertação:
    empírica reportada.
 3. **Análise de sensibilidade alométrica** (Seção 4.4) — resultados da Seção 3 repetidos
    sob M2 e M3.
-4. **Verificação adversarial da literatura** (Seção 4.7) antes de qualquer citação em
-   versão final.
+4. ~~**Verificação adversarial da literatura** (Seção 4.7) antes de qualquer citação em
+   versão final.~~ Concluída — três erros corrigidos (ver Seção 4.7).
 5. **Estratificação por campanha e por tamanho de parcela** (Seções 4.5–4.6) para
    descartar confundidores e reportar honestamente onde o modelo é, e não é, confiável.
 6. Avaliar formalmente o *ensemble* (média simples de raster + RF + voxel, que a

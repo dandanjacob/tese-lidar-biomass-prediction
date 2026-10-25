@@ -15,7 +15,9 @@ Rede: CNN 3D pequena (3 blocos conv3d+BN+ReLU, pooling) → pooling global → c
 Aumento de dados: rotações de 90° NO PLANO XY (em torno do eixo vertical) + flips
 horizontais — preservam a AGB. O eixo de altura NÃO é girado.
 
-Avaliação: leave-one-site-out (LOSO), igual aos outros (comparação justa).
+Avaliação: k-fold ALEATÓRIO sobre todas as parcelas (sem agrupar por site) — não é
+LOSO; ver train_model.py e artigo_discussao.md §4.2 para a ressalva de autocorrelação
+espacial entre parcelas/quadras vizinhas.
 Saídas:
   data/processed/06_model/model_voxel.pt
   data/processed/06_model/cv_results_voxel.csv

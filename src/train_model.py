@@ -13,9 +13,14 @@ Pipeline per plot:
   8. Target: AGB M1 (Mg/ha) from inventory summary
 
 Model: GradientBoostingRegressor (sklearn)
-Evaluation: leave-one-site-out CV (each fold = one held-out site) → RMSE, R², rRMSE
-  Rationale: plots from the same site share forest structure — random k-fold leaks
-  site-level signal. LOSO gives a realistic estimate of generalisation to new sites.
+Evaluation: RANDOM k-fold CV over all plots, no grouping by site (KFold(shuffle=True),
+  weight 1/plot) → RMSE, R², rRMSE. This is NOT leave-one-site-out: `groups` (site per
+  plot) is tracked for bookkeeping/logging only and is never passed to the splitter.
+  Caveat: many plots are adjacent sub-quadras of the same original field plot (ver
+  docs/known-issues.md §5-7) — within-site/within-quadra samples are spatially
+  correlated, so a random split likely overstates accuracy on genuinely new forest
+  relative to a leave-one-site-out (or leave-one-quadra-group-out) protocol. See
+  artigo_discussao.md §4.2 for the full discussion.
 Output:
   data/processed/06_model/model.joblib   — trained on all data
   data/processed/06_model/cv_results.csv — per-fold metrics
@@ -206,7 +211,7 @@ def load_canopy_heights(laz_path: Path, n: int,
 
 
 def build_dataset() -> tuple[np.ndarray, np.ndarray, np.ndarray, list[str]]:
-    """Returns X, y, site_groups (for LOSO CV), labels."""
+    """Returns X, y, site_groups (bookkeeping only — not used to split the k-fold), labels."""
     df = filter_summary(pd.read_csv(SUMMARY))
     df = df[df[TARGET].notna()].copy()
 

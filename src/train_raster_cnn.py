@@ -17,7 +17,9 @@ Rede: CNN 2D pequena (3 blocos conv+BN+ReLU, pooling) → pooling global → cab
 Aumento de dados: rotações de 90° e espelhamentos (a vista de cima é invariante a isso)
 — barato e ajuda contra overfit com poucas amostras.
 
-Avaliação: leave-one-site-out (LOSO), igual ao GBR e ao PointNet (comparação justa).
+Avaliação: k-fold ALEATÓRIO sobre todas as parcelas (sem agrupar por site) — não é
+LOSO; ver train_model.py e artigo_discussao.md §4.2 para a ressalva de autocorrelação
+espacial entre parcelas/quadras vizinhas.
 Saídas:
   data/processed/06_model/model_raster.pt
   data/processed/06_model/cv_results_raster.csv

@@ -18,7 +18,9 @@ Restrição prática (memória/CPU, não engenharia de feature): guarda-se no m�
 N_STORE pontos por parcela (subamostra aleatória uma vez) e treina-se com N_SAMPLE
 pontos sorteados por época. Sem GPU, mantemos a rede pequena.
 
-Avaliação: leave-one-site-out (LOSO), igual ao tabular, para comparar de forma justa.
+Avaliação: k-fold ALEATÓRIO sobre todas as parcelas (sem agrupar por site) — não é
+LOSO; ver train_model.py e artigo_discussao.md §4.2 para a ressalva de autocorrelação
+espacial entre parcelas/quadras vizinhas.
 Saídas:
   data/processed/06_model/model_pointnet.pt
   data/processed/06_model/cv_results_pointnet.csv
