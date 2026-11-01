@@ -42,24 +42,30 @@ COMP_MIN = 0.6
 EXCLUDE = os.environ.get("EXCLUDE_OUTLIERS") == "1"
 GAP = os.environ.get("TARGET_GAP") == "1"
 
-# Pré-processamento da nuvem (ablação da tese). São duas etapas, aplicadas hoje
-# por padrão: (1) PROJEÇÃO DO SOLO — z vira altura sobre o solo; (2) REMOÇÃO DOS
-# RETORNOS ATÉ 1,3 m (altura do peito/DBH). Acionado por env var, sem alterar a
-# lógica dos scripts de treino:
-#   PREPROC=both   (default) → projeta o solo E remove ≤ 1,3 m   (sufixo "")
-#   PREPROC=ground           → só projeta o solo                  (sufixo "_ground")
-#   PREPROC=raw              → nenhuma das duas (Z centrado cru)   (sufixo "_raw")
-# O filtro de 1,3 m só faz sentido após projetar o solo, por isso não há combinação
-# "remoção sem projeção" — essas duas etapas sempre andam juntas quando ativas.
+# Pré-processamento da nuvem (ablação da tese). Duas etapas, independentes uma da
+# outra — cada uma pode ligar sozinha, para ABLAÇÃO ISOLADA (medir o efeito de cada
+# tratamento contra a MESMA baseline crua, sem empilhar em cima de outro):
+#   (1) PROJEÇÃO DO SOLO — relevo local célula-a-célula (DTM/classificação), z vira
+#       altura sobre o solo "de verdade". Isolada: PREPROC=ground.
+#   (2) REMOÇÃO DOS RETORNOS ATÉ 1,3 m (altura do peito/DBH) — dossel só, descarta
+#       chão/sub-bosque. Isolada (PREPROC=filter_only): aplicada em cima do MESMO
+#       deslocamento mínimo que o "raw" já usa (z - z.min() da parcela, sem corrigir
+#       relevo) — não aciona a projeção de solo local. Testa só o efeito de cortar
+#       os pontos baixos, sem o efeito de corrigir o relevo.
+#   PREPROC=both       (default) → projeta o solo (1) E filtra ≤1,3 m (2) — pipeline
+#                                   padrão, as duas juntas (sufixo "")
+#   PREPROC=ground                → só (1), projeção do solo                (sufixo "_ground")
+#   PREPROC=filter_only           → só (2), filtro sobre o deslocamento mínimo (sufixo "_filteronly")
+#   PREPROC=raw                   → nenhuma das duas (Z centrado cru)        (sufixo "_raw")
 #
 # EXCLUDE_OUTLIERS e TARGET_GAP combinam com PREPROC=raw para ABLAÇÃO ISOLADA:
 # cada tratamento (outliers, gap) testado sozinho contra a nuvem crua, sem
 # empilhar em cima de solo+filtro — ver VARIANT abaixo (outliers_only/gap_only).
 PREPROC = os.environ.get("PREPROC", "both")
-if PREPROC not in ("both", "ground", "raw"):
-    raise SystemExit(f"PREPROC inválido: {PREPROC!r} (use both|ground|raw)")
-DO_GROUND = PREPROC != "raw"            # projeção do solo (altura sobre o solo)
-DO_HEIGHT_FILTER = PREPROC == "both"    # remoção dos pontos até 1,3 m
+if PREPROC not in ("both", "ground", "raw", "filter_only"):
+    raise SystemExit(f"PREPROC inválido: {PREPROC!r} (use both|ground|raw|filter_only)")
+DO_GROUND = PREPROC in ("both", "ground")           # projeção LOCAL do solo (relevo)
+DO_HEIGHT_FILTER = PREPROC in ("both", "filter_only")  # remoção dos pontos até 1,3 m
 
 # Coluna-alvo do treino. A versão "_gap" cresce DBH/altura até o ano do LiDAR
 # (ver prepare_inventory/calculate_biomass) — mesmas parcelas, AGB realinhado.
@@ -72,7 +78,8 @@ if FORMULA not in ("m1", "m3"):
     raise SystemExit(f"TARGET_FORMULA inválido: {FORMULA!r} (use m1|m3)")
 TARGET = f"agb_{FORMULA}_Mg_ha" + ("_gap" if GAP else "")
 
-_PREPROC_SUFFIX = {"both": "", "ground": "_ground", "raw": "_raw"}[PREPROC]
+_PREPROC_SUFFIX = {"both": "", "ground": "_ground", "raw": "_raw",
+                   "filter_only": "_filteronly"}[PREPROC]
 _FORMULA_SUFFIX = "_m3" if FORMULA == "m3" else ""
 SUFFIX = ("_gap" if GAP else "") + ("_noout" if EXCLUDE else "") + _PREPROC_SUFFIX + _FORMULA_SUFFIX
 
@@ -90,11 +97,14 @@ SUFFIX = ("_gap" if GAP else "") + ("_noout" if EXCLUDE else "") + _PREPROC_SUFF
 #   PREPROC=raw,  EXCLUDE             → outliers_only (SÓ remoção de outliers)
 #   PREPROC=raw,  GAP                 → gap_only (SÓ correção de gap temporal)
 #   PREPROC=raw,  EXCLUDE+GAP         → outliers_gap_only (os dois, sem solo/filtro)
+#   PREPROC=filter_only, sem EXCLUDE/GAP → filter_only (SÓ filtro ≤1,3 m, sem solo)
 if PREPROC == "both":
     VARIANT = (("gap_corrected" if GAP else "full") if not EXCLUDE
                else ("gap_corrected_noout" if GAP else "no_outliers"))
 elif PREPROC == "ground":
     VARIANT = "ground_only"
+elif PREPROC == "filter_only":
+    VARIANT = "filter_only"
 else:  # PREPROC == "raw"
     VARIANT = (("gap_only" if GAP else "raw") if not EXCLUDE
                else ("outliers_gap_only" if GAP else "outliers_only"))

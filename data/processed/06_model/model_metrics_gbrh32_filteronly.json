@@ -1,0 +1,45 @@
+{
+  "key": "gbrh32_filteronly",
+  "name": "GBR — 32 quantis",
+  "model": "GradientBoostingRegressor",
+  "library": "scikit-learn",
+  "variant": "filter_only",
+  "trained_at": "2026-11-01 21:13 UTC",
+  "target": "agb_m1_Mg_ha",
+  "cv_file": "cv_results_gbrh32_filteronly.csv",
+  "approach_key": "gbrh_approach",
+  "n_plots": 493,
+  "n_sites": 23,
+  "n_features": 33,
+  "agb_mean": 192.5,
+  "agb_std": 164.4,
+  "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
+  "hyperparameters": {
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "random_state": 42
+  },
+  "preprocessing": {
+    "k_quantis": 32,
+    "ground_radius_m": 1.0,
+    "canopy_min_h_m": 1.3,
+    "target_transform": "log1p",
+    "feature": "32 quantis igualmente espaçados das alturas de dossel + log(nº de pontos)"
+  },
+  "cv_global": {
+    "rmse": 142.31,
+    "r2": 0.2504,
+    "rrmse_pct": 73.94,
+    "bias": -26.96,
+    "mae": 82.33,
+    "slope": 0.2733,
+    "intercept": 112.91
+  },
+  "cv_fold_mean": {
+    "rmse": 139.81,
+    "r2": 0.2581,
+    "rrmse_pct": 72.71
+  }
+}

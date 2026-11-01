@@ -26,7 +26,7 @@ def _base_key(m):
     # na base e colide com a key do "no_outliers" combinado (empilhado em cima do
     # pipeline full).
     for suf in ("_gap_noout_raw", "_gap_noout", "_noout_raw", "_gap_raw",
-               "_noout", "_gap", "_ground", "_raw"):
+               "_noout", "_gap", "_filteronly", "_ground", "_raw"):
         if k.endswith(suf):
             return k[:-len(suf)]
     return k
@@ -34,11 +34,12 @@ def _base_key(m):
 
 # Ordem das variantes na ablação de pré-processamento. Dois eixos: EMPILHADO
 # (raw → só solo → full → +outliers → +gap, cada um em cima do anterior — é o que
-# já existia) e ISOLADO (outliers_only/gap_only: só esse tratamento, sem solo nem
-# filtro, pra medir o efeito de cada um sozinho contra a MESMA baseline raw).
-_VARIANT_RANK = {"raw": 0, "ground_only": 1, "full": 2,
-                 "outliers_only": 3, "gap_only": 4,
-                 "no_outliers": 5, "gap_corrected": 6, "gap_corrected_noout": 7}
+# já existia) e ISOLADO (ground_only/filter_only/outliers_only/gap_only: só esse
+# tratamento sozinho, contra a MESMA baseline raw — não empilhado em cima dos
+# outros). full_combined (= gap_corrected_noout) fecha a ablação com tudo junto.
+_VARIANT_RANK = {"raw": 0, "ground_only": 1, "filter_only": 2, "full": 3,
+                 "outliers_only": 4, "gap_only": 5,
+                 "no_outliers": 6, "gap_corrected": 7, "gap_corrected_noout": 8}
 
 
 def _variant_rank(m):
@@ -80,6 +81,8 @@ def _variant_label(m):
         return t("models.variant_outliers_only")
     if v == "gap_only":
         return t("models.variant_gap_only")
+    if v == "filter_only":
+        return t("models.variant_filter_only")
     if v == "raw":
         return t("models.variant_raw")
     if v == "ground_only":
@@ -241,6 +244,7 @@ models = sorted(models, key=_ord)
 full = [m for m in models if m.get("variant") == "full" and not _is_dimred(m)]
 raw_v = [m for m in models if m.get("variant") == "raw" and not _is_dimred(m)]
 ground_v = [m for m in models if m.get("variant") == "ground_only" and not _is_dimred(m)]
+filter_only_v = [m for m in models if m.get("variant") == "filter_only" and not _is_dimred(m)]
 noout = [m for m in models if m.get("variant") == "no_outliers" and not _is_dimred(m)]
 gap = [m for m in models if str(m.get("variant", "")).startswith("gap_corrected")
        and not _is_dimred(m)]
@@ -257,7 +261,7 @@ if len(models) > 1:
     # Agrupa por NÍVEL de processamento (raw → só solo → ambos → noout → gap) e, dentro
     # de cada nível, pela ordem dos modelos. Assim os modelos do mesmo nível ficam
     # sequenciais e cada modelo aparece uma vez por nível.
-    comp_models = sorted(raw_v + ground_v + full + outliers_only_v + gap_only_v + noout + gap,
+    comp_models = sorted(raw_v + ground_v + filter_only_v + full + outliers_only_v + gap_only_v + noout + gap,
                          key=lambda m: (_variant_rank(m), _ord(m)))
     comp = pd.DataFrame([{
         t("models.col_model"): m.get("name", m.get("model", m["key"])),
@@ -328,6 +332,8 @@ def _group(label, group):
 _group(t("models.variant_full"), full)
 if ground_v:
     _group(t("models.variant_ground"), ground_v)
+if filter_only_v:
+    _group(t("models.variant_filter_only"), filter_only_v)
 if raw_v:
     _group(t("models.variant_raw"), raw_v)
 if outliers_only_v:

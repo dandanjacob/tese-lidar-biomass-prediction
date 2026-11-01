@@ -53,13 +53,21 @@ with tab_resultados:
     _NAMES = {"gbr": "GBR — alturas ordenadas", "aba": "ABA (GBR estrutural)",
               "rf": "Random Forest (estrutural)", "pointnet": "PointNet (nuvem crua)",
               "raster": "CNN 2D (raster)", "voxel": "CNN 3D (voxel)"}
-    _SUFFIXES = ("_gap_noout", "_noout", "_gap", "_ground", "_raw")
-    _VARIANT_LABEL = {"raw": "Sem processamento", "ground_only": "Só solo",
-                       "full": "Completo", "no_outliers": "Sem outliers",
-                       "gap_corrected_noout": "Gap + sem outliers",
-                       "gap_corrected": "Gap corrigido"}
-    _VARIANT_RANK = {"raw": 0, "ground_only": 1, "full": 2, "no_outliers": 3,
-                      "gap_corrected": 4, "gap_corrected_noout": 5}
+    # Ordem do mais específico pro menos específico — "_noout_raw"/"_gap_raw" (ablação
+    # ISOLADA: só esse tratamento, nuvem crua, sem empilhar) precisam casar ANTES de
+    # "_raw" sozinho, senão o strip errado deixa "_noout"/"_gap" grudado na base e a
+    # linha some da tabela (mesmo bug já corrigido em app/pages/models.py).
+    _SUFFIXES = ("_gap_noout", "_noout_raw", "_gap_raw", "_noout", "_gap",
+                "_filteronly", "_ground", "_raw")
+    _VARIANT_LABEL = {"raw": "Cru (sem processamento)", "ground_only": "Só solo",
+                       "filter_only": "Só filtro ≤1,3 m", "full": "Solo + filtro",
+                       "outliers_only": "Só outliers", "gap_only": "Só gap temporal",
+                       "no_outliers": "Solo+filtro+outliers",
+                       "gap_corrected_noout": "Tudo combinado",
+                       "gap_corrected": "Solo+filtro+gap"}
+    _VARIANT_RANK = {"raw": 0, "ground_only": 1, "filter_only": 2, "full": 3,
+                      "outliers_only": 4, "gap_only": 5, "no_outliers": 6,
+                      "gap_corrected": 7, "gap_corrected_noout": 8}
 
     def _base(key):
         for suf in _SUFFIXES:
@@ -89,8 +97,10 @@ with tab_resultados:
     st.dataframe(sty1, hide_index=True, use_container_width=True, height=460)
     st.caption(
         "**Tabela 1** — RMSE (Mg/ha), R² e rRMSE (%) de validação cruzada k-fold "
-        "global, por modelo e variante de pré-processamento (Seção 2.6). Linhas "
-        "ordenadas da variante mais crua à mais tratada."
+        "global, por modelo e variante de pré-processamento (Seção 2.6). "
+        "'Só X' são tratamentos ISOLADOS (nuvem crua, só esse tratamento ligado, "
+        "sem empilhar com os demais); 'Solo+filtro', 'Solo+filtro+outliers' e "
+        "'Tudo combinado' empilham os tratamentos anteriores em cima um do outro."
     )
 
     st.markdown(with_acronyms(md("artigo_resultados_2")), unsafe_allow_html=True)
