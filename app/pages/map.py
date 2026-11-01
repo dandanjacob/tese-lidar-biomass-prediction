@@ -1,5 +1,7 @@
 """Mapa de cobertura LiDAR × inventário."""
 
+from urllib.parse import quote
+
 import folium
 import pandas as pd
 import streamlit as st
@@ -28,7 +30,7 @@ CAT_STYLE = {
 
 @st.cache_data
 def build_map(cache_key: float, layer_tiles: str, lbl_green: str, lbl_red: str,
-              lbl_gray: str, tooltip_tpl: str) -> str:
+              lbl_gray: str, tooltip_tpl: str, popup_link_label: str) -> str:
     # cache_key entra só como chave de cache: soma os mtimes de interseções, biomassa
     # e clips (+ código), então o mapa recolore quando QUALQUER um deles é regerado
     # (senão as cores verde/vermelho/cinza ficariam presas na versão antiga).
@@ -82,11 +84,26 @@ def build_map(cache_key: float, layer_tiles: str, lbl_green: str, lbl_red: str,
         # de partes disjuntas — ex. JAM_A02_2013 — flutuava entre elas).
         p = geom.representative_point()
 
-        # Pin — visível em qualquer zoom
+        # Pin — visível em qualquer zoom. Só as parcelas USÁVEIS (verde) ganham popup
+        # com link pra nuvem de pontos — vermelho/cinza não entram no treino, não há
+        # nuvem recortada equivalente pra mostrar. O mapa é HTML estático embutido num
+        # iframe sandboxed via components.html — o sandbox do Streamlit NÃO inclui
+        # allow-top-navigation, então `target="_top"` é bloqueado silenciosamente
+        # (sem erro no console). allow-popups + allow-same-origin + allow-scripts
+        # estão presentes, então abre em NOVA ABA via window.open, lendo a origem
+        # real por window.top.location (mesma origem, não bloqueado pelo sandbox).
+        popup = None
+        if cat == "green":
+            qs = f"site={quote(row['site'])}&plot={quote(str(row['plot_id']))}"
+            onclick = (f"window.open(window.top.location.origin + '/pointcloud?{qs}', "
+                      "'_blank'); return false;")
+            popup = folium.Popup(
+                f'<a href="#" onclick="{onclick}">▶ {popup_link_label}</a>', max_width=260)
         folium.Marker(
             location=[p.y, p.x],
             icon=folium.Icon(color=pin_color, icon="map-marker", prefix="fa"),
             tooltip=tooltip,
+            popup=popup,
         ).add_to(grp)
 
         # Geometria — visível ao aproximar. Polígonos viram área preenchida; parcelas
@@ -128,7 +145,8 @@ _cache_key = (data._mtime(_inters_csv) + data._mtime(_summary_csv)
 components.html(
     build_map(_cache_key, t("map.layer_tiles"),
               t("map.layer_usable"), t("map.layer_covered_nolabel"),
-              t("map.layer_no_lidar"), t("map.tooltip_plot")),
+              t("map.layer_no_lidar"), t("map.tooltip_plot"),
+              t("map.popup_pointcloud_link")),
     height=580, scrolling=False,
 )
 st.caption(t("map.legend_caption"))

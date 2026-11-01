@@ -27,12 +27,29 @@ if clip.empty:
     st.stop()
 
 sites = sorted(clip["site"].unique())
+
+# Pré-seleção vinda do link "Ver nuvem de pontos" no mapa de cobertura (?site=...&
+# plot=...). Só semeia o session_state UMA VEZ (não a cada rerun) — senão o usuário
+# nunca consegue trocar de site/parcela manualmente depois, porque o query param
+# continua na URL e reimporia o valor a cada interação.
+if "pointcloud_site" not in st.session_state:
+    qp_site = st.query_params.get("site")
+    st.session_state.pointcloud_site = qp_site if qp_site in sites else sites[0]
+
 col1, col2 = st.columns([2, 1])
 with col1:
-    site = st.selectbox(t("pointcloud.site"), sites)
+    site = st.selectbox(t("pointcloud.site"), sites, key="pointcloud_site")
 with col2:
     plots_available = sorted(clip[clip["site"] == site]["plot"].tolist(), key=_natural_key)
-    plot = st.selectbox(t("pointcloud.plot"), plots_available)
+    # Revalida a cada troca de site: se o valor memorizado não existe mais na lista
+    # (trocou de site manualmente, ou é a primeira carga), recai no query param da
+    # parcela (se válido pra este site) ou na primeira opção disponível.
+    if st.session_state.get("pointcloud_plot") not in plots_available:
+        qp_plot = st.query_params.get("plot")
+        candidate = f"plot_{qp_plot}" if qp_plot else None
+        st.session_state.pointcloud_plot = (
+            candidate if candidate in plots_available else plots_available[0])
+    plot = st.selectbox(t("pointcloud.plot"), plots_available, key="pointcloud_plot")
 
 max_pts = st.slider(t("pointcloud.max_points"), 5_000, 100_000, 30_000, step=5_000,
                     help=t("pointcloud.max_points_help"))

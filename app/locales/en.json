@@ -114,6 +114,7 @@
     "layer_plots_yes": "Plots with LiDAR",
     "layer_plots_no": "Plots without LiDAR",
     "tooltip_plot": "{site} / plot {plot}",
+    "popup_pointcloud_link": "View this plot's point cloud",
     "table_title": "Summary by inventory site",
     "col_site": "Site",
     "col_lidar": "LiDAR tiles",

@@ -114,6 +114,7 @@
     "layer_plots_yes": "Parcelas com LiDAR",
     "layer_plots_no": "Parcelas sem LiDAR",
     "tooltip_plot": "{site} / parcela {plot}",
+    "popup_pointcloud_link": "Ver nuvem de pontos desta parcela",
     "table_title": "Resumo por site de inventário",
     "col_site": "Site",
     "col_lidar": "Tiles de LiDAR",
