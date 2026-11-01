@@ -1,8 +1,10 @@
 """Modelos de previsão de AGB a partir de LiDAR — abordagem, hiperparâmetros e resultados.
 
-Seleção por botões, em dois grupos: modelos treinados com as **interseções completas**
-e modelos treinados com **remoção de outliers** (parcelas de área > 0,5 ha ou
-compacidade < 0,6 retiradas). A tabela de comparação no topo é comum aos dois grupos.
+Seleção por botões, em grupos — um por tratamento ISOLADO da ablação (cru, só solo, só
+filtro ≤1,3 m, só outliers, só gap, tudo combinado — ver outlier_filter.py). Variantes
+empilhadas intermediárias (full, no_outliers, gap_corrected) existem nos dados mas não
+aparecem aqui, por decisão do autor — ver comentário em `full_combined_v` abaixo. A
+tabela de comparação no topo cobre os mesmos seis grupos.
 """
 
 import pandas as pd
@@ -241,16 +243,30 @@ if not models:
     st.stop()
 
 models = sorted(models, key=_ord)
-full = [m for m in models if m.get("variant") == "full" and not _is_dimred(m)]
-raw_v = [m for m in models if m.get("variant") == "raw" and not _is_dimred(m)]
-ground_v = [m for m in models if m.get("variant") == "ground_only" and not _is_dimred(m)]
-filter_only_v = [m for m in models if m.get("variant") == "filter_only" and not _is_dimred(m)]
-noout = [m for m in models if m.get("variant") == "no_outliers" and not _is_dimred(m)]
-gap = [m for m in models if str(m.get("variant", "")).startswith("gap_corrected")
-       and not _is_dimred(m)]
-outliers_only_v = [m for m in models if m.get("variant") == "outliers_only" and not _is_dimred(m)]
-gap_only_v = [m for m in models if m.get("variant") == "gap_only" and not _is_dimred(m)]
-dimred = [m for m in models if _is_dimred(m)]
+# Só os SEIS tratamentos da ablação isolada (ver outlier_filter.py/artigo_dados_2.md
+# §2.6) aparecem na UI — as variantes empilhadas intermediárias (full=solo+filtro,
+# no_outliers=full+outliers, gap_corrected=full+gap) ainda existem nos dados (nunca
+# apagadas), mas foram descartadas como evidência de exibição por decisão do autor:
+# misturavam tratamentos cruzados com os isolados e contradiziam a análise do artigo.
+#
+# Modelos M3 (key termina em "_m3", análise de sensibilidade alométrica — ver
+# artigo_discussao.md §4.4) usam a MESMA string de variant que seu par M1 (outlier_
+# filter.VARIANT não depende de TARGET_FORMULA) — sem este filtro eles vazam pros
+# grupos principais como duplicata confusa (mesmo nome de modelo, R² diferente).
+def _is_m3(m):
+    return str(m.get("key", "")).endswith("_m3")
+
+
+raw_v = [m for m in models if m.get("variant") == "raw" and not _is_dimred(m) and not _is_m3(m)]
+ground_v = [m for m in models if m.get("variant") == "ground_only" and not _is_dimred(m) and not _is_m3(m)]
+filter_only_v = [m for m in models if m.get("variant") == "filter_only" and not _is_dimred(m) and not _is_m3(m)]
+outliers_only_v = [m for m in models if m.get("variant") == "outliers_only" and not _is_dimred(m) and not _is_m3(m)]
+gap_only_v = [m for m in models if m.get("variant") == "gap_only" and not _is_dimred(m) and not _is_m3(m)]
+full_combined_v = [m for m in models if m.get("variant") == "gap_corrected_noout" and not _is_dimred(m) and not _is_m3(m)]
+# Varredura de K quantis (Figura 3 do artigo) foi treinada só na base "sem outliers"
+# (variant == no_outliers) — sem este filtro, as variantes novas de gbrh32 (mesmo
+# prefixo "gbrh") apareciam como botões "GBR — 32 quantis" duplicados no grupo.
+dimred = [m for m in models if _is_dimred(m) and m.get("variant") == "no_outliers" and not _is_m3(m)]
 
 st.markdown(t("models.intro"))
 
@@ -261,7 +277,7 @@ if len(models) > 1:
     # Agrupa por NÍVEL de processamento (raw → só solo → ambos → noout → gap) e, dentro
     # de cada nível, pela ordem dos modelos. Assim os modelos do mesmo nível ficam
     # sequenciais e cada modelo aparece uma vez por nível.
-    comp_models = sorted(raw_v + ground_v + filter_only_v + full + outliers_only_v + gap_only_v + noout + gap,
+    comp_models = sorted(raw_v + ground_v + filter_only_v + outliers_only_v + gap_only_v + full_combined_v,
                          key=lambda m: (_variant_rank(m), _ord(m)))
     comp = pd.DataFrame([{
         t("models.col_model"): m.get("name", m.get("model", m["key"])),
@@ -310,7 +326,7 @@ if len(models) > 1:
 st.markdown(f"### {t('models.section_choose')}")
 if "models_sel" not in st.session_state or \
         st.session_state.models_sel not in {m["key"] for m in models}:
-    st.session_state.models_sel = (full or models)[0]["key"]
+    st.session_state.models_sel = (outliers_only_v or models)[0]["key"]
 
 clicked = None
 
@@ -329,23 +345,18 @@ def _group(label, group):
             clicked = m["key"]
 
 
-_group(t("models.variant_full"), full)
+if raw_v:
+    _group(t("models.variant_raw"), raw_v)
 if ground_v:
     _group(t("models.variant_ground"), ground_v)
 if filter_only_v:
     _group(t("models.variant_filter_only"), filter_only_v)
-if raw_v:
-    _group(t("models.variant_raw"), raw_v)
 if outliers_only_v:
     _group(t("models.variant_outliers_only"), outliers_only_v)
 if gap_only_v:
     _group(t("models.variant_gap_only"), gap_only_v)
-if noout:
-    _group(t("models.variant_noout"), noout)
-else:
-    st.caption(t("models.noout_pending"))
-if gap:
-    _group(t("models.variant_gap"), gap)
+if full_combined_v:
+    _group(t("models.variant_gap_noout"), full_combined_v)
 if dimred:
     _group(t("models.variant_dimred"), dimred)
 
