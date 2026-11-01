@@ -392,6 +392,8 @@
     "variant_ground": "Só projeção do solo (sem remoção ≤ 1,3 m)",
     "variant_noout": "Remoção de outliers (área > 0,5 ha ou compacidade < 0,6)",
     "variant_gap": "AGB corrigido pelo gap temporal (DBH/altura crescidos até o ano do LiDAR)",
+    "variant_outliers_only": "Ablação isolada — SÓ remoção de outliers (nuvem crua, sem solo nem filtro ≤1,3 m)",
+    "variant_gap_only": "Ablação isolada — SÓ correção de gap temporal (nuvem crua, sem solo, filtro ≤1,3 m nem remoção de outliers)",
     "variant_gap_noout": "AGB corrigido pelo gap temporal + remoção de outliers (área > 0,5 ha ou compacidade < 0,6)",
     "variant_dimred": "Redução de dimensionalidade — GBR com K quantis de altura (sem outliers)",
     "noout_pending": "Modelos sem outliers ainda em treinamento — aparecem aqui assim que as métricas forem geradas."

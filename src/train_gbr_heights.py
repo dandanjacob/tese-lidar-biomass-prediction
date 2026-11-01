@@ -18,7 +18,7 @@ import pandas as pd
 import laspy
 
 from train_model import (
-    log, SEED, N_SPLITS, GROUND_RADIUS, CANOPY_MIN_H, GBR_PARAMS,
+    log, SEED, N_SPLITS, GROUND_RADIUS, CANOPY_MIN_H, CANOPY_FILTER_H, GBR_PARAMS,
     LAZ_DIR, SUMMARY, OUT_DIR, Y_FWD, Y_INV,
     xy_inlier_mask, height_above_ground, evaluate_cv,
 )
@@ -54,7 +54,10 @@ def load_canopy_quantiles(laz_path, k):
 
     hag = height_above_ground(x, y, z, cls, GROUND_RADIUS)
     total_pts = len(hag)
-    canopy = hag[hag >= CANOPY_MIN_H]
+    # CANOPY_FILTER_H (não CANOPY_MIN_H): respeita PREPROC=raw (DO_HEIGHT_FILTER=False
+    # vira -inf, desliga o filtro) — mesmo padrão de train_model/train_aba/pointnet/
+    # raster/voxel. Usar CANOPY_MIN_H direto ignorava a flag e sempre filtrava ≤1,3 m.
+    canopy = hag[hag >= CANOPY_FILTER_H]
     if len(canopy) == 0:
         canopy = hag
 

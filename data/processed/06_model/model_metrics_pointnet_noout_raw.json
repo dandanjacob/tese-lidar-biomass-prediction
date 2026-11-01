@@ -1,0 +1,41 @@
+{
+  "key": "pointnet_noout_raw",
+  "name": "PointNet — nuvem crua",
+  "model": "PointNet (MLP por ponto + max-pool)",
+  "library": "PyTorch",
+  "variant": "outliers_only",
+  "trained_at": "2026-11-01 19:48 UTC",
+  "target": "agb_m1_Mg_ha",
+  "n_plots": 325,
+  "n_sites": 18,
+  "n_features": "XYZ (cru)",
+  "agb_mean": 171.6,
+  "agb_std": 106.4,
+  "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
+  "cv_file": "cv_results_pointnet_noout_raw.csv",
+  "approach_key": "model_approach_pointnet",
+  "hyperparameters": {
+    "arquitetura": "Linear(3→64→128) · max-pool · Linear(128→64→1)",
+    "n_sample_pts": 2048,
+    "n_store_pts": 8192,
+    "epochs": 60,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.3
+  },
+  "cv_global": {
+    "rmse": 97.58,
+    "r2": 0.1581,
+    "rrmse_pct": 56.86,
+    "bias": -25.78,
+    "mae": 66.44,
+    "slope": 0.2008,
+    "intercept": 111.36
+  },
+  "cv_fold_mean": {
+    "rmse": 97.04,
+    "r2": 0.1592,
+    "rrmse_pct": 56.43
+  }
+}

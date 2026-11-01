@@ -392,6 +392,8 @@
     "variant_ground": "Ground projection only (no ≤1.3 m removal)",
     "variant_noout": "Outliers removed (area > 0.5 ha or compactness < 0.6)",
     "variant_gap": "Temporal-gap corrected AGB (DBH/height grown to LiDAR year)",
+    "variant_outliers_only": "Isolated ablation — outlier removal ONLY (raw cloud, no ground/height filter)",
+    "variant_gap_only": "Isolated ablation — temporal-gap correction ONLY (raw cloud, no ground filter, height filter, or outlier removal)",
     "variant_gap_noout": "Temporal-gap corrected AGB + outliers removed (area > 0.5 ha or compactness < 0.6)",
     "variant_dimred": "Dimensionality reduction — GBR with K height quantiles (no outliers)",
     "noout_pending": "Outlier-free models still training — they appear here once their metrics are generated."

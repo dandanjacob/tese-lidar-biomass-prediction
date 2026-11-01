@@ -50,7 +50,11 @@ GAP = os.environ.get("TARGET_GAP") == "1"
 #   PREPROC=ground           → só projeta o solo                  (sufixo "_ground")
 #   PREPROC=raw              → nenhuma das duas (Z centrado cru)   (sufixo "_raw")
 # O filtro de 1,3 m só faz sentido após projetar o solo, por isso não há combinação
-# "remoção sem projeção".
+# "remoção sem projeção" — essas duas etapas sempre andam juntas quando ativas.
+#
+# EXCLUDE_OUTLIERS e TARGET_GAP combinam com PREPROC=raw para ABLAÇÃO ISOLADA:
+# cada tratamento (outliers, gap) testado sozinho contra a nuvem crua, sem
+# empilhar em cima de solo+filtro — ver VARIANT abaixo (outliers_only/gap_only).
 PREPROC = os.environ.get("PREPROC", "both")
 if PREPROC not in ("both", "ground", "raw"):
     raise SystemExit(f"PREPROC inválido: {PREPROC!r} (use both|ground|raw)")
@@ -71,13 +75,29 @@ TARGET = f"agb_{FORMULA}_Mg_ha" + ("_gap" if GAP else "")
 _PREPROC_SUFFIX = {"both": "", "ground": "_ground", "raw": "_raw"}[PREPROC]
 _FORMULA_SUFFIX = "_m3" if FORMULA == "m3" else ""
 SUFFIX = ("_gap" if GAP else "") + ("_noout" if EXCLUDE else "") + _PREPROC_SUFFIX + _FORMULA_SUFFIX
-# A ablação de pré-processamento roda sobre o alvo-base (full); as variantes raw/
-# ground têm rótulo próprio. As demais combinações mantêm a lógica gap/noout.
+
+# Rótulo da variante — cada combinação (PREPROC, EXCLUDE, GAP) tem nome próprio,
+# para suportar ABLAÇÃO ISOLADA: cada tratamento testado sozinho contra a nuvem
+# crua (PREPROC=raw), não empilhado em cima dos outros. Isso evita que "sem
+# outliers" ou "gap temporal" venham sempre misturados com projeção do solo +
+# filtro ≤1,3 m (o que torna impossível saber qual tratamento gerou o ganho).
+#   PREPROC=both, sem EXCLUDE/GAP     → full (solo + filtro ≤1,3 m, pipeline padrão)
+#   PREPROC=both, EXCLUDE             → no_outliers (full + outliers)
+#   PREPROC=both, GAP                 → gap_corrected (full + gap)
+#   PREPROC=both, EXCLUDE+GAP         → gap_corrected_noout (tudo combinado)
+#   PREPROC=raw,  sem EXCLUDE/GAP     → raw (nenhum tratamento — baseline)
+#   PREPROC=ground, sem EXCLUDE/GAP   → ground_only (só projeção do solo)
+#   PREPROC=raw,  EXCLUDE             → outliers_only (SÓ remoção de outliers)
+#   PREPROC=raw,  GAP                 → gap_only (SÓ correção de gap temporal)
+#   PREPROC=raw,  EXCLUDE+GAP         → outliers_gap_only (os dois, sem solo/filtro)
 if PREPROC == "both":
     VARIANT = (("gap_corrected" if GAP else "full") if not EXCLUDE
                else ("gap_corrected_noout" if GAP else "no_outliers"))
-else:
-    VARIANT = "raw" if PREPROC == "raw" else "ground_only"
+elif PREPROC == "ground":
+    VARIANT = "ground_only"
+else:  # PREPROC == "raw"
+    VARIANT = (("gap_only" if GAP else "raw") if not EXCLUDE
+               else ("outliers_gap_only" if GAP else "outliers_only"))
 
 
 @lru_cache(maxsize=1)

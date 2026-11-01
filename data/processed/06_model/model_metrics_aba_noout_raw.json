@@ -1,0 +1,234 @@
+{
+  "key": "aba_noout_raw",
+  "name": "GBR — métricas estruturais (ABA)",
+  "model": "GradientBoostingRegressor",
+  "library": "scikit-learn",
+  "variant": "outliers_only",
+  "trained_at": "2026-11-01 17:22 UTC",
+  "target": "agb_m1_Mg_ha",
+  "cv_file": "cv_results_aba_noout_raw.csv",
+  "approach_key": "model_approach_aba",
+  "n_plots": 325,
+  "n_sites": 18,
+  "n_features": 37,
+  "agb_mean": 171.6,
+  "agb_std": 106.4,
+  "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
+  "hyperparameters": {
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "random_state": 42
+  },
+  "preprocessing": {
+    "cell_size_m": 1.0,
+    "ground_radius_m": 1.0,
+    "canopy_min_h_m": 1.3,
+    "target_transform": "log1p",
+    "feature_families": "altura · densidade vertical · convolucionais (CHM)",
+    "feature_names": [
+      "h_max",
+      "h_mean",
+      "h_std",
+      "h_cv",
+      "p05",
+      "p10",
+      "p25",
+      "p50",
+      "p75",
+      "p90",
+      "p95",
+      "p99",
+      "h_skew",
+      "h_kurt",
+      "crr",
+      "cover_2m",
+      "pz_above_mean",
+      "D0",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "vfd_entropy",
+      "chm_mean",
+      "chm_sd",
+      "chm_max",
+      "chm_range",
+      "canopy_cover_grid",
+      "gap_fraction",
+      "lap_roughness",
+      "ptdens_cv",
+      "pt_density"
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "vfd_entropy",
+      "importance": 0.335
+    },
+    {
+      "feature": "p75",
+      "importance": 0.2073
+    },
+    {
+      "feature": "pt_density",
+      "importance": 0.0791
+    },
+    {
+      "feature": "lap_roughness",
+      "importance": 0.0357
+    },
+    {
+      "feature": "h_std",
+      "importance": 0.0284
+    },
+    {
+      "feature": "gap_fraction",
+      "importance": 0.0233
+    },
+    {
+      "feature": "D9",
+      "importance": 0.0205
+    },
+    {
+      "feature": "D5",
+      "importance": 0.0204
+    },
+    {
+      "feature": "cover_2m",
+      "importance": 0.0204
+    },
+    {
+      "feature": "p50",
+      "importance": 0.0199
+    },
+    {
+      "feature": "p90",
+      "importance": 0.0161
+    },
+    {
+      "feature": "pz_above_mean",
+      "importance": 0.0143
+    },
+    {
+      "feature": "chm_mean",
+      "importance": 0.0127
+    },
+    {
+      "feature": "D3",
+      "importance": 0.0125
+    },
+    {
+      "feature": "ptdens_cv",
+      "importance": 0.0121
+    },
+    {
+      "feature": "chm_range",
+      "importance": 0.0112
+    },
+    {
+      "feature": "h_kurt",
+      "importance": 0.0096
+    },
+    {
+      "feature": "p05",
+      "importance": 0.0095
+    },
+    {
+      "feature": "p10",
+      "importance": 0.0086
+    },
+    {
+      "feature": "h_skew",
+      "importance": 0.0085
+    },
+    {
+      "feature": "p25",
+      "importance": 0.0085
+    },
+    {
+      "feature": "h_mean",
+      "importance": 0.0082
+    },
+    {
+      "feature": "D4",
+      "importance": 0.0082
+    },
+    {
+      "feature": "D0",
+      "importance": 0.0078
+    },
+    {
+      "feature": "D7",
+      "importance": 0.0074
+    },
+    {
+      "feature": "chm_sd",
+      "importance": 0.007
+    },
+    {
+      "feature": "h_cv",
+      "importance": 0.0069
+    },
+    {
+      "feature": "D1",
+      "importance": 0.0068
+    },
+    {
+      "feature": "D6",
+      "importance": 0.0055
+    },
+    {
+      "feature": "p95",
+      "importance": 0.0053
+    },
+    {
+      "feature": "D8",
+      "importance": 0.0043
+    },
+    {
+      "feature": "D2",
+      "importance": 0.0042
+    },
+    {
+      "feature": "p99",
+      "importance": 0.0041
+    },
+    {
+      "feature": "canopy_cover_grid",
+      "importance": 0.004
+    },
+    {
+      "feature": "h_max",
+      "importance": 0.003
+    },
+    {
+      "feature": "crr",
+      "importance": 0.0022
+    },
+    {
+      "feature": "chm_max",
+      "importance": 0.0018
+    }
+  ],
+  "cv_global": {
+    "rmse": 74.17,
+    "r2": 0.5136,
+    "rrmse_pct": 43.23,
+    "bias": -9.85,
+    "mae": 51.42,
+    "slope": 0.5677,
+    "intercept": 64.33
+  },
+  "cv_fold_mean": {
+    "rmse": 74.03,
+    "r2": 0.5054,
+    "rrmse_pct": 43.14
+  }
+}
