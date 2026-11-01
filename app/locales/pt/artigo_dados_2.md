@@ -94,12 +94,21 @@ para que a comparação isole o efeito do algoritmo. Reporta-se RMSE (Mg/ha), R�
 (RMSE relativo à média observada, %) — agregados sobre as previsões *out-of-fold* de
 todos os folds (métrica "global"), não a média simples das métricas por fold.
 
-Cada modelo é avaliado em até cinco variantes do conjunto de treino: **sem
-processamento** (`raw`), **filtro de solo apenas** (`ground_only`), **conjunto completo**
-(`full`), **sem outliers** (`no_outliers` — parcelas com área > 0,5 ha ou compacidade <
-0,6 removidas) e **gap corrigido + sem outliers** (`gap_corrected_noout`). Essa grade de
-variantes é o que permite, na Seção 3.1, isolar o efeito do controle de qualidade dos
-dados do efeito da escolha de arquitetura.
+Cada modelo é avaliado em **seis variantes do conjunto de treino, cada uma testando UM
+tratamento isoladamente contra a mesma nuvem crua** — não empilhadas umas sobre as
+outras, para que o efeito de cada tratamento possa ser atribuído a ele mesmo, não à
+combinação (Seção 3.1): **sem processamento** (`raw`, baseline), **só projeção do solo**
+(`ground_only` — relevo local célula-a-célula, sem filtro), **só filtro ≤1,3 m**
+(`filter_only` — remoção dos retornos até a altura do peito, aplicada sobre o mesmo
+deslocamento mínimo de Z do baseline cru, sem acionar a projeção de relevo completa),
+**só remoção de outliers** (`outliers_only` — parcelas com área > 0,5 ha ou compacidade
+< 0,6 removidas, sem nenhum tratamento na nuvem), **só correção de gap temporal**
+(`gap_only` — alvo realinhado à data do voo LiDAR, sem nenhum tratamento na nuvem) e
+**tudo combinado** (`gap_corrected_noout` — os quatro tratamentos juntos, o pipeline
+completo). Variantes intermediárias empilhadas (solo+filtro, +outliers, +gap) também
+foram treinadas e permanecem disponíveis nos dados, mas a análise principal da Seção 3.1
+usa as seis variantes isoladas como evidência primária, por permitirem atribuir o ganho
+de desempenho a um tratamento específico em vez de a uma combinação.
 
 > **Nota de escopo (ver Seção 4.2):** o k-fold aqui é aleatório sobre parcelas, não sobre
 > sítios — parcelas do mesmo site de inventário podem cair em treino e teste no mesmo

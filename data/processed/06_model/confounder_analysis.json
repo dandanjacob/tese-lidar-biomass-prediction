@@ -3,34 +3,34 @@
     {
       "ano_lidar": 2012,
       "n": 40,
-      "r2": 0.2523
+      "r2": 0.2699
     },
     {
       "ano_lidar": 2013,
       "n": 120,
-      "r2": 0.4232
+      "r2": 0.3926
     },
     {
       "ano_lidar": 2014,
       "n": 107,
-      "r2": 0.1394
+      "r2": 0.121
     },
     {
       "ano_lidar": 2016,
       "n": 9,
-      "r2": -0.5665
+      "r2": -0.5994
     },
     {
       "ano_lidar": 2017,
       "n": 49,
-      "r2": 0.1124
+      "r2": 0.1956
     }
   ],
   "density_control": {
-    "r2_full": 0.5059,
-    "r2_control": 0.464,
-    "rmse_full": 74.76,
-    "rmse_control": 77.86,
+    "r2_full": 0.5136,
+    "r2_control": 0.4962,
+    "rmse_full": 74.17,
+    "rmse_control": 75.49,
     "dropped_features": [
       "ptdens_cv",
       "pt_density"
@@ -41,19 +41,19 @@
     {
       "a": "CNN 2D (raster)",
       "b": "Random Forest",
-      "p_value": 0.6267,
+      "p_value": 0.6309,
       "significant_0.05": false
     },
     {
       "a": "CNN 2D (raster)",
       "b": "CNN 3D (voxel)",
-      "p_value": 0.7067,
+      "p_value": 0.3037,
       "significant_0.05": false
     },
     {
       "a": "Random Forest",
       "b": "CNN 3D (voxel)",
-      "p_value": 0.3818,
+      "p_value": 0.4165,
       "significant_0.05": false
     }
   ]

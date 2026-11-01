@@ -1,6 +1,7 @@
 ### 3.5 Posição frente à literatura e ao GEDI
 
-O melhor resultado desta tese (R² = 0,53; rRMSE ≈ 44,5%; CNN 2D, parcela) situa-se
+O melhor resultado desta tese (R² = 0,547; rRMSE ≈ 41,7%; CNN 2D, parcela, variante só
+outliers isolada) situa-se
 **abaixo** dos trabalhos de referência em LiDAR aéreo tropical com metodologia mais
 madura — Asner & Mascaro (2014), R² = 0,90 sobre 804 parcelas de 1 ha em quatro países
 tropicais e Havaí; Longo et al. (2016), R² = 0,70 sobre 359 parcelas amazônicas — e

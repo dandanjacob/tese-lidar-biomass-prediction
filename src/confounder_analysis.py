@@ -2,16 +2,19 @@
 científica da tese.
 
 P7 — Confundidor de campanha e densidade de varredura (artigo_discussao.md §4.5):
-  (a) R² do ABA (variante sem outliers) estratificado por ano_lidar (campanha de
-      aquisição), usando as previsões OOF já salvas.
+  (a) R² do ABA (melhor variante: outliers isolado, sem solo/filtro/gap — ver Seção
+      3.1/3.2) estratificado por ano_lidar (campanha de aquisição), usando as
+      previsões OOF já salvas.
   (b) Modelo de controle: mesmas features do ABA MENOS as duas que capturam densidade
       de varredura diretamente (pt_density, ptdens_cv) — se o R² cair pouco, a maior
       parte do sinal não vem de "reconhecer a campanha" pela densidade de pontos.
 
 P8 — Teste pareado (Wilcoxon signed-rank) sobre o erro quadrático por parcela, OOF,
-  entre CNN 2D (raster), Random Forest e CNN 3D (voxel), variante sem outliers —
-  testa se a diferença de desempenho entre essas três arquiteturas é estatisticamente
-  significativa ou só ruído de amostra.
+  entre CNN 2D (raster), Random Forest e CNN 3D (voxel), CADA UM na sua PRÓPRIA melhor
+  variante (outliers isolado para CNN 2D/RF; sem-outliers combinado para CNN 3D, que
+  não melhora com o tratamento isolado — ver Seção 3.1/3.2) — testa se a diferença de
+  desempenho entre essas três arquiteturas, nas suas melhores configurações, é
+  estatisticamente significativa ou só ruído de amostra.
 
 Rodar com: EXCLUDE_OUTLIERS=1 python src/confounder_analysis.py
 """
@@ -27,6 +30,7 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import r2_score, root_mean_squared_error
 
 os.environ.setdefault("EXCLUDE_OUTLIERS", "1")
+os.environ.setdefault("PREPROC", "raw")  # melhor variante do ABA é outliers ISOLADO
 
 from train_aba import build_dataset, GBR_PARAMS, SEED, N_SPLITS, Y_FWD, Y_INV  # noqa: E402
 from train_model import OUT_DIR  # noqa: E402
@@ -35,7 +39,7 @@ DENSITY_FEATURES = {"pt_density", "ptdens_cv"}
 
 
 def _stratified_r2_by_campaign():
-    oof = json.loads((OUT_DIR / "oof_aba_noout.json").read_text())
+    oof = json.loads((OUT_DIR / "oof_aba_noout_raw.json").read_text())
     summ = pd.read_csv("data/processed/05_biomass/summary.csv")
     summ["plot_id"] = summ["plot_id"].astype(str)
     year_map = {(r.site, r.plot_id): r.ano_lidar for r in summ.itertuples()}
@@ -92,8 +96,8 @@ def _density_control_model():
 
 
 def _paired_test():
-    models = {"CNN 2D (raster)": "oof_raster_noout.json",
-             "Random Forest": "oof_rf_noout.json",
+    models = {"CNN 2D (raster)": "oof_raster_noout_raw.json",
+             "Random Forest": "oof_rf_noout_raw.json",
              "CNN 3D (voxel)": "oof_voxel_noout.json"}
     errs = {}
     for name, fname in models.items():

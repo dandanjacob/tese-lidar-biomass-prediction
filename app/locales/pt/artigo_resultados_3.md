@@ -28,17 +28,25 @@ de ruído correlacionado que atrapalhava a otimização.
 
 A única abordagem desta comparação que expõe explicitamente **quais propriedades da
 floresta** sustentam a previsão é o ABA (GBR sobre 37 métricas estruturais nomeadas). A
-Figura 4 mostra a importância das 10 variáveis mais relevantes no modelo ABA
-gap-corrigido/sem-outliers.
+Figura 4 mostra a importância das 10 variáveis mais relevantes no modelo ABA na sua
+variante de melhor desempenho — outliers isolado (Seção 3.1/3.2), não o pipeline
+combinado usado em versões anteriores deste texto.
 
 **Figura 4 — Importância de variáveis, modelo ABA (top 10).**
 
-Os percentis de altura do dossel (p05, p75, p50, p10, p25) dominam a importância
-agregada — reforçando, por uma via distinta da ablação de dimensionalidade, que a
-distribuição de altura por si só já carrega a maior parte do sinal preditivo de AGB
-nesta amostra. As demais variáveis relevantes — entropia da densidade vertical
-(`vfd_entropy`), rugosidade convolucional do dossel (`lap_roughness`, derivada de um
-Laplaciano 3×3 sobre o CHM) e densidade de pontos (`pt_density`) — carregam informação
-complementar sobre heterogeneidade estrutural que os percentis sozinhos não capturam, e
-ajudam a explicar por que o raster 2D (que também enxerga heterogeneidade horizontal)
-supera marginalmente o ABA puro.
+A **entropia da densidade vertical** (`vfd_entropy`) domina isoladamente a importância
+agregada (≈0,34 do total), mais que o dobro da segunda colocada — um resultado que
+muda a leitura anterior deste texto, centrada nos percentis de altura. Essa métrica
+mede quão uniformemente distribuída está a folhagem ao longo do perfil vertical
+(entropia de Shannon sobre a densidade de pontos por faixa de altura): um dossel com
+muitos estratos de folhagem bem distribuídos tem entropia alta; um dossel concentrado
+numa única camada (ex.: topo denso, meio vazio) tem entropia baixa. Apenas o percentil
+p75 (≈0,21) mantém posição de destaque entre os percentis de altura — os demais (p50,
+p25, p10, p05, que dominavam na variante combinada) caem para a metade inferior da
+tabela. As demais variáveis relevantes — densidade de pontos (`pt_density`), rugosidade
+convolucional do dossel (`lap_roughness`, derivada de um Laplaciano 3×3 sobre o CHM),
+dispersão de altura (`h_std`) e fração de clareiras (`gap_fraction`) — carregam
+informação complementar sobre heterogeneidade estrutural (vertical e horizontal) que a
+altura típica sozinha não captura, e ajudam a explicar por que o raster 2D (que também
+enxerga heterogeneidade horizontal diretamente, sem precisar de uma métrica resumo como
+`vfd_entropy`) supera marginalmente o ABA puro.

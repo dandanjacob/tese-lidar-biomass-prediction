@@ -107,34 +107,47 @@ as três fórmulas calculadas na Seção 2.4 (M2 por tipo de árvore, M3 por den
 específica de espécie).
 
 Uma análise de sensibilidade foi conduzida: os sete modelos foram retreinados contra
-**M3** (densidade de madeira específica por espécie) na variante de melhor desempenho de
-cada um, sob o mesmo protocolo de validação cruzada.
+**M3** (densidade de madeira específica por espécie) sob o mesmo protocolo de validação
+cruzada.
 
-| Modelo | R² (M1) | R² (M3) | ΔR² |
+**Ressalva de leitura**: a coluna R² (M3) abaixo foi treinada quando a variante de
+melhor desempenho conhecida para cada modelo ainda era o pipeline combinado
+("solo+filtro+outliers", sem gap) — a Seção 3.1 identificou depois, via ablação
+isolada, que a remoção de outliers SOZINHA (sem solo/filtro) é a variante líder para
+cinco dos seis modelos, superando inclusive o combinado em alguns casos. A comparação
+M1 vs. M3 abaixo ainda não foi refeita sobre essas variantes isoladas — a coluna R² (M1)
+foi atualizada para refletir os novos melhores valores (Seção 3.2), mas a coluna R² (M3)
+permanece com o valor do pipeline combinado antigo; ΔR² é, portanto, um limite inferior
+pessimista da perda real sob M3 nos modelos onde a variante isolada lidera.
+
+| Modelo | R² (M1) | R² (M3, pipeline combinado) | ΔR² |
 |---|---|---|---|
-| Random Forest | 0,524 | 0,382 | −0,142 |
-| ABA | 0,506 | 0,360 | −0,145 |
-| GBR 32 quantis | 0,504 | 0,329 | −0,175 |
+| CNN 2D | 0,547 | 0,286 | **−0,261** |
+| Random Forest | 0,532 | 0,382 | −0,150 |
+| GBR alturas completas | 0,526 | 0,309 | −0,217 |
+| ABA | 0,514 | 0,360 | −0,154 |
+| GBR 32 quantis | 0,510 | 0,329 | −0,181 |
 | CNN 3D | 0,455 | 0,327 | −0,128 |
-| GBR alturas completas | 0,480 | 0,309 | −0,171 |
-| CNN 2D | 0,527 | 0,286 | **−0,241** |
 | PointNet | 0,212 | 0,128 | −0,084 |
 
 Dois achados, nenhum deles trivial. Primeiro, **todos os sete modelos perdem poder
-preditivo substancial sob M3** (ΔR² entre −0,08 e −0,24) — a densidade de madeira
+preditivo substancial sob M3** (ΔR² entre −0,08 e −0,26) — a densidade de madeira
 específica por espécie não é visível na estrutura do dossel medida pelo LiDAR (nenhuma
 das representações usadas aqui recebe identidade taxonômica como insumo), então parte
 da variância que M3 introduz no alvo é, para qualquer um destes modelos, ruído
 irredutível. Segundo, e mais importante para a validade do resultado central da Seção
-3.2: **a escolha da fórmula muda a ordem dos modelos**. Sob M1, a CNN 2D lidera; sob M3,
-ela cai para o penúltimo lugar (só acima da PointNet), e o Random Forest assume a
-liderança — a maior queda absoluta de toda a comparação (ΔR² = −0,241) é justamente do
-modelo antes apontado como o melhor. Isso não invalida o argumento de que arquiteturas
-parcimoniosas (ABA, Random Forest, GBR) superam a PointNet — essa conclusão sobrevive
-intacta sob as duas fórmulas —, mas enfraquece a afirmação mais específica de que a CNN
-2D é a melhor arquitetura desta comparação: esse resultado é sensível à escolha,
-metodologicamente defensável mas arbitrária entre três candidatas igualmente válidas, de
-qual fórmula alométrica usar como alvo.
+3.2: **a escolha da fórmula muda a ordem dos modelos**. Sob M1, a CNN 2D lidera; sob M3
+(na comparação disponível, pipeline combinado), ela cai para o penúltimo lugar (só acima
+da PointNet), e o Random Forest assume a liderança — a maior queda absoluta de toda a
+comparação (ΔR² ≈ −0,26) é justamente do modelo antes apontado como o melhor. Isso não
+invalida o argumento de que arquiteturas parcimoniosas (ABA, Random Forest, GBR) superam
+a PointNet — essa conclusão sobrevive intacta sob as duas fórmulas —, mas enfraquece a
+afirmação mais específica de que a CNN 2D é a melhor arquitetura desta comparação: esse
+resultado é sensível à escolha, metodologicamente defensável mas arbitrária entre três
+candidatas igualmente válidas, de qual fórmula alométrica usar como alvo. **Trabalho
+pendente**: retreinar a comparação M3 sobre a variante isolada de outliers (líder sob
+M1 para cinco dos seis modelos) para confirmar se a inversão de ordem persiste nessa
+variante também.
 
 ### 4.5 Confundidores de campanha e densidade de varredura
 
@@ -147,21 +160,21 @@ aprendendo a **identificar a campanha** (que pode estar correlacionada com a reg
 por acaso, com a biomassa típica daquela região) em vez de aprender a relação estrutura
 ↔ biomassa que se pretende generalizar.
 
-Duas análises, conduzidas sobre o ABA (variante sem outliers), testam essa hipótese.
-**R² estratificado por ano de campanha** varia bastante — de 0,11 (2017, n=49) a 0,42
-(2013, n=120), passando por um valor negativo em 2016 (n=9, amostra pequena demais para
-ser conclusiva — ver ressalva da Seção 4.3 sobre fold sizes desbalanceados). Essa
-variação é consistente com a hipótese do confundidor, mas não a confirma isoladamente:
-campanhas diferentes também cobrem florestas estruturalmente diferentes, então parte da
-variação pode ser heterogeneidade biológica real, não viés de densidade de varredura.
-Um **modelo de controle sem as duas features que capturam densidade de varredura
-diretamente** (`pt_density`, `ptdens_cv`) perde pouco desempenho (R² 0,506 → 0,464,
-ΔR² ≈ 0,04) — a maior parte do sinal do modelo completo sobrevive sem essas features, o
-que pesa contra (mas não elimina) a hipótese de que o modelo está majoritariamente
-"reconhecendo a campanha" pela densidade de pontos. As demais features (percentis de
-altura, deciles de densidade por faixa de altura `D0`–`D9`, métricas convolucionais do
-CHM) também podem carregar correlação residual com a campanha de forma mais sutil, que
-esta análise não isola.
+Duas análises, conduzidas sobre o ABA na sua variante de melhor desempenho (outliers
+isolado — Seção 3.1/3.2), testam essa hipótese. **R² estratificado por ano de campanha**
+varia bastante — de 0,12 (2014, n=107) a 0,39 (2013, n=120), passando por um valor
+negativo em 2016 (n=9, amostra pequena demais para ser conclusiva — ver ressalva da
+Seção 4.3 sobre fold sizes desbalanceados). Essa variação é consistente com a hipótese
+do confundidor, mas não a confirma isoladamente: campanhas diferentes também cobrem
+florestas estruturalmente diferentes, então parte da variação pode ser heterogeneidade
+biológica real, não viés de densidade de varredura. Um **modelo de controle sem as duas
+features que capturam densidade de varredura diretamente** (`pt_density`, `ptdens_cv`)
+perde pouco desempenho (R² 0,514 → 0,496, ΔR² ≈ 0,02) — a maior parte do sinal do modelo
+completo sobrevive sem essas features, o que pesa contra (mas não elimina) a hipótese de
+que o modelo está majoritariamente "reconhecendo a campanha" pela densidade de pontos.
+As demais features (percentis de altura, deciles de densidade por faixa de altura
+`D0`–`D9`, métricas convolucionais do CHM) também podem carregar correlação residual com
+a campanha de forma mais sutil, que esta análise não isola.
 
 ### 4.6 Qualidade do rótulo e heterogeneidade de área
 

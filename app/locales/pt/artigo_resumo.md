@@ -25,16 +25,22 @@ sobre *K* quantis, *K* ∈ {8,…,256}), um GBR e um Random Forest sobre 37 mét
 estruturais clássicas (*Area-Based Approach*), uma PointNet sobre a nuvem crua, e duas
 CNNs — 2D sobre rasters de altura e 3D sobre voxels de ocupação.
 
-**Resultados.** Remover outliers geométricos de parcela elevou o desempenho de todos os
-modelos substancialmente; sem essa correção, a CNN 3D chega a R² negativo (pior que
-prever a média). A correção do gap temporal, aplicada por cima do conjunto já sem
-outliers, teve efeito pequeno e inconsistente entre modelos — o ganho reportado vem
-quase inteiramente da remoção de outliers. Na melhor variante de cada modelo (quase sempre a sem-outliers, sem gap — ver
-Seção 3.1), a CNN 2D sobre rasters de altura obteve o melhor resultado (R² = 0,527;
-rRMSE ≈ 42,6%), seguida por Random Forest (R² = 0,524), ABA e GBR sobre quantis de
-altura (R² ≈ 0,50–0,51) e GBR sobre a distribuição completa de alturas (R² = 0,480); a
-CNN 3D sobre voxels ficou abaixo de todas essas (R² = 0,455); a PointNet sobre a nuvem
-crua foi consistentemente a mais fraca (R² ≈ 0,21). Já na ablação de dimensionalidade, **8 quantis de altura bastam
+**Resultados.** Testando cada tratamento de pré-processamento isoladamente contra a
+mesma nuvem crua — projeção do solo, filtro de altura ≤1,3 m, remoção de outliers
+geométricos de parcela, e correção de gap temporal, cada um sozinho, sem empilhar com os
+demais (Seção 3.1) — a remoção de outliers isolada se mostrou, disparado, o tratamento
+que mais importa: sozinha, já supera o pipeline com todos os tratamentos combinados em
+quatro dos sete modelos. Projeção do solo e filtro de altura, isolados, têm efeito
+pequeno; a correção de gap temporal isolada é, na maioria dos modelos, mais fraca que
+não aplicar tratamento nenhum — ela só "ajuda" quando empilhada em cima da remoção de
+outliers, cujo efeito domina. Na melhor variante de cada modelo — que para cinco deles é
+justamente a remoção de outliers isolada —, a CNN 2D sobre rasters de altura obteve o
+melhor resultado (R² = 0,547; rRMSE ≈ 41,7%), seguida por Random Forest (R² = 0,532),
+GBR sobre a distribuição completa de alturas (R² = 0,526), ABA (R² = 0,514) e GBR sobre
+quantis de altura (R² = 0,510); a CNN 3D sobre voxels (que só atinge seu melhor resultado
+com o pipeline combinado completo, não isolado) ficou abaixo de todas essas (R² = 0,455);
+a PointNet sobre a nuvem crua (idem, precisa do pipeline combinado) foi consistentemente
+a mais fraca (R² ≈ 0,21). Já na ablação de dimensionalidade, **8 quantis de altura bastam
 para superar o vetor completo de 1024 alturas** (R² = 0,43 vs. 0,39–0,42), e o ganho
 adicional até 256 quantis é marginal — evidência de que a maior parte da alta dimensão
 original era ruído alimentando sobreajuste, não sinal.

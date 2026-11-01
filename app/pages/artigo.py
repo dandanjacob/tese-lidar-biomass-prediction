@@ -59,15 +59,17 @@ with tab_resultados:
     # linha some da tabela (mesmo bug já corrigido em app/pages/models.py).
     _SUFFIXES = ("_gap_noout", "_noout_raw", "_gap_raw", "_noout", "_gap",
                 "_filteronly", "_ground", "_raw")
+    # Tabela 1 mostra só os SEIS tratamentos da ablação isolada (Seção 2.6/3.1) — não
+    # as variantes empilhadas intermediárias (full, no_outliers, gap_corrected), que
+    # ainda existem nos dados mas foram superadas pelo desenho isolado como evidência
+    # primária. Deixar as 9 variantes juntas aqui duplicaria informação e contradiria
+    # o texto da Seção 3.1, que promete seis colunas.
     _VARIANT_LABEL = {"raw": "Cru (sem processamento)", "ground_only": "Só solo",
-                       "filter_only": "Só filtro ≤1,3 m", "full": "Solo + filtro",
+                       "filter_only": "Só filtro ≤1,3 m",
                        "outliers_only": "Só outliers", "gap_only": "Só gap temporal",
-                       "no_outliers": "Solo+filtro+outliers",
-                       "gap_corrected_noout": "Tudo combinado",
-                       "gap_corrected": "Solo+filtro+gap"}
-    _VARIANT_RANK = {"raw": 0, "ground_only": 1, "filter_only": 2, "full": 3,
-                      "outliers_only": 4, "gap_only": 5, "no_outliers": 6,
-                      "gap_corrected": 7, "gap_corrected_noout": 8}
+                       "gap_corrected_noout": "Tudo combinado"}
+    _VARIANT_RANK = {"raw": 0, "ground_only": 1, "filter_only": 2,
+                      "outliers_only": 3, "gap_only": 4, "gap_corrected_noout": 5}
 
     def _base(key):
         for suf in _SUFFIXES:
@@ -80,11 +82,13 @@ with tab_resultados:
         b = _base(m.get("key", ""))
         if b not in _NAMES:
             continue
+        if m.get("variant") not in _VARIANT_LABEL:
+            continue
         g = m.get("cv_global", {})
         if g.get("r2") is None:
             continue
         rows.append({
-            "Modelo": _NAMES[b], "Variante": _VARIANT_LABEL.get(m.get("variant"), m.get("variant")),
+            "Modelo": _NAMES[b], "Variante": _VARIANT_LABEL[m.get("variant")],
             "_rank": _VARIANT_RANK.get(m.get("variant"), 9),
             "n": m.get("n_plots"), "RMSE": g.get("rmse"), "R²": g.get("r2"),
             "rRMSE": g.get("rrmse_pct"),
@@ -105,14 +109,15 @@ with tab_resultados:
 
     st.markdown(with_acronyms(md("artigo_resultados_2")), unsafe_allow_html=True)
 
-    # Figura 2 — predito x observado do melhor modelo (raster, gap+noout).
-    oof = data.load_model_oof("cv_results_raster_gap_noout.csv")
+    # Figura 2 — predito x observado do melhor modelo (raster, outliers isolado — a
+    # variante líder identificada na Seção 3.1/3.2, não o pipeline combinado).
+    oof = data.load_model_oof("cv_results_raster_noout_raw.csv")
     if oof and oof.get("y_true"):
         odf = pd.DataFrame({"obs": oof["y_true"], "pred": oof["y_pred"]})
         mx = max(odf["obs"].max(), odf["pred"].max()) * 1.05
         fig2 = px.scatter(odf, x="obs", y="pred", opacity=0.6,
                            labels={"obs": "AGB observada (Mg/ha)", "pred": "AGB prevista (Mg/ha)"},
-                           title="Predito × observado — CNN 2D (raster), gap + sem outliers")
+                           title="Predito × observado — CNN 2D (raster), só outliers (isolado)")
         fig2.add_shape(type="line", x0=0, y0=0, x1=mx, y1=mx,
                         line=dict(dash="dash", color="gray", width=1))
         fig2.update_traces(marker_color=C_CANOPY)
@@ -161,8 +166,9 @@ with tab_resultados:
 
     st.markdown(with_acronyms(md("artigo_resultados_3")), unsafe_allow_html=True)
 
-    # Figura 4 — importância de variáveis, modelo ABA (gap+noout).
-    _aba = next((m for m in data.load_models() if m.get("key") == "aba_gap_noout"), None)
+    # Figura 4 — importância de variáveis, modelo ABA na sua variante líder (outliers
+    # isolado — Seção 3.1/3.2), não o pipeline combinado.
+    _aba = next((m for m in data.load_models() if m.get("key") == "aba_noout_raw"), None)
     if _aba:
         fi = _aba.get("feature_importance") or []
         if fi:
@@ -175,10 +181,11 @@ with tab_resultados:
             fig4.update_layout(height=380, margin=dict(l=0, r=10, t=50, b=10))
             st.plotly_chart(fig4, use_container_width=True)
             st.caption(
-                "**Figura 4** — Percentis de altura do dossel (p05, p75, p50, p10, "
-                "p25) concentram a maior parte da importância; `vfd_entropy` "
-                "(entropia da densidade vertical) e `lap_roughness` (rugosidade "
-                "convolucional do CHM) carregam sinal estrutural complementar."
+                "**Figura 4** — `vfd_entropy` (entropia da densidade vertical) "
+                "domina a importância; só o percentil `p75` mantém destaque entre "
+                "as alturas, com `pt_density`, `lap_roughness` (rugosidade "
+                "convolucional do CHM), `h_std` e `gap_fraction` carregando sinal "
+                "estrutural complementar."
             )
 
     st.markdown(with_acronyms(md("artigo_resultados_4")), unsafe_allow_html=True)
