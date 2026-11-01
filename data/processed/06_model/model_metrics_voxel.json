@@ -4,7 +4,7 @@
   "model": "CNN 3D (voxels de ocupação)",
   "library": "PyTorch",
   "variant": "full",
-  "trained_at": "2026-11-01 14:07 UTC",
+  "trained_at": "2026-11-01 16:36 UTC",
   "target": "agb_m1_Mg_ha",
   "n_plots": 493,
   "n_sites": 23,
@@ -29,7 +29,11 @@
   "cv_global": {
     "rmse": 157.77,
     "r2": 0.0787,
-    "rrmse_pct": 81.98
+    "rrmse_pct": 81.98,
+    "bias": -42.21,
+    "mae": 86.18,
+    "slope": 0.2624,
+    "intercept": 99.75
   },
   "cv_fold_mean": {
     "rmse": 153.76,

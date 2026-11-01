@@ -4,7 +4,7 @@
   "model": "CNN 2D (rasters de altura)",
   "library": "PyTorch",
   "variant": "raw",
-  "trained_at": "2026-11-01 14:01 UTC",
+  "trained_at": "2026-11-01 15:43 UTC",
   "target": "agb_m1_Mg_ha",
   "n_plots": 493,
   "n_sites": 23,
@@ -28,7 +28,11 @@
   "cv_global": {
     "rmse": 142.11,
     "r2": 0.2525,
-    "rrmse_pct": 73.84
+    "rrmse_pct": 73.84,
+    "bias": -11.03,
+    "mae": 79.34,
+    "slope": 0.3104,
+    "intercept": 121.7
   },
   "cv_fold_mean": {
     "rmse": 139.08,
