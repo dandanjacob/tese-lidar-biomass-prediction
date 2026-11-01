@@ -1,7 +1,6 @@
 """Visualizador 3D de nuvem de pontos LiDAR + biomassa da parcela."""
 
 import re
-import sys
 from pathlib import Path
 
 import laspy
@@ -12,13 +11,6 @@ import streamlit as st
 from lib import data
 from lib.i18n import md, t, with_acronyms
 from lib.theme import C_BLUE, C_LIGHT, C_RED
-
-# Reaproveita o modelo de solo (TIN sobre pontos classe LAS 2) do pipeline de treino,
-# em vez de duplicar a interpolação aqui — ver train_model.ground_interpolator.
-_SRC = data.ROOT / "src"
-if str(_SRC) not in sys.path:
-    sys.path.insert(0, str(_SRC))
-from train_model import ground_interpolator
 
 
 def _natural_key(s):
@@ -71,21 +63,13 @@ if not laz_path.exists():
 with st.spinner(t("pointcloud.loading")):
     las = laspy.read(laz_path)
     n_total = len(las.x)
+    idx = np.random.choice(n_total, min(max_pts, n_total), replace=False)
     # centraliza X/Y pela média da nuvem INTEIRA (não da amostra), para a posição das
     # árvores do inventário (mesmo referencial UTM) cair no lugar certo no gráfico.
     cx, cy = float(np.mean(las.x)), float(np.mean(las.y))
-    # Cópias NÃO amostradas (x/y em float64 — a precisão de laspy.x/y já é essa, mas o
-    # TIN de solo precisa dela explícita) — usadas só pra construir o modelo de solo,
-    # que deve enxergar toda a nuvem, não a fração exibida (senão o resultado mudaria
-    # conforme o usuário mexe no slider "Máximo de pontos exibidos").
-    full_x = np.array(las.x, dtype=np.float64)
-    full_y = np.array(las.y, dtype=np.float64)
-    full_z = np.array(las.z, dtype=np.float32)
-    full_cls = np.array(las.classification, dtype=np.uint8)
-    idx = np.random.choice(n_total, min(max_pts, n_total), replace=False)
-    x = full_x[idx] - cx
-    y = full_y[idx] - cy
-    z = full_z[idx]
+    x = np.array(las.x)[idx] - cx
+    y = np.array(las.y)[idx] - cy
+    z = np.array(las.z)[idx]
 
 st.info(t("pointcloud.info_points", total=n_total, shown=len(idx), pct=100 * len(idx) // n_total))
 
@@ -125,23 +109,13 @@ if show_trees and not trees.empty:
     ty = trees["utm_northing"].to_numpy() - cy
     h_all = trees[height_col].to_numpy()
     sp_all = (trees["species"].to_numpy() if "species" in trees else np.array([""] * len(tx)))
-    # Solo sob cada árvore: DTM interpolado (TIN) dos pontos classificados como solo
-    # (classe LAS 2) em TODA a nuvem — mesmo modelo usado pelo treino dos modelos
-    # (train_model.ground_interpolator). Em dossel fechado o pulso LiDAR às vezes não
-    # tem retorno de chão embaixo de uma árvore específica (oclusão); o TIN empresta a
-    # elevação de pontos de solo vizinhos onde o dossel era mais aberto, em vez de
-    # exigir um acerto direto ali — evita a árvore "flutuar" a partir de um retorno de
-    # meio-dossel. Cai no mínimo-local (raio de 2 m na amostra exibida, depois o
-    # mínimo global) só se a parcela não tiver pontos de solo suficientes.
+    # solo local de cada árvore: menor z dos pontos amostrados num raio de 2 m
+    # (fallback: menor z da nuvem). A linha vai do solo até a altura da árvore.
     zmin = float(z.min())
-    ground_interp = ground_interpolator(full_x, full_y, full_z, full_cls)
-    if ground_interp is not None:
-        ground = ground_interp(tx + cx, ty + cy)
-    else:
-        ground = np.array([
-            z[(np.abs(x - ax) < 2) & (np.abs(y - ay) < 2)].min()
-            if ((np.abs(x - ax) < 2) & (np.abs(y - ay) < 2)).any() else zmin
-            for ax, ay in zip(tx, ty)])
+    ground = np.array([
+        z[(np.abs(x - ax) < 2) & (np.abs(y - ay) < 2)].min()
+        if ((np.abs(x - ax) < 2) & (np.abs(y - ay) < 2)).any() else zmin
+        for ax, ay in zip(tx, ty)])
 
     def _sp(s):
         return f" · {s}" if isinstance(s, str) and s not in ("", "nan", "NA", "None") else ""

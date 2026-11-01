@@ -93,19 +93,15 @@ def drop_xy_outliers(x: np.ndarray, y: np.ndarray, z: np.ndarray,
     return x[keep], y[keep], z[keep]
 
 
-def ground_interpolator(x: np.ndarray, y: np.ndarray, z: np.ndarray,
-                        classification: np.ndarray, min_ground: int = MIN_GROUND_PTS):
-    """DTM de solo por triangulação (TIN linear) sobre os pontos classificados como
-    SOLO (classe LAS 2); fora do casco convexo usa o vizinho mais próximo. Devolve uma
-    função `f(qx, qy) -> elevação do solo`, avaliável em QUALQUER posição — não só nos
-    pontos de entrada —, usada tanto para altura-acima-do-solo no treino
-    (`ground_from_classification` abaixo) quanto para estimar o chão sob uma árvore do
-    inventário na visualização (app/pages/pointcloud.py). Em dossel fechado o pulso
-    LiDAR às vezes não tem retorno de chão bem embaixo de uma árvore específica
-    (oclusão) — o TIN empresta a elevação de pontos de solo vizinhos onde o dossel era
-    mais aberto, em vez de exigir um acerto direto no mesmo local. Retorna None quando
-    há poucos pontos de solo (dossel fechado, nenhum retorno) — aí o chamador usa um
-    fallback mais grosseiro (mínimo-local)."""
+def ground_from_classification(x: np.ndarray, y: np.ndarray, z: np.ndarray,
+                               classification: np.ndarray,
+                               min_ground: int = MIN_GROUND_PTS):
+    """Altura acima do solo via DTM interpolado dos pontos de SOLO (classe LAS 2).
+
+    Constrói uma superfície de solo por triangulação (TIN linear) sobre os pontos
+    classificados como solo e a avalia em cada (x, y); fora do casco convexo usa o
+    vizinho mais próximo. Devolve `z - solo` ou None quando há poucos pontos de solo
+    (ex.: dossel fechado sem retorno de chão) — aí o chamador usa o mínimo-local."""
     g = classification == 2
     if int(g.sum()) < min_ground:
         return None
@@ -114,31 +110,14 @@ def ground_interpolator(x: np.ndarray, y: np.ndarray, z: np.ndarray,
     pts = np.column_stack([gx, gy])
     try:
         lin = LinearNDInterpolator(pts, gz)
+        ground = lin(x, y)
     except Exception:
         return None
-    near = NearestNDInterpolator(pts, gz)
-
-    def _query(qx, qy):
-        qx = np.asarray(qx, dtype=np.float64)
-        qy = np.asarray(qy, dtype=np.float64)
-        out = np.asarray(lin(qx, qy), dtype=np.float64)
-        nan = np.isnan(out)
-        if nan.any():
-            out[nan] = near(qx[nan], qy[nan])
-        return out
-
-    return _query
-
-
-def ground_from_classification(x: np.ndarray, y: np.ndarray, z: np.ndarray,
-                               classification: np.ndarray,
-                               min_ground: int = MIN_GROUND_PTS):
-    """Altura acima do solo via DTM interpolado dos pontos de SOLO — ver
-    `ground_interpolator`. Devolve `z - solo` ou None (poucos pontos de solo)."""
-    interp = ground_interpolator(x, y, z, classification, min_ground)
-    if interp is None:
-        return None
-    return (z - interp(x, y)).astype(np.float32)
+    nan = np.isnan(ground)
+    if nan.any():
+        near = NearestNDInterpolator(pts, gz)
+        ground[nan] = near(x[nan], y[nan])
+    return (z - ground).astype(np.float32)
 
 
 def height_above_ground(x: np.ndarray, y: np.ndarray, z: np.ndarray,
