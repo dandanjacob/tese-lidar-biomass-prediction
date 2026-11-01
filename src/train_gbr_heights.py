@@ -22,8 +22,8 @@ from train_model import (
     LAZ_DIR, SUMMARY, OUT_DIR, Y_FWD, Y_INV,
     xy_inlier_mask, height_above_ground, evaluate_cv,
 )
-from outlier_filter import filter_summary, SUFFIX, VARIANT
-from train_eval import save_oof, save_lc, learning_curve
+from outlier_filter import filter_summary, SUFFIX, VARIANT, TARGET
+from train_eval import save_oof, save_lc, learning_curve, extra_metrics
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import root_mean_squared_error, r2_score
 
@@ -65,7 +65,7 @@ def load_canopy_quantiles(laz_path, k):
 def build_dataset():
     """X (K quantis + log densidade), y, sites, labels."""
     df = filter_summary(pd.read_csv(SUMMARY))
-    df = df[df["agb_m1_Mg_ha"].notna()].copy()
+    df = df[df[TARGET].notna()].copy()
 
     X_rows, y_rows, groups, labels = [], [], [], []
     for _, row in df.iterrows():
@@ -81,7 +81,7 @@ def build_dataset():
         qs, total_pts = result
         feat = np.append(qs, np.log1p(total_pts).astype(np.float32))
         X_rows.append(feat)
-        y_rows.append(row["agb_m1_Mg_ha"])
+        y_rows.append(row[TARGET])
         groups.append(site)
         labels.append(f"{site}|{pid}")
 
@@ -126,7 +126,7 @@ def main():
         "library": "scikit-learn",
         "variant": VARIANT,
         "trained_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "target": "agb_m1_Mg_ha",
+        "target": TARGET,
         "cv_file": f"cv_results_{tag}.csv",
         "approach_key": "gbrh_approach",
         "n_plots": int(X.shape[0]),

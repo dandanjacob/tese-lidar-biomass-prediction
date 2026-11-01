@@ -21,12 +21,50 @@ de alta biomassa e permite calibrar relações alométricas (métricas LiDAR ↔
 que, em princípio, podem ser estendidas no espaço e no tempo — reduzindo a dependência de
 inventários de campo, caros e logisticamente inviáveis na escala da bacia amazônica.
 
-### 1.2 O problema em aberto
+### 1.2 Trabalhos relacionados e o problema em aberto
 
-A literatura de estimativa de AGB por LiDAR aerotransportado é madura (Asner & Mascaro,
-2014; d'Oliveira et al., 2012; Longo et al., 2016; Bispo et al., 2020) e, mais
-recentemente, passou a incorporar aprendizado profundo diretamente sobre a nuvem de
-pontos bruta (Oehmcke et al., 2024). Um ponto, porém, permanece pouco caracterizado
+A biomassa de referência desta tese é calculada pelas mesmas equações alométricas que
+sustentam boa parte da literatura de carbono florestal tropical: Chave et al. (2014)
+para árvores vivas, Chambers et al. (2000) para árvores mortas em pé e Goodman et al.
+(2013) para palmeiras — a mesma base alométrica usada, por exemplo, por Longo et al.
+(2016) na Amazônia.
+
+A literatura de estimativa de AGB por LiDAR aerotransportado em floresta tropical é
+madura e compartilha um padrão metodológico que vale destacar frente a este trabalho:
+Asner & Mascaro (2014) — 804 parcelas de 1 ha em quatro países tropicais, R² = 0,90
+usando altura de topo de dossel (TCH) combinada a área basal e densidade de madeira —
+validam por **sítio**, não por parcela embaralhada aleatoriamente. Longo et al. (2016),
+na Amazônia brasileira (359 parcelas, intacta e degradada), reporta R² ≈ 0,70 por
+regressão sobre métricas LiDAR agregadas — mais próximo em escopo e escala deste
+trabalho, mas também sem validação k-fold aleatória explícita. Bispo et al. (2020) —
+atribuída ao Cerrado, não à Amazônia, após a correção de erro desta auditoria (Seção
+4.7) — reporta RMSE = 67,6 Mg/ha, rRMSE = 36,0%, R² = 0,58 usando só métricas LiDAR,
+números na mesma ordem de grandeza dos obtidos aqui (RMSE ≈ 73–79 Mg/ha, rRMSE ≈
+43–46%, variante sem outliers), apesar do bioma diferente. d'Oliveira et al. (2012), em
+floresta manejada no Acre, reporta R² = 0,63–0,72 em escala de **talhão** (1.000 ha) —
+suporte espacial muito maior que a parcela individual usada aqui, o que limita a
+comparabilidade direta apesar da mesma região amazônica.
+
+Mais recentemente, a literatura passou a incorporar aprendizado profundo diretamente
+sobre a nuvem de pontos bruta: Oehmcke et al. (2024), em floresta temperada
+dinamarquesa, encontra uma CNN de Minkowski superando PointNet, KPConv e uma abordagem
+*area-based* clássica — o oposto do padrão encontrado neste trabalho (Seção 3.2), em
+que a abordagem parcimoniosa vence a PointNet por uma margem grande. A leitura mais
+provável não é uma contradição entre os dois resultados, mas um efeito de **regime de
+amostra**: florestas temperadas manejadas tendem a ter conjuntos de treino bem maiores
+e menos heterogêneos estruturalmente que os 325 pares LiDAR-inventário amazônicos
+disponíveis aqui, o que é consistente com a hipótese central da Seção 1.3 — capacidade
+representacional alta exige volume de dado proporcional para não sobreajustar.
+
+Os produtos orbitais da NASA (GEDI L4A/L4B) operam em escala e sensor distintos — LiDAR
+espacial *footprint* (~25 m) ou grade de 1 km, não nuvem aérea densa por parcela — e
+servem aqui como baliza de ordem de grandeza, não como comparação direta: a validação
+independente do GEDI L4A contra LiDAR aéreo em savana africana (Li et al., 2024) reporta
+R² ≈ 0,42, abaixo de todos os modelos desta tese na variante sem outliers, mas sobre um
+problema de estimação substancialmente mais difícil (resolução espacial muito menor,
+amostra espacialmente esparsa).
+
+Um ponto, porém, permanece pouco caracterizado
 empiricamente para o contexto amazônico: **a relação entre a complexidade
 representacional de um modelo e sua capacidade de generalizar quando o número de
 parcelas rotuladas é pequeno** (nesta tese, no máximo 493 parcelas, 325 após controle de
@@ -52,14 +90,37 @@ alta dimensionalidade e poucas amostras, é que representações de alta capacid
 sobreajuste que representações parcimoniosas (estatísticas agregadas de altura),
 independentemente da riqueza estrutural que a geometria bruta, em princípio, carrega.
 
+Essa pergunta se desdobra em quatro objetivos específicos, cada um respondido numa
+subseção dedicada dos Resultados (Seção 3):
+
+1. Isolar o efeito do controle de qualidade geométrica das parcelas e da correção do
+   gap temporal entre voo LiDAR e medição de campo sobre o desempenho dos modelos,
+   separando os dois efeitos em vez de tratá-los como uma correção única (**§3.1**).
+2. Comparar, sob o mesmo protocolo de validação, seis abordagens de modelagem que vão
+   de estatísticas agregadas interpretáveis (ABA, Random Forest) a aprendizado profundo
+   sobre a geometria bruta (PointNet, CNN 2D, CNN 3D), identificando qual representação
+   generaliza melhor neste regime de amostra pequena (**§3.2**).
+3. Medir como o desempenho do GBR varia com a dimensionalidade da representação de
+   altura do dossel (de 8 a 1024 atributos), para testar se mais informação bruta
+   realmente se traduz em mais sinal preditivo ou se é absorvida como ruído de
+   sobreajuste (**§3.3**).
+4. Identificar, através do único modelo desta comparação com importância de variável
+   interpretável (ABA), quais propriedades estruturais do dossel mais sustentam a
+   previsão de AGB (**§3.4**).
+
 ### 1.4 Escopo e o que este artigo não responde
 
 Por rigor, delimita-se explicitamente o que **não** está dentro do escopo do resultado
 central: a validação aqui é k-fold aleatório, não *leave-one-site-out* — portanto mede
 ajuste dentro da amostra de sítios já vistos no treino, não generalização espacial para
-floresta amazônica não amostrada. Também não há, nesta versão, quantificação formal de
-incerteza por predição, nem análise de sensibilidade da escolha da fórmula alométrica de
-referência (M1, entre três candidatas). Essas lacunas são discutidas com profundidade na
+floresta amazônica não amostrada. Há, agora, um intervalo de predição por parcela
+(conformal prediction sobre resíduos out-of-fold, Seção 4.3) — mas ele cobre só a
+incerteza do modelo estrutura→AGB, não o erro alométrico da fórmula de referência nem a
+incerteza de medição de campo propagados até o alvo de treino. Uma análise de
+sensibilidade (Seção 4.4) mostra, além disso, que o próprio resultado "CNN 2D é a melhor
+arquitetura" não é robusto à escolha da fórmula alométrica de referência — sob densidade
+de madeira específica por espécie (M3) em vez de uniforme (M1), o Random Forest assume a
+liderança. Essas lacunas são discutidas com profundidade na
 Seção 4 e não são triviais: são precisamente o que separa "a estrutura do dossel explica
 biomassa nesta amostra" de "este pipeline está pronto para mapear a Amazônia" — a segunda
 afirmação é mais forte do que os dados aqui sustentam.

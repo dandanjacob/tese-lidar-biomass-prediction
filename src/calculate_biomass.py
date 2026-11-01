@@ -33,6 +33,7 @@ import pandas as pd
 from shapely.geometry import Point
 
 from plot_loading import assign_plot_ids, drop_duplicate_geometries
+from inventory_utils import fill_nearest_year, resolve_utm_zone, utm_proj_from_zone
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -51,8 +52,10 @@ RHO_W_MEAN = 0.6   # mean tropical wood density g/cm³ (fallback)
 RHO_S      = 0.40  # snag density g/cm³ (Palace et al. 2007)
 EQUAL_AREA = "+proj=aea +lat_1=-5 +lat_2=-42 +lat_0=-32 +lon_0=-60 +datum=WGS84 +units=m +no_defs"
 
-# Correção do gap temporal: incremento de DBH default quando a árvore não tem
-# remedição (espelha prepare_inventory.DEFAULT_INCREMENT_CM_YR).
+# Fallback de ÚLTIMO recurso: só usado se a coluna dbh_incr_cm_yr vier ausente do
+# 04_inventory (CSV de formato antigo, anterior à estratificação por tamanho de
+# prepare_inventory.tree_dbh_increment — ver DBH_SIZE_INCREMENT_CM_YR lá). Em
+# qualquer execução atual do pipeline essa coluna sempre existe.
 DEFAULT_INCREMENT_CM_YR = 0.18
 MAX_INCREMENT_CM_YR     = 5.0
 # Feldpausch 2012 E.C. Amazonia (mesma curva H-D de prepare_inventory), usada só
@@ -107,51 +110,71 @@ def iagc_goodman2013(dbh):
 
 # ── Per-tree biomass calculation ───────────────────────────────────────────────
 
-def pick_best_year_col(cols, prefix, lidar_year):
-    suffixed = [c for c in cols if re.match(rf"^{prefix}_\d{{4}}$", c)]
-    if not suffixed:
-        return prefix if prefix in cols else None
-    return min(suffixed, key=lambda c: abs(int(c.split("_")[-1]) - lidar_year))
-
-
 def prepare_tree_data(df: pd.DataFrame, lidar_year: int, gap: float = np.nan) -> pd.DataFrame:
-    """Selects best-year DBH / htot and resolves dead / type columns.
+    """Selects best-available-year DBH / htot per TREE, and resolves dead / type.
+
+    DBH e altura medida usam `fill_nearest_year`: para cada árvore, pega o ano mais
+    próximo do voo LiDAR em que ELA TEM dado — não a mesma coluna de ano pro site
+    inteiro. A escolha antiga (uma coluna só) deixava 14,8% das árvores do pipeline
+    sem biomassa computável mesmo tendo DBH medido em outro censo (99,8% delas eram
+    recuperáveis assim). Quando nenhum ano tem altura medida, cai para
+    `htot_estimated` (medida > ajuste H-D local do site > Feldpausch regional, já
+    resolvido por prepare_inventory.py) em vez de usar `htot_feldpausch` cru.
 
     Também adiciona a versão corrigida pelo gap temporal (dbh_used_gap / htot_used_gap):
     cresce o DBH pelo incremento anual (coluna dbh_incr_cm_yr vinda de prepare_inventory,
-    senão o default) ao longo do gap e re-escala a altura pela curva Feldpausch. NÃO
-    substitui dbh_used/htot_used — são colunas novas para a biomassa corrigida."""
-    cols = df.columns.tolist()
+    já estratificada por classe de tamanho) ao longo do gap e re-escala a altura pela
+    curva Feldpausch. NÃO substitui dbh_used/htot_used — são colunas novas para a
+    biomassa corrigida.
 
-    dbh_col  = pick_best_year_col(cols, "dbh",  lidar_year)
-    htot_col = pick_best_year_col(cols, "htot", lidar_year)
-    dead_col = pick_best_year_col(cols, "dead", lidar_year)
-    type_col = pick_best_year_col(cols, "type", lidar_year)
-
+    O gap usado pra crescer cada árvore é `lidar_year - <ano da coluna em dbh_src>`,
+    não o `gap` de site recebido por parâmetro: como dbh_used já vem do ano mais
+    próximo DISPONÍVEL PRA AQUELA ÁRVORE (fill_nearest_year), pode ser um ano
+    diferente do par site-level usado para calcular `gap` — aplicar o gap do site
+    nesse caso cresceria a árvore por um número de anos que não corresponde ao dado
+    que ela realmente tem. Só cai pro `gap` de site quando dbh_src não traz ano
+    (coluna "bare", sem sufixo _AAAA) — aí não há como saber o ano real."""
     out = df.copy()
-    out["dbh_used"]  = pd.to_numeric(df[dbh_col],  errors="coerce") if dbh_col  else np.nan
-    out["dead_used"] = df[dead_col].map(lambda v: str(v).strip().lower() in
-                       ("true","1","yes","a","dead","mort")) if dead_col else False
-    out["type_used"] = df[type_col].astype(str).str.strip().str.upper() if type_col else "O"
 
-    # Height: prefer measured, fallback to Feldpausch estimate
-    h_meas = pd.to_numeric(df[htot_col], errors="coerce") if htot_col else pd.Series(np.nan, index=df.index)
-    h_feld = pd.to_numeric(df.get("htot_feldpausch", pd.Series(np.nan, index=df.index)), errors="coerce")
-    out["htot_used"]   = h_meas.where(h_meas > 0, h_feld)
-    out["htot_source"] = np.where(h_meas > 0, "measured", "feldpausch")
+    out["dbh_used"], dbh_src = fill_nearest_year(df, "dbh", lidar_year, positive=True)
+    out["dbh_used_year_col"] = dbh_src
+
+    year_match = dbh_src.astype(str).str.fullmatch(r"dbh_\d{4}")
+    dbh_year = pd.to_numeric(
+        dbh_src.where(year_match).astype(str).str.slice(-4), errors="coerce")
+    tree_gap = (lidar_year - dbh_year if pd.notna(lidar_year)
+                else pd.Series(np.nan, index=df.index))
+    tree_gap = tree_gap.where(dbh_year.notna(), gap)  # sem ano na origem: usa o gap do site
+    out["dbh_used_gap_anos"] = tree_gap
+
+    dead_vals, _ = fill_nearest_year(df, "dead", lidar_year, positive=False)
+    out["dead_used"] = dead_vals.map(lambda v: str(v).strip().lower() in
+                       ("true", "1", "yes", "a", "dead", "mort"))
+    type_vals, _ = fill_nearest_year(df, "type", lidar_year, positive=False)
+    out["type_used"] = type_vals.fillna("O").astype(str).str.strip().str.upper()
+    out.loc[out["type_used"] == "", "type_used"] = "O"
+
+    # Height: prefer measured (ano mais próximo, por árvore), senão a melhor
+    # estimativa já resolvida por prepare_inventory (medida doutro ano > ajuste
+    # local do site > Feldpausch regional) — nunca o Feldpausch cru direto.
+    h_meas, h_meas_src = fill_nearest_year(df, "htot", lidar_year, positive=True)
+    h_est = pd.to_numeric(df.get("htot_estimated", pd.Series(np.nan, index=df.index)),
+                          errors="coerce")
+    out["htot_used"]   = h_meas.where(h_meas.notna(), h_est)
+    out["htot_source"] = np.where(
+        h_meas.notna(), h_meas_src.astype(str),
+        df.get("htot_estimation_method", pd.Series("feldpausch_regional", index=df.index)))
 
     # ── Versão corrigida pelo gap temporal ────────────────────────────────────
     incr = (pd.to_numeric(df.get("dbh_incr_cm_yr"), errors="coerce")
             if "dbh_incr_cm_yr" in df.columns else pd.Series(np.nan, index=df.index))
     incr = incr.fillna(DEFAULT_INCREMENT_CM_YR).clip(lower=0.0, upper=MAX_INCREMENT_CM_YR)
     dbh_base = out["dbh_used"]
-    if np.isnan(gap) or gap == 0:
-        out["dbh_used_gap"]  = dbh_base
-        out["htot_used_gap"] = out["htot_used"]
-    else:
-        dbh_g = (dbh_base + incr * gap).clip(lower=1.0)
-        out["dbh_used_gap"]  = dbh_g
-        out["htot_used_gap"] = out["htot_used"] * (_feld_height(dbh_g) / _feld_height(dbh_base))
+    no_gap = tree_gap.isna() | (tree_gap == 0)
+    dbh_g = (dbh_base + incr * tree_gap.fillna(0.0)).clip(lower=1.0).where(~no_gap, dbh_base)
+    out["dbh_used_gap"]  = dbh_g
+    out["htot_used_gap"] = out["htot_used"].where(
+        no_gap, out["htot_used"] * (_feld_height(dbh_g) / _feld_height(dbh_base)))
 
     return out
 
@@ -241,7 +264,16 @@ def plot_areas(site_key: str) -> dict:
 
 # ── Atribuição de árvores às quadras (split espacial) ───────────────────────────
 
-def _utm_proj(lon: float, lat: float) -> str:
+def _utm_proj(lon: float, lat: float, site_key: str | None = None) -> str:
+    """Zona UTM: prefere a zona REAL das tiles LiDAR pareadas a `site_key` (evita o
+    erro de ~667 km que a fórmula de longitude dá perto de fronteira de zona, ex.:
+    DUC_A01 — ver inventory_utils.resolve_utm_zone); cai na fórmula só sem site_key
+    ou sem tile pareada ainda."""
+    if site_key is not None:
+        try:
+            return utm_proj_from_zone(resolve_utm_zone(site_key, fallback_lon=lon, fallback_lat=lat))
+        except Exception:
+            pass
     zone = int((lon + 180) // 6) + 1
     south = "+south" if lat < 0 else ""
     return (f"+proj=utm +zone={zone} {south} +ellps=GRS80 "
@@ -268,7 +300,7 @@ def quadra_geoms(site_key: str):
     g["name"] = g["Name"].astype(str).str.strip()
     g["quadra"] = assign_plot_ids(g["Name"])
     c = g.geometry.union_all().centroid
-    return g.to_crs(_utm_proj(c.x, c.y))[["name", "quadra", "geometry"]]
+    return g.to_crs(_utm_proj(c.x, c.y, site_key))[["name", "quadra", "geometry"]]
 
 
 def assign_quadras(df: pd.DataFrame, quadras: gpd.GeoDataFrame) -> pd.Series:

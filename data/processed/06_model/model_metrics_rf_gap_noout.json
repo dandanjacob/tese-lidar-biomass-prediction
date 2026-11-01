@@ -4,15 +4,15 @@
   "model": "RandomForestRegressor",
   "library": "scikit-learn",
   "variant": "gap_corrected_noout",
-  "trained_at": "2026-06-18 02:17 UTC",
+  "trained_at": "2026-11-01 14:50 UTC",
   "target": "agb_m1_Mg_ha_gap",
   "cv_file": "cv_results_rf_gap_noout.csv",
   "approach_key": "model_approach_rf",
   "n_plots": 325,
   "n_sites": 18,
   "n_features": 37,
-  "agb_mean": 156.6,
-  "agb_std": 101.5,
+  "agb_mean": 168.8,
+  "agb_std": 103.0,
   "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
   "hyperparameters": {
     "n_estimators": 500,
@@ -71,161 +71,165 @@
   "feature_importance": [
     {
       "feature": "p75",
-      "importance": 0.1524
+      "importance": 0.2017
     },
     {
       "feature": "p50",
-      "importance": 0.101
-    },
-    {
-      "feature": "p05",
-      "importance": 0.0929
+      "importance": 0.1393
     },
     {
       "feature": "p10",
-      "importance": 0.0871
-    },
-    {
-      "feature": "vfd_entropy",
-      "importance": 0.0831
+      "importance": 0.0986
     },
     {
       "feature": "p25",
-      "importance": 0.063
+      "importance": 0.0826
     },
     {
-      "feature": "lap_roughness",
-      "importance": 0.0537
+      "feature": "p05",
+      "importance": 0.0646
     },
     {
       "feature": "h_mean",
-      "importance": 0.0405
+      "importance": 0.0625
+    },
+    {
+      "feature": "vfd_entropy",
+      "importance": 0.0439
     },
     {
       "feature": "pt_density",
-      "importance": 0.0336
+      "importance": 0.0341
     },
     {
       "feature": "crr",
-      "importance": 0.0216
-    },
-    {
-      "feature": "gap_fraction",
-      "importance": 0.0195
+      "importance": 0.0197
     },
     {
       "feature": "canopy_cover_grid",
-      "importance": 0.0187
+      "importance": 0.0195
     },
     {
-      "feature": "D9",
-      "importance": 0.0181
+      "feature": "lap_roughness",
+      "importance": 0.0183
     },
     {
       "feature": "p90",
-      "importance": 0.0155
+      "importance": 0.0156
+    },
+    {
+      "feature": "D9",
+      "importance": 0.015
     },
     {
       "feature": "cover_2m",
-      "importance": 0.0136
+      "importance": 0.0148
     },
     {
-      "feature": "D5",
-      "importance": 0.0128
-    },
-    {
-      "feature": "p95",
-      "importance": 0.0116
+      "feature": "gap_fraction",
+      "importance": 0.0143
     },
     {
       "feature": "chm_mean",
-      "importance": 0.0115
+      "importance": 0.0134
     },
     {
-      "feature": "ptdens_cv",
-      "importance": 0.0114
-    },
-    {
-      "feature": "D8",
-      "importance": 0.0113
-    },
-    {
-      "feature": "D0",
-      "importance": 0.0109
-    },
-    {
-      "feature": "D4",
-      "importance": 0.0108
+      "feature": "p95",
+      "importance": 0.0118
     },
     {
       "feature": "D3",
-      "importance": 0.0107
+      "importance": 0.0097
+    },
+    {
+      "feature": "D4",
+      "importance": 0.0095
+    },
+    {
+      "feature": "ptdens_cv",
+      "importance": 0.0093
     },
     {
       "feature": "chm_sd",
-      "importance": 0.0094
-    },
-    {
-      "feature": "D1",
       "importance": 0.0092
     },
     {
-      "feature": "h_kurt",
-      "importance": 0.0086
-    },
-    {
-      "feature": "D7",
-      "importance": 0.0081
+      "feature": "D5",
+      "importance": 0.0087
     },
     {
       "feature": "h_skew",
       "importance": 0.008
     },
     {
-      "feature": "h_std",
+      "feature": "D1",
       "importance": 0.0078
     },
     {
+      "feature": "h_std",
+      "importance": 0.0073
+    },
+    {
+      "feature": "h_kurt",
+      "importance": 0.0063
+    },
+    {
       "feature": "D2",
-      "importance": 0.0067
+      "importance": 0.0063
     },
     {
-      "feature": "D6",
+      "feature": "D7",
       "importance": 0.0062
     },
     {
-      "feature": "pz_above_mean",
-      "importance": 0.0062
-    },
-    {
-      "feature": "h_cv",
+      "feature": "D0",
       "importance": 0.0058
     },
     {
+      "feature": "D8",
+      "importance": 0.0057
+    },
+    {
+      "feature": "pz_above_mean",
+      "importance": 0.0054
+    },
+    {
+      "feature": "D6",
+      "importance": 0.0054
+    },
+    {
       "feature": "chm_range",
-      "importance": 0.0056
+      "importance": 0.0044
     },
     {
       "feature": "p99",
-      "importance": 0.0051
+      "importance": 0.0041
     },
     {
-      "feature": "chm_max",
-      "importance": 0.0042
+      "feature": "h_cv",
+      "importance": 0.004
     },
     {
       "feature": "h_max",
-      "importance": 0.0038
+      "importance": 0.0034
+    },
+    {
+      "feature": "chm_max",
+      "importance": 0.0033
     }
   ],
   "cv_global": {
-    "rmse": 71.24,
-    "r2": 0.5075,
-    "rrmse_pct": 45.49
+    "rmse": 71.84,
+    "r2": 0.5136,
+    "rrmse_pct": 42.55,
+    "bias": -13.89,
+    "mae": 50.39,
+    "slope": 0.4804,
+    "intercept": 73.84
   },
   "cv_fold_mean": {
-    "rmse": 70.87,
-    "r2": 0.501,
-    "rrmse_pct": 45.19
+    "rmse": 71.56,
+    "r2": 0.5102,
+    "rrmse_pct": 42.32
   }
 }

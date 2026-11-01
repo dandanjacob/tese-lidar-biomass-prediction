@@ -1,5 +1,14 @@
 # Relatório de Cobertura: LiDAR × Inventário Florestal
 
+> **HISTÓRICO / OBSOLETO (gerado em torno de 2026-05-17).** Os números abaixo são de uma
+> execução antiga do pipeline, anterior às correções de altura por árvore, gap por árvore,
+> zona UTM e ao download do inventário real (ver `src/prepare_inventory.py`,
+> `src/calculate_biomass.py`). Em particular, os avisos sobre FNA_A01/TAP_A04/TAP_A05 com
+> zero parcelas clippadas e a recomendação de excluir `JAM_A02` plot 0 não refletem mais o
+> estado atual dos dados — `data/processed/05_biomass/summary.csv` é a fonte viva de
+> contagem de parcelas por site. Não há script que regenere este arquivo automaticamente;
+> mantido aqui só como registro histórico do estágio inicial do pipeline.
+
 Gerado a partir de `data/processed/02_intersections/lidar_inventory_intersections.csv`
 e `data/processed/03_clipped_lidar/`.
 

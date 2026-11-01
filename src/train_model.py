@@ -43,7 +43,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 # de pré-processamento (PREPROC=both|ground|raw).
 from outlier_filter import (filter_summary, SUFFIX, VARIANT, TARGET,
                             DO_GROUND, DO_HEIGHT_FILTER)
-from train_eval import save_oof, save_lc, learning_curve
+from train_eval import save_oof, save_lc, learning_curve, extra_metrics
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -257,7 +257,7 @@ def evaluate_cv(X: np.ndarray, y: np.ndarray) -> tuple[pd.DataFrame, dict]:
         all_te.extend(y[te]); all_pred.extend(pred); all_idx.extend(te)
         records.append({"fold": i, "n_test": len(te),
                         "rmse": round(rmse, 2), "r2": round(r2, 4),
-                        "rrmse_pct": round(rrmse, 2)})
+                        "rrmse_pct": round(rrmse, 2), **extra_metrics(y[te], pred)})
         log.info(f"  fold {i}  n={len(te):>3}  RMSE={rmse:.1f}  R²={r2:.3f}")
 
     overall_rmse = root_mean_squared_error(all_te, all_pred)
@@ -267,7 +267,8 @@ def evaluate_cv(X: np.ndarray, y: np.ndarray) -> tuple[pd.DataFrame, dict]:
              f"R²={overall_r2:.3f}  rRMSE={overall_rrmse:.1f}%")
     global_metrics = {"rmse": round(float(overall_rmse), 2),
                       "r2": round(float(overall_r2), 4),
-                      "rrmse_pct": round(float(overall_rrmse), 2)}
+                      "rrmse_pct": round(float(overall_rrmse), 2),
+                      **extra_metrics(all_te, all_pred)}
     return pd.DataFrame(records), global_metrics, (all_te, all_pred, all_idx)
 
 

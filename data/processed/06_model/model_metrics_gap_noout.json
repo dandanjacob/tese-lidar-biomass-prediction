@@ -4,15 +4,15 @@
   "model": "GradientBoostingRegressor",
   "library": "scikit-learn",
   "variant": "gap_corrected_noout",
-  "trained_at": "2026-06-18 03:13 UTC",
+  "trained_at": "2026-11-01 14:59 UTC",
   "target": "agb_m1_Mg_ha_gap",
   "cv_file": "cv_results_gap_noout.csv",
   "approach_key": "model_approach",
   "n_plots": 325,
   "n_sites": 18,
   "n_features": 1025,
-  "agb_mean": 156.6,
-  "agb_std": 101.5,
+  "agb_mean": 168.8,
+  "agb_std": 103.0,
   "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
   "hyperparameters": {
     "n_estimators": 300,
@@ -29,13 +29,17 @@
     "feature": "vetor de alturas do dossel ordenadas + log(nº de pontos)"
   },
   "cv_global": {
-    "rmse": 77.05,
-    "r2": 0.4239,
-    "rrmse_pct": 49.21
+    "rmse": 76.66,
+    "r2": 0.4462,
+    "rrmse_pct": 45.4,
+    "bias": -11.23,
+    "mae": 53.74,
+    "slope": 0.4834,
+    "intercept": 76.0
   },
   "cv_fold_mean": {
-    "rmse": 76.61,
-    "r2": 0.4149,
-    "rrmse_pct": 48.99
+    "rmse": 76.52,
+    "r2": 0.4362,
+    "rrmse_pct": 45.3
   }
 }

@@ -59,10 +59,18 @@ DO_HEIGHT_FILTER = PREPROC == "both"    # remoção dos pontos até 1,3 m
 
 # Coluna-alvo do treino. A versão "_gap" cresce DBH/altura até o ano do LiDAR
 # (ver prepare_inventory/calculate_biomass) — mesmas parcelas, AGB realinhado.
-TARGET = "agb_m1_Mg_ha_gap" if GAP else "agb_m1_Mg_ha"
+# FORMULA escolhe a fórmula alométrica de referência (análise de sensibilidade,
+# ver artigo_discussao.md §4.4): m1 (Chave uniforme, default) ou m3 (Chave +
+# densidade de madeira por espécie). m2 não é exposto aqui por não ter sido
+# citado na comparação do artigo.
+FORMULA = os.environ.get("TARGET_FORMULA", "m1")
+if FORMULA not in ("m1", "m3"):
+    raise SystemExit(f"TARGET_FORMULA inválido: {FORMULA!r} (use m1|m3)")
+TARGET = f"agb_{FORMULA}_Mg_ha" + ("_gap" if GAP else "")
 
 _PREPROC_SUFFIX = {"both": "", "ground": "_ground", "raw": "_raw"}[PREPROC]
-SUFFIX = ("_gap" if GAP else "") + ("_noout" if EXCLUDE else "") + _PREPROC_SUFFIX
+_FORMULA_SUFFIX = "_m3" if FORMULA == "m3" else ""
+SUFFIX = ("_gap" if GAP else "") + ("_noout" if EXCLUDE else "") + _PREPROC_SUFFIX + _FORMULA_SUFFIX
 # A ablação de pré-processamento roda sobre o alvo-base (full); as variantes raw/
 # ground têm rótulo próprio. As demais combinações mantêm a lógica gap/noout.
 if PREPROC == "both":

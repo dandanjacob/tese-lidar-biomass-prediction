@@ -1,0 +1,54 @@
+{
+  "alpha": 0.1,
+  "seed": 42,
+  "results": [
+    {
+      "model": "CNN 2D (raster)",
+      "radius_mg_ha": 108.8,
+      "empirical_coverage": 0.8773,
+      "nominal_coverage": 0.9,
+      "n_calib": 162,
+      "n_eval": 163
+    },
+    {
+      "model": "Random Forest",
+      "radius_mg_ha": 121.5,
+      "empirical_coverage": 0.9202,
+      "nominal_coverage": 0.9,
+      "n_calib": 162,
+      "n_eval": 163
+    },
+    {
+      "model": "ABA",
+      "radius_mg_ha": 117.6,
+      "empirical_coverage": 0.9202,
+      "nominal_coverage": 0.9,
+      "n_calib": 162,
+      "n_eval": 163
+    },
+    {
+      "model": "GBR 32 quantis",
+      "radius_mg_ha": 129.2,
+      "empirical_coverage": 0.9141,
+      "nominal_coverage": 0.9,
+      "n_calib": 162,
+      "n_eval": 163
+    },
+    {
+      "model": "CNN 3D (voxel)",
+      "radius_mg_ha": 117.5,
+      "empirical_coverage": 0.8589,
+      "nominal_coverage": 0.9,
+      "n_calib": 162,
+      "n_eval": 163
+    },
+    {
+      "model": "PointNet",
+      "radius_mg_ha": 143.5,
+      "empirical_coverage": 0.9141,
+      "nominal_coverage": 0.9,
+      "n_calib": 162,
+      "n_eval": 163
+    }
+  ]
+}

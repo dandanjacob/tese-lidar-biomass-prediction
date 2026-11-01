@@ -1,0 +1,1558 @@
+area,plot,tree,common.name,scientific.name,family.name,DBH,type,Dead,Hcom,Htot,date,UTM.Easting,UTM.Northing
+PAR_A01,1,1,farinha seca,Lindackeria paludosa,Achariaceae,13.5,O,FALSE,9.44,12.36,20180429,220542.4303,9634016.87
+PAR_A01,1,2,envira preta,Guatteria schomburgkiana,Annonaceae,17.8,O,FALSE,NA,NA,20180429,220548.1522,9634018.957
+PAR_A01,1,3,envira preta,Guatteria schomburgkiana,Annonaceae,10.5,O,FALSE,NA,NA,20180429,220546.6317,9634019.743
+PAR_A01,1,4,envira preta,Guatteria schomburgkiana,Annonaceae,11,O,FALSE,NA,NA,20180429,220546.5434,9634019.694
+PAR_A01,1,5,envira preta,Guatteria schomburgkiana,Annonaceae,14,O,FALSE,NA,NA,20180429,220546.455,9634019.645
+PAR_A01,1,6,inga vermelho,Inga alba,Fabaceae,30.5,O,FALSE,NA,NA,20180429,220546.4188,9634020.168
+PAR_A01,1,7,inga vermelho,Inga alba,Fabaceae,14.1,O,FALSE,NA,NA,20180429,220546.4188,9634020.168
+PAR_A01,1,8,inga vermelho,Inga alba,Fabaceae,19.8,O,FALSE,NA,NA,20180429,220546.4188,9634020.168
+PAR_A01,1,9,inga vermelho,Inga alba,Fabaceae,27,O,FALSE,NA,NA,20180429,220546.4188,9634020.168
+PAR_A01,1,10,murta,Strychnos subcordata,Loganiaceae,13,O,FALSE,NA,NA,20180429,220543.9237,9634020.636
+PAR_A01,1,11,envira preta,Guatteria schomburgkiana,Annonaceae,15.2,O,FALSE,NA,NA,20180429,220541.6794,9634020.596
+PAR_A01,1,12,farinha seca,Lindackeria paludosa,Achariaceae,11,O,FALSE,NA,NA,20180429,220543.3675,9634021.742
+PAR_A01,1,13,farinha seca,Lindackeria paludosa,Achariaceae,11.2,O,FALSE,13.08,17.15,20180429,220541.1634,9634021.618
+PAR_A01,1,14,farinha seca,Lindackeria paludosa,Achariaceae,15.3,O,FALSE,NA,NA,20180429,220541.0774,9634021.788
+PAR_A01,1,15,inga vermelho,Inga alba,Fabaceae,20.8,O,FALSE,NA,NA,20180429,220532.8512,9634013.43
+PAR_A01,1,16,inga vermelho,Inga alba,Fabaceae,17.8,O,FALSE,NA,NA,20180429,220532.8512,9634013.43
+PAR_A01,1,17,inga vermelho,Inga alba,Fabaceae,14,O,FALSE,NA,NA,20180429,220532.8512,9634013.43
+PAR_A01,1,18,inga vermelho,Inga alba,Fabaceae,24,O,FALSE,NA,NA,20180429,220532.8512,9634013.43
+PAR_A01,1,19,inga vermelho,Inga alba,Fabaceae,15.8,O,FALSE,NA,NA,20180429,220532.8512,9634013.43
+PAR_A01,1,20,inga vermelho,Inga alba,Fabaceae,19.8,O,FALSE,NA,NA,20180429,220532.8512,9634013.43
+PAR_A01,1,21,envira preta,Guatteria schomburgkiana,Annonaceae,18.2,O,FALSE,NA,NA,20180429,220533.6037,9634014.175
+PAR_A01,1,22,envira preta,Guatteria schomburgkiana,Annonaceae,20.8,O,FALSE,8.09,19.27,20180429,220534.0586,9634017.716
+PAR_A01,1,23,farinha seca,Lindackeria paludosa,Achariaceae,11.8,O,FALSE,12.95,16.36,20180429,220537.1696,9634023.894
+PAR_A01,1,24,envira preta,Guatteria schomburgkiana,Annonaceae,18.7,O,FALSE,NA,NA,20180429,220542.1631,9634026.398
+PAR_A01,1,25,envira preta,Guatteria schomburgkiana,Annonaceae,16,O,FALSE,NA,NA,20180429,220544.0325,9634027.201
+PAR_A01,1,26,casca seca,Licania canescens,Chrysobalanaceae,12.4,O,FALSE,NA,NA,20180429,220543.4416,9634030.66
+PAR_A01,1,27,envira preta,Guatteria schomburgkiana,Annonaceae,12,O,FALSE,NA,NA,20180429,220536.9696,9634031.058
+PAR_A01,1,28,envira preta,Guatteria schomburgkiana,Annonaceae,13.8,O,FALSE,NA,NA,20180429,220536.6099,9634030.864
+PAR_A01,1,29,envira preta,Guatteria schomburgkiana,Annonaceae,19.2,O,FALSE,11.26,18.51,20180429,220532.5072,9634027.896
+PAR_A01,1,30,envira preta,Guatteria schomburgkiana,Annonaceae,17.8,O,FALSE,8.09,14.97,20180429,220531.3553,9634028.582
+PAR_A01,1,31,envira preta,Guatteria schomburgkiana,Annonaceae,19,O,FALSE,NA,NA,20180429,220540.9844,9634035.587
+PAR_A01,1,32,breu sucuruba,Trattinnickia burserifolia,Burseraceae,11,O,FALSE,NA,NA,20180429,220539.4364,9634034.111
+PAR_A01,1,33,envira preta,Guatteria schomburgkiana,Annonaceae,16.7,O,FALSE,NA,NA,20180429,220533.3876,9634039.302
+PAR_A01,1,34,envira preta,Guatteria schomburgkiana,Annonaceae,27.7,O,FALSE,NA,NA,20180429,220536.7274,9634041.818
+PAR_A01,1,35,sucuuba,Himatanthus sucuuba,Apocynaceae,13,O,FALSE,NA,NA,20180429,220537.9763,9634041.619
+PAR_A01,1,36,farinha seca,Lindackeria paludosa,Achariaceae,11.8,O,FALSE,10.26,15.5,20180429,220531.2674,9634038.938
+PAR_A01,1,37,envira preta,Guatteria schomburgkiana,Annonaceae,11.6,O,FALSE,NA,NA,20180429,220533.2429,9634044.175
+PAR_A01,1,38,inga vermelho,Inga alba,Fabaceae,36.7,O,FALSE,NA,NA,20180429,220535.0286,9634045.218
+PAR_A01,1,39,sucuuba,Himatanthus sucuuba,Apocynaceae,10.6,O,FALSE,NA,NA,20180429,220523.7073,9634042.428
+PAR_A01,1,40,inhare,Helicostylis tomentosa,Moraceae,10.2,O,FALSE,NA,NA,20180429,220525.1077,9634044.237
+PAR_A01,1,41,fava arara tucupi,Parkia multijuga,Fabaceae,11.8,O,FALSE,NA,NA,20180429,220530.1039,9634048.121
+PAR_A01,1,42,inga vermelho,Inga alba,Fabaceae,29,O,FALSE,NA,NA,20180429,220522.2677,9634045.246
+PAR_A01,1,43,inga vermelho,Inga alba,Fabaceae,34.8,O,FALSE,NA,NA,20180429,220522.2677,9634045.246
+PAR_A01,1,44,inga vermelho,Inga alba,Fabaceae,27.4,O,FALSE,NA,NA,20180429,220522.2677,9634045.246
+PAR_A01,1,45,farinha seca,Lindackeria paludosa,Achariaceae,12.1,O,FALSE,NA,NA,20180429,220520.866,9634045.709
+PAR_A01,1,46,inga vermelho,Inga alba,Fabaceae,28,O,FALSE,NA,NA,20180429,220519.5058,9634046.088
+PAR_A01,1,47,inga vermelho,Inga alba,Fabaceae,30,O,FALSE,NA,NA,20180429,220519.4182,9634046.259
+PAR_A01,1,48,sucuuba,Himatanthus sucuuba,Apocynaceae,14,O,FALSE,NA,NA,20180429,220518.0118,9634046.724
+PAR_A01,1,49,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,13.2,O,FALSE,NA,NA,20180429,220518.7168,9634047.626
+PAR_A01,1,50,farinha seca,Lindackeria paludosa,Achariaceae,12.5,O,FALSE,NA,NA,20180429,220524.63,9634052.059
+PAR_A01,1,51,farinha seca,Lindackeria paludosa,Achariaceae,10.3,O,FALSE,NA,NA,20180429,220524.63,9634052.059
+PAR_A01,1,52,envira preta,Guatteria schomburgkiana,Annonaceae,11.5,O,FALSE,NA,NA,20180429,220526.4671,9634055.354
+PAR_A01,1,53,envira preta,Guatteria schomburgkiana,Annonaceae,12.5,O,FALSE,NA,NA,20180429,220530.3928,9634056.824
+PAR_A01,1,54,farinha seca,Lindackeria paludosa,Achariaceae,10.7,O,FALSE,NA,NA,20180429,220529.8835,9634059.015
+PAR_A01,1,55,envira preta,Guatteria schomburgkiana,Annonaceae,23,O,FALSE,NA,NA,20180429,220525.1836,9634057.907
+PAR_A01,1,56,farinha seca,Lindackeria paludosa,Achariaceae,19,O,FALSE,NA,NA,20180429,220525.9444,9634058.72
+PAR_A01,1,57,farinha seca,Lindackeria paludosa,Achariaceae,17,O,FALSE,NA,NA,20180429,220525.9444,9634058.72
+PAR_A01,1,58,farinha seca,Lindackeria paludosa,Achariaceae,15.2,O,FALSE,NA,NA,20180429,220525.9444,9634058.72
+PAR_A01,1,59,farinha seca,Lindackeria paludosa,Achariaceae,12.7,O,FALSE,NA,NA,20180429,220526.1578,9634058.295
+PAR_A01,1,60,murta,Strychnos subcordata,Loganiaceae,13.2,O,FALSE,NA,NA,20180429,220518.2107,9634053.187
+PAR_A01,1,61,murta,Strychnos subcordata,Loganiaceae,18,O,FALSE,NA,NA,20180429,220518.2107,9634053.187
+PAR_A01,1,62,murta,Strychnos subcordata,Loganiaceae,16.7,O,FALSE,NA,NA,20180429,220518.2107,9634053.187
+PAR_A01,1,63,murta,Strychnos subcordata,Loganiaceae,11.5,O,FALSE,NA,NA,20180429,220518.2107,9634053.187
+PAR_A01,2,64,envira preta,Guatteria schomburgkiana,Annonaceae,13.5,O,FALSE,9.72,14.51,20180429,220402.716,9633947.203
+PAR_A01,2,65,murta,Strychnos subcordata,Loganiaceae,14,O,FALSE,NA,NA,20180429,220401.7063,9633946.947
+PAR_A01,2,66,murta,Strychnos subcordata,Loganiaceae,12.4,O,FALSE,8.29,16.47,20180429,220404.045,9633949.463
+PAR_A01,2,67,murta,Strychnos subcordata,Loganiaceae,23,O,FALSE,NA,NA,20180429,220410.4905,9633951.714
+PAR_A01,2,68,piquia,Caryocar villosum,Caryocaraceae,19.7,O,FALSE,NA,NA,20180429,220403.0009,9633950.634
+PAR_A01,2,69,murta,Strychnos subcordata,Loganiaceae,11.4,O,FALSE,NA,NA,20180429,220403.5372,9633951.687
+PAR_A01,2,70,freijo branco,Cordia scabrifolia,Boraginaceae,12.2,O,FALSE,11.51,15.66,20180429,220405.7239,9633953.873
+PAR_A01,2,71,murta,Strychnos subcordata,Loganiaceae,13,O,FALSE,NA,NA,20180429,220401.802,9633954.608
+PAR_A01,2,72,murta,Strychnos subcordata,Loganiaceae,11.1,O,FALSE,NA,NA,20180429,220397.4516,9633954.107
+PAR_A01,2,73,murta,Strychnos subcordata,Loganiaceae,13.2,O,FALSE,NA,NA,20180429,220397.5041,9633954.019
+PAR_A01,2,74,murta,Strychnos subcordata,Loganiaceae,11.8,O,FALSE,NA,NA,20180429,220398.0924,9633954.984
+PAR_A01,2,75,burra leiteira,Sapium marmieri,Euphorbiaceae,28.7,O,FALSE,NA,NA,20180429,220396.8937,9633958.958
+PAR_A01,2,76,murta,Strychnos subcordata,Loganiaceae,10.9,O,FALSE,NA,NA,20180429,220396.631,9633959.4
+PAR_A01,2,77,farinha seca,Lindackeria paludosa,Achariaceae,10.4,O,FALSE,NA,NA,20180429,220409.9979,9633960.37
+PAR_A01,2,78,inga vermelho,Inga alba,Fabaceae,24.7,O,FALSE,NA,NA,20180429,220408.9436,9633962.146
+PAR_A01,2,79,inga vermelho,Inga alba,Fabaceae,30.7,O,FALSE,NA,NA,20180429,220403.4335,9633963.599
+PAR_A01,2,80,murta,Strychnos subcordata,Loganiaceae,14.3,O,FALSE,NA,NA,20180429,220402.8311,9633973.421
+PAR_A01,2,81,liana,NA,NA,16.6,L,FALSE,NA,NA,20180429,220403.622,9633972.089
+PAR_A01,2,82,burra leiteira,Sapium marmieri,Euphorbiaceae,27.7,O,FALSE,NA,NA,20180429,220401.6656,9633973.427
+PAR_A01,2,83,acoita cavalo,Luehea speciosa,Malvaceae,14.6,O,FALSE,NA,NA,20180429,220402.462,9633974.043
+PAR_A01,2,84,acoita cavalo,Luehea speciosa,Malvaceae,4,O,FALSE,NA,NA,20180429,220402.462,9633974.043
+PAR_A01,2,85,farinha seca,Lindackeria paludosa,Achariaceae,10.7,O,FALSE,NA,NA,20180429,220402.1483,9633975.551
+PAR_A01,2,86,murta,Strychnos subcordata,Loganiaceae,12.6,O,FALSE,NA,NA,20180429,220390.1062,9633968.425
+PAR_A01,2,87,murta,Strychnos subcordata,Loganiaceae,10.2,O,FALSE,NA,NA,20180429,220390.1062,9633968.425
+PAR_A01,2,88,murta,Strychnos subcordata,Loganiaceae,10.2,O,FALSE,NA,NA,20180429,220389.1962,9633966.044
+PAR_A01,2,89,farinha seca,Lindackeria paludosa,Achariaceae,13.4,O,FALSE,NA,NA,20180429,220387.1832,9633965.518
+PAR_A01,2,90,murta,Strychnos subcordata,Loganiaceae,10.5,O,FALSE,NA,NA,20180429,220386.1134,9633967.514
+PAR_A01,2,91,murta,Strychnos subcordata,Loganiaceae,12.2,O,FALSE,NA,NA,20180429,220386.5377,9633967.778
+PAR_A01,2,92,envira preta,Guatteria schomburgkiana,Annonaceae,25.4,O,FALSE,NA,NA,20180429,220386.7477,9633967.425
+PAR_A01,2,93,envira preta,Guatteria schomburgkiana,Annonaceae,22.5,O,FALSE,NA,NA,20180429,220386.7477,9633967.425
+PAR_A01,2,94,inhare,Helicostylis tomentosa,Moraceae,16.2,O,FALSE,NA,NA,20180429,220385.0794,9633968.08
+PAR_A01,2,95,inhare,Helicostylis tomentosa,Moraceae,17,O,FALSE,NA,NA,20180429,220385.0794,9633968.08
+PAR_A01,2,96,murta,Strychnos subcordata,Loganiaceae,11.6,O,FALSE,NA,NA,20180429,220384.5106,9633970.993
+PAR_A01,2,97,murta,Strychnos subcordata,Loganiaceae,17,O,FALSE,NA,NA,20180429,220393.3637,9633976.641
+PAR_A01,2,98,farinha seca,Lindackeria paludosa,Achariaceae,15.2,O,FALSE,NA,NA,20180429,220393.7878,9633976.906
+PAR_A01,2,99,envira preta,Guatteria schomburgkiana,Annonaceae,11.8,O,FALSE,5.85,12.23,20180429,220392.5712,9633976.997
+PAR_A01,2,100,envira preta,Guatteria schomburgkiana,Annonaceae,11.2,O,FALSE,5.86,12.34,20180429,220392.466,9633977.174
+PAR_A01,2,101,inga,Inga marginata,Fabaceae,13.2,O,FALSE,6.57,12.47,20180429,220391.7818,9633978.326
+PAR_A01,2,102,inga,Inga marginata,Fabaceae,20,O,FALSE,NA,NA,20180429,220397.4024,9633983.546
+PAR_A01,2,103,inga,Inga marginata,Fabaceae,16,O,FALSE,NA,NA,20180429,220394.5515,9633986.39
+PAR_A01,2,104,inga,Inga marginata,Fabaceae,11.7,O,FALSE,NA,NA,20180429,220392.9172,9633989.143
+PAR_A01,2,105,burra leiteira,Sapium marmieri,Euphorbiaceae,17.4,O,FALSE,NA,NA,20180429,220390.2717,9633987.723
+PAR_A01,2,106,inga,Inga marginata,Fabaceae,21.1,O,FALSE,NA,NA,20180429,220391.2855,9633993.851
+PAR_A01,2,107,inga,Inga marginata,Fabaceae,25.5,O,FALSE,NA,NA,20180429,220391.2855,9633993.851
+PAR_A01,2,108,murta,Strychnos subcordata,Loganiaceae,18.3,O,FALSE,NA,NA,20180429,220382.3887,9633983.371
+PAR_A01,2,109,farinha seca,Lindackeria paludosa,Achariaceae,14.7,O,FALSE,NA,NA,20180429,220379.4813,9633982.391
+PAR_A01,2,110,inga de rosca,Abarema mataybifolia,Fabaceae,27,O,FALSE,NA,NA,20180429,220377.4273,9633983.89
+PAR_A01,2,111,inga de rosca,Abarema mataybifolia,Fabaceae,22.7,O,FALSE,NA,NA,20180429,220377.4273,9633983.89
+PAR_A01,2,112,inga de rosca,Abarema mataybifolia,Fabaceae,19.7,O,FALSE,NA,NA,20180429,220377.4273,9633983.89
+PAR_A01,2,113,liana,NA,NA,18.1,L,FALSE,NA,NA,20180429,220378.2735,9633984.424
+PAR_A01,2,114,farinha seca,Lindackeria paludosa,Achariaceae,20,O,FALSE,NA,NA,20180429,220381.6583,9633986.558
+PAR_A01,2,115,inga vermelho,Inga alba,Fabaceae,51.5,O,FALSE,5.04,11.69,20180429,220373.0297,9633967.808
+PAR_A01,2,116,inga vermelho,Inga alba,Fabaceae,56,O,FALSE,2.41,19.17,20180429,220362.4646,9633966.011
+PAR_A01,3,117,casca seca,Licania canescens,Chrysobalanaceae,22,O,FALSE,NA,NA,20180429,220275.0164,9633873.585
+PAR_A01,3,118,abiurana,Pouteria gongrijpii,Sapotaceae,14.3,O,FALSE,NA,NA,20180429,220274.8649,9633873.934
+PAR_A01,3,119,morta,NA,NA,23.7,O,TRUE,NA,NA,20180429,220274.0131,9633873.479
+PAR_A01,3,120,pente de macaco,Apeiba petoumo,Malvaceae,20.5,O,FALSE,NA,NA,20180429,220271.2249,9633872.632
+PAR_A01,3,121,casca seca,Licania canescens,Chrysobalanaceae,16.5,O,FALSE,NA,NA,20180429,220272.4896,9633876.968
+PAR_A01,3,122,inga ,Inga marginata,Fabaceae,11.4,O,FALSE,NA,NA,20180429,220282.8238,9633882.511
+PAR_A01,3,123,pau de garfanhoto,NA,NA,12.7,O,FALSE,NA,NA,20180429,220279.9883,9633881.746
+PAR_A01,3,124,morta,NA,NA,17.7,O,TRUE,NA,NA,20180429,220279.9523,9633881.835
+PAR_A01,3,125,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,21,O,FALSE,NA,NA,20180429,220281.3943,9633883.473
+PAR_A01,3,126,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,17.7,O,FALSE,NA,NA,20180429,220277.7159,9633882.145
+PAR_A01,3,127,abiurana,Pouteria gongrijpii,Sapotaceae,16.8,O,FALSE,NA,NA,20180429,220278.1838,9633883.584
+PAR_A01,3,128,inhare,Helicostylis tomentosa,Moraceae,21,O,FALSE,NA,NA,20180429,220272.0637,9633880.401
+PAR_A01,3,129,NA,NA,NA,10.2,O,FALSE,NA,NA,20180429,220264.2186,9633883.388
+PAR_A01,3,130,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,13.8,O,FALSE,NA,NA,20180429,220274.7998,9633889.211
+PAR_A01,3,131,timborana,Pseudopiptadenia suaveolens,Fabaceae,11,O,FALSE,NA,NA,20180429,220274.0281,9633889.767
+PAR_A01,3,132,breu,Protium heptaphyllum,Burseraceae,11.8,O,FALSE,NA,NA,20180429,220271.4052,9633892.128
+PAR_A01,3,133,araracanga,Aspidosperma spruceanum,Apocynaceae,13.4,O,FALSE,NA,NA,20180429,220265.5236,9633887.864
+PAR_A01,3,134,burra leiteira,Sapium marmieri,Euphorbiaceae,13.7,O,FALSE,NA,NA,20180429,220265.5236,9633887.864
+PAR_A01,3,135,freijo branco,Cordia scabrifolia,Boraginaceae,12.4,O,FALSE,NA,NA,20180429,220265.6501,9633890.089
+PAR_A01,3,136,tachi preto,Tachigali myrmecophila,Fabaceae,14.8,O,FALSE,NA,NA,20180429,220263.3508,9633895.313
+PAR_A01,3,137,jatereu,Lecythis idatimon,Lecythidaceae,14.2,O,FALSE,NA,NA,20180429,220258.5835,9633903.508
+PAR_A01,3,138,morta,NA,NA,14,O,TRUE,NA,NA,20180429,220260.3637,9633896.923
+PAR_A01,3,139,matamata,Eschweilera parviflora,Lecythidaceae,13.4,O,FALSE,NA,NA,20180429,220259.5879,9633898.659
+PAR_A01,3,140,timborana,Pseudopiptadenia suaveolens,Fabaceae,12.2,O,FALSE,7.38,11.52,20180429,220268.632,9633901.431
+PAR_A01,3,141,pau santo,Zollernia paraensis,Fabaceae,51.7,O,FALSE,10.95,21.77,20180429,220276.7135,9633899.334
+PAR_A01,3,142,jatereu,Lecythis idatimon,Lecythidaceae,23.4,O,FALSE,NA,NA,20180429,220276.0102,9633901.118
+PAR_A01,3,143,tachi preto,Tachigali myrmecophila,Fabaceae,16.7,O,FALSE,NA,NA,20180429,220270.6443,9633899.281
+PAR_A01,3,144,iperana,Eperua bijuga,Fabaceae,25.2,O,FALSE,NA,NA,20180429,220271.7479,9633902.046
+PAR_A01,3,145,morta,NA,NA,42.4,O,TRUE,NA,NA,20180429,220272.8453,9633909.146
+PAR_A01,3,146,tachi preto,Tachigali myrmecophila,Fabaceae,11.4,O,FALSE,NA,NA,20180429,220272.0272,9633909.783
+PAR_A01,3,147,inhare,Helicostylis tomentosa,Moraceae,13.5,O,FALSE,NA,NA,20180429,220270.029,9633911.941
+PAR_A01,3,148,fava de paca,NA,NA,21.8,O,FALSE,4.51,5.75,20180429,220268.0167,9633914.09
+PAR_A01,3,149,burra leiteira,Sapium marmieri,Euphorbiaceae,12.4,O,FALSE,5.77,9.54,20180429,220265.1765,9633912.531
+PAR_A01,3,150,murta,Strychnos subcordata,Loganiaceae,15,O,FALSE,NA,NA,20180429,220259.7355,9633917.122
+PAR_A01,3,151,cacau,NA,NA,17.2,O,FALSE,NA,NA,20180429,220260.107,9633916.244
+PAR_A01,3,152,joao mole,Neea oppositifolia,Nyctaginaceae,12.1,O,FALSE,NA,NA,20180429,220253.7694,9633911.672
+PAR_A01,3,153,iperana,Eperua bijuga,Fabaceae,19.7,O,FALSE,8.55,11.89,20180429,220255.4947,9633913.162
+PAR_A01,3,154,breu barrote,Tetragastris panamensis,Burseraceae,60,O,FALSE,19.25,25.89,20180429,220248.2977,9633897.878
+PAR_A01,3,155,axixa,Sterculia pruriens,Malvaceae,64.5,O,FALSE,18.52,25.42,20180429,220230.9705,9633885.181
+PAR_A01,4,156,morta,NA,NA,18.1,O,TRUE,NA,NA,20180429,220145.7085,9633807.749
+PAR_A01,4,157,morta,NA,NA,15.6,O,TRUE,NA,NA,20180429,220141.3613,9633805.146
+PAR_A01,4,158,matamata,Eschweilera amazonica,Lecythidaceae,15,O,FALSE,NA,NA,20180429,220138.753,9633803.584
+PAR_A01,4,159,ata meju,NA,NA,12.8,O,FALSE,NA,NA,20180429,220143.5997,9633809.801
+PAR_A01,4,160,inga,Inga marginata,Fabaceae,19,O,FALSE,NA,NA,20180429,220144.1951,9633817.845
+PAR_A01,4,161,inga branco,Inga thibaudiana,Fabaceae,11.2,O,FALSE,NA,NA,20180429,220136.0229,9633818.576
+PAR_A01,4,162,freijo branco,Cordia scabrifolia,Boraginaceae,14.3,O,FALSE,NA,NA,20180429,220131.2426,9633816.917
+PAR_A01,4,163,freijo branco,Cordia scabrifolia,Boraginaceae,12.2,O,FALSE,NA,NA,20180429,220129.5387,9633818.146
+PAR_A01,4,164,inga branco,Inga thibaudiana,Fabaceae,12,O,FALSE,NA,NA,20180429,220128.2494,9633818.512
+PAR_A01,4,165,tachi preto,Tachigali myrmecophila,Fabaceae,10.6,O,FALSE,NA,NA,20180429,220134.3675,9633822.019
+PAR_A01,4,166,envira preta,Guatteria schomburgkiana,Annonaceae,12.4,O,FALSE,NA,NA,20180429,220138.2764,9633823.166
+PAR_A01,4,167,inga,Inga marginata,Fabaceae,12.7,O,FALSE,NA,NA,20180429,220139.2998,9633830.289
+PAR_A01,4,168,pitomba,Talisia longifolia,Sapindaceae,12.2,O,FALSE,NA,NA,20180429,220133.2712,9633831.24
+PAR_A01,4,169,tachi branco,Tachigali paniculata,Fabaceae,19.2,O,FALSE,6.91,14.36,20180429,220133.3216,9633833.445
+PAR_A01,4,170,tachirana,Stryphnodendron paniculatum,Fabaceae,17.2,O,FALSE,NA,NA,20180429,220127.1381,9633827.798
+PAR_A01,4,171,breu vermelho,Protium hebetatum,Burseraceae,20.2,O,FALSE,NA,NA,20180429,220127.1381,9633827.798
+PAR_A01,4,172,inga,Inga marginata,Fabaceae,12.7,O,FALSE,NA,NA,20180429,220123.7715,9633832.501
+PAR_A01,4,173,freijo branco,Cordia scabrifolia,Boraginaceae,19.7,O,FALSE,NA,NA,20180429,220119.0598,9633835.389
+PAR_A01,4,174,tachi preto,Tachigali myrmecophila,Fabaceae,11.7,O,FALSE,NA,NA,20180429,220118.2283,9633837.127
+PAR_A01,4,175,inga branco,Inga thibaudiana,Fabaceae,14.1,O,FALSE,3.88,10.45,20180429,220121.7454,9633839.04
+PAR_A01,4,176,embauba,Cecropia ficifolia,Urticaceae,10.7,O,FALSE,NA,NA,20180429,220121.381,9633842.109
+PAR_A01,4,177,inga branco,Inga thibaudiana,Fabaceae,12,O,FALSE,4.61,12.67,20180429,220122.7794,9633846.117
+PAR_A01,4,178,cumater,NA,NA,49.8,O,FALSE,NA,NA,20180429,220119.1762,9633790.722
+PAR_A01,4,179,timborana,Pseudopiptadenia suaveolens,Fabaceae,90,O,FALSE,22.43,33.68,20180429,220126.7208,9633805.379
+PAR_A01,4,180,matamata branco,Eschweilera coriacea,Lecythidaceae,50,O,FALSE,19.93,29.09,20180429,220112.3879,9633800.365
+PAR_A01,5,1,inga vermelho,Inga alba,Fabaceae,15.6,O,FALSE,NA,NA,20180429,220631.2192,9633838.661
+PAR_A01,5,2,inga branco,Inga thibaudiana,Fabaceae,13.5,O,FALSE,NA,NA,20180429,220629.8651,9633836.756
+PAR_A01,5,3,parapara,Jacaranda copaia,Bignoniaceae,21,O,FALSE,NA,NA,20180429,220628.8873,9633840.804
+PAR_A01,5,4,parapara,Jacaranda copaia,Bignoniaceae,22,O,FALSE,NA,NA,20180429,220627.5023,9633841.178
+PAR_A01,5,5,parapara,Jacaranda copaia,Bignoniaceae,16.2,O,FALSE,NA,NA,20180429,220634.7997,9633845.259
+PAR_A01,5,6,embauba,Cecropia ficifolia,Urticaceae,14.6,O,FALSE,NA,NA,20180429,220636.6621,9633844.001
+PAR_A01,5,7,burra leiteira,Sapium marmieri,Euphorbiaceae,17.4,O,FALSE,NA,NA,20180429,220627.2841,9633854.849
+PAR_A01,5,8,tachi branco,Tachigali paniculata,Fabaceae,21.7,O,FALSE,NA,NA,20180429,220628.6267,9633856.753
+PAR_A01,5,9,inga vermelho,Inga alba,Fabaceae,11,O,FALSE,NA,NA,20180429,220630.919,9633856.888
+PAR_A01,5,10,timborana,Pseudopiptadenia suaveolens,Fabaceae,11,O,FALSE,NA,NA,20180429,220634.5539,9633858.927
+PAR_A01,5,11,murta,Strychnos subcordata,Loganiaceae,10,O,FALSE,NA,NA,20180429,220635.417,9633861.715
+PAR_A01,5,12,burra leiteira,Sapium marmieri,Euphorbiaceae,15.5,O,FALSE,NA,NA,20180429,220633.0313,9633866.134
+PAR_A01,5,13,arataciu,Sagotia racemosa,Euphorbiaceae,20.6,O,FALSE,NA,NA,20180429,220627.1594,9633861.683
+PAR_A01,5,14,guajara pedra,Pouteria sp.,Sapotaceae,11.2,O,FALSE,NA,NA,20180429,220626.2092,9633863.451
+PAR_A01,5,15,breu sucuruba,Trattinnickia burserifolia,Burseraceae,29.5,O,FALSE,NA,NA,20180429,220624.3531,9633864.71
+PAR_A01,5,16,breu vermelho,Protium hebetatum,Burseraceae,10.5,O,FALSE,NA,NA,20180429,220623.5314,9633859.645
+PAR_A01,5,17,cumarurana,NA,NA,11.4,O,FALSE,NA,NA,20180429,220624.0455,9633856.482
+PAR_A01,5,18,matamata branco,Eschweilera coriacea,Lecythidaceae,12.5,O,FALSE,NA,NA,20180429,220624.9534,9633856.992
+PAR_A01,5,19,abiurana,Pouteria gongrijpii,Sapotaceae,10.7,O,FALSE,NA,NA,20180429,220622.2676,9633853.185
+PAR_A01,5,20,inga xixica,Inga heterophylla,Fabaceae,10.2,O,FALSE,6.41,10.03,20180429,220625.6435,9633868.891
+PAR_A01,5,21,tachi branco,Tachigali paniculata,Fabaceae,12.3,O,FALSE,7.28,11.4,20180429,220626.5485,9633869.4
+PAR_A01,5,22,breu vermelho,Protium hebetatum,Burseraceae,13.4,O,FALSE,NA,NA,20180429,220625.2139,9633867.497
+PAR_A01,5,23,arataciu,Sagotia racemosa,Euphorbiaceae,11.6,O,FALSE,6.43,7.77,20180429,220624.6921,9633870.659
+PAR_A01,5,24,fava paricana,Dimorphandra macrostachya,Fabaceae,43.4,O,FALSE,NA,NA,20180429,220628.737,9633874.089
+PAR_A01,5,25,fava paricana,Dimorphandra macrostachya,Fabaceae,29.6,O,FALSE,NA,NA,20180429,220626.3513,9633878.509
+PAR_A01,5,26,matamata preto,Eschweilera ovata,Lecythidaceae,35.4,O,FALSE,NA,NA,20180429,220611.8211,9633874.918
+PAR_A01,5,27,freijo branco,Cordia scabrifolia,Boraginaceae,10.7,O,FALSE,NA,NA,20180429,220609.5455,9633874.784
+PAR_A01,5,28,morta,NA,NA,23.5,O,TRUE,NA,4.23,20180429,220612.8668,9633879.54
+PAR_A01,5,29,inga vermelho,Inga alba,Fabaceae,17,O,FALSE,NA,NA,20180429,220623.0113,9633884.696
+PAR_A01,5,30,morta,NA,NA,40.5,O,TRUE,NA,NA,20180429,220582.5338,9633857.235
+PAR_A01,5,31,matamata branco,Eschweilera coriacea,Lecythidaceae,70.5,O,FALSE,2.23,3.05,20180429,220585.7553,9633853.317
+PAR_A01,5,32,fava vic,NA,NA,44.2,O,FALSE,NA,NA,20180429,220599.6887,9633824.48
+PAR_A01,5,33,breu sucuruba,Trattinnickia burserifolia,Burseraceae,10.2,O,FALSE,NA,NA,20180429,220639.5129,9633838.696
+PAR_A01,5,34,canela de jacamim,Rinorea pubiflora,Violaceae,18,O,FALSE,NA,NA,20180429,220634.4669,9633837.029
+PAR_A01,5,35,inga branco,Inga thibaudiana,Fabaceae,14.7,O,FALSE,NA,NA,20180429,220637.1739,9633840.838
+PAR_A01,5,36,burra leiteira,Sapium marmieri,Euphorbiaceae,12.4,O,FALSE,NA,NA,20180429,220644.9599,9633844.036
+PAR_A01,5,37,ata meju,NA,NA,14.5,O,FALSE,NA,NA,20180429,220643.5285,9633846.688
+PAR_A01,5,38,macarandubinha,NA,NA,13.7,O,FALSE,NA,NA,20180429,220643.0513,9633847.572
+PAR_A01,5,39,araracanga,Aspidosperma spruceanum,Apocynaceae,32.2,O,FALSE,NA,NA,20180429,220640.708,9633849.714
+PAR_A01,5,40,freijo branco,Cordia scabrifolia,Boraginaceae,12.8,O,FALSE,NA,NA,20180429,220638.3237,9633854.133
+PAR_A01,5,41,axixa,Sterculia pruriens,Malvaceae,28.7,O,FALSE,NA,NA,20180429,220635.1164,9633853.488
+PAR_A01,5,42,acoita cavalo,Luehea speciosa,Malvaceae,18.7,O,FALSE,NA,NA,20180429,220636.0684,9633851.72
+PAR_A01,5,43,macucu de sangue,Licania heteromorpha,Chrysobalanaceae,15.4,O,FALSE,NA,NA,20180429,220635.1577,9633851.21
+PAR_A01,5,44,envira preta,Guatteria schomburgkiana,Annonaceae,19,O,FALSE,NA,NA,20180429,220633.7715,9633851.584
+PAR_A01,5,45,itauba,Mezilaurus itauba,Lauraceae,20.2,O,FALSE,NA,NA,20180429,220630.2388,9633842.709
+PAR_A01,5,46,inga vermelho,Inga alba,Fabaceae,12.4,O,FALSE,NA,NA,20180429,220624.1223,9633851.926
+PAR_A01,5,47,embauba,Cecropia ficifolia,Urticaceae,20,O,FALSE,NA,NA,20180429,220636.3713,9633859.947
+PAR_A01,6,48,abiurana,Pouteria gongrijpii,Sapotaceae,20.2,O,FALSE,NA,NA,20180429,220496.3778,9633795.714
+PAR_A01,6,49,morta,NA,NA,14,O,TRUE,NA,NA,20180429,220495.518,9633795.269
+PAR_A01,6,50,caramurim,NA,NA,23.7,O,FALSE,NA,NA,20180429,220489.1035,9633802.526
+PAR_A01,6,51,arataciu,Sagotia racemosa,Euphorbiaceae,14.4,O,FALSE,6.29,9.45,20180429,220489.3399,9633796.325
+PAR_A01,6,52,jatereu,Lecythis idatimon,Lecythidaceae,17.4,O,FALSE,8.01,16.27,20180429,220487.2294,9633794.186
+PAR_A01,6,53,louro preto,Ocotea cernua,Lauraceae,11.5,O,FALSE,NA,NA,20180429,220479.7899,9633805.332
+PAR_A01,6,54,envira preta,Guatteria schomburgkiana,Annonaceae,16.4,O,FALSE,6.7,12.21,20180429,220484.5647,9633806.583
+PAR_A01,6,55,morta,NA,NA,10.4,O,TRUE,NA,NA,20180429,220484.9561,9633807.815
+PAR_A01,6,56,breu barrote,Tetragastris panamensis,Burseraceae,25.7,O,FALSE,NA,NA,20180429,220488.7921,9633810.692
+PAR_A01,6,57,matamata preto,Eschweilera ovata,Lecythidaceae,44.8,O,FALSE,NA,NA,20180429,220456.2356,9633790.687
+PAR_A01,6,58,coco pau,Couepia robusta,Chrysobalanaceae,44.4,O,FALSE,NA,NA,20180429,220457.5683,9633790.227
+PAR_A01,6,59,abiu vermelho,Pouteria cladantha,Sapotaceae,61,O,FALSE,17.7,32.02,20180429,220469.1945,9633749.73
+PAR_A01,6,60,tachirana,Stryphnodendron paniculatum,Fabaceae,36.7,O,FALSE,NA,NA,20180429,220471.296,9633752.109
+PAR_A01,6,61,iperana,Eperua bijuga,Fabaceae,42.7,O,FALSE,NA,NA,20180429,220488.0402,9633772.911
+PAR_A01,6,62,roxinho,Peltogyne lecointei,Fabaceae,43,O,FALSE,NA,NA,20180429,220477.0136,9633774.649
+PAR_A01,6,63,morta,NA,NA,53,O,TRUE,NA,17.71,20180429,220475.7666,9633772.858
+PAR_A01,6,64,goiabao,Pradosia cochlearia,Sapotaceae,35.2,O,FALSE,NA,NA,20180429,220486.656,9633763.214
+PAR_A01,7,65,morta,NA,NA,41.2,O,TRUE,NA,NA,20180429,220371.5624,9633695.807
+PAR_A01,7,66,envira preta,Guatteria schomburgkiana,Annonaceae,11.5,O,FALSE,NA,NA,20180429,220368.1251,9633693.851
+PAR_A01,7,67,morta,NA,NA,13.5,O,TRUE,NA,NA,20180429,220367.2658,9633693.362
+PAR_A01,7,68,morta,NA,NA,36.2,O,TRUE,NA,NA,20180429,220366.8011,9633694.269
+PAR_A01,7,69,inga vermelho,Inga alba,Fabaceae,10.4,O,FALSE,NA,NA,20180429,220368.453,9633697.549
+PAR_A01,7,70,morta,NA,NA,27,O,TRUE,NA,NA,20180429,220373.5542,9633702.779
+PAR_A01,7,71,envira preta,Guatteria schomburgkiana,Annonaceae,14.7,O,FALSE,NA,NA,20180429,220367.8598,9633703.058
+PAR_A01,7,72,envira preta,Guatteria schomburgkiana,Annonaceae,10.5,O,FALSE,7.9,12.34,20180429,220367.6284,9633703.511
+PAR_A01,7,73,lacre branco,Vismia guianensis,Hypericaceae,10.2,O,FALSE,NA,NA,20180429,220370.8476,9633705.914
+PAR_A01,7,74,fava paricana,Dimorphandra macrostachya,Fabaceae,20.2,O,FALSE,NA,NA,20180429,220372.6322,9633704.59
+PAR_A01,7,75,fava paricana,Dimorphandra macrostachya,Fabaceae,11.4,O,FALSE,NA,NA,20180429,220373.2936,9633704.382
+PAR_A01,7,76,fava paricana,Dimorphandra macrostachya,Fabaceae,20.2,O,FALSE,NA,NA,20180429,220373.9547,9633704.173
+PAR_A01,7,77,envira preta,Guatteria schomburgkiana,Annonaceae,10.3,O,FALSE,NA,NA,20180429,220363.6645,9633712.364
+PAR_A01,7,78,fava sao joao,NA,NA,16.7,O,FALSE,NA,NA,20180429,220367.1569,9633713.159
+PAR_A01,7,79,parapara,Jacaranda copaia,Bignoniaceae,17.8,O,FALSE,NA,NA,20180429,220361.3802,9633715.747
+PAR_A01,7,80,breu vermelho,Protium hebetatum,Burseraceae,11.6,O,FALSE,NA,NA,20180429,220371.9445,9633714.684
+PAR_A01,7,81,morta,NA,NA,19.7,O,TRUE,NA,NA,20180429,220372.8098,9633715.17
+PAR_A01,7,82,envira preta,Guatteria schomburgkiana,Annonaceae,13.3,O,FALSE,NA,NA,20180429,220364.7957,9633719.983
+PAR_A01,7,83,envira preta,Guatteria schomburgkiana,Annonaceae,12.6,O,FALSE,NA,NA,20180429,220364.5652,9633720.436
+PAR_A01,7,84,envira preta,Guatteria schomburgkiana,Annonaceae,11.8,O,FALSE,6.41,14.69,20180429,220361.5002,9633721.634
+PAR_A01,7,85,envira preta,Guatteria schomburgkiana,Annonaceae,13.6,O,FALSE,6.41,14.69,20180429,220361.3563,9633722.136
+PAR_A01,7,86,envira preta,Guatteria schomburgkiana,Annonaceae,14.5,O,FALSE,NA,NA,20180429,220361.5356,9633722.003
+PAR_A01,7,87,fava sao joao,NA,NA,24.4,O,FALSE,NA,NA,20180429,220365.6117,9633722.762
+PAR_A01,7,88,envira preta,Guatteria schomburgkiana,Annonaceae,18.2,O,FALSE,7.64,17.09,20180429,220361.1594,9633724.932
+PAR_A01,7,89,morta,NA,NA,12.2,O,TRUE,NA,NA,20180429,220360.6981,9633725.838
+PAR_A01,7,90,embauba,Cecropia ficifolia,Urticaceae,12.1,O,FALSE,NA,NA,20180429,220375.705,9633700.733
+PAR_A01,7,91,envira preta,Guatteria schomburgkiana,Annonaceae,22.5,O,FALSE,10.75,18.5,20180429,220357.6776,9633722.998
+PAR_A01,7,92,urucurana,Sloanea guianensis,Elaeocarpaceae,10.4,O,FALSE,NA,NA,20180429,220356.8071,9633722.514
+PAR_A01,7,93,farinha seca,Lindackeria paludosa,Achariaceae,12.4,O,FALSE,NA,NA,20180429,220351.8742,9633725.599
+PAR_A01,7,94,farinha seca,Lindackeria paludosa,Achariaceae,10.5,O,FALSE,NA,NA,20180429,220351.8186,9633727.896
+PAR_A01,7,95,morta,NA,NA,11.5,O,TRUE,NA,NA,20180429,220351.4099,9633726.506
+PAR_A01,7,96,inga vermelho,Inga alba,Fabaceae,35,O,FALSE,NA,NA,20180429,220347.7491,9633731.468
+PAR_A01,7,97,inga vermelho,Inga alba,Fabaceae,26.7,O,FALSE,NA,NA,20180429,220347.2844,9633732.375
+PAR_A01,7,98,maravuvuia,Croton matourensis,Euphorbiaceae,18.5,O,FALSE,NA,NA,20180429,220349.035,9633733.337
+PAR_A01,7,99,parapara,Jacaranda copaia,Bignoniaceae,26,O,FALSE,NA,NA,20180429,220355.5762,9633738.092
+PAR_A01,7,100,breu sucuruba,Trattinnickia burserifolia,Burseraceae,19.8,O,FALSE,NA,NA,20180429,220358.663,9633738.63
+PAR_A01,7,101,inga branco,Inga thibaudiana,Fabaceae,11.7,O,FALSE,NA,NA,20180429,220359.5383,9633739.111
+PAR_A01,7,102,inga branco,Inga thibaudiana,Fabaceae,17.4,O,FALSE,NA,NA,20180429,220361.7909,9633736.878
+PAR_A01,7,103,inga branco,Inga thibaudiana,Fabaceae,13.5,O,FALSE,NA,NA,20180429,220357.2835,9633741.344
+PAR_A01,7,104,breu vermelho,Protium hebetatum,Burseraceae,11,O,FALSE,NA,NA,20180429,220353.7323,9633741.713
+PAR_A01,7,105,inga vermelho,Inga alba,Fabaceae,40.3,O,FALSE,NA,NA,20180429,220321.9014,9633718.422
+PAR_A01,7,106,abiu vermelho,Pouteria cladantha,Sapotaceae,38.4,O,FALSE,NA,NA,20180429,220321.5794,9633714.721
+PAR_A01,7,107,morta,NA,NA,38.3,O,TRUE,NA,NA,20180429,220328.3301,9633699.629
+PAR_A01,8,108,farinha seca,Lindackeria paludosa,Achariaceae,14.3,O,FALSE,4.74,7.8,20180429,220246.4945,9633625.67
+PAR_A01,8,109,breu,Protium heptaphyllum,Burseraceae,13.7,O,FALSE,6.69,11.27,20180429,220246.9897,9633632.468
+PAR_A01,8,110,freijo branco,Cordia scabrifolia,Boraginaceae,17.7,O,FALSE,NA,NA,20180429,220243.7787,9633634.296
+PAR_A01,8,111,freijo branco,Cordia scabrifolia,Boraginaceae,11.4,O,FALSE,NA,NA,20180429,220237.3202,9633624.882
+PAR_A01,8,112,freijo branco,Cordia scabrifolia,Boraginaceae,11.7,O,FALSE,NA,NA,20180429,220235.4046,9633623.85
+PAR_A01,8,113,morta,NA,NA,10,O,TRUE,NA,NA,20180429,220235.3017,9633621.458
+PAR_A01,8,114,burra leiteira,Sapium marmieri,Euphorbiaceae,23.2,O,FALSE,NA,NA,20180429,220232.7372,9633627.087
+PAR_A01,8,115,freijo branco,Cordia scabrifolia,Boraginaceae,13,O,FALSE,NA,NA,20180429,220231.3541,9633627.503
+PAR_A01,8,116,pau santo,Zollernia paraensis,Fabaceae,16.5,O,FALSE,NA,NA,20180429,220236.8485,9633636.422
+PAR_A01,8,117,abiu preto,Pouteria sp.,Sapotaceae,26.3,O,FALSE,NA,NA,20180429,220242.5706,9633639.599
+PAR_A01,8,118,envira preta,Guatteria schomburgkiana,Annonaceae,15,O,FALSE,NA,NA,20180429,220244.4779,9633640.657
+PAR_A01,8,119,iperana,Eperua bijuga,Fabaceae,14.5,O,FALSE,NA,NA,20180429,220237.3715,9633637.901
+PAR_A01,8,120,burra leiteira,Sapium marmieri,Euphorbiaceae,18.7,O,FALSE,4.03,10.98,20180429,220236.4182,9633637.37
+PAR_A01,8,121,mamui,Jacaratia spinosa,Caricaceae,24.2,O,FALSE,NA,NA,20180429,220230.7954,9633636.598
+PAR_A01,8,122,embauba branca,Cecropia palmata,Urticaceae,12.2,O,FALSE,NA,NA,20180429,220229.843,9633636.065
+PAR_A01,8,123,tamanqueira,Zanthoxylum rhoifolium,Rutaceae,12.4,O,FALSE,NA,NA,20180429,220230.8906,9633639.017
+PAR_A01,8,124,embauba,Cecropia ficifolia,Urticaceae,19.5,O,FALSE,NA,NA,20180429,220228.7573,9633656.885
+PAR_A01,8,125,burra leiteira,Sapium marmieri,Euphorbiaceae,13.4,O,FALSE,NA,NA,20180429,220228.7573,9633656.885
+PAR_A01,8,126,inga,Inga marginata,Fabaceae,10.5,O,FALSE,NA,NA,20180429,220234.8606,9633659.277
+PAR_A01,8,127,morta,NA,NA,33.6,O,TRUE,NA,NA,20180429,220234.4274,9633660.235
+PAR_A01,8,128,freijo branco,Cordia scabrifolia,Boraginaceae,14.8,O,FALSE,NA,NA,20180429,220229.8646,9633662.373
+PAR_A01,8,129,timborana,Pseudopiptadenia suaveolens,Fabaceae,33.5,O,FALSE,14.16,21.53,20180429,220221.4604,9633659.748
+PAR_A01,8,130,guariuba,Clarisia racemosa,Moraceae,15.4,O,FALSE,NA,NA,20180429,220220.431,9633656.736
+PAR_A01,8,131,burra leiteira,Sapium marmieri,Euphorbiaceae,15.9,O,FALSE,NA,NA,20180429,220217.0837,9633653.547
+PAR_A01,8,132,ata meju,NA,NA,13.3,O,FALSE,NA,NA,20180429,220216.2314,9633655.415
+PAR_A01,8,133,tanibuca,Terminalia amazonia,Combretaceae,23.2,O,FALSE,NA,NA,20180429,220216.9232,9633661.801
+PAR_A01,8,134,mamui,Jacaratia spinosa,Caricaceae,41,O,FALSE,NA,NA,20180429,220212.6921,9633647.395
+PAR_A01,8,135,iperana,Eperua bijuga,Fabaceae,43.7,O,FALSE,NA,NA,20180429,220212.1834,9633635.414
+PAR_A01,8,136,abiu preto,Pouteria sp.,Sapotaceae,31.7,O,FALSE,NA,NA,20180429,220218.7884,9633649.81
+PAR_A01,8,137,abiu preto,Pouteria sp.,Sapotaceae,11.3,O,FALSE,NA,NA,20180429,220218.7884,9633649.81
+PAR_A01,8,138,freijo cisa,NA,NA,37.3,O,FALSE,NA,NA,20180429,220181.3223,9633652.747
+PAR_A01,8,139,fava bolota,Parkia pendula,Fabaceae,46.2,O,FALSE,NA,NA,20180429,220204.0808,9633603.64
+PAR_A01,8,140,inga,Inga marginata,Fabaceae,41.4,O,FALSE,NA,NA,20180429,220217.7765,9633636.285
+PAR_A01,9,1,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,15.2,O,FALSE,NA,NA,20180428,220714.3109,9633685.523
+PAR_A01,9,2,angelim vermelho,Dinizia excelsa,Fabaceae,14.4,O,FALSE,NA,NA,20180428,220709.8801,9633682.868
+PAR_A01,9,3,embauba branca,Cecropia palmata,Urticaceae,14.5,O,FALSE,NA,NA,20180428,220708.0408,9633684.574
+PAR_A01,9,4,inga ,Inga marginata,Fabaceae,20,O,FALSE,NA,NA,20180428,220713.6015,9633686.988
+PAR_A01,9,5,jatereu,Lecythis idatimon,Lecythidaceae,12,O,FALSE,NA,NA,20180428,220716.9384,9633686.97
+PAR_A01,9,6,matamata preto,Eschweilera ovata,Lecythidaceae,11.2,O,FALSE,NA,NA,20180428,220720.1704,9633685.049
+PAR_A01,9,7,morta,NA,NA,33.2,O,TRUE,NA,NA,20180428,220719.2723,9633687
+PAR_A01,9,8,casca seca,Licania canescens,Chrysobalanaceae,21.9,O,FALSE,NA,NA,20180428,220722.0795,9633691.125
+PAR_A01,9,9,casca seca,Licania canescens,Chrysobalanaceae,11.9,O,FALSE,NA,NA,20180428,220720.6913,9633692.15
+PAR_A01,9,10,jatereu,Lecythis idatimon,Lecythidaceae,28.2,O,FALSE,NA,NA,20180428,220718.5143,9633690.705
+PAR_A01,9,11,fava folha fina,Pseudopiptadenia psilostachya,Fabaceae,10.1,O,FALSE,NA,NA,20180428,220717.7105,9633690.393
+PAR_A01,9,12,angelim vermelho,Dinizia excelsa,Fabaceae,10.8,O,FALSE,12.51,20.53,20180428,220716.5809,9633689.756
+PAR_A01,9,13,abiu,Pouteria sp.,Sapotaceae,19,O,FALSE,NA,NA,20180428,220716.323,9633689.697
+PAR_A01,9,14,lacre branco,Vismia guianensis,Hypericaceae,12.5,O,FALSE,NA,NA,20180428,220714.2787,9633691.599
+PAR_A01,9,15,sucuuba,Himatanthus sucuuba,Apocynaceae,11.5,O,FALSE,NA,NA,20180428,220713.1299,9633691.982
+PAR_A01,9,16,goiaba de anta,Bellucia grossularioides,Melastomataceae,10.2,O,FALSE,NA,NA,20180428,220707.8813,9633686.804
+PAR_A01,9,17,angelim vermelho,Dinizia excelsa,Fabaceae,21.5,O,FALSE,NA,NA,20180428,220705.7609,9633692.951
+PAR_A01,9,18,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,13.4,O,FALSE,NA,NA,20180428,220707.1237,9633696.24
+PAR_A01,9,19,cupania,NA,NA,11,O,FALSE,NA,NA,20180428,220705.9162,9633696.652
+PAR_A01,9,20,fava folha fina,Pseudopiptadenia psilostachya,Fabaceae,11,O,FALSE,NA,NA,20180428,220713.6498,9633699.215
+PAR_A01,9,21,jatereu,Lecythis idatimon,Lecythidaceae,13,O,FALSE,NA,NA,20180428,220716.874,9633698.571
+PAR_A01,9,22,abiu rosadinho,Pouteria reticulata,Sapotaceae,25,O,FALSE,13.65,18.21,20180428,220710.5857,9633701.539
+PAR_A01,9,23,abiurana,Pouteria gongrijpii,Sapotaceae,13.5,O,FALSE,NA,NA,20180428,220714.0227,9633707.178
+PAR_A01,9,24,jatereu,Lecythis idatimon,Lecythidaceae,10.3,O,FALSE,NA,NA,20180428,220708.5032,9633703.824
+PAR_A01,9,25,tachi preto,Tachigali myrmecophila,Fabaceae,11.8,O,FALSE,NA,NA,20180428,220709.6671,9633707.868
+PAR_A01,9,26,capueiro,Rinorea guianensis,Violaceae,16,O,FALSE,NA,NA,20180428,220706.8712,9633709.469
+PAR_A01,9,27,jatereu,Lecythis idatimon,Lecythidaceae,16.9,O,FALSE,9.87,13.37,20180428,220703.5024,9633707.836
+PAR_A01,9,28,capueiro,Rinorea guianensis,Violaceae,14.7,O,FALSE,NA,NA,20180428,220700.7393,9633704.987
+PAR_A01,9,29,uxirana,Sacoglottis guianensis,Humiriaceae,26.8,O,FALSE,NA,NA,20180428,220697.9011,9633704.392
+PAR_A01,9,30,morta,NA,NA,13,O,TRUE,NA,NA,20180428,220699.1214,9633706.125
+PAR_A01,9,31,matamata preto,Eschweilera ovata,Lecythidaceae,33.3,O,FALSE,NA,NA,20180428,220698.6817,9633706.998
+PAR_A01,9,32,matamata preto,Eschweilera ovata,Lecythidaceae,47.4,O,FALSE,NA,NA,20180428,220688.2009,9633687.569
+PAR_A01,9,33,abiu rosadinho,Pouteria reticulata,Sapotaceae,57.4,O,FALSE,14.05,24.62,20180428,220683.6731,9633689.904
+PAR_A01,9,34,envira burucuru,NA,NA,10,O,TRUE,NA,7.26,20180428,220703.7979,9633709.383
+PAR_A01,9,35,capueiro,Rinorea guianensis,Violaceae,15,O,FALSE,10.97,15.32,20180428,220698.0766,9633712.451
+PAR_A01,9,36,capueiro,Rinorea guianensis,Violaceae,10.8,O,FALSE,NA,NA,20180428,220693.8191,9633718.825
+PAR_A01,9,37,parajuba,Manilkara bidentata,Sapotaceae,19.8,O,FALSE,NA,NA,20180428,220689.8209,9633718.027
+PAR_A01,9,38,capueiro,Rinorea guianensis,Violaceae,13.1,O,FALSE,NA,NA,20180428,220694.286,9633720.09
+PAR_A01,9,39,envira surucucu,Duguetia surinamensis,Annonaceae,14.4,O,FALSE,NA,NA,20180428,220688.6427,9633720.312
+PAR_A01,9,40,capueiro,Rinorea guianensis,Violaceae,18.1,O,FALSE,NA,NA,20180428,220704.6584,9633725.842
+PAR_A01,9,41,casca seca,Licania canescens,Chrysobalanaceae,12.2,O,FALSE,NA,NA,20180428,220705.0816,9633727.326
+PAR_A01,9,42,inhare,Helicostylis tomentosa,Moraceae,36.3,O,FALSE,NA,NA,20180428,220679.5827,9633710.255
+PAR_A01,9,43,matamata preto,Eschweilera ovata,Lecythidaceae,61.7,O,FALSE,20.03,35.19,20180428,220663.0325,9633707.598
+PAR_A01,9,44,abiu guajara,Pouteria sp.,Sapotaceae,95,O,FALSE,15.01,26,20180428,220667.4048,9633700.527
+PAR_A01,9,45,jatereu,Lecythis idatimon,Lecythidaceae,53,O,FALSE,18.3,30.4,20180428,220675.465,9633691.023
+PAR_A01,9,46,morta,NA,NA,62,O,TRUE,NA,25.02,20180428,220676.9001,9633688.676
+PAR_A01,9,47,casca seca,Licania canescens,Chrysobalanaceae,42.7,O,FALSE,NA,NA,20180428,220685.6268,9633686.581
+PAR_A01,10,48,inhare,Helicostylis tomentosa,Moraceae,11.7,O,FALSE,NA,NA,20180428,220589.7343,9633612.042
+PAR_A01,10,49,burra leiteira,Sapium marmieri,Euphorbiaceae,20.5,O,FALSE,NA,NA,20180428,220587.4059,9633612.439
+PAR_A01,10,50,farinha seca,Lindackeria paludosa,Achariaceae,17.4,O,FALSE,NA,NA,20180428,220582.0781,9633613.062
+PAR_A01,10,51,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,33.6,O,FALSE,NA,NA,20180428,220577.5451,9633610.912
+PAR_A01,10,52,carapanauba,Aspidosperma excelsum,Apocynaceae,26,O,FALSE,NA,NA,20180428,220586.185,9633616.855
+PAR_A01,10,53,angelim rajado,Zygia racemosa,Fabaceae,13,O,FALSE,NA,NA,20180428,220587.756,9633617.939
+PAR_A01,10,54,envirao,NA,NA,12.3,O,FALSE,7.15,11.16,20180428,220575.6256,9633614.557
+PAR_A01,10,55,timborana,Pseudopiptadenia suaveolens,Fabaceae,13,O,FALSE,NA,NA,20180428,220574.1349,9633619.432
+PAR_A01,10,56,fava arara tucupi,Parkia multijuga,Fabaceae,19.8,O,FALSE,NA,NA,20180428,220581.0019,9633622.735
+PAR_A01,10,57,axixa,Sterculia pruriens,Malvaceae,15.4,O,FALSE,NA,NA,20180428,220580.8743,9633622.775
+PAR_A01,10,58,axixa,Sterculia pruriens,Malvaceae,20,O,FALSE,NA,NA,20180428,220580.7912,9633622.728
+PAR_A01,10,59,inga de rosca,Abarema mataybifolia,Fabaceae,19.6,O,FALSE,NA,NA,20180428,220579.2182,9633626.174
+PAR_A01,10,60,matamata preto,Eschweilera ovata,Lecythidaceae,34.1,O,FALSE,NA,NA,20180428,220580.2108,9633628.41
+PAR_A01,10,61,inga vermelho,Inga alba,Fabaceae,15,O,FALSE,NA,NA,20180428,220579.3759,9633629.608
+PAR_A01,10,62,burra leiteira,Sapium marmieri,Euphorbiaceae,13.9,O,FALSE,NA,NA,20180428,220566.4367,9633625.836
+PAR_A01,10,63,burra leiteira,Sapium marmieri,Euphorbiaceae,10.4,O,FALSE,NA,NA,20180428,220570.8873,9633629.735
+PAR_A01,10,64,pente de macaco,Apeiba petoumo,Malvaceae,18.5,O,FALSE,NA,NA,20180428,220570.798,9633629.905
+PAR_A01,10,65,burra leiteira,Sapium marmieri,Euphorbiaceae,14.7,O,FALSE,NA,NA,20180428,220565.8389,9633629.02
+PAR_A01,10,66,matamata,Eschweilera parviflora,Lecythidaceae,48,O,FALSE,NA,NA,20180428,220580.4702,9633639.002
+PAR_A01,10,67,muruci,Byrsonima crispa,Malpighiaceae,13.7,O,FALSE,6.16,12.92,20180428,220567.066,9633634.952
+PAR_A01,10,68,lacre branco,Vismia guianensis,Hypericaceae,17.4,O,FALSE,NA,NA,20180428,220564.17,9633634.244
+PAR_A01,10,69,burra leiteira,Sapium marmieri,Euphorbiaceae,12,O,FALSE,NA,NA,20180428,220566.2627,9633636.482
+PAR_A01,10,70,burra leiteira,Sapium marmieri,Euphorbiaceae,15.5,O,FALSE,NA,NA,20180428,220565.3539,9633640.297
+PAR_A01,10,71,jatereu,Lecythis idatimon,Lecythidaceae,33.1,O,FALSE,NA,NA,20180428,220560.359,9633643.552
+PAR_A01,10,72,breu sucuruba,Trattinnickia burserifolia,Burseraceae,22.1,O,FALSE,NA,NA,20180428,220559.4662,9633645.247
+PAR_A01,10,73,NA,NA,NA,16.1,O,FALSE,NA,NA,20180428,220557.9645,9633646.01
+PAR_A01,10,74,muruci,Byrsonima crispa,Malpighiaceae,28.2,O,FALSE,11.48,23.38,20180428,220570.328,9633651.759
+PAR_A01,10,75,morta,NA,NA,36,O,TRUE,NA,NA,20180428,220551.0837,9633642.351
+PAR_A01,10,76,abiu guajara,Pouteria sp.,Sapotaceae,37,O,FALSE,NA,NA,20180428,220554.6843,9633627.436
+PAR_A01,10,77,araracanga,Aspidosperma spruceanum,Apocynaceae,35.4,O,FALSE,NA,NA,20180428,220551.1015,9633619.901
+PAR_A01,10,78,casca seca,Licania canescens,Chrysobalanaceae,41,O,FALSE,NA,NA,20180428,220561.1032,9633617.526
+PAR_A01,11,79,murure,Brosimum acutifolium,Moraceae,28,O,FALSE,NA,NA,20180428,220453.2073,9633537.124
+PAR_A01,11,80,abiurana,Pouteria gongrijpii,Sapotaceae,14.4,O,FALSE,NA,NA,20180428,220448.126,9633534.275
+PAR_A01,11,81,inga,Inga marginata,Fabaceae,11.2,O,FALSE,NA,NA,20180428,220452.2686,9633539.206
+PAR_A01,11,82,envira cana,Xylopia nitida,Annonaceae,11.9,O,FALSE,NA,NA,20180428,220443.9453,9633543.734
+PAR_A01,11,83,inga,Inga marginata,Fabaceae,13.8,O,FALSE,NA,NA,20180428,220454.4424,9633552.918
+PAR_A01,11,84,pente de macaco,Apeiba petoumo,Malvaceae,17.8,O,FALSE,NA,NA,20180428,220455.3331,9633553.322
+PAR_A01,11,85,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,16,O,FALSE,NA,NA,20180428,220455.1418,9633553.667
+PAR_A01,11,86,envira preta,Guatteria schomburgkiana,Annonaceae,13.8,O,FALSE,NA,NA,20180428,220454.0901,9633555.565
+PAR_A01,11,87,macucu,Licania guianensis,Chrysobalanaceae,11,O,FALSE,NA,NA,20180428,220447.7044,9633553
+PAR_A01,11,88,macucu,Licania guianensis,Chrysobalanaceae,10.7,O,FALSE,NA,NA,20180428,220440.809,9633553.338
+PAR_A01,11,89,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,15.2,O,FALSE,NA,NA,20180428,220436.5835,9633550.889
+PAR_A01,11,90,capueiro,Rinorea guianensis,Violaceae,17.3,O,FALSE,NA,NA,20180428,220436.0999,9633551.751
+PAR_A01,11,91,capueiro,Rinorea guianensis,Violaceae,14,O,FALSE,8.3,12.02,20180428,220438.0322,9633552.3
+PAR_A01,11,92,tento,Ormosia coccinea,Fabaceae,11.5,O,FALSE,9.55,14.08,20180428,220442.805,9633556.778
+PAR_A01,11,93,morta,NA,NA,27.2,O,TRUE,NA,NA,20180428,220435.3506,9633555.087
+PAR_A01,11,94,fava folha fina,Pseudopiptadenia psilostachya,Fabaceae,17.2,O,FALSE,NA,NA,20180428,220430.9046,9633563.021
+PAR_A01,11,95,muruci,Byrsonima crispa,Malpighiaceae,13,O,FALSE,NA,NA,20180428,220429.2132,9633566.04
+PAR_A01,11,96,parapara,Jacaranda copaia,Bignoniaceae,28.5,O,FALSE,NA,NA,20180428,220430.4794,9633567.797
+PAR_A01,11,97,parapara,Jacaranda copaia,Bignoniaceae,34.7,O,FALSE,NA,NA,20180428,220429.4658,9633569.608
+PAR_A01,11,98,pau jacare,Laetia procera,Salicaceae,12.4,O,FALSE,NA,NA,20180428,220430.6064,9633569.581
+PAR_A01,11,99,inga,Inga marginata,Fabaceae,11.7,O,FALSE,9.1,15.27,20180428,220437.3464,9633569.591
+PAR_A01,11,100,inga xixica,Inga heterophylla,Fabaceae,10.9,O,FALSE,NA,NA,20180428,220432.7116,9633573.872
+PAR_A01,11,101,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,18.3,O,FALSE,NA,NA,20180428,220441.7083,9633577.914
+PAR_A01,11,102,pente de macaco,Apeiba petoumo,Malvaceae,12.2,O,FALSE,NA,NA,20180428,220440.2189,9633582.633
+PAR_A01,11,103,burra leiteira,Sapium marmieri,Euphorbiaceae,15.2,O,FALSE,NA,NA,20180428,220428.1316,9633569.98
+PAR_A01,11,104,mamorana,Eriotheca globosa,Malvaceae,15.4,O,FALSE,NA,NA,20180428,220426.3136,9633571.214
+PAR_A01,11,105,morta,NA,NA,37,O,TRUE,NA,NA,20180428,220419.7455,9633570.857
+PAR_A01,11,106,marupa,Simarouba amara,Simaroubaceae,39.5,O,FALSE,NA,NA,20180428,220422.6615,9633553.689
+PAR_A01,11,107,morta,NA,NA,55.3,O,TRUE,12.42,24.21,20180428,220425.5575,9633530.748
+PAR_A01,11,108,parapara,Jacaranda copaia,Bignoniaceae,42.2,O,FALSE,NA,NA,20180428,220429.8246,9633525.205
+PAR_A01,11,109,abiurana,Pouteria gongrijpii,Sapotaceae,60,O,FALSE,15.97,27.27,20180428,220422.0705,9633517.237
+PAR_A01,11,110,inga vermelho,Inga alba,Fabaceae,58,O,FALSE,12.53,20.35,20180428,220438.5708,9633531.45
+PAR_A01,11,111,muiracatiara,Astronium graveolens,Anacardiaceae,40.2,O,FALSE,NA,NA,20180428,220439.4104,9633531.94
+PAR_A01,12,112,inga branco,Inga thibaudiana,Fabaceae,10.3,O,FALSE,NA,NA,20180428,220328.6386,9633466.116
+PAR_A01,12,113,inga vermelho,Inga alba,Fabaceae,14.3,O,FALSE,NA,NA,20180428,220327.8403,9633465.645
+PAR_A01,12,114,inga,Inga marginata,Fabaceae,15.2,O,FALSE,NA,NA,20180428,220328.1322,9633467.012
+PAR_A01,12,115,iperana,Eperua bijuga,Fabaceae,34.7,O,FALSE,NA,NA,20180428,220319.0418,9633458.655
+PAR_A01,12,116,inga vermelho,Inga alba,Fabaceae,12.5,O,FALSE,NA,NA,20180428,220318.8735,9633466.341
+PAR_A01,12,117,inga,Inga marginata,Fabaceae,13.3,O,FALSE,NA,NA,20180428,220318.5441,9633468.779
+PAR_A01,12,118,goiaba de anta,Bellucia grossularioides,Melastomataceae,11.2,O,FALSE,NA,NA,20180428,220323.3807,9633471.618
+PAR_A01,12,119,inga vermelho,Inga alba,Fabaceae,20.5,O,FALSE,NA,NA,20180428,220327.361,9633474.074
+PAR_A01,12,120,inga vermelho,Inga alba,Fabaceae,24.2,O,FALSE,NA,NA,20180428,220326.5044,9633473.691
+PAR_A01,12,121,inga,Inga marginata,Fabaceae,15,O,FALSE,NA,NA,20180428,220317.2293,9633473.504
+PAR_A01,12,122,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,11.8,O,FALSE,NA,NA,20180428,220314.8476,9633473.305
+PAR_A01,12,123,abiurana,Pouteria gongrijpii,Sapotaceae,23,O,FALSE,NA,NA,20180428,220309.843,9633468.822
+PAR_A01,12,124,abiu cutite,Pouteria macrophylla,Sapotaceae,27,O,FALSE,NA,NA,20180428,220308.8768,9633472.327
+PAR_A01,12,125,jatereu,Lecythis idatimon,Lecythidaceae,14.2,O,FALSE,NA,NA,20180428,220308.6154,9633472.772
+PAR_A01,12,126,inga,Inga marginata,Fabaceae,11.1,O,FALSE,NA,NA,20180428,220308.5438,9633474.763
+PAR_A01,12,127,inga,Inga marginata,Fabaceae,14.8,O,FALSE,NA,NA,20180428,220309.3466,9633477.143
+PAR_A01,12,128,inga,Inga marginata,Fabaceae,11,O,FALSE,9.49,13.49,20180428,220313.3369,9633479.706
+PAR_A01,12,129,maravuvuia,Croton matourensis,Euphorbiaceae,13.2,O,FALSE,14.36,20.91,20180428,220315.7424,9633481.226
+PAR_A01,12,130,maravuvuia,Croton matourensis,Euphorbiaceae,20,O,FALSE,8.08,18.29,20180428,220316.8718,9633483.075
+PAR_A01,12,131,casca seca,Licania canescens,Chrysobalanaceae,20.6,O,FALSE,NA,NA,20180428,220321.2399,9633486.925
+PAR_A01,12,132,maravuvuia,Croton matourensis,Euphorbiaceae,21,O,FALSE,NA,NA,20180428,220318.2204,9633486.478
+PAR_A01,12,133,maravuvuia,Croton matourensis,Euphorbiaceae,17,O,FALSE,NA,NA,20180428,220316.018,9633492.333
+PAR_A01,12,134,maravuvuia,Croton matourensis,Euphorbiaceae,28.2,O,FALSE,12.38,17.95,20180428,220311.7867,9633492.025
+PAR_A01,12,135,inga,Inga marginata,Fabaceae,10.9,O,FALSE,NA,NA,20180428,220303.9169,9633494.145
+PAR_A01,12,136,fava arara tucupi,Parkia multijuga,Fabaceae,12,O,FALSE,NA,NA,20180428,220303.6658,9633494.001
+PAR_A01,12,137,fava arara tucupi,Parkia multijuga,Fabaceae,10.7,O,FALSE,NA,NA,20180428,220302.8088,9633495.292
+PAR_A01,12,138,fava arara tucupi,Parkia multijuga,Fabaceae,15.5,O,FALSE,NA,NA,20180428,220317.514,9633470.565
+PAR_A01,12,139,maravuvuia,Croton matourensis,Euphorbiaceae,11.5,O,FALSE,NA,NA,20180428,220312.3376,9633498.876
+PAR_A01,12,140,maravuvuia,Croton matourensis,Euphorbiaceae,15.3,O,FALSE,NA,NA,20180428,220311.4302,9633500.49
+PAR_A01,12,141,maravuvuia,Croton matourensis,Euphorbiaceae,24,O,FALSE,13.03,20.21,20180428,220309.7524,9633499.524
+PAR_A01,12,142,muruci,Byrsonima crispa,Malpighiaceae,12.5,O,FALSE,NA,NA,20180428,220307.7777,9633503.017
+PAR_A01,12,143,envira preta,Guatteria schomburgkiana,Annonaceae,15.8,O,FALSE,NA,NA,20180428,220306.6808,9633502.981
+PAR_A01,12,144,inga ,Inga marginata,Fabaceae,15,O,FALSE,NA,NA,20180428,220306.5794,9633503.16
+PAR_A01,12,145,inga,Inga marginata,Fabaceae,16.7,O,FALSE,NA,NA,20180428,220307.4473,9633507.57
+PAR_A01,12,146,gema de ovo,Aspidosperma parvifolium,Apocynaceae,10.8,O,FALSE,NA,NA,20180428,220306.3472,9633507.533
+PAR_A01,12,147,inga de rosca,Abarema mataybifolia,Fabaceae,21.5,O,FALSE,NA,NA,20180428,220306.439,9633509.363
+PAR_A01,12,148,joao mole,Neea oppositifolia,Nyctaginaceae,17.1,O,FALSE,NA,NA,20180428,220302.1581,9633505.018
+PAR_A01,12,149,fava arara tucupi,Parkia multijuga,Fabaceae,11.7,O,FALSE,NA,NA,20180428,220296.0781,9633496.066
+PAR_A01,12,150,morta,NA,NA,19.5,O,TRUE,NA,NA,20180428,220295.0994,9633499.671
+PAR_A01,12,151,iperana,Eperua bijuga,Fabaceae,31,O,FALSE,NA,NA,20180428,220293.5379,9633502.346
+PAR_A01,12,152,coracao de negro,Chamaecrista xinguensis,Fabaceae,57.5,O,FALSE,14.86,28.73,20180428,220289.4383,9633484.492
+PAR_A01,12,153,abiurana,Pouteria gongrijpii,Sapotaceae,36.5,O,FALSE,NA,NA,20180428,220290.1199,9633474.108
+PAR_A01,12,154,macaranduba,Manilkara huberi,Sapotaceae,36.3,O,FALSE,NA,NA,20180428,220285.9991,9633473.52
+PAR_A01,12,155,abiu casca grossa,NA,NA,53.2,O,FALSE,16.72,28.44,20180428,220273.0021,9633476.221
+PAR_A01,12,156,abiu,Pouteria sp.,Sapotaceae,39.2,O,FALSE,NA,NA,20180428,220283.295,9633479.753
+PAR_A01,13,1,tatapiririca,Tapirira guianensis,Anacardiaceae,34,O,FALSE,NA,NA,20180428,220831.6055,9633484.28
+PAR_A01,13,2,envira preta,Guatteria schomburgkiana,Annonaceae,16.4,O,FALSE,NA,NA,20180428,220831.1669,9633485.199
+PAR_A01,13,3,fava de paca,NA,NA,10,O,FALSE,NA,NA,20180428,220830.8546,9633485.374
+PAR_A01,13,4,envira preta,Guatteria schomburgkiana,Annonaceae,11.4,O,FALSE,NA,NA,20180428,220830.2631,9633484.694
+PAR_A01,13,5,acai,Euterpe oleracea,Arecaceae,13.5,P,FALSE,NA,NA,20180428,220829.2876,9633481.939
+PAR_A01,13,6,acai,Euterpe oleracea,Arecaceae,13.8,P,FALSE,NA,NA,20180428,220817.2055,9633480.887
+PAR_A01,13,7,acai,Euterpe oleracea,Arecaceae,10.7,P,FALSE,NA,NA,20180428,220818.6058,9633485.157
+PAR_A01,13,8,acai,Euterpe oleracea,Arecaceae,12.2,P,FALSE,11.97,17,20180428,220819.5931,9633492.69
+PAR_A01,13,9,acai,Euterpe oleracea,Arecaceae,10.4,P,FALSE,NA,NA,20180428,220819.7707,9633492.557
+PAR_A01,13,10,acai,Euterpe oleracea,Arecaceae,10.8,P,FALSE,NA,NA,20180428,220819.8954,9633495.654
+PAR_A01,13,11,morototo,Schefflera morototoni,Araliaceae,29.5,O,FALSE,NA,NA,20180428,220814.1835,9633489.656
+PAR_A01,13,12,tatapiririca,Tapirira guianensis,Anacardiaceae,16.7,O,FALSE,NA,NA,20180428,220811.1601,9633491.215
+PAR_A01,13,13,inga vermelho,Inga alba,Fabaceae,19.2,O,FALSE,NA,NA,20180428,220811.2036,9633491.123
+PAR_A01,13,14,acai,Euterpe oleracea,Arecaceae,12.5,P,FALSE,NA,NA,20180428,220812.0027,9633494.247
+PAR_A01,13,15,inga vermelho,Inga alba,Fabaceae,11.7,O,FALSE,6.89,16.98,20180428,220812.9034,9633494.753
+PAR_A01,13,16,parapara,Jacaranda copaia,Bignoniaceae,35.6,O,FALSE,16.54,26.46,20180428,220813.8041,9633495.259
+PAR_A01,13,17,anani,Symphonia globulifera,Clusiaceae,32.7,O,FALSE,NA,NA,20180428,220806.769,9633505.266
+PAR_A01,13,18,breu vermelho,Protium hebetatum,Burseraceae,20.6,O,FALSE,NA,NA,20180428,220806.7948,9633507.61
+PAR_A01,13,19,escorrega macaco,Capirona decorticans,Rubiaceae,31.6,O,FALSE,NA,NA,20180428,220807.6929,9633508.117
+PAR_A01,13,20,escorrega macaco,Capirona decorticans,Rubiaceae,28.7,O,FALSE,NA,NA,20180428,220808.1543,9633509.542
+PAR_A01,13,21,escorrega macaco,Capirona decorticans,Rubiaceae,25.6,O,FALSE,NA,NA,20180428,220805.0495,9633511.283
+PAR_A01,13,22,uxirana,Sacoglottis guianensis,Humiriaceae,24.4,O,FALSE,NA,NA,20180428,220800.6143,9633513.433
+PAR_A01,13,23,sucupira babona,Diplotropis sp.,Fabaceae,25.7,O,FALSE,9.32,22.93,20180428,220807.3046,9633513.724
+PAR_A01,13,24,mapatirana,Pourouma minor,Urticaceae,28.9,O,FALSE,NA,NA,20180428,220809.099,9633514.739
+PAR_A01,13,25,cupiuba,Goupia glabra,Goupiaceae,12,O,FALSE,NA,NA,20180428,220810.4336,9633514.328
+PAR_A01,13,26,mapatirana,Pourouma minor,Urticaceae,19.4,O,FALSE,NA,NA,20180428,220809.5587,9633516.165
+PAR_A01,13,27,pente de macaco,Apeiba petoumo,Malvaceae,12.8,O,FALSE,NA,NA,20180428,220810.018,9633517.592
+PAR_A01,13,28,urucurana,Sloanea guianensis,Elaeocarpaceae,10.4,O,FALSE,NA,NA,20180428,220814.8993,9633514.519
+PAR_A01,13,29,inga branco,Inga thibaudiana,Fabaceae,19,O,FALSE,NA,NA,20180428,220815.7757,9633512.681
+PAR_A01,13,30,embauba branca,Cecropia palmata,Urticaceae,20.5,O,FALSE,NA,NA,20180428,220818.8656,9633508.592
+PAR_A01,13,31,envira preta,Guatteria schomburgkiana,Annonaceae,13.8,O,FALSE,NA,NA,20180428,220814.0826,9633523.395
+PAR_A01,13,32,lacre da mata,Vismia floribunda,Hypericaceae,37.5,O,FALSE,NA,NA,20180428,220809.1636,9633521.775
+PAR_A01,13,33,lacre da mata,Vismia floribunda,Hypericaceae,21.1,O,FALSE,NA,NA,20180428,220809.6116,9633522.029
+PAR_A01,13,34,envira preta,Guatteria schomburgkiana,Annonaceae,10.7,O,FALSE,NA,NA,20180428,220808.7457,9633525.04
+PAR_A01,13,35,envira preta,Guatteria schomburgkiana,Annonaceae,20.5,O,FALSE,NA,NA,20180428,220808.6561,9633524.989
+PAR_A01,13,36,tatapiririca,Tapirira guianensis,Anacardiaceae,10.5,O,FALSE,NA,NA,20180428,220811.8591,9633529.962
+PAR_A01,13,37,envira preta,Guatteria schomburgkiana,Annonaceae,19.7,O,FALSE,NA,NA,20180428,220811.4589,9633530.085
+PAR_A01,13,38,acai,Euterpe oleracea,Arecaceae,13.2,P,FALSE,NA,NA,20180428,220806.8671,9633524.207
+PAR_A01,13,39,acai,Euterpe oleracea,Arecaceae,12,P,FALSE,NA,NA,20180428,220806.7756,9633523.922
+PAR_A01,13,40,acai,Euterpe oleracea,Arecaceae,13.2,P,FALSE,NA,NA,20180428,220806.4966,9633522.597
+PAR_A01,13,41,acai,Euterpe oleracea,Arecaceae,10.5,P,FALSE,7.71,11.2,20180428,220806.4091,9633522.78
+PAR_A01,13,42,cupiuba,Goupia glabra,Goupiaceae,11,O,FALSE,NA,NA,20180428,220803.3506,9633519.646
+PAR_A01,13,43,anani,Symphonia globulifera,Clusiaceae,34.7,O,FALSE,13.61,23.05,20180428,220799.3545,9633520.876
+PAR_A01,13,44,tatapiririca,Tapirira guianensis,Anacardiaceae,59.8,O,FALSE,9.82,19.67,20180428,220794.8527,9633515.991
+PAR_A01,13,45,sucupira babona,Diplotropis sp.,Fabaceae,58.8,O,FALSE,13.48,28.61,20180428,220791.7573,9633517.728
+PAR_A01,13,46,tatapiririca,Tapirira guianensis,Anacardiaceae,41.7,O,FALSE,NA,NA,20180428,220787.1954,9633508.159
+PAR_A01,13,47,ucuuba preta,Virola michelii,Myristicaceae,44.5,O,FALSE,NA,NA,20180428,220799.1466,9633502.128
+PAR_A01,13,48,ucuuba preta,Virola michelii,Myristicaceae,58.5,O,FALSE,16.35,34.63,20180428,220797.7844,9633500.196
+PAR_A01,13,49,ucuuba preta,Virola michelii,Myristicaceae,43.5,O,FALSE,NA,NA,20180428,220801.7546,9633496.622
+PAR_A01,13,50,tatapiririca,Tapirira guianensis,Anacardiaceae,67.2,O,FALSE,8.18,26.07,20180428,220803.8317,9633485.011
+PAR_A01,13,51,morta,NA,NA,51.3,O,TRUE,NA,NA,20180428,220792.5064,9633475.181
+PAR_A01,13,52,escorrega macaco,Capirona decorticans,Rubiaceae,45.5,O,FALSE,NA,NA,20180428,220786.2337,9633473.979
+PAR_A01,13,53,sucupira babona,Diplotropis sp.,Fabaceae,76.5,O,FALSE,19.63,29.4,20180428,220788.1537,9633482.005
+PAR_A01,13,54,cumaru brejo,NA,NA,50.4,O,FALSE,20.39,37.43,20180428,220787.7596,9633485.261
+PAR_A01,13,55,ucuuba preta,Virola michelii,Myristicaceae,36.8,O,FALSE,NA,NA,20180428,220784.2717,9633490.252
+PAR_A01,13,56,anani,Symphonia globulifera,Clusiaceae,42.3,O,FALSE,NA,NA,20180428,220782.5814,9633496.257
+PAR_A01,14,57,breu vermelho,Protium hebetatum,Burseraceae,12.4,O,FALSE,7.71,17.2,20180428,220680.0376,9633403.533
+PAR_A01,14,58,andirobinha,NA,NA,18.4,O,FALSE,NA,NA,20180428,220687.4029,9633406.661
+PAR_A01,14,59,sucupira babona,Diplotropis sp.,Fabaceae,39.3,O,FALSE,NA,NA,20180428,220688.0369,9633407.587
+PAR_A01,14,60,acai,Euterpe oleracea,Arecaceae,13.2,P,FALSE,NA,NA,20180428,220689.3982,9633409.267
+PAR_A01,14,61,acai,Euterpe oleracea,Arecaceae,14.8,P,FALSE,NA,NA,20180428,220686.6113,9633412.359
+PAR_A01,14,62,cumaru brejo,NA,NA,13,O,FALSE,NA,NA,20180428,220687.0121,9633417.964
+PAR_A01,14,63,andirobinha,NA,NA,14,O,FALSE,NA,NA,20180428,220698.9661,9633416.763
+PAR_A01,14,64,andirobinha,NA,NA,19,O,FALSE,NA,NA,20180428,220699.4109,9633418.056
+PAR_A01,14,65,pano amarelo,NA,NA,19.5,O,FALSE,NA,NA,20180428,220699.0141,9633412.416
+PAR_A01,14,66,tatapiririca,Tapirira guianensis,Anacardiaceae,29.5,O,FALSE,NA,NA,20180428,220699.9288,9633412.818
+PAR_A01,14,67,pano amarelo,NA,NA,22.8,O,FALSE,NA,NA,20180428,220694.9089,9633409.524
+PAR_A01,14,68,acai,Euterpe oleracea,Arecaceae,12.4,P,FALSE,NA,NA,20180428,220690.6432,9633421.783
+PAR_A01,14,69,pano amarelo,NA,NA,15.5,O,FALSE,NA,NA,20180428,220693.8281,9633424.32
+PAR_A01,14,70,breu vermelho,Protium hebetatum,Burseraceae,18.3,O,FALSE,NA,NA,20180428,220694.7416,9633424.734
+PAR_A01,14,71,andirobinha,NA,NA,19,O,FALSE,NA,NA,20180428,220687.3857,9633425.771
+PAR_A01,14,72,pano amarelo,NA,NA,11.5,O,FALSE,9.3,25.23,20180428,220686.004,9633426.233
+PAR_A01,14,73,NA,NA,NA,25.6,O,FALSE,NA,NA,20180428,220689.1867,9633428.79
+PAR_A01,14,74,tatapiririca,Tapirira guianensis,Anacardiaceae,27.2,O,FALSE,NA,NA,20180428,220683.2043,9633430.418
+PAR_A01,14,75,pano amarelo,NA,NA,24.3,O,FALSE,NA,NA,20180428,220681.7603,9633436.335
+PAR_A01,14,76,pano amarelo,NA,NA,10.8,O,FALSE,NA,NA,20180428,220683.6099,9633435.001
+PAR_A01,14,77,inga de porco,NA,NA,17.4,O,FALSE,NA,NA,20180428,220683.141,9633435.882
+PAR_A01,14,78,pano amarelo,NA,NA,12,O,FALSE,NA,NA,20180428,220684.522,9633435.427
+PAR_A01,14,79,coco pau,Couepia robusta,Chrysobalanaceae,22.2,O,FALSE,NA,NA,20180428,220680.3278,9633441.169
+PAR_A01,14,80,inga xixica,Inga heterophylla,Fabaceae,12,O,FALSE,NA,NA,20180428,220680.6533,9633440.772
+PAR_A01,14,81,pano amarelo,NA,NA,10.4,O,FALSE,NA,NA,20180428,220678.1129,9633434.621
+PAR_A01,14,82,morta,NA,NA,23.5,O,TRUE,NA,NA,20180428,220676.8053,9633428.542
+PAR_A01,14,83,pano amarelo,NA,NA,15.2,O,FALSE,NA,NA,20180428,220679.5664,9633427.64
+PAR_A01,14,84,pano amarelo,NA,NA,13.6,O,FALSE,10.45,15.67,20180428,220675.3279,9633437.696
+PAR_A01,14,85,farinha seca,Lindackeria paludosa,Achariaceae,15.6,O,FALSE,NA,NA,20180428,220673.9482,9633438.139
+PAR_A01,14,86,urucurana,Sloanea guianensis,Elaeocarpaceae,18.4,O,FALSE,NA,NA,20180428,220672.5688,9633438.58
+PAR_A01,14,87,jutai pororoca,Dialium guianense,Fabaceae,26.8,O,FALSE,NA,NA,20180428,220672.7904,9633439.234
+PAR_A01,14,88,pano amarelo,NA,NA,19.2,O,FALSE,NA,NA,20180428,220670.6965,9633442.076
+PAR_A01,14,89,cumaru brejo,NA,NA,19.5,O,FALSE,NA,NA,20180428,220669.7603,9633443.824
+PAR_A01,14,90,ucuuba preta,Virola michelii,Myristicaceae,12.7,O,FALSE,NA,NA,20180428,220677.4596,9633450.865
+PAR_A01,14,91,arataciu,Sagotia racemosa,Euphorbiaceae,10.4,O,FALSE,4.81,12.68,20180428,220672.4122,9633451.735
+PAR_A01,14,92,ata meju,NA,NA,13.5,O,FALSE,NA,NA,20180428,220671.9435,9633452.615
+PAR_A01,14,93,ata meju,NA,NA,12.2,O,FALSE,NA,NA,20180428,220669.682,9633450.402
+PAR_A01,14,94,inhare,Helicostylis tomentosa,Moraceae,32.7,O,FALSE,5.93,10.91,20180428,220668.3301,9633448.638
+PAR_A01,14,95,matamata preto,Eschweilera ovata,Lecythidaceae,36.1,O,FALSE,NA,NA,20180428,220646.9939,9633432.845
+PAR_A01,14,96,abiurana vermelha,Pouteria gongrijpii,Sapotaceae,48,O,FALSE,NA,NA,20180428,220654.5656,9633404.411
+PAR_A01,15,97,goiabao,Pradosia cochlearia,Sapotaceae,27.8,O,FALSE,NA,NA,20180428,220558.4667,9633343.682
+PAR_A01,15,98,canela de jacamim,Rinorea pubiflora,Violaceae,17.2,O,FALSE,NA,NA,20180428,220557.9131,9633344.561
+PAR_A01,15,99,macucu de sangue,Licania heteromorpha,Chrysobalanaceae,16,O,FALSE,NA,NA,20180428,220557.3595,9633345.439
+PAR_A01,15,100,abiurana,Pouteria gongrijpii,Sapotaceae,24.5,O,FALSE,NA,NA,20180428,220557.6363,9633345
+PAR_A01,15,101,arataciu,Sagotia racemosa,Euphorbiaceae,18.5,O,FALSE,NA,NA,20180428,220555.1336,9633345.446
+PAR_A01,15,102,abiurana vermelha,Pouteria gongrijpii,Sapotaceae,14,O,FALSE,NA,NA,20180428,220556.2404,9633343.689
+PAR_A01,15,103,inga branco,Inga thibaudiana,Fabaceae,13.6,O,FALSE,NA,NA,20180428,220551.8019,9633347.208
+PAR_A01,15,104,sucupira babona,Diplotropis sp.,Fabaceae,17.2,O,FALSE,NA,NA,20180428,220549.8714,9633352.035
+PAR_A01,15,105,matamata branco,Eschweilera coriacea,Lecythidaceae,24.7,O,FALSE,NA,NA,20180428,220565.7221,9633349.796
+PAR_A01,15,106,inga vermelho,Inga alba,Fabaceae,14.5,O,FALSE,NA,NA,20180428,220562.3864,9633351.561
+PAR_A01,15,107,jatereu,Lecythis idatimon,Lecythidaceae,34.7,O,FALSE,NA,NA,20180428,220559.3332,9633354.64
+PAR_A01,15,108,morta,NA,NA,27.8,O,TRUE,NA,NA,20180428,220557.6773,9633360.785
+PAR_A01,15,109,embauba,Cecropia ficifolia,Urticaceae,38.2,O,FALSE,NA,NA,20180428,220553.7836,9633359.918
+PAR_A01,15,110,morta,NA,NA,17.8,O,TRUE,NA,NA,20180428,220554.0704,9633364.743
+PAR_A01,15,111,tatapiririca,Tapirira guianensis,Anacardiaceae,11,O,FALSE,NA,NA,20180428,220555.4642,9633367.811
+PAR_A01,15,112,abiu escamoso,NA,NA,15.5,O,FALSE,NA,NA,20180428,220546.5686,9633364.32
+PAR_A01,15,113,inga vermelho,Inga alba,Fabaceae,14.8,O,FALSE,NA,NA,20180428,220543.5202,9633367.396
+PAR_A01,15,114,inga branco,Inga thibaudiana,Fabaceae,13.6,O,FALSE,NA,NA,20180428,220544.639,9633372.659
+PAR_A01,15,115,inga branco,Inga thibaudiana,Fabaceae,10.8,O,FALSE,8.89,15.9,20180428,220544.7223,9633372.703
+PAR_A01,15,116,gema de ovo,Aspidosperma parvifolium,Apocynaceae,13.1,O,FALSE,NA,NA,20180428,220540.2071,9633379.688
+PAR_A01,15,117,canela de jacamim,Rinorea pubiflora,Violaceae,11.2,O,FALSE,NA,NA,20180428,220544.0925,9633384.073
+PAR_A01,15,118,arataciu,Sagotia racemosa,Euphorbiaceae,11.7,O,FALSE,4.23,7.97,20180428,220545.4795,9633383.632
+PAR_A01,15,119,macucu de sangue,Licania heteromorpha,Chrysobalanaceae,12.3,O,FALSE,12.34,20.3,20180428,220538.8232,9633383.64
+PAR_A01,15,120,murta,Strychnos subcordata,Loganiaceae,13.7,O,FALSE,NA,NA,20180428,220534.9414,9633382.766
+PAR_A01,15,121,inga vermelho,Inga alba,Fabaceae,15.5,O,FALSE,NA,NA,20180428,220535.7702,9633379.693
+PAR_A01,15,122,jatereu,Lecythis idatimon,Lecythidaceae,54.2,O,FALSE,24.27,34.11,20180428,220523.2776,9633369.614
+PAR_A01,15,123,jatoba,Hymenaea courbaril,Fabaceae,39.8,O,FALSE,NA,NA,20180428,220514.9521,9633365.235
+PAR_A01,15,124,caramurim,NA,NA,43.4,O,FALSE,NA,NA,20180428,220513.7914,9633352.97
+PAR_A01,15,125,morta,NA,NA,83,O,TRUE,NA,25.96,20180428,220537.3254,9633341.988
+PAR_A01,16,126,inga vermelho,Inga alba,Fabaceae,27.8,O,FALSE,NA,NA,20180428,220431.0021,9633277.075
+PAR_A01,16,127,macarandubinha,NA,NA,29.3,O,FALSE,8.26,4.55,20180428,220428.8491,9633277.061
+PAR_A01,16,128,matamata branco,Eschweilera coriacea,Lecythidaceae,20.4,O,FALSE,NA,NA,20180428,220426.6676,9633279.274
+PAR_A01,16,129,jatereu,Lecythis idatimon,Lecythidaceae,32.4,O,FALSE,NA,NA,20180428,220428.8117,9633281.505
+PAR_A01,16,130,inga branco,Inga thibaudiana,Fabaceae,14.6,O,FALSE,NA,NA,20180428,220429.2275,9633285.053
+PAR_A01,16,131,mamui,Jacaratia spinosa,Caricaceae,29.5,O,FALSE,NA,NA,20180428,220422.3071,9633281.49
+PAR_A01,16,132,arataciu,Sagotia racemosa,Euphorbiaceae,18.6,O,FALSE,10.54,12.65,20180428,220425.8988,9633272.137
+PAR_A01,16,133,morta,NA,NA,34,O,TRUE,NA,NA,20180428,220417.1998,9633274.344
+PAR_A01,16,134,inga vermelho,Inga alba,Fabaceae,20.8,O,FALSE,NA,NA,20180428,220416.5663,9633273.448
+PAR_A01,16,135,inga vermelho,Inga alba,Fabaceae,28.2,O,FALSE,12.88,24.89,20180428,220423.5661,9633287.708
+PAR_A01,16,136,freijo branco,Cordia scabrifolia,Boraginaceae,10,O,FALSE,NA,NA,20180428,220417.8965,9633285.948
+PAR_A01,16,137,embauba branca,Cecropia palmata,Urticaceae,13.8,O,FALSE,NA,NA,20180428,220413.8757,9633293.97
+PAR_A01,16,138,inga branco,Inga thibaudiana,Fabaceae,12,O,FALSE,NA,NA,20180428,220413.429,9633294.862
+PAR_A01,16,139,iperana,Eperua bijuga,Fabaceae,22.5,O,FALSE,NA,NA,20180428,220420.4841,9633296.13
+PAR_A01,16,140,morta,NA,NA,18,O,TRUE,NA,NA,20180428,220419.1666,9633298.79
+PAR_A01,16,141,morta,NA,NA,50.7,O,TRUE,NA,NA,20180428,220423.1502,9633301.842
+PAR_A01,16,142,freijo branco,Cordia scabrifolia,Boraginaceae,12.8,O,FALSE,NA,NA,20180428,220418.7358,9633301.881
+PAR_A01,16,143,morta,NA,NA,17.5,O,TRUE,NA,NA,20180428,220412.0816,9633301.961
+PAR_A01,16,144,inga branco,Inga thibaudiana,Fabaceae,13.3,O,FALSE,NA,NA,20180428,220410.3074,9633298.888
+PAR_A01,16,145,marupa,Simarouba amara,Simaroubaceae,18.4,O,FALSE,4.12,9.95,20180428,220409.8547,9633304.203
+PAR_A01,16,146,morta,NA,NA,20.7,O,TRUE,NA,NA,20180428,220406.2768,9633306.916
+PAR_A01,16,147,inga vermelho,Inga alba,Fabaceae,11,O,FALSE,NA,NA,20180428,220412.1196,9633310.778
+PAR_A01,16,148,louro preto,Nectandra cuspidata,Lauraceae,16.3,O,FALSE,NA,NA,20180428,220412.6496,9633309.933
+PAR_A01,16,149,fava folha fina,Pseudopiptadenia psilostachya,Fabaceae,11,O,FALSE,NA,NA,20180428,220411.6793,9633311.666
+PAR_A01,16,150,inajarana,Quararibea guianensis,Malvaceae,13.2,O,FALSE,NA,NA,20180428,220408.5526,9633313.484
+PAR_A01,16,151,pente de macaco,Apeiba petoumo,Malvaceae,11.2,O,FALSE,NA,NA,20180428,220408.5729,9633315.682
+PAR_A01,16,152,araracanga,Aspidosperma spruceanum,Apocynaceae,42.2,O,FALSE,NA,NA,20180428,220381.4181,9633303.078
+PAR_A01,16,153,cumarurana,NA,NA,36.1,O,FALSE,NA,NA,20180428,220386.9572,9633298.9
+PAR_A01,16,154,morta,NA,NA,42.2,O,TRUE,NA,NA,20180428,220392.3809,9633299.215
+PAR_A01,16,155,breu barrote,Tetragastris panamensis,Burseraceae,41,O,FALSE,NA,NA,20180428,220387.9965,9633292.604
+PAR_A01,16,156,fava folha fina,Pseudopiptadenia psilostachya,Fabaceae,37.2,O,FALSE,NA,NA,20180428,220392.3169,9633282.182
+PAR_A01,16,157,timborana,Pseudopiptadenia suaveolens,Fabaceae,78,O,FALSE,22.26,33.04,20180428,220383.1202,9633276.472
+PAR_A01,16,158,piquiarana,Caryocar glabrum,Caryocaraceae,58.3,O,FALSE,12.46,30.02,20180428,220397.6968,9633267.662
+PAR_A01,16,159,inga vermelho,Inga alba,Fabaceae,54.8,O,FALSE,11.26,25.7,20180428,220398.8381,9633261.303
+PAR_A01,16,160,macucu de sangue,Licania heteromorpha,Chrysobalanaceae,39.4,O,FALSE,NA,NA,20180428,220400.6048,9633272.612
+PAR_A01,17,1,matamata branco,Eschweilera coriacea,Lecythidaceae,19.1,O,FALSE,NA,NA,20180425,220734.1592,9632822.533
+PAR_A01,17,2,inga vermelho,Inga alba,Fabaceae,15.4,O,FALSE,NA,NA,20180425,220728.9663,9632827.42
+PAR_A01,17,3,jatereu,Lecythis idatimon,Lecythidaceae,11.5,O,FALSE,NA,NA,20180425,220728.6253,9632823.041
+PAR_A01,17,4,ucuuba preta,Virola michelii,Myristicaceae,39.5,O,FALSE,NA,NA,20180425,220725.1462,9632828.771
+PAR_A01,17,5,acai,Euterpe oleracea,Arecaceae,12.3,P,FALSE,NA,NA,20180425,220724.4077,9632830.53
+PAR_A01,17,6,acai,Euterpe oleracea,Arecaceae,11.1,P,FALSE,NA,NA,20180425,220724.4077,9632830.53
+PAR_A01,17,7,acai,Euterpe oleracea,Arecaceae,10.8,P,FALSE,NA,NA,20180425,220724.0384,9632831.41
+PAR_A01,17,8,anani,Symphonia globulifera,Clusiaceae,13.2,O,FALSE,11.86,18.3,20180425,220721.452,9632832.304
+PAR_A01,17,9,ucuuba preta,Virola michelii,Myristicaceae,21.8,O,FALSE,NA,NA,20180425,220722.3759,9632832.737
+PAR_A01,17,10,acai,Euterpe oleracea,Arecaceae,12.5,P,FALSE,NA,NA,20180425,220723.2999,9632833.169
+PAR_A01,17,11,acai,Euterpe oleracea,Arecaceae,10.7,P,FALSE,NA,NA,20180425,220723.2999,9632833.169
+PAR_A01,17,12,breu branco,Protium paniculatum,Burseraceae,13.6,O,FALSE,NA,NA,20180425,220727.9195,9632835.331
+PAR_A01,17,13,tento amarelo,NA,NA,18.6,O,FALSE,NA,NA,20180425,220729.1978,9632834.882
+PAR_A01,17,14,tatapiririca,Tapirira guianensis,Anacardiaceae,31.8,O,FALSE,NA,NA,20180425,220731.3902,9632834.863
+PAR_A01,17,15,breu vermelho,Protium hebetatum,Burseraceae,14,O,FALSE,NA,NA,20180425,220731.7396,9632833.98
+PAR_A01,17,16,acai,Euterpe oleracea,Arecaceae,13.7,P,FALSE,NA,NA,20180425,220721.4535,9632837.567
+PAR_A01,17,17,breu vermelho,Protium hebetatum,Burseraceae,11.2,O,FALSE,NA,NA,20180425,220718.8324,9632838.457
+PAR_A01,17,18,breu branco,Protium paniculatum,Burseraceae,25.2,O,FALSE,9.72,10.51,20180425,220717.5144,9632838.9
+PAR_A01,17,19,murta,Strychnos subcordata,Loganiaceae,14.7,O,FALSE,NA,NA,20180425,220732.0106,9632844.549
+PAR_A01,17,20,jatereu,Lecythis idatimon,Lecythidaceae,14.2,O,FALSE,NA,NA,20180425,220727.799,9632846.776
+PAR_A01,17,21,jatereu,Lecythis idatimon,Lecythidaceae,12.6,O,FALSE,NA,NA,20180425,220729.7014,9632847.649
+PAR_A01,17,22,tachi branco,Tachigali paniculata,Fabaceae,23.3,O,FALSE,9.99,16.32,20180425,220727.7168,9632849.863
+PAR_A01,17,23,jatereua branco,NA,NA,13.4,O,FALSE,NA,NA,20180425,220727.6496,9632852.953
+PAR_A01,17,24,inga xixica,Inga heterophylla,Fabaceae,13.6,O,FALSE,NA,NA,20180425,220717.9884,9632848.563
+PAR_A01,17,25,macucu,Licania guianensis,Chrysobalanaceae,15.4,O,FALSE,NA,NA,20180425,220717.0223,9632848.124
+PAR_A01,17,26,matamata vermelho,Eschweilera coriacea,Lecythidaceae,26.2,O,FALSE,NA,NA,20180425,220716.2837,9632849.883
+PAR_A01,17,27,gema de ovo,Aspidosperma parvifolium,Apocynaceae,10.4,O,FALSE,NA,NA,20180425,220716.5213,9632852.083
+PAR_A01,17,28,louro preto,Nectandra cuspidata,Lauraceae,13.7,O,FALSE,NA,NA,20180425,220716.0401,9632856.045
+PAR_A01,17,29,abiu escamoso,NA,NA,13,O,FALSE,NA,NA,20180425,220713.6989,9632856.041
+PAR_A01,17,30,envira cana,Xylopia nitida,Annonaceae,24.2,O,FALSE,NA,NA,20180425,220716.2153,9632861.336
+PAR_A01,17,31,pintadinho,Poeppigia procera,Fabaceae,36.2,O,FALSE,NA,NA,20180425,220716.1431,9632864.425
+PAR_A01,17,32,jatereu,Lecythis idatimon,Lecythidaceae,24.2,O,FALSE,NA,NA,20180425,220712.4866,9632861.764
+PAR_A01,17,33,fava branca,Parkia paraensis,Fabaceae,18.7,O,FALSE,NA,NA,20180425,220710.8516,9632859.994
+PAR_A01,17,34,paruru,Vantanea parviflora,Humiriaceae,10,O,FALSE,NA,NA,20180425,220708.4732,9632859.984
+PAR_A01,17,35,abiu vermelho,Pouteria cladantha,Sapotaceae,35.7,O,FALSE,NA,NA,20180425,220702.4531,9632857.314
+PAR_A01,17,36,tachi preto,Tachigali myrmecophila,Fabaceae,69.5,O,FALSE,16.67,25.44,20180425,220703.4202,9632852.491
+PAR_A01,17,37,sarupeminha,NA,NA,54.7,O,FALSE,14.23,22.34,20180425,220698.7015,9632847.213
+PAR_A01,17,38,abiurana,Pouteria gongrijpii,Sapotaceae,45.5,O,FALSE,NA,NA,20180425,220681.531,9632840.569
+PAR_A01,18,39,envira preta,Guatteria schomburgkiana,Annonaceae,15.2,O,FALSE,NA,NA,20180425,220592.2304,9632750.391
+PAR_A01,18,40,envira preta,Guatteria schomburgkiana,Annonaceae,11,O,FALSE,4.93,7.38,20180425,220598.6244,9632761.291
+PAR_A01,18,41,lacre vermelho,Vismia latifolia,Hypericaceae,12,O,FALSE,NA,NA,20180425,220601.8207,9632765.72
+PAR_A01,18,42,envira preta,Guatteria schomburgkiana,Annonaceae,21,O,FALSE,NA,NA,20180425,220601.8641,9632763.483
+PAR_A01,18,43,breu sucuruba,Trattinnickia burserifolia,Burseraceae,36.9,O,FALSE,NA,NA,20180425,220593.071,9632770.064
+PAR_A01,18,44,farinha seca,Lindackeria paludosa,Achariaceae,11.7,O,FALSE,NA,NA,20180425,220593.4368,9632773.65
+PAR_A01,18,45,farinha seca,Lindackeria paludosa,Achariaceae,11.7,O,FALSE,NA,NA,20180425,220594.8781,9632766.513
+PAR_A01,18,46,farinha seca,Lindackeria paludosa,Achariaceae,11.6,O,FALSE,NA,NA,20180425,220587.9152,9632767.298
+PAR_A01,18,47,embauba vermelha,Cecropia distachya,Urticaceae,156.7,O,TRUE,NA,NA,20180425,220586.5522,9632769.958
+PAR_A01,18,48,envira preta,Guatteria schomburgkiana,Annonaceae,21.5,O,FALSE,NA,NA,20180425,220584.7349,9632773.505
+PAR_A01,18,49,pau de espeto,NA,NA,11.7,O,FALSE,NA,NA,20180425,220582.5084,9632775.703
+PAR_A01,18,50,envira preta,Guatteria schomburgkiana,Annonaceae,20.4,O,FALSE,NA,NA,20180425,220579.8701,9632776.55
+PAR_A01,18,51,pente de macaco,Apeiba petoumo,Malvaceae,19.8,O,FALSE,NA,NA,20180425,220579.9177,9632774.315
+PAR_A01,18,52,pente de macaco,Apeiba petoumo,Malvaceae,16.8,O,FALSE,NA,NA,20180425,220579.9177,9632774.315
+PAR_A01,18,53,fava atana,Parkia gigantocarpa,Fabaceae,88.5,O,FALSE,9.04,15.53,20180425,220579.4617,9632775.201
+PAR_A01,18,54,pente de macaco,Apeiba petoumo,Malvaceae,24.7,O,FALSE,NA,NA,20180425,220580.646,9632781.485
+PAR_A01,18,55,envira preta,Guatteria schomburgkiana,Annonaceae,21.8,O,FALSE,NA,NA,20180425,220581.966,9632781.062
+PAR_A01,18,56,envira preta,Guatteria schomburgkiana,Annonaceae,23.6,O,FALSE,NA,NA,20180425,220575.2724,9632787.649
+PAR_A01,18,57,sucuuba,Himatanthus sucuuba,Apocynaceae,11.6,O,FALSE,7.5,12.76,20180425,220569.4688,9632792.456
+PAR_A01,18,58,tento amarelo,NA,NA,18.4,O,FALSE,NA,NA,20180425,220578.1934,9632797.116
+PAR_A01,18,59,piquia,Caryocar villosum,Caryocaraceae,56.4,O,FALSE,10.5,17.12,20180425,220572.3839,9632761.23
+PAR_A01,19,60,breu vermelho,Protium hebetatum,Burseraceae,27.1,O,FALSE,NA,NA,20180425,220463.2041,9632683.321
+PAR_A01,19,61,farinha seca,Lindackeria paludosa,Achariaceae,10.5,O,FALSE,NA,NA,20180425,220464.0423,9632683.787
+PAR_A01,19,62,abiu seco,Pouteria caimito,Sapotaceae,14,O,FALSE,NA,NA,20180425,220462.7773,9632684.23
+PAR_A01,19,63,tres folhas,NA,NA,13.6,O,FALSE,NA,NA,20180425,220466.1396,9632688.375
+PAR_A01,19,64,matamata vermelho,Eschweilera coriacea,Lecythidaceae,19.7,O,FALSE,8.47,13.26,20180425,220466.9828,9632688.84
+PAR_A01,19,65,timborana,Pseudopiptadenia suaveolens,Fabaceae,11.5,O,FALSE,NA,NA,20180425,220464.0906,9632697.48
+PAR_A01,19,66,abiu vermelho,Pouteria cladantha,Sapotaceae,29.5,O,FALSE,NA,NA,20180425,220463.2323,9632697.015
+PAR_A01,19,67,timborana,Pseudopiptadenia suaveolens,Fabaceae,10.7,O,FALSE,NA,NA,20180425,220461.0956,9632696.995
+PAR_A01,19,68,freijo branco,Cordia scabrifolia,Boraginaceae,12.6,O,FALSE,NA,NA,20180425,220458.0906,9632696.512
+PAR_A01,19,69,freijo branco,Cordia scabrifolia,Boraginaceae,11.4,O,FALSE,NA,NA,20180425,220458.0906,9632696.512
+PAR_A01,19,70,embauba branca,Cecropia palmata,Urticaceae,17.1,O,FALSE,NA,NA,20180425,220455.5218,9632699.684
+PAR_A01,19,71,arataciu,Sagotia racemosa,Euphorbiaceae,16.2,O,FALSE,NA,NA,20180425,220452.511,9632703.766
+PAR_A01,19,72,mapatirana,Pourouma minor,Urticaceae,30.8,O,FALSE,NA,NA,20180425,220451.2538,9632708.774
+PAR_A01,19,73,inga peludo,Inga grandis,Fabaceae,13.5,O,FALSE,NA,NA,20180425,220450.3687,9632708.312
+PAR_A01,19,74,inga xixica,Inga heterophylla,Fabaceae,15.8,O,FALSE,8.96,15.52,20180425,220454.6148,9632720.648
+PAR_A01,19,75,mapatirana,Pourouma minor,Urticaceae,16.8,O,TRUE,NA,NA,20180425,220451.0137,9632718.802
+PAR_A01,19,76,abiurana,Pouteria gongrijpii,Sapotaceae,12.8,O,FALSE,NA,NA,20180425,220456.9073,9632722.94
+PAR_A01,19,77,tres folhas,NA,NA,10.8,O,FALSE,NA,NA,20180425,220457.3156,9632722.032
+PAR_A01,19,78,matamata preto,Eschweilera ovata,Lecythidaceae,14,O,FALSE,NA,NA,20180425,220454.6917,9632722.925
+PAR_A01,19,79,matamata branco,Eschweilera coriacea,Lecythidaceae,12.2,O,FALSE,NA,NA,20180425,220455.274,9632726.571
+PAR_A01,19,80,fava atana,Parkia gigantocarpa,Fabaceae,24.4,O,FALSE,NA,NA,20180425,220453.5453,9632727.926
+PAR_A01,19,81,inga vermelho,Inga alba,Fabaceae,11.3,O,FALSE,NA,NA,20180425,220451.7212,9632727.005
+PAR_A01,19,82,inga branco,Inga thibaudiana,Fabaceae,11.4,O,FALSE,NA,NA,20180425,220448.0046,9632722.884
+PAR_A01,19,83,abiu branco,Pouteria guianensis,Sapotaceae,10.7,O,FALSE,NA,NA,20180425,220446.9408,9632715.585
+PAR_A01,19,84,breu branco,Protium paniculatum,Burseraceae,14.5,O,FALSE,NA,NA,20180425,220441.5741,9632715.096
+PAR_A01,19,85,murucirana,Sterigmapetalum obovatum,Rhizophoraceae,12.7,O,FALSE,NA,NA,20180425,220444.28,9632716.48
+PAR_A01,19,86,caju de janeiro,NA,NA,57.7,O,FALSE,21.18,32.12,20180425,220441.9617,9632707.342
+PAR_A01,19,87,matamata giboia,NA,NA,40.8,O,FALSE,NA,NA,20180425,220435.2686,9632714.148
+PAR_A01,19,88,embauba branca,Cecropia palmata,Urticaceae,64,O,FALSE,14.62,23.01,20180425,220428.0705,9632705.89
+PAR_A01,19,89,escorrega macaco,Capirona decorticans,Rubiaceae,45.8,O,FALSE,NA,NA,20180425,220427.3546,9632696.286
+PAR_A01,19,90,mapatirana,Pourouma minor,Urticaceae,46.1,O,FALSE,NA,NA,20180425,220425.3315,9632689.411
+PAR_A01,19,91,uxirana,Sacoglottis guianensis,Humiriaceae,53.2,O,FALSE,13.61,29,20180425,220432.076,9632687.166
+PAR_A01,19,92,matamata branco,Eschweilera coriacea,Lecythidaceae,49.5,O,FALSE,NA,NA,20180425,220438.2728,9632685.839
+PAR_A01,19,93,urucurana,Sloanea guianensis,Elaeocarpaceae,50,O,FALSE,15.1,21.75,20180425,220441.0553,9632680.37
+PAR_A01,19,94,matamata branco,Eschweilera coriacea,Lecythidaceae,35.6,O,FALSE,NA,NA,20180425,220437.7417,9632676.222
+PAR_A01,20,95,inga vermelho,Inga alba,Fabaceae,18.5,O,FALSE,NA,NA,20180425,220330.8631,9632615.516
+PAR_A01,20,96,cumarurana,NA,NA,10,O,FALSE,NA,NA,20180425,220334.5847,9632626.157
+PAR_A01,20,97,abiu vermelho,Pouteria cladantha,Sapotaceae,14.3,O,FALSE,9.63,15.8,20180425,220332.1428,9632628.977
+PAR_A01,20,98,breu vermelho,Protium hebetatum,Burseraceae,13.7,O,FALSE,NA,NA,20180425,220331.1803,9632626.323
+PAR_A01,20,99,louro amarelo,Aniba parviflora,Lauraceae,22.2,O,FALSE,NA,NA,20180425,220330.3062,9632625.825
+PAR_A01,20,100,arataciu,Sagotia racemosa,Euphorbiaceae,10,O,FALSE,NA,NA,20180425,220326.8098,9632623.835
+PAR_A01,20,101,macucu,Licania guianensis,Chrysobalanaceae,16,O,FALSE,NA,NA,20180425,220325.9357,9632623.338
+PAR_A01,20,102,macucu,Licania guianensis,Chrysobalanaceae,25.2,O,FALSE,NA,NA,20180425,220325.4705,9632622.008
+PAR_A01,20,103,camurim,NA,NA,15.4,O,FALSE,NA,NA,20180425,220323.7768,9632623.176
+PAR_A01,20,104,erva do campo,NA,NA,12.6,O,FALSE,NA,NA,20180425,220325.1885,9632627.163
+PAR_A01,20,105,envira preta,Guatteria schomburgkiana,Annonaceae,12.4,O,FALSE,NA,NA,20180425,220321.4574,9632632.493
+PAR_A01,20,106,envira preta,Guatteria schomburgkiana,Annonaceae,12.2,O,FALSE,NA,NA,20180425,220322.0343,9632635.975
+PAR_A01,20,107,paruru,Vantanea parviflora,Humiriaceae,12.8,O,FALSE,9.18,14.37,20180425,220316.6397,9632633.018
+PAR_A01,20,108,camurim,NA,NA,11.2,O,FALSE,NA,NA,20180425,220330.5136,9632639.582
+PAR_A01,20,109,matamata branco,Eschweilera coriacea,Lecythidaceae,36.5,O,FALSE,NA,NA,20180425,220328.0593,9632642.404
+PAR_A01,20,110,cumarurana,NA,NA,16.5,O,FALSE,NA,NA,20180425,220326.7638,9632642.742
+PAR_A01,20,111,andirobarana,Guarea guidonia,Meliaceae,16.4,O,FALSE,NA,NA,20180425,220322.4594,9632644.588
+PAR_A01,20,112,abiu vermelho,Pouteria cladantha,Sapotaceae,10.5,O,FALSE,NA,NA,20180425,220316.0657,9632641.157
+PAR_A01,20,113,abiu vermelho,Pouteria cladantha,Sapotaceae,17.5,O,FALSE,12.04,15.76,20180425,220317.2925,9632638.66
+PAR_A01,20,114,NA,NA,NA,12.4,O,TRUE,NA,NA,20180425,220313.0016,9632642.677
+PAR_A01,20,115,murta,Strychnos subcordata,Loganiaceae,12.2,O,FALSE,NA,NA,20180425,220311.6685,9632643.021
+PAR_A01,20,116,parapara,Jacaranda copaia,Bignoniaceae,23.5,O,FALSE,NA,NA,20180425,220311.3517,9632646.01
+PAR_A01,20,117,caripe,Licania octandra,Chrysobalanaceae,12.4,O,FALSE,NA,NA,20180425,220309.5972,9632647.189
+PAR_A01,20,118,gema de ovo,Aspidosperma parvifolium,Apocynaceae,14.8,O,FALSE,NA,NA,20180425,220307.4196,9632649.204
+PAR_A01,20,119,sucupira babona,Diplotropis sp.,Fabaceae,35.6,O,FALSE,NA,NA,20180425,220308.7687,9632648.856
+PAR_A01,20,120,axixa,Sterculia pruriens,Malvaceae,13.1,O,FALSE,NA,NA,20180425,220306.5875,9632650.872
+PAR_A01,20,121,mapatirana,Pourouma minor,Urticaceae,18.6,O,FALSE,NA,NA,20180425,220307.9402,9632650.524
+PAR_A01,20,122,mapatirana,Pourouma minor,Urticaceae,49.7,O,FALSE,NA,NA,20180425,220311.8125,9632654.616
+PAR_A01,20,123,embauba vermelha,Cecropia distachya,Urticaceae,26.1,O,FALSE,NA,NA,20180425,220321.5364,9632651.376
+PAR_A01,20,124,inga vermelho,Inga alba,Fabaceae,13.5,O,FALSE,NA,NA,20180425,220321.0051,9632650.058
+PAR_A01,20,125,inga vermelho,Inga alba,Fabaceae,18.6,O,FALSE,NA,NA,20180425,220320.4774,9632648.74
+PAR_A01,20,126,mapatirana,Pourouma minor,Urticaceae,43.5,O,FALSE,NA,NA,20180425,220289.1436,9632623.434
+PAR_A01,20,127,parapara,Jacaranda copaia,Bignoniaceae,44.6,O,FALSE,NA,NA,20180425,220298.2371,9632617.477
+PAR_A01,20,128,piquiarana,Caryocar glabrum,Caryocaraceae,66.2,O,FALSE,16.86,24.18,20180425,220282.6492,9632630.888
+PAR_A01,21,1,louro preto,Nectandra cuspidata,Lauraceae,14.6,O,FALSE,7.98,11.78,20180427,218933.3274,9633110.937
+PAR_A01,21,2,louro preto,Nectandra cuspidata,Lauraceae,13,O,FALSE,NA,NA,20180427,218934.2023,9633111.426
+PAR_A01,21,3,louro preto,Nectandra cuspidata,Lauraceae,10.4,O,FALSE,NA,NA,20180427,218934.3845,9633111.076
+PAR_A01,21,4,breu sucuruba,Trattinnickia burserifolia,Burseraceae,15.3,O,FALSE,6.78,10.37,20180427,218933.5497,9633108.345
+PAR_A01,21,5,morta,NA,NA,26,O,TRUE,NA,NA,20180427,218923.8901,9633105.205
+PAR_A01,21,6,morta,NA,NA,24.5,O,TRUE,NA,NA,20180427,218924.1231,9633104.764
+PAR_A01,21,7,morta,NA,NA,27,O,TRUE,NA,NA,20180427,218925.2884,9633102.561
+PAR_A01,21,8,inga vermelho,Inga alba,Fabaceae,22.2,O,FALSE,NA,NA,20180427,218928.4863,9633098.649
+PAR_A01,21,9,embauba branca,Cecropia palmata,Urticaceae,11.6,O,FALSE,NA,NA,20180427,218937.572,9633104.949
+PAR_A01,21,10,envira preta,Guatteria schomburgkiana,Annonaceae,10.7,O,FALSE,NA,NA,20180427,218938.0273,9633104.074
+PAR_A01,21,11,embauba,Cecropia ficifolia,Urticaceae,15.3,O,FALSE,NA,NA,20180427,218941.9875,9633102.932
+PAR_A01,21,12,envira preta,Guatteria schomburgkiana,Annonaceae,10.3,O,FALSE,5.92,7.73,20180427,218941.5764,9633101.563
+PAR_A01,21,13,envira preta,Guatteria schomburgkiana,Annonaceae,10.2,O,FALSE,NA,NA,20180427,218942.0083,9633101.81
+PAR_A01,21,14,envira preta,Guatteria schomburgkiana,Annonaceae,11.9,O,FALSE,NA,NA,20180427,218944.6186,9633102.175
+PAR_A01,21,15,envira preta,Guatteria schomburgkiana,Annonaceae,10.8,O,FALSE,NA,NA,20180427,218944.2509,9633098.562
+PAR_A01,21,16,morta,NA,NA,13.2,O,TRUE,NA,NA,20180427,218936.9093,9633095.464
+PAR_A01,21,17,envira preta,Guatteria schomburgkiana,Annonaceae,11.6,O,FALSE,NA,NA,20180427,218934.461,9633089.461
+PAR_A01,21,18,morta,NA,NA,13,O,TRUE,NA,NA,20180427,218943.947,9633092.695
+PAR_A01,21,19,embauba,Cecropia ficifolia,Urticaceae,11,O,FALSE,NA,NA,20180427,218945.6585,9633093.694
+PAR_A01,21,20,louro preto,Nectandra cuspidata,Lauraceae,10.4,O,FALSE,NA,NA,20180427,218942.6927,9633090.82
+PAR_A01,21,21,embauba,Cecropia ficifolia,Urticaceae,10.4,O,FALSE,NA,NA,20180427,218945.8288,9633086.941
+PAR_A01,21,22,louro preto,Nectandra cuspidata,Lauraceae,12.7,O,FALSE,NA,NA,20180427,218944.6545,9633082.802
+PAR_A01,21,23,louro preto,Nectandra cuspidata,Lauraceae,12.5,O,FALSE,NA,NA,20180427,218943.347,9633083.176
+PAR_A01,21,24,louro preto,Ocotea cernua,Lauraceae,11.4,O,FALSE,NA,NA,20180427,218945.5022,9633083.306
+PAR_A01,21,25,inga vermelho,Inga alba,Fabaceae,11.4,O,FALSE,NA,NA,20180427,218949.7406,9633085.825
+PAR_A01,21,26,embauba,Cecropia ficifolia,Urticaceae,15.4,O,FALSE,NA,NA,20180427,218950.5883,9633086.328
+PAR_A01,21,27,embauba,Cecropia ficifolia,Urticaceae,12.7,O,FALSE,NA,NA,20180427,218951.436,9633086.832
+PAR_A01,21,28,maravuvuia,Croton matourensis,Euphorbiaceae,12.2,O,FALSE,NA,NA,20180427,218953.2431,9633083.338
+PAR_A01,21,29,inga vermelho,Inga alba,Fabaceae,12.4,O,FALSE,NA,NA,20180427,218953.7571,9633080.211
+PAR_A01,21,30,embauba,Cecropia ficifolia,Urticaceae,12.4,O,FALSE,NA,NA,20180427,218950.8476,9633077.307
+PAR_A01,21,31,maravuvuia,Croton matourensis,Euphorbiaceae,24.5,O,FALSE,7.08,15.16,20180427,218951.7601,9633075.555
+PAR_A01,21,32,maravuvuia,Croton matourensis,Euphorbiaceae,15.2,O,FALSE,NA,NA,20180427,218948.4052,9633073.521
+PAR_A01,21,33,maravuvuia,Croton matourensis,Euphorbiaceae,14.7,O,FALSE,7.81,14.82,20180427,218951.0797,9633070.521
+PAR_A01,21,34,envira preta,Guatteria schomburgkiana,Annonaceae,11.4,O,FALSE,NA,NA,20180427,218949.3249,9633071.766
+PAR_A01,21,35,inga vermelho,Inga alba,Fabaceae,11.8,O,FALSE,NA,NA,20180427,218948.0272,9633072.134
+PAR_A01,21,36,maravuvuia,Croton matourensis,Euphorbiaceae,19.4,O,FALSE,NA,NA,20180427,218946.9039,9633067.968
+PAR_A01,21,37,embauba branca,Cecropia palmata,Urticaceae,15.2,O,FALSE,NA,NA,20180427,218953.5852,9633072.052
+PAR_A01,21,38,embauba branca,Cecropia palmata,Urticaceae,13.5,O,FALSE,NA,NA,20180427,218955.2555,9633073.073
+PAR_A01,21,39,maravuvuia,Croton matourensis,Euphorbiaceae,11.7,O,FALSE,NA,NA,20180427,218956.9258,9633074.094
+PAR_A01,21,40,maravuvuia,Croton matourensis,Euphorbiaceae,11.3,O,FALSE,NA,NA,20180427,218956.8574,9633076.351
+PAR_A01,21,41,morta,NA,NA,14.5,O,TRUE,NA,NA,20180427,218955.6371,9633074.458
+PAR_A01,22,42,maravuvuia,Croton matourensis,Euphorbiaceae,14.5,O,FALSE,NA,NA,20180427,219070.1507,9633185.876
+PAR_A01,22,43,maravuvuia,Croton matourensis,Euphorbiaceae,13.8,O,FALSE,9.7,15.31,20180427,219068.5371,9633181.689
+PAR_A01,22,44,maravuvuia,Croton matourensis,Euphorbiaceae,12.8,O,FALSE,NA,NA,20180427,219068.2711,9633180.992
+PAR_A01,22,45,maravuvuia,Croton matourensis,Euphorbiaceae,10.9,O,FALSE,NA,NA,20180427,219068.0571,9633181.423
+PAR_A01,22,46,maravuvuia,Croton matourensis,Euphorbiaceae,10.4,O,FALSE,NA,NA,20180427,219067.9092,9633178.041
+PAR_A01,22,47,maravuvuia,Croton matourensis,Euphorbiaceae,13.3,O,FALSE,NA,NA,20180427,219068.1246,9633177.61
+PAR_A01,22,48,maravuvuia,Croton matourensis,Euphorbiaceae,16,O,FALSE,NA,NA,20180427,219066.877,9633177.91
+PAR_A01,22,49,maravuvuia,Croton matourensis,Euphorbiaceae,15.4,O,FALSE,11.81,17.49,20180427,219066.6949,9633178.029
+PAR_A01,22,50,maravuvuia,Croton matourensis,Euphorbiaceae,15.5,O,FALSE,13.12,18.03,20180427,219066.6609,9633178.34
+PAR_A01,22,51,morta,NA,NA,13.5,O,TRUE,NA,NA,20180427,219057.9773,9633175.85
+PAR_A01,22,52,lacre,Vismia guianensis,Hypericaceae,10.7,O,FALSE,NA,NA,20180427,219057.9131,9633173.607
+PAR_A01,22,53,envira preta,Guatteria schomburgkiana,Annonaceae,13.7,O,FALSE,NA,NA,20180427,219058.361,9633172.752
+PAR_A01,22,54,maravuvuia,Croton matourensis,Euphorbiaceae,13,O,FALSE,10.74,16.1,20180427,219066.8679,9633175.262
+PAR_A01,22,55,maravuvuia,Croton matourensis,Euphorbiaceae,14.2,O,FALSE,11.2,16.1,20180427,219065.9165,9633174.734
+PAR_A01,22,56,maravuvuia,Croton matourensis,Euphorbiaceae,15.4,O,FALSE,NA,NA,20180427,219065.8402,9633172.488
+PAR_A01,22,57,maravuvuia,Croton matourensis,Euphorbiaceae,12.3,O,FALSE,NA,NA,20180427,219066.2778,9633171.628
+PAR_A01,22,58,envira preta,Guatteria schomburgkiana,Annonaceae,11.3,O,FALSE,NA,NA,20180427,219064.3853,9633170.577
+PAR_A01,22,59,envira preta,Guatteria schomburgkiana,Annonaceae,11.8,O,FALSE,NA,NA,20180427,219064.4735,9633170.405
+PAR_A01,22,60,embauba,Cecropia ficifolia,Urticaceae,28.2,O,FALSE,NA,NA,20180427,219062.9373,9633168.668
+PAR_A01,22,61,burra leiteira,Sapium marmieri,Euphorbiaceae,16.4,O,FALSE,NA,NA,20180427,219070.0628,9633173.731
+PAR_A01,22,62,embauba,Cecropia ficifolia,Urticaceae,13.7,O,FALSE,NA,NA,20180427,219070.4935,9633172.869
+PAR_A01,22,63,maravuvuia,Croton matourensis,Euphorbiaceae,13.4,O,FALSE,NA,NA,20180427,219074.7939,9633176.36
+PAR_A01,22,64,maravuvuia,Croton matourensis,Euphorbiaceae,12.3,O,FALSE,NA,NA,20180427,219073.8522,9633171.435
+PAR_A01,22,65,maravuvuia,Croton matourensis,Euphorbiaceae,16,O,FALSE,NA,NA,20180427,219073.8949,9633171.349
+PAR_A01,22,66,maravuvuia,Croton matourensis,Euphorbiaceae,11.8,O,FALSE,NA,NA,20180427,219073.8437,9633171.21
+PAR_A01,22,67,maravuvuia,Croton matourensis,Euphorbiaceae,14.5,O,FALSE,NA,NA,20180427,219073.6643,9633171.33
+PAR_A01,22,68,maravuvuia,Croton matourensis,Euphorbiaceae,12,O,FALSE,NA,NA,20180427,219073.1539,9633169.944
+PAR_A01,22,69,maravuvuia,Croton matourensis,Euphorbiaceae,12.8,O,FALSE,NA,NA,20180427,219073.0333,9633170.428
+PAR_A01,22,70,maravuvuia,Croton matourensis,Euphorbiaceae,10.8,O,FALSE,NA,NA,20180427,219072.9823,9633170.289
+PAR_A01,22,71,maravuvuia,Croton matourensis,Euphorbiaceae,12.3,O,FALSE,NA,NA,20180427,219073.2669,9633169.236
+PAR_A01,22,72,maravuvuia,Croton matourensis,Euphorbiaceae,10.4,O,FALSE,NA,NA,20180427,219072.6929,9633169.908
+PAR_A01,22,73,maravuvuia,Croton matourensis,Euphorbiaceae,12.9,O,FALSE,NA,NA,20180427,219072.8297,9633169.874
+PAR_A01,22,74,maravuvuia,Croton matourensis,Euphorbiaceae,13.2,O,FALSE,NA,NA,20180427,219072.8726,9633169.788
+PAR_A01,22,75,embauba,Cecropia ficifolia,Urticaceae,10.2,O,FALSE,NA,NA,20180427,219074.4409,9633167.357
+PAR_A01,22,76,embauba,Cecropia ficifolia,Urticaceae,12.5,O,FALSE,NA,NA,20180427,219077.6622,9633168.054
+PAR_A01,22,77,embauba,Cecropia ficifolia,Urticaceae,18.5,O,FALSE,NA,NA,20180427,219079.4372,9633166.844
+PAR_A01,22,78,inga peludo,Inga grandis,Fabaceae,10.4,O,FALSE,NA,NA,20180427,219074.8005,9633164.25
+PAR_A01,22,79,inga peludo,Inga grandis,Fabaceae,12.6,O,FALSE,NA,NA,20180427,219074.8866,9633164.078
+PAR_A01,22,80,embauba,Cecropia ficifolia,Urticaceae,16.2,O,FALSE,NA,NA,20180427,219079.2847,9633162.351
+PAR_A01,22,81,embauba,Cecropia ficifolia,Urticaceae,15.1,O,FALSE,NA,NA,20180427,219083.497,9633191.055
+PAR_A01,22,82,freijo branco,Cordia scabrifolia,Boraginaceae,12.5,O,FALSE,NA,NA,20180427,219072.9458,9633163.212
+PAR_A01,22,83,envira preta,Guatteria schomburgkiana,Annonaceae,10.3,O,FALSE,NA,NA,20180427,219072.0775,9633164.934
+PAR_A01,22,84,envira preta,Guatteria schomburgkiana,Annonaceae,13.2,O,FALSE,NA,NA,20180427,219070.6536,9633163.034
+PAR_A01,22,85,freijo branco,Cordia scabrifolia,Boraginaceae,14.2,O,FALSE,NA,NA,20180427,219063.7775,9633164.718
+PAR_A01,22,86,freijo branco,Cordia scabrifolia,Boraginaceae,10.3,O,FALSE,NA,NA,20180427,219063.5899,9633164.613
+PAR_A01,22,87,lacre branco,Vismia guianensis,Hypericaceae,11.6,O,FALSE,NA,NA,20180427,219064.1835,9633161.628
+PAR_A01,22,88,morta,NA,NA,19.5,O,TRUE,NA,NA,20180427,219070.47,9633151.874
+PAR_A01,22,89,louro preto,Ocotea cernua,Lauraceae,11.7,O,FALSE,NA,NA,20180427,219072.7152,9633149.816
+PAR_A01,22,90,jatereu,Lecythis idatimon,Lecythidaceae,33.7,O,FALSE,NA,NA,20180427,219206.8842,9632892.21
+PAR_A01,22,91,timborana,Pseudopiptadenia suaveolens,Fabaceae,11.8,O,FALSE,NA,NA,20180427,219076.3421,9633151.862
+PAR_A01,22,92,lacre branco,Vismia guianensis,Hypericaceae,12.2,O,FALSE,NA,NA,20180427,219073.147,9633146.736
+PAR_A01,22,93,lacre branco,Vismia guianensis,Hypericaceae,11.2,O,FALSE,NA,NA,20180427,219073.9495,9633144.973
+PAR_A01,22,94,lacre branco,Vismia guianensis,Hypericaceae,11.4,O,FALSE,NA,NA,20180427,219074.0393,9633145.024
+PAR_A01,22,95,envira preta,Guatteria schomburgkiana,Annonaceae,11,O,FALSE,NA,NA,20180427,219074.4848,9633141.948
+PAR_A01,22,96,embauba branca,Cecropia palmata,Urticaceae,10.2,O,FALSE,NA,NA,20180427,219078.5104,9633145.339
+PAR_A01,22,97,breu sucuruba,Trattinnickia burserifolia,Burseraceae,11.9,O,FALSE,NA,NA,20180427,219079.4755,9633151.418
+PAR_A01,22,98,morta,NA,NA,10.4,O,TRUE,NA,NA,20180427,219152.0424,9633192.934
+PAR_A01,22,99,embauba branca,Cecropia palmata,Urticaceae,11.5,O,FALSE,NA,NA,20180427,219080.0177,9633156.143
+PAR_A01,22,100,envira preta,Guatteria schomburgkiana,Annonaceae,14.5,O,FALSE,NA,NA,20180427,219083.8453,9633146.149
+PAR_A01,22,101,envira preta,Guatteria schomburgkiana,Annonaceae,10.2,O,FALSE,4.13,7.9,20180427,219083.7533,9633145.876
+PAR_A01,22,102,envira preta,Guatteria schomburgkiana,Annonaceae,10.1,O,FALSE,NA,NA,20180427,219085.5945,9633144.93
+PAR_A01,22,103,embauba branca,Cecropia palmata,Urticaceae,11.5,O,FALSE,NA,NA,20180427,219078.492,9633140.895
+PAR_A01,22,104,embauba branca,Cecropia palmata,Urticaceae,11.2,O,FALSE,NA,NA,20180427,219077.1625,9633139.03
+PAR_A01,22,105,fava sao joao,NA,NA,12.5,O,FALSE,NA,NA,20180427,219085.5486,9633140.476
+PAR_A01,22,106,fava de paca,NA,NA,10.9,O,FALSE,NA,NA,20180427,219087.5078,9633143.363
+PAR_A01,22,107,morta,NA,NA,37,O,TRUE,NA,NA,20180427,219099.187,9633159.253
+PAR_A01,22,108,morta,NA,NA,46,O,TRUE,NA,NA,20180427,219111.5962,9633156.413
+PAR_A01,22,109,inga vermelho,Inga alba,Fabaceae,13.8,O,FALSE,10.83,13.43,20180427,219075.6619,9633162.526
+PAR_A01,23,110,envira preta,Guatteria schomburgkiana,Annonaceae,11.4,O,FALSE,NA,NA,20180427,219192.955,9633253.215
+PAR_A01,23,111,embauba branca,Cecropia palmata,Urticaceae,12,O,FALSE,NA,NA,20180427,219191.19,9633252.212
+PAR_A01,23,112,embauba branca,Cecropia palmata,Urticaceae,10.2,O,FALSE,NA,NA,20180427,219194.9351,9633249.601
+PAR_A01,23,113,lacre branco,Vismia guianensis,Hypericaceae,12.6,O,FALSE,NA,NA,20180427,219194.5497,9633248.197
+PAR_A01,23,114,embauba branca,Cecropia palmata,Urticaceae,10.2,O,FALSE,NA,NA,20180427,219197.4102,9633245.083
+PAR_A01,23,115,envira preta,Guatteria schomburgkiana,Annonaceae,11.4,O,FALSE,8.5,14.61,20180427,219197.1404,9633241.375
+PAR_A01,23,116,arataciu,Sagotia racemosa,Euphorbiaceae,14.4,O,FALSE,NA,NA,20180427,219183.7473,9633246.797
+PAR_A01,23,117,freijo branco,Cordia scabrifolia,Boraginaceae,15.3,O,FALSE,5,13.08,20180427,219184.7466,9633244.995
+PAR_A01,23,118,embauba branca,Cecropia palmata,Urticaceae,12.2,O,FALSE,NA,NA,20180427,219189.6217,9633238.286
+PAR_A01,23,119,morta,NA,NA,14.2,O,TRUE,NA,NA,20180427,219189.2706,9633238.087
+PAR_A01,23,120,lacre branco,Vismia guianensis,Hypericaceae,10.4,O,FALSE,NA,NA,20180427,219193.4924,9633233.377
+PAR_A01,23,121,lacre branco,Vismia guianensis,Hypericaceae,12.2,O,FALSE,NA,NA,20180427,219195.3646,9633232.071
+PAR_A01,23,122,fava de paca,NA,NA,29.7,O,FALSE,NA,NA,20180427,219190.7472,9633225.89
+PAR_A01,23,123,goiaba de anta,Bellucia grossularioides,Melastomataceae,10.4,O,FALSE,NA,NA,20180427,219195.4877,9633229.771
+PAR_A01,23,124,lacre branco,Vismia guianensis,Hypericaceae,10.5,O,FALSE,NA,NA,20180427,219193.8669,9633226.479
+PAR_A01,23,125,envira preta,Guatteria schomburgkiana,Annonaceae,16.4,O,FALSE,12.47,16.32,20180427,219199.4794,9633230.856
+PAR_A01,23,126,freijo branco,Cordia scabrifolia,Boraginaceae,10.8,O,FALSE,NA,NA,20180427,219198.2309,9633228.961
+PAR_A01,23,127,pente de macaco,Apeiba petoumo,Malvaceae,11,O,FALSE,NA,NA,20180427,219200.7208,9633224.451
+PAR_A01,23,128,lacre branco,Vismia guianensis,Hypericaceae,19.6,O,FALSE,NA,NA,20180427,219192.2512,9633223.19
+PAR_A01,23,129,pente de macaco,Apeiba petoumo,Malvaceae,12.2,O,FALSE,NA,NA,20180427,219192.2512,9633223.19
+PAR_A01,23,130,envira preta,Guatteria schomburgkiana,Annonaceae,16.8,O,FALSE,NA,NA,20180427,219192.7526,9633222.29
+PAR_A01,23,131,lacre branco,Vismia guianensis,Hypericaceae,12.7,O,FALSE,NA,NA,20180427,219196.8674,9633221.075
+PAR_A01,23,132,embauba branca,Cecropia palmata,Urticaceae,11.5,O,FALSE,NA,NA,20180427,219198.4996,9633216.077
+PAR_A01,23,133,embauba branca,Cecropia palmata,Urticaceae,23.2,O,FALSE,NA,NA,20180427,219200.2359,9633217.065
+PAR_A01,23,134,embauba branca,Cecropia palmata,Urticaceae,12.8,O,FALSE,NA,NA,20180427,219202.1026,9633215.756
+PAR_A01,23,135,inga branco,Inga thibaudiana,Fabaceae,11.6,O,FALSE,NA,NA,20180427,219202.9593,9633224.539
+PAR_A01,23,136,embauba,Cecropia ficifolia,Urticaceae,14.8,O,FALSE,NA,NA,20180427,219206.0659,9633225.121
+PAR_A01,23,137,morta,NA,NA,12.8,O,TRUE,NA,NA,20180427,219207.9267,9633223.809
+PAR_A01,23,138,embauba branca,Cecropia palmata,Urticaceae,12,O,FALSE,NA,NA,20180427,219207.1097,9633217.419
+PAR_A01,23,139,envira preta,Guatteria schomburgkiana,Annonaceae,14.4,O,FALSE,NA,NA,20180427,219207.4334,9633216.418
+PAR_A01,23,140,maravuvuia,Croton matourensis,Euphorbiaceae,14.5,O,FALSE,11.3,17.69,20180427,219206.4616,9633209.939
+PAR_A01,23,141,maravuvuia,Croton matourensis,Euphorbiaceae,20.6,O,FALSE,NA,NA,20180427,219206.711,9633209.489
+PAR_A01,23,142,maravuvuia,Croton matourensis,Euphorbiaceae,13.8,O,FALSE,NA,NA,20180427,219206.8938,9633210.185
+PAR_A01,23,143,maravuvuia,Croton matourensis,Euphorbiaceae,12.5,O,FALSE,NA,NA,20180427,219206.7209,9633210.087
+PAR_A01,23,144,inga vermelho,Inga alba,Fabaceae,12.5,O,FALSE,NA,NA,20180427,219207.4023,9633209.882
+PAR_A01,23,145,inga vermelho,Inga alba,Fabaceae,21.4,O,FALSE,NA,NA,20180427,219204.4663,9633213.545
+PAR_A01,23,146,lacre vermelho,Vismia latifolia,Hypericaceae,15.6,O,FALSE,NA,NA,20180427,219201.1379,9633209.281
+PAR_A01,23,147,embauba branca,Cecropia palmata,Urticaceae,25.2,O,FALSE,NA,NA,20180427,219199.7713,9633209.689
+PAR_A01,23,148,embauba branca,Cecropia palmata,Urticaceae,14.4,O,FALSE,NA,NA,20180427,219200.022,9633209.239
+PAR_A01,23,149,fava de paca,NA,NA,13,O,FALSE,NA,NA,20180427,219204.4055,9633205.451
+PAR_A01,23,150,fava de paca,NA,NA,21.5,O,FALSE,NA,NA,20180427,219204.5056,9633205.271
+PAR_A01,23,151,joao mole,Neea oppositifolia,Nyctaginaceae,12.8,O,FALSE,11.61,16.02,20180427,219206.8453,9633207.195
+PAR_A01,23,152,inga vermelho,Inga alba,Fabaceae,11.4,O,FALSE,NA,NA,20180427,219212.8521,9633206.583
+PAR_A01,24,153,envirao,NA,NA,35.8,O,FALSE,NA,NA,20180427,219321.9036,9633322.521
+PAR_A01,24,154,maravuvuia,Croton matourensis,Euphorbiaceae,14.5,O,FALSE,7.71,12.92,20180427,219321.045,9633319.822
+PAR_A01,24,155,envira preta,Guatteria schomburgkiana,Annonaceae,14.8,O,FALSE,8.1,10.48,20180427,219324.2716,9633313.878
+PAR_A01,24,156,fava folha fina,Pseudopiptadenia psilostachya,Fabaceae,16.2,O,FALSE,NA,NA,20180427,219320.2322,9633314.925
+PAR_A01,24,157,embauba branca,Cecropia palmata,Urticaceae,12.9,O,FALSE,NA,NA,20180427,219310.8003,9633315.167
+PAR_A01,24,158,fava de paca,NA,NA,14.5,O,FALSE,NA,NA,20180427,219313.5151,9633314.471
+PAR_A01,24,159,jatereu,Lecythis idatimon,Lecythidaceae,14.3,O,FALSE,NA,NA,20180427,219314.403,9633314.971
+PAR_A01,24,160,ata meju,NA,NA,17.2,O,FALSE,NA,NA,20180427,219313.096,9633313.122
+PAR_A01,24,161,envira preta,Guatteria schomburgkiana,Annonaceae,10.4,O,FALSE,NA,NA,20180427,219318.5557,9633309.53
+PAR_A01,24,162,morta,NA,NA,11.8,O,TRUE,NA,NA,20180427,219320.7854,9633309.681
+PAR_A01,24,163,embauba,Cecropia ficifolia,Urticaceae,16.2,O,FALSE,NA,NA,20180427,219326.5763,9633309.633
+PAR_A01,24,164,envira preta,Guatteria schomburgkiana,Annonaceae,13.3,O,FALSE,NA,NA,20180427,219328.929,9633303.19
+PAR_A01,24,165,parapara,Jacaranda copaia,Bignoniaceae,13.7,O,FALSE,7.75,11.21,20180427,219331.9656,9633306.037
+PAR_A01,24,166,lacre vermelho,Vismia latifolia,Hypericaceae,14.2,O,FALSE,NA,NA,20180427,219333.6674,9633290.307
+PAR_A01,24,167,fava de paca,NA,NA,17.8,O,FALSE,NA,NA,20180427,219335.3931,9633291.304
+PAR_A01,24,168,tatapiririca,Tapirira guianensis,Anacardiaceae,22.4,O,FALSE,NA,NA,20180427,219336.6587,9633293.15
+PAR_A01,24,169,tatapiririca,Tapirira guianensis,Anacardiaceae,16,O,FALSE,NA,NA,20180427,219336.8314,9633293.25
+PAR_A01,24,170,lacre branco,Vismia guianensis,Hypericaceae,10.3,O,FALSE,NA,NA,20180427,219335.0573,9633287.761
+PAR_A01,24,171,envira preta,Guatteria schomburgkiana,Annonaceae,14.6,O,FALSE,NA,NA,20180427,219328.9583,9633286.468
+PAR_A01,24,172,embauba branca,Cecropia palmata,Urticaceae,13.4,O,FALSE,NA,NA,20180427,219328.4188,9633289.513
+PAR_A01,24,173,embauba branca,Cecropia palmata,Urticaceae,19.4,O,FALSE,NA,NA,20180427,219338.3003,9633281.819
+PAR_A01,24,174,morta,NA,NA,16.4,O,TRUE,NA,NA,20180427,219339.5486,9633283.663
+PAR_A01,24,175,morta,NA,NA,25.5,O,TRUE,NA,NA,20180427,219340.4721,9633281.965
+PAR_A01,24,176,morta,NA,NA,11.8,O,TRUE,NA,NA,20180427,219341.7204,9633283.81
+PAR_A01,24,177,fava sao joao,NA,NA,12.6,O,FALSE,NA,NA,20180427,219336.2794,9633277.281
+PAR_A01,24,178,inga branco,Inga thibaudiana,Fabaceae,10,O,FALSE,7.78,10.53,20180427,219336.7057,9633277.53
+PAR_A01,24,179,matamata giboia,NA,NA,40,O,FALSE,NA,NA,20180427,219352.5427,9633312.269
+PAR_A01,25,1,envira preta,Guatteria schomburgkiana,Annonaceae,16.9,O,FALSE,NA,NA,20180427,219021.3621,9632935.352
+PAR_A01,25,2,pau jacare,Laetia procera,Salicaceae,13,O,FALSE,NA,NA,20180427,219026.0921,9632935.105
+PAR_A01,25,3,tamanqueira,Zanthoxylum rhoifolium,Rutaceae,11.5,O,FALSE,NA,NA,20180427,219029.5989,9632935.004
+PAR_A01,25,4,envira preta,Guatteria schomburgkiana,Annonaceae,13.5,O,FALSE,NA,NA,20180427,219031.3229,9632936.023
+PAR_A01,25,5,tatapiririca,Tapirira guianensis,Anacardiaceae,14.7,O,FALSE,NA,NA,20180427,219023.2425,9632927.912
+PAR_A01,25,6,tatapiririca,Tapirira guianensis,Anacardiaceae,12.2,O,FALSE,NA,NA,20180427,219023.4204,9632928.005
+PAR_A01,25,7,tamanqueira,Zanthoxylum rhoifolium,Rutaceae,15.2,O,FALSE,NA,NA,20180427,219029.9109,9632921.377
+PAR_A01,25,8,freijo branco,Cordia scabrifolia,Boraginaceae,10.5,O,FALSE,NA,NA,20180427,219030.2634,9632919.517
+PAR_A01,25,9,embauba,Cecropia ficifolia,Urticaceae,18,O,FALSE,NA,NA,20180427,219030.4118,9632919.253
+PAR_A01,25,10,freijo branco,Cordia scabrifolia,Boraginaceae,11,O,FALSE,NA,NA,20180427,219031.6524,9632918.076
+PAR_A01,25,11,louro preto,Nectandra cuspidata,Lauraceae,11.9,O,FALSE,NA,NA,20180427,219035.8458,9632923.983
+PAR_A01,25,12,louro preto,Nectandra cuspidata,Lauraceae,10.4,O,FALSE,NA,NA,20180427,219035.8975,9632921.847
+PAR_A01,25,13,louro preto,Ocotea cernua,Lauraceae,12.4,O,FALSE,NA,NA,20180427,219037.4442,9632922.186
+PAR_A01,25,14,louro preto,Ocotea cernua,Lauraceae,12.6,O,FALSE,6.06,13.26,20180427,219037.4942,9632922.098
+PAR_A01,25,15,envira preta,Guatteria schomburgkiana,Annonaceae,11.7,O,FALSE,NA,NA,20180427,219038.9442,9632918.517
+PAR_A01,25,16,embauba branca,Cecropia palmata,Urticaceae,16.5,O,FALSE,NA,NA,20180427,219041.9484,9632919.369
+PAR_A01,25,17,inga,Inga marginata,Fabaceae,11.5,O,FALSE,NA,NA,20180427,219033.7003,9632916.291
+PAR_A01,25,18,inga,Inga marginata,Fabaceae,14.6,O,FALSE,NA,NA,20180427,219033.939,9632916.073
+PAR_A01,25,19,morta,NA,NA,12.8,O,TRUE,NA,NA,20180427,219033.1419,9632916.458
+PAR_A01,25,20,pente de macaco,Apeiba petoumo,Malvaceae,13.1,O,FALSE,4.49,10.38,20180427,219033.7857,9632915.314
+PAR_A01,25,21,tatapiririca,Tapirira guianensis,Anacardiaceae,11.8,O,FALSE,NA,NA,20180427,219040.3704,9632909.825
+PAR_A01,25,22,lacre branco,Vismia guianensis,Hypericaceae,11.6,O,FALSE,NA,NA,20180427,219041.0172,9632908.68
+PAR_A01,25,23,envira preta,Guatteria schomburgkiana,Annonaceae,12.2,O,FALSE,NA,NA,20180427,219039.6968,9632906.884
+PAR_A01,25,24,embauba branca,Cecropia palmata,Urticaceae,13.5,O,FALSE,NA,NA,20180427,219041.143,9632914.638
+PAR_A01,25,25,embauba branca,Cecropia palmata,Urticaceae,14,O,FALSE,NA,NA,20180427,219042.3977,9632914.48
+PAR_A01,25,26,lacre branco,Vismia guianensis,Hypericaceae,12.4,O,FALSE,NA,NA,20180427,219044.0544,9632913.616
+PAR_A01,25,27,tamanqueira,Zanthoxylum rhoifolium,Rutaceae,11.2,O,FALSE,5.59,12.12,20180427,219039.796,9632906.708
+PAR_A01,25,28,tamanqueira,Zanthoxylum rhoifolium,Rutaceae,11.1,O,FALSE,NA,NA,20180427,219039.8952,9632906.532
+PAR_A01,25,29,abiu cutite,Pouteria macrophylla,Sapotaceae,16.5,O,FALSE,NA,NA,20180427,219038.3917,9632907.13
+PAR_A01,25,30,fava sao joao,NA,NA,10,O,FALSE,NA,NA,20180427,219037.1675,9632905.159
+PAR_A01,25,31,fava sao joao,NA,NA,18,O,FALSE,NA,NA,20180427,219037.6716,9632905.3
+PAR_A01,25,32,fava sao joao,NA,NA,23,O,FALSE,NA,NA,20180427,219037.721,9632905.212
+PAR_A01,25,33,jatereu,Lecythis idatimon,Lecythidaceae,16.4,O,FALSE,NA,NA,20180427,219037.6136,9632900.201
+PAR_A01,25,34,casca seca,Licania canescens,Chrysobalanaceae,14.8,O,FALSE,NA,NA,20180427,219038.6329,9632897.337
+PAR_A01,25,35,embauba branca,Cecropia palmata,Urticaceae,15,O,FALSE,NA,NA,20180427,219043.3186,9632896.292
+PAR_A01,25,36,tamanqueira,Zanthoxylum rhoifolium,Rutaceae,12.8,O,FALSE,5.95,11.81,20180427,219045.4009,9632896.761
+PAR_A01,26,37,inga vermelho,Inga alba,Fabaceae,26.6,O,FALSE,8.2,13.92,20180427,219155.587,9633007.298
+PAR_A01,26,38,jatereu,Lecythis idatimon,Lecythidaceae,24.5,O,FALSE,11.29,22.65,20180427,219162.3544,9632994.055
+PAR_A01,26,39,envirao,NA,NA,16,O,FALSE,11.27,15.33,20180427,219160.6693,9632993.169
+PAR_A01,26,40,freijo branco,Cordia scabrifolia,Boraginaceae,19,O,FALSE,NA,NA,20180427,219158.762,9632992.728
+PAR_A01,26,41,matamata branco,Eschweilera coriacea,Lecythidaceae,33.1,O,FALSE,NA,NA,20180427,219155.3588,9632993.186
+PAR_A01,26,42,matamata preto,Eschweilera ovata,Lecythidaceae,30.7,O,FALSE,NA,NA,20180427,219161.6105,9632989.179
+PAR_A01,26,43,canela de jacamim,Rinorea pubiflora,Violaceae,23,O,FALSE,10.04,16.59,20180427,219159.5028,9632986.945
+PAR_A01,26,44,matamata preto,Eschweilera ovata,Lecythidaceae,16,O,FALSE,NA,NA,20180427,219160.354,9632987.394
+PAR_A01,26,45,matamata preto,Eschweilera ovata,Lecythidaceae,33.4,O,FALSE,NA,NA,20180427,219163.4264,9632983.403
+PAR_A01,26,46,inga branco,Inga thibaudiana,Fabaceae,10.8,O,FALSE,4.92,10.69,20180427,219164.3149,9632981.627
+PAR_A01,26,47,embauba branca,Cecropia palmata,Urticaceae,18,O,FALSE,NA,NA,20180427,219168.8524,9632987.736
+PAR_A01,26,48,envira preta,Guatteria schomburgkiana,Annonaceae,10.7,O,FALSE,NA,NA,20180427,219171.1023,9632989.71
+PAR_A01,26,49,matamata preto,Eschweilera ovata,Lecythidaceae,21,O,FALSE,NA,NA,20180427,219172.1379,9632983.538
+PAR_A01,26,50,abiurana,Pouteria gongrijpii,Sapotaceae,13.3,O,FALSE,NA,NA,20180427,219173.7793,9632984.635
+PAR_A01,26,51,inga vermelho,Inga alba,Fabaceae,26.8,O,FALSE,NA,NA,20180427,219175.4333,9632983.611
+PAR_A01,26,52,inga vermelho,Inga alba,Fabaceae,14,O,FALSE,NA,NA,20180427,219177.0548,9632980.553
+PAR_A01,26,53,inga vermelho,Inga alba,Fabaceae,16.5,O,FALSE,NA,NA,20180427,219263.8014,9633025.258
+PAR_A01,26,54,embauba branca,Cecropia palmata,Urticaceae,10.1,O,FALSE,NA,NA,20180427,219175.1155,9632977.834
+PAR_A01,26,55,guajara pedra,Pouteria sp.,Sapotaceae,115,O,FALSE,21.55,36.84,20180427,219184.3678,9632987.811
+PAR_A01,26,56,embauba,Cecropia ficifolia,Urticaceae,11.1,O,FALSE,NA,NA,20180427,219175.3446,9632977.395
+PAR_A01,26,57,inga de porco,NA,NA,17.8,O,FALSE,NA,NA,20180427,219168.7027,9632979.465
+PAR_A01,26,58,inga peludo,Inga grandis,Fabaceae,12.7,O,FALSE,NA,NA,20180427,219166.9621,9632978.538
+PAR_A01,26,59,inga xixica,Inga heterophylla,Fabaceae,16.2,O,FALSE,NA,NA,20180427,219166.9621,9632978.538
+PAR_A01,26,60,guajara pedra,Pouteria sp.,Sapotaceae,39,O,FALSE,NA,NA,20180427,219163.9222,9632974.666
+PAR_A01,26,61,agelim rajado,NA,NA,20,O,FALSE,NA,NA,20180427,219164.7985,9632972.88
+PAR_A01,26,62,breu barrote,Tetragastris panamensis,Burseraceae,33.7,O,FALSE,NA,NA,20180427,219170.5004,9632975.928
+PAR_A01,26,63,inga vermelho,Inga alba,Fabaceae,16.4,O,FALSE,NA,NA,20180427,219174.0846,9632971.1
+PAR_A01,26,64,lacre branco,Vismia guianensis,Hypericaceae,11.4,O,FALSE,NA,NA,20180427,219177.2038,9632971.651
+PAR_A01,26,65,matamata,Eschweilera parviflora,Lecythidaceae,25.4,O,FALSE,NA,NA,20180427,219180.2978,9632974.437
+PAR_A01,26,66,morta,NA,NA,27.2,O,TRUE,NA,NA,20180427,219185.3402,9632969.293
+PAR_A01,26,67,andirobinha,NA,NA,15.4,O,FALSE,NA,NA,20180427,219176.7915,9632965.803
+PAR_A01,26,68,jatereu,Lecythis idatimon,Lecythidaceae,32.5,O,FALSE,NA,NA,20180427,219177.2427,9632964.92
+PAR_A01,26,69,envira preta,Guatteria schomburgkiana,Annonaceae,11.5,O,FALSE,NA,NA,20180427,219171.4036,9632962.895
+PAR_A01,26,70,inga vermelho,Inga alba,Fabaceae,11.5,O,FALSE,NA,NA,20180427,219170.522,9632964.676
+PAR_A01,27,71,axixa,Sterculia pruriens,Malvaceae,15.2,O,FALSE,NA,NA,20180427,219276.3276,9633074.437
+PAR_A01,27,72,maravuvuia,Croton matourensis,Euphorbiaceae,12.2,O,FALSE,NA,NA,20180427,219278.4119,9633070.609
+PAR_A01,27,73,maravuvuia,Croton matourensis,Euphorbiaceae,15.8,O,FALSE,NA,NA,20180427,219278.8332,9633070.83
+PAR_A01,27,74,maravuvuia,Croton matourensis,Euphorbiaceae,11.6,O,FALSE,NA,NA,20180427,219281.7409,9633073.456
+PAR_A01,27,75,freijo branco,Cordia scabrifolia,Boraginaceae,11.4,O,FALSE,NA,NA,20180427,219283.4263,9633074.343
+PAR_A01,27,76,jutai pororoca,Dialium guianense,Fabaceae,12.1,O,FALSE,NA,NA,20180427,219285.1117,9633075.23
+PAR_A01,27,77,marupa,Simarouba amara,Simaroubaceae,11.1,O,FALSE,NA,NA,20180427,219283.345,9633076.503
+PAR_A01,27,78,morta,NA,NA,14.9,O,TRUE,NA,NA,20180427,219281.8088,9633077.344
+PAR_A01,27,79,guajara pedra,Pouteria sp.,Sapotaceae,21.5,O,FALSE,NA,NA,20180427,219292.696,9633079.222
+PAR_A01,27,80,fava de paca,NA,NA,15.2,O,FALSE,NA,NA,20180427,219286.8777,9633073.952
+PAR_A01,27,81,maravuvuia,Croton matourensis,Euphorbiaceae,12.5,O,FALSE,NA,NA,20180427,219283.7578,9633065.742
+PAR_A01,27,82,maravuvuia,Croton matourensis,Euphorbiaceae,16,O,FALSE,NA,NA,20180427,219285.0618,9633065.322
+PAR_A01,27,83,maravuvuia,Croton matourensis,Euphorbiaceae,18.7,O,FALSE,NA,NA,20180427,219285.987,9633063.614
+PAR_A01,27,84,maravuvuia,Croton matourensis,Euphorbiaceae,22.1,O,FALSE,NA,NA,20180427,219286.4497,9633062.759
+PAR_A01,27,85,maravuvuia,Croton matourensis,Euphorbiaceae,15.9,O,FALSE,NA,NA,20180427,219289.4341,9633063.195
+PAR_A01,27,86,inga vermelho,Inga alba,Fabaceae,11,O,FALSE,NA,NA,20180427,219284.8536,9633059.763
+PAR_A01,27,87,maravuvuia,Croton matourensis,Euphorbiaceae,17.4,O,FALSE,NA,NA,20180427,219285.694,9633060.192
+PAR_A01,27,88,maravuvuia,Croton matourensis,Euphorbiaceae,16,O,FALSE,NA,NA,20180427,219286.6199,9633058.488
+PAR_A01,27,89,parapara,Jacaranda copaia,Bignoniaceae,16.5,O,FALSE,10.26,13.92,20180427,219294.5176,9633053.762
+PAR_A01,27,90,freijo branco,Cordia scabrifolia,Boraginaceae,11.2,O,FALSE,NA,NA,20180427,219295.904,9633051.19
+PAR_A01,27,91,envira preta,Guatteria schomburgkiana,Annonaceae,11.7,O,FALSE,NA,NA,20180427,219296.6198,9633065.77
+PAR_A01,27,92,freijo branco,Cordia scabrifolia,Boraginaceae,13.2,O,FALSE,8.24,12.17,20180427,219295.4825,9633061.894
+PAR_A01,27,93,maravuvuia,Croton matourensis,Euphorbiaceae,12.8,O,FALSE,2.22,12.45,20180427,219297.8729,9633055.437
+PAR_A01,27,94,freijo branco,Cordia scabrifolia,Boraginaceae,13.5,O,FALSE,NA,NA,20180427,219301.3115,9633054.963
+PAR_A01,27,95,maravuvuia,Croton matourensis,Euphorbiaceae,13.1,O,FALSE,8.1,11.52,20180427,219298.4191,9633052.436
+PAR_A01,27,96,marupa,Simarouba amara,Simaroubaceae,17.4,O,FALSE,NA,NA,20180427,219304.7091,9633044.64
+PAR_A01,27,97,mamui,Jacaratia spinosa,Caricaceae,41.4,O,FALSE,NA,NA,20180427,219305.1704,9633043.778
+PAR_A01,27,98,amelosa,NA,NA,13.5,O,FALSE,NA,NA,20180427,219307.3905,9633041.59
+PAR_A01,27,99,morta,NA,NA,18.1,O,TRUE,NA,NA,20180427,219310.3595,9633041.927
+PAR_A01,27,100,pitomba,Talisia longifolia,Sapindaceae,22.7,O,FALSE,NA,NA,20180427,219310.9061,9633038.929
+PAR_A01,27,101,parapara,Jacaranda copaia,Bignoniaceae,10.7,O,FALSE,NA,NA,20180427,219304.0462,9633039.986
+PAR_A01,27,102,parapara,Jacaranda copaia,Bignoniaceae,12.5,O,FALSE,NA,NA,20180427,219302.0002,9633037.927
+PAR_A01,27,103,pente de macaco,Apeiba petoumo,Malvaceae,21.4,O,FALSE,NA,NA,20180427,219296.8943,9633037.63
+PAR_A01,27,104,maravuvuia,Croton matourensis,Euphorbiaceae,10.5,O,FALSE,NA,NA,20180427,219294.5788,9633041.886
+PAR_A01,27,105,inga vermelho,Inga alba,Fabaceae,16.7,O,FALSE,NA,NA,20180427,219301.7162,9633034.564
+PAR_A01,27,106,inga vermelho,Inga alba,Fabaceae,11.2,O,FALSE,NA,NA,20180427,219301.7162,9633034.564
+PAR_A01,27,107,morta,NA,NA,11.7,O,TRUE,NA,NA,20180427,219306.3552,9633035.688
+PAR_A01,27,108,matamata preto,Eschweilera ovata,Lecythidaceae,39.7,O,FALSE,NA,NA,20180427,219321.1456,9633049.289
+PAR_A01,27,109,abiurana,Pouteria gongrijpii,Sapotaceae,37,O,FALSE,NA,NA,20180427,219332.249,9633047.959
+PAR_A01,27,110,jatareua vermelho,NA,NA,53.2,O,FALSE,20.85,33.95,20180427,219336.6536,9633055.626
+PAR_A01,27,111,inga de porco,NA,NA,52.3,O,FALSE,20.33,29.46,20180427,219325.3968,9633061.335
+PAR_A01,27,112,mirindiba,NA,NA,49.7,O,FALSE,NA,NA,20180427,219313.2099,9633056.453
+PAR_A01,27,113,morta,NA,NA,47.5,O,TRUE,NA,NA,20180427,219315.7168,9633069.917
+PAR_A01,27,114,jatereu,Lecythis idatimon,Lecythidaceae,39.5,O,FALSE,NA,NA,20180427,219314.89,9633081.846
+PAR_A01,27,115,matamata branco,Eschweilera coriacea,Lecythidaceae,53.5,O,FALSE,17.12,32.94,20180427,219315.1326,9633087.626
+PAR_A01,27,116,goiabao,Pradosia cochlearia,Sapotaceae,50.6,O,FALSE,16.9,23.78,20180427,219297.9057,9633077.504
+PAR_A01,27,117,guajara pedra,Pouteria sp.,Sapotaceae,36,O,FALSE,NA,NA,20180427,219299.4419,9633070.528
+PAR_A01,27,118,inhare,Helicostylis tomentosa,Moraceae,46.5,O,FALSE,NA,NA,20180427,219299.9019,9633069.657
+PAR_A01,27,119,morta,NA,NA,36,O,TRUE,NA,NA,20180427,219298.9818,9633071.399
+PAR_A01,27,120,fava de paca,NA,NA,42.5,O,FALSE,NA,NA,20180427,219304.0423,9633061.818
+PAR_A01,27,121,parajuba,Manilkara bidentata,Sapotaceae,53.5,O,FALSE,18.05,26.87,20180427,219299.1411,9633067.057
+PAR_A01,27,122,morta,NA,NA,40.5,O,TRUE,NA,NA,20180427,219295.8397,9633075.316
+PAR_A01,27,123,maravuvuia,Croton matourensis,Euphorbiaceae,21.4,O,FALSE,NA,NA,20180427,219281.7409,9633073.456
+PAR_A01,27,124,lacre branco,Vismia guianensis,Hypericaceae,13.2,O,FALSE,NA,NA,20180427,219281.7409,9633073.456
+PAR_A01,27,125,lacre branco,Vismia guianensis,Hypericaceae,13.7,O,FALSE,NA,NA,20180427,219286.959,9633071.792
+PAR_A01,27,126,inga vermelho,Inga alba,Fabaceae,15.7,O,FALSE,NA,NA,20180427,219288.9437,9633076.14
+PAR_A01,27,127,lacre vermelho,Vismia latifolia,Hypericaceae,10.2,O,FALSE,NA,NA,20180427,219287.9648,9633067.918
+PAR_A01,27,128,lacre vermelho,Vismia latifolia,Hypericaceae,12.7,O,FALSE,NA,NA,20180427,219286.7443,9633066.191
+PAR_A01,27,129,lacre vermelho,Vismia latifolia,Hypericaceae,107,O,FALSE,NA,NA,20180427,219284.7681,9633061.897
+PAR_A01,27,130,lacre vermelho,Vismia latifolia,Hypericaceae,109,O,FALSE,NA,NA,20180427,219288.972,9633064.053
+PAR_A01,27,131,parapara,Jacaranda copaia,Bignoniaceae,10.7,O,FALSE,NA,NA,20180427,219289.3507,9633065.342
+PAR_A01,27,132,tachi preto,Tachigali myrmecophila,Fabaceae,12.2,O,FALSE,NA,NA,20180427,219291.8735,9633066.639
+PAR_A01,27,133,breu vermelho,Protium hebetatum,Burseraceae,13.2,O,FALSE,NA,NA,20180427,219295.6175,9633069.666
+PAR_A01,27,134,jutai pororoca,Dialium guianense,Fabaceae,39.5,O,FALSE,NA,NA,20180427,219298.9032,9633073.576
+PAR_A01,28,135,fava de paca,NA,NA,21.5,O,FALSE,NA,NA,20180427,219424.7311,9633134.508
+PAR_A01,28,136,lacre branco,Vismia guianensis,Hypericaceae,12.5,O,FALSE,NA,NA,20180427,219421.1643,9633128.306
+PAR_A01,28,137,maravuvuia,Croton matourensis,Euphorbiaceae,13.7,O,FALSE,9.89,14.69,20180427,219423.4375,9633128.381
+PAR_A01,28,138,fava de paca,NA,NA,19.4,O,FALSE,NA,NA,20180427,219428.9158,9633126.832
+PAR_A01,28,139,fava de paca,NA,NA,121,O,FALSE,NA,NA,20180427,219428.9158,9633126.832
+PAR_A01,28,140,muruci,Byrsonima crispa,Malpighiaceae,10.1,O,FALSE,NA,NA,20180427,219421.2104,9633123.943
+PAR_A01,28,141,maravuvuia,Croton matourensis,Euphorbiaceae,20.4,O,FALSE,NA,NA,20180427,219422.6016,9633121.368
+PAR_A01,28,142,inga peludo,Inga grandis,Fabaceae,14.4,O,FALSE,NA,NA,20180427,219421.315,9633112.989
+PAR_A01,28,143,inga peludo,Inga grandis,Fabaceae,10.7,O,FALSE,NA,NA,20180427,219421.315,9633112.989
+PAR_A01,28,144,inga peludo,Inga grandis,Fabaceae,16.7,O,FALSE,NA,NA,20180427,219407.4252,9633138.834
+PAR_A01,28,145,maravuvuia,Croton matourensis,Euphorbiaceae,24.7,O,FALSE,NA,NA,20180427,219424.9617,9633112.693
+PAR_A01,28,146,maravuvuia,Croton matourensis,Euphorbiaceae,18.5,O,FALSE,NA,NA,20180427,219427.5431,9633114.378
+PAR_A01,28,147,lacre branco,Vismia guianensis,Hypericaceae,12.3,O,FALSE,NA,NA,20180427,219429.4961,9633115.072
+PAR_A01,28,148,fava de paca,NA,NA,20.2,O,FALSE,NA,NA,20180427,219434.5401,9633112.228
+PAR_A01,28,149,fava de paca,NA,NA,12.2,O,FALSE,NA,NA,20180427,219438.1236,9633118.504
+PAR_A01,28,150,fava folha fina,Pseudopiptadenia psilostachya,Fabaceae,16.5,O,FALSE,6.36,16.59,20180427,219432.7248,9633111.27
+PAR_A01,28,151,caripe,Licania octandra,Chrysobalanaceae,10.7,O,FALSE,NA,NA,20180427,219435.0047,9633111.374
+PAR_A01,28,152,NA,NA,NA,24.5,O,FALSE,NA,NA,20180427,219438.6584,9633111.109
+PAR_A01,28,153,lacre,Vismia guianensis,Hypericaceae,13.7,O,FALSE,7.73,15.03,20180427,219431.3935,9633107.26
+PAR_A01,28,154,maravuvuia,Croton matourensis,Euphorbiaceae,18,O,FALSE,8.53,19.36,20180427,219430.9296,9633108.118
+PAR_A01,28,155,maravuvuia,Croton matourensis,Euphorbiaceae,10.7,O,FALSE,NA,NA,20180427,219429.074,9633111.548
+PAR_A01,28,156,morta,NA,NA,12.3,O,TRUE,NA,NA,20180427,219429.5961,9633104.098
+PAR_A01,28,157,urucurana,Sloanea guianensis,Elaeocarpaceae,55,O,FALSE,18.29,33.63,20180427,219454.1238,9633148.476
+PAR_A01,28,158,inga vermelho,Inga alba,Fabaceae,42,O,FALSE,NA,NA,20180427,219410.6192,9633137.163
+PAR_A01,28,159,abiurana vermelha,Pouteria gongrijpii,Sapotaceae,48.2,O,FALSE,NA,NA,20180427,219447.5079,9633162.234
+PAR_A01,29,1,envira preta,Guatteria schomburgkiana,Annonaceae,14.3,O,FALSE,NA,NA,20180427,219121.644,9632762.92
+PAR_A01,29,2,tinteiro,Miconia poeppigii,Melastomataceae,18.8,O,FALSE,NA,NA,20180427,219112.3386,9632756.479
+PAR_A01,29,3,embauba branca,Cecropia palmata,Urticaceae,11.7,O,FALSE,NA,NA,20180427,219115.5655,9632756.955
+PAR_A01,29,4,iperana,Eperua bijuga,Fabaceae,24.4,O,FALSE,NA,NA,20180427,219115.2485,9632753.255
+PAR_A01,29,5,farinha seca,Lindackeria paludosa,Achariaceae,12.2,O,FALSE,NA,NA,20180427,219127.4979,9632745.437
+PAR_A01,29,6,farinha seca,Lindackeria paludosa,Achariaceae,11.5,O,FALSE,NA,NA,20180427,219126.7144,9632744.768
+PAR_A01,29,7,envira preta,Guatteria schomburgkiana,Annonaceae,18.5,O,FALSE,NA,NA,20180427,219125.0081,9632743.693
+PAR_A01,29,8,breu manga,Tetragastris altissima,Burseraceae,14,O,FALSE,NA,NA,20180427,219133.4502,9632749.249
+PAR_A01,29,9,louro preto,Ocotea cernua,Lauraceae,13.2,O,FALSE,NA,NA,20180427,219135.4339,9632749.799
+PAR_A01,29,10,lacre,Vismia guianensis,Hypericaceae,12.2,O,FALSE,NA,NA,20180427,219136.4941,9632749.942
+PAR_A01,29,11,tatapiririca,Tapirira guianensis,Anacardiaceae,12.3,O,FALSE,7.38,14.96,20180427,219130.6904,9632743.718
+PAR_A01,29,12,louro preto,Nectandra cuspidata,Lauraceae,14.6,O,FALSE,NA,NA,20180427,219136.7207,9632745.18
+PAR_A01,29,13,louro preto,Ocotea cernua,Lauraceae,23.3,O,FALSE,NA,NA,20180427,219128.079,9632740.093
+PAR_A01,29,14,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,40,O,FALSE,NA,NA,20180427,219122.0597,9632736.482
+PAR_A01,29,15,envira preta,Guatteria schomburgkiana,Annonaceae,17.5,O,FALSE,NA,NA,20180427,219122.2954,9632736.049
+PAR_A01,29,16,envira cana,Xylopia nitida,Annonaceae,19.7,O,FALSE,NA,NA,20180427,219130.7104,9632739.418
+PAR_A01,29,17,lacre,Vismia guianensis,Hypericaceae,14,O,FALSE,NA,NA,20180427,219128.0647,9632735.893
+PAR_A01,29,18,envira preta,Guatteria schomburgkiana,Annonaceae,19.9,O,FALSE,NA,NA,20180427,219127.2875,9632735.231
+PAR_A01,29,19,envira cana,Xylopia nitida,Annonaceae,17.4,O,FALSE,NA,NA,20180427,219132.3278,9632732.167
+PAR_A01,29,20,mamui,Jacaratia spinosa,Caricaceae,19,O,FALSE,NA,NA,20180427,219130.5462,9632731.285
+PAR_A01,29,21,lacre,Vismia guianensis,Hypericaceae,10.8,O,FALSE,NA,NA,20180427,219136.1895,9632737.615
+PAR_A01,29,22,louro preto,Ocotea cernua,Lauraceae,10.2,O,FALSE,NA,NA,20180427,219139.6667,9632739.563
+PAR_A01,29,23,farinha seca,Lindackeria paludosa,Achariaceae,12,O,FALSE,NA,NA,20180427,219136.7913,9632736.477
+PAR_A01,29,24,envira cana,Xylopia nitida,Annonaceae,15.6,O,FALSE,10.53,15.75,20180427,219136.5719,9632734.767
+PAR_A01,29,25,envira cana,Xylopia nitida,Annonaceae,12.5,O,FALSE,10.67,12.71,20180427,219137.2777,9632734.708
+PAR_A01,29,26,louro preto,Nectandra cuspidata,Lauraceae,16.4,O,FALSE,6.63,14.08,20180427,219136.2973,9632728.95
+PAR_A01,29,27,louro preto,Ocotea cernua,Lauraceae,11.2,O,FALSE,NA,NA,20180427,219135.6662,9632728.033
+PAR_A01,29,28,louro preto,Nectandra cuspidata,Lauraceae,10.2,O,FALSE,NA,NA,20180427,219128.9599,9632725.877
+PAR_A01,29,29,louro preto,Ocotea cernua,Lauraceae,12.7,O,FALSE,NA,NA,20180427,219130.0128,9632726.012
+PAR_A01,29,30,louro preto,Ocotea cernua,Lauraceae,14.6,O,FALSE,NA,NA,20180427,219131.8634,9632724.671
+PAR_A01,29,31,louro preto,Nectandra cuspidata,Lauraceae,11.5,O,FALSE,NA,NA,20180427,219133.8049,9632723.153
+PAR_A01,29,32,louro preto,Ocotea cernua,Lauraceae,13.8,O,FALSE,NA,NA,20180427,219133.8518,9632723.066
+PAR_A01,29,33,louro preto,Nectandra cuspidata,Lauraceae,11.3,O,FALSE,NA,NA,20180427,219132.9903,9632722.587
+PAR_A01,29,34,louro preto,Nectandra cuspidata,Lauraceae,16.7,O,FALSE,NA,NA,20180427,219136.0244,9632721.11
+PAR_A01,29,35,louro preto,Nectandra cuspidata,Lauraceae,10.7,O,FALSE,NA,NA,20180427,219134.305,9632720.156
+PAR_A01,29,36,pente de macaco,Apeiba petoumo,Malvaceae,12.3,O,FALSE,NA,NA,20180427,219141.0928,9632719.966
+PAR_A01,29,37,goiaba de anta,Bellucia grossularioides,Melastomataceae,12,O,FALSE,NA,NA,20180427,219147.2007,9632727.313
+PAR_A01,29,38,goiaba de anta,Bellucia grossularioides,Melastomataceae,20.3,O,FALSE,NA,NA,20180427,219147.8603,9632727.113
+PAR_A01,29,39,lacre,Vismia guianensis,Hypericaceae,22.8,O,FALSE,NA,NA,20180427,219147.6604,9632726.435
+PAR_A01,29,40,marupa,Simarouba amara,Simaroubaceae,36.8,O,FALSE,NA,NA,20180427,219165.8774,9632753.901
+PAR_A01,29,41,tachirana,Stryphnodendron paniculatum,Fabaceae,41.3,O,FALSE,NA,NA,20180427,219154.5188,9632779.366
+PAR_A01,30,42,embauba branca,Cecropia palmata,Urticaceae,11.2,O,FALSE,NA,NA,20180427,219252.289,9632832.012
+PAR_A01,30,43,inga,Inga marginata,Fabaceae,12.5,O,FALSE,NA,NA,20180427,219245.2224,9632830.307
+PAR_A01,30,44,morta,NA,NA,33.8,O,TRUE,NA,NA,20180427,219254.5844,9632811.306
+PAR_A01,30,45,inga,Inga marginata,Fabaceae,12.1,O,FALSE,NA,NA,20180427,219257.0295,9632811.021
+PAR_A01,30,46,morta,NA,NA,25.5,O,TRUE,NA,NA,20180427,219264.2181,9632812.496
+PAR_A01,30,47,pente de macaco,Apeiba petoumo,Malvaceae,10.2,O,FALSE,NA,NA,20180427,219264.6029,9632809.731
+PAR_A01,30,48,fava atana,Parkia gigantocarpa,Fabaceae,18,O,FALSE,NA,NA,20180427,219264.9365,9632804.99
+PAR_A01,30,49,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,15.5,O,FALSE,NA,NA,20180427,219264.5928,9632803.544
+PAR_A01,30,50,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,13.5,O,FALSE,7.32,14.49,20180427,219264.8363,9632803.103
+PAR_A01,30,51,tatapiririca,Tapirira guianensis,Anacardiaceae,11.4,O,FALSE,6.43,12.84,20180427,219267.8749,9632804.638
+PAR_A01,30,52,tatapiririca,Tapirira guianensis,Anacardiaceae,11.7,O,FALSE,NA,NA,20180427,219267.7084,9632804.318
+PAR_A01,30,53,envira preta,Guatteria schomburgkiana,Annonaceae,10.3,O,FALSE,NA,NA,20180427,219275.583,9632808.478
+PAR_A01,30,54,fava atana,Parkia gigantocarpa,Fabaceae,15.5,O,FALSE,NA,NA,20180427,219275.1312,9632803.089
+PAR_A01,30,55,angelim rajado,Zygia racemosa,Fabaceae,11,O,FALSE,NA,NA,20180427,219268.9274,9632789.5
+PAR_A01,30,56,morta,NA,NA,26.2,O,TRUE,NA,NA,20180427,219279.5521,9632795.086
+PAR_A01,31,57,farinha seca,Lindackeria paludosa,Achariaceae,12,O,FALSE,NA,NA,20180427,219373.801,9632898.9
+PAR_A01,31,58,envira preta,Guatteria schomburgkiana,Annonaceae,10.8,O,FALSE,NA,NA,20180427,219372.5425,9632897.097
+PAR_A01,31,59,embauba branca,Cecropia palmata,Urticaceae,15.4,O,FALSE,NA,NA,20180427,219378.1948,9632899.411
+PAR_A01,31,60,morta,NA,NA,40.5,O,TRUE,NA,NA,20180427,219388.0299,9632904.513
+PAR_A01,31,61,inga,Inga marginata,Fabaceae,11.7,O,FALSE,NA,NA,20180427,219391.9657,9632895.747
+PAR_A01,31,62,angelim rajado,Zygia racemosa,Fabaceae,12.2,O,FALSE,NA,NA,20180427,219394.5309,9632894.289
+PAR_A01,31,63,jatereu,Lecythis idatimon,Lecythidaceae,18.4,O,FALSE,NA,NA,20180427,219394.9672,9632894.523
+PAR_A01,31,64,inga,Inga marginata,Fabaceae,15.2,O,FALSE,NA,NA,20180427,219390.3424,9632890.679
+PAR_A01,31,65,burra leiteira,Sapium marmieri,Euphorbiaceae,13.2,O,FALSE,NA,NA,20180427,219384.3945,9632889.078
+PAR_A01,31,66,louro preto,Ocotea cernua,Lauraceae,11,O,FALSE,NA,NA,20180427,219382.0525,9632885.314
+PAR_A01,31,67,louro preto,Ocotea cernua,Lauraceae,11.3,O,FALSE,NA,NA,20180427,219382.8873,9632885.649
+PAR_A01,31,68,marupa,Simarouba amara,Simaroubaceae,10.2,O,FALSE,NA,NA,20180427,219383.6964,9632880.72
+PAR_A01,31,69,embauba branca,Cecropia palmata,Urticaceae,11.3,O,FALSE,NA,NA,20180427,219386.389,9632881.947
+PAR_A01,31,70,farinha seca,Lindackeria paludosa,Achariaceae,10.2,O,FALSE,NA,NA,20180427,219389.9336,9632885.57
+PAR_A01,31,71,lacre branco,Vismia guianensis,Hypericaceae,16,O,FALSE,NA,NA,20180427,219390.6961,9632886.208
+PAR_A01,31,72,inga,Inga marginata,Fabaceae,16.5,O,FALSE,NA,NA,20180427,219397.8539,9632887.573
+PAR_A01,31,73,inga,Inga marginata,Fabaceae,17.5,O,FALSE,NA,NA,20180427,219397.904,9632887.486
+PAR_A01,31,74,pente de macaco,Apeiba petoumo,Malvaceae,10.2,O,FALSE,NA,NA,20180427,219389.8419,9632878.109
+PAR_A01,31,75,murure,Brosimum acutifolium,Moraceae,10.9,O,FALSE,NA,NA,20180427,219391.8623,9632878.521
+PAR_A01,31,76,tauari,Couratari stellata,Lecythidaceae,30.2,O,FALSE,NA,NA,20180427,219387.6114,9632872.435
+PAR_A01,31,77,abiurana,Pouteria gongrijpii,Sapotaceae,14.8,O,FALSE,NA,NA,20180427,219388.5565,9632870.888
+PAR_A01,31,78,jutai pororoca,Dialium guianense,Fabaceae,10.7,O,FALSE,4.97,10.56,20180427,219394.0778,9632874.817
+PAR_A01,31,79,angelim rajado,Zygia racemosa,Fabaceae,14.6,O,FALSE,NA,NA,20180427,219397.4729,9632876.669
+PAR_A01,31,80,jatereu,Lecythis idatimon,Lecythidaceae,34.5,O,FALSE,NA,NA,20180427,219404.0288,9632875.01
+PAR_A01,31,81,jatereu,Lecythis idatimon,Lecythidaceae,30,O,FALSE,NA,NA,20180427,219403.6905,9632873.685
+PAR_A01,31,82,macaranduba,Manilkara huberi,Sapotaceae,15.1,O,FALSE,NA,NA,20180427,219404.0433,9632873.08
+PAR_A01,31,83,abiu cutite,Pouteria macrophylla,Sapotaceae,27.7,O,FALSE,NA,NA,20180427,219404.4969,9632872.303
+PAR_A01,31,84,envira surucucu,Duguetia surinamensis,Annonaceae,15.8,O,FALSE,4.69,13.47,20180427,219396.4839,9632868.929
+PAR_A01,31,85,abiu rosadinho,Pouteria reticulata,Sapotaceae,36,O,FALSE,NA,NA,20180427,219397.2973,9632863.877
+PAR_A01,31,86,capueiro,Rinorea guianensis,Violaceae,15.4,O,FALSE,NA,NA,20180427,219399.3771,9632864.107
+PAR_A01,31,87,capueiro,Rinorea guianensis,Violaceae,19.1,O,FALSE,9.94,14.45,20180427,219401.4973,9632862.413
+PAR_A01,31,88,jatereu,Lecythis idatimon,Lecythidaceae,16.2,O,FALSE,NA,NA,20180427,219399.1673,9632860.779
+PAR_A01,31,89,timborana,Pseudopiptadenia suaveolens,Fabaceae,11.6,O,FALSE,3.59,10.33,20180427,219401.8579,9632861.81
+PAR_A01,31,90,jatereu,Lecythis idatimon,Lecythidaceae,24.7,O,FALSE,NA,NA,20180427,219403.7597,9632867.9
+PAR_A01,31,91,capueiro,Rinorea guianensis,Violaceae,27.5,O,FALSE,NA,NA,20180427,219404.7254,9632866.261
+PAR_A01,31,92,jatereu,Lecythis idatimon,Lecythidaceae,37.4,O,FALSE,NA,NA,20180427,219423.6103,9632881.225
+PAR_A01,31,93,amapa,Parahancornia fasciculata,Apocynaceae,40.8,O,FALSE,NA,NA,20180427,219429.068,9632889.298
+PAR_A01,32,94,farinha seca,Lindackeria paludosa,Achariaceae,10.4,O,FALSE,NA,NA,20180427,219497.899,9632974.173
+PAR_A01,32,95,embauba branca,Cecropia palmata,Urticaceae,22.8,O,FALSE,NA,NA,20180427,219492.4798,9632971.16
+PAR_A01,32,96,morta,NA,NA,33,O,TRUE,NA,NA,20180427,219501.1141,9632970.32
+PAR_A01,32,97,mututi,Pterocarpus sp.,Fabaceae,24.5,O,FALSE,NA,NA,20180427,219505.5761,9632972.849
+PAR_A01,32,98,cacau,NA,NA,13,O,FALSE,NA,NA,20180427,219505.4684,9632968.636
+PAR_A01,32,99,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,18.8,O,FALSE,NA,NA,20180427,219505.5611,9632968.459
+PAR_A01,32,100,farinha seca,Lindackeria paludosa,Achariaceae,10.5,O,FALSE,NA,NA,20180427,219499.4202,9632964.827
+PAR_A01,32,101,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,12.8,O,FALSE,NA,NA,20180427,219493.7883,9632964.506
+PAR_A01,32,102,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,15,O,FALSE,NA,NA,20180427,219497.0593,9632960.67
+PAR_A01,32,103,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,13.4,O,FALSE,NA,NA,20180427,219497.1075,9632960.582
+PAR_A01,32,104,embauba branca,Cecropia palmata,Urticaceae,14.6,O,FALSE,NA,NA,20180427,219496.6208,9632957.278
+PAR_A01,32,105,cedro,Cedrela odorata,Meliaceae,11,O,FALSE,NA,NA,20180427,219503.8893,9632956.548
+PAR_A01,32,106,jatereu,Lecythis idatimon,Lecythidaceae,33.2,O,FALSE,NA,NA,20180427,219504.5549,9632955.315
+PAR_A01,32,107,capueiro,Rinorea guianensis,Violaceae,12.2,O,FALSE,NA,NA,20180427,219497.6275,9632953.392
+PAR_A01,32,108,capueiro,Rinorea guianensis,Violaceae,12.4,O,FALSE,NA,NA,20180427,219501.0003,9632951.421
+PAR_A01,32,109,embauba,Cecropia ficifolia,Urticaceae,14.4,O,FALSE,NA,NA,20180427,219506.628,9632949.395
+PAR_A01,32,110,breu de leite,Thyrsodium spruceanum,Anacardiaceae,22.7,O,FALSE,NA,NA,20180427,219515.2373,9632952.116
+PAR_A01,32,111,abiu,Pouteria sp.,Sapotaceae,15.6,O,FALSE,NA,NA,20180427,219516.477,9632951.867
+PAR_A01,32,112,arataciu,Sagotia racemosa,Euphorbiaceae,17,O,FALSE,6.68,12.12,20180427,219512.2188,9632949.398
+PAR_A01,32,113,liana,NA,NA,14,L,FALSE,NA,NA,20180427,219512.5715,9632946.646
+PAR_A01,32,114,abiu rosadinho,Pouteria reticulata,Sapotaceae,27,O,FALSE,NA,NA,20180427,219513.6831,9632938.405
+PAR_A01,32,115,caqui,Diospyros guianensis,Ebenaceae,26.3,O,FALSE,16.56,26.18,20180427,219519.998,9632936.784
+PAR_A01,32,116,abiurana vermelha,Pouteria gongrijpii,Sapotaceae,24.5,O,FALSE,NA,NA,20180427,219521.5868,9632935.821
+PAR_A01,32,117,inga xixica,Inga heterophylla,Fabaceae,25.4,O,FALSE,NA,NA,20180427,219523.679,9632932.863
+PAR_A01,32,118,maravuvuia,Croton matourensis,Euphorbiaceae,12.5,O,FALSE,NA,NA,20180427,219516.2505,9632933.649
+PAR_A01,32,119,maravuvuia,Croton matourensis,Euphorbiaceae,13.8,O,FALSE,NA,NA,20180427,219516.0819,9632933.559
+PAR_A01,32,120,maravuvuia,Croton matourensis,Euphorbiaceae,18.4,O,FALSE,NA,NA,20180427,219510.9178,9632930.459
+PAR_A01,32,121,maravuvuia,Croton matourensis,Euphorbiaceae,10.9,O,FALSE,NA,NA,20180427,219517.5261,9632932.288
+PAR_A01,32,122,maravuvuia,Croton matourensis,Euphorbiaceae,12,O,FALSE,NA,NA,20180427,219517.5736,9632932.2
+PAR_A01,32,123,maravuvuia,Croton matourensis,Euphorbiaceae,11.5,O,FALSE,12.23,17.11,20180427,219518.1683,9632931.497
+PAR_A01,32,124,maravuvuia,Croton matourensis,Euphorbiaceae,12.2,O,FALSE,12.23,17.11,20180427,219518.4671,9632931.544
+PAR_A01,32,125,maravuvuia,Croton matourensis,Euphorbiaceae,19,O,FALSE,NA,NA,20180427,219512.154,9632927.251
+PAR_A01,32,126,tanibuca,Terminalia amazonia,Combretaceae,80,O,FALSE,16.69,35.63,20180427,219547.6427,9632949.86
+PAR_A01,32,127,morta,NA,NA,70,O,TRUE,NA,22.43,20180427,219529.7844,9632965.038
+PAR_A01,32,128,morta,NA,NA,47,O,TRUE,NA,NA,20180427,219530.771,9632972.262
+PAR_A01,32,129,matamata preto,Eschweilera ovata,Lecythidaceae,42,O,FALSE,NA,NA,20180427,219520.5716,9632972.543
+PAR_A01,33,1,embauba branca,Cecropia palmata,Urticaceae,12.2,O,FALSE,NA,NA,20180426,219207.8301,9632590.153
+PAR_A01,33,2,embauba branca,Cecropia palmata,Urticaceae,10.3,O,FALSE,NA,NA,20180426,219208.6699,9632588.561
+PAR_A01,33,3,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,11,O,FALSE,NA,NA,20180426,219209.8436,9632588.25
+PAR_A01,33,4,envira preta,Guatteria schomburgkiana,Annonaceae,11.2,O,FALSE,NA,NA,20180426,219218.652,9632587.043
+PAR_A01,33,5,envira preta,Guatteria schomburgkiana,Annonaceae,14,O,FALSE,NA,NA,20180426,219216.747,9632582.974
+PAR_A01,33,6,farinha seca,Lindackeria paludosa,Achariaceae,10.2,O,FALSE,NA,NA,20180426,219212.9154,9632580.51
+PAR_A01,33,7,goiaba de anta,Bellucia grossularioides,Melastomataceae,11,O,FALSE,8.11,10.49,20180426,219216.9273,9632580.72
+PAR_A01,33,8,uxirana,Sacoglottis guianensis,Humiriaceae,39,O,FALSE,NA,NA,20180426,219226.8484,9632587.219
+PAR_A01,33,9,morta,NA,NA,39.5,O,TRUE,NA,NA,20180426,219236.1801,9632596.302
+PAR_A01,33,10,morta,NA,NA,70,O,TRUE,NA,25.52,20180426,219243.1304,9632595.321
+PAR_A01,33,11,embauba branca,Cecropia palmata,Urticaceae,10.5,O,FALSE,NA,NA,20180426,219223.2217,9632578.726
+PAR_A01,33,12,envira preta,Guatteria schomburgkiana,Annonaceae,10.1,O,FALSE,NA,NA,20180426,219222.5418,9632578.051
+PAR_A01,33,13,envira preta,Guatteria schomburgkiana,Annonaceae,10.5,O,FALSE,NA,NA,20180426,219212.8288,9632574.767
+PAR_A01,33,14,envira preta,Guatteria schomburgkiana,Annonaceae,14.6,O,FALSE,7.73,10.99,20180426,219212.8749,9632574.678
+PAR_A01,33,15,parapara,Jacaranda copaia,Bignoniaceae,23.3,O,FALSE,NA,NA,20180426,219210.3171,9632573.626
+PAR_A01,33,16,inga vermelho,Inga alba,Fabaceae,17.3,O,FALSE,NA,NA,20180426,219227.1826,9632573.453
+PAR_A01,33,17,embauba branca,Cecropia palmata,Urticaceae,12,O,FALSE,NA,NA,20180426,219225.5621,9632572.529
+PAR_A01,33,18,embauba branca,Cecropia palmata,Urticaceae,16.9,O,FALSE,7.87,11.68,20180426,219221.343,9632570.527
+PAR_A01,33,19,maravuvuia,Croton matourensis,Euphorbiaceae,18.9,O,FALSE,11.2,15.86,20180426,219219.7214,9632569.603
+PAR_A01,33,20,lacre branco,Vismia guianensis,Hypericaceae,12.1,O,FALSE,NA,NA,20180426,219220.8377,9632569.492
+PAR_A01,33,21,lacre branco,Vismia guianensis,Hypericaceae,15.2,O,FALSE,2.44,9.69,20180426,219220.8846,9632569.403
+PAR_A01,33,22,maravuvuia,Croton matourensis,Euphorbiaceae,11.9,O,FALSE,NA,NA,20180426,219221.7201,9632569.822
+PAR_A01,33,23,lacre branco,Vismia guianensis,Hypericaceae,12.8,O,FALSE,NA,NA,20180426,219224.5124,9632570.551
+PAR_A01,33,24,envira preta,Guatteria schomburgkiana,Annonaceae,12.7,O,FALSE,NA,NA,20180426,219213.8808,9632566.677
+PAR_A01,33,25,embauba branca,Cecropia palmata,Urticaceae,13.6,O,FALSE,NA,NA,20180426,219213.3196,9632565.724
+PAR_A01,33,26,lacre branco,Vismia guianensis,Hypericaceae,10.9,O,FALSE,NA,NA,20180426,219215.2057,9632564.093
+PAR_A01,33,27,farinha seca,Lindackeria paludosa,Achariaceae,10.2,O,FALSE,NA,NA,20180426,219224.4352,9632568.724
+PAR_A01,33,28,maravuvuia,Croton matourensis,Euphorbiaceae,15.3,O,FALSE,NA,NA,20180426,219222.106,9632567.108
+PAR_A01,33,29,lacre branco,Vismia guianensis,Hypericaceae,10.6,O,FALSE,NA,NA,20180426,219222.9928,9632567.442
+PAR_A01,33,30,maravuvuia,Croton matourensis,Euphorbiaceae,15.4,O,FALSE,NA,NA,20180426,219226.2267,9632567.388
+PAR_A01,33,31,envira preta,Guatteria schomburgkiana,Annonaceae,10.1,O,FALSE,NA,NA,20180426,219227.2123,9632567.548
+PAR_A01,33,32,freijo branco,Cordia scabrifolia,Boraginaceae,11,O,FALSE,NA,NA,20180426,219220.0314,9632560.917
+PAR_A01,33,33,maravuvuia,Croton matourensis,Euphorbiaceae,16.5,O,FALSE,NA,NA,20180426,219220.1238,9632560.74
+PAR_A01,33,34,lacre branco,Vismia guianensis,Hypericaceae,11.5,O,FALSE,NA,NA,20180426,219221.1102,9632560.9
+PAR_A01,33,35,maravuvuia,Croton matourensis,Euphorbiaceae,13.3,O,FALSE,NA,NA,20180426,219224.4965,9632560.589
+PAR_A01,33,36,envira preta,Guatteria schomburgkiana,Annonaceae,11.6,O,FALSE,NA,NA,20180426,219222.5928,9632558.062
+PAR_A01,33,37,maravuvuia,Croton matourensis,Euphorbiaceae,11.8,O,FALSE,NA,NA,20180426,219231.8907,9632566.883
+PAR_A01,33,38,farinha seca,Lindackeria paludosa,Achariaceae,10.8,O,FALSE,NA,NA,20180426,219230.1165,9632564.202
+PAR_A01,33,39,maravuvuia,Croton matourensis,Euphorbiaceae,13.7,O,FALSE,NA,NA,20180426,219230.6524,9632561.23
+PAR_A01,33,40,maravuvuia,Croton matourensis,Euphorbiaceae,13.5,O,FALSE,NA,NA,20180426,219233.9485,9632559.202
+PAR_A01,33,41,envira preta,Guatteria schomburgkiana,Annonaceae,13,O,FALSE,NA,NA,20180426,219234.4776,9632558.239
+PAR_A01,33,42,freijo branco,Cordia scabrifolia,Boraginaceae,13.2,O,FALSE,NA,NA,20180426,219234.8147,9632555.612
+PAR_A01,33,43,maravuvuia,Croton matourensis,Euphorbiaceae,17,O,FALSE,NA,NA,20180426,219227.6331,9632554.668
+PAR_A01,33,44,maravuvuia,Croton matourensis,Euphorbiaceae,20.7,O,FALSE,NA,NA,20180426,219227.3047,9632551.14
+PAR_A01,33,45,lacre branco,Vismia guianensis,Hypericaceae,15.4,O,FALSE,NA,NA,20180426,219225.4877,9632548.314
+PAR_A01,33,46,lacre branco,Vismia guianensis,Hypericaceae,11.7,O,FALSE,NA,NA,20180426,219225.5797,9632548.136
+PAR_A01,33,47,lacre branco,Vismia guianensis,Hypericaceae,13.5,O,FALSE,NA,NA,20180426,219222.0565,9632546.464
+PAR_A01,33,48,copaiba,Copaifera reticulata,Fabaceae,65.8,O,FALSE,14.2,33.89,20180426,219263.3581,9632568.274
+PAR_A01,33,49,abiu vermelho,Pouteria cladantha,Sapotaceae,37.5,O,FALSE,NA,NA,20180426,219256.5863,9632568.187
+PAR_A01,34,50,tatajuba,Bagassa guianensis,Moraceae,12.3,O,FALSE,NA,NA,20180426,219331.8984,9632658.479
+PAR_A01,34,51,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,12.5,O,FALSE,NA,NA,20180426,219336.1409,9632660.822
+PAR_A01,34,52,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,14.5,O,FALSE,NA,NA,20180426,219336.4803,9632661.009
+PAR_A01,34,53,maravuvuia,Croton matourensis,Euphorbiaceae,11.2,O,FALSE,NA,NA,20180426,219338.8741,9632657.559
+PAR_A01,34,54,maravuvuia,Croton matourensis,Euphorbiaceae,14.5,O,FALSE,NA,NA,20180426,219337.5867,9632657.959
+PAR_A01,34,55,maravuvuia,Croton matourensis,Euphorbiaceae,16.3,O,FALSE,NA,NA,20180426,219335.6959,9632655.256
+PAR_A01,34,56,maravuvuia,Croton matourensis,Euphorbiaceae,16.8,O,FALSE,NA,NA,20180426,219333.148,9632653.854
+PAR_A01,34,57,envira preta,Guatteria schomburgkiana,Annonaceae,11,O,FALSE,NA,NA,20180426,219330.2507,9632653.145
+PAR_A01,34,58,maravuvuia,Croton matourensis,Euphorbiaceae,12.5,O,FALSE,NA,NA,20180426,219326.4294,9632651.041
+PAR_A01,34,59,maravuvuia,Croton matourensis,Euphorbiaceae,16,O,FALSE,NA,NA,20180426,219326.4294,9632651.041
+PAR_A01,34,60,maravuvuia,Croton matourensis,Euphorbiaceae,17.5,O,FALSE,NA,NA,20180426,219326.4294,9632651.041
+PAR_A01,34,61,maravuvuia,Croton matourensis,Euphorbiaceae,11.5,O,FALSE,NA,NA,20180426,219333.6725,9632652.815
+PAR_A01,34,62,envira preta,Guatteria schomburgkiana,Annonaceae,10.8,O,FALSE,NA,NA,20180426,219334.197,9632651.776
+PAR_A01,34,63,embauba branca,Cecropia palmata,Urticaceae,13.2,O,FALSE,NA,NA,20180426,219343.2647,9632655.312
+PAR_A01,34,64,morta,NA,NA,40,O,TRUE,NA,NA,20180426,219349.2142,9632658.574
+PAR_A01,34,65,maravuvuia,Croton matourensis,Euphorbiaceae,16.4,O,FALSE,NA,NA,20180426,219338.9968,9632650.868
+PAR_A01,34,66,maravuvuia,Croton matourensis,Euphorbiaceae,17,O,FALSE,NA,NA,20180426,219335.7269,9632648.746
+PAR_A01,34,67,envira preta,Guatteria schomburgkiana,Annonaceae,10.9,O,FALSE,NA,NA,20180426,219336.4263,9632647.361
+PAR_A01,34,68,envira preta,Guatteria schomburgkiana,Annonaceae,11.2,O,FALSE,NA,NA,20180426,219336.1437,9632645.771
+PAR_A01,34,69,envira preta,Guatteria schomburgkiana,Annonaceae,13.5,O,FALSE,NA,NA,20180426,219337.0176,9632644.04
+PAR_A01,34,70,goiaba de anta,Bellucia grossularioides,Melastomataceae,13.5,O,FALSE,NA,NA,20180426,219338.5032,9632641.098
+PAR_A01,34,71,inga,Inga marginata,Fabaceae,12.2,O,FALSE,NA,NA,20180426,219344.5966,9632644.078
+PAR_A01,34,72,inga,Inga marginata,Fabaceae,11.6,O,FALSE,NA,NA,20180426,219345.4045,9632644.627
+PAR_A01,34,73,inga,Inga marginata,Fabaceae,16.5,O,FALSE,NA,NA,20180426,219347.9158,9632646.103
+PAR_A01,34,74,lacre,Vismia guianensis,Hypericaceae,10.5,O,FALSE,NA,NA,20180426,219350.1344,9632639.56
+PAR_A01,34,75,lacre,Vismia guianensis,Hypericaceae,10.2,O,FALSE,NA,NA,20180426,219350.3099,9632639.213
+PAR_A01,34,76,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,12.2,O,FALSE,NA,NA,20180426,219351.821,9632638.371
+PAR_A01,34,77,inga,Inga marginata,Fabaceae,11,O,FALSE,NA,NA,20180426,219345.8048,9632635.236
+PAR_A01,34,78,inga,Inga marginata,Fabaceae,14,O,FALSE,NA,NA,20180426,219346.7455,9632635.523
+PAR_A01,34,79,inga,Inga marginata,Fabaceae,10.8,O,FALSE,NA,NA,20180426,219346.8769,9632635.263
+PAR_A01,34,80,inga,Inga marginata,Fabaceae,17,O,FALSE,NA,NA,20180426,219346.9644,9632635.089
+PAR_A01,34,81,inga,Inga marginata,Fabaceae,16.2,O,TRUE,NA,NA,20180426,219345.3016,9632634.083
+PAR_A01,34,82,inga vermelho,Inga alba,Fabaceae,36.1,O,FALSE,6.03,13.76,20180426,219349.5257,9632632.167
+PAR_A01,34,83,morta,NA,NA,47,O,TRUE,NA,NA,20180426,219372.5829,9632644.555
+PAR_A01,34,84,breu sucuruba,Trattinnickia burserifolia,Burseraceae,17.5,O,FALSE,NA,NA,20180426,219358.3578,9632629.728
+PAR_A01,34,85,inga,Inga marginata,Fabaceae,12.9,O,FALSE,4.29,7.9,20180426,219347.2468,9632628.08
+PAR_A01,34,86,tatapiririca,Tapirira guianensis,Anacardiaceae,14.7,O,FALSE,8.85,13.28,20180426,219348.1341,9632619.871
+PAR_A01,34,87,tatapiririca,Tapirira guianensis,Anacardiaceae,13.2,O,FALSE,5.86,9.58,20180426,219354.7759,9632617.469
+PAR_A01,34,88,angelim rajado,Zygia racemosa,Fabaceae,23.5,O,FALSE,NA,NA,20180426,219361.8484,9632620.667
+PAR_A01,35,89,inga,Inga marginata,Fabaceae,10.3,O,FALSE,NA,NA,20180426,219458.1307,9632727.935
+PAR_A01,35,90,pintadinho,Poeppigia procera,Fabaceae,13.7,O,FALSE,NA,NA,20180426,219453.727,9632725.638
+PAR_A01,35,91,inga,Inga marginata,Fabaceae,15.6,O,FALSE,NA,NA,20180426,219454.2915,9632722.507
+PAR_A01,35,92,inga,Inga marginata,Fabaceae,30.2,O,FALSE,NA,NA,20180426,219454.3879,9632722.329
+PAR_A01,35,93,inga,Inga marginata,Fabaceae,15,O,FALSE,NA,NA,20180426,219454.8214,9632721.528
+PAR_A01,35,94,parapara,Jacaranda copaia,Bignoniaceae,14.5,O,FALSE,NA,NA,20180426,219463.3203,9632724.607
+PAR_A01,35,95,inga,Inga marginata,Fabaceae,18.2,O,FALSE,NA,NA,20180426,219467.7207,9632726.911
+PAR_A01,35,96,inga,Inga marginata,Fabaceae,15.5,O,FALSE,NA,NA,20180426,219467.7687,9632726.822
+PAR_A01,35,97,inga,Inga marginata,Fabaceae,16,O,FALSE,NA,NA,20180426,219467.8167,9632726.734
+PAR_A01,35,98,embauba branca,Cecropia palmata,Urticaceae,10.5,O,FALSE,NA,NA,20180426,219463.9028,9632717.269
+PAR_A01,35,99,envira preta,Guatteria schomburgkiana,Annonaceae,13.5,O,FALSE,NA,NA,20180426,219468.8755,9632718.519
+PAR_A01,35,100,envira preta,Guatteria schomburgkiana,Annonaceae,12.3,O,FALSE,NA,NA,20180426,219469.1016,9632716.014
+PAR_A01,35,101,parapara,Jacaranda copaia,Bignoniaceae,17,O,FALSE,13.36,14.64,20180426,219470.0284,9632716.389
+PAR_A01,35,102,embauba branca,Cecropia palmata,Urticaceae,12.2,O,FALSE,NA,NA,20180426,219463.0942,9632712.501
+PAR_A01,35,103,parapara,Jacaranda copaia,Bignoniaceae,13.5,O,FALSE,NA,NA,20180426,219462.8779,9632708.724
+PAR_A01,35,104,parapara,Jacaranda copaia,Bignoniaceae,13.8,O,FALSE,NA,NA,20180426,219462.926,9632708.635
+PAR_A01,35,105,parapara,Jacaranda copaia,Bignoniaceae,12.5,O,FALSE,NA,NA,20180426,219462.2885,9632707.725
+PAR_A01,35,106,parapara,Jacaranda copaia,Bignoniaceae,12.3,O,FALSE,NA,NA,20180426,219461.362,9632707.349
+PAR_A01,35,107,embauba branca,Cecropia palmata,Urticaceae,11.5,O,FALSE,NA,NA,20180426,219469.2061,9632709.558
+PAR_A01,35,108,embauba branca,Cecropia palmata,Urticaceae,12.7,O,FALSE,NA,NA,20180426,219468.7128,9632708.382
+PAR_A01,35,109,parapara,Jacaranda copaia,Bignoniaceae,10.7,O,FALSE,NA,NA,20180426,219467.8348,9632707.916
+PAR_A01,35,110,parapara,Jacaranda copaia,Bignoniaceae,11.8,O,FALSE,NA,NA,20180426,219468.0754,9632707.472
+PAR_A01,35,111,parapara,Jacaranda copaia,Bignoniaceae,13.7,O,FALSE,NA,NA,20180426,219465.8748,9632705.273
+PAR_A01,35,112,parapara,Jacaranda copaia,Bignoniaceae,12,O,FALSE,NA,NA,20180426,219466.1637,9632704.739
+PAR_A01,35,113,embauba branca,Cecropia palmata,Urticaceae,17.7,O,FALSE,NA,NA,20180426,219473.7625,9632707.404
+PAR_A01,35,114,embauba branca,Cecropia palmata,Urticaceae,16.5,O,FALSE,NA,NA,20180426,219473.8106,9632707.315
+PAR_A01,35,115,envira preta,Guatteria schomburgkiana,Annonaceae,10.7,O,FALSE,NA,NA,20180426,219474.0989,9632706.783
+PAR_A01,35,116,envira surucucu,Duguetia surinamensis,Annonaceae,13.5,O,FALSE,NA,NA,20180426,219478.041,9632707.852
+PAR_A01,35,117,parapara,Jacaranda copaia,Bignoniaceae,11.6,O,FALSE,NA,NA,20180426,219477.7269,9632704.257
+PAR_A01,35,118,lacre branco,Vismia guianensis,Hypericaceae,11.6,O,FALSE,5.84,9.05,20180426,219472.6204,9632703.25
+PAR_A01,35,119,inga,Inga marginata,Fabaceae,11.5,O,FALSE,NA,NA,20180426,219469.9887,9632701.848
+PAR_A01,35,120,louro preto,Nectandra cuspidata,Lauraceae,12,O,FALSE,NA,NA,20180426,219471.5395,9632701.071
+PAR_A01,35,121,envira preta,Guatteria schomburgkiana,Annonaceae,12,O,FALSE,NA,NA,20180426,219475.7687,9632701.61
+PAR_A01,35,122,envira preta,Guatteria schomburgkiana,Annonaceae,11.6,O,FALSE,NA,NA,20180426,219475.3507,9632696.117
+PAR_A01,35,123,lacre branco,Vismia guianensis,Hypericaceae,16.7,O,FALSE,NA,NA,20180426,219468.1082,9632694.878
+PAR_A01,35,124,envira preta,Guatteria schomburgkiana,Annonaceae,12.7,O,FALSE,NA,NA,20180426,219469.5629,9632694.279
+PAR_A01,35,125,envira preta,Guatteria schomburgkiana,Annonaceae,12.5,O,FALSE,NA,NA,20180426,219474.5124,9632693.488
+PAR_A01,35,126,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,26.8,O,FALSE,NA,NA,20180426,219482.3011,9632697.897
+PAR_A01,35,127,embauba branca,Cecropia palmata,Urticaceae,14.7,O,FALSE,NA,NA,20180426,219484.4372,9632698.128
+PAR_A01,35,128,parapara,Jacaranda copaia,Bignoniaceae,15.8,O,FALSE,NA,NA,20180426,219480.7779,9632694.445
+PAR_A01,35,129,parapara,Jacaranda copaia,Bignoniaceae,13.7,O,FALSE,15.18,17.45,20180426,219480.826,9632694.356
+PAR_A01,35,130,louro preto,Nectandra cuspidata,Lauraceae,13.8,O,FALSE,8.95,11.81,20180426,219480.0463,9632693.708
+PAR_A01,35,131,envira preta,Guatteria schomburgkiana,Annonaceae,14.5,O,FALSE,NA,NA,20180426,219471.2403,9632689.088
+PAR_A01,35,132,lacre branco,Vismia guianensis,Hypericaceae,11.6,O,FALSE,NA,NA,20180426,219471.4813,9632688.643
+PAR_A01,35,133,envira preta,Guatteria schomburgkiana,Annonaceae,11,O,FALSE,NA,NA,20180426,219473.1196,9632685.614
+PAR_A01,35,134,envira preta,Guatteria schomburgkiana,Annonaceae,10.3,O,FALSE,NA,NA,20180426,219487.5826,9632688.143
+PAR_A01,35,135,abiu,Pouteria sp.,Sapotaceae,10.2,O,FALSE,4.09,9.41,20180426,219485.2467,9632686.19
+PAR_A01,35,136,jatereu,Lecythis idatimon,Lecythidaceae,36.4,O,FALSE,NA,NA,20180426,219505.555,9632696.728
+PAR_A01,35,137,jatereu,Lecythis idatimon,Lecythidaceae,41.5,O,FALSE,NA,NA,20180426,219505.6656,9632704.869
+PAR_A01,36,138,joao mole,Neea oppositifolia,Nyctaginaceae,14.8,O,FALSE,NA,NA,20180426,219595.2801,9632797.548
+PAR_A01,36,139,parapara,Jacaranda copaia,Bignoniaceae,11.3,O,FALSE,NA,NA,20180426,219588.705,9632790.264
+PAR_A01,36,140,lacre branco,Vismia guianensis,Hypericaceae,10.6,O,FALSE,NA,NA,20180426,219589.0767,9632787.276
+PAR_A01,36,141,parapara,Jacaranda copaia,Bignoniaceae,10.3,O,FALSE,NA,NA,20180426,219595.8759,9632791.899
+PAR_A01,36,142,inga,Inga marginata,Fabaceae,12.5,O,FALSE,NA,NA,20180426,219602.26,9632783.88
+PAR_A01,36,143,abiu vermelho,Pouteria cladantha,Sapotaceae,33.4,O,FALSE,18.74,28.08,20180426,219596.3093,9632777.527
+PAR_A01,36,144,inga,Inga marginata,Fabaceae,11.7,O,FALSE,NA,NA,20180426,219594.9446,9632775.691
+PAR_A01,36,145,inga,Inga marginata,Fabaceae,11.3,O,FALSE,NA,NA,20180426,219602.2518,9632779.393
+PAR_A01,36,146,burra leiteira,Sapium marmieri,Euphorbiaceae,10.7,O,FALSE,NA,NA,20180426,219603.5246,9632779.152
+PAR_A01,36,147,inga,Inga marginata,Fabaceae,18,O,FALSE,10.24,12.44,20180426,219602.7585,9632778.399
+PAR_A01,36,148,burra leiteira,Sapium marmieri,Euphorbiaceae,11.3,O,FALSE,9.14,12.88,20180426,219603.7719,9632776.411
+PAR_A01,36,149,jatereu,Lecythis idatimon,Lecythidaceae,15.8,O,FALSE,NA,NA,20180426,219605.1306,9632776.004
+PAR_A01,36,150,embauba branca,Cecropia palmata,Urticaceae,23.4,O,FALSE,NA,NA,20180426,219601.5957,9632773.907
+PAR_A01,36,151,tachi preto,Tachigali myrmecophila,Fabaceae,43.5,O,FALSE,NA,NA,20180426,219598.8287,9632772.561
+PAR_A01,36,152,liana,NA,NA,22,L,FALSE,NA,NA,20180426,219603.2486,9632772.92
+PAR_A01,36,153,fava barbatimao,Stryphnodendron pulcherrimum,Fabaceae,34.5,O,FALSE,NA,NA,20180426,219606.1989,9632767.124
+PAR_A01,36,154,abiu casca grossa,NA,NA,15.8,O,FALSE,NA,NA,20180426,219605.7222,9632765.793
+PAR_A01,36,155,arataciu,Sagotia racemosa,Euphorbiaceae,15.2,O,FALSE,NA,NA,20180426,219605.9328,9632765.379
+PAR_A01,36,156,abiurana vermelha,Pouteria gongrijpii,Sapotaceae,13.8,O,FALSE,NA,NA,20180426,219605.9179,9632763.138
+PAR_A01,36,157,lacre branco,Vismia guianensis,Hypericaceae,13.3,O,FALSE,NA,NA,20180426,219601.318,9632758.55
+PAR_A01,36,158,abiu,Pouteria sp.,Sapotaceae,11.8,O,FALSE,NA,NA,20180426,219606.4478,9632759.821
+PAR_A01,36,159,uxirana,Sacoglottis guianensis,Humiriaceae,12.7,O,FALSE,NA,NA,20180426,219608.3579,9632758.336
+PAR_A01,36,160,lacre branco,Vismia guianensis,Hypericaceae,10.8,O,FALSE,NA,NA,20180426,219616.6076,9632764.849
+PAR_A01,36,161,pente de macaco,Apeiba petoumo,Malvaceae,16.8,O,FALSE,NA,NA,20180426,219613.372,9632759.853
+PAR_A01,36,162,coracao de negro,Chamaecrista xinguensis,Fabaceae,41.2,O,FALSE,NA,NA,20180426,219641.5656,9632779.411
+PAR_A01,36,163,tanibuca,Terminalia amazonia,Combretaceae,48.5,O,FALSE,NA,NA,20180426,219627.0923,9632796.006
+PAR_A01,36,164,tachi preto,Tachigali myrmecophila,Fabaceae,38.7,O,FALSE,NA,NA,20180426,219622.7357,9632802.146
+PAR_A01,37,1,fava de paca,NA,NA,12.6,O,FALSE,NA,NA,20180426,219300.9536,9632417.485
+PAR_A01,37,2,fava de paca,NA,NA,13.3,O,FALSE,NA,NA,20180426,219300.5196,9632417.256
+PAR_A01,37,3,fava de paca,NA,NA,13.3,O,FALSE,NA,NA,20180426,219300.0856,9632417.026
+PAR_A01,37,4,jatereu,Lecythis idatimon,Lecythidaceae,27.1,O,FALSE,NA,NA,20180426,219307.5711,9632425.28
+PAR_A01,37,5,envirao,NA,NA,13.6,O,FALSE,NA,NA,20180426,219311.2852,9632419.734
+PAR_A01,37,6,lacre,Vismia guianensis,Hypericaceae,10,O,FALSE,4.26,8.33,20180426,219306.4392,9632411.67
+PAR_A01,37,7,lacre,Vismia guianensis,Hypericaceae,10.4,O,FALSE,NA,NA,20180426,219308.4783,9632403.979
+PAR_A01,37,8,inga vermelho,Inga alba,Fabaceae,12.8,O,FALSE,NA,NA,20180426,219315.5767,9632404.746
+PAR_A01,37,9,fava branca,Parkia paraensis,Fabaceae,10.8,O,FALSE,4.98,7.5,20180426,219312.2417,9632399.485
+PAR_A01,37,10,lacre,Vismia guianensis,Hypericaceae,11.7,O,FALSE,NA,NA,20180426,219310.1357,9632399.367
+PAR_A01,37,11,inga vermelho,Inga alba,Fabaceae,20.1,O,FALSE,NA,NA,20180426,219310.5368,9632391.735
+PAR_A01,37,12,inga vermelho,Inga alba,Fabaceae,19.8,O,FALSE,NA,NA,20180426,219319.3124,9632393.695
+PAR_A01,37,13,abiurana,Pouteria gongrijpii,Sapotaceae,28.4,O,FALSE,NA,NA,20180426,219323.8395,9632388.694
+PAR_A01,37,14,jatereu,Lecythis idatimon,Lecythidaceae,11.4,O,FALSE,NA,NA,20180426,219323.4147,9632385.058
+PAR_A01,37,15,fava arara tucupi,Parkia multijuga,Fabaceae,57.1,O,FALSE,7.85,15.29,20180426,219329.2077,9632390.978
+PAR_A01,37,16,inga vermelho,Inga alba,Fabaceae,35.3,O,FALSE,NA,NA,20180426,219324.8253,9632402.535
+PAR_A01,37,17,roxinho,Peltogyne lecointei,Fabaceae,53,O,FALSE,13.75,24.7,20180426,219340.5822,9632417.153
+PAR_A01,38,18,lacre branco,Vismia guianensis,Hypericaceae,12.8,O,FALSE,NA,NA,20180426,219431.3348,9632495.741
+PAR_A01,38,19,embauba,Cecropia ficifolia,Urticaceae,22.2,O,FALSE,NA,NA,20180426,219432.1525,9632494.102
+PAR_A01,38,20,fava de paca,NA,NA,14.4,O,FALSE,NA,NA,20180426,219429.2243,9632493.648
+PAR_A01,38,21,goiaba de anta,Bellucia grossularioides,Melastomataceae,16.6,O,FALSE,NA,NA,20180426,219428.7523,9632490.337
+PAR_A01,38,22,guajara pedra,Pouteria sp.,Sapotaceae,37.5,O,FALSE,NA,NA,20180426,219432.0188,9632485.838
+PAR_A01,38,23,abiu escamoso,NA,NA,11.1,O,FALSE,NA,NA,20180426,219432.4226,9632485.018
+PAR_A01,38,24,pente de macaco,Apeiba petoumo,Malvaceae,14.6,O,FALSE,NA,NA,20180426,219434.0853,9632483.803
+PAR_A01,38,25,embauba,Cecropia ficifolia,Urticaceae,13.5,O,FALSE,NA,NA,20180426,219434.8455,9632480.094
+PAR_A01,38,26,embauba,Cecropia ficifolia,Urticaceae,11.7,O,FALSE,NA,NA,20180426,219435.3005,9632481.342
+PAR_A01,38,27,inga vermelho,Inga alba,Fabaceae,16.7,O,FALSE,NA,NA,20180426,219437.8768,9632482.624
+PAR_A01,38,28,morta,NA,NA,33.2,O,TRUE,NA,NA,20180426,219437.9487,9632486.756
+PAR_A01,38,29,inga vermelho,Inga alba,Fabaceae,10.8,O,FALSE,NA,NA,20180426,219440.5098,9632488.036
+PAR_A01,38,30,goiaba de anta,Bellucia grossularioides,Melastomataceae,15.8,O,FALSE,9.95,15.06,20180426,219438.8754,9632495.437
+PAR_A01,38,31,timborana,Pseudopiptadenia suaveolens,Fabaceae,15.5,O,FALSE,NA,NA,20180426,219446.4777,9632488.96
+PAR_A01,38,32,itaubarana,Ormosia excelsa,Fabaceae,11.4,O,FALSE,NA,NA,20180426,219448.182,9632487.751
+PAR_A01,38,33,abiurana rosadinho,NA,NA,18.6,O,FALSE,NA,NA,20180426,219446.4645,9632486.897
+PAR_A01,38,34,guajara pedra,Pouteria sp.,Sapotaceae,24,O,FALSE,NA,NA,20180426,219445.6057,9632486.47
+PAR_A01,38,35,abiu seco,Pouteria caimito,Sapotaceae,17.7,O,FALSE,NA,NA,20180426,219449.4661,9632487.361
+PAR_A01,38,36,inhare,Helicostylis tomentosa,Moraceae,17.5,O,FALSE,NA,NA,20180426,219447.2867,9632483.197
+PAR_A01,38,37,murure,Brosimum acutifolium,Moraceae,30.3,O,FALSE,NA,NA,20180426,219445.3502,9632482.75
+PAR_A01,38,38,jatereu,Lecythis idatimon,Lecythidaceae,12,O,FALSE,NA,NA,20180426,219443.8882,9632485.615
+PAR_A01,38,39,jatereu,Lecythis idatimon,Lecythidaceae,31.8,O,FALSE,NA,NA,20180426,219446.8123,9632479.886
+PAR_A01,38,40,NA,NA,NA,10.8,O,FALSE,8.76,10.94,20180426,219446.3226,9632476.572
+PAR_A01,38,41,embauba,Cecropia ficifolia,Urticaceae,19.8,O,FALSE,NA,NA,20180426,219441.9656,9632474.426
+PAR_A01,38,42,parapara,Jacaranda copaia,Bignoniaceae,13,O,FALSE,NA,NA,20180426,219439.8164,9632474.388
+PAR_A01,38,43,morta,NA,NA,29.5,O,TRUE,NA,NA,20180426,219443.6572,9632473.216
+PAR_A01,38,44,parapara,Jacaranda copaia,Bignoniaceae,26.2,O,FALSE,NA,NA,20180426,219439.6914,9632470.247
+PAR_A01,38,45,buichichu,NA,NA,13.4,O,FALSE,NA,NA,20180426,219441.7818,9632468.216
+PAR_A01,38,46,embauba,Cecropia ficifolia,Urticaceae,20.2,O,FALSE,NA,NA,20180426,219443.0672,9632467.826
+PAR_A01,38,47,buichichu,NA,NA,12.2,O,FALSE,7.23,11.54,20180426,219443.4021,9632464.934
+PAR_A01,38,48,inga vermelho,Inga alba,Fabaceae,19.8,O,FALSE,NA,NA,20180426,219444.6174,9632462.473
+PAR_A01,38,49,morta,NA,NA,17.5,O,TRUE,NA,NA,20180426,219447.1306,9632459.624
+PAR_A01,38,50,burra leiteira,Sapium marmieri,Euphorbiaceae,12.1,O,FALSE,NA,NA,20180426,219446.6428,9632458.371
+PAR_A01,38,51,embauba,Cecropia ficifolia,Urticaceae,16,O,FALSE,NA,NA,20180426,219447.0479,9632457.55
+PAR_A01,38,52,envira preta,Guatteria schomburgkiana,Annonaceae,11.2,O,FALSE,NA,NA,20180426,219446.5562,9632456.297
+PAR_A01,38,53,marupa,Simarouba amara,Simaroubaceae,16.4,O,FALSE,9.67,11.47,20180426,219451.1137,9632460.534
+PAR_A01,38,54,lacre,Vismia guianensis,Hypericaceae,16.8,O,FALSE,NA,NA,20180426,219450.8617,9632466.53
+PAR_A01,38,55,inga peludo,Inga grandis,Fabaceae,12.9,O,FALSE,5.86,10.43,20180426,219450.5257,9632470.452
+PAR_A01,38,56,inga vermelho,Inga alba,Fabaceae,11.2,O,FALSE,NA,NA,20180426,219452.2888,9632471.313
+PAR_A01,38,57,jutai pororoca,Dialium guianense,Fabaceae,12.6,O,FALSE,NA,NA,20180426,219456.1121,9632466.017
+PAR_A01,38,58,canela de jacamim,Rinorea pubiflora,Violaceae,27,O,FALSE,NA,NA,20180426,219455.2218,9632465.585
+PAR_A01,38,59,envira branca,Rollinia exsucca,Annonaceae,17.4,O,FALSE,NA,NA,20180426,219456.42,9632461.061
+PAR_A01,38,60,burra leiteira,Sapium marmieri,Euphorbiaceae,13,O,FALSE,NA,NA,20180426,219457.7357,9632460.675
+PAR_A01,38,61,lacre,Vismia guianensis,Hypericaceae,12.2,O,FALSE,NA,NA,20180426,219458.1547,9632459.857
+PAR_A01,38,62,timborana,Pseudopiptadenia suaveolens,Fabaceae,43,O,FALSE,NA,NA,20180426,219469.0112,9632505.4
+PAR_A01,38,63,jatereu,Lecythis idatimon,Lecythidaceae,40.2,O,FALSE,NA,NA,20180426,219438.043,9632499.135
+PAR_A01,39,64,tatapiririca,Tapirira guianensis,Anacardiaceae,15.4,O,FALSE,NA,NA,20180426,219562.5621,9632565.442
+PAR_A01,39,65,tatapiririca,Tapirira guianensis,Anacardiaceae,12.4,O,FALSE,NA,NA,20180426,219566.2204,9632567.467
+PAR_A01,39,66,marupa,Simarouba amara,Simaroubaceae,18.7,O,FALSE,NA,NA,20180426,219566.1897,9632565.182
+PAR_A01,39,67,morta,NA,NA,13,O,TRUE,NA,NA,20180426,219565.7235,9632563.789
+PAR_A01,39,68,embauba,Cecropia ficifolia,Urticaceae,21.8,O,FALSE,NA,NA,20180426,219566.1675,9632562.9
+PAR_A01,39,69,lacre branco,Vismia guianensis,Hypericaceae,12.7,O,FALSE,NA,NA,20180426,219565.7077,9632561.511
+PAR_A01,39,70,fava de paca,NA,NA,11.1,O,FALSE,NA,NA,20180426,219568.3994,9632560.733
+PAR_A01,39,71,fava de paca,NA,NA,10,O,FALSE,NA,NA,20180426,219567.7218,9632559.79
+PAR_A01,39,72,muruci do mato,NA,NA,17,O,FALSE,NA,NA,20180426,219567.0463,9632558.848
+PAR_A01,39,73,muruci do mato,NA,NA,15.5,O,FALSE,NA,NA,20180426,219566.8212,9632558.156
+PAR_A01,39,74,maravuvuia,Croton matourensis,Euphorbiaceae,12.1,O,FALSE,NA,NA,20180426,219571.0583,9632557.669
+PAR_A01,39,75,tatapiririca,Tapirira guianensis,Anacardiaceae,12.7,O,FALSE,NA,NA,20180426,219572.8248,9632556.38
+PAR_A01,39,76,morta,NA,NA,14,O,TRUE,NA,NA,20180426,219571.8662,9632567.758
+PAR_A01,39,77,fava sao joao,NA,NA,12.5,O,FALSE,NA,NA,20180426,219575.9595,9632560.389
+PAR_A01,39,78,fava sao joao,NA,NA,19,O,FALSE,NA,NA,20180426,219576.405,9632560.636
+PAR_A01,39,79,fava sao joao,NA,NA,13.7,O,FALSE,NA,NA,20180426,219576.8506,9632560.883
+PAR_A01,39,80,marupa,Simarouba amara,Simaroubaceae,19.5,O,FALSE,10.08,19.64,20180426,219577.721,9632560.232
+PAR_A01,39,81,inga peludo,Inga grandis,Fabaceae,10,O,FALSE,NA,NA,20180426,219578.7141,9632565.318
+PAR_A01,39,82,farinha seca,Lindackeria paludosa,Achariaceae,12.1,O,FALSE,NA,NA,20180426,219577.4586,9632568.022
+PAR_A01,39,83,maravuvuia,Croton matourensis,Euphorbiaceae,10.5,O,FALSE,NA,NA,20180426,219575.4653,9632555.577
+PAR_A01,39,84,maravuvuia,Croton matourensis,Euphorbiaceae,12.5,O,FALSE,NA,NA,20180426,219577.0379,9632554.635
+PAR_A01,39,85,embauba branca,Cecropia palmata,Urticaceae,18.1,O,FALSE,10.57,18.13,20180426,219576.7713,9632554.033
+PAR_A01,39,86,maravuvuia,Croton matourensis,Euphorbiaceae,12.7,O,FALSE,NA,NA,20180426,219575.8893,9632552.408
+PAR_A01,39,87,maravuvuia,Croton matourensis,Euphorbiaceae,10.8,O,FALSE,NA,NA,20180426,219575.4512,9632552.165
+PAR_A01,39,88,maravuvuia,Croton matourensis,Euphorbiaceae,12.8,O,FALSE,NA,NA,20180426,219581.5411,9632541.931
+PAR_A01,39,89,maravuvuia,Croton matourensis,Euphorbiaceae,13.5,O,FALSE,NA,NA,20180426,219577.6308,9632549.972
+PAR_A01,39,90,maravuvuia,Croton matourensis,Euphorbiaceae,11.8,O,FALSE,9.6,14.14,20180426,219647.9118,9632587.943
+PAR_A01,39,91,maravuvuia,Croton matourensis,Euphorbiaceae,16,O,FALSE,NA,NA,20180426,219575.8913,9632549.004
+PAR_A01,39,92,maravuvuia,Croton matourensis,Euphorbiaceae,14.3,O,FALSE,NA,NA,20180426,219575.8962,9632547.871
+PAR_A01,39,93,maravuvuia,Croton matourensis,Euphorbiaceae,15.5,O,FALSE,NA,NA,20180426,219575.4624,9632547.63
+PAR_A01,39,94,maravuvuia,Croton matourensis,Euphorbiaceae,12.6,O,FALSE,NA,NA,20180426,219575.0285,9632547.388
+PAR_A01,39,95,maravuvuia,Croton matourensis,Euphorbiaceae,16.6,O,FALSE,NA,NA,20180426,219574.5866,9632548.278
+PAR_A01,39,96,maravuvuia,Croton matourensis,Euphorbiaceae,16.1,O,FALSE,NA,NA,20180426,219574.6318,9632543.76
+PAR_A01,39,97,fava sao joao,NA,NA,11.2,O,FALSE,NA,NA,20180426,219575.5242,9632541.985
+PAR_A01,39,98,fava sao joao,NA,NA,19.6,O,FALSE,NA,NA,20180426,219575.1156,9632540.621
+PAR_A01,39,99,inga vermelho,Inga alba,Fabaceae,12.4,O,FALSE,NA,NA,20180426,219576.0123,9632538.848
+PAR_A01,39,100,fava sao joao,NA,NA,12.3,O,FALSE,NA,NA,20180426,219578.564,9632540.271
+PAR_A01,39,101,maravuvuia,Croton matourensis,Euphorbiaceae,14.6,O,FALSE,NA,NA,20180426,219581.5232,9632545.327
+PAR_A01,39,102,marupa,Simarouba amara,Simaroubaceae,11,O,FALSE,NA,NA,20180426,219584.0942,9632546.76
+PAR_A01,39,103,maravuvuia,Croton matourensis,Euphorbiaceae,10,O,FALSE,NA,NA,20180426,219584.9512,9632547.237
+PAR_A01,39,104,maravuvuia,Croton matourensis,Euphorbiaceae,12.2,O,FALSE,NA,NA,20180426,219588.7933,9632548.244
+PAR_A01,39,105,maravuvuia,Croton matourensis,Euphorbiaceae,14.8,O,FALSE,NA,NA,20180426,219590.0202,9632543.255
+PAR_A01,39,106,tatapiririca,Tapirira guianensis,Anacardiaceae,10.6,O,FALSE,NA,NA,20180426,219591.6928,9632541.919
+PAR_A01,39,107,morta,NA,NA,15.8,O,TRUE,NA,NA,20180426,219591.5686,9632542.19
+PAR_A01,39,108,maravuvuia,Croton matourensis,Euphorbiaceae,11.1,O,FALSE,9.19,13.64,20180426,219588.7559,9632539.144
+PAR_A01,39,109,burra leiteira,Sapium marmieri,Euphorbiaceae,11.1,O,FALSE,NA,NA,20180426,219580.822,9632533.577
+PAR_A01,39,110,timborana,Pseudopiptadenia suaveolens,Fabaceae,11.8,O,FALSE,NA,NA,20180426,219592.1378,9632531.95
+PAR_A01,39,111,fava branca,Parkia paraensis,Fabaceae,13,O,FALSE,6.19,9.29,20180426,219590.1487,9632527.428
+PAR_A01,39,112,inga vermelho,Inga alba,Fabaceae,19,O,FALSE,0.49,7.26,20180426,219584.4484,9632524.234
+PAR_A01,39,113,inga vermelho,Inga alba,Fabaceae,10.6,O,FALSE,NA,NA,20180426,219584.0824,9632522.892
+PAR_A01,39,114,inga vermelho,Inga alba,Fabaceae,16.2,O,FALSE,NA,NA,20180426,219583.2269,9632523.55
+PAR_A01,39,115,inga vermelho,Inga alba,Fabaceae,14.8,O,FALSE,NA,NA,20180426,219583.6763,9632522.664
+PAR_A01,39,116,sucupira preta,Bowdichia nitida,Fabaceae,10.4,O,FALSE,NA,NA,20180426,219593.0166,9632527.898
+PAR_A01,39,117,envira preta,Guatteria schomburgkiana,Annonaceae,12.8,O,FALSE,NA,NA,20180426,219594.0401,9632527.904
+PAR_A01,39,118,axixa,Sterculia pruriens,Malvaceae,44.7,O,FALSE,NA,NA,20180426,219595.389,9632575.696
+PAR_A01,39,119,jutai mirim,Hymenaea parvifolia,Fabaceae,38.2,O,FALSE,NA,NA,20180426,219591.537,9632576.955
+PAR_A01,40,120,inga vermelho,Inga alba,Fabaceae,30.5,O,FALSE,NA,NA,20180426,219697.4878,9632640.174
+PAR_A01,40,121,jatereu,Lecythis idatimon,Lecythidaceae,22.5,O,FALSE,NA,NA,20180426,219695.4103,9632633.142
+PAR_A01,40,122,canela de jacamim,Rinorea pubiflora,Violaceae,21,O,FALSE,NA,NA,20180426,219697.8885,9632631.046
+PAR_A01,40,123,jatereua vermelho,NA,NA,39,O,FALSE,NA,NA,20180426,219698.1965,9632628.882
+PAR_A01,40,124,inga branco,Inga thibaudiana,Fabaceae,11.7,O,FALSE,NA,NA,20180426,219701.9732,9632629.867
+PAR_A01,40,125,freijo branco,Cordia scabrifolia,Boraginaceae,13.7,O,FALSE,NA,NA,20180426,219703.3327,9632629.473
+PAR_A01,40,126,morta,NA,NA,25.5,O,TRUE,NA,NA,20180426,219698.8957,9632636.299
+PAR_A01,40,127,inga branco,Inga thibaudiana,Fabaceae,10.6,O,FALSE,13.61,24.44,20180426,219701.3213,9632637.682
+PAR_A01,40,128,tachirana,Stryphnodendron paniculatum,Fabaceae,29.6,O,FALSE,NA,NA,20180426,219705.1464,9632635.185
+PAR_A01,40,129,matamata preto,Eschweilera ovata,Lecythidaceae,21.4,O,FALSE,NA,NA,20180426,219704.3399,9632634.725
+PAR_A01,40,130,caripe,Licania octandra,Chrysobalanaceae,10.1,O,FALSE,NA,NA,20180426,219703.0289,9632631.639
+PAR_A01,40,131,canela de jacamim,Rinorea pubiflora,Violaceae,15,O,FALSE,NA,NA,20180426,219705.9976,9632632.162
+PAR_A01,40,132,canela de jacamim,Rinorea pubiflora,Violaceae,16.1,O,FALSE,NA,NA,20180426,219704.1938,9632626.455
+PAR_A01,40,133,canela de jacamim,Rinorea pubiflora,Violaceae,21.8,O,FALSE,NA,NA,20180426,219701.2288,9632625.933
+PAR_A01,40,134,caramurim,NA,NA,21.4,O,FALSE,NA,NA,20180426,219704.2569,9632622.981
+PAR_A01,40,135,arataciu,Sagotia racemosa,Euphorbiaceae,15.1,O,FALSE,7.19,12.01,20180426,219709.4336,9632620.086
+PAR_A01,40,136,morta,NA,NA,24.1,O,TRUE,NA,NA,20180426,219710.2322,9632620.542
+PAR_A01,40,137,inga branco,Inga thibaudiana,Fabaceae,11.8,O,FALSE,NA,NA,20180426,219709.8653,9632626.182
+PAR_A01,40,138,inga branco,Inga thibaudiana,Fabaceae,11.8,O,FALSE,NA,NA,20180426,219709.5625,9632628.349
+PAR_A01,40,139,abiurana branca,Pouteria guianensis,Sapotaceae,15.4,O,FALSE,6.36,15.44,20180426,219713.733,9632620.202
+PAR_A01,40,140,fava de paca,NA,NA,35.5,O,FALSE,NA,NA,20180426,219715.1477,9632616.33
+PAR_A01,40,141,fava folha fina,Pseudopiptadenia psilostachya,Fabaceae,35.4,O,FALSE,NA,NA,20180426,219710.0591,9632615.763
+PAR_A01,40,142,seringueira,Hevea brasiliensis,Euphorbiaceae,15.2,O,FALSE,NA,NA,20180426,219707.9886,9632612.24
+PAR_A01,40,143,lacre branco,Vismia guianensis,Hypericaceae,12.5,O,FALSE,NA,NA,20180426,219714.2683,9632607.636
+PAR_A01,40,144,lacre vermelho,Vismia latifolia,Hypericaceae,11.8,O,FALSE,NA,NA,20180426,219717.8385,9632603.825
+PAR_A01,40,145,lacre vermelho,Vismia latifolia,Hypericaceae,11.7,O,FALSE,NA,NA,20180426,219718.1163,9632603.399
+PAR_A01,40,146,abiurana branca,Pouteria guianensis,Sapotaceae,11.4,O,FALSE,NA,NA,20180426,219715.2395,9632601.168
+PAR_A01,40,147,lacre vermelho,Vismia latifolia,Hypericaceae,10.4,O,FALSE,NA,NA,20180426,219721.4988,9632596.554
+PAR_A01,40,148,lacre vermelho,Vismia latifolia,Hypericaceae,11.1,O,FALSE,NA,NA,20180426,219722.7446,9632599.608
+PAR_A01,40,149,embauba branca,Cecropia palmata,Urticaceae,10.5,O,FALSE,NA,NA,20180426,219721.4034,9632600.011
+PAR_A01,40,150,maravuvuia,Croton matourensis,Euphorbiaceae,11.8,O,FALSE,11.14,16.58,20180426,219720.6783,9632607.789
+PAR_A01,40,151,embauba branca,Cecropia palmata,Urticaceae,31.5,O,FALSE,NA,NA,20180426,219727.696,9632603.61
+PAR_A01,40,152,abiurana,Pouteria gongrijpii,Sapotaceae,11.5,O,FALSE,8.08,18.88,20180426,219728.64,9632602.98
+PAR_A01,40,153,abiurana,Pouteria gongrijpii,Sapotaceae,10.7,O,FALSE,NA,NA,20180426,219728.247,9632602.755
+PAR_A01,40,154,inga peludo,Inga grandis,Fabaceae,29.8,O,FALSE,NA,NA,20180426,219728.0124,9632601.451
+PAR_A01,40,155,matamata jiboia,Eschweilera sp.,Lecythidaceae,40.8,O,FALSE,NA,NA,20180426,219732.1074,9632608.474
+PAR_A01,40,156,guajara pedra,Pouteria sp.,Sapotaceae,35,O,FALSE,NA,NA,20180426,219730.7079,9632612.353
+PAR_A01,40,157,guajara pedra,Pouteria sp.,Sapotaceae,41.1,O,FALSE,NA,NA,20180426,219732.4798,9632618.045
+PAR_A01,40,158,morta,NA,NA,35.1,O,TRUE,NA,NA,20180426,219740.4341,9632619.083
+PAR_A01,40,159,guajara pedra,Pouteria sp.,Sapotaceae,38.7,O,FALSE,NA,NA,20180426,219727.2914,9632627.944
+PAR_A01,40,160,matamata branco,Eschweilera coriacea,Lecythidaceae,45.4,O,FALSE,NA,NA,20180426,219726.7161,9632632.292
+PAR_A01,40,161,inga vermelho,Inga alba,Fabaceae,48,O,FALSE,NA,NA,20180426,219717.3301,9632631.612
+PAR_A01,40,162,matamata branco,Eschweilera coriacea,Lecythidaceae,55,O,FALSE,15.91,24.91,20180426,219706.4046,9632645.256

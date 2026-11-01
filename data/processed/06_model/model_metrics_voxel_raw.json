@@ -4,13 +4,13 @@
   "model": "CNN 3D (voxels de ocupação)",
   "library": "PyTorch",
   "variant": "raw",
-  "trained_at": "2026-06-20 21:26 UTC",
+  "trained_at": "2026-11-01 02:02 UTC",
   "target": "agb_m1_Mg_ha",
   "n_plots": 493,
   "n_sites": 23,
   "n_features": "voxels 16×16×16×2",
-  "agb_mean": 173.5,
-  "agb_std": 158.9,
+  "agb_mean": 192.5,
+  "agb_std": 164.4,
   "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
   "cv_file": "cv_results_voxel_raw.csv",
   "approach_key": "model_approach_voxel",
@@ -27,13 +27,13 @@
     "dropout": 0.3
   },
   "cv_global": {
-    "rmse": 164.8,
-    "r2": -0.0757,
-    "rrmse_pct": 94.98
+    "rmse": 174.96,
+    "r2": -0.1331,
+    "rrmse_pct": 90.91
   },
   "cv_fold_mean": {
-    "rmse": 163.21,
-    "r2": -0.1189,
-    "rrmse_pct": 94.51
+    "rmse": 173.88,
+    "r2": -0.1812,
+    "rrmse_pct": 90.8
   }
 }

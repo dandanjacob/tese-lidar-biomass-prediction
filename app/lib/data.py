@@ -16,6 +16,8 @@ if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
 from plot_loading import assign_plot_ids as _assign_plot_ids
 from plot_loading import drop_duplicate_geometries as _drop_dup_geoms
+from inventory_utils import resolve_utm_zone as _resolve_utm_zone
+from inventory_utils import utm_proj_from_zone as _utm_proj_from_zone
 
 
 def _mtime(path: Path) -> float:
@@ -120,10 +122,16 @@ def load_plot_geometries():
 
 # ── Qualidade geométrica das parcelas (página de outliers) ──────────────────────
 
-def _utm_proj(lon: float, lat: float) -> str:
-    """String proj4 do fuso UTM que contém (lon, lat). Mesma regra do pipeline
-    (src/calculate_biomass.py) — usada para testar a posição das árvores contra o
-    polígono da parcela no CRS métrico nativo do site."""
+def _utm_proj(lon: float, lat: float, site_key: str | None = None) -> str:
+    """String proj4 do fuso UTM. Prefere a zona REAL das tiles LiDAR pareadas a
+    `site_key` (inventory_utils.resolve_utm_zone) — a fórmula de longitude sozinha
+    erra perto de fronteira de zona (ex.: DUC_A01, ~667 km de erro — fórmula dá
+    zona 21, a missão LiDAR usou 20S fixo). Cai na fórmula sem site_key."""
+    if site_key is not None:
+        try:
+            return _utm_proj_from_zone(_resolve_utm_zone(site_key, fallback_lon=lon, fallback_lat=lat))
+        except Exception:
+            pass
     zone = int((lon + 180) // 6) + 1
     south = "+south" if lat < 0 else ""
     return (f"+proj=utm +zone={zone} {south} +ellps=GRS80 "
@@ -168,7 +176,12 @@ def _trees_located_per_plot(_code_key):
             continue
         polys = sub.dissolve(by="plot_id").reset_index()[["plot_id", "geometry"]]
         c = polys.geometry.union_all().centroid
-        utm = _utm_proj(c.x, c.y)
+        # Zona em que utm_easting/northing FORAM GRAVADAS (ver mesmo raciocínio em
+        # _plot_tree_positions) — pode divergir da zona ground-truth das tiles.
+        tree_zone = (inv.loc[ok, "utm_zone"].dropna().mode().iat[0]
+                    if "utm_zone" in inv.columns and inv.loc[ok, "utm_zone"].notna().any()
+                    else None)
+        utm = _utm_proj_from_zone(tree_zone) if tree_zone else _utm_proj(c.x, c.y, site)
         polys_u = polys.to_crs(utm)
         pts = gpd.GeoDataFrame(
             geometry=gpd.points_from_xy(e[ok], n[ok]), crs=utm)
@@ -216,13 +229,25 @@ def load_plot_quality():
 def _plot_tree_positions(_code_key, _inv_mtime, site, plot_id):
     """Árvores do inventário de campo que caem DENTRO do polígono da parcela (quadra),
     em coordenadas UTM (mesmo referencial do .laz recortado). Para sobrepor a posição e a
-    altura das árvores à nuvem de pontos. Filtro espacial (within) — funciona em sites
-    multiparte sem depender de como o plot_id é nomeado. Colunas: utm_easting, utm_northing,
-    height_m (htot medida; se ausente, htot_feldpausch), dbh, dead. Vazio se sem dado."""
-    inv_path = ROOT / "data/processed/04_inventory" / f"{site}.csv"
-    if not inv_path.exists():
+    altura das árvores à nuvem de pontos.
+
+    Lê de `05_biomass/{site}.csv` (saída de calculate_biomass.py), não de
+    `04_inventory/` — esse CSV já tem dbh_used/htot_used/htot_used_gap resolvidos
+    (ano mais próximo disponível por árvore, com fallback a htot_estimated), a
+    MESMA fonte usada pro treino dos modelos. Antes, a visualização recalculava
+    (mal) a sua própria versão de DBH/altura direto do inventário cru — podia
+    discordar do que os modelos de fato usam, e o "dbh" exibido praticamente
+    sempre vinha vazio (procurava uma coluna bare "dbh" que não existe na maioria
+    dos sites). utm_easting/utm_northing também já vêm corrigidos (zona UTM real
+    e ordem lat/lon certa — ver prepare_inventory.assign_plots_spatial).
+
+    Filtro espacial (within) — funciona em sites multiparte sem depender de como
+    o plot_id é nomeado. Colunas: utm_easting, utm_northing, height_m,
+    height_m_gap, dbh, dead, species. Vazio se sem dado."""
+    bio_path = ROOT / "data/processed/05_biomass" / f"{site}.csv"
+    if not bio_path.exists():
         return pd.DataFrame()
-    inv = pd.read_csv(inv_path, low_memory=False)
+    inv = pd.read_csv(bio_path, low_memory=False)
     if not {"utm_easting", "utm_northing"}.issubset(inv.columns):
         return pd.DataFrame()
     e = pd.to_numeric(inv["utm_easting"], errors="coerce")
@@ -233,7 +258,18 @@ def _plot_tree_positions(_code_key, _inv_mtime, site, plot_id):
     if not ok.any() or sub.empty:
         return pd.DataFrame()
     poly_ll = sub.dissolve(by="plot_id").geometry.iloc[0]
-    utm = _utm_proj(poly_ll.centroid.x, poly_ll.centroid.y)
+    # Zona em que utm_easting/northing FORAM GRAVADAS (prepare_inventory.
+    # assign_plots_spatial já persistiu a zona correta por árvore em utm_zone —
+    # pode divergir da zona ground-truth das tiles LiDAR, ex. DUC_A01_2009_2011
+    # está em 21S enquanto as tiles do site são 20S). Usar a zona ground-truth
+    # aqui reprojetaria o polígono da parcela pra zona ERRADA e o within() dava
+    # vazio pra todo mundo — fallback só quando o CSV não tem a coluna (dado
+    # antigo, de antes do fix).
+    tree_zone = (inv.loc[ok, "utm_zone"].dropna().mode().iat[0]
+                if "utm_zone" in inv.columns and inv.loc[ok, "utm_zone"].notna().any()
+                else None)
+    utm = (_utm_proj_from_zone(tree_zone) if tree_zone
+          else _utm_proj(poly_ll.centroid.x, poly_ll.centroid.y, site))
     poly_u = gpd.GeoSeries([poly_ll], crs="EPSG:4326").to_crs(utm).iloc[0]
     pts = gpd.GeoDataFrame(inv[ok].copy(),
                            geometry=gpd.points_from_xy(e[ok], n[ok]), crs=utm)
@@ -243,23 +279,17 @@ def _plot_tree_positions(_code_key, _inv_mtime, site, plot_id):
     def _num(col):
         return (pd.to_numeric(inside[col], errors="coerce")
                 if col in inside else pd.Series(np.nan, index=inside.index))
-    # height_m: melhor estimativa base (medida > ajuste local > Feldpausch). Fallback
-    # para CSVs antigos sem htot_estimated. height_m_gap: a estimativa corrigida pelo
-    # gap temporal (DBH crescido até o ano do LiDAR), gerada por prepare_inventory.
-    h_est, h_meas, h_feld = _num("htot_estimated"), _num("htot"), _num("htot_feldpausch")
-    height_m = h_est.where(h_est.notna(), h_meas.where(h_meas.notna(), h_feld))
-    h_gap = _num("htot_estimated_gap")
-    height_m_gap = h_gap.where(h_gap.notna(), height_m)
+    height_m = _num("htot_used")
+    height_m_gap = _num("htot_used_gap").where(_num("htot_used_gap").notna(), height_m)
     out = pd.DataFrame({
         "utm_easting": inside.geometry.x.to_numpy(),
         "utm_northing": inside.geometry.y.to_numpy(),
         "height_m": height_m.to_numpy(),
         "height_m_gap": height_m_gap.to_numpy(),
-        "dbh": (pd.to_numeric(inside.get("dbh"), errors="coerce").to_numpy()
-                if "dbh" in inside else np.nan),
-        # 'dead' às vezes vem sujo (ex.: JAM_A03) — normaliza pra booleano robusto.
-        "dead": (inside["dead"].astype(str).str.upper().isin(["TRUE", "1", "T", "YES"]).to_numpy()
-                 if "dead" in inside else np.zeros(len(inside), dtype=bool)),
+        "dbh": _num("dbh_used").to_numpy(),
+        # 'dead_used' já vem booleano (resolvido em calculate_biomass.prepare_tree_data).
+        "dead": (inside["dead_used"].to_numpy() if "dead_used" in inside
+                 else np.zeros(len(inside), dtype=bool)),
         "species": (inside["scientific_name"].astype(str).to_numpy()
                     if "scientific_name" in inside else ""),
     })
@@ -269,7 +299,7 @@ def _plot_tree_positions(_code_key, _inv_mtime, site, plot_id):
 def plot_tree_positions(site, plot_id):
     return _plot_tree_positions(
         _src_mtime(),
-        _mtime(ROOT / "data/processed/04_inventory" / f"{site}.csv"),
+        _mtime(ROOT / "data/processed/05_biomass" / f"{site}.csv"),
         site, plot_id)
 
 

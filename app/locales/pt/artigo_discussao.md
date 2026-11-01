@@ -70,7 +70,7 @@ dimensionalidade e desempenho deve se manter qualitativamente, já que ambos os 
 acima afetam todos os modelos comparados de forma semelhante), mas invalida qualquer
 leitura dos números absolutos de R²/RMSE como medida de prontidão operacional.
 
-### 4.3 Ausência de quantificação de incerteza
+### 4.3 Quantificação de incerteza: intervalo conforme por parcela
 
 A motivação declarada deste trabalho — contabilidade de carbono, REDD+, mercados de
 crédito — é um domínio em que uma estimativa pontual de AGB sem intervalo de predição
@@ -78,22 +78,63 @@ tem utilidade limitada: qualquer aplicação de compensação ou relatório de e
 saber não só o valor central, mas o **intervalo de confiança** da estimativa por parcela
 ou por pixel. As métricas reportadas neste artigo (R², RMSE, rRMSE) descrevem o
 comportamento agregado do modelo sobre o conjunto de teste; nenhuma delas produz, por
-si só, um intervalo de predição individual. Preencher essa lacuna — por *bootstrap*,
-predição conforme (*conformal prediction*), ou propagação do erro alométrico da Seção 2.4
-até o alvo de treino — é pré-condição para qualquer uso além da pesquisa exploratória.
+si só, um intervalo de predição individual.
+
+Um intervalo conforme por split (*split conformal prediction*) foi calculado sobre os
+resíduos out-of-fold já salvos de cada modelo (variante sem outliers, o mesmo conjunto
+reportado na Seção 3.2): os resíduos absolutos de metade das parcelas (calibração, *n* ≈
+162) definem o raio do intervalo a 90% de confiança; a outra metade, nunca usada na
+calibração, mede a cobertura empírica real. O resultado: raios de ±109 Mg/ha (CNN 2D,
+o modelo mais acurado) a ±144 Mg/ha (PointNet, o menos acurado), com cobertura empírica
+entre 86% e 92% — próxima da nominal de 90% em todos os seis modelos, o que indica que o
+intervalo conforme é razoavelmente bem calibrado nesta amostra, apesar do tamanho
+reduzido da calibração. Um raio de ±109 a ±144 Mg/ha sobre uma AGB média de ≈ 170 Mg/ha
+(variante sem outliers) é, na prática, um intervalo largo — a maior parte da AGB
+plausível de uma parcela amazônica cai dentro dele — mas é a primeira quantificação
+honesta de quão incerta é cada estimativa individual, ao contrário de reportar só R²/RMSE
+agregados. Este intervalo cobre apenas a incerteza do modelo estrutura→AGB; não propaga
+o erro alométrico da Seção 2.4 nem a incerteza de medição de campo até o alvo de treino
+— ambos permanecem como trabalho futuro.
 
 ### 4.4 O alvo de treino é, ele mesmo, um modelo
 
 A AGB de campo usada como alvo de treino não é uma medição direta: é a saída de uma
 equação alométrica (Seção 2.4) aplicada a medições de campo (DBH, altura, espécie), e
 essa equação tem incerteza própria, documentada na literatura que a origina (Chave et
-al., 2014). Este trabalho usa exclusivamente **M1** (densidade de madeira uniforme, ρ =
-0,6 g/cm³) como alvo, descartando as variantes M2 (densidade por tipo de árvore) e M3
-(densidade específica por espécie) sem uma análise de sensibilidade que avalie o quanto
-os resultados da Seção 3 mudam sob um alvo diferente. Como as três fórmulas convergem
-para valores distintos de AGB por parcela, a escolha de M1 é, na prática, uma decisão
-metodológica com efeito não quantificado sobre os números reportados — e uma fonte de
-incerteza que não está sendo propagada (Seção 4.3).
+al., 2014). Este trabalho reporta os resultados principais (Seção 3) usando **M1**
+(densidade de madeira uniforme, ρ = 0,6 g/cm³) como alvo — a escolha mais simples entre
+as três fórmulas calculadas na Seção 2.4 (M2 por tipo de árvore, M3 por densidade
+específica de espécie).
+
+Uma análise de sensibilidade foi conduzida: os sete modelos foram retreinados contra
+**M3** (densidade de madeira específica por espécie) na variante de melhor desempenho de
+cada um, sob o mesmo protocolo de validação cruzada.
+
+| Modelo | R² (M1) | R² (M3) | ΔR² |
+|---|---|---|---|
+| Random Forest | 0,524 | 0,382 | −0,142 |
+| ABA | 0,506 | 0,360 | −0,145 |
+| GBR 32 quantis | 0,504 | 0,329 | −0,175 |
+| CNN 3D | 0,455 | 0,327 | −0,128 |
+| GBR alturas completas | 0,480 | 0,309 | −0,171 |
+| CNN 2D | 0,527 | 0,286 | **−0,241** |
+| PointNet | 0,212 | 0,128 | −0,084 |
+
+Dois achados, nenhum deles trivial. Primeiro, **todos os sete modelos perdem poder
+preditivo substancial sob M3** (ΔR² entre −0,08 e −0,24) — a densidade de madeira
+específica por espécie não é visível na estrutura do dossel medida pelo LiDAR (nenhuma
+das representações usadas aqui recebe identidade taxonômica como insumo), então parte
+da variância que M3 introduz no alvo é, para qualquer um destes modelos, ruído
+irredutível. Segundo, e mais importante para a validade do resultado central da Seção
+3.2: **a escolha da fórmula muda a ordem dos modelos**. Sob M1, a CNN 2D lidera; sob M3,
+ela cai para o penúltimo lugar (só acima da PointNet), e o Random Forest assume a
+liderança — a maior queda absoluta de toda a comparação (ΔR² = −0,241) é justamente do
+modelo antes apontado como o melhor. Isso não invalida o argumento de que arquiteturas
+parcimoniosas (ABA, Random Forest, GBR) superam a PointNet — essa conclusão sobrevive
+intacta sob as duas fórmulas —, mas enfraquece a afirmação mais específica de que a CNN
+2D é a melhor arquitetura desta comparação: esse resultado é sensível à escolha,
+metodologicamente defensável mas arbitrária entre três candidatas igualmente válidas, de
+qual fórmula alométrica usar como alvo.
 
 ### 4.5 Confundidores de campanha e densidade de varredura
 
@@ -104,8 +145,23 @@ das features usadas por praticamente todas as abordagens (`log(nº de pontos)` o
 floresta. Isso abre a possibilidade de que parte do R² reportado reflita o modelo
 aprendendo a **identificar a campanha** (que pode estar correlacionada com a região e,
 por acaso, com a biomassa típica daquela região) em vez de aprender a relação estrutura
-↔ biomassa que se pretende generalizar. Nenhuma análise de desempenho estratificada por
-campanha foi conduzida nesta versão para descartar essa hipótese.
+↔ biomassa que se pretende generalizar.
+
+Duas análises, conduzidas sobre o ABA (variante sem outliers), testam essa hipótese.
+**R² estratificado por ano de campanha** varia bastante — de 0,11 (2017, n=49) a 0,42
+(2013, n=120), passando por um valor negativo em 2016 (n=9, amostra pequena demais para
+ser conclusiva — ver ressalva da Seção 4.3 sobre fold sizes desbalanceados). Essa
+variação é consistente com a hipótese do confundidor, mas não a confirma isoladamente:
+campanhas diferentes também cobrem florestas estruturalmente diferentes, então parte da
+variação pode ser heterogeneidade biológica real, não viés de densidade de varredura.
+Um **modelo de controle sem as duas features que capturam densidade de varredura
+diretamente** (`pt_density`, `ptdens_cv`) perde pouco desempenho (R² 0,506 → 0,464,
+ΔR² ≈ 0,04) — a maior parte do sinal do modelo completo sobrevive sem essas features, o
+que pesa contra (mas não elimina) a hipótese de que o modelo está majoritariamente
+"reconhecendo a campanha" pela densidade de pontos. As demais features (percentis de
+altura, deciles de densidade por faixa de altura `D0`–`D9`, métricas convolucionais do
+CHM) também podem carregar correlação residual com a campanha de forma mais sutil, que
+esta análise não isola.
 
 ### 4.6 Qualidade do rótulo e heterogeneidade de área
 
@@ -114,8 +170,9 @@ pequena (~0,02 ha) gerando AGB por hectare implausivelmente alta — acima de 15
 mais que o dobro do teto fisicamente plausível para floresta tropical densa —, um
 artefato estatístico de dividir uma contagem pequena de árvores por uma área minúscula.
 O critério de remoção de outliers usado nesta versão (área > 0,5 ha OU compacidade < 0,6)
-mitiga parte do problema, mas parcelas de 0,02 ha a 1 ha permanecem misturadas no
-conjunto de treino, e uma AGB por hectare estimada sobre poucas árvores tem variância
+mitiga a maior parte do problema: a área das 305 parcelas remanescentes vai de 0,077 ha a
+0,305 ha, não mais os 0,02 ha a 1 ha do conjunto completo. Mesmo nessa faixa mais estreita,
+uma AGB por hectare estimada sobre poucas árvores tem variância
 amostral estruturalmente maior que a mesma métrica sobre uma parcela de 1 ha — o que
 significa que as métricas agregadas de RMSE/R² da Seção 3 não são igualmente confiáveis
 para todas as parcelas do conjunto, mas isto não é reportado de forma estratificada.

@@ -4,13 +4,13 @@
   "model": "PointNet (MLP por ponto + max-pool)",
   "library": "PyTorch",
   "variant": "gap_corrected_noout",
-  "trained_at": "2026-06-18 02:41 UTC",
+  "trained_at": "2026-11-01 15:17 UTC",
   "target": "agb_m1_Mg_ha_gap",
   "n_plots": 325,
   "n_sites": 18,
   "n_features": "XYZ (cru)",
-  "agb_mean": 156.6,
-  "agb_std": 101.5,
+  "agb_mean": 168.8,
+  "agb_std": 103.0,
   "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
   "cv_file": "cv_results_pointnet_gap_noout.csv",
   "approach_key": "model_approach_pointnet",
@@ -25,13 +25,17 @@
     "dropout": 0.3
   },
   "cv_global": {
-    "rmse": 92.32,
-    "r2": 0.173,
-    "rrmse_pct": 58.95
+    "rmse": 91.45,
+    "r2": 0.2119,
+    "rrmse_pct": 54.16,
+    "bias": -24.11,
+    "mae": 63.41,
+    "slope": 0.239,
+    "intercept": 104.38
   },
   "cv_fold_mean": {
-    "rmse": 91.63,
-    "r2": 0.1711,
-    "rrmse_pct": 58.42
+    "rmse": 90.99,
+    "r2": 0.211,
+    "rrmse_pct": 53.8
   }
 }

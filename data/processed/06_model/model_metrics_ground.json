@@ -4,15 +4,15 @@
   "model": "GradientBoostingRegressor",
   "library": "scikit-learn",
   "variant": "ground_only",
-  "trained_at": "2026-06-20 21:33 UTC",
+  "trained_at": "2026-11-01 15:03 UTC",
   "target": "agb_m1_Mg_ha",
   "cv_file": "cv_results_ground.csv",
   "approach_key": "model_approach",
   "n_plots": 493,
   "n_sites": 23,
   "n_features": 1025,
-  "agb_mean": 173.5,
-  "agb_std": 158.9,
+  "agb_mean": 192.5,
+  "agb_std": 164.4,
   "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
   "hyperparameters": {
     "n_estimators": 300,
@@ -29,13 +29,17 @@
     "feature": "vetor de alturas do dossel ordenadas + log(nº de pontos)"
   },
   "cv_global": {
-    "rmse": 133.05,
-    "r2": 0.2988,
-    "rrmse_pct": 76.69
+    "rmse": 134.48,
+    "r2": 0.3306,
+    "rrmse_pct": 69.88,
+    "bias": -23.53,
+    "mae": 78.08,
+    "slope": 0.3398,
+    "intercept": 103.53
   },
   "cv_fold_mean": {
-    "rmse": 130.82,
-    "r2": 0.2897,
-    "rrmse_pct": 75.26
+    "rmse": 132.75,
+    "r2": 0.3239,
+    "rrmse_pct": 69.13
   }
 }

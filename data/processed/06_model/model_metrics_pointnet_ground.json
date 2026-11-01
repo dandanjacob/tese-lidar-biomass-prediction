@@ -4,13 +4,13 @@
   "model": "PointNet (MLP por ponto + max-pool)",
   "library": "PyTorch",
   "variant": "ground_only",
-  "trained_at": "2026-06-20 22:04 UTC",
+  "trained_at": "2026-11-01 15:23 UTC",
   "target": "agb_m1_Mg_ha",
   "n_plots": 493,
   "n_sites": 23,
   "n_features": "XYZ (cru)",
-  "agb_mean": 173.5,
-  "agb_std": 158.9,
+  "agb_mean": 192.5,
+  "agb_std": 164.4,
   "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
   "cv_file": "cv_results_pointnet_ground.csv",
   "approach_key": "model_approach_pointnet",
@@ -25,13 +25,17 @@
     "dropout": 0.3
   },
   "cv_global": {
-    "rmse": 149.71,
-    "r2": 0.1123,
-    "rrmse_pct": 86.29
+    "rmse": 150.52,
+    "r2": 0.1614,
+    "rrmse_pct": 78.21,
+    "bias": -32.05,
+    "mae": 84.88,
+    "slope": 0.1683,
+    "intercept": 128.01
   },
   "cv_fold_mean": {
-    "rmse": 146.91,
-    "r2": 0.1135,
-    "rrmse_pct": 84.67
+    "rmse": 148.56,
+    "r2": 0.1598,
+    "rrmse_pct": 77.47
   }
 }

@@ -1,0 +1,41 @@
+{
+  "key": "pointnet_gap_noout_m3",
+  "name": "PointNet — nuvem crua",
+  "model": "PointNet (MLP por ponto + max-pool)",
+  "library": "PyTorch",
+  "variant": "gap_corrected_noout",
+  "trained_at": "2026-11-01 15:30 UTC",
+  "target": "agb_m3_Mg_ha_gap",
+  "n_plots": 325,
+  "n_sites": 18,
+  "n_features": "XYZ (cru)",
+  "agb_mean": 174.1,
+  "agb_std": 124.5,
+  "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
+  "cv_file": "cv_results_pointnet_gap_noout_m3.csv",
+  "approach_key": "model_approach_pointnet",
+  "hyperparameters": {
+    "arquitetura": "Linear(3→64→128) · max-pool · Linear(128→64→1)",
+    "n_sample_pts": 2048,
+    "n_store_pts": 8192,
+    "epochs": 60,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.3
+  },
+  "cv_global": {
+    "rmse": 116.27,
+    "r2": 0.1283,
+    "rrmse_pct": 66.8,
+    "bias": -28.47,
+    "mae": 72.18,
+    "slope": 0.1705,
+    "intercept": 115.91
+  },
+  "cv_fold_mean": {
+    "rmse": 112.17,
+    "r2": 0.1621,
+    "rrmse_pct": 63.58
+  }
+}

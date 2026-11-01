@@ -169,10 +169,12 @@ if not grow.empty:
         xs, ys = mrr.exterior.coords.xy
         edges = [((xs[i] - xs[i + 1]) ** 2 + (ys[i] - ys[i + 1]) ** 2) ** 0.5 for i in range(4)]
         width, length = sorted([edges[0], edges[1]])
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         d1.metric(t("pointcloud.plot_width"), f"{width:.1f} m")
         d2.metric(t("pointcloud.plot_length"), f"{length:.1f} m")
         d3.metric(t("pointcloud.plot_area_poly"), f"{grow.area_ha.iloc[0]:.3f} ha")
+        d4.metric(t("pointcloud.plot_compactness"), f"{grow.compacidade.iloc[0]:.3f}",
+                 help=t("pointcloud.plot_compactness_help"))
         st.caption(t("pointcloud.dims_caption"))
     except Exception:
         pass

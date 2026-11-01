@@ -1,0 +1,60 @@
+{
+  "campaign_stratified_r2": [
+    {
+      "ano_lidar": 2012,
+      "n": 40,
+      "r2": 0.2523
+    },
+    {
+      "ano_lidar": 2013,
+      "n": 120,
+      "r2": 0.4232
+    },
+    {
+      "ano_lidar": 2014,
+      "n": 107,
+      "r2": 0.1394
+    },
+    {
+      "ano_lidar": 2016,
+      "n": 9,
+      "r2": -0.5665
+    },
+    {
+      "ano_lidar": 2017,
+      "n": 49,
+      "r2": 0.1124
+    }
+  ],
+  "density_control": {
+    "r2_full": 0.5059,
+    "r2_control": 0.464,
+    "rmse_full": 74.76,
+    "rmse_control": 77.86,
+    "dropped_features": [
+      "ptdens_cv",
+      "pt_density"
+    ],
+    "n_features_control": 35
+  },
+  "pairwise_wilcoxon": [
+    {
+      "a": "CNN 2D (raster)",
+      "b": "Random Forest",
+      "p_value": 0.6267,
+      "significant_0.05": false
+    },
+    {
+      "a": "CNN 2D (raster)",
+      "b": "CNN 3D (voxel)",
+      "p_value": 0.7067,
+      "significant_0.05": false
+    },
+    {
+      "a": "Random Forest",
+      "b": "CNN 3D (voxel)",
+      "p_value": 0.3818,
+      "significant_0.05": false
+    }
+  ]
+}

@@ -42,7 +42,7 @@ from sklearn.metrics import root_mean_squared_error, r2_score
 from train_model import (height_above_ground, xy_inlier_mask, CANOPY_FILTER_H, LAZ_DIR,
                          SUMMARY, OUT_DIR, GROUND_RADIUS, N_SPLITS, Y_FWD, Y_INV)
 from outlier_filter import filter_summary, SUFFIX, VARIANT, TARGET
-from train_eval import save_oof, save_lc, learning_curve
+from train_eval import save_oof, save_lc, learning_curve, extra_metrics
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
@@ -214,7 +214,8 @@ def main():
         rrmse = rmse / y[te].mean() * 100
         all_te.extend(y[te]); all_pred.extend(pred); all_lab.extend(labels[te])
         records.append({"fold": i, "n_test": len(te), "rmse": round(rmse, 2),
-                        "r2": round(r2, 4), "rrmse_pct": round(rrmse, 2)})
+                        "r2": round(r2, 4), "rrmse_pct": round(rrmse, 2),
+                        **extra_metrics(y[te], pred)})
         log.info(f"  fold {i}  n={len(te):>3}  RMSE={rmse:.1f}  R²={r2:.3f}")
 
     cv = pd.DataFrame(records)
@@ -272,7 +273,7 @@ def main():
             "dropout": 0.3,
         },
         "cv_global": {"rmse": round(float(g_rmse), 2), "r2": round(float(g_r2), 4),
-                      "rrmse_pct": round(float(g_rrmse), 2)},
+                      "rrmse_pct": round(float(g_rrmse), 2), **extra_metrics(all_te, all_pred)},
         "cv_fold_mean": {"rmse": round(float(cv.rmse.mean()), 2),
                          "r2": round(float(cv.r2.mean()), 4),
                          "rrmse_pct": round(float(cv.rrmse_pct.mean()), 2)},

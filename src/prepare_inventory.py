@@ -54,11 +54,34 @@ import numpy as np
 import pandas as pd
 from shapely.geometry import Point
 
+from inventory_utils import fill_nearest_year, resolve_utm_zone, utm_proj_from_zone
+
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
 
 ROOT      = Path(__file__).parent.parent
-INV_DIR   = ROOT / "data/raw/inventory/Forest_Inventory_Brazil_2007_1-20260505_010726"
+
+
+def _find_inventory_dir() -> Path:
+    """Pasta do inventário baixado do ORNL DAAC — nome inclui um timestamp de
+    download que muda a cada requisição (ex.: Forest_Inventory_Brazil_2007_1-
+    <timestamp>), então não pode ser hardcoded. Mesmo padrão de
+    find_intersections.py/clip_lidar_to_plots.py para o diretório do LiDAR.
+
+    O bundle baixado (DOI 10.3334/ORNLDAAC/2007 — não confundir com 1515, que é
+    o dataset de LiDAR/DTM de 2008, outro produto) vem em guide/comp/data/; os
+    CSVs de árvore ficam em data/, não na raiz do bundle."""
+    candidates = sorted((ROOT / "data/raw/inventory").glob("Forest_Inventory_Brazil_*"))
+    if not candidates:
+        raise FileNotFoundError(
+            "Diretório de inventário não encontrado em data/raw/inventory/. "
+            "Baixe os dados do ORNL DAAC (DOI 10.3334/ORNLDAAC/2007) e extraia lá.")
+    root = candidates[0]
+    data_sub = root / "data"
+    return data_sub if data_sub.is_dir() else root
+
+
+INV_DIR   = _find_inventory_dir()
 KML_DIR   = ROOT / "data/processed/01_kml"
 INTER_CSV = ROOT / "data/processed/02_intersections/lidar_inventory_intersections.csv"
 TEMP_CSV  = ROOT / "data/processed/02_intersections/intersections_temporal.csv"
@@ -211,22 +234,39 @@ def load_kml_plots(site_key: str) -> gpd.GeoDataFrame | None:
 
 
 def assign_plots_spatial(df: pd.DataFrame, kml_plots: gpd.GeoDataFrame,
-                         valid_plot_ids: set) -> pd.DataFrame:
+                         valid_plot_ids: set, site_key: str | None = None) -> pd.DataFrame:
     """
     Assigns plot_id to each tree using point-in-polygon with tree UTM coords.
     Filters to valid_plot_ids. Returns df with plot_id column added.
+
+    Nas duas correções de coordenada abaixo (graus trocados / zona UTM), o valor
+    CORRIGIDO é persistido de volta em df["utm_easting"]/["utm_northing"] — antes
+    a correção só existia dentro do join espacial e nunca chegava ao CSV salvo,
+    então qualquer leitor downstream (o visualizador de nuvem de pontos, em
+    particular) lia a coordenada bruta errada. Ver docs/known-issues.md.
     """
     if "utm_easting" not in df.columns or "utm_northing" not in df.columns:
         return df
 
+    # Converte pra float ANTES de qualquer cópia: alguns sites trazem utm_easting/
+    # northing como dtype string (ex. Arrow-backed), e atribuir float de volta numa
+    # coluna string (df.loc[...] = corrected_easting mais abaixo) explode com
+    # TypeError. df inteiro vira numérico aqui — não só a view local `trees`.
+    df = df.copy()
+    df["utm_easting"]  = pd.to_numeric(df["utm_easting"],  errors="coerce")
+    df["utm_northing"] = pd.to_numeric(df["utm_northing"], errors="coerce")
+
     trees = df.copy()
-    trees["utm_easting"]  = pd.to_numeric(trees["utm_easting"],  errors="coerce")
-    trees["utm_northing"] = pd.to_numeric(trees["utm_northing"], errors="coerce")
     trees = trees.dropna(subset=["utm_easting", "utm_northing"])
     if trees.empty:
         return df
 
     easting_mean = trees["utm_easting"].mean()
+    kml_centroid = kml_plots.geometry.union_all().centroid
+    lon, lat = kml_centroid.x, kml_centroid.y
+    naive_zone = f"{int((lon + 180) / 6) + 1}{'S' if lat < 0 else 'N'}"
+    zone = resolve_utm_zone(site_key, fallback_lon=lon, fallback_lat=lat) if site_key else naive_zone
+    proj_str = utm_proj_from_zone(zone)
 
     # Detect coordinate system: lat/lon (|easting| < 180) vs UTM (easting > 1000)
     if abs(easting_mean) < 180:
@@ -242,19 +282,43 @@ def assign_plots_spatial(df: pd.DataFrame, kml_plots: gpd.GeoDataFrame,
 
         hit_ne, pts_ne = _pts("utm_easting", "utm_northing")   # easting=lon, northing=lat
         hit_sw, pts_sw = _pts("utm_northing", "utm_easting")   # trocado
-        geom = pts_sw if hit_sw > hit_ne else pts_ne
+        swapped = hit_sw > hit_ne
+        geom = pts_sw if swapped else pts_ne
         trees_gdf = gpd.GeoDataFrame(trees.copy(), geometry=geom, crs="EPSG:4326")
         kml_utm = kml_plots  # already WGS84
+
+        # Persiste as coordenadas CORRIGIDAS em UTM real (não graus) — a zona vem
+        # das tiles LiDAR pareadas, ground truth, não da fórmula de longitude.
+        trees_utm = trees_gdf.to_crs(proj_str)
+        corrected_easting  = trees_utm.geometry.x
+        corrected_northing = trees_utm.geometry.y
     else:
-        # Coordinates are UTM — reproject KML to matching UTM zone
-        kml_centroid = kml_plots.geometry.union_all().centroid
-        lon, lat = kml_centroid.x, kml_centroid.y
-        zone = int((lon + 180) / 6) + 1
-        hemi = "south" if lat < 0 else ""
-        proj_str = f"+proj=utm +zone={zone} +{hemi} +ellps=WGS84 +units=m +no_defs"
+        # Coordinates are already UTM-shaped numbers. A zona em que o TIME DE CAMPO
+        # registrou essas coordenadas nem sempre é a zona ground-truth das tiles
+        # LiDAR do site: DUC_A01_2009_2011 tem árvores em 21S (a mesma zona que a
+        # fórmula de longitude dá), enquanto as tiles LiDAR de DUC_A01 foram
+        # processadas em 20S fixo — usar 20S aqui zera 907/910 árvores (nenhuma cai
+        # dentro de nenhuma parcela). Testa as duas zonas candidatas (ground-truth
+        # da tile e fórmula da longitude) e fica com a que bate mais árvore dentro
+        # da parcela — mesma lógica de robustez do swap de lat/lon acima.
+        cand_zones = {zone: proj_str}
+        if naive_zone != zone:
+            cand_zones[naive_zone] = utm_proj_from_zone(naive_zone)
+
+        if len(cand_zones) > 1:
+            sample_pts = [Point(e, n) for e, n in
+                         zip(trees["utm_easting"].iloc[:300], trees["utm_northing"].iloc[:300])]
+
+            def _utm_hits(proj):
+                kml_union_z = kml_plots.to_crs(proj).geometry.union_all()
+                return sum(kml_union_z.contains(p) for p in sample_pts)
+
+            zone, proj_str = max(cand_zones.items(), key=lambda kv: _utm_hits(kv[1]))
+
         kml_utm = kml_plots.to_crs(proj_str)
         geom = [Point(e, n) for e, n in zip(trees["utm_easting"], trees["utm_northing"])]
         trees_gdf = gpd.GeoDataFrame(trees.copy(), geometry=geom, crs=proj_str)
+        corrected_easting, corrected_northing = trees["utm_easting"], trees["utm_northing"]
 
     joined = gpd.sjoin(trees_gdf, kml_utm[["plot_id", "geometry"]],
                        how="left", predicate="within")
@@ -266,6 +330,9 @@ def assign_plots_spatial(df: pd.DataFrame, kml_plots: gpd.GeoDataFrame,
     df = df.copy()
     df["plot_id"] = pd.NA
     df.loc[trees.index, "plot_id"] = assigned.values
+    df.loc[trees.index, "utm_easting"]  = corrected_easting.to_numpy()
+    df.loc[trees.index, "utm_northing"] = corrected_northing.to_numpy()
+    df["utm_zone"] = zone or pd.NA
 
     return df[df["plot_id"].isin(valid_plot_ids)].copy()
 
@@ -292,16 +359,14 @@ def estimate_height_feldpausch(dbh_series: pd.Series) -> pd.Series:
     return h.round(2)
 
 
-def add_estimated_height(df: pd.DataFrame) -> pd.DataFrame:
-    """Adds htot_feldpausch column using the best available DBH column."""
-    dbh_cols = sorted([c for c in df.columns if c.startswith("dbh_")],
-                      key=lambda c: c.split("_")[-1], reverse=True)
-    bare_dbh = "dbh" if "dbh" in df.columns else None
-    src = dbh_cols[0] if dbh_cols else bare_dbh
-    if src is None:
-        df["htot_feldpausch"] = np.nan
-    else:
-        df["htot_feldpausch"] = estimate_height_feldpausch(df[src])
+def add_estimated_height(df: pd.DataFrame, lidar_year=np.nan) -> pd.DataFrame:
+    """Adds htot_feldpausch column, usando o DBH mais próximo do ano do LiDAR
+    disponível POR ÁRVORE (fill_nearest_year) — não uma única coluna dbh_AAAA pro
+    site inteiro. A versão anterior (uma coluna só) deixava htot_feldpausch em NaN
+    pra árvore que não tivesse DBH justo naquele ano, mesmo tendo em outro censo —
+    mesma classe de bug que fill_nearest_year já corrigiu em dbh_used/htot_used."""
+    dbh_best, _ = fill_nearest_year(df, "dbh", lidar_year, positive=True)
+    df["htot_feldpausch"] = estimate_height_feldpausch(dbh_best)
     return df
 
 
@@ -378,9 +443,17 @@ def fit_local_height_model(df: pd.DataFrame) -> dict | None:
     return {"coef": coef, "cf": cf, "dbh_col": dbh_col, "n": n, "r2": r2}
 
 
-def predict_local_height(df: pd.DataFrame, model: dict) -> pd.Series:
-    """Applies a fit_local_height_model() result to every row of df."""
-    dbh = pd.to_numeric(df[model["dbh_col"]], errors="coerce")
+def predict_local_height(df: pd.DataFrame, model: dict,
+                         dbh_series: pd.Series | None = None) -> pd.Series:
+    """Applies a fit_local_height_model() result to every row of df.
+
+    `dbh_series` (DBH mais próximo do ano do LiDAR, por árvore — fill_nearest_year)
+    é usado quando fornecido; a coluna única `model["dbh_col"]` (a mesma usada pra
+    AJUSTAR o modelo, onde faz sentido exigir um ano fixo pro par Htot/DBH) vale só
+    como fallback de compatibilidade. Sem isso, uma árvore sem DBH justo no ano do
+    ajuste ficava sem h_local mesmo tendo DBH medido em outro censo."""
+    dbh = pd.to_numeric(dbh_series if dbh_series is not None else df[model["dbh_col"]],
+                       errors="coerce")
     valid = dbh > 0
     log_dbh = np.log(dbh.where(valid, np.nan))
 
@@ -390,17 +463,20 @@ def predict_local_height(df: pd.DataFrame, model: dict) -> pd.Series:
     return h.round(2)
 
 
-def add_height_estimate_column(df: pd.DataFrame) -> pd.DataFrame:
+def add_height_estimate_column(df: pd.DataFrame, lidar_year=np.nan) -> pd.DataFrame:
     """Adds htot_estimated / htot_estimation_method: measured value where
     available, else a site-local Htot~DBH[+Hcom] fit, else the regional
-    Feldpausch fallback (already in htot_feldpausch)."""
-    htot_cols = [c for c in df.columns if c.startswith("htot_") and c != "htot_feldpausch"]
-    h_meas = pd.Series(np.nan, index=df.index)
-    for c in sorted(htot_cols):
-        h_meas = h_meas.where(h_meas > 0, pd.to_numeric(df[c], errors="coerce"))
+    Feldpausch fallback (already in htot_feldpausch).
+
+    "Measured" usa `fill_nearest_year`: para cada árvore, o ano de Htot mais
+    próximo do voo LiDAR em que ELA foi medida — não "o ano mais antigo
+    disponível no site" (comportamento anterior), que não tinha relação com o
+    gap que o resto do pipeline tenta minimizar."""
+    h_meas, h_meas_src = fill_nearest_year(df, "htot", lidar_year, positive=True)
+    dbh_best, _ = fill_nearest_year(df, "dbh", lidar_year, positive=True)
 
     model = fit_local_height_model(df)
-    h_local = predict_local_height(df, model) if model is not None else \
+    h_local = predict_local_height(df, model, dbh_best) if model is not None else \
         pd.Series(np.nan, index=df.index)
 
     h_regional = pd.to_numeric(df.get("htot_feldpausch", np.nan), errors="coerce")
@@ -419,10 +495,33 @@ def add_height_estimate_column(df: pd.DataFrame) -> pd.DataFrame:
 # para a Amazônia e é mais ruidoso que o sinal), cresce-se o DBH até a data do voo e
 # re-deriva-se a altura pela curva H-D. O incremento de DBH vem, em ordem de
 # qualidade: (1) remedição da própria árvore (2 anos de DBH no site); (2) mediana
-# observada do site; (3) default pooled abaixo. NÃO substitui htot_estimated — gera
-# colunas NOVAS (htot_estimated_gap, dbh_lidar, dbh_incr_*) em paralelo.
-DEFAULT_INCREMENT_CM_YR = 0.18   # mediana por árvore agrupando os 12 sites com remedição
-MAX_INCREMENT_CM_YR     = 5.0    # clip de incrementos implausíveis (erro de medição)
+# POR CLASSE DE TAMANHO, pooled entre todos os sites com remedição (substitui tanto
+# a mediana-de-site quanto o default plano únicos de versões anteriores).
+#
+# Crescimento diamétrico varia com o porte da árvore — não é um ruído a ignorar.
+# Medido nos 10.704 pares (remedição real, pooled, todos os sites): mediana de
+# incremento quase DOBRA entre pequena e grande (ver tabela abaixo), então um único
+# escalar pro site (ou pro dataset) sub-estima árvores grandes e sobre-estima
+# pequenas. Os cortes e medianas abaixo vêm diretamente dessa amostra:
+#   pequena (DBH<13.9cm, n=3585): mediana 0.133 cm/ano
+#   média   (13.9–25.8cm, n=3558): mediana 0.200 cm/ano
+#   grande  (DBH>25.8cm,  n=3561): mediana 0.233 cm/ano
+# Antes da remedição, qualquer uma das três já tem mais amostra que a mediana de um
+# único site (que às vezes vem de poucas árvores) — por isso substitui a mediana de
+# site como segunda prioridade, não só o default plano.
+DBH_SIZE_CUTS_CM = (13.9, 25.8)
+DBH_SIZE_INCREMENT_CM_YR = {"pequena": 0.133, "media": 0.200, "grande": 0.233}
+MAX_INCREMENT_CM_YR = 5.0    # clip de incrementos implausíveis (erro de medição)
+
+
+def _size_class_increment(dbh: pd.Series) -> pd.Series:
+    """Incremento esperado (cm/ano) pela classe de tamanho da árvore — fallback
+    global quando não há remedição individual nem amostra suficiente no site."""
+    lo, hi = DBH_SIZE_CUTS_CM
+    out = pd.Series(DBH_SIZE_INCREMENT_CM_YR["grande"], index=dbh.index)
+    out = out.where(dbh > hi, DBH_SIZE_INCREMENT_CM_YR["media"])
+    out = out.where(dbh > lo, DBH_SIZE_INCREMENT_CM_YR["pequena"])
+    return out
 
 
 def load_site_gaps() -> dict:
@@ -439,27 +538,38 @@ def load_site_gaps() -> dict:
 
 
 def tree_dbh_increment(df: pd.DataFrame) -> tuple[pd.Series, pd.Series]:
-    """Incremento anual de DBH (cm/ano) por árvore + fonte ('observed'/'site_median'/
-    'default'). Negativos (erro de medição/casca) → 0; outliers → MAX_INCREMENT_CM_YR."""
+    """Incremento anual de DBH (cm/ano) por árvore + fonte ('observed'/'size_class').
+    Prioridade: (1) remedição individual da própria árvore; (2) mediana GLOBAL por
+    classe de tamanho (pequena/média/grande — ver DBH_SIZE_INCREMENT_CM_YR), que
+    substitui a mediana-de-site e o default plano de versões anteriores — ambos
+    ignoravam que crescimento diamétrico varia por porte, e a mediana-de-site em
+    particular podia vir de poucas árvores remedidas num site só.
+    Negativos (erro de medição/casca) → 0; outliers → MAX_INCREMENT_CM_YR."""
     dbh_cols = sorted([c for c in df.columns if re.fullmatch(r"dbh_\d{4}", c)],
                       key=lambda c: int(c[-4:]))
     inc = pd.Series(np.nan, index=df.index)
-    src = pd.Series("default", index=df.index, dtype=object)
+    src = pd.Series("size_class", index=df.index, dtype=object)
+    dbh_base = pd.Series(np.nan, index=df.index)
 
     if len(dbh_cols) >= 2:
         y0, y1 = int(dbh_cols[0][-4:]), int(dbh_cols[-1][-4:])
         a = pd.to_numeric(df[dbh_cols[0]],  errors="coerce")
         b = pd.to_numeric(df[dbh_cols[-1]], errors="coerce")
+        dbh_base = a
         obs = ((b - a) / (y1 - y0)).where((a > 0) & (b > 0))
         inc = obs
         src = src.where(obs.isna(), "observed")
-        site_med = obs.median()
-        if pd.notna(site_med):
-            fill = inc.isna()
-            inc = inc.where(~fill, site_med)
-            src = src.where(~fill, "site_median")
 
-    inc = inc.where(inc.notna(), DEFAULT_INCREMENT_CM_YR)
+    # dbh_base para o fallback por classe: a mesma usada em observed quando existe
+    # (coluna mais antiga disponível), senão a melhor coluna dbh_YYYY disponível.
+    if dbh_base.isna().all():
+        any_dbh_cols = sorted([c for c in df.columns if re.fullmatch(r"dbh_\d{4}", c)])
+        if any_dbh_cols:
+            dbh_base = pd.to_numeric(df[any_dbh_cols[-1]], errors="coerce")
+    fallback = _size_class_increment(dbh_base.fillna(DBH_SIZE_CUTS_CM[1]))  # sem DBH → classe média
+    inc = inc.where(inc.notna(), fallback)
+
+    inc = inc.where(inc.notna(), DBH_SIZE_INCREMENT_CM_YR["media"])  # sem DBH algum: último recurso
     inc = inc.clip(lower=0.0, upper=MAX_INCREMENT_CM_YR)
     return inc, src
 
@@ -536,7 +646,7 @@ def main() -> None:
         # Assign plot_id via spatial join (handles naming inconsistencies)
         kml_plots = load_kml_plots(site_key)
         if kml_plots is not None:
-            df = assign_plots_spatial(df, kml_plots, plot_ids)
+            df = assign_plots_spatial(df, kml_plots, plot_ids, site_key)
         else:
             # Fallback: try matching existing plot column
             if "plot_id" in df.columns:
@@ -551,11 +661,14 @@ def main() -> None:
             total_trees += len(df)
             sites_done += 1
 
-        df = add_estimated_height(df)
-        df = add_height_estimate_column(df)
+        # lidar_year calculado ANTES da estimativa de altura: "medida" precisa saber
+        # a qual ano se aproximar (fill_nearest_year), não só "qual ano existe".
+        lidar_year, gap = site_gaps.get(site_key, (np.nan, np.nan))
+
+        df = add_estimated_height(df, lidar_year)
+        df = add_height_estimate_column(df, lidar_year)
 
         # Estimativa NOVA, corrigida pelo gap temporal (não substitui htot_estimated).
-        lidar_year, gap = site_gaps.get(site_key, (np.nan, np.nan))
         incr, incr_src = tree_dbh_increment(df)
         df["dbh_incr_cm_yr"]  = incr.round(3)
         df["dbh_incr_source"] = incr_src

@@ -1,0 +1,43 @@
+{
+  "key": "voxel_noout_m3",
+  "name": "CNN 3D — voxels",
+  "model": "CNN 3D (voxels de ocupação)",
+  "library": "PyTorch",
+  "variant": "no_outliers",
+  "trained_at": "2026-11-01 15:26 UTC",
+  "target": "agb_m3_Mg_ha",
+  "n_plots": 325,
+  "n_sites": 18,
+  "n_features": "voxels 16×16×16×2",
+  "agb_mean": 177.1,
+  "agb_std": 128.4,
+  "cv": "K-fold aleatório (5 dobras, peso 1/parcela)",
+  "cv_file": "cv_results_voxel_noout_m3.csv",
+  "approach_key": "model_approach_voxel",
+  "hyperparameters": {
+    "arquitetura": "Conv3d(2→16→32→64)+BN+pool · global-pool · Linear(64→64→1)",
+    "grade": "16×16×16",
+    "zmax_m": 40.0,
+    "canais": "ocupação, log-densidade",
+    "aumento": "rot90 XY + flips",
+    "epochs": 60,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.3
+  },
+  "cv_global": {
+    "rmse": 105.31,
+    "r2": 0.3273,
+    "rrmse_pct": 59.45,
+    "bias": 4.57,
+    "mae": 64.89,
+    "slope": 0.6084,
+    "intercept": 73.93
+  },
+  "cv_fold_mean": {
+    "rmse": 98.42,
+    "r2": 0.3915,
+    "rrmse_pct": 54.52
+  }
+}
