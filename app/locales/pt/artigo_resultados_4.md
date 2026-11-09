@@ -27,3 +27,26 @@ parte da literatura citada usa validação cruzada por sítio ou validação ind
 um padrão de generalização mais exigente que o empregado aqui (Seção 4.2). A
 verificação adversarial dos números da literatura — conferência linha a linha contra a
 fonte primária, antes pendente — foi concluída; ver Seção 4.7 para o detalhe por fonte.
+
+Quanto ao LiDAR orbital da NASA — GEDI e ICESat-2 —, não foi encontrada, mesmo após
+busca e verificação direta contra a fonte primária, nenhuma validação de R²/RMSE
+calculada isoladamente para a Amazônia brasileira (nem do GEDI, nem do ICESat-2) com
+desenho comparável a parcela ou k-fold aleatório. O benchmark publicado mais próximo é
+Duncanson et al. (2022): o modelo oficial de biomassa do GEDI, no estrato *Evergreen
+Broadleaf Trees* — América do Sul (classe dominante na Amazônia, mas estrato
+continental, não um recorte amazônico), reporta R² = 0,66 e %RMSE = 42,2% por validação
+cruzada geográfica — portanto nem k-fold aleatório, nem especificamente amazônico, mas é
+o melhor proxy disponível para "GEDI num bioma análogo à Amazônia", na mesma faixa de
+rRMSE desta tese (41,7%). Já o ICESat-2 (ATL08), quando validado contra LiDAR
+aerotransportado em floresta tropical (Mesoamérica, Gabão e Guiana Francesa — nunca a
+bacia amazônica isolada), degrada fortemente frente ao desempenho em floresta boreal:
+erro de altura de dossel de 5–7 m em floresta tropical contra 3,19 m em condições
+boreais ideais (Liu, Gong & Shi, 2026) — reforçando que mesmo o LiDAR orbital mais
+recente da NASA perde precisão em dossel tropical denso, um argumento a favor da
+abordagem aerotransportada adotada nesta tese. O trabalho de deep learning mais próximo
+publicado em 2023–2025 usando a mesma linhagem de dados (LiDAR aerotransportado do
+programa NASA CMS Brasil/EBA) na Amazônia é Wagner et al. (2025, pré-print): uma U-Net
+treinada com esse mesmo tipo de levantamento para mapear altura de dossel (não AGB) a
+partir de imagens Planet NICFI, com MAE = 3,68 m em validação espacialmente
+estratificada — uma comparação metodológica (arquitetura de rede) mais honesta que uma
+comparação direta de métrica de erro, já que a variável-alvo difere da desta tese.

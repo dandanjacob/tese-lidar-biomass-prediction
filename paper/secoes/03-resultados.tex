@@ -1,0 +1,286 @@
+% !TEX root = ../main.tex
+\section{Resultados}
+\label{sec:resultados}
+
+\subsection{Efeito do controle de qualidade dos dados}
+\label{sec:preproc}
+
+Antes de comparar arquiteturas entre si, é preciso isolar um efeito que domina os
+resultados: o pré-processamento. Empilhar tratamentos uns sobre os outros (como em
+versões anteriores deste texto) não permite separar o que cada etapa
+individualmente contribui --- um ganho visto na combinação ``solo + filtro +
+outliers'' pode vir inteiro de um único desses três, com os outros dois sendo
+irrelevantes ou até prejudiciais. Para resolver isso, cada tratamento foi testado
+\textbf{isoladamente}, sempre contra a mesma nuvem crua (\texttt{raw}), sem
+empilhar com os demais: projeção do solo sozinha, filtro $\leq$1,3~m sozinho
+(sobre o deslocamento mínimo de Z, sem o relevo local), remoção de outliers
+geométricos sozinha, e correção de gap temporal sozinha no alvo. Uma sexta
+coluna, ``tudo combinado'', aplica os quatro tratamentos juntos --- o pipeline
+completo. A Tabela~\ref{tab:comparacao} reporta as seis colunas para os sete
+modelos.
+
+\textbf{Remoção de outliers geométricos é, disparado, o tratamento que mais
+importa} --- e o único que, sozinho, já entrega quase todo o ganho visto na
+combinação completa. Nos três modelos com as duas variantes disponíveis para
+comparação direta (ABA, Random Forest e CNN 2D), o outlier isolado iguala ou
+\textbf{supera} a combinação ``tudo junto'': CNN 2D vai de $R^2 \approx$ 0,25
+(nuvem crua) para \textbf{0,55} só removendo outliers --- mais alto que os 0,48 da
+combinação completa (solo+filtro+outliers+gap). Random Forest (0,53 isolado vs.
+0,51 combinado) e ABA (0,51 vs. 0,49) têm o mesmo padrão. Isso indica que solo,
+filtro e gap, no pipeline combinado, não estavam contribuindo --- ou estavam
+discretamente atrapalhando --- e o ganho inteiro vinha da geometria das parcelas.
+O GBR de 32 quantis confirma a mesma magnitude isolada ($R^2$ = 0,51 só com
+outliers, Tabela~\ref{tab:comparacao}), ainda que sem uma variante ``tudo
+combinado'' treinada para comparação direta.
+
+\textbf{Projeção do solo e filtro $\leq$1,3~m, isolados, têm efeito pequeno e
+inconsistente entre arquiteturas.} Só a projeção do solo (sem filtro) move o $R^2$
+em poucos centésimos na maioria dos modelos (ex.: ABA 0,320$\rightarrow$0,328,
+Random Forest 0,283$\rightarrow$0,286) --- exceção é a CNN 3D (voxel), que sai de
+$R^2$ negativo ($-$0,13) para positivo (0,09), sugerindo que a estrutura vertical
+bruta (Z absoluto, sem corrigir relevo) é especialmente ruim pra arquiteturas que
+processam o volume 3D diretamente. O filtro $\leq$1,3~m isolado (sobre o mesmo
+deslocamento mínimo de Z do baseline cru, sem acionar a projeção de relevo
+completa) tem efeito ainda menor: piora levemente ABA, Random Forest, o modelo de
+alturas ordenadas e a PointNet ($R^2$ cai alguns centésimos em cada caso ---
+PointNet 0,125$\rightarrow$0,118) e ajuda discretamente só a CNN 2D e a CNN 3D,
+que parecem se beneficiar de qualquer redução no ruído vertical bruto, mesmo
+pequena.
+
+\textbf{Correção de gap temporal isolada é, na maioria dos modelos, mais fraca que
+não fazer nada.} Em cinco dos seis modelos com baseline cru comparável, o gap
+isolado fica abaixo da nuvem crua sem nenhum tratamento --- exceção é a CNN 3D,
+onde o gap isolado ($R^2 = -0,05$) é menos ruim que a própria nuvem crua
+($-0,13$), embora ainda negativo. Isso contrasta com o papel do gap na combinação
+completa, onde ele aparece ``ajudando'' --- mas como visto acima, o ganho ali vem
+majoritariamente da remoção de outliers que o acompanha, não do gap em si. A
+correção de gap é mantida no pipeline por ser metodologicamente correta (alinhar
+DBH/altura do inventário à data do voo LiDAR, evitando viés sistemático de
+subestimar biomassa quando o LiDAR é mais recente que o censo), não porque eleve o
+$R^2$.
+
+Em suma: \textbf{a qualidade da curadoria geométrica das parcelas (outliers)
+domina a escolha de arquitetura em magnitude de efeito} --- nenhuma combinação de
+solo, filtro ou gap chega perto do ganho de simplesmente descartar as parcelas de
+geometria ruim. Este é o primeiro resultado do trabalho, e não é sutil.
+
+\begin{table}[H]
+  \centering
+  \caption{Comparação entre modelos e variantes de pré-processamento (RMSE em
+  Mg/ha; rRMSE em \%; $R^2$ adimensional; maior $R^2$ e menor RMSE/rRMSE são
+  melhores). Colunas ``Só X'' são tratamentos isolados contra a mesma nuvem crua;
+  ``Tudo combinado'' empilha os quatro juntos.}
+  \label{tab:comparacao}
+  % PLACEHOLDER — os valores por célula são gerados pelos scripts de treino
+  % (data/processed/06_model/cv_results_*.csv) e exibidos no dashboard.
+  % Exporte a tabela final e cole aqui no formato booktabs, ex.:
+  % \begin{tabular}{lrrrrrr}
+  %   \toprule
+  %   Modelo & Nuvem crua & Só solo & Só filtro & Só outliers & Só gap & Tudo combinado \\
+  %   \midrule
+  %   ... & ... \\
+  %   \bottomrule
+  % \end{tabular}
+  \figplaceholder{[PLACEHOLDER] Tabela 1 --- preencher com os valores de
+  RMSE/$R^2$/rRMSE por modelo (7 linhas) $\times$ variante (6 colunas), exportados
+  de \texttt{data/processed/06\_model/cv\_results\_*.csv}.}
+  \fonte{elaborado pelo autor (2026), a partir das validações cruzadas do
+  pipeline de treino}
+\end{table}
+
+\subsection{Comparação entre arquiteturas, na melhor configuração}
+\label{sec:arch}
+
+Restringindo a comparação à melhor variante de CADA modelo individualmente
+($n = 325$) --- e não assumindo de antemão qual tratamento essa variante usa, já
+que a Seção~\ref{sec:preproc} mostrou que cada tratamento isolado tem efeito muito
+diferente ---, a variante líder é \textbf{``só outliers'' (isolada, sem
+solo/filtro/gap) para cinco dos seis modelos}; CNN 3D e PointNet são as exceções,
+precisando do pipeline combinado completo para atingir seu melhor resultado. A
+ordem que emerge é: \textbf{CNN 2D sobre rasters de altura ($R^2$ = 0,547) $>$
+Random Forest (0,532) $>$ GBR sobre a distribuição completa de 1024 alturas
+(0,526) $>$ ABA (0,514) $\approx$ GBR sobre 32 quantis de altura (0,510) $>$
+CNN 3D sobre voxels (0,455, pipeline combinado) $\gg$ PointNet sobre a nuvem crua
+(0,212, pipeline combinado, único caso em que a variante gap-corrigida vence).}
+(Esta ordem usa a fórmula alométrica de referência M1; a
+Seção~\ref{sec:allom-sens} mostra que ela não é robusta à troca para M3 --- o
+Random Forest assume a liderança, embora essa análise de sensibilidade ainda não
+tenha sido refeita sobre as variantes isoladas identificadas aqui, ver ressalva ao
+final da Seção~\ref{sec:allom-sens}.)
+
+Essa ordem corrige uma leitura anterior deste texto, que agrupava Random Forest e
+CNN 3D como equivalentes: usando a variante correta por modelo, a CNN 3D fica
+\textbf{abaixo} de todos os modelos estruturais/estatísticos (ABA, GBR em ambas as
+representações), não empatada com o Random Forest. A CNN 2D ainda vence por uma
+margem modesta sobre Random Forest (diferença de $R^2 \approx$ 0,015 --- dentro da
+variabilidade esperada de um k-fold de 5 dobras; a Seção~\ref{sec:confounders}
+reporta um teste pareado formal entre CNN 2D, Random Forest e CNN 3D, cada um na
+sua própria melhor variante, que não rejeita a hipótese de diferença nula entre as
+três), o que sugere que a estrutura \textbf{horizontal} do dossel capturada pelo
+raster (clareiras, agrupamento de copas --- informação que o ABA e o GBR de
+alturas descartam por trabalhar só com a distribuição vertical agregada) carrega
+sinal real, mas marginal frente à estrutura vertical já capturada pelas abordagens
+mais simples.
+
+O resultado mais informativo da tabela, porém, é o \textbf{fracasso relativo da
+PointNet}: mesmo na sua melhor configuração, $R^2 \approx$ 0,21 --- pior que
+\textit{todos} os outros cinco modelos, incluindo o GBR mais simples da
+comparação. A PointNet recebe a representação mais rica em princípio (a nuvem de
+pontos crua, sem nenhuma agregação), mas é também a que mais depende de volume de
+dados para aprender uma função de agregação útil via max-pooling --- e 325
+parcelas de treino são, evidentemente, poucas para isso.
+
+\begin{figure}[H]
+  \centering
+  % PLACEHOLDER — substituir pelo scatter predito × observado:
+  % \includegraphics[width=0.7\textwidth]{figura2_pred_obs.png}
+  \figplaceholder{[PLACEHOLDER] Figura 2 --- Predito $\times$ observado, melhor
+  modelo (CNN 2D, só outliers, isolado).}
+  \caption{Predito $\times$ observado, melhor modelo (CNN 2D, só outliers,
+  isolado). A dispersão em torno da diagonal 1:1 mostra o padrão típico de um
+  modelo com $R^2$ moderado: tendência central capturada, mas variância residual
+  substancial, sobretudo nas parcelas de AGB mais alta --- o regime onde erros
+  absolutos (Mg/ha) pesam mais para qualquer aplicação de contabilidade de
+  carbono.}
+  \label{fig:pred-obs}
+  \fonte{elaborado pelo autor (2026)}
+\end{figure}
+
+\subsection{Ablação de dimensionalidade: o achado central}
+\label{sec:ablation}
+
+A comparação mais direta com a pergunta de pesquisa deste trabalho não é entre
+arquiteturas, mas entre \textbf{quantidade de informação de altura} fornecida ao
+mesmo algoritmo (Gradient Boosting). A Figura~\ref{fig:ablation} mostra o $R^2$ de
+validação cruzada em função do número de quantis de altura usados como atributo,
+de 8 a 256, com o vetor completo de 1024 alturas ordenadas como referência.
+
+O padrão contraria a intuição de que ``mais informação bruta é sempre melhor'':
+\textbf{o vetor completo de 1024 alturas ($R^2 \approx$ 0,39--0,42) é superado já
+pela representação mais grosseira da ablação, 8 quantis ($R^2 \approx$ 0,43)} ---
+menos de 1\% da dimensionalidade original captura mais sinal preditivo, não menos.
+O ganho de 8 para 16 quantis é real e consistente ($R^2$ 0,426 $\rightarrow$
+0,442); daí em diante, até 64 quantis, o desempenho \textbf{satura} ($R^2$ oscila
+entre 0,441 e 0,444, dentro do ruído do k-fold); só volta a subir de forma
+perceptível em 256 quantis ($R^2 \approx$ 0,455) --- um ganho pequeno pelo custo de
+16$\times$ mais atributos que o ponto de saturação.
+
+\begin{figure}[H]
+  \centering
+  % PLACEHOLDER — substituir pela curva de ablação:
+  % \includegraphics[width=0.7\textwidth]{figura3_ablation.png}
+  \figplaceholder{[PLACEHOLDER] Figura 3 --- $R^2$ de validação cruzada vs. número
+  de quantis de altura (escala log em x).}
+  \caption{$R^2$ de validação cruzada vs. número de quantis de altura (escala log
+  em $x$).}
+  \label{fig:ablation}
+  \fonte{elaborado pelo autor (2026)}
+\end{figure}
+
+A leitura estatística é direta: com 325 parcelas de treino e um vetor de 1024
+atributos altamente correlacionados entre si (alturas vizinhas de uma distribuição
+ordenada), o modelo tem mais graus de liberdade que sinal identificável --- o
+excesso de dimensão é absorvido como ruído de treino (sobreajuste), não como
+capacidade preditiva adicional. Reduzir para algumas dezenas de quantis não é
+perda de informação relevante; é remoção de ruído correlacionado que atrapalhava a
+otimização.
+
+\subsection{O que o modelo interpretável revela}
+\label{sec:interpret}
+
+A única abordagem desta comparação que expõe explicitamente \textbf{quais
+propriedades da floresta} sustentam a previsão é o ABA (GBR sobre 37 métricas
+estruturais nomeadas). A Figura~\ref{fig:importance} mostra a importância das 10
+variáveis mais relevantes no modelo ABA na sua variante de melhor desempenho ---
+outliers isolado (Seção~\ref{sec:preproc}/\ref{sec:arch}), não o pipeline
+combinado usado em versões anteriores deste texto.
+
+\begin{figure}[H]
+  \centering
+  % PLACEHOLDER — substituir pelo gráfico de importância de variáveis:
+  % \includegraphics[width=0.7\textwidth]{figura4_importance.png}
+  \figplaceholder{[PLACEHOLDER] Figura 4 --- Importância de variáveis, modelo ABA
+  (top 10).}
+  \caption{Importância de variáveis, modelo ABA (top 10).}
+  \label{fig:importance}
+  \fonte{elaborado pelo autor (2026)}
+\end{figure}
+
+A \textbf{entropia da densidade vertical} (\texttt{vfd\_entropy}) domina
+isoladamente a importância agregada ($\approx$0,34 do total), mais que o dobro da
+segunda colocada --- um resultado que muda a leitura anterior deste texto,
+centrada nos percentis de altura. Essa métrica mede quão uniformemente distribuída
+está a folhagem ao longo do perfil vertical (entropia de Shannon sobre a densidade
+de pontos por faixa de altura): um dossel com muitos estratos de folhagem bem
+distribuídos tem entropia alta; um dossel concentrado numa única camada (ex.:
+topo denso, meio vazio) tem entropia baixa. Apenas o percentil p75 ($\approx$0,21)
+mantém posição de destaque entre os percentis de altura --- os demais (p50, p25,
+p10, p05, que dominavam na variante combinada) caem para a metade inferior da
+tabela. As demais variáveis relevantes --- densidade de pontos (\texttt{pt\_density}),
+rugosidade convolucional do dossel (\texttt{lap\_roughness}, derivada de um
+Laplaciano 3$\times$3 sobre o CHM), dispersão de altura (\texttt{h\_std}) e fração
+de clareiras (\texttt{gap\_fraction}) --- carregam informação complementar sobre
+heterogeneidade estrutural (vertical e horizontal) que a altura típica sozinha não
+captura, e ajudam a explicar por que o raster 2D (que também enxerga
+heterogeneidade horizontal diretamente, sem precisar de uma métrica resumo como
+\texttt{vfd\_entropy}) supera marginalmente o ABA puro.
+
+\subsection{Posição frente à literatura e ao GEDI}
+\label{sec:gedi}
+
+O melhor resultado desta tese ($R^2$ = 0,547; rRMSE $\approx$ 41,7\%; CNN 2D,
+parcela, variante só outliers isolada) situa-se \textbf{abaixo} dos trabalhos de
+referência em LiDAR aéreo tropical com metodologia mais madura --- Asner \&
+Mascaro (2014), $R^2$ = 0,90 sobre 804 parcelas de 1~ha em quatro países tropicais
+e Havaí; Longo et al. (2016), $R^2$ = 0,70 sobre 359 parcelas amazônicas --- e
+também \textbf{abaixo} de Bispo et al. (2020): $R^2$ = 0,93 / rRMSE = 13\% para o
+modelo só-LiDAR ($R^2$ = 0,89 / rRMSE = 43\% no modelo multissensor). \textit{Nota:
+Bispo et al. (2020) estuda o Cerrado brasileiro (bacia do Rio Vermelho), não a
+Amazônia --- versões anteriores deste texto atribuíam o estudo à Amazônia e
+citavam $R^2$ = 0,58 / rRMSE = 36,0\%, que não correspondem à fonte; ambos os
+erros foram corrigidos após verificação adversarial direta contra o artigo
+original.} Frente ao produto orbital \textbf{GEDI L4A} (\textit{footprint}
+$\sim$25~m), a validação independente em savanas do sul da África (Li et al., 2024
+--- não Naidoo et al., que é coautor, não autor líder; ver correção na seção de
+Referências) reporta $R^2 \approx$ 0,42 --- nesse critério específico, o resultado
+desta tese é \textbf{competitivo}, apesar de operar em escala de parcela (mais
+exigente) em vez de \textit{footprint} de 25~m. d'Oliveira et al. (2012), com
+suporte espacial menor (50 parcelas de 0,25~ha, Acre) e instrumentação mais
+antiga, reporta $R^2$ = 0,63--0,72 --- o mais baixo do conjunto de referências ---
+e foi mantido na lista de referências sem entrar nesta comparação direta por essas
+duas diferenças de desenho.
+
+Essas comparações exigem duas ressalvas, detalhadas na Seção~\ref{sec:lit-check}:
+(i) as escalas espaciais não são diretamente comparáveis (parcela vs.
+\textit{footprint} vs. grade de 1~km); (ii), mais importante, os números desta
+tese vêm de k-fold aleatório, enquanto boa parte da literatura citada usa
+validação cruzada por sítio ou validação independente --- um padrão de
+generalização mais exigente que o empregado aqui (Seção~\ref{sec:spatial-validation}).
+A verificação adversarial dos números da literatura --- conferência linha a linha
+contra a fonte primária, antes pendente --- foi concluída; ver
+Seção~\ref{sec:lit-check} para o detalhe por fonte.
+
+Quanto ao LiDAR orbital da NASA --- GEDI e ICESat-2 ---, não foi encontrada, mesmo
+após busca e verificação direta contra a fonte primária, nenhuma validação de
+$R^2$/RMSE calculada isoladamente para a Amazônia brasileira (nem do GEDI, nem do
+ICESat-2) com desenho comparável a parcela ou k-fold aleatório. O benchmark
+publicado mais próximo é Duncanson et al. (2022): o modelo oficial de biomassa do
+GEDI, no estrato \textit{Evergreen Broadleaf Trees} --- América do Sul (classe
+dominante na Amazônia, mas estrato continental, não um recorte amazônico), reporta
+$R^2$ = 0,66 e \%RMSE = 42,2\% por validação cruzada geográfica --- portanto nem
+k-fold aleatório, nem especificamente amazônico, mas é o melhor proxy disponível
+para ``GEDI num bioma análogo à Amazônia'', na mesma faixa de rRMSE desta tese
+(41,7\%). Já o ICESat-2 (ATL08), quando validado contra LiDAR aerotransportado em
+floresta tropical (Mesoamérica, Gabão e Guiana Francesa --- nunca a bacia
+amazônica isolada) (Fernandez-Diaz; Velikova; Glennie, 2022), degrada fortemente frente ao desempenho em floresta boreal:
+erro de altura de dossel de 5--7~m em floresta tropical contra 3,19~m em condições
+boreais ideais (Liu, Gong \& Shi, 2026) --- reforçando que mesmo o LiDAR orbital
+mais recente da NASA perde precisão em dossel tropical denso, um argumento a favor
+da abordagem aerotransportada adotada nesta tese. O trabalho de deep learning mais
+próximo publicado em 2023--2025 usando a mesma linhagem de dados (LiDAR
+aerotransportado do programa NASA CMS Brasil/EBA) na Amazônia é Wagner et al.
+(2025, pré-print): uma U-Net treinada com esse mesmo tipo de levantamento para
+mapear altura de dossel (não AGB) a partir de imagens Planet NICFI, com
+MAE = 3,68~m em validação espacialmente estratificada --- uma comparação
+metodológica (arquitetura de rede) mais honesta que uma comparação direta de
+métrica de erro, já que a variável-alvo difere da desta tese.

@@ -1,4 +1,4 @@
-.PHONY: help install install-app compile kml intersections clip pipeline notebook app map map-interactive inventory
+.PHONY: help install install-app compile kml intersections clip pipeline notebook app map map-interactive inventory paper paper-open
 
 # Mostra este menu de ajuda
 help:
@@ -51,3 +51,11 @@ app: ## Abre o dashboard web (Streamlit)
 
 notebook: ## Abre o JupyterLab
 	jupyter lab notebooks/
+
+# ── Artigo (LaTeX) ───────────────────────────────────────────────────────────
+
+paper: ## Recompila o artigo (paper/main.tex) → paper/main.pdf
+	cd paper && tectonic -X compile main.tex --synctex --keep-logs --outdir .
+
+paper-open: paper ## Recompila e abre o PDF no Preview
+	open -a Preview paper/main.pdf

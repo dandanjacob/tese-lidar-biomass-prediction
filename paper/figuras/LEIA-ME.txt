@@ -1,0 +1,10 @@
+Coloque aqui as imagens das figuras e troque os placeholders no main.tex:
+
+  figura1_pipeline.png    -> Figura 1 (pipeline de pré-processamento)
+  figura2_pred_obs.png    -> Figura 2 (predito x observado, CNN 2D)
+  figura3_ablation.png    -> Figura 3 (R2 vs. nº de quantis)
+  figura4_importance.png  -> Figura 4 (importância de variáveis, ABA)
+
+No main.tex, dentro de cada \begin{figure}, descomente a linha
+\includegraphics correspondente e apague a caixa \figplaceholder{...}.
+O \graphicspath já aponta para esta pasta (figuras/).

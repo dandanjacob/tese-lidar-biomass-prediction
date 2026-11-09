@@ -1,0 +1,214 @@
+% =====================================================================
+%  Artigo de mestrado — Biomassa acima do solo (AGB) na Amazônia por LiDAR
+%  Formatado em conformidade com a ABNT (classe abntex2, modo "article" —
+%  NBR 6022 artigo científico; NBR 10520 citações autor-data; NBR 6023
+%  referências; NBR 14724 margens/espaçamento/tipografia).
+%
+%  ESTRUTURA DO PROJETO
+%  ---------------------
+%  main.tex            — este arquivo: preâmbulo + pré-textual + \input das
+%                         seções + referências.
+%  secoes/01-...tex     — uma seção do artigo por arquivo.
+%  referencias.tex      — lista de referências (NBR 6023), em arquivo próprio.
+%  figuras/              — imagens do artigo (ainda vazia; ver figuras/LEIA-ME.txt).
+%
+%  COMO COMPILAR
+%  --------------
+%  tectonic -X compile main.tex   (ou VS Code + LaTeX Workshop, autobuild já
+%  configurado em .vscode/settings.json, mas abra a PASTA do projeto, não só
+%  o arquivo, senão o autobuild não liga).
+%
+%  As Figuras 1–4 e a Tabela 1 (comparação de modelos) estão como
+%  PLACEHOLDERS — procure por "PLACEHOLDER" dentro de secoes/ e troque pelo
+%  \includegraphics ou pela tabela final quando exportar os resultados.
+% =====================================================================
+\documentclass[article,12pt,oneside,a4paper]{abntex2}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage[normalem]{ulem}
+\usepackage{xurl}
+
+\graphicspath{{figuras/}}
+
+% Caixa de placeholder para figuras/tabelas ainda não inseridas
+\newcommand{\figplaceholder}[1]{%
+  \fbox{\parbox[c][4cm][c]{0.8\textwidth}{\centering\itshape #1}}%
+}
+
+\titulo{Estrutura vertical do dossel e estimativa de biomassa acima do solo na
+  Amazônia por LiDAR aerotransportado: parcimônia versus profundidade sob
+  amostra reduzida}
+\tituloestrangeiro{Canopy vertical structure and aboveground biomass
+  estimation in the Amazon by airborne LiDAR: parsimony versus depth under a
+  reduced sample}
+\autor{Daniel Jacob}
+\local{Brasil}
+\data{2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{resumoumacoluna}
+\noindent
+\textbf{Contexto.} A biomassa acima do solo (AGB) é a variável de referência
+para quantificar estoques de carbono florestal, mas sensores ópticos orbitais
+saturam em florestas tropicais densas por enxergarem apenas o topo do dossel.
+O LiDAR aerotransportado mede diretamente a estrutura vertical da vegetação ---
+a dimensão com maior poder preditivo de biomassa --- e permite calibrar relações
+entre estrutura e AGB de campo que, em tese, se estendem a áreas sem inventário.
+
+\textbf{Objetivo.} Este trabalho pergunta, especificamente: dentro de um
+conjunto de parcelas de inventário florestal amazônico com cobertura LiDAR
+pareada, qual fração da variância na AGB medida em campo é explicada pela
+estrutura do dossel --- e uma representação parcimoniosa dessa estrutura
+(estatísticas agregadas de altura) generaliza tão bem quanto arquiteturas de
+aprendizado profundo aplicadas à geometria bruta da nuvem de pontos?
+
+\textbf{Dados e método.} Cruzaram-se nuvens de pontos LiDAR do programa NASA CMS
+Brazil (ORNL DAAC) com inventários florestais de campo em 28 sites amazônicos,
+resultando em \textbf{493 parcelas pareáveis} (AGB de campo $\times$ nuvem de
+pontos LiDAR) após auditoria e correção de bugs de geometria e pareamento ---
+\textbf{325} após remoção de outliers de área e forma. A biomassa de referência
+foi calculada árvore a árvore por equações alométricas (Chave et al. 2014;
+Chambers et al. 2000; Goodman et al. 2013) e uma correção do descompasso
+temporal entre voo LiDAR e medição de campo. Seis abordagens de modelagem foram
+comparadas sob validação cruzada k-fold: um GBR sobre a distribuição completa de
+alturas do dossel (1025 atributos), sua variante com redução de dimensionalidade
+(GBR sobre $K$ quantis, $K \in \{8,\dots,256\}$), um GBR e um Random Forest sobre
+37 métricas estruturais clássicas (\textit{Area-Based Approach}), uma PointNet
+sobre a nuvem crua, e duas CNNs --- 2D sobre rasters de altura e 3D sobre voxels
+de ocupação.
+
+\textbf{Resultados.} Testando cada tratamento de pré-processamento isoladamente
+contra a mesma nuvem crua --- projeção do solo, filtro de altura $\leq$1,3~m,
+remoção de outliers geométricos de parcela, e correção de gap temporal, cada um
+sozinho, sem empilhar com os demais (Seção~\ref{sec:preproc}) --- a remoção de
+outliers isolada se mostrou, disparado, o tratamento que mais importa: sozinha,
+já supera o pipeline com todos os tratamentos combinados em quatro dos sete
+modelos. Projeção do solo e filtro de altura, isolados, têm efeito pequeno; a
+correção de gap temporal isolada é, na maioria dos modelos, mais fraca que não
+aplicar tratamento nenhum --- ela só ``ajuda'' quando empilhada em cima da
+remoção de outliers, cujo efeito domina. Na melhor variante de cada modelo ---
+que para cinco deles é justamente a remoção de outliers isolada ---, a CNN 2D
+sobre rasters de altura obteve o melhor resultado ($R^2$ = 0,547;
+rRMSE $\approx$ 41,7\%), seguida por Random Forest ($R^2$ = 0,532), GBR sobre a
+distribuição completa de alturas ($R^2$ = 0,526), ABA ($R^2$ = 0,514) e GBR
+sobre quantis de altura ($R^2$ = 0,510); a CNN 3D sobre voxels (que só atinge seu
+melhor resultado com o pipeline combinado completo, não isolado) ficou abaixo de
+todas essas ($R^2$ = 0,455); a PointNet sobre a nuvem crua (idem, precisa do
+pipeline combinado) foi consistentemente a mais fraca ($R^2 \approx$ 0,21). Já na
+ablação de dimensionalidade, \textbf{8 quantis de altura bastam para superar o
+vetor completo de 1024 alturas} ($R^2$ = 0,43 vs. 0,39--0,42), e o ganho
+adicional até 256 quantis é marginal --- evidência de que a maior parte da alta
+dimensão original era ruído alimentando sobreajuste, não sinal.
+
+\textbf{Conclusão.} A estrutura vertical do dossel, resumida de forma simples,
+explica uma fração moderada e competitiva (com a literatura de LiDAR aéreo
+tropical e com o produto orbital GEDI) da variância em AGB --- e fá-lo com
+modelos ordens de grandeza mais simples que arquiteturas profundas sobre
+geometria bruta. Este resultado é lido com uma ressalva central discutida no
+corpo do artigo: a validação cruzada aqui empregada é k-fold aleatório, não
+\textit{leave-one-site-out}, e portanto mede ajuste dentro da amostra de sítios
+já vistos --- não generalização para floresta amazônica não amostrada, que é o
+padrão mais alto exigido por um uso operacional em contabilidade de carbono.
+
+\vspace{\onelineskip}
+\noindent\textbf{Palavras-chave}: biomassa acima do solo; LiDAR aerotransportado;
+Amazônia; aprendizado de máquina; redução de dimensionalidade; GEDI.
+\end{resumoumacoluna}
+
+\begin{resumoumacoluna}[Abstract]
+\begin{otherlanguage*}{english}
+\noindent
+\textbf{Context.} Aboveground biomass (AGB) is the reference variable for
+quantifying forest carbon stocks, but optical orbital sensors saturate in
+dense tropical forests because they only see the top of the canopy. Airborne
+LiDAR directly measures the vertical structure of vegetation --- the
+dimension with the greatest predictive power for biomass --- and allows the
+calibration of structure--AGB relationships from field data that, in
+principle, extend to areas without inventory.
+
+\textbf{Objective.} This work asks, specifically: within a set of Amazonian
+forest-inventory plots with paired LiDAR coverage, what fraction of the
+variance in field-measured AGB is explained by canopy structure --- and does a
+parsimonious representation of that structure (aggregated height statistics)
+generalize as well as deep-learning architectures applied to raw point-cloud
+geometry?
+
+\textbf{Data and methods.} LiDAR point clouds from the NASA CMS Brazil program
+(ORNL DAAC) were crossed with field forest inventories across 28 Amazonian
+sites, yielding \textbf{493 pairable plots} (field AGB $\times$ LiDAR point
+cloud) after auditing and fixing geometry/pairing bugs --- \textbf{325} after
+removing area/shape outliers. Reference biomass was computed tree-by-tree
+using allometric equations (Chave et al. 2014; Chambers et al. 2000; Goodman
+et al. 2013) and a correction for the temporal mismatch between the LiDAR
+flight and the field measurement. Six modeling approaches were compared under
+k-fold cross-validation: a GBR over the full canopy-height distribution (1,025
+features), its dimensionality-reduced variant (GBR over $K$ height quantiles,
+$K \in \{8,\dots,256\}$), a GBR and a Random Forest over 37 classic structural
+metrics (\textit{Area-Based Approach}), a PointNet over the raw point cloud,
+and two CNNs --- 2D over height rasters and 3D over occupancy voxels.
+
+\textbf{Results.} Testing each preprocessing treatment in isolation against
+the same raw cloud --- ground projection, height filter $\leq$1.3~m, removal
+of geometric plot outliers, and temporal-gap correction, each alone, without
+stacking the others --- outlier removal alone proved by far the treatment
+that matters most: alone, it already surpasses the pipeline with all
+treatments combined in four of seven models. Ground projection and the height
+filter, in isolation, have a small effect; isolated temporal-gap correction
+is, in most models, weaker than applying no treatment at all --- it only
+``helps'' when stacked on top of outlier removal, whose effect dominates. In
+the best variant of each model --- which for five of them is precisely
+isolated outlier removal --- the 2D CNN over height rasters obtained the best
+result ($R^2$ = 0.547; rRMSE $\approx$ 41.7\%), followed by Random Forest
+($R^2$ = 0.532), GBR over the full height distribution ($R^2$ = 0.526), ABA
+($R^2$ = 0.514) and GBR over height quantiles ($R^2$ = 0.510); the 3D CNN over
+voxels (which only reaches its best result with the full combined pipeline,
+not isolated) fell below all of these ($R^2$ = 0.455); the PointNet over the
+raw cloud (likewise needing the combined pipeline) was consistently the
+weakest ($R^2 \approx$ 0.21). In the dimensionality ablation, \textbf{8 height
+quantiles are enough to beat the full vector of 1,024 heights} ($R^2$ = 0.43
+vs. 0.39--0.42), and the additional gain up to 256 quantiles is marginal ---
+evidence that most of the original high dimensionality was noise feeding
+overfitting, not signal.
+
+\textbf{Conclusion.} Canopy vertical structure, summarized simply, explains a
+moderate and competitive fraction (relative to the tropical airborne-LiDAR
+literature and to the GEDI orbital product) of the variance in AGB --- and
+does so with models orders of magnitude simpler than deep architectures over
+raw geometry. This result is read with a central caveat discussed in the body
+of the article: the cross-validation used here is random k-fold, not
+leave-one-site-out, and therefore measures within-sample fit to already-seen
+sites --- not spatial generalization to unsampled Amazonian forest, which is
+the higher bar required for operational use in carbon accounting.
+
+\vspace{\onelineskip}
+\noindent\textbf{Keywords}: aboveground biomass; airborne LiDAR; Amazon;
+machine learning; dimensionality reduction; GEDI.
+\end{otherlanguage*}
+\end{resumoumacoluna}
+
+\input{secoes/01-introducao}
+\input{secoes/02-dados-metodos}
+\input{secoes/03-resultados}
+\input{secoes/04-discussao}
+
+\input{referencias}
+
+\vspace{1em}
+\noindent\textbf{Fontes de dados.}
+NASA Carbon Monitoring System (CMS) Brazil --- LiDAR aerotransportado, ORNL DAAC;
+inventários florestais de campo integrados ao mesmo programa (ORNL DAAC), medições
+árvore a árvore (DBH, altura, espécie) e geometria de parcela (.kmz/.kml).
+
+\end{document}

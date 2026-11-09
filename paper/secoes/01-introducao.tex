@@ -1,0 +1,173 @@
+% !TEX root = ../main.tex
+\section{Introdução}
+\label{sec:intro}
+
+Cerca de metade da biomassa vegetal é carbono, fração de referência adotada
+pelo \textit{Intergovernmental Panel on Climate Change} para inventários
+nacionais de gases de efeito estufa (IPCC, 2019). As florestas tropicais
+intactas armazenam, globalmente, parte substancial desse estoque terrestre, e
+a Amazônia concentra uma das maiores reservas de carbono florestal do planeta
+(PAN et al., 2011; SAATCHI et al., 2011; FAO, 2020). Quantificar a biomassa
+acima do solo (\textit{aboveground biomass}, AGB) com precisão espacial é o
+que sustenta inventários nacionais de emissões segundo as diretrizes
+metodológicas do IPCC (IPCC, 2019), mecanismos de compensação como o REDD+,
+mercados de crédito de carbono e o acompanhamento de metas do Acordo de Paris
+(UNFCCC, 2015). Sem estimativas confiáveis e espacialmente distribuídas, não é
+possível distinguir floresta intacta de degradada, dimensionar perdas por
+desmatamento, nem validar os modelos do ciclo global de carbono que dependem
+desses números como entrada (IPCC, 2021).
+
+O gargalo histórico dessa estimativa é que AGB depende fortemente da
+\textbf{estrutura vertical} da floresta --- altura das árvores, densidade e
+arquitetura do dossel ---, exatamente a dimensão que sensores ópticos orbitais
+(Landsat, Sentinel) enxergam mal: eles registram a reflectância do topo do
+dossel e saturam em florestas densas de alta biomassa, como a maior parte da
+Amazônia intacta. O LiDAR (\textit{Light Detection and Ranging}) resolve esse
+problema na origem --- pulsos laser penetram o dossel e retornam um perfil
+tridimensional da vegetação, medindo diretamente altura e estrutura vertical.
+Isso o torna substancialmente mais acurado que índices espectrais em floresta
+tropical de alta biomassa e permite calibrar relações alométricas (métricas
+LiDAR $\leftrightarrow$ AGB de campo) que, em princípio, podem ser estendidas no
+espaço e no tempo --- reduzindo a dependência de inventários de campo, caros e
+logisticamente inviáveis na escala da bacia amazônica.
+
+Para operacionalizar esse objetivo, a biomassa de referência desta tese é
+calculada pelas mesmas equações alométricas que sustentam boa parte da
+literatura de carbono florestal tropical: Chave et al. (2014) para árvores
+vivas, Chambers et al. (2000) para árvores mortas em pé e Goodman et al.
+(2013) para palmeiras --- a mesma base alométrica usada, por exemplo, por
+Longo et al. (2016) na Amazônia.
+
+A literatura de estimativa de AGB por LiDAR aerotransportado em floresta tropical
+é madura e compartilha um padrão metodológico que vale destacar frente a este
+trabalho: Asner \& Mascaro (2014) --- 804 parcelas de 1~ha em quatro países
+tropicais, $R^2$ = 0,90 usando altura de topo de dossel (TCH) combinada a área
+basal e densidade de madeira --- validam por \textbf{sítio}, não por parcela
+embaralhada aleatoriamente. Longo et al. (2016), na Amazônia brasileira (359
+parcelas, intacta e degradada), reporta $R^2 \approx$ 0,70 por regressão sobre
+métricas LiDAR agregadas --- mais próximo em escopo e escala deste trabalho, mas
+também sem validação k-fold aleatória explícita. Bispo et al. (2020) --- atribuída
+ao Cerrado, não à Amazônia, após a correção de erro desta auditoria
+(Seção~\ref{sec:lit-check}) --- reporta RMSE = 67,6~Mg/ha, rRMSE = 36,0\%,
+$R^2$ = 0,58 usando só métricas LiDAR, números na mesma ordem de grandeza dos
+obtidos aqui (RMSE $\approx$ 73--79~Mg/ha, rRMSE $\approx$ 43--46\%, variante sem
+outliers), apesar do bioma diferente. d'Oliveira et al. (2012), em floresta
+manejada no Acre, reporta $R^2$ = 0,63--0,72 em escala de \textbf{talhão}
+(1.000~ha) --- suporte espacial muito maior que a parcela individual usada aqui,
+o que limita a comparabilidade direta apesar da mesma região amazônica.
+
+Mais recentemente, a literatura passou a incorporar aprendizado profundo
+diretamente sobre a nuvem de pontos bruta: Oehmcke et al. (2024), em floresta
+temperada dinamarquesa, encontra uma CNN de Minkowski superando PointNet, KPConv
+e uma abordagem \textit{area-based} clássica --- o oposto do padrão encontrado
+neste trabalho (Seção~\ref{sec:arch}), em que a abordagem parcimoniosa vence a
+PointNet por uma margem grande. A leitura mais provável não é uma contradição
+entre os dois resultados, mas um efeito de \textbf{regime de amostra}: florestas
+temperadas manejadas tendem a ter conjuntos de treino bem maiores e menos
+heterogêneos estruturalmente que os 325 pares LiDAR-inventário amazônicos
+disponíveis aqui --- consistente com a leitura central deste trabalho: sob
+orçamento de amostra reduzido, o efeito da complexidade representacional da
+arquitetura compete com --- e pode ser dominado por --- decisões de
+pré-processamento e engenharia de \textit{feature} do dado de entrada.
+
+Os produtos orbitais da NASA (GEDI L4A/L4B) operam em escala e sensor distintos
+--- LiDAR espacial \textit{footprint} ($\sim$25~m) ou grade de 1~km, não nuvem
+aérea densa por parcela --- e servem aqui como baliza de ordem de grandeza, não
+como comparação direta: a validação independente do GEDI L4A contra LiDAR aéreo
+em savana africana (Li et al., 2024) reporta $R^2 \approx$ 0,42, abaixo de todos
+os modelos desta tese na variante sem outliers, mas sobre um problema de
+estimação substancialmente mais difícil (resolução espacial muito menor, amostra
+espacialmente esparsa).
+
+Um ponto, porém, permanece pouco caracterizado empiricamente para o contexto
+amazônico. A literatura revisada acima mistura, na prática, dois eixos que
+raramente são testados em separado: \textbf{de um lado}, o quanto a arquitetura
+de modelagem em si --- de estatísticas agregadas simples a redes profundas
+sobre geometria bruta --- importa para o desempenho; \textbf{de outro}, o
+quanto decisões de pré-processamento e engenharia de \textit{feature} do dado
+de entrada (curadoria geométrica de parcela, projeção de relevo, filtros de
+altura, correção temporal) importam. Quando os dois efeitos são empilhados num
+único pipeline, como é comum na literatura, não é possível atribuir o ganho de
+desempenho observado a um ou a outro --- e, sob um orçamento de amostra
+pequeno (nesta tese, no máximo 493 parcelas, 325 após controle de qualidade
+geométrica), essa indistinção importa: um resultado que parece confirmar o
+valor de uma arquitetura sofisticada pode, na verdade, ser inteiramente
+explicado por uma etapa de curadoria de dados anterior ao modelo.
+
+\label{sec:rq}
+Este trabalho investiga uma pergunta específica, deliberadamente mais restrita do
+que a aspiração de ``mapear a biomassa da Amazônia'':
+
+\begin{quote}
+\textbf{Num regime de poucas centenas de parcelas rotuladas, o que domina a
+capacidade de um modelo generalizar na estimativa de AGB por LiDAR --- a
+complexidade representacional da arquitetura ou o estágio de
+pré-processamento/engenharia de \textit{feature} do dado de entrada --- e dá
+para separar esses dois efeitos?}
+\end{quote}
+
+A hipótese de trabalho, motivada pela teoria estatística clássica de
+viés-variância sob alta dimensionalidade e poucas amostras, é que, neste
+regime de amostra reduzida, o estágio de curadoria e pré-processamento do dado
+de entrada tem efeito de magnitude igual ou maior que a escolha da
+arquitetura de modelagem --- e que representações de alta capacidade (PointNet
+sobre nuvem crua, CNN 3D sobre voxels) sofrem desproporcionalmente mais de
+sobreajuste que representações parcimoniosas (estatísticas agregadas de
+altura), independentemente da riqueza estrutural que a geometria bruta, em
+princípio, carrega. Testar essa hipótese exige um desenho experimental que
+isole os dois eixos --- pré-processamento e arquitetura --- em vez de tratá-los
+como uma correção única, como detalhado no protocolo de validação
+(Seção~\ref{sec:protocolo}).
+
+Essa pergunta se desdobra em quatro objetivos específicos, cada um respondido
+numa subseção dedicada dos Resultados (Seção~\ref{sec:resultados}):
+
+\begin{enumerate}
+  \item \textbf{Eixo pré-processamento}: isolar o efeito do controle de
+    qualidade geométrica das parcelas e da correção do gap temporal entre voo
+    LiDAR e medição de campo sobre o desempenho dos modelos, testando cada
+    tratamento isoladamente em vez de empilhá-los numa correção única
+    (\textbf{§\ref{sec:preproc}}).
+  \item \textbf{Eixo arquitetura}: comparar, sob o mesmo protocolo de
+    validação e a mesma variante de pré-processamento, seis abordagens de
+    modelagem que vão de estatísticas agregadas interpretáveis (ABA, Random
+    Forest) a aprendizado profundo sobre a geometria bruta (PointNet, CNN 2D,
+    CNN 3D), identificando qual representação generaliza melhor neste regime de
+    amostra pequena (\textbf{§\ref{sec:arch}}).
+  \item \textbf{Dentro do eixo arquitetura}, em grão mais fino: medir como o
+    desempenho do GBR varia com a dimensionalidade da representação de altura
+    do dossel (de 8 a 1024 atributos), para testar se mais informação bruta
+    realmente se traduz em mais sinal preditivo ou se é absorvida como ruído
+    de sobreajuste (\textbf{§\ref{sec:ablation}}).
+  \item Identificar, através do único modelo desta comparação com importância de
+    variável interpretável (ABA), quais propriedades estruturais do dossel mais
+    sustentam a previsão de AGB (\textbf{§\ref{sec:interpret}}).
+\end{enumerate}
+
+Por rigor, delimita-se desde já explicitamente o que \textbf{não} está dentro do escopo do
+resultado central: a validação aqui é k-fold aleatório, não
+\textit{leave-one-site-out} --- portanto mede ajuste dentro da amostra de sítios
+já vistos no treino, não generalização espacial para floresta amazônica não
+amostrada. Há, agora, um intervalo de predição por parcela (conformal prediction
+sobre resíduos out-of-fold, Seção~\ref{sec:conformal}) --- mas ele cobre só a
+incerteza do modelo estrutura$\rightarrow$AGB, não o erro alométrico da fórmula de
+referência nem a incerteza de medição de campo propagados até o alvo de treino.
+Uma análise de sensibilidade (Seção~\ref{sec:allom-sens}) mostra, além disso, que
+o próprio resultado ``CNN 2D é a melhor arquitetura'' não é robusto à escolha da
+fórmula alométrica de referência --- sob densidade de madeira específica por
+espécie (M3) em vez de uniforme (M1), o Random Forest assume a liderança. Essas
+lacunas são discutidas com profundidade na Seção~\ref{sec:discussao} e não são
+triviais: são precisamente o que separa ``a estrutura do dossel explica biomassa
+nesta amostra'' de ``este pipeline está pronto para mapear a Amazônia'' --- a
+segunda afirmação é mais forte do que os dados aqui sustentam.
+
+O restante do artigo está organizado da seguinte forma. A
+Seção~\ref{sec:dados} descreve a proveniência dos dados, o pipeline de
+pré-processamento auditado, a biomassa de referência e as seis abordagens de
+modelagem comparadas. A Seção~\ref{sec:resultados} apresenta os resultados: o
+efeito do controle de qualidade geométrica e da correção de gap temporal, a
+comparação entre arquiteturas, o diagnóstico do melhor modelo e a ablação de
+dimensionalidade que motiva o argumento central do trabalho. A
+Seção~\ref{sec:discussao} discute criticamente os resultados --- incluindo suas
+limitações de validação --- e os posiciona frente à literatura e ao produto
+orbital GEDI da NASA.
