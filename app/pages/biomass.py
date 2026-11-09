@@ -78,30 +78,45 @@ with tab1:
 
 # ── tab 2: variabilidade por site (mesma escala/tamanho entre fórmulas) ──
 with tab2:
-    formula_sel = st.selectbox(t("biomass.variability_formula"),
-                               list(FORMULA_NAMES.values()), key="var_formula")
-    col_sel = {v: k for k, v in FORMULA_NAMES.items()}[formula_sel]
+    out_keys = data.outlier_keys()
+    bio["is_outlier"] = [(s, str(p)) in out_keys
+                         for s, p in zip(bio["site"], bio["plot_id"])]
 
-    fig_box = px.box(
-        bio.sort_values("site_short"), x="site_short", y=col_sel, color="site_short",
-        labels={col_sel: t("biomass.variability_ylabel"), "site_short": ""},
-        title=t("biomass.variability_title", formula=formula_sel), points="all",
-    )
-    fig_box.update_yaxes(range=[0, AGB_MAX * 1.05])
-    fig_box.update_layout(height=480, showlegend=False, margin=dict(t=50, b=80),
-                          xaxis_tickangle=-35)
-    st.plotly_chart(fig_box, use_container_width=True)
-    st.markdown(t("biomass.variability_desc"))
+    def _variability_body(df, key_suffix):
+        formula_sel = st.selectbox(t("biomass.variability_formula"),
+                                   list(FORMULA_NAMES.values()),
+                                   key=f"var_formula_{key_suffix}")
+        col_sel = {v: k for k, v in FORMULA_NAMES.items()}[formula_sel]
 
-    st.markdown(f"**{t('biomass.variability_stats')}**")
-    stats = (
-        bio.groupby("site_short")[col_sel]
-        .agg(**{t("biomass.stats_n"): "count", t("biomass.stats_mean"): "mean",
-                t("biomass.stats_median"): "median", t("biomass.stats_std"): "std",
-                t("biomass.stats_min"): "min", t("biomass.stats_max"): "max"})
-        .round(1).reset_index().rename(columns={"site_short": t("biomass.col_site")})
-    )
-    st.dataframe(stats, hide_index=True, use_container_width=True)
+        fig_box = px.box(
+            df.sort_values("site_short"), x="site_short", y=col_sel, color="site_short",
+            labels={col_sel: t("biomass.variability_ylabel"), "site_short": ""},
+            title=t("biomass.variability_title", formula=formula_sel), points="all",
+        )
+        fig_box.update_yaxes(range=[0, AGB_MAX * 1.05])
+        fig_box.update_layout(height=480, showlegend=False, margin=dict(t=50, b=80),
+                              xaxis_tickangle=-35)
+        st.plotly_chart(fig_box, use_container_width=True)
+        st.markdown(t("biomass.variability_desc"))
+
+        st.markdown(f"**{t('biomass.variability_stats')}**")
+        stats = (
+            df.groupby("site_short")[col_sel]
+            .agg(**{t("biomass.stats_n"): "count", t("biomass.stats_mean"): "mean",
+                    t("biomass.stats_median"): "median", t("biomass.stats_std"): "std",
+                    t("biomass.stats_min"): "min", t("biomass.stats_max"): "max"})
+            .round(1).reset_index().rename(columns={"site_short": t("biomass.col_site")})
+        )
+        st.dataframe(stats, hide_index=True, use_container_width=True)
+
+    subtab_full, subtab_noout = st.tabs([t("biomass.variability_subtab_full"),
+                                         t("biomass.variability_subtab_noout")])
+    with subtab_full:
+        _variability_body(bio, "full")
+    with subtab_noout:
+        st.caption(t("biomass.variability_noout_caption",
+                     n=int(bio["is_outlier"].sum()), total=len(bio)))
+        _variability_body(bio[~bio["is_outlier"]].copy(), "noout")
 
 # ── tab 3: comparação entre fórmulas (3 pares, mesma escala) ──
 with tab3:

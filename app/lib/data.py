@@ -471,6 +471,18 @@ def load_biomass_summary():
     return _load_biomass_summary(_mtime(ROOT / "data/processed/05_biomass/summary.csv"))
 
 
+def outlier_keys() -> frozenset:
+    """(site, plot_id) das parcelas-outlier pelo critério canônico da variante "sem
+    outliers" do treino (área > outlier_filter.AREA_MAX_HA ha OU compacidade <
+    outlier_filter.COMP_MIN — ver src/outlier_filter.py, fonte única). Reusa
+    load_plot_quality() em vez de recalcular a geometria."""
+    from outlier_filter import AREA_MAX_HA, COMP_MIN
+
+    q = load_plot_quality()
+    out = q[(q["area_ha"] > AREA_MAX_HA) | (q["compacidade"] < COMP_MIN)]
+    return frozenset((s, str(p)) for s, p in zip(out["site"], out["plot_id"]))
+
+
 _MODEL_DIR = ROOT / "data/processed/06_model"
 
 
