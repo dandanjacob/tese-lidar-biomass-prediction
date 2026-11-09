@@ -100,14 +100,18 @@ with tab2:
         st.markdown(t("biomass.variability_desc"))
 
         st.markdown(f"**{t('biomass.variability_stats')}**")
+        agg_kwargs = {t("biomass.stats_n"): "count", t("biomass.stats_mean"): "mean",
+                      t("biomass.stats_median"): "median", t("biomass.stats_std"): "std",
+                      t("biomass.stats_min"): "min", t("biomass.stats_max"): "max"}
+        col_site = t("biomass.col_site")
         stats = (
-            df.groupby("site_short")[col_sel]
-            .agg(**{t("biomass.stats_n"): "count", t("biomass.stats_mean"): "mean",
-                    t("biomass.stats_median"): "median", t("biomass.stats_std"): "std",
-                    t("biomass.stats_min"): "min", t("biomass.stats_max"): "max"})
-            .round(1).reset_index().rename(columns={"site_short": t("biomass.col_site")})
+            df.groupby("site_short")[col_sel].agg(**agg_kwargs)
+            .round(1).reset_index().rename(columns={"site_short": col_site})
         )
-        st.dataframe(stats, hide_index=True, use_container_width=True)
+        global_row = df[col_sel].agg(**agg_kwargs).round(1).to_frame().T
+        global_row.insert(0, col_site, t("biomass.stats_global_label"))
+        st.dataframe(pd.concat([global_row, stats], ignore_index=True),
+                     hide_index=True, use_container_width=True)
 
     subtab_full, subtab_noout = st.tabs([t("biomass.variability_subtab_full"),
                                          t("biomass.variability_subtab_noout")])

@@ -321,6 +321,7 @@
     "stats_std": "std",
     "stats_min": "min",
     "stats_max": "max",
+    "stats_global_label": "Global (all plots)",
     "intro": "Above-ground biomass (AGB, in Mg/ha) estimated from the field inventory using three allometric formulas (M1–M3). Each plot gets one estimate per formula.",
     "region_desc": "Each row is an individual **plot** (site / plot), with three grouped bars — formulas M1–M3. Plots are ordered by their M1 AGB. Unlike a per-site mean, this shows every plot’s estimate and the real spread within each region.",
     "variability_desc": "Box plot of each site's plot-level AGB for the selected formula. All charts use the same Y-axis scale (and the same size), so variability can be compared directly across formulas.",

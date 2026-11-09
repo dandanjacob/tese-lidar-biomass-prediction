@@ -321,6 +321,7 @@
     "stats_std": "std",
     "stats_min": "min",
     "stats_max": "max",
+    "stats_global_label": "Global (todas as parcelas)",
     "intro": "Biomassa acima do solo (AGB, em Mg/ha) estimada a partir do inventário de campo por três fórmulas alométricas (M1–M3). Cada parcela recebe uma estimativa por fórmula.",
     "region_desc": "Cada linha é uma **parcela** individual (site / parcela), com três barras agrupadas — as fórmulas M1–M3. As parcelas estão ordenadas pela AGB da M1. Diferente de uma média por site, isto mostra a estimativa de cada parcela e a dispersão real dentro de cada região.",
     "variability_desc": "Box plot da AGB das parcelas de cada site para a fórmula selecionada. Todos os gráficos usam a mesma escala no eixo Y (e o mesmo tamanho), permitindo comparar a variabilidade diretamente entre fórmulas.",
